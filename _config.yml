@@ -1,0 +1,8 @@
+title: This is the site title
+
+styles:
+  - /assets/uswds/css/uswds.min.css
+
+scripts:
+  - src: /assets/uswds/js/uswds.min.js
+    async: true
