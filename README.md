@@ -59,16 +59,31 @@ header data to come directly from the Jekyll configuration file
 
 ### Header
 
-The `components/header.html` include assumes a `header` template
-variable that is an object in the following form:
+The `header.html` include sets the `header` template
+variable to `site.data.header`, the value of which is set in your
+Jekyll project's `_data/header.yml` file, and should be an object in
+the following form:
 
 ```yml
+# optional, defaults to 'basic'
 type: (basic|extended|basic-mega|extended-mega)
-primary:
+
+primary: # optional
+  links:
+    - text: Link text
+      href: /link-href/
+    - text: Section title
+      # the existence of 'links' will produce a drop-down menu
+      links:
+        - text: Subnav text
+          href: /link-to-subnav/
+
+secondary: # optional
   links:
     - text: Link text
       href: /link-href/
 ```
+
 
 ## Layouts
 
