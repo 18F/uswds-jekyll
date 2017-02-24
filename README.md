@@ -11,7 +11,7 @@ You can install the theme as a Ruby Gem by adding it to your `Gemfile` like so:
 gem 'jekyll-uswds', :git => 'git://github.com/18F/jekyll-uswds.git'
 ```
 
-Then fetch and updated your bundled gems with:
+Then fetch and update your bundled gems with:
 
 ```sh
 bundle
