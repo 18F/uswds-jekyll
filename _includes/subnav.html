@@ -1,0 +1,6 @@
+{% for link in include.links %}
+  {% assign _href = link.href | relative_url %}
+  <li>
+    <a href="{{ _href }}">{{ link.text }}</a>
+  </li>
+{% endfor %}

@@ -1,0 +1,4 @@
+{% assign _scripts = '' | split: '' | push: site.scripts | push: layout.scripts | push: page.scripts | uniq %}
+{% for _list in _scripts %}{% for _script in _list %}
+<script src="{{ _script.src | default: _script | relative_url }}" {% if _script.async %}async{% endif %}></script>
+{% endfor %}{% endfor %}
