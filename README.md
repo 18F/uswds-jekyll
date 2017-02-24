@@ -31,6 +31,17 @@ Configuration of common elements ([header](#header),
 project's [data directory](_data) for reference configurations of
 each component.
 
+The [base layout](#layout-base) also provides a mechanism for
+automatically including stylesheets and scripts on a site-, layout-,
+and per-page basis. **TODO**
+
+## Customization
+
+You have two options for customizing the CSS:
+
+**TODO**
+
+
 ## Components
 
 For some [Standards components](https://standards.usa.gov/components/),
