@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "author": "18F",
+  "license": "CC0-1.0",
+  "scripts": {
+    "update-uswds": "npm run update-assets && npm run update-sass",
+    "update-assets": "rsync -avrC --delete node_modules/uswds/dist/ assets/uswds/",
+    "update-sass": "rsync -avrC --delete node_modules/uswds/src/stylesheets/ _sass/uswds/"
+  },
+  "dependencies": {
+    "uswds": "^1.0.0"
+  }
+}
