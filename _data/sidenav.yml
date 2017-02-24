@@ -1,0 +1,9 @@
+docs:
+  - text: Documentation
+    href: /demo/docs.html
+  - text: Installation
+    href: /docs/install/
+  - text: Upgrading
+    href: /docs/upgrade/
+  - text: Help
+    href: /docs/help/

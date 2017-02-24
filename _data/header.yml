@@ -1,0 +1,12 @@
+primary:
+  links:
+    - text: Link one
+      href: /one
+    - text: Section two
+      links:
+        - text: Link A
+          href: /two/a
+        - text: Link B
+          href: /two/b
+        - text: Link C
+          href: /two/c

@@ -1,0 +1,24 @@
+links:
+  - text: Link one
+    href: /one/
+  - text: Link two
+    href: /two
+  - text: Link three
+    href: /three
+  - text: Link four
+    href: /four
+
+heading: Name of agency
+
+logos:
+  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+    alt: 18F
+  - src: https://18f.gsa.gov/assets/img/logos/gsa-logo.svg
+    alt: GSA
+
+contact:
+  heading: Contact us
+  address: |
+    [GitHub](https://github.com/18F/web-design-standards)
+
+    [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov)
