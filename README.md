@@ -23,6 +23,53 @@ and restart your Jekyll server to see the effects:
 bundle exec jekyll serve
 ```
 
+## Configuration
+
+Configuration of common elements ([header](#header),
+[footer](#footer), navigation, etc.) happens in your project's
+[data files](https://jekyllrb.com/docs/datafiles/). See this
+project's [data directory](_data) for reference configurations of
+each component.
+
+## Components
+
+For some [Standards components](https://standards.usa.gov/components/),
+there are two different files that control how data is passed to the
+template:
+
+1. `components/{component}.html` is the low-level template that
+   assumes a similarly named global template variable. For instance,
+   the header component operates on the `header` template variable.
+1. `{component}.html` is the "concrete" implementation of the
+   component that sets the appropriate global variable then includes
+   the low-level template.
+
+This separation allows you to override either of the component
+includes in your own Jekyll site without having to re-implement
+either the high- or low-level logic. For instance, if you want your
+header data to come directly from the Jekyll configuration file
+(`_config.yml`) rather than `_data/header.yml`, you can override
+`_includes/header.html` to look like this:
+
+```html
+{% assign header = site.header %}
+{% include components/header.html %}
+```
+
+
+### Header
+
+The `components/header.html` include assumes a `header` template
+variable that is an object in the following form:
+
+```yml
+type: (basic|extended|basic-mega|extended-mega)
+primary:
+  links:
+    - text: Link text
+      href: /link-href/
+```
+
 ## Layouts
 
 This theme provides the following layouts, which you can use by setting the
@@ -50,30 +97,36 @@ This layout implements the [landing page
 template](https://standards.usa.gov/page-templates/landing/), which
 accommodates the following frontmatter:
 
-* `hero` is an optional object with the following keys:
+```yml
+hero: # optional
+  image: /path/to/image.jpg # optional
+  callout:
+    alt: Callout white text! # optional
+    text: The rest of the callout
+  button: # optional
+    text: The button text
+    href: /button-href/
 
-  * `image` is the optional URL of the hero image to use, which will
-    be applied using inline CSS.
+# optional, but must be used in conjunction with 'intro', below
+tagline: A tagline for your page
+# also optional, but must be used with 'tagline', above
+intro: |
+  Some introductory text content.
 
-  * `callout` is optional, and can be a string (in which case it is output
-    as-is) or object with `alt` (optional) and `text` string keys, in
-    which the `alt` string is output before the text.
+  This will be processed as **Markdown**.
 
-  * `button` is an optional link object with `href` and `text` keys
-    that is styled as a red call to action button.
+# an optional list of graphics to display before or after the content
+graphics:
+  - image:
+      # note the indentation here: graphics[n].image.src
+      src: /path/to/image.ext
+      alt: optional alt text
+    title: Optional graphic title, rendered as an <h3>
+    description: Graphic description text, processed as _Markdown_.
 
-* `tagline` and `intro` are optional strings that, if both are
-  provided, are rendered immediately after the hero in a grid layout.
-  The `intro` text will be processed as Markdown.
-
-* `graphics` is an optional list of objects, each of which should
-  have an `image` object (with `src` and `alt` keys that correspond
-  to their HTML equivalents), an optional `title` (rendered as an
-  `<h3>`), and a `description`, which is processed as Markdown.
-
-  * By default, the  graphics are rendered before the page content by
-    the layout. The optional `graphics_position` key can be set to
-    `after` to render the graphics after the content.
+# optional
+graphics_position: (before|after)
+```
 
 Check out the YAML frontmatter in the [landing demo
 page](demo/landing.html) for an example of how to structure it.
@@ -101,4 +154,3 @@ accommodates an optional side navigation. Supported frontmatter:
 
 See the [docs demo page](demo/docs.md) for an example of how this
 works.
-
