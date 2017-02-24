@@ -70,15 +70,26 @@ type: (basic|extended|basic-mega|extended-mega)
 
 primary: # optional
   links:
+      # all links should have 'text'
     - text: Link text
+      # link hrefs are prepended with the site.baseurl
       href: /link-href/
     - text: Section title
       # the existence of 'links' will produce a drop-down menu
       links:
         - text: Subnav text
           href: /link-to-subnav/
+        - text: Another link
+          href: /somewhere-else/
 
 secondary: # optional
+  search: # optional
+    # if search is truthy and there is no 'action', searches will be
+    # submitted to the current page URL
+    action: /path/to/search-form/
+    # the 'query' key determines the name of the search input, which
+    # translates to the query string when submitted via GET
+    query: name-of-query-string-var # default: 'search'
   links:
     - text: Link text
       href: /link-href/
