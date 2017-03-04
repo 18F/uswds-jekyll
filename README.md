@@ -3,6 +3,24 @@
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design Standards](https://standards.usa.gov).
 
+## Table of contents
+1. [Installation](#installation)
+1. [Configuration](#configuration)
+  1. [Stylesheets](#stylesheets)
+  1. [Scripts](#scripts)
+  1. [Asset load order](#asset-load-order)
+1. [Customization](#customization)
+  1. [Customizing with Sass](#customizing-with-sass)
+  1. [Customizing with CSS overrides](#customizing-with-css-overrides)
+  1. [Overriding includes and layouts](#overriding-includes-and-layouts)
+1. [Components](#components)
+  1. [Header](#header)
+1. [Layouts](#layouts)
+  1. [Base](#layout-base)
+  1. [Docs](#layout-docs)
+  1. [Landing](#layout-landing)
+
+
 ## Installation
 
 You can install the theme as a Ruby Gem by adding it to your `Gemfile` like so:
@@ -23,24 +41,142 @@ and restart your Jekyll server to see the effects:
 bundle exec jekyll serve
 ```
 
+
 ## Configuration
 
-Configuration of common elements ([header](#header),
-[footer](#footer), navigation, etc.) happens in your project's
-[data files](https://jekyllrb.com/docs/datafiles/). See this
-project's [data directory](_data) for reference configurations of
-each component.
+Configuration of common elements ([header](#header), [footer](#footer),
+navigation, etc.) happens in your project's
+[data files](https://jekyllrb.com/docs/datafiles/). See this project's
+[data directory](_data) for reference configurations of each component.
 
-The [base layout](#layout-base) also provides a mechanism for
-automatically including stylesheets and scripts on a site-, layout-,
-and per-page basis. **TODO**
+The [base layout](#layout-base) also provides a mechanism for automatically
+including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide,
+layout-wide, and per-page basis. See [asset load order](#asset-load-order) for
+more information.
+
+
+### Stylesheets
+
+As a general rule, all stylesheets are inserted in a layouts' `<head>`, which
+qualifies them as "render-blocking". Site stylesheets can be specified in
+`_config.yml` or a layout or page's frontmatter YAML in the following form:
+
+```yml
+styles:
+- /path/to/sheet.css
+- href: /path/to/sheet.css
+  media: (screen|print|all) # optional
+  async: true # optional
+```
+
+Stylesheets specified as objects (in the latter item above) must have an `href`
+property. The `media` defaults to `screen`, and stylesheets with `async: true`
+will be loaded at the end of the document so as not to block the rendering of
+the page's content.
+
+
+### Scripts
+
+As a general rule, all scripts are inserted before a layouts' `</body>`, which
+prevents them from blocking the rendering of your page's content. Scripts can
+be specified in `_config.yml` or a layout or page's frontmatter YAML in the
+following form:
+
+```yml
+scripts:
+- /path/to/script.js
+- href: /path/to/script.js
+  async: true # optional
+```
+
+Scripts specified as objects (in the latter item above) must have a `src`
+property. Scripts with `async: true` will get an `async` attribute, which tells
+the browser _not_ to let this script's laoding block the execution of
+subsequent scripts. If the execution order of your scripts is **not**
+important, setting `async: true` may provide performance benefits to your
+users. (Conversely, if you don't know whether your scripts need to execute in a
+particular order, then you should not set `async: true` because it may prevent
+your scripts from running propertly.)
+
+
+### Asset load order
+
+Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
+
+1. Assets configured at the `site` level (in your `_config.yml`) will be loaded
+   in all pages that use the USWDS [layouts](#layouts).
+1. Those configured at the layout level (in that layout's frontmatter) will be
+   loaded on all pages that use that layout, after site assets.
+1. Those configured at the page level (in the page's frontmatter) will be
+   loaded last.
+
 
 ## Customization
 
 You have two options for customizing the CSS:
 
-**TODO**
 
+### Customizing with Sass
+
+1. Create a Sass entry point that sets variables and then imports the
+   USWDS source files:
+
+    ```scss
+    ---
+    # assets/main.scss
+    ---
+    // set your variables or @import them here
+    @import 'uswds/all';
+    ```
+
+1. Change the path to your site's default stylesheet in your `_config.yml`:
+
+    ```yml
+    stylesheets:
+      - /assets/main.css
+    ```
+
+### Customizing with CSS overrides
+
+1. Create a new CSS or Sass file that defines your customizations,
+   e.g.
+
+    ```scss
+    ---
+    # assets/uswds-overrides.scss
+    ---
+    .usa-header {
+      // overrides here
+    }
+    ```
+
+1. Add the new stylesheet's path to your `_config.yml` _after_
+   `uswds.min.css`:
+
+    ```yml
+    stylesheets:
+      - /assets/uswds/css/uswds.min.css
+      - /assets/uswds-overrides.css
+    ```
+
+### Overriding includes and layouts
+
+Any [include](_includes) or [layout](_layouts) can be overridden by
+your site by placing a file with the same name into your site's
+`_includes` or `_layouts` directory. For instance:
+
+- To change how [stylesheets](#stylesheets) are loaded or referenced,
+  you can create your own `_includes/stylesheets.html`, which will
+  subsequently change how stylesheets are loaded in all layouts that
+  inherit from the USWDS [base layout](#layout-base).
+
+- You can change how the side navigation is rendered (but not which
+  data it receives) in the [docs layout](#layout-docs) by creating
+  your own `_includes/sidenav.html`.
+
+- You can change how and whether the side navigation is displayed at
+  all in the [docs layout](#layout-docs) by overriding
+  `_layouts/docs.html`.
 
 ## Components
 
@@ -130,6 +266,7 @@ layout](_layouts/docs.html#L3-L4).
 
 
 ### `layout: landing`
+
 This layout implements the [landing page
 template](https://standards.usa.gov/page-templates/landing/), which
 accommodates the following frontmatter:
@@ -170,6 +307,7 @@ page](demo/landing.html) for an example of how to structure it.
 
 
 ### `layout: docs`
+
 This layout implements the [document page
 template](https://standards.usa.gov/page-templates/docs/), and
 accommodates an optional side navigation. Supported frontmatter:
