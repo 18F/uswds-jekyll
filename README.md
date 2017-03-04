@@ -118,8 +118,8 @@ You have two options for customizing the CSS:
 
 ### Customizing with Sass
 
-1. Create a Sass entry point that sets variables and then imports the
-   USWDS source files:
+1. Create a [Sass][] (or SCSS) entry point that sets variables and then imports
+   the USWDS source files:
 
     ```scss
     ---
@@ -135,6 +135,10 @@ You have two options for customizing the CSS:
     stylesheets:
       - /assets/main.css
     ```
+
+See the [Jekyll docs][Jekyll Sass] for more information about its Sass/SCSS
+support, and configuring its Sass renderer in your site's config.
+
 
 ### Customizing with CSS overrides
 
@@ -329,3 +333,7 @@ accommodates an optional side navigation. Supported frontmatter:
 
 See the [docs demo page](demo/docs.md) for an example of how this
 works.
+
+
+[Sass]: http://sass-lang.com/guide
+[Jekyll Sass]: https://jekyllrb.com/docs/assets/#sassscss
