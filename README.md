@@ -136,8 +136,11 @@ You have two options for customizing the CSS:
       - /assets/main.css
     ```
 
-See the [Jekyll docs][Jekyll Sass] for more information about its Sass/SCSS
-support, and configuring its Sass renderer in your site's config.
+All of the Standards' [SCSS source files](https://github.com/18F/web-design-standards/tree/master/src/stylesheets)
+are placed in the [_sass/uswds](_sass/uswds) directory and are available as
+Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][Jekyll Sass]
+for more information about its Sass/SCSS support, and configuring its Sass
+renderer in your site's config.
 
 
 ### Customizing with CSS overrides
