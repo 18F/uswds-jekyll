@@ -170,9 +170,9 @@ your site by placing a file with the same name into your site's
 `_includes` or `_layouts` directory. For instance:
 
 - To change how [stylesheets](#stylesheets) are loaded or referenced,
-  you can create your own `_includes/stylesheets.html`, which will
-  subsequently change how stylesheets are loaded in all layouts that
-  inherit from the USWDS [base layout](#layout-base).
+  you can create your own `_includes/styles.html`, which will subsequently
+  change how stylesheets are loaded in all layouts that inherit from the USWDS
+  [base layout](#layout-base).
 
 - You can change how the side navigation is rendered (but not which
   data it receives) in the [docs layout](#layout-docs) by creating
