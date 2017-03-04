@@ -132,7 +132,7 @@ You have two options for customizing the CSS:
 1. Change the path to your site's default stylesheet in your `_config.yml`:
 
     ```yml
-    stylesheets:
+    styles:
       - /assets/main.css
     ```
 
@@ -158,7 +158,7 @@ support, and configuring its Sass renderer in your site's config.
    `uswds.min.css`:
 
     ```yml
-    stylesheets:
+    styles:
       - /assets/uswds/css/uswds.min.css
       - /assets/uswds-overrides.css
     ```
