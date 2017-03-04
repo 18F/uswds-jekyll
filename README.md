@@ -113,7 +113,10 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 ## Customization
 
-You have two options for customizing the CSS:
+You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
+[CSS overrides](#customizing-with-css-overrides). Individual sites can also
+[selectively override](#overriding-includes-and-layouts) individual includes
+and layouts.
 
 
 ### Customizing with Sass
