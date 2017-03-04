@@ -338,7 +338,8 @@ accommodates an optional side navigation. Supported frontmatter:
     `#`.
 
 See the [docs demo page](demo/docs.md) for an example of how this
-works.
+works, and see [_data/sidenav.yml](_data/sidenav.yml) for how to structure
+named side navigation data for your site.
 
 
 [Sass]: http://sass-lang.com/guide
