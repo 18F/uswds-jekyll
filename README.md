@@ -27,7 +27,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 1. Install the theme as a Ruby Gem by adding it to your `Gemfile` like so:
 
     ```ruby
-    gem 'jekyll-uswds', :git => 'git://github.com/18F/jekyll-uswds.git'
+    gem 'jekyll-uswds', :git => 'https://github.com/18F/jekyll-uswds.git'
     ```
 
 1. Fetch and update your bundled gems by running:
