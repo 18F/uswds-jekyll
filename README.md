@@ -5,6 +5,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 ## Table of contents
 1. [Installation](#installation)
+  1. [Development](#development)
 1. [Configuration](#configuration)
   1. [Stylesheets](#stylesheets)
   1. [Scripts](#scripts)
@@ -23,24 +24,41 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 ## Installation
 
-You can install the theme as a Ruby Gem by adding it to your `Gemfile` like so:
+1. Install the theme as a Ruby Gem by adding it to your `Gemfile` like so:
 
-```ruby
-gem 'jekyll-uswds', :git => 'git://github.com/18F/jekyll-uswds.git'
-```
+    ```ruby
+    gem 'jekyll-uswds', :git => 'git://github.com/18F/jekyll-uswds.git'
+    ```
 
-Then fetch and update your bundled gems with:
+1. Fetch and update your bundled gems by running:
 
-```sh
-bundle
-```
+    ```sh
+    bundle
+    ```
 
-and restart your Jekyll server to see the effects:
+1. Set the `theme` in your site's Jekyll configuration, `_config.yml`:
 
-```sh
-bundle exec jekyll serve
-```
+    ```yml
+    theme: jekyll-uswds
+    ```
+    
+You will need to restart your Jekyll server to see the effects.
 
+
+### Development
+
+To develop this theme and/or test it locally:
+
+1. Clone this repo
+
+1. Run Jekyll (`jekyll serve`) in the local clone of this repo; **or**
+
+1. Create a new Jekyll project, follow the [installation](#installation) instructions,
+   then change your `Gemfile` to point at the local clone of this repo:
+   
+    ```ruby
+    gem 'jekyll-uswds', :path => '../path/to/jekyll-uswds'
+    ```
 
 ## Configuration
 
