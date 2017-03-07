@@ -440,12 +440,16 @@ accommodates an optional side navigation. Supported [front matter]:
 * `sidenav` is a key _into_ `_data/navigation.yml`. See the
   [navigation](#navigation) docs for more info.
 
-A page's "current" or "active" state in the sidenav is determined by
-whether a link's `href` matches `page.url` or `page.permalink` for
-each page being rendered. Current/active links will display a nested
-subnavigation if `page.subnav` is a similarly formatted array of
-link objects. **Note that subnav link hrefs are not prefixed with
-`site.baseurl`** because this breaks hash links prefixed with `#`.
+    A page's "current" or "active" state in the sidenav is
+    determined by whether a link's `href` matches `page.url` or
+    `page.permalink` for each page being rendered.
+
+* `subnav` is a list of links to display on this page under its own
+  link in the side navigation.
+
+    **Note that subnav link hrefs are not prefixed with
+    `site.baseurl`** because this breaks hash links prefixed with
+    `#`.
 
 See the [docs demo page](demo/docs.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
