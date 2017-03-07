@@ -1,4 +1,5 @@
 ---
+permalink: /docs/
 layout: docs
 sidenav: docs
 subnav:
