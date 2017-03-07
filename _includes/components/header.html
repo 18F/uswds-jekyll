@@ -25,13 +25,14 @@
         {% for _section in primary_links %}
         <li>
           {% if _section.links %}
+            {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
             {% assign _section_id = _section.id %}
             {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
           <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
             <span>{{ _section.text }}</span>
           </button>
           <ul id="{{ _section_id }}" class="usa-nav-submenu">
-            {% for _link in _section.links %}
+            {% for _link in section_links %}
             <li>
               <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
             </li>
