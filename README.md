@@ -88,10 +88,10 @@ To reference a specific version of this plugin:
 ## Configuration
 
 Configuration of common elements ([header](#header),
-[footer](#footer), navigation, etc.) happens in your project's
-[data files](https://jekyllrb.com/docs/datafiles/). See this
-project's [data directory](_data) for reference configurations of
-each component.
+[footer](#footer), [navigation](#navigation), etc.) happens in your
+project's [data files](https://jekyllrb.com/docs/datafiles/). See
+this project's [data directory](_data) for reference configurations
+of each component.
 
 The [base layout](#layout-base) also provides a mechanism for
 automatically including [stylesheets](#stylesheets) and
@@ -437,24 +437,19 @@ This layout implements the [document page
 template](https://standards.usa.gov/page-templates/docs/), and
 accommodates an optional side navigation. Supported [front matter]:
 
-* `sidenav` is a key _into_ `site.data.sidenav`. In other words, if
-  your front matter specifies `sidenav: foo` then links will be
-  pulled from `site.data.sidenav.foo`. This value is assumed to be
-  an array of link objects, each with `href` and `text` strings.
+* `sidenav` is a key _into_ `_data/navigation.yml`. See the
+  [navigation](#navigation) docs for more info.
 
-  * A page's "current" or "active" state in the sidenav is determined
-    by whether a link's `href` matches `page.url` or `page.permalink`
-    for each page being rendered.
-
-  * Current/active links will display a nested subnavigation if
-    `page.subnav` is a similarly formatted array of link objects.
-    **Note that subnav link hrefs are not prefixed with
-    `site.baseurl`** because this breaks hash links prefixed with
-    `#`.
+A page's "current" or "active" state in the sidenav is determined by
+whether a link's `href` matches `page.url` or `page.permalink` for
+each page being rendered. Current/active links will display a nested
+subnavigation if `page.subnav` is a similarly formatted array of
+link objects. **Note that subnav link hrefs are not prefixed with
+`site.baseurl`** because this breaks hash links prefixed with `#`.
 
 See the [docs demo page](demo/docs.md) for an example of how this
-works, and see [_data/sidenav.yml](_data/sidenav.yml) for how to structure
-named side navigation data for your site.
+works, and see [_data/navigation.yml](_data/navigation.yml) for how
+to structure named navigation data for your site.
 
 
 [Sass]: http://sass-lang.com/guide
