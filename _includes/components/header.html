@@ -19,9 +19,10 @@
       </button>
 
       {% assign _primary = header.primary.links %}
-      {% if _primary %}
+      {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
+      {% if primary_links %}
       <ul class="usa-nav-primary usa-accordion">
-        {% for _section in _primary %}
+        {% for _section in primary_links %}
         <li>
           {% if _section.links %}
             {% assign _section_id = _section.id %}
@@ -66,7 +67,8 @@
             <button class="usa-header-search-button js-search-button">Search</button>
           </li>
           {% endif %}
-          {% for _link in _secondary.links %}
+          {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
+          {% for _link in secondary_links %}
           <li>
             <a href="{{ _link.href | relative_url }}">{{ _link.text }}</a>
           </li>
