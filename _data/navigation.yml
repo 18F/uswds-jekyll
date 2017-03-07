@@ -20,6 +20,8 @@ primary:
         href: /two/b/
       - text: Demo link C
         href: /two/c/
+  - text: Referenced section
+    links: footer
 
 secondary: []
 
