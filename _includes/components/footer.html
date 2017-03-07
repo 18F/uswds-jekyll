@@ -1,19 +1,22 @@
 {% if footer %}
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
-  {% unless footer.top_link == false %}
+
+  {% if footer.top %}
   <div class="usa-grid usa-footer-return-to-top">
-    <a href="#">Return to top</a>
+    <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
   </div>
-  {% endunless %}
+  {% endif %}
+
   {% if footer.links %}
+    {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
     {% assign _sizes = 'whole half third fourth fifth sixth' | split: ' ' %}
-    {% assign _size = footer.primary.links.size | minus: 1 %}
+    {% assign _size = footer_links.size | minus: 1 %}
     {% assign _size = _sizes[_size] | default: 'whole' %}
   <div class="usa-footer-primary-section">
     <div class="usa-grid">
       <nav class="usa-footer-nav">
         <ul class="usa-unstyled-list">
-          {% for _link in footer.links %}
+          {% for _link in footer_links %}
           <li class="usa-width-one-{{ _size }} usa-footer-primary-content">
             <a class="usa-footer-primary-link" href="{{ _link.href | relative_url }}">
               {{ _link.text }}
@@ -41,7 +44,8 @@
       </div>
       <div class="usa-footer-contact-links usa-width-one-half">
 
-        {% for _link in footer.contact.links %}
+        {% assign contact_links = site.data.navigation[footer.contact.links] | default: footer.contact.links %}
+        {% for _link in contact_links %}
         <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{{ _link.href | relative_url }}">
           <span>{{ _link.text }}</span>
         </a>
