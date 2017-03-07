@@ -10,6 +10,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 1. [Configuration](#configuration)
   1. [Site title](#site-title)
   1. [Navigation](#navigation)
+    1. [Page subnavigation](#page-subnavigation)
   1. [Stylesheets](#stylesheets)
   1. [Scripts](#scripts)
   1. [Asset load order](#asset-load-order)
@@ -133,6 +134,57 @@ shared by different components, such as the [header](#header) and
 [footer](#footer). See the documentation for those components for
 more info.
 
+
+#### Page subnavigation
+
+If you're using the [docs layout](#layout-docs), each page may declare its own
+side navigation and subnavigation in its frontmatter:
+
+```md
+---
+sidenav: documentation
+subnav:
+  - text: Section one
+    href: '#section-one'
+  - text: Section two
+    href: '#section-two
+---
+## Section one
+
+## Section two
+```
+
+As with the [header](#header) and [footer](#footer), the `sidenav` field may
+either reference a common [navigation list](#navigation) from
+`_data/navigation.yml` (recommended) or be a literal list of links.
+
+The `subnav` field should be used to link to sections _within_ the current
+page, because links to other pages will cause the linking page's side
+navigation to collapse when visited.
+
+**Pro tip:** Unless your Jekyll configuration specifies otherwise, the default
+Markdown formatter (Kramdown) will automatically generate predictable `id`
+attributes for your page headings and convert markdown like this:
+
+```md
+## Section one
+```
+
+into:
+
+```html
+<h2 id="section-one">Section one</h2>
+```
+
+If you're using Redcarpet, you will need to configure it to enable
+the `with_toc_data` extension in your `_config.yml`, like so:
+
+```yml
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - with_toc_data
+```
 
 ### Stylesheets
 
