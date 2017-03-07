@@ -1,5 +1,7 @@
 ---
+title: Documentation
 permalink: /docs/
+
 layout: docs
 sidenav: docs
 subnav:
