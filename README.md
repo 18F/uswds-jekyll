@@ -138,7 +138,7 @@ more info.
 #### Page subnavigation
 
 If you're using the [docs layout](#layout-docs), each page may declare its own
-side navigation and subnavigation in its frontmatter:
+side navigation and subnavigation in its [front matter]:
 
 ```md
 ---
@@ -191,7 +191,7 @@ redcarpet:
 As a general rule, all stylesheets are inserted in a layouts'
 `<head>`, which qualifies them as "render-blocking". Site
 stylesheets can be specified in `_config.yml` or a layout or page's
-frontmatter YAML in the following form:
+[front matter] YAML in the following form:
 
 ```yml
 styles:
@@ -209,7 +209,7 @@ have an `href` property. The `media` defaults to `screen`.
 As a general rule, all scripts are inserted before a layouts'
 `</body>`, which prevents them from blocking the rendering of your
 page's content. Scripts can be specified in `_config.yml` or a
-layout or page's frontmatter YAML in the following form:
+layout or page's [front matter] YAML in the following form:
 
 ```yml
 scripts:
@@ -234,10 +234,11 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 1. Assets configured at the `site` level (in your `_config.yml`) will be loaded
    in all pages that use the USWDS [layouts](#layouts).
-1. Those configured at the layout level (in that layout's frontmatter) will be
-   loaded on all pages that use that layout, after site assets.
-1. Those configured at the page level (in the page's frontmatter) will be
-   loaded last.
+1. Those configured at the layout level (in that layout's [front
+   matter]) will be loaded on all pages that use that layout, after
+   site assets.
+1. Those configured at the page level (in the page's [front matter])
+   will be loaded last.
 
 
 ## Customization
@@ -369,7 +370,7 @@ See this repo's [footer.yml](_data/footer.yml) for more info.
 ## Layouts
 
 This theme provides the following layouts, which you can use by
-setting the `layout` frontmatter on each page, like so:
+setting the `layout` [front matter] on each page, like so:
 
 ```yaml
 ---
@@ -384,7 +385,7 @@ basic page scaffolding then drops the page content into the
 `<main>` element. All of the other layouts "inherit" this one and
 provide other features in the content block.
 
-The base layout provides a layout frontmatter hook to add
+The base layout provides a layout [front matter] hook to add
 attributes to the `<main>` element. You can see how this works in
 the [docs layout](_layouts/docs.html#L3-L4).
 
@@ -393,7 +394,7 @@ the [docs layout](_layouts/docs.html#L3-L4).
 
 This layout implements the [landing page
 template](https://standards.usa.gov/page-templates/landing/), which
-accommodates the following frontmatter:
+accommodates the following [front matter]:
 
 ```yml
 hero: # optional
@@ -426,7 +427,7 @@ graphics:
 graphics_position: (before|after)
 ```
 
-Check out the YAML frontmatter in the [landing demo
+Check out the YAML front matter in the [landing demo
 page](demo/landing.html) for an example of how to structure it.
 
 
@@ -434,12 +435,12 @@ page](demo/landing.html) for an example of how to structure it.
 
 This layout implements the [document page
 template](https://standards.usa.gov/page-templates/docs/), and
-accommodates an optional side navigation. Supported frontmatter:
+accommodates an optional side navigation. Supported [front matter]:
 
 * `sidenav` is a key _into_ `site.data.sidenav`. In other words, if
-  your frontmatter specifies `sidenav: foo` then links will be pulled
-  from `site.data.sidenav.foo`. This value is assumed to be an array
-  of link objects, each with `href` and `text` strings.
+  your front matter specifies `sidenav: foo` then links will be
+  pulled from `site.data.sidenav.foo`. This value is assumed to be
+  an array of link objects, each with `href` and `text` strings.
 
   * A page's "current" or "active" state in the sidenav is determined
     by whether a link's `href` matches `page.url` or `page.permalink`
@@ -458,3 +459,4 @@ named side navigation data for your site.
 
 [Sass]: http://sass-lang.com/guide
 [Jekyll Sass]: https://jekyllrb.com/docs/assets/#sassscss
+[front matter]: https://jekyllrb.com/docs/frontmatter/
