@@ -220,7 +220,7 @@ scripts:
 
 Scripts specified as objects (in the latter item above) must have a `src`
 property. Scripts with `async: true` will get an `async` attribute, which tells
-the browser _not_ to let this script's laoding block the execution of
+the browser _not_ to let this script's loading block the execution of
 subsequent scripts. If the execution order of your scripts is **not**
 important, setting `async: true` may provide performance benefits to your
 users. (Conversely, if you don't know whether your scripts need to execute in a
