@@ -9,7 +9,7 @@
 
   {% if footer.links %}
     {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
-    {% assign _sizes = 'whole half third fourth fifth sixth' | split: ' ' %}
+    {% assign _sizes = 'whole half third fourth sixth' | split: ' ' %}
     {% assign _size = footer_links.size | minus: 1 %}
     {% assign _size = _sizes[_size] | default: 'whole' %}
   <div class="usa-footer-primary-section">
