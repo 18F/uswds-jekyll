@@ -5,27 +5,27 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 ## Table of contents
 1. [Installation](#installation)
-  1. [Development](#development)
-  1. [Versioning](#versioning)
+    1. [Development](#development)
+    1. [Versioning](#versioning)
 1. [Configuration](#configuration)
-  1. [Site title](#site-title)
-  1. [Navigation](#navigation)
-    1. [Page subnavigation](#page-subnavigation)
+    1. [Site title](#site-title)
+    1. [Navigation](#navigation)
+      1. [Page subnavigation](#page-subnavigation)
 1. [Assets](#assets)
-  1. [Stylesheets](#stylesheets)
-  1. [Scripts](#scripts)
-  1. [Asset load order](#asset-load-order)
+    1. [Stylesheets](#stylesheets)
+    1. [Scripts](#scripts)
+    1. [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-  1. [Customizing with Sass](#customizing-with-sass)
-  1. [Customizing with CSS overrides](#customizing-with-css-overrides)
-  1. [Overriding includes and layouts](#overriding-includes-and-layouts)
+    1. [Customizing with Sass](#customizing-with-sass)
+    1. [Customizing with CSS overrides](#customizing-with-css-overrides)
+    1. [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
-  1. [Header](#header)
-  1. [Footer](#footer)
+    1. [Header](#header)
+    1. [Footer](#footer)
 1. [Layouts](#layouts)
-  1. [Base](#layout-base)
-  1. [Docs](#layout-docs)
-  1. [Landing](#layout-landing)
+    1. [Base](#layout-base)
+    1. [Docs](#layout-docs)
+    1. [Landing](#layout-landing)
 
 
 ## Installation
@@ -277,7 +277,13 @@ and layouts.
     ---
     # assets/main.scss
     ---
-    // set your variables or @import them here
+    // set your variables or @import them here.
+    
+    // at the very least, you should set the USWDS font and image paths
+    // to the correct paths relative to assets/main.css, like so:
+    $font-path: 'uswds/fonts';
+    $img-path: 'uswds/img';
+    
     @import 'uswds/all';
     ```
 
