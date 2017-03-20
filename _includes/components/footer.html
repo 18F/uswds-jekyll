@@ -34,7 +34,7 @@
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
         {% for logo in footer.logos -%}
-          {% if logo.url %}<a href="{{ logo.href | relative_url }}">{% endif %}
+          {% if logo.url %}<a href="{{ logo.url | relative_url }}">{% endif %}
         <img class="usa-footer-logo-img" src="{{ logo.src | relative_url }}" alt="{{ logo.alt }}"
           {% if logo.width %}width="{{ logo.width }}"{% endif %}
           {% if logo.height %}height="{{ logo.height }}"{% endif %}>
