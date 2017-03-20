@@ -33,10 +33,12 @@
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
-        {% for logo in footer.logos %}
-        <img class="usa-footer-logo-img" src="{{ logo.src }}" alt="{{ logo.alt }}"
+        {% for logo in footer.logos -%}
+          {% if logo.url %}<a href="{{ logo.href | relative_url }}">{% endif %}
+        <img class="usa-footer-logo-img" src="{{ logo.src | relative_url }}" alt="{{ logo.alt }}"
           {% if logo.width %}width="{{ logo.width }}"{% endif %}
           {% if logo.height %}height="{{ logo.height }}"{% endif %}>
+          {% if logo.url %}</a>{% endif %}
         {% endfor %}
         {% if footer.heading %}
         <h3 class="usa-footer-logo-heading">{{ footer.heading }}</h3>
