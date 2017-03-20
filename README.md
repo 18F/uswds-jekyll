@@ -282,7 +282,7 @@ and layouts.
     // at the very least, you should set the USWDS font and image paths
     // to the correct paths relative to assets/main.css, like so:
     $font-path: 'uswds/fonts';
-    $img-path: 'uswds/img';
+    $image-path: 'uswds/img';
     
     @import 'uswds/all';
     ```
