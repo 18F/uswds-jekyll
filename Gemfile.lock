@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-uswds (0.4.0)
+    uswds-jekyll (1.0.0)
       jekyll (~> 3.4)
 
 GEM
@@ -49,8 +49,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.12)
-  jekyll-uswds!
   rake (~> 10.0)
+  uswds-jekyll!
 
 BUNDLED WITH
    1.13.6
