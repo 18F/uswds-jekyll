@@ -1,8 +1,11 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "uswds-jekyll"
-  spec.version       = "1.0.0"
+  spec.post_install_message = "Hey, this gem is deprecated! Please update your 
+  Gemfile and replace 'jekyll-uswds' with 'uswds-jekyll'"
+
+  spec.name          = "jekyll-uswds"
+  spec.version       = "0.4.1"
   spec.authors       = ["Shawn Allen"]
   spec.email         = ["shawn.allen@gsa.gov"]
 
@@ -15,4 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll", "~> 3.4"
 
   spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "rake", "~> 10.0"
 end
