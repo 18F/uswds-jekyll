@@ -1,4 +1,4 @@
-# jekyll-uswds
+# Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design Standards](https://standards.usa.gov).
@@ -34,7 +34,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'jekyll-uswds', :git => 'https://github.com/18F/jekyll-uswds.git'
+    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
     ```
 
 1. Fetch and update your bundled gems by running:
@@ -47,7 +47,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    `_config.yml`:
 
     ```yml
-    theme: jekyll-uswds
+    theme: uswds-jekyll
     ```
 
 You will need to restart your Jekyll server to see the effects.
@@ -67,22 +67,22 @@ To develop this theme and/or test it locally:
    `Gemfile` to point at the local clone of this repo:
 
     ```ruby
-    gem 'jekyll-uswds', :path => '../path/to/jekyll-uswds'
+    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
     ```
 
 ### Versioning
 
 To reference a specific version of this plugin:
 
-1. Visit the [releases page](https://github.com/18F/jekyll-uswds/releases) and
+1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
    decide which version you want to use.
 
 1. Add or update the `:tag` argument for this gem in your `Gemfile` to the name
    of the release tag, e.g.
 
     ```ruby
-    gem 'jekyll-uswds', \
-      :git => 'https://github.com/18F/jekyll-uswds.git', \
+    gem 'uswds-jekyll', \
+      :git => 'https://github.com/18F/uswds-jekyll.git', \
       :tag => 'v0.1.1'
     ```
 
