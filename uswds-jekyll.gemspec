@@ -1,8 +1,8 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-uswds"
-  spec.version       = "0.4.0"
+  spec.name          = "uswds-jekyll"
+  spec.version       = "1.0.0"
   spec.authors       = ["Shawn Allen"]
   spec.email         = ["shawn.allen@gsa.gov"]
 
