@@ -18,7 +18,7 @@
         <ul class="usa-unstyled-list">
           {% for _link in footer_links %}
           <li class="usa-width-one-{{ _size }} usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="{{ _link.href | relative_url }}">
+            <a class="usa-footer-primary-link" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
               {{ _link.text }}
             </a>
           </li>
@@ -48,7 +48,7 @@
 
         {% assign contact_links = site.data.navigation[footer.contact.links] | default: footer.contact.links %}
         {% for _link in contact_links %}
-        <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{{ _link.href | relative_url }}">
+        <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
           <span>{{ _link.text }}</span>
         </a>
         {% endfor %}

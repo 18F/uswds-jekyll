@@ -6,7 +6,7 @@
       {% assign _current = true %}
     {% endif %}
   <li>
-    <a href="{{ _href | relative_url }}"{% if _current %}
+    <a href="{% if _link.external == true %}{{ _href }}{% else %}{{ _href | relative_url }}{% endif %}" {% if _current %}
       class="usa-current"{% endif %}>
       {{ link.text }}
     </a>

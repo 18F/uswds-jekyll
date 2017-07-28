@@ -125,7 +125,7 @@ primary:
   - text: Support
     href: /help/
   - text: External link
-    href: https://externalsite.gov
+    href: https://18f.gsa.gov
     external: true
 
   # link objects with a 'links' field will be presented as
