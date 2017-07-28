@@ -115,6 +115,8 @@ This theme's navigation system is powerful and flexible. Named
 navigational lists live in your project's `_data/navigation.yml`,
 e.g.
 
+By default all links are assumed to be internal to the site. You can add `external: true` to links that are external.
+
 ```yml
 # _data/navigation.yml
 primary:
@@ -122,6 +124,9 @@ primary:
     href: /docs/
   - text: Support
     href: /help/
+  - text: External link
+    href: https://externalsite.gov
+    external: true
 
   # link objects with a 'links' field will be presented as
   # collapsible link lists. The 'links' field can either be a
@@ -278,12 +283,12 @@ and layouts.
     # assets/main.scss
     ---
     // set your variables or @import them here.
-    
+
     // at the very least, you should set the USWDS font and image paths
     // to the correct paths relative to assets/main.css, like so:
     $font-path: 'uswds/fonts';
     $image-path: 'uswds/img';
-    
+
     @import 'uswds/all';
     ```
 
