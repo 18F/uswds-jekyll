@@ -52,6 +52,36 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 You will need to restart your Jekyll server to see the effects.
 
+### Install as a new Jekyll site
+
+1. Create a new Jekyll site:
+    ```
+    jekyll new
+    ```
+1. Replace the default `gem "minima", "~> 2.0"` gem with the `uswds-jekyll` gem in your `Gemfile`:
+
+    ```ruby
+    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+    ```
+1. Set the `theme` in your site's Jekyll configuration,
+   `_config.yml`:
+
+    ```yml
+    theme: uswds-jekyll
+    ```
+1. Update the layouts used on the following pages to use [uswds-jekyll layouts](https://github.com/18F/uswds-jekyll/tree/master/_layouts)
+    ```
+    404.html
+    index.md
+    about.md
+    posts/2017-08-07-welcome-to-jekyll.markdown
+    ```
+1. Fetch and update your bundled gems by running:
+
+    ```sh
+    bundle
+    ```
+1. Run Jekyll `jekyll serve` to build your site locally at http://localhost:4000/
 
 ### Development
 
