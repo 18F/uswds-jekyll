@@ -29,9 +29,9 @@
   </div>
   {% endif %}
 
-  {% if footer.contact %}
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
+      {% if footer.logos %}
       <div class="usa-footer-logo usa-width-one-half">
         {% for logo in footer.logos -%}
           {% if logo.url %}<a href="{{ logo.url }}">{% endif %}
@@ -44,8 +44,10 @@
         <h3 class="usa-footer-logo-heading">{{ footer.heading }}</h3>
         {% endif %}
       </div>
-      <div class="usa-footer-contact-links usa-width-one-half">
+      {% endif %}
 
+      {% if footer.contact %}
+      <div class="usa-footer-contact-links usa-width-one-half">
         {% assign contact_links = site.data.navigation[footer.contact.links] | default: footer.contact.links %}
         {% for _link in contact_links %}
         <a class="usa-link-{{ _link.type | default: 'generic' }}" href="{{ _link.href | relative_url }}">
@@ -61,11 +63,10 @@
           {{ footer.contact.address | markdownify }}
         </address>
         {% endif %}
-
+      {% endif %}
       </div>
     </div>
   </div>
-  {% endif %}
 
 </footer>
 {% endif %}
