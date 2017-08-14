@@ -22,6 +22,7 @@ contact:
   links:
     - text: USA
       href: https://usa.gov/
+      external: true
 
   heading: Contact us
 

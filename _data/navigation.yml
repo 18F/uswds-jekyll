@@ -22,16 +22,20 @@ primary:
         href: /two/c/
   - text: Referenced section
     links: footer
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
 
 secondary: []
 
 footer:
   - text: Documentation
     href: /docs/
-  - text: Demo link one
-    href: /one/
-  - text: Demo link two
-    href: /two/
+  - text: Demo link
+    href: /demo/
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
 
 docs:
   - text: Documentation
@@ -42,3 +46,6 @@ docs:
     href: /docs/upgrade/
   - text: Help
     href: /docs/help/
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
