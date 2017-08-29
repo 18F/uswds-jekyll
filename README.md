@@ -36,6 +36,12 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     ```ruby
     gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
     ```
+1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
+    ```
+    group :jekyll_plugins do
+      gem 'jekyll_pages_api_search'
+    end
+    ```
 
 1. Fetch and update your bundled gems by running:
 

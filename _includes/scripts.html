@@ -17,10 +17,5 @@
 {% endfor %}{% endfor %}
 
 {% if page.layout == 'search-results' %}
-<script>
-var JEKYLL_PAGES_API_SEARCH_UI_OPTIONS = {
-  inputElementId: 'search-field-small'
-};
-</script>
 {% jekyll_pages_api_search_load %}
 {% endif %}
