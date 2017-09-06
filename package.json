@@ -10,6 +10,6 @@
     "update-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/"
   },
   "dependencies": {
-    "uswds": "^1.1.0"
+    "uswds": "^1.3.0"
   }
 }
