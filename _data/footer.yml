@@ -12,6 +12,7 @@ heading: Name of agency
 
 # An array of agency logos to show, side by side, in the lower left
 # of the footer on large screens.
+# If the logo is external add external: true 
 logos:
   - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
     alt: 18F
