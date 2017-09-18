@@ -15,8 +15,10 @@ heading: Name of agency
 logos:
   - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
     alt: 18F
+    external: true
   - src: https://18f.gsa.gov/assets/img/logos/gsa-logo.svg
     alt: GSA
+    external: true
 
 contact:
   links:
