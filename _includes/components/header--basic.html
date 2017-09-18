@@ -1,6 +1,6 @@
 {% if header %}
-{% include banner.html %}
 <header class="usa-header usa-header-{{ header.type | default: 'extended' }}" role="banner">
+  {% include banner.html %}
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <button class="usa-menu-btn">Menu</button>
