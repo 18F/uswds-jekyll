@@ -511,7 +511,7 @@ accommodates an optional side navigation. Supported [front matter]:
     `site.baseurl`** because this breaks hash links prefixed with
     `#`.
 
-See the [docs demo page](demo/docs.md) for an example of how this
+See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
 
