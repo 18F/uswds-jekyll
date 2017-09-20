@@ -1,2 +1,7 @@
 {% assign header = site.data.header %}
-{% include components/header.html %}
+
+{% if header.type == 'basic' %}
+  {% include components/header--basic.html %}
+{% else %}
+  {% include components/header--extended.html %}
+{% endif %}
