@@ -1,1 +1,12 @@
 title: This is the site title
+
+scripts:
+# USWDS js
+  - src: /assets/uswds/js/uswds.min.js
+    async: true
+# Anchor js is optional
+  - src: /assets/js/vendor/anchor.min.js
+    async: true
+# Main js
+  - src: /assets/js/main.js
+    async: true
