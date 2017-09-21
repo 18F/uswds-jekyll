@@ -267,7 +267,6 @@ layout or page's [front matter] YAML in the following form:
 
 ```yml
 scripts:
-  - /path/to/script.js
   - href: /path/to/script.js
     async: true # optional
 ```
