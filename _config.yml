@@ -17,3 +17,9 @@ jekyll_pages_api_search:
       boost: 5
     body:
   results_page_title: Search results
+
+defaults:
+  - scope:
+      path: "assets/uswds"
+    values:
+      skip_index: true
