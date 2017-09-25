@@ -17,7 +17,7 @@ jekyll_pages_api_search:
       boost: 5
     body:
   results_page_title: Search results
-
+# Skip indexing of the assets/uswds directory
 defaults:
   - scope:
       path: "assets/uswds"
