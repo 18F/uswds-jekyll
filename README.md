@@ -419,7 +419,7 @@ header data to come directly from the Jekyll configuration file
 
 ```html
 {% assign header = site.header %}
-{% include components/header.html %}
+{% include components/header--basic.html %}
 ```
 
 
