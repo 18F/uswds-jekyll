@@ -16,7 +16,7 @@ jekyll_pages_api_search:
     url:
       boost: 5
     body:
-  results_page_title: Search results
+  results_page_title: Search results # Used for the title tag and the header on the results page
 # Skip indexing of the assets/uswds directory
 defaults:
   - scope:

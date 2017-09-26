@@ -12,13 +12,13 @@ main:
 </aside>
 
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
-  <h2>Search results</h2>
+  <h1>{{ site.jekyll_pages_api_search.results_page_title }}</h1>
   {% jekyll_pages_api_search_results %}
   {{ content }}
 </div>
 {% else %}
 <div class="usa-layout-docs-main_content">
-  <h2>Search results</h2>
+  <h1>{{ site.jekyll_pages_api_search.results_page_title }}</h1>
   {% jekyll_pages_api_search_results %}
   {{ content }}
 </div>
