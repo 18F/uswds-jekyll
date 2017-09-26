@@ -1,4 +1,5 @@
 *.gem
+node_modules/
 
 ## Environment normalization:
 /.bundle/

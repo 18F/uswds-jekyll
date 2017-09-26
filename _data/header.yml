@@ -3,7 +3,12 @@
 # Uncomment this statement (by removing the leading '# ') to set the
 # header title differently from the site's title (as defined in
 # _config.yml).
+
 # title: Header title
+
+# this defines the type of header
+# header types can be 'basic' or 'extended'
+type: basic
 
 primary:
   # this is a key into _data/navigation.yml

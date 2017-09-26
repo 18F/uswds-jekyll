@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    uswds-jekyll (1.1.1)
+    uswds-jekyll (1.2.0)
       jekyll (~> 3.4)
 
 GEM
