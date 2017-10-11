@@ -1,6 +1,6 @@
 ---
-skip_index: true
 ---
+
 # Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
