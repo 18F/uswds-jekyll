@@ -240,6 +240,8 @@ redcarpet:
 
 Search uses the [Search results](#search-results) page layout.
 
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results. 
+
 ## Assets
 
 The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html)
