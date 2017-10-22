@@ -12,7 +12,8 @@
     </a>
     {% if _current and page.subnav %}
     <ul class="usa-sidenav-sub_list">
-      {% include subnav.html links=page.subnav %}
+      {% assign subnav = site.data.navigation[page.subnav] | default: page.subnav %}
+      {% include subnav.html links=subnav %}
     </ul>
     {% endif %}
   </li>
