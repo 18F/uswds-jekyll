@@ -40,7 +40,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+    gem 'uswds-jekyll'
     ```
 1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
     ```
@@ -119,13 +119,10 @@ To reference a specific version of this plugin:
 1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
    decide which version you want to use.
 
-1. Add or update the `:tag` argument for this gem in your `Gemfile` to the name
-   of the release tag, e.g.
+1. Specify the version in your `Gemfile`.
 
     ```ruby
-    gem 'uswds-jekyll', \
-      :git => 'https://github.com/18F/uswds-jekyll.git', \
-      :tag => 'v0.1.1'
+    gem 'uswds-jekyll', '1.4.1'
     ```
 
 ## Configuration
@@ -240,7 +237,7 @@ redcarpet:
 
 Search uses the [Search results](#search-results) page layout.
 
-**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results. 
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
 
 ## Assets
 
