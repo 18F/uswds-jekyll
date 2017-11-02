@@ -1,3 +1,6 @@
+---
+---
+
 # Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
@@ -5,27 +8,30 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 ## Table of contents
 1. [Installation](#installation)
-    1. [Development](#development)
-    1. [Versioning](#versioning)
+    - [Development](#development)
+    - [Versioning](#versioning)
 1. [Configuration](#configuration)
-    1. [Site title](#site-title)
-    1. [Navigation](#navigation)
-      1. [Page subnavigation](#page-subnavigation)
+    - [Site title](#site-title)
+    - [Navigation](#navigation)
+    - [Page subnavigation](#page-subnavigation)
+    - [Search](#search)
 1. [Assets](#assets)
-    1. [Stylesheets](#stylesheets)
-    1. [Scripts](#scripts)
-    1. [Asset load order](#asset-load-order)
+    - [Stylesheets](#stylesheets)
+    - [Scripts](#scripts)
+    - [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-    1. [Customizing with Sass](#customizing-with-sass)
-    1. [Customizing with CSS overrides](#customizing-with-css-overrides)
-    1. [Overriding includes and layouts](#overriding-includes-and-layouts)
+    - [Customizing with Sass](#customizing-with-sass)
+    - [Customizing with CSS overrides](#customizing-with-css-overrides)
+    - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
-    1. [Header](#header)
-    1. [Footer](#footer)
+    - [Header](#header)
+    - [Footer](#footer)
 1. [Layouts](#layouts)
-    1. [Default](#layout-default)
-    1. [Page](#layout-page)
-    1. [Home](#layout-home)
+    - [Default](#layout-default)
+    - [Page](#layout-page)
+    - [Home](#layout-home)
+    - [Search results](#search-results)
+
 
 
 ## Installation
@@ -35,6 +41,12 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
     ```ruby
     gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+    ```
+1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
+    ```
+    group :jekyll_plugins do
+      gem 'jekyll_pages_api_search'
+    end
     ```
 
 1. Fetch and update your bundled gems by running:
@@ -171,7 +183,7 @@ shared by different components, such as the [header](#header) and
 more info.
 
 
-#### Page subnavigation
+### Page subnavigation
 
 If you're using the [page layout](#layout-page), each page may declare its own
 side navigation and subnavigation in its [front matter]:
@@ -221,6 +233,14 @@ redcarpet:
   extensions:
     - with_toc_data
 ```
+
+### Search
+
+[Jekyll pages api search](https://github.com/18F/jekyll_pages_api_search) is used for search and can be configured in `_config.yml` and `_data/header.yml`.
+
+Search uses the [Search results](#search-results) page layout.
+
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results. 
 
 ## Assets
 
@@ -401,7 +421,7 @@ header data to come directly from the Jekyll configuration file
 
 ```html
 {% assign header = site.header %}
-{% include components/header.html %}
+{% include components/header--basic.html %}
 ```
 
 
@@ -514,6 +534,12 @@ accommodates an optional side navigation. Supported [front matter]:
 See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
+
+### `layout: search-results`
+
+This layout is for search results and contains the `jekyll_pages_api_search_results`
+that renders the results into the `<main>` element. All of the other layouts "inherit" this one and
+provide other features in the content block.
 
 
 [Sass]: http://sass-lang.com/guide
