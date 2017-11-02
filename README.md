@@ -30,6 +30,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Default](#layout-default)
     - [Page](#layout-page)
     - [Home](#layout-home)
+    - [Post](#layout-post)
     - [Search results](#search-results)
 
 
@@ -240,7 +241,7 @@ redcarpet:
 
 Search uses the [Search results](#search-results) page layout.
 
-**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results. 
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
 
 ## Assets
 
@@ -534,6 +535,10 @@ accommodates an optional side navigation. Supported [front matter]:
 See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
+
+### `layout: post`
+
+This layout is identical to the layout `page` and is included to allow for easier site creation using  `Jekyll new`.
 
 ### `layout: search-results`
 
