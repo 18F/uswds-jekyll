@@ -27,9 +27,10 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Header](#header)
     - [Footer](#footer)
 1. [Layouts](#layouts)
-    - [Base](#layout-base)
-    - [Docs](#layout-docs)
-    - [Landing](#layout-landing)
+    - [Default](#layout-default)
+    - [Page](#layout-page)
+    - [Home](#layout-home)
+    - [Post](#layout-post)
     - [Search results](#search-results)
 
 
@@ -136,7 +137,7 @@ project's [data files](https://jekyllrb.com/docs/datafiles/). See
 this project's [data directory](_data) for reference configurations
 of each component.
 
-The [base layout](#layout-base) also provides a mechanism for
+The [default layout](#layout-default) also provides a mechanism for
 automatically including [stylesheets](#stylesheets) and
 [scripts](#scripts) on a site-wide, layout-wide, and per-page
 basis. See [asset load order](#asset-load-order) for more
@@ -185,7 +186,7 @@ more info.
 
 ### Page subnavigation
 
-If you're using the [docs layout](#layout-docs), each page may declare its own
+If you're using the [page layout](#layout-page), each page may declare its own
 side navigation and subnavigation in its [front matter]:
 
 ```md
@@ -240,7 +241,7 @@ redcarpet:
 
 Search uses the [Search results](#search-results) page layout.
 
-**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results. 
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
 
 ## Assets
 
@@ -388,15 +389,15 @@ your site by placing a file with the same name into your site's
 - To change how [stylesheets](#stylesheets) are loaded or
   referenced, you can create your own `_includes/styles.html`,
   which will subsequently change how stylesheets are loaded in all
-  layouts that inherit from the USWDS [base layout](#layout-base).
+  layouts that inherit from the USWDS [default layout](#layout-default).
 
 - You can change how the side navigation is rendered (but not which
-  data it receives) in the [docs layout](#layout-docs) by creating
+  data it receives) in the [page layout](#layout-page) by creating
   your own `_includes/sidenav.html`.
 
 - You can change how and whether the side navigation is displayed
-  at all in the [docs layout](#layout-docs) by overriding
-  `_layouts/docs.html`.
+  at all in the [page layout](#layout-page) by overriding
+  `_layouts/page.html`.
 
 ## Components
 
@@ -458,21 +459,21 @@ layout: name
 ---
 ```
 
-### `layout: base`
+### `layout: default`
 
 This is the bare-bones Standards layout, which does all of the
 basic page scaffolding then drops the page content into the
 `<main>` element. All of the other layouts "inherit" this one and
 provide other features in the content block.
 
-The base layout provides a layout [front matter] hook to add
+The default layout provides a layout [front matter] hook to add
 attributes to the `<main>` element. You can see how this works in
-the [docs layout](_layouts/docs.html#L3-L4).
+the [page layout](_layouts/page.html#L3-L4).
 
 
-### `layout: landing`
+### `layout: home`
 
-This layout implements the [landing page
+This layout implements the [home page
 template](https://standards.usa.gov/page-templates/landing/), which
 accommodates the following [front matter]:
 
@@ -507,11 +508,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
-Check out the YAML front matter in the [landing demo
-page](demo/landing.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo
+page](demo/home.html) for an example of how to structure it.
 
 
-### `layout: docs`
+### `layout: page`
 
 This layout implements the [document page
 template](https://standards.usa.gov/page-templates/docs/), and
@@ -531,9 +532,13 @@ accommodates an optional side navigation. Supported [front matter]:
     `site.baseurl`** because this breaks hash links prefixed with
     `#`.
 
-See the [docs demo page](demo/docs.md) for an example of how this
+See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
+
+### `layout: post`
+
+This layout is identical to the layout `page` and is included to allow for easier site creation using  `Jekyll new`.
 
 ### `layout: search-results`
 
