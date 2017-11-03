@@ -38,7 +38,7 @@
             {% if logo.url %}
         <a href="{{ logo.url }}">
             {% endif %}
-          <img class="usa-footer-logo-img" src="{{ logo.src | relative_url }}" alt="{{ logo.alt }}" {% if logo.width %}width="{{ logo.width }}"{% endif %} {% if logo.height %}height="{{ logo.height }}"{% endif %}>
+          <img class="usa-footer-logo-img" src="{% if logo.external %}{{ logo.src }}{% else %}{{ logo.src | relative_url }}{% endif %}" alt="{{ logo.alt }}"{% if logo.width %}width="{{ logo.width }}"{% endif %}{% if logo.height %}height="{{ logo.height }}"{% endif %}>
             {% if logo.url %}
         </a>
             {% endif %}
