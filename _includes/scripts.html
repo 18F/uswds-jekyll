@@ -15,3 +15,7 @@
   {% assign _src = _script.src | default: _script %}
 <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
 {% endfor %}{% endfor %}
+
+{% if page.layout == 'search-results' %}
+{% jekyll_pages_api_search_load %}
+{% endif %}
