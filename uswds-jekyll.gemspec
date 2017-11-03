@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "uswds-jekyll"
-  spec.version       = "1.4.1"
+  spec.version       = "2.0.0"
   spec.authors       = ["Shawn Allen"]
   spec.email         = ["shawn.allen@gsa.gov"]
 
