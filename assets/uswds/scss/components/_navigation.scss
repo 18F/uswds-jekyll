@@ -1,8 +1,13 @@
 // Header navigation ------------- //
 
 @mixin nav-border {
+  border-bottom: 0.4rem solid $color-primary;
+  padding-bottom: 0.6rem;
+}
+
+@mixin nav-border-thick {
   border-bottom: 0.7rem solid $color-primary;
-  padding-bottom: 1rem;
+  padding-bottom: 0.9rem;
 }
 
 .usa-navbar {
@@ -12,7 +17,7 @@
   @include media($nav-width) {
     border-bottom: none;
     display: inline-block;
-    height: 10.3rem; // XXX magic number
+    height: 7.8rem; // XXX magic number
   }
 }
 
@@ -23,6 +28,15 @@
     span {
       @include media($nav-width) {
         @include nav-border;
+      }
+    }
+  }
+
+  &.usa-accordion-button {
+    span {
+      @include media($nav-width) {
+        margin-right: 0;
+        padding-right: 1.5rem;
       }
     }
   }
@@ -53,7 +67,7 @@
   z-index: $z-index-nav;
 
   @include media($nav-width) {
-    @include padding(5rem 0 0 null);
+    @include padding(4.5rem 0 0 null);
     border-left: none;
     display: block;
     float: right;
@@ -82,6 +96,10 @@
     color: $color-primary;
     font-weight: $font-bold;
     padding-left: 1.4rem;
+
+    @include media($nav-width) {
+      color: $color-base;
+    }
   }
 
   .usa-button {
@@ -91,6 +109,7 @@
   .usa-search {
     @include media($nav-width) {
       margin-left: 1.5rem; // XXX magic number
+      top: 4px;
     }
   }
 }
@@ -121,11 +140,11 @@
 
     > a {
       @include media($nav-width) {
-        @include padding(1.3rem 1.5rem 1.7rem 1.5rem);
+        @include padding(1.3rem 1.5rem 2.2rem 1.5rem);
         color: $color-gray;
         font-size: $h5-font-size;
         font-weight: $font-bold;
-        line-height: 1.2;
+        line-height: 1;
       }
 
       &:hover {
@@ -136,25 +155,39 @@
     }
   }
 
+  a {
+    @include media($nav-width) {
+      @include padding(0.75rem null);
+    }
+
+    &:hover {
+      @include media($nav-width) {
+        // color: $color-base;
+      }
+    }
+  }
+
   button {
-    $button-vertical-offset: 44%;
+    $button-vertical-offset: 40%;
 
     @include button-unstyled;
     @include font-smoothing;
     font-weight: $font-normal;
-    padding: 1.4rem 1.5rem 1rem 1.8rem;
+    line-height: 1.3;
+    padding: 0.85rem 1.5rem 0.85rem 1.8rem;
 
     @include media($nav-width) {
-      @include padding(null 3rem 1.9rem 1.5rem);
+      @include padding(1.3rem 1.5rem 2.2rem 1.5rem);
       color: $color-gray;
       font-size: $h5-font-size;
       font-weight: $font-bold;
+      line-height: 1;
       width: initial;
     }
 
     &:focus,
     &:active {
-      box-shadow: $focus-shadow;
+      box-shadow: $focus-outline;
     }
 
     &:hover {
@@ -163,6 +196,7 @@
 
       @include media($nav-width) {
         background-color: transparent;
+        // color: $color-base;
       }
     }
 
@@ -177,6 +211,13 @@
         background-image: url('#{$image-path}/angle-arrow-down.png');
         background-image: url('#{$image-path}/angle-arrow-down.svg');
         background-position: right 1.5rem top $button-vertical-offset;
+      }
+
+      &:hover {
+        @include media($nav-width) {
+          background-image: url('#{$image-path}/angle-arrow-down-primary.png');
+          background-image: url('#{$image-path}/angle-arrow-down-primary.svg');
+        }
       }
     }
 
@@ -200,19 +241,60 @@
 
         span {
           @include nav-border;
+          color: $color-white;
         }
       }
     }
   }
 
   @include media($nav-width) {
-    a.usa-current { // stylelint-disable-line selector-no-qualifying-type
+    a.usa-current,
+    .usa-current { // stylelint-disable-line selector-no-qualifying-type
       // undo the sidenav style
       border-left: 0;
       padding-left: 1.5rem;
 
+      &:hover {
+        span {
+          color: $color-primary;
+        }
+      }
+
       span {
         @include nav-border;
+        color: $color-base;
+      }
+    }
+  }
+}
+
+// Extended header navigation ------- //
+
+.usa-header-extended {
+  .usa-nav-link {
+    &:hover {
+      span {
+        @include media($nav-width) {
+          @include nav-border-thick;
+        }
+      }
+    }
+  }
+
+  .usa-nav-primary {
+    button[aria-expanded=true] { /* stylelint-disable-line selector-no-qualifying-type */
+      span {
+        @include media($nav-width) {
+          @include nav-border-thick;
+        }
+      }
+    }
+
+    .usa-current {
+      @include media($nav-width) {
+        span {
+          @include nav-border-thick;
+        }
       }
     }
   }
@@ -231,7 +313,7 @@
     @include margin(3rem null);
 
     @include media($nav-width) {
-      @include margin(-0.2rem null 0 0);
+      @include margin(-0.9rem null 0 0);
       float: left;
     }
   }
@@ -245,13 +327,14 @@
   li {
     @include media($nav-width) {
       display: inline;
-      padding-left: 1rem;
+      padding-left: 0.5rem;
     }
 
     &:not(:last-child)::after {
       @include media($nav-width) {
+        color: $color-gray-lighter;
         content: '|';
-        padding-left: 1rem;
+        padding-left: 0.5rem;
       }
     }
   }
@@ -265,6 +348,7 @@
 
     &:hover {
       color: $color-primary;
+      text-decoration: underline;
     }
   }
 
@@ -301,14 +385,13 @@
 // Navigation submenu (dropdown and mega menu) ----- //
 
 .usa-nav-submenu {
-  // @include usa-sidenav-sublist;
+  @include usa-sidenav-sublist;
 
   @include media($nav-width) {
     @include unstyled-list;
-    @include padding(1.15rem null);
+    @include padding(0.75rem null 0.9rem null);
     background-color: $color-primary-darkest;
-    min-width: 21.5rem;
-    width: auto;
+    width: 21.5rem;
     position: absolute;
   }
 
@@ -326,6 +409,7 @@
       @include media($nav-width) {
         background-color: $color-primary-darkest;
         color: $color-white;
+        padding-left: 1.5rem;
         text-decoration: underline;
       }
     }
@@ -422,7 +506,7 @@
     @include media($nav-width) {
       display: block;
       float: right;
-      margin-top: -4.8rem;
+      margin-top: -3.8rem;
     }
   }
 
