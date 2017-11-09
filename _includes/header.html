@@ -2,6 +2,8 @@
 
 {% if header.type == 'basic' %}
   {% include components/header--basic.html %}
-{% else %}
+{% elsif header.type == 'extended' %}
   {% include components/header--extended.html %}
+{% else %}
+  {% include components/header--slim.html %}
 {% endif %}

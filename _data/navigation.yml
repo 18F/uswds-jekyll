@@ -26,7 +26,11 @@ primary:
     href: https://18f.gsa.gov
     external: true
 
-secondary: []
+secondary:
+  - text: Documentation
+    href: /docs/
+  - text: Demo link
+    href: /demo/
 
 footer:
   - text: Documentation

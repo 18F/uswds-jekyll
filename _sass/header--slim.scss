@@ -1,0 +1,41 @@
+.usa-header-slim {
+  background-color: $color-primary-darkest;
+
+  .usa-navbar,
+  .usa-nav-inner,
+  .usa-banner-inner {
+    max-width: 100%;
+  }
+
+  .usa-logo {
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+    a {
+      color: $color-white;
+    }
+
+    .usa-logo-text {
+      font-family: $font-serif;
+      @include media($nav-width) {
+        font-size: 2.6rem;
+      }
+      line-height: 1.3;
+    }
+  }
+
+  .usa-nav {
+    @include media($nav-width) {
+      .usa-button {
+        width: auto;
+      }
+  }
+}
+
+  .usa-nav-secondary-links {
+    li:not(:last-child)::after {
+      content: none;
+      padding: 0;
+    }
+  }
+}

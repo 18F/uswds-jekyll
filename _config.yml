@@ -23,3 +23,7 @@ defaults:
       path: "assets/uswds"
     values:
       skip_index: true
+
+
+styles:
+  - /assets/main.css
