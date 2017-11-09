@@ -23,7 +23,8 @@ defaults:
       path: "assets/uswds"
     values:
       skip_index: true
-
+# Configuration for setting the site width to 100% wide
+# site_width: wide
 
 styles:
   - /assets/main.css

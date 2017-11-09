@@ -6,7 +6,7 @@
     {% include meta.html %}
     {% include styles.html %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }}">
+  <body class="{{ layout.class }} {{ page.class }} {% if site.site_width == 'wide' %}site-wide{% else %}{% endif %} ">
 
     {% include skipnav.html %}
     {% include header.html %}

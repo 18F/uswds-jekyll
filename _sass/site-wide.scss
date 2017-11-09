@@ -1,0 +1,16 @@
+.site-wide {
+  .usa-navbar,
+  .usa-nav-inner,
+  .usa-banner-inner,
+  .usa-grid {
+    max-width: 100%;
+    width: 100%;
+  }
+  .usa-layout-docs-main_content {
+    bottom: 0;
+    display: inline-block;
+    position: relative;
+    right: 0;
+    width: calc(100% - 250px);
+  }
+}
