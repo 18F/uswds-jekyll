@@ -16,6 +16,9 @@
     </main>
 
     {% include footer.html %}
+    {% if site.google_analytics_ua %}
+      {% include google-analytics.html %}
+    {% endif %}
     {% include scripts.html %}
   </body>
 </html>

@@ -15,6 +15,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
     - [Search](#search)
+    - [Google Analytics](#google-analytics)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -239,6 +240,15 @@ redcarpet:
 Search uses the [Search results](#search-results) page layout.
 
 **Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
+
+### Google Analytics
+
+You can add Google analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
+
+```
+# Configuration for Google Analytics, add your UA code here:
+# google_analytics_ua: UA-????????-??
+```
 
 ## Assets
 
