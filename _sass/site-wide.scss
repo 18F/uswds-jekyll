@@ -13,4 +13,10 @@
     right: 0;
     width: calc(100% - 250px);
   }
+  .sidenav {
+    display: block;
+    float: left;
+    padding-right: 1rem;
+    width: 250px;
+  }
 }

@@ -3,13 +3,19 @@
 ---
 // set your variables or @import them here.
 
-// at the very least, you should set the USWDS font and image paths
-// to the correct paths relative to assets/main.css, like so:
+// Setup for the US Web Design Standards
 $font-path: 'uswds/fonts';
 $image-path: 'uswds/img';
-
 @import 'uswds/all';
-// styles for the header slim
+
+// Optional includes 
+
+// styles for the slim header
+{% if site.data.header.type == 'slim' %}
 @import 'header--slim';
+{% endif %}
+
+// styles for the site wide
+{% if site.site_width == 'wide' %}
 @import 'site-wide';
-@import 'sidenav';
+{% endif %}

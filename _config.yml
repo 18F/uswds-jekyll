@@ -1,5 +1,8 @@
 title: This is the site title
 
+# Configuration for setting the site width to 100% wide
+site_width: wide
+
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.
@@ -23,8 +26,6 @@ defaults:
       path: "assets/uswds"
     values:
       skip_index: true
-# Configuration for setting the site width to 100% wide
-# site_width: wide
 
 styles:
   - /assets/main.css
