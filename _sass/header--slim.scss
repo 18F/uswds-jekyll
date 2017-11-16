@@ -22,6 +22,7 @@
     @include media($nav-width) {
       .usa-button {
         width: auto;
+        color: $color-white;
       }
   }
 }
