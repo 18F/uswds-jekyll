@@ -1,3 +1,6 @@
+---
+---
+
 # Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
@@ -5,27 +8,31 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 
 ## Table of contents
 1. [Installation](#installation)
-    1. [Development](#development)
-    1. [Versioning](#versioning)
+    - [Development](#development)
+    - [Versioning](#versioning)
 1. [Configuration](#configuration)
-    1. [Site title](#site-title)
-    1. [Navigation](#navigation)
-      1. [Page subnavigation](#page-subnavigation)
+    - [Site title](#site-title)
+    - [Navigation](#navigation)
+    - [Page subnavigation](#page-subnavigation)
+    - [Search](#search)
 1. [Assets](#assets)
-    1. [Stylesheets](#stylesheets)
-    1. [Scripts](#scripts)
-    1. [Asset load order](#asset-load-order)
+    - [Stylesheets](#stylesheets)
+    - [Scripts](#scripts)
+    - [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-    1. [Customizing with Sass](#customizing-with-sass)
-    1. [Customizing with CSS overrides](#customizing-with-css-overrides)
-    1. [Overriding includes and layouts](#overriding-includes-and-layouts)
+    - [Customizing with Sass](#customizing-with-sass)
+    - [Customizing with CSS overrides](#customizing-with-css-overrides)
+    - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
-    1. [Header](#header)
-    1. [Footer](#footer)
+    - [Header](#header)
+    - [Footer](#footer)
 1. [Layouts](#layouts)
-    1. [Base](#layout-base)
-    1. [Docs](#layout-docs)
-    1. [Landing](#layout-landing)
+    - [Default](#layout-default)
+    - [Page](#layout-page)
+    - [Home](#layout-home)
+    - [Post](#layout-post)
+    - [Search results](#search-results)
+
 
 
 ## Installation
@@ -34,7 +41,13 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+    gem 'uswds-jekyll'
+    ```
+1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
+    ```
+    group :jekyll_plugins do
+      gem 'jekyll_pages_api_search'
+    end
     ```
 
 1. Fetch and update your bundled gems by running:
@@ -107,13 +120,10 @@ To reference a specific version of this plugin:
 1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
    decide which version you want to use.
 
-1. Add or update the `:tag` argument for this gem in your `Gemfile` to the name
-   of the release tag, e.g.
+1. Specify the version in your `Gemfile`.
 
     ```ruby
-    gem 'uswds-jekyll', \
-      :git => 'https://github.com/18F/uswds-jekyll.git', \
-      :tag => 'v0.1.1'
+    gem 'uswds-jekyll', '1.4.1'
     ```
 
 ## Configuration
@@ -124,7 +134,7 @@ project's [data files](https://jekyllrb.com/docs/datafiles/). See
 this project's [data directory](_data) for reference configurations
 of each component.
 
-The [base layout](#layout-base) also provides a mechanism for
+The [default layout](#layout-default) also provides a mechanism for
 automatically including [stylesheets](#stylesheets) and
 [scripts](#scripts) on a site-wide, layout-wide, and per-page
 basis. See [asset load order](#asset-load-order) for more
@@ -171,9 +181,9 @@ shared by different components, such as the [header](#header) and
 more info.
 
 
-#### Page subnavigation
+### Page subnavigation
 
-If you're using the [docs layout](#layout-docs), each page may declare its own
+If you're using the [page layout](#layout-page), each page may declare its own
 side navigation and subnavigation in its [front matter]:
 
 ```md
@@ -221,6 +231,14 @@ redcarpet:
   extensions:
     - with_toc_data
 ```
+
+### Search
+
+[Jekyll pages api search](https://github.com/18F/jekyll_pages_api_search) is used for search and can be configured in `_config.yml` and `_data/header.yml`.
+
+Search uses the [Search results](#search-results) page layout.
+
+**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
 
 ## Assets
 
@@ -367,15 +385,15 @@ your site by placing a file with the same name into your site's
 - To change how [stylesheets](#stylesheets) are loaded or
   referenced, you can create your own `_includes/styles.html`,
   which will subsequently change how stylesheets are loaded in all
-  layouts that inherit from the USWDS [base layout](#layout-base).
+  layouts that inherit from the USWDS [default layout](#layout-default).
 
 - You can change how the side navigation is rendered (but not which
-  data it receives) in the [docs layout](#layout-docs) by creating
+  data it receives) in the [page layout](#layout-page) by creating
   your own `_includes/sidenav.html`.
 
 - You can change how and whether the side navigation is displayed
-  at all in the [docs layout](#layout-docs) by overriding
-  `_layouts/docs.html`.
+  at all in the [page layout](#layout-page) by overriding
+  `_layouts/page.html`.
 
 ## Components
 
@@ -400,7 +418,7 @@ header data to come directly from the Jekyll configuration file
 
 ```html
 {% assign header = site.header %}
-{% include components/header.html %}
+{% include components/header--basic.html %}
 ```
 
 
@@ -437,21 +455,21 @@ layout: name
 ---
 ```
 
-### `layout: base`
+### `layout: default`
 
 This is the bare-bones Standards layout, which does all of the
 basic page scaffolding then drops the page content into the
 `<main>` element. All of the other layouts "inherit" this one and
 provide other features in the content block.
 
-The base layout provides a layout [front matter] hook to add
+The default layout provides a layout [front matter] hook to add
 attributes to the `<main>` element. You can see how this works in
-the [docs layout](_layouts/docs.html#L3-L4).
+the [page layout](_layouts/page.html#L3-L4).
 
 
-### `layout: landing`
+### `layout: home`
 
-This layout implements the [landing page
+This layout implements the [home page
 template](https://standards.usa.gov/page-templates/landing/), which
 accommodates the following [front matter]:
 
@@ -486,11 +504,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
-Check out the YAML front matter in the [landing demo
-page](demo/landing.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo
+page](demo/home.html) for an example of how to structure it.
 
 
-### `layout: docs`
+### `layout: page`
 
 This layout implements the [document page
 template](https://standards.usa.gov/page-templates/docs/), and
@@ -510,9 +528,19 @@ accommodates an optional side navigation. Supported [front matter]:
     `site.baseurl`** because this breaks hash links prefixed with
     `#`.
 
-See the [docs demo page](demo/docs.md) for an example of how this
+See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
+
+### `layout: post`
+
+This layout is identical to the layout `page` and is included to allow for easier site creation using  `Jekyll new`.
+
+### `layout: search-results`
+
+This layout is for search results and contains the `jekyll_pages_api_search_results`
+that renders the results into the `<main>` element. All of the other layouts "inherit" this one and
+provide other features in the content block.
 
 
 [Sass]: http://sass-lang.com/guide
