@@ -15,7 +15,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
     - [Search](#search)
-    - [Google Analytics](#google-analytics)
+    - [Analytics](#analytics)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -241,13 +241,24 @@ Search uses the [Search results](#search-results) page layout.
 
 **Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
 
-### Google Analytics
+### Analytics
 
-You can add Google analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
+#### Google Analytics
+
+You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
 
 ```
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
+```
+
+#### Digital Analytics Program (DAP)
+
+You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
+
+```
+# Configuration for DAP, add your agency ID here:
+# dap_agency: GSA
 ```
 
 ## Assets
