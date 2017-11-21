@@ -16,8 +16,8 @@
     </main>
 
     {% include footer.html %}
-    {% if site.google_analytics_ua %}
-      {% include google-analytics.html %}
+    {% if site.google_analytics_ua or site.dap_agency %}
+      {% include analytics.html %}
     {% endif %}
     {% include scripts.html %}
   </body>

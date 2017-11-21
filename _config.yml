@@ -3,6 +3,9 @@ title: This is the site title
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
 
+# Configuration for DAP, add your agency ID here:
+# dap_agency: GSA
+
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
   # Uncomment this to speed up site generation while developing.
