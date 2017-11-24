@@ -10,27 +10,20 @@
 #   links: primary
 #
 primary:
-  - text: Documentation
+  - text: Home
     href: /docs/
-  - text: Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Referenced section
-    links: footer
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+  - text: Intro
+    href: /docs/
+  - text: Guide
+    href: /docs/
+  - text: Resources
+    href: /docs/
+  - text: Team
+    href: /docs/
 
 secondary:
-  - text: Documentation
+  - text: Download as PDF
     href: /docs/
-  - text: Demo link
-    href: /demo/
 
 footer:
   - text: Documentation

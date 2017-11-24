@@ -12,7 +12,7 @@ type: slim
 
 primary:
   # this is a key into _data/navigation.yml
-  links: primary
+#  links: primary
 
 secondary:
   # this is a key into _data/navigation.yml
