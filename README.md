@@ -102,10 +102,8 @@ You will need to restart your Jekyll server to see the effects.
 To develop this theme and/or test it locally:
 
 1. Clone this repo
-
 1. Run Jekyll (`jekyll serve`) in the local clone of this repo;
    **or**
-
 1. Create a new Jekyll project, follow the
    [installation](#installation) instructions, then change your
    `Gemfile` to point at the local clone of this repo:
@@ -113,6 +111,13 @@ To develop this theme and/or test it locally:
     ```ruby
     gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
     ```
+### Publish to Rubygems
+1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
+1. Run `bundle install`
+1. Run `bundle exec rake release`
+1. Add a PR for the update and get it merged
+1. Add a GitHub release to the releases page with the same version number
+1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
 
 ### Versioning
 
@@ -120,7 +125,6 @@ To reference a specific version of this plugin:
 
 1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
    decide which version you want to use.
-
 1. Specify the version in your `Gemfile`.
 
     ```ruby
