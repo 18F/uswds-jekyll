@@ -1,0 +1,16 @@
+---
+# assets/main.scss
+---
+// set your variables or @import them here.
+
+// Setup for the US Web Design Standards
+$font-path: 'uswds/fonts';
+$image-path: 'uswds/img';
+@import 'uswds/all';
+
+// Optional includes
+
+// styles for logo header
+{% if site.data.header.logo_url %}
+@import 'header--logo';
+{% endif %}
