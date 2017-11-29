@@ -1,0 +1,11 @@
+<ul class="usa-sidenav-list">
+      {% for project in site.projects %}
+          <li>
+            {% if page.permalink == project.permalink %}
+              <a class="usa-current" href="{{ project.permalink | prepend: site.baseurl }}">{{ project.title }}</a>
+            {% else %}
+              <a href="{{ project.permalink | prepend: site.baseurl }}">{{ project.title }}</a>
+            {% endif %}
+          </li>
+      {% endfor %}
+    </ul>

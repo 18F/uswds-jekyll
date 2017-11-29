@@ -1,10 +1,35 @@
+
+
 .usa-header-basic .usa-navbar {
   width: 40%;
   .usa-logo {
     .logo-img {
       height: 50px;
-      vertical-align: middle;
+      vertical-align: text-bottom;
       margin-right: 1rem;
     }
+  }
+}
+
+.modern-team .usa-hero {
+    padding: 10rem 0;
+.usa-hero-callout {
+  max-width: 100%;
+  text-align: center;
+  .usa-button {
+    width: auto;
+  }
+  &.usa-section-dark {
+  background-color: rgba(17, 46, 81, 0.5);
+}
+}
+}
+
+
+.card-image {
+  max-height: 200px;
+  overflow: hidden;
+  img {
+    max-width: 148%;
   }
 }

@@ -1,0 +1,27 @@
+---
+layout: default
+main:
+  class: usa-grid usa-section usa-content
+---
+
+
+  <aside class="usa-width-one-fourth usa-layout-docs-sidenav">
+    {% include sidenav-projects.html %}
+  </aside>
+
+  <div class="usa-width-three-fourths usa-layout-docs-main_content">
+    <h1>{{ page.title }}</h1>
+    {% if page.image %}
+    <div class="page-img-container">
+      <img src="{{ page.image | prepend: site.baseurl }}">
+    </div>
+    {% endif %}
+    {% if page.image-credit %}
+      <span class="caption"><a href="{{page.image-credit}}" target="_blank">Photo credit</a> (Creative Commons)</span>
+    {% endif %}
+    {{ content }}
+
+    {% if page.abstract %}
+    <a class="usa-button" href="{{ page.abstract | prepend: site.baseurl }}">View Abstract</a>
+    {% endif %}
+  </div>

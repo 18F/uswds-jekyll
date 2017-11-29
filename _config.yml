@@ -1,4 +1,5 @@
 title: This is the site title
+template: modern-team
 
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
@@ -34,3 +35,10 @@ defaults:
 
 styles:
   - /assets/main.css
+
+# Inititalize project and team collections
+collections:
+  projects:
+    output: true
+  team:
+    output: true  

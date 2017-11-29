@@ -6,13 +6,13 @@
     {% include meta.html %}
     {% include styles.html %}
   </head>
-  <body class="{{ layout.class }} {{ page.class }}">
+  <body class="{{ site.template }} {{ layout.class }} {{ page.class }}">
 
     {% include skipnav.html %}
     {% include header.html %}
 
     <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
-    {{ content }}
+      {{ content }}
     </main>
 
     {% include footer.html %}
