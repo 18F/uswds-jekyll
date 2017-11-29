@@ -8,7 +8,10 @@
 
 # this defines the type of header
 # header types can be 'basic' or 'extended'
-type: extended
+type: basic
+
+logo_url: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+logo_alt: 18F
 
 primary:
   # this is a key into _data/navigation.yml
@@ -21,6 +24,6 @@ secondary:
   # to enable search, change this to an object with 'action' and
   # 'query' keys, e.g.
   #
-  search:
-    action: /search/
-    query: q
+  # search:
+  #   action: /search/
+  #   query: q

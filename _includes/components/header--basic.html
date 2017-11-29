@@ -7,7 +7,7 @@
       <div class="usa-logo" id="logo">
         <em class="usa-logo-text">
           <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
-            {{ header.title | default: site.title }}
+            {% if header.logo_url %}<img class="logo-img" src="{{ header.logo_url }}" alt="{{ header.logo_alt }}">{% endif %}  {{ header.title | default: site.title }}
           </a>
         </em>
       </div>
