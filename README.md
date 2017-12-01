@@ -114,8 +114,8 @@ To develop this theme and/or test it locally:
 ### Publish to Rubygems
 1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
 1. Run `bundle install`
-1. Run `bundle exec rake release`
 1. Add a PR for the update and get it merged
+1. Run `bundle exec rake release`
 1. Add a GitHub release to the releases page with the same version number
 1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
 
