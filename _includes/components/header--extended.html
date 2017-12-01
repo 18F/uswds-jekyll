@@ -34,12 +34,12 @@
           <ul id="{{ _section_id }}" class="usa-nav-submenu">
             {% for _link in section_links %}
             <li>
-              <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
+              <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
             </li>
             {% endfor %}
           </ul>
           {% else %}
-          <a class="usa-nav-link{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external == true %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+          <a class="usa-nav-link{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
             <span>{{ _section.text }}</span>
           </a>
           {% endif %}
@@ -71,7 +71,7 @@
           {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
           {% for _link in secondary_links %}
           <li>
-            <a href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
+            <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
           </li>
           {% endfor %}
         </ul>
