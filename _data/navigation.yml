@@ -43,25 +43,28 @@ secondary:
     href: https://18f.gsa.gov
     external: true
 
+docs:
+  - text: Documentation
+    href: /docs/
+  - text: Navigation section
+    links:
+      - text: Demo link A
+        href: /two/a/
+      - text: Demo link B
+        href: /two/b/
+      - text: Demo link C
+        href: /two/c/
+  - text: Referenced section
+    links: footer
+  - text: External link
+    href: https://18f.gsa.gov
+    external: true
 
 footer:
   - text: Documentation
     href: /docs/
   - text: Demo link
     href: /demo/
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
-
-docs:
-  - text: Documentation
-    href: /docs/
-  - text: Installation
-    href: /docs/install/
-  - text: Upgrading
-    href: /docs/upgrade/
-  - text: Help
-    href: /docs/help/
   - text: External link
     href: https://18f.gsa.gov
     external: true
