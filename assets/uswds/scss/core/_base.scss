@@ -28,3 +28,8 @@ body {
 [hidden] {
   display: none !important; /* stylelint-disable-line declaration-no-important */
 }
+
+*:focus,
+.usa-focus {
+  @include focus;
+}
