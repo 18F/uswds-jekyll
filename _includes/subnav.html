@@ -1,5 +1,5 @@
 {% for link in include.links %}
   <li>
-    <a href="{% if link.external == true %}{{ link.href }}{% else %}{{ link.href | relative_url }}{% endif %}">{{ link.text }}</a>
+    <a href="{% if link.external == true %}{{ link.href }}{% else %}{{ link.href }}{% endif %}">{{ link.text }}</a>
   </li>
 {% endfor %}
