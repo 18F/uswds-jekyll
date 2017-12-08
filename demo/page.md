@@ -6,9 +6,9 @@ layout: page
 sidenav: docs
 subnav:
   - text: Section one
-    href: '/docs/#section-one'
+    href: '#section-one'
   - text: Section two
-    href: '/docs/#section-two'
+    href: '#section-two'
 ---
 
 # Section one
