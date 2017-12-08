@@ -8,7 +8,7 @@ title: This is the site title
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
-# anchor_js: true
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
