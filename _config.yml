@@ -1,19 +1,14 @@
 title: This is the site title
 
-
-scripts:
-# Anchor js is optional
-  # - src: /assets/js/vendor/anchor.min.js
-  #   async: true
-# Main js - setting up anchor js
-  # - src: /assets/js/main.js
-  #   async: true
-
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
 
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
+
+# Uncomment to enable AnchorJS functionality on docs layout.
+# See https://github.com/bryanbraun/anchorjs for more information.
+# anchor_js: true
 
 # Configuration for jekyll_pages_api_search plugin gem.
 jekyll_pages_api_search:
