@@ -22,7 +22,7 @@ This repository is for the Standards themselves. 18F maintains [another reposito
 * [Fractal](#fractal)
   * [Template compatibility](#template-compatibility)
 * [Need installation help?](#need-installation-help)
-* [Contributing to the code base](#contributing-to-the-codebase)
+* [Contributing to the code base](#contributing-to-the-code-base)
 * [Reuse of open-source style guides](#reuse-of-open-source-style-guides)
 * [Licenses and attribution](#licenses-and-attribution)
 
@@ -230,7 +230,7 @@ You can also email us directly at uswebdesignstandards@gsa.gov.
 
 For complete instructions on how to contribute code, please read [CONTRIBUTING.md](CONTRIBUTING.md). These instructions also include guidance on how to set up your own copy of the Standards style guide website for development.
 
-If you would like to learn more about our workflow process, check out the [Workflow](https://github.com/18F/web-design-standards/wiki/Workflow) and [Label Glossary](https://github.com/18F/web-design-standards/wiki/Label-glossary) pages on the wiki.
+If you would like to learn more about our workflow process, check out the [Workflow](https://github.com/18F/web-design-standards/wiki/Workflow) and [Issue label Glossary](https://github.com/18F/web-design-standards/wiki/Issue-label-glossary) pages on the wiki.
 
 If you have questions or concerns about our contributing workflow, please contact us by [filing a GitHub issue](https://github.com/18F/web-design-standards/issues) or [emailing our team](mailto:uswebdesignstandards@gsa.gov).
 
