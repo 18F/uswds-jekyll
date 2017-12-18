@@ -32,7 +32,7 @@
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
               <span>{{ _section.text }}</span>
             </button>
-            <ul id="{{ _section_id }}" class="usa-nav-submenu">
+            <ul id="{{ _section_id }}" class="usa-nav-submenu" aria-hidden="true">
               {% for _link in section_links %}
               <li>
                 <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
@@ -54,7 +54,7 @@
 
           {% if _secondary.search %}
           <div class="usa-search usa-search-small" role="search">
-            <form action="{{ _secondary.search.action | relative_url }}">
+            <form action="{{ _secondary.search.action | relative_url }}" class="usa-sr-only">
                 <label class="usa-sr-only" for="search-field-small">Search small</label>
                 <input id="search-field-small" type="search" name="{{ _secondary.search.query | default: 'search' }}">
                 <button type="submit">
