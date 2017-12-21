@@ -77,6 +77,12 @@ You will need to restart your Jekyll server to see the effects.
     ```ruby
     gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
     ```
+1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`:
+    ```
+    group :jekyll_plugins do
+      gem 'jekyll_pages_api_search'
+    end
+    ```
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
