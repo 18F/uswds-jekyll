@@ -42,7 +42,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'uswds-jekyll'
+    gem install 'uswds-jekyll'
     ```
 1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
     ```
