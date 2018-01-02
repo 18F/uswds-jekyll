@@ -50,18 +50,8 @@
         {% endif %}
 
         {% assign _secondary = header.secondary %}
-
-
           {% if _secondary.search %}
-          <div class="usa-search usa-search-small" role="search">
-            <form action="{{ _secondary.search.action | relative_url }}" class="usa-sr-only">
-                <label class="usa-sr-only" for="search-field-small">Search small</label>
-                <input id="search-field-small" type="search" name="{{ _secondary.search.query | default: 'search' }}">
-                <button type="submit">
-                  <span class="usa-sr-only">Search</span>
-                </button>
-            </form>
-          </div>
+            {% include search.html %}
           {% endif %}
         </div>
       </div>

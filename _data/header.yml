@@ -24,3 +24,5 @@ secondary:
   search:
     action: /search/
     query: q
+# Search_type can be 'jekyll' or 'searchgov'
+search_type: jekyll
