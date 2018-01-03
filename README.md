@@ -1,6 +1,3 @@
----
----
-
 # Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
@@ -317,7 +314,7 @@ layout or page's [front matter] YAML in the following form:
 ```yml
 scripts:
   - /path/to/script.js
-  - href: /path/to/script.js
+  - src: /path/to/script.js
     async: true # optional
 ```
 
