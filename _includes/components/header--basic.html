@@ -54,7 +54,7 @@
 
           {% if _secondary.search %}
           <div class="usa-search usa-search-small" role="search">
-            <form action="{{ _secondary.search.action | relative_url }}" class="usa-sr-only">
+            <form action="{{ _secondary.search.action | relative_url }}">
                 <label class="usa-sr-only" for="search-field-small">Search small</label>
                 <input id="search-field-small" type="search" name="{{ _secondary.search.query | default: 'search' }}">
                 <button type="submit">
