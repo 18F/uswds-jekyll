@@ -7,7 +7,7 @@ top:
   href: '#'
 
 # Used to show the "Last updated" date and time;
-last_updated: true
+# last_updated: true
 
 # Which links to show at the top of the footer.
 # This can key into _data/navigation.yml or a list of link objects
