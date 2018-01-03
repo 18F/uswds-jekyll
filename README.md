@@ -86,13 +86,6 @@ You will need to restart your Jekyll server to see the effects.
     ```yml
     theme: uswds-jekyll
     ```
-1. Update the layouts used on the following pages to use [uswds-jekyll layouts](https://github.com/18F/uswds-jekyll/tree/master/_layouts)
-    ```
-    404.html
-    index.md
-    about.md
-    posts/2017-08-07-welcome-to-jekyll.markdown
-    ```
 1. Fetch and update your bundled gems by running:
 
     ```sh
