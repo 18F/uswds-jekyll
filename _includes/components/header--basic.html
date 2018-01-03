@@ -52,7 +52,7 @@
         {% assign _secondary = header.secondary %}
 
 
-          {% if _secondary.search %}
+          {% if _secondary.search.type == 'jekyll' %}
           <div class="usa-search usa-search-small" role="search">
             <form action="{{ _secondary.search.action | relative_url }}" class="usa-sr-only">
                 <label class="usa-sr-only" for="search-field-small">Search small</label>
@@ -62,6 +62,21 @@
                 </button>
             </form>
           </div>
+          {% endif %}
+          {% if _secondary.search.type == 'searchgov' %}
+            <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form">
+              <div style="margin:0;padding:0;display:inline">
+                <input name="utf8" type="hidden" value="&#x2713;" />
+              </div>
+              <input id="affiliate" name="affiliate" type="hidden" value="{{ _secondary.search.site_handle }}" />
+              <div role="search">
+                <label for="query" class="usa-sr-only">Enter Search Term(s):</label>
+                <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="search" />
+                <button type="submit" name="commit">
+                  <span class="usa-sr-only">Search</span>
+                </button>
+              </div>
+            </form>
           {% endif %}
         </div>
       </div>

@@ -19,3 +19,7 @@
 {% if page.layout == 'search-results' %}
 {% jekyll_pages_api_search_load %}
 {% endif %}
+
+{% if header.secondary.search.type == 'searchgov' %}
+{% include script-searchgov-search.html %}
+{% endif %}

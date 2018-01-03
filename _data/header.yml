@@ -8,7 +8,7 @@
 
 # this defines the type of header
 # header types can be 'basic' or 'extended'
-type: extended
+type: basic
 
 primary:
   # this is a key into _data/navigation.yml
@@ -18,9 +18,13 @@ secondary:
   # this is a key into _data/navigation.yml
   links: secondary
 
-  # to enable search, change this to an object with 'action' and
-  # 'query' keys, e.g.
-  #
-  search:
-    action: /search/
-    query: q
+  # to enable search, uncomment the search section
+  # type - Can be 'jekyll' or 'searchgov'
+  # site_handle - Only needed if searchgov is used
+  # action and query - Only used with 'jekyll' search
+
+  # search:
+  #   type: searchgov
+  #   site_handle: federalist-docs
+  #   action: /search/
+  #   query: q
