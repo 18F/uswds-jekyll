@@ -1,4 +1,9 @@
 {% if footer %}
+
+{% if footer.last_updated %}
+  {% include last-modified.html %}
+{% endif %}
+
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
 
   {% if footer.top %}

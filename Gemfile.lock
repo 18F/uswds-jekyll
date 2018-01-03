@@ -24,6 +24,9 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-last-modified-at (1.0.1)
+      jekyll (~> 3.3)
+      posix-spawn (~> 0.3.9)
     jekyll-sass-converter (1.5.1)
       sass (~> 3.4)
     jekyll-watch (1.5.1)
@@ -43,6 +46,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
+    posix-spawn (0.3.13)
     public_suffix (3.0.1)
     rake (12.3.0)
     rb-fsevent (0.10.2)
@@ -62,6 +66,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll-last-modified-at
   jekyll_pages_api_search
   rake
   uswds-jekyll!
