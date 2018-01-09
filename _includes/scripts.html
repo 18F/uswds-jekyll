@@ -23,6 +23,8 @@
 <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
 {% endfor %}{% endfor %}
 
-{% if page.layout == 'search-results' %}
-{% jekyll_pages_api_search_load %}
+{% if site.jekyll_pages_api_search and page.layout == 'search-results' %}
+<script>JEKYLL_PAGES_API_SEARCH_BASEURL = '{{ site.baseurl }}';</script>
+<script async src="{{ site.baseurl }}/assets/js/search-bundle.js">
+</script>
 {% endif %}
