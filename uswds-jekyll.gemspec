@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name          = 'uswds-jekyll'
   s.version       = '2.2.0'
-  s.authors       = ['Shawn Allen, Brian Hurst, Scott Weber']
+  s.authors       = ['Shawn Allen', 'Brian Hurst', 'Scott Weber']
   s.email         = ['brian.hurst@gsa.gov ,scott.weber@gsa.gov']
 
   s.summary       = "A Jekyll theme for the U.S. Web Design Standards."
