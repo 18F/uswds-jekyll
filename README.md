@@ -13,6 +13,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Page subnavigation](#page-subnavigation)
     - [Search](#search)
     - [Analytics](#analytics)
+    - [Last modified date](#last-modified-date)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -259,6 +260,16 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 ```
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
+```
+
+### Last modified date
+
+You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. 
+This will add the date right before the footer component and uses the `last-modified.html` include.
+
+```yml
+# Used to show the "Last updated" date and time;
+# last_updated: true
 ```
 
 ## Assets
