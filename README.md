@@ -44,12 +44,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     ```ruby
     gem 'uswds-jekyll'
     ```
-1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`
-    ```
-    group :jekyll_plugins do
-      gem 'jekyll_pages_api_search'
-    end
-    ```
 
 1. Fetch and update your bundled gems by running:
 
@@ -77,12 +71,7 @@ You will need to restart your Jekyll server to see the effects.
     ```ruby
     gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
     ```
-1. Install the `jekyll_pages_api_search` by adding it to your `Gemfile`:
-    ```
-    group :jekyll_plugins do
-      gem 'jekyll_pages_api_search'
-    end
-    ```
+
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
@@ -245,11 +234,12 @@ redcarpet:
 
 ### Search
 
-[Jekyll pages api search](https://github.com/18F/jekyll_pages_api_search) is used for search and can be configured in `_config.yml` and `_data/header.yml`.
+[Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
 
-Search uses the [Search results](#search-results) page layout.
+Before configuring your search you will need to create a search.gov account and set up your website
+with search.gov.
 
-**Pro tip:** use [Jekyll front matter defaults](https://jekyllrb.com/docs/configuration/#front-matter-defaults) to hide directories from showing in search results.
+After setting up your site on search.gov you can then add your `site handle` to the `config.yml`.
 
 ### Analytics
 
