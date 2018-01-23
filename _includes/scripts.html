@@ -16,10 +16,16 @@
 <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
 {% endfor %}{% endfor %}
 
-{% if page.layout == 'search-results' %}
-{% jekyll_pages_api_search_load %}
-{% endif %}
+{% if site.search %}
+<script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"{{ site.search.site_handle }}" };
 
-{% if header.secondary.search.type == 'searchgov' %}
-{% include script-searchgov-search.html %}
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+</script>
 {% endif %}
