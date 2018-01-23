@@ -40,9 +40,15 @@
               {% endfor %}
             </ul>
             {% else %}
-            <a class="usa-nav-link{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-              <span>{{ _section.text }}</span>
-            </a>
+              {% if _section.type == "Button" or _section.type == "button"%}
+              <a class="usa-button{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+                {{ _section.text }}
+              </a>
+              {% else %}
+                <a class="usa-nav-link{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+                  <span>{{ _section.text }}</span>
+                </a>
+              {% endif %}
             {% endif %}
           </li>
           {% endfor %}

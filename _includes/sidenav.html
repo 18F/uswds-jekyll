@@ -6,10 +6,16 @@
       {% assign _current = true %}
     {% endif %}
   <li>
+    {% if link.type == "Button" or link.type == "button"%}
+      <a class="usa-button" href="{% if link.external == true %}{{ link.href }}{% else %}{{ link.href | relative_url }}{% endif %}">
+        {{ link.text }}
+      </a>
+    {% else %}
     <a href="{% if link.external == true %}{{ link.href }}{% else %}{{ link.href | relative_url }}{% endif %}" {% if _current %}
       class="usa-current"{% endif %}>
       {{ link.text }}
     </a>
+    {% endif %}
     {% if _current and page.subnav %}
     <ul class="usa-sidenav-sub_list">
       {% include subnav.html links=page.subnav %}
