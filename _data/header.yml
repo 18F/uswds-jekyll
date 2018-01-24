@@ -8,7 +8,7 @@
 
 # Used to show or hide the official usa banner at the top of the site.
 # usa_banner can be 'show' or 'hide'
-usa_banner: show
+usa_banner: true
 
 # this defines the type of header
 # header types can be 'basic' or 'extended'

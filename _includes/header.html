@@ -1,8 +1,7 @@
 {% assign header = site.data.header %}
 
-{% if header.usa_banner == 'show' %}
+{% if header.usa_banner == true %}
   {% include components/banner.html %}
-{% else %}
 {% endif %}
 
 {% if header.type == 'basic' %}
