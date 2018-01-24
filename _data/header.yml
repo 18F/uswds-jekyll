@@ -7,7 +7,7 @@
 # title: Header title
 
 # Used to show or hide the official usa banner at the top of the site.
-# usa_banner can be 'show' or 'hide'
+# Comment out to the following line to hide the usa banner. 
 usa_banner: true
 
 # this defines the type of header
