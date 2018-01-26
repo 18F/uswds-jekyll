@@ -39,15 +39,9 @@
             {% endfor %}
           </ul>
           {% else %}
-            {% if _section.type == "Button" or _section.type == "button"%}
-            <a class="usa-button{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-              {{ _section.text }}
+            <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav-link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+              <span>{{ _section.text }}</span>
             </a>
-            {% else %}
-              <a class="usa-nav-link{% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
-                <span>{{ _section.text }}</span>
-              </a>
-            {% endif %}
           {% endif %}
         </li>
         {% endfor %}
@@ -76,15 +70,12 @@
           {% endif %}
           {% assign secondary_links = site.data.navigation[_secondary.links] | default: _secondary.links %}
           {% for _link in secondary_links %}
-            {% if link.type == "Button" or _link.type == "button"%}
             <li>
-              <a class="usa-button" href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
+              <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}"
+              {% if _link.class %} class="{{ _link.class }}" {% endif %}>
+                {{ _link.text }}
+              </a>
             </li>
-            {% else %}
-            <li>
-              <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a>
-            </li>
-            {% endif %}
           {% endfor %}
         </ul>
       </div>

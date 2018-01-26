@@ -23,7 +23,7 @@
         <ul class="usa-unstyled-list">
           {% for _link in footer_links %}
           <li class="usa-width-one-{{ _size }} usa-footer-primary-content">
-            <a class="usa-footer-primary-link" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
+            <a class="{% if _link.class %} {{ _link.class }} {% else %} usa-footer-primary-link {% endif %}" href="{% if _link.external == true %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">
               {{ _link.text }}
             </a>
           </li>
