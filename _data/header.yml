@@ -6,6 +6,10 @@
 
 # title: Header title
 
+# Used to show or hide the official usa banner at the top of the site.
+# Comment out to the following line to hide the usa banner. 
+usa_banner: true
+
 # this defines the type of header
 # header types can be 'basic' or 'extended'
 type: extended
@@ -17,10 +21,3 @@ primary:
 secondary:
   # this is a key into _data/navigation.yml
   links: secondary
-
-  # to enable search, change this to an object with 'action' and
-  # 'query' keys, e.g.
-  #
-  search:
-    action: /search/
-    query: q

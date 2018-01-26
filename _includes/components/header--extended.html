@@ -1,6 +1,6 @@
 {% if header %}
 <header class="usa-header usa-header-extended" role="banner">
-  {% include banner.html %}
+
   <div class="usa-navbar">
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo" id="logo">
@@ -51,19 +51,23 @@
       {% assign _secondary = header.secondary %}
       {% if _secondary %}
       <div class="usa-nav-secondary">
-        {% if _secondary.search %}
-          <form action="{{ _secondary.search.action | relative_url }}" class="usa-search usa-search-small js-search-form usa-sr-only">
-          <div role="search">
-            <label class="usa-sr-only" for="search-input">Search small</label>
-            <input id="search-input" type="search" name="{{ _secondary.search.query | default: 'search' }}">
-            <button type="submit">
-              <span class="usa-sr-only">Search</span>
-            </button>
-          </div>
-        </form>
+        {% if site.search_site_handle  %}
+          <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
+            <div style="margin:0;padding:0;display:inline">
+              <input name="utf8" type="hidden" value="&#x2713;" />
+            </div>
+            <input id="affiliate" name="affiliate" type="hidden" value="{{ site.search_site_handle }}" />
+            <div role="search">
+              <label for="query" class="usa-sr-only">Enter Search Term(s):</label>
+              <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="search" />
+              <button type="submit" name="commit">
+                <span class="usa-sr-only">Search</span>
+              </button>
+            </div>
+          </form>
         {% endif %}
         <ul class="usa-unstyled-list usa-nav-secondary-links">
-          {% if _secondary.search %}
+          {% if site.search_site_handle %}
           <li class="js-search-button-container">
             <button class="usa-header-search-button js-search-button">Search</button>
           </li>
