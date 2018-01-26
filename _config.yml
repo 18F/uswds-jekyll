@@ -17,3 +17,9 @@ title: This is the site title
 # Your search_site_handle value is from the search.gov settings page.
 
 # search_site_handle: searchgov-site-handle
+
+# Change the theme variant. Current options are: "default" or "beach"
+theme_variant: beach
+
+styles:
+  - /assets/css/main.css

@@ -1,0 +1,27 @@
+colors:
+  primary: '#458985'
+  primary-darker: 'darken($color-primary, 5%)'
+  primary-darkest: 'darken($color-primary, 10%)'
+  primary-alt: '#D7D6A5'
+  primary-alt-dark: 'darken($color-primary-alt, 5%)'
+  primary-alt-darkest: 'darken($color-primary-alt, 10%)'
+  primary-alt-light: 'lighten($color-primary-alt, 5%)'
+  primary-alt-lightest: 'lighten($color-primary-alt, 10%)'
+  secondary: '#074358'
+  secondary-dark: 'darken($color-secondary, 5%)'
+  secondary-darkest: 'darken($color-secondary, 10%)'
+  secondary-light: 'lighten($color-secondary, 5%)'
+  secondary-lightest: 'lighten($color-secondary, 10%)'
+  base: '#212121'
+  focus: '#aeb0b5'
+  visited: '#4c2c92'
+
+fonts:
+  sans: 'Source Sans Pro'
+  serif: 'Baskerville'
+  normal: 300
+  bold: 500
+
+images:
+  graphic: '/assets/img/beach/circle.png'
+  hero: '/assets/img/beach/hero.jpg'

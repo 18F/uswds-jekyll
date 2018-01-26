@@ -1,10 +1,14 @@
 {% assign graphics = include.graphics %}
+
+{% assign _theme_key = site.theme_variant | default: 'default' %}
+{% assign _theme = site.data.themes[_theme_key] %}
+
 {% if graphics %}
 <section class="usa-section usa-section-dark usa-graphic_list">
   {% for graphic in graphics %}
     {% cycle '<div class="usa-grid usa-graphic_list-row">', '' %}
     <div class="usa-width-one-half usa-media_block">
-      <img class="usa-media_block-img"  src="{{ graphic.image.src | relative_url }}" alt="{{ graphic.image.alt }}">
+      <img class="usa-media_block-img"  src="{{ _theme.images.graphic | default: graphic.image.src | relative_url }}" alt="{{ graphic.image.alt }}">
       <div class="usa-media_block-body">
         {% if graphic.title %}<h3>{{ graphic.title }}</h3>{% endif %}
         {{ graphic.description | markdownify }}
