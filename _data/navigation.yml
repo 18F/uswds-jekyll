@@ -14,7 +14,7 @@ primary:
     href: /docs/
   - text: Button
     href: /button/
-    type: Button
+    class: usa-button
   - text: Navigation section
     links:
       - text: Demo link A
@@ -28,7 +28,7 @@ primary:
   - text: External link
     href: https://18f.gsa.gov
     external: true
-    type: button
+    class: usa-button
 
 secondary:
   - text: Documentation
@@ -39,14 +39,14 @@ secondary:
   - text: Button
     href: https://18f.gsa.gov
     external: true
-    type: button
+    class: usa-button
 
 docs:
   - text: Documentation
     href: /docs/
   - text: Button
     href: /button/
-    type: button
+    class: usa-button
   - text: Navigation section
     links:
       - text: Demo link A
@@ -64,6 +64,7 @@ docs:
 footer:
   - text: Documentation
     href: /docs/
+    class: usa-button
   - text: Demo link
     href: /demo/
   - text: External link
