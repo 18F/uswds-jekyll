@@ -6,10 +6,14 @@ title: This is the site title
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
 
+# Uncomment to enable AnchorJS functionality on docs layout.
+# See https://github.com/bryanbraun/anchorjs for more information.
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+
 
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
-# Your search_site_handle valie is from search.gov settings page.
+# Your search_site_handle value is from the search.gov settings page.
 
 # search_site_handle: searchgov-site-handle

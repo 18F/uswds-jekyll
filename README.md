@@ -1,6 +1,3 @@
----
----
-
 # Jekyll + U.S. Web Design Standards
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
@@ -16,6 +13,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Page subnavigation](#page-subnavigation)
     - [Search](#search)
     - [Analytics](#analytics)
+    - [Last modified date](#last-modified-date)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -77,13 +75,6 @@ You will need to restart your Jekyll server to see the effects.
 
     ```yml
     theme: uswds-jekyll
-    ```
-1. Update the layouts used on the following pages to use [uswds-jekyll layouts](https://github.com/18F/uswds-jekyll/tree/master/_layouts)
-    ```
-    404.html
-    index.md
-    about.md
-    posts/2017-08-07-welcome-to-jekyll.markdown
     ```
 1. Fetch and update your bundled gems by running:
 
@@ -261,6 +252,16 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 # dap_agency: GSA
 ```
 
+### Last modified date
+
+You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. 
+This will add the date right before the footer component and uses the `last-modified.html` include.
+
+```yml
+# Used to show the "Last updated" date and time;
+# last_updated: true
+```
+
 ## Assets
 
 The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html)
@@ -307,7 +308,7 @@ layout or page's [front matter] YAML in the following form:
 ```yml
 scripts:
   - /path/to/script.js
-  - href: /path/to/script.js
+  - src: /path/to/script.js
     async: true # optional
 ```
 
