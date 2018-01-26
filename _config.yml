@@ -10,8 +10,6 @@ title: This is the site title
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
+# Your search_site_handle valie is from search.gov settings page.
 
-# site_handle - is from search.gov
-
-search:
-  site_handle: site-handle-here
+# search_site_handle: searchgov-site-handle
