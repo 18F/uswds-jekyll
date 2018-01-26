@@ -23,8 +23,17 @@
 <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
 {% endfor %}{% endfor %}
 
-{% if site.jekyll_pages_api_search and page.layout == 'search-results' %}
-<script>JEKYLL_PAGES_API_SEARCH_BASEURL = '{{ site.baseurl }}';</script>
-<script async src="{{ site.baseurl }}/assets/js/search-bundle.js">
+
+{% if site.search %}
+<script type="text/javascript">
+//<![CDATA[
+      var usasearch_config = { siteHandle:"{{ site.search.site_handle }}" };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
 </script>
 {% endif %}
