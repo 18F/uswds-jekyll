@@ -53,6 +53,9 @@
       <div class="usa-nav-secondary">
         {% if site.search_site_handle  %}
           <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
+            <div style="margin:0;padding:0;display:inline">
+              <input name="utf8" type="hidden" value="&#x2713;" />
+            </div>
             <input id="affiliate" name="affiliate" type="hidden" value="{{ site.search_site_handle }}" />
             <div role="search">
               <label for="query" class="usa-sr-only">Enter Search Term(s):</label>
