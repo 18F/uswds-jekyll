@@ -22,6 +22,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Customizing with Sass](#customizing-with-sass)
     - [Customizing with CSS overrides](#customizing-with-css-overrides)
     - [Overriding includes and layouts](#overriding-includes-and-layouts)
+    - [Using a theme variant](#using-a-theme-variant)
 1. [Components](#components)
     - [Header](#header)
     - [Footer](#footer)
@@ -254,7 +255,7 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 
 ### Last modified date
 
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. 
+You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
 This will add the date right before the footer component and uses the `last-modified.html` include.
 
 ```yml
@@ -417,6 +418,19 @@ your site by placing a file with the same name into your site's
 - You can change how and whether the side navigation is displayed
   at all in the [page layout](#layout-page) by overriding
   `_layouts/page.html`.
+
+### Using a theme variant
+
+The USWDS Jekyll theme gem includes a number of predefined theme
+variants that can change the look and feel of your website. This
+is accomplished by tweaking the default color scheme, font family,
+and CSS. To use a theme variant, set the `theme_variant` option in
+your `_config.yml` to the name of the theme you would like to use:
+
+```
+# Change the theme variant. Current options are: "beach"
+theme_variant: beach
+```
 
 ## Components
 

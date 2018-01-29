@@ -1,8 +1,6 @@
 {% assign graphics = include.graphics %}
-
-{% assign _theme_key = site.theme_variant | default: 'default' %}
+{% assign _theme_key = site.theme_variant %}
 {% assign _theme = site.data.themes[_theme_key] %}
-
 {% if graphics %}
 <section class="usa-section usa-section-dark usa-graphic_list">
   {% for graphic in graphics %}

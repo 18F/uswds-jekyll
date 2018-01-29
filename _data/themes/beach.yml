@@ -17,11 +17,16 @@ colors:
   visited: '#4c2c92'
 
 fonts:
-  sans: 'Source Sans Pro'
-  serif: 'Baskerville'
+  sans: >
+    "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
+  serif: >
+    "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
   normal: 300
   bold: 500
 
 images:
-  graphic: '/assets/img/beach/circle.png'
-  hero: '/assets/img/beach/hero.jpg'
+  graphic: '/assets/themes/beach/img/circle.png'
+  hero: '/assets/themes/beach/img/hero.jpg'
+
+styles:
+  - '/assets/themes/beach/css/main.css'
