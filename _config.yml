@@ -18,8 +18,5 @@ title: This is the site title
 
 # search_site_handle: searchgov-site-handle
 
-# Change the theme variant. Current options are: "default" or "beach"
-theme_variant: beach
-
-styles:
-  - /assets/css/main.css
+# Change the theme variant. Current options are: "beach"
+# theme_variant: beach

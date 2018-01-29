@@ -1,15 +1,18 @@
 ---
 ---
 
-{% assign _theme_key = site.theme_variant | default: 'default' %}
+{% assign _theme_key = site.theme_variant %}
 {% assign _theme = site.data.themes[_theme_key] %}
 
+{% if _theme %}
+
+// Typography
 $font-sans: {{ _theme.fonts.sans }};
 $font-serif: {{ _theme.fonts.serif }};
-
 $font-normal: {{ _theme.fonts.normal }};
 $font-bold: {{ _theme.fonts.bold }};
 
+// Colors
 $color-primary: {{ _theme.colors.primary }};
 $color-primary-darker: {{ _theme.colors.primary-darker }};
 $color-primary-darkest: {{ _theme.colors.primary-darkest }};
@@ -29,6 +32,8 @@ $color-secondary-lightest: {{ _theme.colors.secondary-lightest }};
 $color-base: {{ _theme.colors.base }};
 $color-focus: {{ _theme.colors.focus }};
 $color-visited: {{ _theme.colors.visited }};
+
+{% endif %}
 
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
