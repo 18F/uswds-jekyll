@@ -1,7 +1,7 @@
-# Jekyll + U.S. Web Design Standards
+# Jekyll + U.S. Web Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
-[U.S. Web Design Standards](https://standards.usa.gov).
+[U.S. Web Design System](https://designsystem.digital.gov).
 
 ## Table of contents
 1. [Installation](#installation)
@@ -254,7 +254,7 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 
 ### Last modified date
 
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. 
+You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
 This will add the date right before the footer component and uses the `last-modified.html` include.
 
 ```yml
@@ -265,7 +265,7 @@ This will add the date right before the footer component and uses the `last-modi
 ## Assets
 
 The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html)
-includes each incorporate the Standards CSS and JS files if the corresponding
+includes each incorporate the USWDS CSS and JS files if the corresponding
 `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless
 you add one or both of those manually, your HTML will include the following:
 
@@ -369,7 +369,7 @@ and layouts.
       - /assets/main.css
     ```
 
-All of the Standards' [SCSS source files](https://github.com/18F/web-design-standards/tree/master/src/stylesheets)
+All of the USWDS [SCSS source files](https://github.com/uswds/uswds/tree/master/src/stylesheets)
 are placed in the [_sass/uswds](_sass/uswds) directory and are available as
 Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][Jekyll Sass]
 for more information about its Sass/SCSS support, and configuring its Sass
@@ -420,7 +420,7 @@ your site by placing a file with the same name into your site's
 
 ## Components
 
-For some [Standards components](https://standards.usa.gov/components/),
+For some [USWDS components](https://designsystem.digital.gov/components/),
 there are two different files that control how data is passed to
 the template:
 
@@ -480,7 +480,7 @@ layout: name
 
 ### `layout: default`
 
-This is the bare-bones Standards layout, which does all of the
+This is the bare-bones USWDS layout, which does all of the
 basic page scaffolding then drops the page content into the
 `<main>` element. All of the other layouts "inherit" this one and
 provide other features in the content block.
@@ -493,7 +493,7 @@ the [page layout](_layouts/page.html#L3-L4).
 ### `layout: home`
 
 This layout implements the [home page
-template](https://standards.usa.gov/page-templates/landing/), which
+template](https://designsystem.digital.gov/page-templates/landing/), which
 accommodates the following [front matter]:
 
 ```yml
@@ -534,7 +534,7 @@ page](demo/home.html) for an example of how to structure it.
 ### `layout: page`
 
 This layout implements the [document page
-template](https://standards.usa.gov/page-templates/docs/), and
+template](https://designsystem.digital.gov/page-templates/docs/), and
 accommodates an optional side navigation. Supported [front matter]:
 
 * `sidenav` is a key _into_ `_data/navigation.yml`. See the
