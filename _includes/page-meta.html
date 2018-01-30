@@ -1,0 +1,8 @@
+<div class="usa-grid">
+  <div class="usa-width-one-whole">
+    <p>
+      <span>Last updated: {{ page.last_modified_at | date: '%B %d, %Y at %I:%M %p' }}</span>
+      <a href="https://github.com/{{ site.github.organization }}/{{ site.github.repository }}/edit/{{ site.github.default_branch }}/{{ page.path }}" class="usa-sidenav-edit" target="_blank">{{ footer.edit_page.text | default: 'Edit this page' }}</a>
+    </p>
+  </div>
+</div>

@@ -1,13 +1,18 @@
 # This is the configuration for the site footer.
 
-# Used to show the "Return to top" link; can also be
-# configured as an object with 'text' and 'href' properties.
+# Used to show the "Return to top" link at the bottom of the page.
+# The text and href are configurable.
 top:
   text: Return to top
   href: '#'
 
+# Used to show an "Edit this page" link at the bottom of the page.
+# The text is configurable and the link is built from the _comfig.yml.
+edit_page:
+  text: Edit this page
+
 # Used to show the "Last updated" date and time;
-# last_updated: true
+last_updated: true
 
 # Which links to show at the top of the footer.
 # This can key into _data/navigation.yml or a list of link objects
