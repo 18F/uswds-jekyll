@@ -1,12 +1,5 @@
 title: This is the site title
 
-# GitHub information
-# This is used for adding an edit this page link to the footer
-github:
-  organization: 18F
-  repository: federalist-uswds-template
-  default_branch: master
-
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
 

@@ -1,17 +1,16 @@
 {% if footer %}
+
+{% if footer.last_updated %}
+  {% include last-modified.html %}
+{% endif %}
+
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
 
-  {% if footer.last_updated or footer.edit_page %}
-    {% include page-meta.html %}
-  {% endif %}
-
   {% if footer.top %}
-    <div class="usa-grid usa-footer-return-to-top">
-      <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
-    </div>
+  <div class="usa-grid usa-footer-return-to-top">
+    <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
+  </div>
   {% endif %}
-
-
 
   {% if footer.links %}
     {% assign footer_links = site.data.navigation[footer.links] | default: footer.links %}
