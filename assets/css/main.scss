@@ -7,31 +7,31 @@
 {% if _theme %}
 
 // Typography
-$font-sans: {{ _theme.fonts.sans }};
-$font-serif: {{ _theme.fonts.serif }};
-$font-normal: {{ _theme.fonts.normal }};
-$font-bold: {{ _theme.fonts.bold }};
+{% if _theme.fonts.sans %}$font-sans: {{ _theme.fonts.sans }};{% endif %}
+{% if _theme.fonts.serif %}$font-serif: {{ _theme.fonts.serif }};{% endif %}
+{% if _theme.fonts.normal %}$font-normal: {{ _theme.fonts.normal }};{% endif %}
+{% if _theme.fonts.bold %}$font-bold: {{ _theme.fonts.bold }};{% endif %}
 
 // Colors
-$color-primary: {{ _theme.colors.primary }};
-$color-primary-darker: {{ _theme.colors.primary-darker }};
-$color-primary-darkest: {{ _theme.colors.primary-darkest }};
+{% if _theme.colors.primary %}$color-primary: {{ _theme.colors.primary }};{% endif %}
+{% if _theme.colors.primary-darker %}$color-primary-darker: {{ _theme.colors.primary-darker }};{% endif %}
+{% if _theme.colors.primary-darkest %}$color-primary-darkest: {{ _theme.colors.primary-darkest }};{% endif %}
 
-$color-primary-alt: {{ _theme.colors.primary-alt }};
-$color-primary-alt-dark: {{ _theme.colors.primary-alt-dark }};
-$color-primary-alt-darkest: {{ _theme.colors.primary-alt-darkest }};
-$color-primary-alt-light: {{ _theme.colors.primary-alt-light }};
-$color-primary-alt-lightest: {{ _theme.colors.primary-alt-lightest }};
+{% if _theme.colors.primary-alt %}$color-primary-alt: {{ _theme.colors.primary-alt }};{% endif %}
+{% if _theme.colors.primary-alt-dark %}$color-primary-alt-dark: {{ _theme.colors.primary-alt-dark }};{% endif %}
+{% if _theme.colors.primary-alt-darkest %}$color-primary-alt-darkest: {{ _theme.colors.primary-alt-darkest }};{% endif %}
+{% if _theme.colors.primary-alt-light %}$color-primary-alt-light: {{ _theme.colors.primary-alt-light }};{% endif %}
+{% if _theme.colors.primary-alt-lightest %}$color-primary-alt-lightest: {{ _theme.colors.primary-alt-lightest }};{% endif %}
 
-$color-secondary: {{ _theme.colors.secondary }};
-$color-secondary-dark: {{ _theme.colors.secondary-dark }};
-$color-secondary-darkest: {{ _theme.colors.secondary-darkest }};
-$color-secondary-light: {{ _theme.colors.secondary-light }};
-$color-secondary-lightest: {{ _theme.colors.secondary-lightest }};
+{% if _theme.colors.secondary %}$color-secondary: {{ _theme.colors.secondary }};{% endif %}
+{% if _theme.colors.secondary-dark %}$color-secondary-dark: {{ _theme.colors.secondary-dark }};{% endif %}
+{% if _theme.colors.secondary-darkest %}$color-secondary-darkest: {{ _theme.colors.secondary-darkest }};{% endif %}
+{% if _theme.colors.secondary-light %}$color-secondary-light: {{ _theme.colors.secondary-light }};{% endif %}
+{% if _theme.colors.secondary-lightest %}$color-secondary-lightest: {{ _theme.colors.secondary-lightest }};{% endif %}
 
-$color-base: {{ _theme.colors.base }};
-$color-focus: {{ _theme.colors.focus }};
-$color-visited: {{ _theme.colors.visited }};
+{% if _theme.colors.base %}$color-base: {{ _theme.colors.base }};{% endif %}
+{% if _theme.colors.focus %}$color-focus: {{ _theme.colors.focus }};{% endif %}
+{% if _theme.colors.visited %}$color-visited: {{ _theme.colors.visited }};{% endif %}
 
 {% endif %}
 
