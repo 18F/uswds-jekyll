@@ -1,2 +1,8 @@
 {% assign footer = site.data.footer %}
-{% include components/footer.html %}
+
+
+{% if footer.type == 'medium' %}
+  {% include components/footer--medium.html %}
+{% else %}
+{% include components/footer--medium.html %}
+{% endif %}
