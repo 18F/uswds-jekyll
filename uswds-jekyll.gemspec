@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.authors       = ['Shawn Allen', 'Brian Hurst', 'Scott Weber']
   s.email         = ['brian.hurst@gsa.gov', 'scott.weber@gsa.gov']
 
-  s.summary       = "A Jekyll theme for the U.S. Web Design Standards."
-  s.homepage      = "https://standards.usa.gov/"
+  s.summary       = "A Jekyll theme for the U.S. Web Design System."
+  s.homepage      = "https://designsystem.digital.gov/"
   s.license       = "CC0-1.0"
 
   s.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|LICENSE|README)}i) }
