@@ -1,20 +1,42 @@
+# should we name these colors based on what elements they change or keep them the same name as the uswds variable colors?
+
 colors:
-  primary: '#458985'
-  primary-darker: 'darken($color-primary, 5%)'
-  primary-darkest: 'darken($color-primary, 10%)'
-  primary-alt: '#D7D6A5'
-  primary-alt-dark: 'darken($color-primary-alt, 5%)'
-  primary-alt-darkest: 'darken($color-primary-alt, 10%)'
+# content link color, hover color in nav, active highlight in nav, primary button bg color, return to to link color
+# usa-banner link color ???
+  primary: 'red'
+# content link hover color, usa-banner link hover color, primary button hover bg color, return to top link hover color
+  primary-darker: 'pink'
+# hero bg color, content section bg color
+  primary-darkest: 'maroon'
+  # primary-darker: 'darken($color-primary, 50%)'
+  # primary-darkest: 'darken($color-primary, 100%)'
+# hero alt heading color, hero link color, content section heading color
+  primary-alt: 'lightblue'
+  primary-alt-dark: 'purple'
+  primary-alt-darkest: 'blue'
+  # primary-alt-dark: 'darken($color-primary-alt, 5%)'
+  # primary-alt-darkest: 'darken($color-primary-alt, 10%)'
   primary-alt-light: 'lighten($color-primary-alt, 5%)'
   primary-alt-lightest: 'lighten($color-primary-alt, 10%)'
-  secondary: '#074358'
-  secondary-dark: 'darken($color-secondary, 5%)'
-  secondary-darkest: 'darken($color-secondary, 10%)'
+# dont see any changes for these secondary items?
+  secondary: 'DarkOliveGreen'
+  secondary-dark: 'Olive'
+  secondary-darkest: 'OliveDrab'
+  # secondary-dark: 'darken($color-secondary, 5%)'
+  # secondary-darkest: 'darken($color-secondary, 10%)'
   secondary-light: 'lighten($color-secondary, 5%)'
   secondary-lightest: 'lighten($color-secondary, 10%)'
-  base: '#212121'
-  focus: '#aeb0b5'
-  visited: '#4c2c92'
+# header site title, active top nav link color, left nav link color, link color in primary footer and main footer
+# text in usa-banner ???
+  base: 'SaddleBrown'
+# dont see any changes what does this change?
+  focus: 'lime'
+# visited link color, return to top visited color
+  visited: 'Cyan'
+# changes primary footer and the usa-banner
+  primary-footer-bg: 'orange'
+  footer-bg: 'yellow'
+  left-nav-hover-bg: 'MediumAquamarine'
 
 fonts:
   sans: >
@@ -23,10 +45,3 @@ fonts:
     "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
   normal: 300
   bold: 500
-
-images:
-  graphic: '/assets/themes/beach/img/circle.png'
-  hero: '/assets/themes/beach/img/hero.jpg'
-
-styles:
-  - '/assets/themes/beach/css/main.css'

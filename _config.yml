@@ -19,4 +19,8 @@ title: This is the site title
 # search_site_handle: searchgov-site-handle
 
 # Change the theme variant. Current options are: "beach"
-# theme_variant: beach
+theme_variant: beach
+sass:
+  load_paths:
+    - _sass
+    - assets/themes

@@ -13,25 +13,32 @@
 {% if _theme.fonts.bold %}$font-bold: {{ _theme.fonts.bold }};{% endif %}
 
 // Colors
+// Color - Primary
 {% if _theme.colors.primary %}$color-primary: {{ _theme.colors.primary }};{% endif %}
 {% if _theme.colors.primary-darker %}$color-primary-darker: {{ _theme.colors.primary-darker }};{% endif %}
 {% if _theme.colors.primary-darkest %}$color-primary-darkest: {{ _theme.colors.primary-darkest }};{% endif %}
-
+// Color - Primary alt
 {% if _theme.colors.primary-alt %}$color-primary-alt: {{ _theme.colors.primary-alt }};{% endif %}
 {% if _theme.colors.primary-alt-dark %}$color-primary-alt-dark: {{ _theme.colors.primary-alt-dark }};{% endif %}
 {% if _theme.colors.primary-alt-darkest %}$color-primary-alt-darkest: {{ _theme.colors.primary-alt-darkest }};{% endif %}
 {% if _theme.colors.primary-alt-light %}$color-primary-alt-light: {{ _theme.colors.primary-alt-light }};{% endif %}
 {% if _theme.colors.primary-alt-lightest %}$color-primary-alt-lightest: {{ _theme.colors.primary-alt-lightest }};{% endif %}
-
+// Color - Secondary
 {% if _theme.colors.secondary %}$color-secondary: {{ _theme.colors.secondary }};{% endif %}
 {% if _theme.colors.secondary-dark %}$color-secondary-dark: {{ _theme.colors.secondary-dark }};{% endif %}
 {% if _theme.colors.secondary-darkest %}$color-secondary-darkest: {{ _theme.colors.secondary-darkest }};{% endif %}
 {% if _theme.colors.secondary-light %}$color-secondary-light: {{ _theme.colors.secondary-light }};{% endif %}
 {% if _theme.colors.secondary-lightest %}$color-secondary-lightest: {{ _theme.colors.secondary-lightest }};{% endif %}
-
+// Color - Text and links
 {% if _theme.colors.base %}$color-base: {{ _theme.colors.base }};{% endif %}
 {% if _theme.colors.focus %}$color-focus: {{ _theme.colors.focus }};{% endif %}
 {% if _theme.colors.visited %}$color-visited: {{ _theme.colors.visited }};{% endif %}
+
+// Color - Additional variables
+{% if _theme.colors.color-gray-lightest %} $color-gray-lightest: {{ _theme.colors.color-gray-lightest }};{% endif %}
+{% if _theme.colors.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.primary-footer-bg }}; {% endif %}
+{% if _theme.colors.footer-bg %} $footer-bg: {{ _theme.colors.footer-bg }}; {% endif %}
+{% if _theme.colors.left-nav-hover-bg %} $left-nav-hover-bg: {{ _theme.colors.left-nav-hover-bg }}; {% endif %}
 
 {% endif %}
 
@@ -39,3 +46,20 @@ $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
 
 @import 'uswds/all';
+
+{% if _theme %}
+
+.usa-footer-primary-section {
+  background-color: $primary-footer-bg;
+}
+.usa-footer-secondary_section {
+  background-color: $footer-bg;
+}
+.usa-sidenav-list a:hover {
+  background-color: $left-nav-hover-bg;
+}
+
+@import '{{_theme_key}}/css/main';
+
+
+{% endif %}
