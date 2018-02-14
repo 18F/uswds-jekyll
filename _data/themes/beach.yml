@@ -1,13 +1,14 @@
-# should we name these colors based on what elements they change or keep them the same name as the uswds variable colors?
 
+# Color configurations
 colors:
-# content link color, hover color in nav, active highlight in nav, primary button bg color, return to to link color
+# changes content link color, hover color in nav, active highlight in nav, primary button bg color, return to top link color
 # usa-banner link color ???
-  primary: 'red'
+  primary: 'LightBlue'
 # content link hover color, usa-banner link hover color, primary button hover bg color, return to top link hover color
   primary-darker: 'pink'
 # hero bg color, content section bg color
-  primary-darkest: 'maroon'
+  primary-darkest: 'Cornsilk'
+  primary-darkest-text-color: 'Black'
   # primary-darker: 'darken($color-primary, 50%)'
   # primary-darkest: 'darken($color-primary, 100%)'
 # hero alt heading color, hero link color, content section heading color
@@ -18,26 +19,69 @@ colors:
   # primary-alt-darkest: 'darken($color-primary-alt, 10%)'
   primary-alt-light: 'lighten($color-primary-alt, 5%)'
   primary-alt-lightest: 'lighten($color-primary-alt, 10%)'
-# dont see any changes for these secondary items?
-  secondary: 'DarkOliveGreen'
-  secondary-dark: 'Olive'
-  secondary-darkest: 'OliveDrab'
   # secondary-dark: 'darken($color-secondary, 5%)'
   # secondary-darkest: 'darken($color-secondary, 10%)'
   secondary-light: 'lighten($color-secondary, 5%)'
   secondary-lightest: 'lighten($color-secondary, 10%)'
+
 # header site title, active top nav link color, left nav link color, link color in primary footer and main footer
 # text in usa-banner ???
   base: 'SaddleBrown'
+
+# Navigation colors
+  navigation:
+# Top nav colors
+    top-nav-bg: 'red'
+    top-nav-link: 'white'
+    top-nav-link-hover: 'green'
+    top-nav-link-current: 'black'
+    top-nav-dropdown-bg: 'pink'
+    top-nav-dropdown-link-hover-bg: 'green'
+
+# Side nav colors
+    left-nav-hover-bg: 'MediumAquamarine'
+
+# USA banner colors
+  usa-banner:
+    usa-banner-bg: 'MediumPurple'
+    usa-banner-text: 'white'
+    usa-banner-link: 'Lavender'
+    usa-banner-link-hover: 'FireBrick'
+
+# Link colors
+# changes visited link color
+  visited: 'Cyan'
+
+# Footer colors
+  footer:
+# changes the primary footer background color
+    primary-footer-bg: 'Gainsboro'
+    primary-footer-link: 'black'
+# changes the main footer background color
+    footer-bg: 'DarkSlateGray'
+    footer-text: 'white'
+    footer-link: 'LightBlue'
+
+
+
+
+###
+###
+###
+# dont see any changes for these secondary items?
+  secondary: 'DarkOliveGreen'
+  secondary-dark: 'Olive'
+  secondary-darkest: 'OliveDrab'
 # dont see any changes what does this change?
   focus: 'lime'
-# visited link color, return to top visited color
-  visited: 'Cyan'
-# changes primary footer and the usa-banner
-  primary-footer-bg: 'orange'
-  footer-bg: 'yellow'
-  left-nav-hover-bg: 'MediumAquamarine'
 
+
+
+# Font configurations
+# 'sans' is applied to navigation and body text
+# 'serif' is applied to headings
+# 'normal' defines the default font weight
+# 'bold' defines the bold font weight
 fonts:
   sans: >
     "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
