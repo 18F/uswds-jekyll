@@ -63,7 +63,16 @@
 {% if _theme.colors.usa-banner.usa-banner-link %} $usa-banner-link: {{ _theme.colors.usa-banner.usa-banner-link }};{% endif %}
 {% if _theme.colors.usa-banner.usa-banner-link-hover %} $usa-banner-link-hover: {{ _theme.colors.usa-banner.usa-banner-link-hover }};{% endif %}
 
-
+// Color - Hero
+  {% if _theme.colors.hero %}
+    $hero-bg: {{ _theme.colors.hero.hero-bg }};
+    $hero-header-alt: {{ _theme.colors.hero.hero-header-alt }};
+    $hero-header: {{ _theme.colors.hero.hero-header }};
+    $hero-text: {{ _theme.colors.hero.hero-text }};
+    $hero-link: {{ _theme.colors.hero.hero-link }};
+    $hero-button-bg: {{ _theme.colors.hero.hero-button-bg }};
+    $hero-button-text: {{ _theme.colors.hero.hero-button-text }};
+  {% endif %}
 {% endif %}
 
 $font-path: '../uswds/fonts';
@@ -151,6 +160,30 @@ $image-path: '../uswds/img';
 .usa-sidenav-list a:hover {
   background-color: $left-nav-hover-bg;
 }
+
+{% if _theme.colors.hero %}
+.usa-hero {
+.usa-hero-callout {
+  background-color: $hero-bg;
+  h1,h2,h3,h4,h5,h6 {
+    color: $hero-header;
+  }
+  .usa-hero-callout-alt {
+    color: $hero-header-alt;
+  }
+  p {
+    color: $hero-text;
+  }
+  .usa-hero-link {
+    color: $hero-link;
+  }
+  .usa-button {
+    background-color: $hero-button-bg;
+    color: $hero-button-text;
+  }
+}
+}
+{% endif %}
 
 @import '{{_theme_key}}/css/main';
 

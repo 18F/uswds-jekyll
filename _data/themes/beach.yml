@@ -1,9 +1,8 @@
-
 # Color configurations
 colors:
 # changes content link color, hover color in nav, active highlight in nav, primary button bg color, return to top link color
 # usa-banner link color ???
-  primary: 'LightBlue'
+  primary: 'DodgerBlue'
 # content link hover color, usa-banner link hover color, primary button hover bg color, return to top link hover color
   primary-darker: 'DarkBlue'
 # hero bg color, content section bg color
@@ -27,6 +26,16 @@ colors:
 # header site title, active top nav link color, left nav link color, link color in primary footer and main footer
 # text in usa-banner ???
   base: 'DarkSlateGray'
+
+# Hero colors
+  hero:
+    hero-bg: 'white'
+    hero-header: 'DarkSlateGray'
+    hero-header-alt: 'DarkSlateGray'
+    hero-text: 'Gray'
+    hero-link: 'DodgerBlue'
+    hero-button-bg: 'DodgerBlue'
+    hero-button-text: 'white'
 
 # Navigation colors
   navigation:
