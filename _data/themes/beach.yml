@@ -5,7 +5,7 @@ colors:
 # usa-banner link color ???
   primary: 'LightBlue'
 # content link hover color, usa-banner link hover color, primary button hover bg color, return to top link hover color
-  primary-darker: 'pink'
+  primary-darker: 'DarkBlue'
 # hero bg color, content section bg color
   primary-darkest: 'Cornsilk'
   primary-darkest-text-color: 'Black'
@@ -26,27 +26,27 @@ colors:
 
 # header site title, active top nav link color, left nav link color, link color in primary footer and main footer
 # text in usa-banner ???
-  base: 'SaddleBrown'
+  base: 'DarkSlateGray'
 
 # Navigation colors
   navigation:
 # Top nav colors
-    top-nav-bg: 'red'
+    top-nav-bg: 'DarkSlateGray'
     top-nav-link: 'white'
     top-nav-link-hover: 'green'
-    top-nav-link-current: 'black'
-    top-nav-dropdown-bg: 'pink'
-    top-nav-dropdown-link-hover-bg: 'green'
+    top-nav-link-current: 'white'
+    top-nav-dropdown-bg: '#6eb7b7'
+    top-nav-dropdown-link-hover-bg: 'DarkSlateGray'
 
 # Side nav colors
     left-nav-hover-bg: 'MediumAquamarine'
 
 # USA banner colors
   usa-banner:
-    usa-banner-bg: 'MediumPurple'
-    usa-banner-text: 'white'
-    usa-banner-link: 'Lavender'
-    usa-banner-link-hover: 'FireBrick'
+    usa-banner-bg: 'LightBlue'
+    usa-banner-text: 'Black'
+    usa-banner-link: 'Gray'
+    usa-banner-link-hover: 'Gray'
 
 # Link colors
 # changes visited link color
