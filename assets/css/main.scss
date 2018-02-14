@@ -17,6 +17,8 @@
 {% if _theme.colors.primary %}$color-primary: {{ _theme.colors.primary }};{% endif %}
 {% if _theme.colors.primary-darker %}$color-primary-darker: {{ _theme.colors.primary-darker }};{% endif %}
 {% if _theme.colors.primary-darkest %}$color-primary-darkest: {{ _theme.colors.primary-darkest }};{% endif %}
+{% if _theme.colors.primary-darkest-text-color %}$color-primary-darkest-text-color: {{ _theme.colors.primary-darkest-text-color }};{% endif %}
+
 // Color - Primary alt
 {% if _theme.colors.primary-alt %}$color-primary-alt: {{ _theme.colors.primary-alt }};{% endif %}
 {% if _theme.colors.primary-alt-dark %}$color-primary-alt-dark: {{ _theme.colors.primary-alt-dark }};{% endif %}
@@ -141,6 +143,11 @@ $image-path: '../uswds/img';
       }
     }
   {% endif %}
+.usa-section-dark,
+.usa-section-dark p {
+  color: $color-primary-darkest-text-color;
+
+}
 .usa-sidenav-list a:hover {
   background-color: $left-nav-hover-bg;
 }
