@@ -1,91 +1,3 @@
-# Color configurations
-colors:
-# changes content link color, hover color in nav, active highlight in nav, primary button bg color, return to top link color
-# usa-banner link color ???
-  primary: 'DodgerBlue'
-# content link hover color, usa-banner link hover color, primary button hover bg color, return to top link hover color
-  primary-darker: 'DarkBlue'
-# hero bg color, content section bg color
-  primary-darkest: 'Cornsilk'
-  primary-darkest-text-color: 'Black'
-  # primary-darker: 'darken($color-primary, 50%)'
-  # primary-darkest: 'darken($color-primary, 100%)'
-# hero alt heading color, hero link color, content section heading color
-  primary-alt: 'lightblue'
-  primary-alt-dark: 'purple'
-  primary-alt-darkest: 'blue'
-  # primary-alt-dark: 'darken($color-primary-alt, 5%)'
-  # primary-alt-darkest: 'darken($color-primary-alt, 10%)'
-  primary-alt-light: 'lighten($color-primary-alt, 5%)'
-  primary-alt-lightest: 'lighten($color-primary-alt, 10%)'
-  # secondary-dark: 'darken($color-secondary, 5%)'
-  # secondary-darkest: 'darken($color-secondary, 10%)'
-  secondary-light: 'lighten($color-secondary, 5%)'
-  secondary-lightest: 'lighten($color-secondary, 10%)'
-
-# header site title, active top nav link color, left nav link color, link color in primary footer and main footer
-# text in usa-banner ???
-  base: 'DarkSlateGray'
-
-# Hero colors
-  hero:
-    hero-bg: 'white'
-    hero-header: 'DarkSlateGray'
-    hero-header-alt: 'DarkSlateGray'
-    hero-text: 'Gray'
-    hero-link: 'DodgerBlue'
-    hero-button-bg: 'DodgerBlue'
-    hero-button-text: 'white'
-
-# Navigation colors
-  navigation:
-# Top nav colors
-    top-nav-bg: 'DarkSlateGray'
-    top-nav-link: 'white'
-    top-nav-link-hover: 'green'
-    top-nav-link-current: 'white'
-    top-nav-dropdown-bg: '#6eb7b7'
-    top-nav-dropdown-link-hover-bg: 'DarkSlateGray'
-
-# Side nav colors
-    left-nav-hover-bg: 'MediumAquamarine'
-
-# USA banner colors
-  usa-banner:
-    usa-banner-bg: 'LightBlue'
-    usa-banner-text: 'Black'
-    usa-banner-link: 'Gray'
-    usa-banner-link-hover: 'Gray'
-
-# Link colors
-# changes visited link color
-  visited: 'Cyan'
-
-# Footer colors
-  footer:
-# changes the primary footer background color
-    primary-footer-bg: 'Gainsboro'
-    primary-footer-link: 'black'
-# changes the main footer background color
-    footer-bg: 'DarkSlateGray'
-    footer-text: 'white'
-    footer-link: 'LightBlue'
-
-
-
-
-###
-###
-###
-# dont see any changes for these secondary items?
-  secondary: 'DarkOliveGreen'
-  secondary-dark: 'Olive'
-  secondary-darkest: 'OliveDrab'
-# dont see any changes what does this change?
-  focus: 'lime'
-
-
-
 # Font configurations
 # 'sans' is applied to navigation and body text
 # 'serif' is applied to headings
@@ -98,3 +10,84 @@ fonts:
     "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
   normal: 300
   bold: 500
+
+# Color configurations
+colors:
+# primary changes content link color, primary button bg color, return to top link color
+  primary: 'DodgerBlue'
+# primary darker changes content link hover color, primary button hover bg color, return to top link hover color
+  primary-darker: 'pink'
+
+# header site title, active top nav link color, left nav link color, link color in primary footer and main footer
+# text in usa-banner ???
+  base: 'DarkSlateGray'
+
+# Link colors
+  visited: 'Purple'
+
+# USA banner colors
+  usa-banner:
+    usa-banner-bg: 'LightBlue'
+    usa-banner-text: 'Black'
+    usa-banner-link: 'Gray'
+    usa-banner-link-hover: 'Gray'
+
+# Alt Section bg color
+  alt-section:
+    bg-color: 'Cornsilk'
+    header-color: 'Blue'
+    text-color: 'Black'
+    link-color: 'red'
+    link-hover-color: 'orange'
+
+# Hero colors
+  hero:
+    hero-bg: 'white'
+    hero-header: 'DarkSlateGray'
+    hero-header-alt: 'DarkSlateGray'
+    hero-text: 'Gray'
+    hero-link: 'DodgerBlue'
+    hero-button-bg: 'DodgerBlue'
+    hero-button-text: 'white'
+
+# Navigation colors
+# Top nav colors
+  top-navigation:
+    top-nav-bg: 'DarkSlateGray'
+    top-nav-link: 'white'
+    top-nav-link-hover: 'green'
+    top-nav-link-current: 'white'
+    top-nav-dropdown-bg: '#6eb7b7'
+    top-nav-dropdown-link-hover-bg: 'DarkSlateGray'
+# Side nav colors
+  side-navigation:
+    side-nav-bg: 'white'
+    side-nav-link: 'black'
+    side-nav-link-hover: 'white'
+    side-nav-link-hover-bg: 'DarkSlateGray'
+    side-nav-link-current: 'DarkSlateGray'
+
+# Footer colors
+  footer:
+    primary-footer-bg: 'Gainsboro'
+    primary-footer-link: 'black'
+    footer-bg: 'DarkSlateGray'
+    footer-text: 'white'
+    footer-link: 'LightBlue'
+
+
+###
+###
+###
+# dont see any changes what does these change, are they needed?
+  secondary-light: 'lime'
+  secondary-lightest: 'lime'
+  secondary: 'DarkOliveGreen'
+  secondary-dark: 'Olive'
+  secondary-darkest: 'OliveDrab'
+  focus: 'lime'
+  primary-alt: 'lime'
+  primary-alt-dark: 'lime'
+  primary-alt-darkest: 'lime'
+  primary-alt-light: 'lime'
+  primary-alt-lightest: 'lime'

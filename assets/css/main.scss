@@ -41,14 +41,23 @@
 
 // Color - Navigation
 // Top nav
-{% if _theme.colors.navigation.top-nav-bg %} $top-nav-bg: {{ _theme.colors.navigation.top-nav-bg }}; {% endif %}
-{% if _theme.colors.navigation.top-nav-link %} $top-nav-link: {{ _theme.colors.navigation.top-nav-link }}; {% endif %}
-{% if _theme.colors.navigation.top-nav-link-hover %} $top-nav-link-hover: {{ _theme.colors.navigation.top-nav-link-hover }}; {% endif %}
-{% if _theme.colors.navigation.top-nav-link-current %} $top-nav-link-current: {{ _theme.colors.navigation.top-nav-link-current }}; {% endif %}
-{% if _theme.colors.navigation.top-nav-dropdown-bg %} $top-nav-dropdown-bg: {{ _theme.colors.navigation.top-nav-dropdown-bg }}; {% endif %}
-{% if _theme.colors.navigation.top-nav-dropdown-link-hover-bg %} $top-nav-dropdown-link-hover-bg: {{ _theme.colors.navigation.top-nav-dropdown-link-hover-bg }}; {% endif %}
+  {% if _theme.colors.top-navigation.top-nav-bg %}
+    $top-nav-bg: {{ _theme.colors.top-navigation.top-nav-bg }};
+    $top-nav-link: {{ _theme.colors.top-navigation.top-nav-link }};
+    $top-nav-link-hover: {{ _theme.colors.top-navigation.top-nav-link-hover }};
+    $top-nav-link-current: {{ _theme.colors.top-navigation.top-nav-link-current }};
+    $top-nav-dropdown-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-bg }};
+    $top-nav-dropdown-link-hover-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-link-hover-bg }};
+  {% endif %}
 // Side nav
-{% if _theme.colors.navigation.left-nav-hover-bg %} $left-nav-hover-bg: {{ _theme.colors.navigation.left-nav-hover-bg }}; {% endif %}
+  {% if _theme.colors.side-navigation %}
+    $side-nav-bg: {{ _theme.colors.side-navigation.side-nav-bg }};
+    $side-nav-link: {{ _theme.colors.side-navigation.side-nav-link }};
+    $side-nav-link-hover: {{ _theme.colors.side-navigation.side-nav-link-hover }};
+    $side-nav-link-hover-bg: {{ _theme.colors.side-navigation.side-nav-link-hover-bg }};
+    $side-nav-link-current: {{ _theme.colors.side-navigation.side-nav-link-current }};
+  {% endif %}
+
 
 // Color - Footer
 {% if _theme.colors.footer.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.footer.primary-footer-bg }}; {% endif %}
@@ -73,6 +82,16 @@
     $hero-button-bg: {{ _theme.colors.hero.hero-button-bg }};
     $hero-button-text: {{ _theme.colors.hero.hero-button-text }};
   {% endif %}
+
+  // Color - Alt section
+    {% if _theme.colors.alt-section %}
+      $alt-section-bg: {{ _theme.colors.alt-section.bg-color }};
+      $alt-section-header: {{ _theme.colors.alt-section.header-color }};
+      $alt-section-text: {{ _theme.colors.alt-section.text-color }};
+      $alt-section-link: {{ _theme.colors.alt-section.link-color }};
+      $alt-section-link-hover: {{ _theme.colors.alt-section.link-hover-color }};
+    {% endif %}
+
 {% endif %}
 
 $font-path: '../uswds/fonts';
@@ -98,7 +117,8 @@ $image-path: '../uswds/img';
     }
   }
   {% endif %}
-  {% if _theme.colors.navigation %}
+// Top nav
+  {% if _theme.colors.top-navigation %}
     .usa-header {
       .usa-nav {
       background-color: $top-nav-bg;
@@ -152,38 +172,47 @@ $image-path: '../uswds/img';
       }
     }
   {% endif %}
-.usa-section-dark,
-.usa-section-dark p {
-  color: $color-primary-darkest-text-color;
+// Alt section
+  {% if _theme.colors.alt-section %}
+    .usa-section-dark {
+      background-color: $alt-section-bg;
+      h1,h2,h3,h4,h5,h6 {
+        color: $alt-section-header;
+      }
+      p {
+        color: $alt-section-text;
+      }
+      a {
+        color: $alt-section-link;
+        &:hover {
+          color: $alt-section-link-hover;
+        }
+      }
+    }
+  {% endif %}
+// Side nav
+  {% if _theme.colors.side-navigation %}
+    .usa-sidenav-list {
+      background-color: $side-nav-bg;
+      a {
+        color: $side-nav-link;
+        &:hover {
+          background-color: $side-nav-link-hover-bg;
+          color: $side-nav-link-hover;
+        }
+        &.usa-current {
+          color: $side-nav-link-current;
+          border-color: $side-nav-link-current;
+        }
+      }
+    }
+  {% endif %}
 
-}
-.usa-sidenav-list a:hover {
-  background-color: $left-nav-hover-bg;
-}
-
-{% if _theme.colors.hero %}
-.usa-hero {
-.usa-hero-callout {
-  background-color: $hero-bg;
-  h1,h2,h3,h4,h5,h6 {
-    color: $hero-header;
-  }
-  .usa-hero-callout-alt {
-    color: $hero-header-alt;
-  }
-  p {
-    color: $hero-text;
-  }
-  .usa-hero-link {
-    color: $hero-link;
-  }
-  .usa-button {
-    background-color: $hero-button-bg;
-    color: $hero-button-text;
-  }
-}
-}
-{% endif %}
+// Does it make sense to modualrize these portions of styles?
+// Hero -
+  {% if _theme.colors.hero %}
+    @import 'hero';
+  {% endif %}
 
 @import '{{_theme_key}}/css/main';
 
