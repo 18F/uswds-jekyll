@@ -36,9 +36,31 @@
 
 // Color - Additional variables
 {% if _theme.colors.color-gray-lightest %} $color-gray-lightest: {{ _theme.colors.color-gray-lightest }};{% endif %}
-{% if _theme.colors.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.primary-footer-bg }}; {% endif %}
-{% if _theme.colors.footer-bg %} $footer-bg: {{ _theme.colors.footer-bg }}; {% endif %}
-{% if _theme.colors.left-nav-hover-bg %} $left-nav-hover-bg: {{ _theme.colors.left-nav-hover-bg }}; {% endif %}
+
+// Color - Navigation
+// Top nav
+{% if _theme.colors.navigation.top-nav-bg %} $top-nav-bg: {{ _theme.colors.navigation.top-nav-bg }}; {% endif %}
+{% if _theme.colors.navigation.top-nav-link %} $top-nav-link: {{ _theme.colors.navigation.top-nav-link }}; {% endif %}
+{% if _theme.colors.navigation.top-nav-link-hover %} $top-nav-link-hover: {{ _theme.colors.navigation.top-nav-link-hover }}; {% endif %}
+{% if _theme.colors.navigation.top-nav-link-current %} $top-nav-link-current: {{ _theme.colors.navigation.top-nav-link-current }}; {% endif %}
+{% if _theme.colors.navigation.top-nav-dropdown-bg %} $top-nav-dropdown-bg: {{ _theme.colors.navigation.top-nav-dropdown-bg }}; {% endif %}
+{% if _theme.colors.navigation.top-nav-dropdown-link-hover-bg %} $top-nav-dropdown-link-hover-bg: {{ _theme.colors.navigation.top-nav-dropdown-link-hover-bg }}; {% endif %}
+// Side nav
+{% if _theme.colors.navigation.left-nav-hover-bg %} $left-nav-hover-bg: {{ _theme.colors.navigation.left-nav-hover-bg }}; {% endif %}
+
+// Color - Footer
+{% if _theme.colors.footer.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.footer.primary-footer-bg }}; {% endif %}
+{% if _theme.colors.footer.primary-footer-link %} $primary-footer-link: {{ _theme.colors.footer.primary-footer-link }}; {% endif %}
+{% if _theme.colors.footer.footer-bg %} $footer-bg: {{ _theme.colors.footer.footer-bg }}; {% endif %}
+{% if _theme.colors.footer.footer-text %} $footer-text: {{ _theme.colors.footer.footer-text }}; {% endif %}
+{% if _theme.colors.footer.footer-link %} $footer-link: {{ _theme.colors.footer.footer-link }}; {% endif %}
+
+// Color - USA banner
+{% if _theme.colors.usa-banner.usa-banner-bg %} $usa-banner-bg: {{ _theme.colors.usa-banner.usa-banner-bg }};{% endif %}
+{% if _theme.colors.usa-banner.usa-banner-text %} $usa-banner-text: {{ _theme.colors.usa-banner.usa-banner-text }};{% endif %}
+{% if _theme.colors.usa-banner.usa-banner-link %} $usa-banner-link: {{ _theme.colors.usa-banner.usa-banner-link }};{% endif %}
+{% if _theme.colors.usa-banner.usa-banner-link-hover %} $usa-banner-link-hover: {{ _theme.colors.usa-banner.usa-banner-link-hover }};{% endif %}
+
 
 {% endif %}
 
@@ -48,13 +70,77 @@ $image-path: '../uswds/img';
 @import 'uswds/all';
 
 {% if _theme %}
-
-.usa-footer-primary-section {
-  background-color: $primary-footer-bg;
-}
-.usa-footer-secondary_section {
-  background-color: $footer-bg;
-}
+  {% if _theme.colors.usa-banner %}
+  .usa-banner {
+    background-color: $usa-banner-bg;
+    .usa-banner-header {
+      color: $usa-banner-text;
+    }
+    .usa-banner-button {
+      color: $usa-banner-link;
+      &:hover {
+        color: $usa-banner-link-hover;
+      }
+    }
+    .usa-banner-content {
+      color: $usa-banner-text;
+    }
+  }
+  {% endif %}
+  {% if _theme.colors.navigation %}
+    .usa-header {
+      .usa-nav {
+      background-color: $top-nav-bg;
+    }
+    .usa-nav-primary {
+      .usa-nav-link {
+      span {
+        color: $top-nav-link;
+      }
+      &:hover {
+        color: $top-nav-link-current;
+        span {
+        color: $top-nav-link-current;
+        border-bottom-color: $top-nav-link-current;
+        }
+      }
+      }
+      .usa-current,
+      .usa-current span,
+      button[aria-expanded=true] span
+      {
+        color: $top-nav-link-current;
+        border-bottom-color: $top-nav-link-current;
+      }
+    }
+    button[aria-expanded=true],
+    button[aria-expanded=true]:hover,
+    .usa-nav-submenu
+     {
+      background-color: $top-nav-dropdown-bg;
+    }
+    .usa-nav-submenu {
+      a:hover {
+        background-color: $top-nav-dropdown-link-hover-bg
+      }
+    }
+  }
+  {% endif %}
+  {% if _theme.colors.footer %}
+    .usa-footer-primary-section {
+      background-color: $primary-footer-bg;
+      .usa-footer-primary-link {
+        color: $primary-footer-link;
+      }
+    }
+    .usa-footer-secondary_section {
+      background-color: $footer-bg;
+      color: $footer-text;
+      a {
+        color: $footer-link;
+      }
+    }
+  {% endif %}
 .usa-sidenav-list a:hover {
   background-color: $left-nav-hover-bg;
 }
