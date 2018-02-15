@@ -25,12 +25,14 @@
 {% if _theme.colors.primary-alt-darkest %}$color-primary-alt-darkest: {{ _theme.colors.primary-alt-darkest }};{% endif %}
 {% if _theme.colors.primary-alt-light %}$color-primary-alt-light: {{ _theme.colors.primary-alt-light }};{% endif %}
 {% if _theme.colors.primary-alt-lightest %}$color-primary-alt-lightest: {{ _theme.colors.primary-alt-lightest }};{% endif %}
+
 // Color - Secondary
 {% if _theme.colors.secondary %}$color-secondary: {{ _theme.colors.secondary }};{% endif %}
 {% if _theme.colors.secondary-dark %}$color-secondary-dark: {{ _theme.colors.secondary-dark }};{% endif %}
 {% if _theme.colors.secondary-darkest %}$color-secondary-darkest: {{ _theme.colors.secondary-darkest }};{% endif %}
 {% if _theme.colors.secondary-light %}$color-secondary-light: {{ _theme.colors.secondary-light }};{% endif %}
 {% if _theme.colors.secondary-lightest %}$color-secondary-lightest: {{ _theme.colors.secondary-lightest }};{% endif %}
+
 // Color - Text and links
 {% if _theme.colors.base %}$color-base: {{ _theme.colors.base }};{% endif %}
 {% if _theme.colors.focus %}$color-focus: {{ _theme.colors.focus }};{% endif %}
@@ -49,6 +51,7 @@
     $top-nav-dropdown-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-bg }};
     $top-nav-dropdown-link-hover-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-link-hover-bg }};
   {% endif %}
+
 // Side nav
   {% if _theme.colors.side-navigation %}
     $side-nav-bg: {{ _theme.colors.side-navigation.side-nav-bg }};
@@ -57,7 +60,6 @@
     $side-nav-link-hover-bg: {{ _theme.colors.side-navigation.side-nav-link-hover-bg }};
     $side-nav-link-current: {{ _theme.colors.side-navigation.side-nav-link-current }};
   {% endif %}
-
 
 // Color - Footer
 {% if _theme.colors.footer.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.footer.primary-footer-bg }}; {% endif %}
@@ -99,123 +101,26 @@ $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
 @import 'uswds/all';
 
-
 {% if _theme %}
   {% if _theme.colors.usa-banner %}
-  .usa-banner {
-    background-color: $usa-banner-bg;
-    .usa-banner-header {
-      color: $usa-banner-text;
-    }
-    .usa-banner-button {
-      color: $usa-banner-link;
-      &:hover {
-        color: $usa-banner-link-hover;
-      }
-    }
-    .usa-banner-content {
-      color: $usa-banner-text;
-    }
-  }
+     @import 'usa-banner';
   {% endif %}
-// Top nav
   {% if _theme.colors.top-navigation %}
-    .usa-header {
-      .usa-nav {
-      background-color: $top-nav-bg;
-    }
-    .usa-nav-primary {
-      .usa-nav-link {
-      span {
-        color: $top-nav-link;
-      }
-      &:hover {
-        color: $top-nav-link-current;
-        span {
-        color: $top-nav-link-current;
-        border-bottom-color: $top-nav-link-current;
-        }
-      }
-      }
-      .usa-current,
-      .usa-current span,
-      button[aria-expanded=true] span
-      {
-        color: $top-nav-link-current;
-        border-bottom-color: $top-nav-link-current;
-      }
-    }
-    button[aria-expanded=true],
-    button[aria-expanded=true]:hover,
-    .usa-nav-submenu
-     {
-      background-color: $top-nav-dropdown-bg;
-    }
-    .usa-nav-submenu {
-      a:hover {
-        background-color: $top-nav-dropdown-link-hover-bg
-      }
-    }
-  }
+    @import 'top-nav';
   {% endif %}
   {% if _theme.colors.footer %}
-    .usa-footer-primary-section {
-      background-color: $primary-footer-bg;
-      .usa-footer-primary-link {
-        color: $primary-footer-link;
-      }
-    }
-    .usa-footer-secondary_section {
-      background-color: $footer-bg;
-      color: $footer-text;
-      a {
-        color: $footer-link;
-      }
-    }
+    @import 'footer';
   {% endif %}
-// Alt section
   {% if _theme.colors.alt-section %}
-    .usa-section-dark {
-      background-color: $alt-section-bg;
-      h1,h2,h3,h4,h5,h6 {
-        color: $alt-section-header;
-      }
-      p {
-        color: $alt-section-text;
-      }
-      a {
-        color: $alt-section-link;
-        &:hover {
-          color: $alt-section-link-hover;
-        }
-      }
-    }
+    @import 'alt-color-section';
   {% endif %}
-// Side nav
   {% if _theme.colors.side-navigation %}
-    .usa-sidenav-list {
-      background-color: $side-nav-bg;
-      a {
-        color: $side-nav-link;
-        &:hover {
-          background-color: $side-nav-link-hover-bg;
-          color: $side-nav-link-hover;
-        }
-        &.usa-current {
-          color: $side-nav-link-current;
-          border-color: $side-nav-link-current;
-        }
-      }
-    }
+    @import 'side-nav';
   {% endif %}
-
-// Does it make sense to modualrize these portions of styles?
-// Hero -
   {% if _theme.colors.hero %}
     @import 'hero';
   {% endif %}
 
-@import '{{_theme_key}}/css/main';
-
+  @import '{{_theme_key}}/css/main';
 
 {% endif %}
