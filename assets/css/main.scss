@@ -94,10 +94,11 @@
 
 {% endif %}
 
+// U.S. Web Design System setup 
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
-
 @import 'uswds/all';
+
 
 {% if _theme %}
   {% if _theme.colors.usa-banner %}

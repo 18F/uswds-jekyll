@@ -1,10 +1,19 @@
 # This is the configuration for the site footer.
 
+# this defines the type of footer
+# header types can be only be medium at the moment
+type: medium
+
 # Used to show the "Return to top" link; can also be
 # configured as an object with 'text' and 'href' properties.
 top:
   text: Return to top
   href: '#'
+
+# Used to show an "Edit this page" link at the bottom of the page.
+# The text is configurable and the link is built from the _comfig.yml.
+# edit_page:
+#   text: Edit this page
 
 # Used to show the "Last updated" date and time;
 # last_updated: true
@@ -25,15 +34,28 @@ logos:
     alt: 18F
     external: true
 
+# This controls the contact section of the footer
 contact:
-  links:
-    - text: USA
+  heading: Agency contact center
+  social_links:
+    - text: Facebook
+      href: https://facebook.com
+      external: true
+      type: facebook
+    - text: Twitter
+      href: https://twitter.com
+      external: true
+      type: twitter
+    - text: YouTube
+      href: https://youtube.com
+      external: true
+      type: youtube
+    - text: RSS Feed
       href: https://usa.gov/
       external: true
-
-  heading: Contact us
-
-  address: |
-    [GitHub](https://github.com/18F/web-design-standards)
-
-    [uswebdesignstandards@gsa.gov](mailto:uswebdesignstandards@gsa.gov)
+      type: rss
+  contact_links:
+    - text: (800) CALL-GOVT
+      href: tel:1-800-555-5555
+    - text: info@agency.gov
+      href: mailto:info@agency.gov
