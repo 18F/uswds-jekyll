@@ -1,0 +1,41 @@
+.usa-header {
+  .usa-nav {
+    background-color: $top-nav-bg;
+  }
+
+  .usa-nav-primary {
+    .usa-nav-link {
+      span {
+        color: $top-nav-link;
+      }
+
+      &:hover {
+        color: $top-nav-link-current;
+
+        span {
+          border-bottom-color: $top-nav-link-current;
+          color: $top-nav-link-current;
+        }
+      }
+    }
+
+    .usa-current,
+    .usa-current span,
+    button[aria-expanded=true] span {
+      border-bottom-color: $top-nav-link-current;
+      color: $top-nav-link-current;
+    }
+  }
+
+  button[aria-expanded=true],
+  button[aria-expanded=true]:hover,
+  .usa-nav-submenu {
+    background-color: $top-nav-dropdown-bg;
+  }
+
+  .usa-nav-submenu {
+    a:hover {
+      background-color: $top-nav-dropdown-link-hover-bg;
+    }
+  }
+}
