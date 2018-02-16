@@ -1,15 +1,9 @@
 {% assign _styles = '' | split: '' %}
-{% assign _site_styles = site.styles %}
-{% unless _site_styles -%}
-  {% assign _uswds_css = '/assets/css/main.css' %}
-  {% assign _site_styles = '' | split: ''
-    | push: _uswds_css %}
-{% endunless %}
-{% assign _theme_key = site.theme_variant %}
-{% assign _theme_styles = site.data.themes[_theme_key].styles %}
+{% assign _default_styles = '' | split: ''
+  | push: '/assets/css/main.css' %}
 {% assign _styles = _styles
-  | push: _site_styles
-  | push: _theme_styles
+  | push: _default_styles
+  | push: site.styles
   | push: layout.styles
   | push: page.styles
   | uniq %}
