@@ -72,20 +72,3 @@ colors:
     footer-bg: 'DarkSlateGray'
     footer-text: 'white'
     footer-link: 'LightBlue'
-
-
-###
-###
-###
-# dont see any changes what does these change, are they needed?
-  secondary-light: 'lime'
-  secondary-lightest: 'lime'
-  secondary: 'DarkOliveGreen'
-  secondary-dark: 'Olive'
-  secondary-darkest: 'OliveDrab'
-  focus: 'lime'
-  primary-alt: 'lime'
-  primary-alt-dark: 'lime'
-  primary-alt-darkest: 'lime'
-  primary-alt-light: 'lime'
-  primary-alt-lightest: 'lime'
