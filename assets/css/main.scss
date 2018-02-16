@@ -1,6 +1,16 @@
 ---
 ---
 
+// U.S. Web Design System setup
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
+
+@import 'uswds/lib/bourbon';
+@import 'uswds/lib/neat';
+@import 'uswds/lib/normalize';
+@import 'uswds/core/variables';
+
+
 {% if site.data.fonts.fonts %}
   // Typography
   {% if site.data.fonts.fonts.sans %}$font-sans: {{ site.data.fonts.fonts.sans }};{% endif %}
@@ -13,8 +23,8 @@
   // Colors
 
   // Header colors
-  {% if site.data.colors.colors.header.header-bg %}
-    $header-bg: {{ site.data.colors.colors.header.header-bg }};
+  {% if site.data.colors.colors.header %}
+    $header-bg: {{ site.data.colors.colors.header.header-bg | default: "$color-white" }};
     $header-title: {{ site.data.colors.colors.header.header-title }};
     $header-link: {{ site.data.colors.colors.header.header-link }};
     $header-link-hover: {{ site.data.colors.colors.header.header-link-hover }};
@@ -100,9 +110,6 @@
 
 {% endif %}
 
-// U.S. Web Design System setup
-$font-path: '../uswds/fonts';
-$image-path: '../uswds/img';
 @import 'uswds/all';
 
 {% if site.data.colors.colors %}
