@@ -112,29 +112,26 @@ $image-path: '../uswds/img';
 
 @import 'uswds/all';
 
-{% if site.data.colors.colors %}
-  {% if site.data.colors.colors.usa-banner %}
-     @import 'usa-banner';
-  {% endif %}
-  {% if site.data.colors.colors.header %}
-     @import 'header';
-  {% endif %}
-  {% if site.data.colors.colors.top-navigation %}
-    @import 'top-nav';
-  {% endif %}
-  {% if site.data.colors.colors.footer %}
-    @import 'footer';
-  {% endif %}
-  {% if site.data.colors.colors.alt-section %}
-    @import 'alt-color-section';
-  {% endif %}
-  {% if site.data.colors.colors.side-navigation %}
-    @import 'side-nav';
-  {% endif %}
-  {% if site.data.colors.colors.hero %}
-    @import 'hero';
-  {% endif %}
-
-  @import 'custom';
-
+{% if site.data.colors.colors.usa-banner %}
+   @import 'components/usa-banner';
 {% endif %}
+{% if site.data.colors.colors.header %}
+   @import 'components/header';
+{% endif %}
+{% if site.data.colors.colors.top-navigation %}
+  @import 'components/top-nav';
+{% endif %}
+{% if site.data.colors.colors.footer %}
+  @import 'components/footer';
+{% endif %}
+{% if site.data.colors.colors.alt-section %}
+  @import 'components/alt-color-section';
+{% endif %}
+{% if site.data.colors.colors.side-navigation %}
+  @import 'components/side-nav';
+{% endif %}
+{% if site.data.colors.colors.hero %}
+  @import 'components/hero';
+{% endif %}
+
+@import 'custom';
