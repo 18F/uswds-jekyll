@@ -1,15 +1,3 @@
-# Font configurations
-# 'sans' is applied to navigation and body text
-# 'serif' is applied to headings
-# 'normal' defines the default font weight
-# 'bold' defines the bold font weight
-fonts:
-  sans: >
-    "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
-  serif: >
-    "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
-  normal: 300
-  bold: 500
 
 # Color configurations
 colors:
@@ -32,10 +20,17 @@ colors:
     usa-banner-link: 'Gray'
     usa-banner-link-hover: 'Gray'
 
+# Header colors
+  header:
+    header-bg: '#e6e3d0'
+    header-title: 'Black'
+    header-link: 'DarkSlateGray'
+    header-link-hover: 'Indigo'
+
 # Alt Section bg color
   alt-section:
-    bg-color: 'Cornsilk'
-    header-color: 'Blue'
+    bg-color: '#e6e3d0'
+    header-color: 'DarkSlateGray'
     text-color: 'Black'
     link-color: 'red'
     link-hover-color: 'orange'
@@ -55,10 +50,13 @@ colors:
   top-navigation:
     top-nav-bg: 'DarkSlateGray'
     top-nav-link: 'white'
-    top-nav-link-hover: 'green'
-    top-nav-link-current: 'white'
+    top-nav-link-hover: 'black'
+    top-nav-link-hover-bg: '#6eb7b7'
+    top-nav-link-current: 'black'
     top-nav-dropdown-bg: '#6eb7b7'
+    top-nav-dropdown-link: 'orange'
     top-nav-dropdown-link-hover-bg: 'DarkSlateGray'
+
 # Side nav colors
   side-navigation:
     side-nav-bg: 'white'
