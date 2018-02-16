@@ -1,7 +1,6 @@
 ---
 ---
 
-
 {% if site.data.fonts.fonts %}
   // Typography
   {% if site.data.fonts.fonts.sans %}$font-sans: {{ site.data.fonts.fonts.sans }};{% endif %}
@@ -14,38 +13,31 @@
   // Colors
 
   // Header colors
-  {% if site.data.colors.colors.header.header-bg %}$header-bg: {{ site.data.colors.colors.header.header-bg }};{% endif %}
-  {% if site.data.colors.colors.header.header-title %}$header-title: {{ site.data.colors.colors.header.header-title }};{% endif %}
-  {% if site.data.colors.colors.header.header-link %}$header-link: {{ site.data.colors.colors.header.header-link }};{% endif %}
-  {% if site.data.colors.colors.header.header-link-hover %}$header-link-hover: {{ site.data.colors.colors.header.header-link-hover }};{% endif %}
+  {% if site.data.colors.colors.header.header-bg %}
+    $header-bg: {{ site.data.colors.colors.header.header-bg }};
+    $header-title: {{ site.data.colors.colors.header.header-title }};
+    $header-link: {{ site.data.colors.colors.header.header-link }};
+    $header-link-hover: {{ site.data.colors.colors.header.header-link-hover }};
+  {% endif %}
 
   // Color - Primary
-  {% if site.data.colors.colors.primary %}$color-primary: {{ site.data.colors.colors.primary }};{% endif %}
-  {% if site.data.colors.colors.primary-darker %}$color-primary-darker: {{ site.data.colors.colors.primary-darker }};{% endif %}
-  {% if site.data.colors.colors.primary-darkest %}$color-primary-darkest: {{ site.data.colors.colors.primary-darkest }};{% endif %}
-  {% if site.data.colors.colors.primary-darkest-text-color %}$color-primary-darkest-text-color: {{ site.data.colors.colors.primary-darkest-text-color }};{% endif %}
-
-  // Color - Primary alt
-  {% if site.data.colors.colors.primary-alt %}$color-primary-alt: {{ site.data.colors.colors.primary-alt }};{% endif %}
-  {% if site.data.colors.colors.primary-alt-dark %}$color-primary-alt-dark: {{ site.data.colors.colors.primary-alt-dark }};{% endif %}
-  {% if site.data.colors.colors.primary-alt-darkest %}$color-primary-alt-darkest: {{ site.data.colors.colors.primary-alt-darkest }};{% endif %}
-  {% if site.data.colors.colors.primary-alt-light %}$color-primary-alt-light: {{ site.data.colors.colors.primary-alt-light }};{% endif %}
-  {% if site.data.colors.colors.primary-alt-lightest %}$color-primary-alt-lightest: {{ site.data.colors.colors.primary-alt-lightest }};{% endif %}
-
-  // Color - Secondary
-  {% if site.data.colors.colors.secondary %}$color-secondary: {{ site.data.colors.colors.secondary }};{% endif %}
-  {% if site.data.colors.colors.secondary-dark %}$color-secondary-dark: {{ site.data.colors.colors.secondary-dark }};{% endif %}
-  {% if site.data.colors.colors.secondary-darkest %}$color-secondary-darkest: {{ site.data.colors.colors.secondary-darkest }};{% endif %}
-  {% if site.data.colors.colors.secondary-light %}$color-secondary-light: {{ site.data.colors.colors.secondary-light }};{% endif %}
-  {% if site.data.colors.colors.secondary-lightest %}$color-secondary-lightest: {{ site.data.colors.colors.secondary-lightest }};{% endif %}
+  {% if site.data.colors.colors.primary %}
+    $color-primary: {{ site.data.colors.colors.primary }};
+  {% endif %}
+  {% if site.data.colors.colors.primary-darker %}
+    $color-primary-darker: {{ site.data.colors.colors.primary-darker }};
+  {% endif %}
 
   // Color - Text and links
-  {% if site.data.colors.colors.base %}$color-base: {{ site.data.colors.colors.base }};{% endif %}
-  {% if site.data.colors.colors.focus %}$color-focus: {{ site.data.colors.colors.focus }};{% endif %}
-  {% if site.data.colors.colors.visited %}$color-visited: {{ site.data.colors.colors.visited }};{% endif %}
+  {% if site.data.colors.colors.base %}
+    $color-base: {{ site.data.colors.colors.base }};
+    $color-visited: {{ site.data.colors.colors.visited }};
+  {% endif %}
 
   // Color - Additional variables
-  {% if site.data.colors.colors.color-gray-lightest %} $color-gray-lightest: {{ site.data.colors.colors.color-gray-lightest }};{% endif %}
+  {% if site.data.colors.colors.color-gray-lightest %}
+    $color-gray-lightest: {{ site.data.colors.colors.color-gray-lightest }};
+  {% endif %}
 
   // Color - Navigation
   // Top nav
@@ -70,17 +62,21 @@
   {% endif %}
 
   // Color - Footer
-  {% if site.data.colors.colors.footer.primary-footer-bg %} $primary-footer-bg: {{ site.data.colors.colors.footer.primary-footer-bg }}; {% endif %}
-  {% if site.data.colors.colors.footer.primary-footer-link %} $primary-footer-link: {{ site.data.colors.colors.footer.primary-footer-link }}; {% endif %}
-  {% if site.data.colors.colors.footer.footer-bg %} $footer-bg: {{ site.data.colors.colors.footer.footer-bg }}; {% endif %}
-  {% if site.data.colors.colors.footer.footer-text %} $footer-text: {{ site.data.colors.colors.footer.footer-text }}; {% endif %}
-  {% if site.data.colors.colors.footer.footer-link %} $footer-link: {{ site.data.colors.colors.footer.footer-link }}; {% endif %}
+  {% if site.data.colors.colors.footer.primary-footer-bg %}
+    $primary-footer-bg: {{ site.data.colors.colors.footer.primary-footer-bg }};
+    $primary-footer-link: {{ site.data.colors.colors.footer.primary-footer-link }};
+    $footer-bg: {{ site.data.colors.colors.footer.footer-bg }};
+    $footer-text: {{ site.data.colors.colors.footer.footer-text }};
+    $footer-link: {{ site.data.colors.colors.footer.footer-link }};
+  {% endif %}
 
   // Color - USA banner
-  {% if site.data.colors.colors.usa-banner.usa-banner-bg %} $usa-banner-bg: {{ site.data.colors.colors.usa-banner.usa-banner-bg }};{% endif %}
-  {% if site.data.colors.colors.usa-banner.usa-banner-text %} $usa-banner-text: {{ site.data.colors.colors.usa-banner.usa-banner-text }};{% endif %}
-  {% if site.data.colors.colors.usa-banner.usa-banner-link %} $usa-banner-link: {{ site.data.colors.colors.usa-banner.usa-banner-link }};{% endif %}
-  {% if site.data.colors.colors.usa-banner.usa-banner-link-hover %} $usa-banner-link-hover: {{ site.data.colors.colors.usa-banner.usa-banner-link-hover }};{% endif %}
+  {% if site.data.colors.colors.usa-banner.usa-banner-bg %}
+    $usa-banner-bg: {{ site.data.colors.colors.usa-banner.usa-banner-bg }};
+    $usa-banner-text: {{ site.data.colors.colors.usa-banner.usa-banner-text }};
+    $usa-banner-link: {{ site.data.colors.colors.usa-banner.usa-banner-link }};
+    $usa-banner-link-hover: {{ site.data.colors.colors.usa-banner.usa-banner-link-hover }};
+  {% endif %}
 
   // Color - Hero
   {% if site.data.colors.colors.hero %}
