@@ -12,6 +12,13 @@
 
 {% if site.data.colors.colors %}
   // Colors
+
+  // Header colors
+  {% if site.data.colors.colors.header.header-bg %}$header-bg: {{ site.data.colors.colors.header.header-bg }};{% endif %}
+  {% if site.data.colors.colors.header.header-title %}$header-title: {{ site.data.colors.colors.header.header-title }};{% endif %}
+  {% if site.data.colors.colors.header.header-link %}$header-link: {{ site.data.colors.colors.header.header-link }};{% endif %}
+  {% if site.data.colors.colors.header.header-link-hover %}$header-link-hover: {{ site.data.colors.colors.header.header-link-hover }};{% endif %}
+
   // Color - Primary
   {% if site.data.colors.colors.primary %}$color-primary: {{ site.data.colors.colors.primary }};{% endif %}
   {% if site.data.colors.colors.primary-darker %}$color-primary-darker: {{ site.data.colors.colors.primary-darker }};{% endif %}
@@ -46,8 +53,10 @@
     $top-nav-bg: {{ site.data.colors.colors.top-navigation.top-nav-bg }};
     $top-nav-link: {{ site.data.colors.colors.top-navigation.top-nav-link }};
     $top-nav-link-hover: {{ site.data.colors.colors.top-navigation.top-nav-link-hover }};
+    $top-nav-link-hover-bg: {{ site.data.colors.colors.top-navigation.top-nav-link-hover-bg }};
     $top-nav-link-current: {{ site.data.colors.colors.top-navigation.top-nav-link-current }};
     $top-nav-dropdown-bg: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-bg }};
+    $top-nav-dropdown-link: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-link }};
     $top-nav-dropdown-link-hover-bg: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-link-hover-bg }};
   {% endif %}
 
@@ -103,6 +112,9 @@ $image-path: '../uswds/img';
 {% if site.data.colors.colors %}
   {% if site.data.colors.colors.usa-banner %}
      @import 'usa-banner';
+  {% endif %}
+  {% if site.data.colors.colors.header %}
+     @import 'header';
   {% endif %}
   {% if site.data.colors.colors.top-navigation %}
     @import 'top-nav';
