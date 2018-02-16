@@ -26,8 +26,9 @@ github:
 # search_site_handle: searchgov-site-handle
 
 # Change the theme variant. Current options are: "beach"
-theme_variant: beach
+
 sass:
   load_paths:
     - _sass
     - assets/themes
+    - assets/css

@@ -1,29 +1,38 @@
+
 .usa-header {
   .usa-nav {
     background-color: $top-nav-bg;
   }
 
   .usa-nav-primary {
+    a,
+    button {
+      &:hover {
+        background-color: $top-nav-link-hover-bg;
+      }
+    }
+
     .usa-nav-link {
       span {
         color: $top-nav-link;
       }
 
       &:hover {
-        color: $top-nav-link-current;
+        color: $top-nav-link-hover;
 
         span {
           border-bottom-color: $top-nav-link-current;
-          color: $top-nav-link-current;
+          color: $top-nav-link-hover;
         }
       }
     }
 
     .usa-current,
-    .usa-current span,
-    button[aria-expanded=true] span {
-      border-bottom-color: $top-nav-link-current;
-      color: $top-nav-link-current;
+    button[aria-expanded=true] {
+      span {
+        border-color: $top-nav-link-current;
+        color: $top-nav-link-current;
+      }
     }
   }
 
@@ -36,6 +45,11 @@
   .usa-nav-submenu {
     a:hover {
       background-color: $top-nav-dropdown-link-hover-bg;
+      color: $top-nav-dropdown-link;
     }
   }
+}
+
+
+@media screen and (min-width: 951px) {
 }

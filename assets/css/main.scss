@@ -1,126 +1,133 @@
 ---
 ---
 
-{% assign _theme_key = site.theme_variant %}
-{% assign _theme = site.data.themes[_theme_key] %}
+{% if site.data.fonts.fonts %}
+  // Typography
+  {% if site.data.fonts.fonts.sans %}$font-sans: {{ site.data.fonts.fonts.sans }};{% endif %}
+  {% if site.data.fonts.fonts.serif %}$font-serif: {{ site.data.fonts.fonts.serif }};{% endif %}
+  {% if site.data.fonts.fonts.normal %}$font-normal: {{ site.data.fonts.fonts.normal }};{% endif %}
+  {% if site.data.fonts.fonts.bold %}$font-bold: {{ site.data.fonts.fonts.bold }};{% endif %}
+{% endif %}
 
-{% if _theme %}
+{% if site.data.colors.colors %}
+  // Colors
 
-// Typography
-{% if _theme.fonts.sans %}$font-sans: {{ _theme.fonts.sans }};{% endif %}
-{% if _theme.fonts.serif %}$font-serif: {{ _theme.fonts.serif }};{% endif %}
-{% if _theme.fonts.normal %}$font-normal: {{ _theme.fonts.normal }};{% endif %}
-{% if _theme.fonts.bold %}$font-bold: {{ _theme.fonts.bold }};{% endif %}
-
-// Colors
-// Color - Primary
-{% if _theme.colors.primary %}$color-primary: {{ _theme.colors.primary }};{% endif %}
-{% if _theme.colors.primary-darker %}$color-primary-darker: {{ _theme.colors.primary-darker }};{% endif %}
-{% if _theme.colors.primary-darkest %}$color-primary-darkest: {{ _theme.colors.primary-darkest }};{% endif %}
-{% if _theme.colors.primary-darkest-text-color %}$color-primary-darkest-text-color: {{ _theme.colors.primary-darkest-text-color }};{% endif %}
-
-// Color - Primary alt
-{% if _theme.colors.primary-alt %}$color-primary-alt: {{ _theme.colors.primary-alt }};{% endif %}
-{% if _theme.colors.primary-alt-dark %}$color-primary-alt-dark: {{ _theme.colors.primary-alt-dark }};{% endif %}
-{% if _theme.colors.primary-alt-darkest %}$color-primary-alt-darkest: {{ _theme.colors.primary-alt-darkest }};{% endif %}
-{% if _theme.colors.primary-alt-light %}$color-primary-alt-light: {{ _theme.colors.primary-alt-light }};{% endif %}
-{% if _theme.colors.primary-alt-lightest %}$color-primary-alt-lightest: {{ _theme.colors.primary-alt-lightest }};{% endif %}
-
-// Color - Secondary
-{% if _theme.colors.secondary %}$color-secondary: {{ _theme.colors.secondary }};{% endif %}
-{% if _theme.colors.secondary-dark %}$color-secondary-dark: {{ _theme.colors.secondary-dark }};{% endif %}
-{% if _theme.colors.secondary-darkest %}$color-secondary-darkest: {{ _theme.colors.secondary-darkest }};{% endif %}
-{% if _theme.colors.secondary-light %}$color-secondary-light: {{ _theme.colors.secondary-light }};{% endif %}
-{% if _theme.colors.secondary-lightest %}$color-secondary-lightest: {{ _theme.colors.secondary-lightest }};{% endif %}
-
-// Color - Text and links
-{% if _theme.colors.base %}$color-base: {{ _theme.colors.base }};{% endif %}
-{% if _theme.colors.focus %}$color-focus: {{ _theme.colors.focus }};{% endif %}
-{% if _theme.colors.visited %}$color-visited: {{ _theme.colors.visited }};{% endif %}
-
-// Color - Additional variables
-{% if _theme.colors.color-gray-lightest %} $color-gray-lightest: {{ _theme.colors.color-gray-lightest }};{% endif %}
-
-// Color - Navigation
-// Top nav
-  {% if _theme.colors.top-navigation.top-nav-bg %}
-    $top-nav-bg: {{ _theme.colors.top-navigation.top-nav-bg }};
-    $top-nav-link: {{ _theme.colors.top-navigation.top-nav-link }};
-    $top-nav-link-hover: {{ _theme.colors.top-navigation.top-nav-link-hover }};
-    $top-nav-link-current: {{ _theme.colors.top-navigation.top-nav-link-current }};
-    $top-nav-dropdown-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-bg }};
-    $top-nav-dropdown-link-hover-bg: {{ _theme.colors.top-navigation.top-nav-dropdown-link-hover-bg }};
+  // Header colors
+  {% if site.data.colors.colors.header.header-bg %}
+    $header-bg: {{ site.data.colors.colors.header.header-bg }};
+    $header-title: {{ site.data.colors.colors.header.header-title }};
+    $header-link: {{ site.data.colors.colors.header.header-link }};
+    $header-link-hover: {{ site.data.colors.colors.header.header-link-hover }};
   {% endif %}
 
-// Side nav
-  {% if _theme.colors.side-navigation %}
-    $side-nav-bg: {{ _theme.colors.side-navigation.side-nav-bg }};
-    $side-nav-link: {{ _theme.colors.side-navigation.side-nav-link }};
-    $side-nav-link-hover: {{ _theme.colors.side-navigation.side-nav-link-hover }};
-    $side-nav-link-hover-bg: {{ _theme.colors.side-navigation.side-nav-link-hover-bg }};
-    $side-nav-link-current: {{ _theme.colors.side-navigation.side-nav-link-current }};
+  // Color - Primary
+  {% if site.data.colors.colors.primary %}
+    $color-primary: {{ site.data.colors.colors.primary }};
+  {% endif %}
+  {% if site.data.colors.colors.primary-darker %}
+    $color-primary-darker: {{ site.data.colors.colors.primary-darker }};
   {% endif %}
 
-// Color - Footer
-{% if _theme.colors.footer.primary-footer-bg %} $primary-footer-bg: {{ _theme.colors.footer.primary-footer-bg }}; {% endif %}
-{% if _theme.colors.footer.primary-footer-link %} $primary-footer-link: {{ _theme.colors.footer.primary-footer-link }}; {% endif %}
-{% if _theme.colors.footer.footer-bg %} $footer-bg: {{ _theme.colors.footer.footer-bg }}; {% endif %}
-{% if _theme.colors.footer.footer-text %} $footer-text: {{ _theme.colors.footer.footer-text }}; {% endif %}
-{% if _theme.colors.footer.footer-link %} $footer-link: {{ _theme.colors.footer.footer-link }}; {% endif %}
+  // Color - Text and links
+  {% if site.data.colors.colors.base %}
+    $color-base: {{ site.data.colors.colors.base }};
+    $color-visited: {{ site.data.colors.colors.visited }};
+  {% endif %}
 
-// Color - USA banner
-{% if _theme.colors.usa-banner.usa-banner-bg %} $usa-banner-bg: {{ _theme.colors.usa-banner.usa-banner-bg }};{% endif %}
-{% if _theme.colors.usa-banner.usa-banner-text %} $usa-banner-text: {{ _theme.colors.usa-banner.usa-banner-text }};{% endif %}
-{% if _theme.colors.usa-banner.usa-banner-link %} $usa-banner-link: {{ _theme.colors.usa-banner.usa-banner-link }};{% endif %}
-{% if _theme.colors.usa-banner.usa-banner-link-hover %} $usa-banner-link-hover: {{ _theme.colors.usa-banner.usa-banner-link-hover }};{% endif %}
+  // Color - Additional variables
+  {% if site.data.colors.colors.color-gray-lightest %}
+    $color-gray-lightest: {{ site.data.colors.colors.color-gray-lightest }};
+  {% endif %}
 
-// Color - Hero
-  {% if _theme.colors.hero %}
-    $hero-bg: {{ _theme.colors.hero.hero-bg }};
-    $hero-header-alt: {{ _theme.colors.hero.hero-header-alt }};
-    $hero-header: {{ _theme.colors.hero.hero-header }};
-    $hero-text: {{ _theme.colors.hero.hero-text }};
-    $hero-link: {{ _theme.colors.hero.hero-link }};
-    $hero-button-bg: {{ _theme.colors.hero.hero-button-bg }};
-    $hero-button-text: {{ _theme.colors.hero.hero-button-text }};
+  // Color - Navigation
+  // Top nav
+  {% if site.data.colors.colors.top-navigation.top-nav-bg %}
+    $top-nav-bg: {{ site.data.colors.colors.top-navigation.top-nav-bg }};
+    $top-nav-link: {{ site.data.colors.colors.top-navigation.top-nav-link }};
+    $top-nav-link-hover: {{ site.data.colors.colors.top-navigation.top-nav-link-hover }};
+    $top-nav-link-hover-bg: {{ site.data.colors.colors.top-navigation.top-nav-link-hover-bg }};
+    $top-nav-link-current: {{ site.data.colors.colors.top-navigation.top-nav-link-current }};
+    $top-nav-dropdown-bg: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-bg }};
+    $top-nav-dropdown-link: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-link }};
+    $top-nav-dropdown-link-hover-bg: {{ site.data.colors.colors.top-navigation.top-nav-dropdown-link-hover-bg }};
+  {% endif %}
+
+  // Side nav
+  {% if site.data.colors.colors.side-navigation %}
+    $side-nav-bg: {{ site.data.colors.colors.side-navigation.side-nav-bg }};
+    $side-nav-link: {{ site.data.colors.colors.side-navigation.side-nav-link }};
+    $side-nav-link-hover: {{ site.data.colors.colors.side-navigation.side-nav-link-hover }};
+    $side-nav-link-hover-bg: {{ site.data.colors.colors.side-navigation.side-nav-link-hover-bg }};
+    $side-nav-link-current: {{ site.data.colors.colors.side-navigation.side-nav-link-current }};
+  {% endif %}
+
+  // Color - Footer
+  {% if site.data.colors.colors.footer.primary-footer-bg %}
+    $primary-footer-bg: {{ site.data.colors.colors.footer.primary-footer-bg }};
+    $primary-footer-link: {{ site.data.colors.colors.footer.primary-footer-link }};
+    $footer-bg: {{ site.data.colors.colors.footer.footer-bg }};
+    $footer-text: {{ site.data.colors.colors.footer.footer-text }};
+    $footer-link: {{ site.data.colors.colors.footer.footer-link }};
+  {% endif %}
+
+  // Color - USA banner
+  {% if site.data.colors.colors.usa-banner.usa-banner-bg %}
+    $usa-banner-bg: {{ site.data.colors.colors.usa-banner.usa-banner-bg }};
+    $usa-banner-text: {{ site.data.colors.colors.usa-banner.usa-banner-text }};
+    $usa-banner-link: {{ site.data.colors.colors.usa-banner.usa-banner-link }};
+    $usa-banner-link-hover: {{ site.data.colors.colors.usa-banner.usa-banner-link-hover }};
+  {% endif %}
+
+  // Color - Hero
+  {% if site.data.colors.colors.hero %}
+    $hero-bg: {{ site.data.colors.colors.hero.hero-bg }};
+    $hero-header-alt: {{ site.data.colors.colors.hero.hero-header-alt }};
+    $hero-header: {{ site.data.colors.colors.hero.hero-header }};
+    $hero-text: {{ site.data.colors.colors.hero.hero-text }};
+    $hero-link: {{ site.data.colors.colors.hero.hero-link }};
+    $hero-button-bg: {{ site.data.colors.colors.hero.hero-button-bg }};
+    $hero-button-text: {{ site.data.colors.colors.hero.hero-button-text }};
   {% endif %}
 
   // Color - Alt section
-    {% if _theme.colors.alt-section %}
-      $alt-section-bg: {{ _theme.colors.alt-section.bg-color }};
-      $alt-section-header: {{ _theme.colors.alt-section.header-color }};
-      $alt-section-text: {{ _theme.colors.alt-section.text-color }};
-      $alt-section-link: {{ _theme.colors.alt-section.link-color }};
-      $alt-section-link-hover: {{ _theme.colors.alt-section.link-hover-color }};
-    {% endif %}
+  {% if site.data.colors.colors.alt-section %}
+    $alt-section-bg: {{ site.data.colors.colors.alt-section.bg-color }};
+    $alt-section-header: {{ site.data.colors.colors.alt-section.header-color }};
+    $alt-section-text: {{ site.data.colors.colors.alt-section.text-color }};
+    $alt-section-link: {{ site.data.colors.colors.alt-section.link-color }};
+    $alt-section-link-hover: {{ site.data.colors.colors.alt-section.link-hover-color }};
+  {% endif %}
 
 {% endif %}
 
-// U.S. Web Design System setup 
+// U.S. Web Design System setup
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
 @import 'uswds/all';
 
-{% if _theme %}
-  {% if _theme.colors.usa-banner %}
+{% if site.data.colors.colors %}
+  {% if site.data.colors.colors.usa-banner %}
      @import 'usa-banner';
   {% endif %}
-  {% if _theme.colors.top-navigation %}
+  {% if site.data.colors.colors.header %}
+     @import 'header';
+  {% endif %}
+  {% if site.data.colors.colors.top-navigation %}
     @import 'top-nav';
   {% endif %}
-  {% if _theme.colors.footer %}
+  {% if site.data.colors.colors.footer %}
     @import 'footer';
   {% endif %}
-  {% if _theme.colors.alt-section %}
+  {% if site.data.colors.colors.alt-section %}
     @import 'alt-color-section';
   {% endif %}
-  {% if _theme.colors.side-navigation %}
+  {% if site.data.colors.colors.side-navigation %}
     @import 'side-nav';
   {% endif %}
-  {% if _theme.colors.hero %}
+  {% if site.data.colors.colors.hero %}
     @import 'hero';
   {% endif %}
 
-  @import '{{_theme_key}}/css/main';
+  @import 'custom';
 
 {% endif %}

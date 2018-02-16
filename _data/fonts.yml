@@ -1,0 +1,12 @@
+# Font configurations
+# 'sans' is applied to navigation and body text
+# 'serif' is applied to headings
+# 'normal' defines the default font weight
+# 'bold' defines the bold font weight
+fonts:
+  sans: >
+    "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
+  serif: >
+    "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
+  normal: 300
+  bold: 500
