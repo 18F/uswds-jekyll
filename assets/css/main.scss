@@ -4,13 +4,13 @@
 // U.S. Web Design System setup
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
-
+// U.S. Web Design System variable setup
 @import 'uswds/lib/bourbon';
 @import 'uswds/lib/neat';
 @import 'uswds/lib/normalize';
 @import 'uswds/core/variables';
 
-
+// Setting typography variables
 {% if site.data.fonts %}
   // Typography
   {% if site.data.fonts.sans %}$font-sans: {{ site.data.fonts.sans }};{% endif %}
@@ -19,6 +19,7 @@ $image-path: '../uswds/img';
   {% if site.data.fonts.bold %}$font-bold: {{ site.data.fonts.bold }};{% endif %}
 {% endif %}
 
+// Setting color variables
 {% if site.data.colors %}
   // Colors
 
@@ -134,4 +135,5 @@ $image-path: '../uswds/img';
   @import 'components/hero';
 {% endif %}
 
-@import 'custom';
+// Custom styles for the site
+@import 'site';
