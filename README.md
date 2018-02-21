@@ -11,6 +11,8 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Site title](#site-title)
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
+    - [Fonts](#font-configuration)
+    - [Colors](#color-configuration)
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
@@ -22,7 +24,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Customizing with Sass](#customizing-with-sass)
     - [Customizing with CSS overrides](#customizing-with-css-overrides)
     - [Overriding includes and layouts](#overriding-includes-and-layouts)
-    - [Using a theme variant](#using-a-theme-variant)
 1. [Components](#components)
     - [Header](#header)
     - [Footer](#footer)
@@ -224,6 +225,14 @@ redcarpet:
     - with_toc_data
 ```
 
+### Font configuration
+
+The default fonts can be configured in the `_data/fonts.yml` file.
+
+### Color configuration
+
+The colors for components can be configured in the `_data/colors.yml` file. 
+
 ### Search
 
 [Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
@@ -418,19 +427,6 @@ your site by placing a file with the same name into your site's
 - You can change how and whether the side navigation is displayed
   at all in the [page layout](#layout-page) by overriding
   `_layouts/page.html`.
-
-### Using a theme variant
-
-The USWDS Jekyll theme gem includes a number of predefined theme
-variants that can change the look and feel of your website. This
-is accomplished by tweaking the default color scheme, font family,
-and CSS. To use a theme variant, set the `theme_variant` option in
-your `_config.yml` to the name of the theme you would like to use:
-
-```
-# Change the theme variant. Current options are: "beach"
-theme_variant: beach
-```
 
 ## Components
 
