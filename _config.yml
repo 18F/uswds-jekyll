@@ -29,6 +29,4 @@ github:
 
 sass:
   load_paths:
-    - _sass
-    - assets/themes
     - assets/css
