@@ -1,0 +1,55 @@
+
+<style type="text/css">
+.card-deck {
+  display: block;
+  display:flex;
+  flex-flow: row wrap;
+}
+.card-deck .card:not(:last-child) {
+   margin-right: 15px;
+}
+.card {
+  width: 20rem;
+  position: relative;
+  border: 1px solid #efefef;
+
+}
+.card-deck .card {
+  display: block;
+  float: left;
+  min-width: 300px;
+  display: flex;
+  flex: 0 0 300px;
+  flex-direction: column;
+  margin-bottom: 15px;
+
+}
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+.card-footer {
+  padding: 1rem;
+}
+</style>
+
+
+<div class="card-deck">
+  {% for item in site.projects %}
+    <div class="card">
+      <img class="card-img-top" src="{{ site.baseurl }}{{ item.small_image }}" alt="{{ item.image_alt }} ">
+      <div class="card-body">
+        <h3 class="card-title">{{ item.title }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+      </div>
+      <div class="card-footer">
+        <a href="{{ site.baseurl }}{{ item.url }}" class="usa-button">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
