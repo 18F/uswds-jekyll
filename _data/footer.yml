@@ -1,42 +1,44 @@
 # This is the configuration for the site footer.
 
-# this defines the type of footer
-# header types can be only be medium at the moment
+# Configuration for type of footer.
+# Footer types can be only be medium at the moment
 type: medium
 
-# Used to show the "Return to top" link; can also be
-# configured as an object with 'text' and 'href' properties.
+# Configuration for "Return to top" link.
+# Customize with 'text' and 'href' properties.
+# Comment out to the following section to hide.
 top:
   text: Return to top
   href: '#'
 
-# Used to show an "Edit this page" link at the bottom of the page.
-# The text is configurable and the link is built from the _comfig.yml.
+# Configuration for "Edit this page" link in the footer.
+# Customize with 'text' property.
+# Uncomment the following line to show.
 # edit_page:
 #   text: Edit this page
 
-# Used to show the "Last updated" date and time;
+# Configuration for "Last updated" date and time.
+# Uncomment the following line to show.
 # last_updated: true
 
-# Which links to show at the top of the footer.
-# This can key into _data/navigation.yml or a list of link objects
-# with 'text' and 'href' properties.
+# Configuration for which links show at the top of the footer.
+# this is a key into _data/navigation.yml
 links: footer
 
-# The optional heading for the footer.
+# Configuration for footer heading. (optional)
 heading: Name of agency
 
-# An array of agency logos to show, side by side, in the lower left
-# of the footer on large screens.
+# Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
   - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
     alt: 18F
     external: true
 
-# This controls the contact section of the footer
+# Configuration for footer contact links
 contact:
-  heading: Agency contact center
+# Configuration for social media links
+# Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Facebook
       href: https://facebook.com
@@ -50,10 +52,12 @@ contact:
       href: https://youtube.com
       external: true
       type: youtube
-    - text: RSS Feed
-      href: https://usa.gov/
-      external: true
-      type: rss
+  # - text: RSS Feed
+  #   href: https://usa.gov/
+  #   external: true
+  #   type: rss
+  heading: Agency contact center
+# Configuration for contact links for email, phone, etc...
   contact_links:
     - text: (800) CALL-GOVT
       href: tel:1-800-555-5555
