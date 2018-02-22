@@ -1,3 +1,5 @@
+# This is the configuration for the site favicons.
+
 - rel: shortcut icon
   type: image/ico
   href: /assets/uswds/img/favicons/favicon.ico
@@ -14,7 +16,7 @@
   sizes: 72x72
   href: /assets/uswds/img/favicons/favicon-72.png
 - rel: apple-touch-icon-precomposed
-  sizes: 114x114 
+  sizes: 114x114
   href: /assets/uswds/img/favicons/favicon-114.png
 - rel: apple-touch-icon-precomposed
   sizes: 144x144
