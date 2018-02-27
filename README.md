@@ -240,7 +240,6 @@ After setting up your site on search.gov you can then add your `site handle` to 
 You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
 
 ```
-# Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
 ```
 
