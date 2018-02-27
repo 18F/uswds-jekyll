@@ -14,6 +14,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
+    - [Anchor JS](#anchor-js)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -247,18 +248,25 @@ You can add Google Analytics to your site by uncommenting the `google_analytics_
 
 You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
 
-```
-# Configuration for DAP, add your agency ID here:
+```yml
 # dap_agency: GSA
 ```
 
 ### Last modified date
 
 You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
-This will add the date right before the footer component and uses the `last-modified.html` include.
+This will add the date right before the footer component and uses the `last-modified.html` include. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
-# Used to show the "Last updated" date and time;
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+```
+
+### Anchor JS
+
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
+This will add an anchor link after the header tag on the page and post layouts.
+
+```yml
 # last_updated: true
 ```
 
@@ -269,7 +277,7 @@ includes each incorporate the USWDS CSS and JS files if the corresponding
 `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless
 you add one or both of those manually, your HTML will include the following:
 
-```html
+```
 <!-- in the <head> -->
 <link rel="stylesheet" href="/assets/uswds/css/uswds.min.css" media="screen">
 <!-- before </body> -->
