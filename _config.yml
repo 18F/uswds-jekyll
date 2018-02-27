@@ -4,7 +4,7 @@ title: This is the site title
 # This is used for adding an edit this page link to the footer
 github:
   organization: 18F
-  repository: federalist-uswds-template
+  repository: uswds-jekyll
   default_branch: master
 
 # Configuration for Google Analytics, add your UA code here:
@@ -13,11 +13,11 @@ github:
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
 
-# Uncomment to enable AnchorJS functionality on docs layout.
+# To enable AnchorJS functionality on page and post layouts, uncomment this section.
 # See https://github.com/bryanbraun/anchorjs for more information.
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
-# To enable search, uncomment the search section
+# To enable search, uncomment this section.
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
