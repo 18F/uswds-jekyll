@@ -14,6 +14,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
+    - [Anchor JS](#anchor-js)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -239,16 +240,14 @@ After setting up your site on search.gov you can then add your `site handle` to 
 You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
 
 ```
-# Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
 ```
 
 #### Digital Analytics Program (DAP)
 
-You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
+You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. See https://www.digitalgov.gov/services/dap/ for more information.
 
-```
-# Configuration for DAP, add your agency ID here:
+```yml
 # dap_agency: GSA
 ```
 
@@ -258,8 +257,17 @@ You can show the last date a page was last modified by uncommenting this line fr
 This will add the date right before the footer component and uses the `last-modified.html` include.
 
 ```yml
-# Used to show the "Last updated" date and time;
 # last_updated: true
+```
+
+### Anchor JS
+
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
+This will add an anchor link after the header tag on the page and post layouts making ech header linkable.
+See https://github.com/bryanbraun/anchorjs for more information.
+
+```yml
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 ```
 
 ## Assets
@@ -269,7 +277,7 @@ includes each incorporate the USWDS CSS and JS files if the corresponding
 `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless
 you add one or both of those manually, your HTML will include the following:
 
-```html
+```
 <!-- in the <head> -->
 <link rel="stylesheet" href="/assets/uswds/css/uswds.min.css" media="screen">
 <!-- before </body> -->
