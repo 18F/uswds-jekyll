@@ -258,7 +258,7 @@ You can show the last date a page was last modified by uncommenting this line fr
 This will add the date right before the footer component and uses the `last-modified.html` include. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+# last_updated: true
 ```
 
 ### Anchor JS
@@ -267,7 +267,7 @@ You can show an anchor link next to header tags by uncommenting this section fro
 This will add an anchor link after the header tag on the page and post layouts.
 
 ```yml
-# last_updated: true
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 ```
 
 ## Assets
