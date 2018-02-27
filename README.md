@@ -255,7 +255,7 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 ### Last modified date
 
 You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
-This will add the date right before the footer component and uses the `last-modified.html` include. See https://github.com/bryanbraun/anchorjs for more information.
+This will add the date right before the footer component and uses the `last-modified.html` include.
 
 ```yml
 # last_updated: true
@@ -264,7 +264,7 @@ This will add the date right before the footer component and uses the `last-modi
 ### Anchor JS
 
 You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
-This will add an anchor link after the header tag on the page and post layouts.
+This will add an anchor link after the header tag on the page and post layouts. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
