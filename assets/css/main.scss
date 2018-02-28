@@ -11,126 +11,126 @@ $image-path: '../uswds/img';
 @import 'uswds/core/variables';
 
 // Setting typography variables
-{% if site.data.fonts %}
+{% if site.data.theme.fonts %}
   // Typography
-  {% if site.data.fonts.sans %}$font-sans: {{ site.data.fonts.sans | default: "$font-sans" }};{% endif %}
-  {% if site.data.fonts.serif %}$font-serif: {{ site.data.fonts.serif | default: "$font-serif" }};{% endif %}
-  {% if site.data.fonts.normal %}$font-normal: {{ site.data.fonts.normal | default: "$font-normal" }};{% endif %}
-  {% if site.data.fonts.bold %}$font-bold: {{ site.data.fonts.bold | default: "$font-bold" }};{% endif %}
+  {% if site.data.theme.fonts.sans %}$font-sans: {{ site.data.theme.fonts.sans | default: "$font-sans" }};{% endif %}
+  {% if site.data.theme.fonts.serif %}$font-serif: {{ site.data.theme.fonts.serif | default: "$font-serif" }};{% endif %}
+  {% if site.data.theme.fonts.normal %}$font-normal: {{ site.data.theme.fonts.normal | default: "$font-normal" }};{% endif %}
+  {% if site.data.theme.fonts.bold %}$font-bold: {{ site.data.theme.fonts.bold | default: "$font-bold" }};{% endif %}
 {% endif %}
 
 // Setting color variables
-{% if site.data.colors %}
+{% if site.data.theme.colors %}
 
 // Color - USA banner
-{% if site.data.colors.usa-banner.usa-banner-bg %}
-  $usa-banner-bg: {{ site.data.colors.usa-banner.usa-banner-bg | default: "$color-gray-lightest" }};
-  $usa-banner-text: {{ site.data.colors.usa-banner.usa-banner-text | default: "$color-base" }};
-  $usa-banner-link: {{ site.data.colors.usa-banner.usa-banner-link | default: "$color-blue"}};
-  $usa-banner-link-hover: {{ site.data.colors.usa-banner.usa-banner-link-hover | default: "$color-cool-blue" }};
+{% if site.data.theme.colors.usa-banner %}
+  $usa-banner-bg: {{ site.data.theme.colors.usa-banner.usa-banner-bg | default: "$color-gray-lightest" }};
+  $usa-banner-text: {{ site.data.theme.colors.usa-banner.usa-banner-text | default: "$color-base" }};
+  $usa-banner-link: {{ site.data.theme.colors.usa-banner.usa-banner-link | default: "$color-blue"}};
+  $usa-banner-link-hover: {{ site.data.theme.colors.usa-banner.usa-banner-link-hover | default: "$color-cool-blue" }};
 {% endif %}
 
   // Header colors
-  {% if site.data.colors.header %}
-    $header-bg: {{ site.data.colors.header.header-bg | default: "$color-white" }};
-    $header-title: {{ site.data.colors.header.header-title | default: "$color-base" }};
-    $header-link: {{ site.data.colors.header.header-link | default: "$color-gray" }};
-    $header-link-hover: {{ site.data.colors.header.header-link-hover | default: "$color-blue" }};
+  {% if site.data.theme.colors.header %}
+    $header-bg: {{ site.data.theme.colors.header.header-bg | default: "$color-white" }};
+    $header-title: {{ site.data.theme.colors.header.header-title | default: "$color-base" }};
+    $header-link: {{ site.data.theme.colors.header.header-link | default: "$color-gray" }};
+    $header-link-hover: {{ site.data.theme.colors.header.header-link-hover | default: "$color-blue" }};
   {% endif %}
 
   // Color - Primary
-  {% if site.data.colors.primary %}
-    $color-primary: {{ site.data.colors.primary | default: "$color-primary" }};
+  {% if site.data.theme.colors.primary %}
+    $color-primary: {{ site.data.theme.colors.primary | default: "$color-primary" }};
   {% endif %}
-  {% if site.data.colors.primary-darker %}
-    $color-primary-darker: {{ site.data.colors.primary-darker | default: "$color-primary-darker" }};
+  {% if site.data.theme.colors.primary-darker %}
+    $color-primary-darker: {{ site.data.theme.colors.primary-darker | default: "$color-primary-darker" }};
   {% endif %}
 
   // Color - Text and links
-  {% if site.data.colors.base %}
-    $color-base: {{ site.data.colors.base | default: "$color-base" }};
-    $color-visited: {{ site.data.colors.visited | default: "$color-visited" }};
+  {% if site.data.theme.colors.base %}
+    $color-base: {{ site.data.theme.colors.base | default: "$color-base" }};
+    $color-visited: {{ site.data.theme.colors.visited | default: "$color-visited" }};
   {% endif %}
 
   // Color - Additional variables
-  {% if site.data.colors.color-gray-lightest %}
-    $color-gray-lightest: {{ site.data.colors.color-gray-lightest | default: "$color-gray-lightest" }};
+  {% if site.data.theme.colors.color-gray-lightest %}
+    $color-gray-lightest: {{ site.data.theme.colors.color-gray-lightest | default: "$color-gray-lightest" }};
   {% endif %}
 
   // Color - Navigation
   // Top nav
-  {% if site.data.colors.top-navigation.top-nav-bg %}
-    $top-nav-bg: {{ site.data.colors.top-navigation.top-nav-bg | default: "$color-white" }};
-    $top-nav-link: {{ site.data.colors.top-navigation.top-nav-link | default: "$color-gray" }};
-    $top-nav-link-hover: {{ site.data.colors.top-navigation.top-nav-link-hover | default: "$color-blue" }};
-    $top-nav-link-hover-bg: {{ site.data.colors.top-navigation.top-nav-link-hover-bg | default: "$color-transparent" }};
-    $top-nav-link-current: {{ site.data.colors.top-navigation.top-nav-link-current | default: "$color-base" }};
-    $top-nav-dropdown-bg: {{ site.data.colors.top-navigation.top-nav-dropdown-bg | default: "$color-primary-darkest" }};
-    $top-nav-dropdown-link: {{ site.data.colors.top-navigation.top-nav-dropdown-link | default: "$color-white" }};
-    $top-nav-dropdown-link-hover-bg: {{ site.data.colors.top-navigation.top-nav-dropdown-link-hover-bg | default: "$color-transparent" }};
+  {% if site.data.theme.colors.top-navigation.top-nav-bg %}
+    $top-nav-bg: {{ site.data.theme.colors.top-navigation.top-nav-bg | default: "$color-white" }};
+    $top-nav-link: {{ site.data.theme.colors.top-navigation.top-nav-link | default: "$color-gray" }};
+    $top-nav-link-hover: {{ site.data.theme.colors.top-navigation.top-nav-link-hover | default: "$color-blue" }};
+    $top-nav-link-hover-bg: {{ site.data.theme.colors.top-navigation.top-nav-link-hover-bg | default: "$color-transparent" }};
+    $top-nav-link-current: {{ site.data.theme.colors.top-navigation.top-nav-link-current | default: "$color-base" }};
+    $top-nav-dropdown-bg: {{ site.data.theme.colors.top-navigation.top-nav-dropdown-bg | default: "$color-primary-darkest" }};
+    $top-nav-dropdown-link: {{ site.data.theme.colors.top-navigation.top-nav-dropdown-link | default: "$color-white" }};
+    $top-nav-dropdown-link-hover-bg: {{ site.data.theme.colors.top-navigation.top-nav-dropdown-link-hover-bg | default: "$color-transparent" }};
   {% endif %}
 
   // Side nav
-  {% if site.data.colors.side-navigation %}
-    $side-nav-bg: {{ site.data.colors.side-navigation.side-nav-bg | default: "$color-transparent" }};
-    $side-nav-link: {{ site.data.colors.side-navigation.side-nav-link | default: "$color-base" }};
-    $side-nav-link-hover: {{ site.data.colors.side-navigation.side-nav-link-hover | default: "$color-blue" }};
-    $side-nav-link-hover-bg: {{ site.data.colors.side-navigation.side-nav-link-hover-bg | default: "$color-gray-lightest" }};
-    $side-nav-link-current: {{ site.data.colors.side-navigation.side-nav-link-current | default: "$color-blue" }};
+  {% if site.data.theme.colors.side-navigation %}
+    $side-nav-bg: {{ site.data.theme.colors.side-navigation.side-nav-bg | default: "$color-transparent" }};
+    $side-nav-link: {{ site.data.theme.colors.side-navigation.side-nav-link | default: "$color-base" }};
+    $side-nav-link-hover: {{ site.data.theme.colors.side-navigation.side-nav-link-hover | default: "$color-blue" }};
+    $side-nav-link-hover-bg: {{ site.data.theme.colors.side-navigation.side-nav-link-hover-bg | default: "$color-gray-lightest" }};
+    $side-nav-link-current: {{ site.data.theme.colors.side-navigation.side-nav-link-current | default: "$color-blue" }};
   {% endif %}
 
   // Color - Hero
-  {% if site.data.colors.hero %}
-    $hero-bg: {{ site.data.colors.hero.hero-bg | default: "$color-primary-darkest" }};
-    $hero-header-alt: {{ site.data.colors.hero.hero-header-alt | default: "$color-white" }};
-    $hero-header: {{ site.data.colors.hero.hero-header | default: "$color-aqua" }};
-    $hero-text: {{ site.data.colors.hero.hero-text | default: "$color-white" }};
-    $hero-link: {{ site.data.colors.hero.hero-link | default: "$color-aqua" }};
-    $hero-button-bg: {{ site.data.colors.hero.hero-button-bg | default: "$color-blue" }};
-    $hero-button-text: {{ site.data.colors.hero.hero-button-text | default: "$color-white" }};
+  {% if site.data.theme.colors.hero %}
+    $hero-bg: {{ site.data.theme.colors.hero.hero-bg | default: "$color-primary-darkest" }};
+    $hero-header-alt: {{ site.data.theme.colors.hero.hero-header-alt | default: "$color-white" }};
+    $hero-header: {{ site.data.theme.colors.hero.hero-header | default: "$color-aqua" }};
+    $hero-text: {{ site.data.theme.colors.hero.hero-text | default: "$color-white" }};
+    $hero-link: {{ site.data.theme.colors.hero.hero-link | default: "$color-aqua" }};
+    $hero-button-bg: {{ site.data.theme.colors.hero.hero-button-bg | default: "$color-blue" }};
+    $hero-button-text: {{ site.data.theme.colors.hero.hero-button-text | default: "$color-white" }};
   {% endif %}
 
   // Color - Alt section
-  {% if site.data.colors.alt-section %}
-    $alt-section-bg: {{ site.data.colors.alt-section.bg-color | default: "$color-primary-darkest" }};
-    $alt-section-header: {{ site.data.colors.alt-section.header-color | default: "$color-aqua" }};
-    $alt-section-text: {{ site.data.colors.alt-section.text-color | default: "$color-white" }};
-    $alt-section-link: {{ site.data.colors.alt-section.link-color | default: "$color-gray-lighter" }};
-    $alt-section-link-hover: {{ site.data.colors.alt-section.link-hover-color | default: "$color-white" }};
+  {% if site.data.theme.colors.alt-section %}
+    $alt-section-bg: {{ site.data.theme.colors.alt-section.bg-color | default: "$color-primary-darkest" }};
+    $alt-section-header: {{ site.data.theme.colors.alt-section.header-color | default: "$color-aqua" }};
+    $alt-section-text: {{ site.data.theme.colors.alt-section.text-color | default: "$color-white" }};
+    $alt-section-link: {{ site.data.theme.colors.alt-section.link-color | default: "$color-gray-lighter" }};
+    $alt-section-link-hover: {{ site.data.theme.colors.alt-section.link-hover-color | default: "$color-white" }};
   {% endif %}
 
   // Color - Footer
-  {% if site.data.colors.footer.primary-footer-bg %}
-    $primary-footer-bg: {{ site.data.colors.footer.primary-footer-bg | default: "$color-gray-lightest" }};
-    $primary-footer-link: {{ site.data.colors.footer.primary-footer-link | default: "$color-base" }};
-    $footer-bg: {{ site.data.colors.footer.footer-bg | default: "$color-gray-lighter" }};
-    $footer-text: {{ site.data.colors.footer.footer-text | default: "$color-base" }};
-    $footer-link: {{ site.data.colors.footer.footer-link | default: "$color-base" }};
+  {% if site.data.theme.colors.footer %}
+    $primary-footer-bg: {{ site.data.theme.colors.footer.primary-footer-bg | default: "$color-gray-lightest" }};
+    $primary-footer-link: {{ site.data.theme.colors.footer.primary-footer-link | default: "$color-base" }};
+    $footer-bg: {{ site.data.theme.colors.footer.footer-bg | default: "$color-gray-lighter" }};
+    $footer-text: {{ site.data.theme.colors.footer.footer-text | default: "$color-base" }};
+    $footer-link: {{ site.data.theme.colors.footer.footer-link | default: "$color-base" }};
   {% endif %}
 
 {% endif %}
 
 @import 'uswds/all';
 
-{% if site.data.colors.usa-banner %}
+{% if site.data.theme.colors.usa-banner %}
    @import 'components/usa-banner';
 {% endif %}
-{% if site.data.colors.header %}
+{% if site.data.theme.colors.header %}
    @import 'components/header';
 {% endif %}
-{% if site.data.colors.top-navigation %}
+{% if site.data.theme.colors.top-navigation %}
   @import 'components/top-nav';
 {% endif %}
-{% if site.data.colors.footer %}
+{% if site.data.theme.colors.footer %}
   @import 'components/footer';
 {% endif %}
-{% if site.data.colors.alt-section %}
+{% if site.data.theme.colors.alt-section %}
   @import 'components/alt-color-section';
 {% endif %}
-{% if site.data.colors.side-navigation %}
+{% if site.data.theme.colors.side-navigation %}
   @import 'components/side-nav';
 {% endif %}
-{% if site.data.colors.hero %}
+{% if site.data.theme.colors.hero %}
   @import 'components/hero';
 {% endif %}
 
