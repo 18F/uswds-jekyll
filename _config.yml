@@ -23,3 +23,7 @@ github:
 # Your search_site_handle value is from the search.gov settings page.
 
 # search_site_handle: searchgov-site-handle
+
+sass:
+  load_paths:
+    - assets/css
