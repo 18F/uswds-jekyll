@@ -1,0 +1,20 @@
+.usa-header {
+  background-color: $header-bg;
+
+  .usa-logo {
+    a {
+      color: $header-title;
+    }
+  }
+
+  .usa-nav-secondary-links {
+
+    a {
+      color: $header-link;
+
+      &:hover {
+        color: $header-link-hover;
+      }
+    }
+  }
+}
