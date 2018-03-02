@@ -4,12 +4,12 @@
 # 'primary darker' - Defines content link hover color, primary button hover bg color, return to top link hover color
 # 'base' - Defines header site title, active top nav link color, left nav link color, link color in primary and main footer and text in usa-banner
 # 'visited' - Defines visited link color
-# 
+#
 # colors:
 #   primary: 'DodgerBlue'
 #   primary-darker: 'pink'
 #   base: 'orange'
-#   visited: 'red'
+#   visited: 'red' 
 #
 # # USA banner colors
 #   usa-banner:
