@@ -1,0 +1,17 @@
+.usa-sidenav-list {
+  background-color: $side-nav-bg;
+
+  a {
+    color: $side-nav-link;
+
+    &:hover {
+      background-color: $side-nav-link-hover-bg;
+      color: $side-nav-link-hover;
+    }
+
+    &.usa-current {
+      border-color: $side-nav-link-current;
+      color: $side-nav-link-current;
+    }
+  }
+}
