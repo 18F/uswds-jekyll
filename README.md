@@ -11,7 +11,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Site title](#site-title)
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
-    - [Color and font configuration](#color-and-font-configuration)
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
@@ -224,10 +223,6 @@ redcarpet:
   extensions:
     - with_toc_data
 ```
-
-### Color and font configuration
-
-The default colors and fonts can be configured in the `_data/theme.yml` file.
 
 ### Search
 
