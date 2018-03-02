@@ -1,0 +1,19 @@
+.usa-banner {
+  background-color: $usa-banner-bg;
+
+  .usa-banner-header {
+    color: $usa-banner-text;
+  }
+
+  .usa-banner-button {
+    color: $usa-banner-link;
+
+    &:hover {
+      color: $usa-banner-link-hover;
+    }
+  }
+
+  .usa-banner-content {
+    color: $usa-banner-text;
+  }
+}
