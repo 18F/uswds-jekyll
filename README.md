@@ -11,6 +11,9 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Site title](#site-title)
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
+    - [Hero](#hero)
+    - [Tagline intro](#tagline-intro)
+    - [Graphics list](#graphics-list)
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
@@ -199,6 +202,19 @@ The `subnav` field should be used to link to sections _within_ the current
 page, because links to other pages will cause the linking page's side
 navigation to collapse when visited.
 
+
+`sidenav` is a key _into_ `_data/navigation.yml`. See the [navigation](#navigation) docs for more info.
+
+A page's "current" or "active" state in the sidenav is
+determined by whether a link's `href` matches `page.url` or
+`page.permalink` for each page being rendered.
+
+`subnav` is a list of links to display on this page under its own link in the side navigation.
+
+**Note that subnav link hrefs are not prefixed with
+`site.baseurl`** because this breaks hash links prefixed with
+`#`.
+
 **Pro tip:** Unless your Jekyll configuration specifies otherwise, the default
 Markdown formatter (Kramdown) will automatically generate predictable `id`
 attributes for your page headings and convert markdown like this:
@@ -221,6 +237,46 @@ markdown: redcarpet
 redcarpet:
   extensions:
     - with_toc_data
+```
+
+### Hero
+
+```yml
+hero: # optional
+  image: /path/to/image.jpg # optional
+  callout:
+    alt: Callout white text! # optional
+    text: The rest of the callout
+  button: # optional
+    text: The button text
+    href: /button-href/
+```
+
+### Tagline intro
+
+```yml
+# optional, but must be used in conjunction with 'intro', below
+tagline: A tagline for your page
+# also optional, but must be used with 'tagline', above
+intro: |
+  Some introductory text content.
+
+  This will be processed as **Markdown**.
+```
+
+### Graphics list
+```yml
+# an optional list of graphics to display before or after the content
+graphics:
+  - image:
+      # note the indentation here: graphics[n].image.src
+      src: /path/to/image.ext
+      alt: optional alt text
+    title: Optional graphic title, rendered as an <h3>
+    description: Graphic description text, processed as _Markdown_.
+
+# optional
+graphics_position: (before|after)
 ```
 
 ### Search
@@ -472,11 +528,17 @@ See this repo's [footer.yml](_data/footer.yml) for more info.
 This theme provides the following layouts, which you can use by
 setting the `layout` [front matter] on each page, like so:
 
-```yaml
+```yml
 ---
 layout: name
 ---
 ```
+Supported (optional) front matter for page layouts.
+
+- [page navigation](#page-subnavigation)
+- [hero](#hero)
+- [tagline intro](#tagline-intro)
+- [graphics list](#graphics-list)
 
 ### `layout: default`
 
@@ -496,36 +558,6 @@ This layout implements the [home page
 template](https://designsystem.digital.gov/page-templates/landing/), which
 accommodates the following [front matter]:
 
-```yml
-hero: # optional
-  image: /path/to/image.jpg # optional
-  callout:
-    alt: Callout white text! # optional
-    text: The rest of the callout
-  button: # optional
-    text: The button text
-    href: /button-href/
-
-# optional, but must be used in conjunction with 'intro', below
-tagline: A tagline for your page
-# also optional, but must be used with 'tagline', above
-intro: |
-  Some introductory text content.
-
-  This will be processed as **Markdown**.
-
-# an optional list of graphics to display before or after the content
-graphics:
-  - image:
-      # note the indentation here: graphics[n].image.src
-      src: /path/to/image.ext
-      alt: optional alt text
-    title: Optional graphic title, rendered as an <h3>
-    description: Graphic description text, processed as _Markdown_.
-
-# optional
-graphics_position: (before|after)
-```
 
 Check out the YAML front matter in the [home demo
 page](demo/home.html) for an example of how to structure it.
@@ -534,22 +566,7 @@ page](demo/home.html) for an example of how to structure it.
 ### `layout: page`
 
 This layout implements the [document page
-template](https://designsystem.digital.gov/page-templates/docs/), and
-accommodates an optional side navigation. Supported [front matter]:
-
-* `sidenav` is a key _into_ `_data/navigation.yml`. See the
-  [navigation](#navigation) docs for more info.
-
-    A page's "current" or "active" state in the sidenav is
-    determined by whether a link's `href` matches `page.url` or
-    `page.permalink` for each page being rendered.
-
-* `subnav` is a list of links to display on this page under its own
-  link in the side navigation.
-
-    **Note that subnav link hrefs are not prefixed with
-    `site.baseurl`** because this breaks hash links prefixed with
-    `#`.
+template](https://designsystem.digital.gov/page-templates/docs/).
 
 See the [page demo page](demo/page.md) for an example of how this
 works, and see [_data/navigation.yml](_data/navigation.yml) for how
