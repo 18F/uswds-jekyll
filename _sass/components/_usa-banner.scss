@@ -1,19 +1,19 @@
 .usa-banner {
-  background-color: $usa-banner-bg;
+  @if variable-exists(usa-banner-bg){ background-color: $usa-banner-bg; }
 
   .usa-banner-header {
-    color: $usa-banner-text;
+    @if variable-exists(usa-banner-text){ color: $usa-banner-text; }
   }
 
   .usa-banner-button {
-    color: $usa-banner-link;
+    @if variable-exists(usa-banner-link){ color: $usa-banner-link; }
 
     &:hover {
-      color: $usa-banner-link-hover;
+      @if variable-exists(usa-banner-link-hover){ color: $usa-banner-link-hover; }
     }
   }
 
   .usa-banner-content {
-    color: $usa-banner-text;
+    @if variable-exists(usa-banner-text){ color: $usa-banner-text; }
   }
 }

@@ -1,10 +1,9 @@
-
-# Color configurations
-# 'primary' - Defines content link color, primary button bg color, return to top link color
-# 'primary darker' - Defines content link hover color, primary button hover bg color, return to top link hover color
-# 'base' - Defines header site title, active top nav link color, left nav link color, link color in primary and main footer and text in usa-banner
-# 'visited' - Defines visited link color
-# 
+## Color configurations
+## 'primary' - Defines content link color, primary button bg color, return to top link color
+## 'primary darker' - Defines content link hover color, primary button hover bg color, return to top link hover color
+## 'base' - Defines header site title, active top nav link color, left nav link color, link color in primary and main footer and text in usa-banner
+## 'visited' - Defines visited link color
+#
 # colors:
 #   primary: 'DodgerBlue'
 #   primary-darker: 'pink'
@@ -78,9 +77,9 @@
 # # 'bold' - Defines the bold font weight
 #
 # fonts:
-# sans: >
-#     "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
-# serif: >
-#     "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
-# normal: 300
-# bold: 500
+#   sans: >-
+#       "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif
+#   serif: >-
+#       "Baskerville", "Georgia", "Cambria", "Times New Roman", "Times", serif
+#   normal: 300
+#   bold: 500
