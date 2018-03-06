@@ -1,16 +1,16 @@
 .usa-footer-primary-section {
-  background-color: $primary-footer-bg;
+  @if variable-exists(primary-footer-bg){ background-color: $primary-footer-bg; }
 
   .usa-footer-primary-link {
-    color: $primary-footer-link;
+    @if variable-exists(primary-footer-link){ color: $primary-footer-link; }
   }
 }
 
 .usa-footer-secondary_section {
-  background-color: $footer-bg;
-  color: $footer-text;
+  @if variable-exists(footer-bg){ background-color: $footer-bg; }
+  @if variable-exists(footer-text){ color: $footer-text; }
 
   a {
-    color: $footer-link;
+    @if variable-exists(footer-link){ color: $footer-link; }
   }
 }
