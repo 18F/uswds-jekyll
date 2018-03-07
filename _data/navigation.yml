@@ -1,3 +1,5 @@
+# This is the configuration for the site navigation.
+
 # This file defines the structure of various named navigational
 # listings, any of which can be used (with some caveats) as the
 # links in your header, footer, and per-page side navigation.
@@ -12,9 +14,6 @@
 primary:
   - text: Documentation
     href: /docs/
-  - text: Button
-    href: /button/
-    class: usa-button
   - text: Navigation section
     links:
       - text: Demo link A
@@ -28,7 +27,6 @@ primary:
   - text: External link
     href: https://18f.gsa.gov
     external: true
-    class: usa-button
 
 secondary:
   - text: Documentation
@@ -36,17 +34,10 @@ secondary:
   - text: External link
     href: https://18f.gsa.gov
     external: true
-  - text: Button
-    href: https://18f.gsa.gov
-    external: true
-    class: usa-button
 
 docs:
   - text: Documentation
     href: /docs/
-  - text: Button
-    href: /button/
-    class: usa-button
   - text: Navigation section
     links:
       - text: Demo link A
@@ -64,7 +55,6 @@ docs:
 footer:
   - text: Documentation
     href: /docs/
-    class: usa-button
   - text: Demo link
     href: /demo/
   - text: External link

@@ -1,23 +1,23 @@
 # This is the configuration for the site header.
 
-# Uncomment this statement (by removing the leading '# ') to set the
-# header title differently from the site's title (as defined in
-# _config.yml).
-
+# Set header title differently from the site's title (as defined in _config.yml).
+# Uncomment the following line to use the header title.
 # title: Header title
 
-# Used to show or hide the official usa banner at the top of the site.
-# Comment out to the following line to hide the usa banner. 
+# Show or hide the official USA banner at the top of the site.
+# Comment out to the following line to hide.
 usa_banner: true
 
-# this defines the type of header
-# header types can be 'basic' or 'extended'
+# Defines the type of header.
+# Header types can be 'basic' or 'extended'.
+# Basic - https://components.designsystem.digital.gov/components/detail/header--basic.html
+# Extended - https://components.designsystem.digital.gov/components/detail/header--extended.html
 type: extended
 
+# this is a key into _data/navigation.yml
 primary:
-  # this is a key into _data/navigation.yml
   links: primary
 
+# this is a key into _data/navigation.yml
 secondary:
-  # this is a key into _data/navigation.yml
   links: secondary
