@@ -14,9 +14,11 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Hero](#hero)
     - [Tagline intro](#tagline-intro)
     - [Graphics list](#graphics-list)
+    - [Color and font configuration](#color-and-font-configuration)
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
+    - [Anchor JS](#anchor-js)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -279,6 +281,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
+### Color and font configuration
+
+The default colors and fonts can be configured in the `_data/theme.yml` file.
+
+
 ### Search
 
 [Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
@@ -316,6 +323,16 @@ This will add the date right before the footer component and uses the `last-modi
 ```yml
 # Used to show the "Last updated" date and time;
 # last_updated: true
+```
+
+### Anchor JS
+
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
+This will add an anchor link after the header tag on the page and post layouts making ech header linkable.
+See https://github.com/bryanbraun/anchorjs for more information.
+
+```yml
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 ```
 
 ## Assets
