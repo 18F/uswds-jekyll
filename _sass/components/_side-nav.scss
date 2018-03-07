@@ -1,0 +1,29 @@
+.usa-sidenav-list {
+  @if variable-exists(side-nav-bg) {
+    background-color: $side-nav-bg;
+  }
+
+  a {
+    @if variable-exists(side-nav-link) {
+      color: $side-nav-link;
+    }
+
+    &:hover {
+      @if variable-exists(side-nav-link-hover-bg) {
+        background-color: $side-nav-link-hover-bg;
+      }
+      @if variable-exists(side-nav-link-hover) {
+        color: $side-nav-link-hover;
+      }
+    }
+
+    &.usa-current {
+      @if variable-exists(side-nav-link-current) {
+        border-color: $side-nav-link-current;
+      }
+      @if variable-exists(side-nav-link-current) {
+        color: $side-nav-link-current;
+      }
+    }
+  }
+}
