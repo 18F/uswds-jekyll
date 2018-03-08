@@ -36,9 +36,9 @@ secondary:
     external: true
 
 docs:
-  - text: Documentation
+  - text: Sidenav Documentation
     href: /docs/
-  - text: Navigation section
+  - text: Sidenav Navigation section
     links:
       - text: Demo link A
         href: /two/a/
@@ -46,9 +46,9 @@ docs:
         href: /two/b/
       - text: Demo link C
         href: /two/c/
-  - text: Referenced section
+  - text: Sidenav Referenced section
     links: footer
-  - text: External link
+  - text: Sidenav External link
     href: https://18f.gsa.gov
     external: true
 
