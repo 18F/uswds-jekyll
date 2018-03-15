@@ -2,7 +2,7 @@
 title: Documentation
 permalink: /docs/
 
-layout: page
+layout: post
 sidenav: docs
 subnav:
   - text: Section one
