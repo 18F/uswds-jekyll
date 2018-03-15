@@ -87,3 +87,7 @@ $image-path: '../uswds/img';
   {% endif %}
 {% endfor %}
 
+// Setting site width
+{% if site.site_width %}
+  @import 'components/site-width';
+{% endif %}
