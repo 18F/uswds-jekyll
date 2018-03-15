@@ -79,3 +79,11 @@ $image-path: '../uswds/img';
 
 @import 'uswds/all';
 @import 'components/all';
+
+{% for item in site.data.navigation.primary %}
+  {% if item.class %}
+    @import 'components/nav-buttons';
+  {% break %}
+  {% endif %}
+{% endfor %}
+
