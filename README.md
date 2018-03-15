@@ -148,7 +148,7 @@ This theme's navigation system is powerful and flexible. Named
 navigational lists live in your project's `_data/navigation.yml`,
 e.g.
 
-By default all links are assumed to be internal to the site. You can add `external: true` to links that are external.
+By default all links are assumed to be internal to the site. You can add `external: true` to links that are external. You can also add `class: class-name` to add a class to a specific link.
 
 ```yml
 # _data/navigation.yml
