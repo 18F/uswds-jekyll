@@ -14,10 +14,6 @@
 primary:
   - text: Documentation
     href: /docs/
-  - text: Team
-    href: /team/
-  - text: Projects
-    href: /projects/
   - text: Navigation section
     links:
       - text: Demo link A
