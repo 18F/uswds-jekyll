@@ -588,6 +588,8 @@ small_image: /path/to/image.ext
 image_alt: The image alt text
 ```
 
+To show a listing of projects on a page add `{% include project-list.html %} to the page`
+
 ### `layout: team-member`
 
 This layout is used to show details for an individual team member and uses the following front matter.
@@ -601,6 +603,9 @@ job_title: Team member job title
 phone: 123-456-7890
 email: email@address.gov
 ```
+
+To show a listing of team members on a page add `{% include team-list.html %} to the page`
+
 [Sass]: http://sass-lang.com/guide
 [Jekyll Sass]: https://jekyllrb.com/docs/assets/#sassscss
 [front matter]: https://jekyllrb.com/docs/frontmatter/
