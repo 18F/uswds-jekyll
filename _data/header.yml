@@ -8,11 +8,10 @@
 # Comment out to the following line to hide.
 usa_banner: true
 
-# This theme is currently targeted at government websites on .gov and .mil.
 # This setting changes the TLD used as an argument for trust in banner.html.
-# If other options are ever added, it may be worth adding a JS determiner or
-#   other automated feature.
-government_tld: .gov
+# If options besides .mil and .gov are added, it may be worth adding a JS
+# determiner or other automated feature. If undefined, the default is .gov
+# government_tld: .mil
 
 # Defines the type of header.
 # Header types can be 'basic' or 'extended'.
