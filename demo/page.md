@@ -4,6 +4,7 @@ permalink: /docs/
 
 layout: post
 sidenav: docs
+sticky_sidenav: true
 subnav:
   - text: Section one
     href: '#section-one'
@@ -34,4 +35,3 @@ This is some more [content](https://18f.gsa.gov/).
 ###### Section six
 
 This is some more [content](https://18f.gsa.gov/).
-
