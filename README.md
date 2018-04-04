@@ -226,6 +226,8 @@ redcarpet:
     - with_toc_data
 ```
 
+**Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page](#layout-page), [project](#layout-project), and [team member](#layout-team-member) layouts to have the sidenav follow as you scroll.
+
 ### Color and font configuration
 
 The default colors and fonts can be configured in the `_data/theme.yml` file.
