@@ -4,7 +4,6 @@ permalink: /docs/
 
 layout: post
 sidenav: docs
-sticky_sidenav: true
 subnav:
   - text: Section one
     href: '#section-one'
