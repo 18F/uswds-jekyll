@@ -5,7 +5,7 @@ main:
 ---
 {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
 {% if sidenav %}
-<aside class="usa-layout-docs-sidenav sidenav">
+<aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
   {% include sidenav.html links=sidenav %}
 </aside>
 

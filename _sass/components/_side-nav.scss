@@ -1,3 +1,8 @@
+.usa-sticky-sidenav {
+  position: sticky;
+  top: 1rem;
+}
+
 .usa-sidenav-list {
   @if variable-exists(side-nav-bg) {
     background-color: $side-nav-bg;
