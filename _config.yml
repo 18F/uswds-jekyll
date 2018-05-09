@@ -35,3 +35,7 @@ github:
 #     output: true
 #   team:
 #     output: true
+
+# Compress Sass
+sass:
+  style: compressed
