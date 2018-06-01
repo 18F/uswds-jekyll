@@ -8,12 +8,8 @@ main:
 <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
   {% include sidenav.html links=sidenav %}
 </aside>
+{% endif %}
 
 <div class="usa-layout-docs-main_content">
   {{ content }}
 </div>
-{% else %}
-<div class="usa-layout-docs-main_content">
-  {{ content }}
-</div>
-{% endif %}
