@@ -174,6 +174,15 @@ shared by different components, such as the [header](#header) and
 [footer](#footer). See the documentation for those components for
 more info.
 
+### Page title
+
+Set each page's title in its frontmatter:
+
+```md
+---
+title: About us
+---
+```
 
 ### Page subnavigation
 
