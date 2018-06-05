@@ -4,8 +4,12 @@ title: This is the site title
 # This is used for adding an edit this page link to the footer
 github:
   organization: 18F
-  repository: federalist-uswds-template
+  repository: uswds-jekyll
   default_branch: master
+
+# Configuration for setting the site width to 100%
+# To enable, uncomment the following line
+# site_width: wide
 
 # Configuration for Google Analytics, add your UA code here:
 # google_analytics_ua: UA-????????-??
@@ -23,3 +27,11 @@ github:
 # Your search_site_handle value is from the search.gov settings page.
 
 # search_site_handle: searchgov-site-handle
+
+# Configuration for projects and team collections
+# See https://jekyllrb.com/docs/collections/ for more information about collections.
+# collections:
+#   projects:
+#     output: true
+#   team:
+#     output: true
