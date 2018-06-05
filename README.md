@@ -9,6 +9,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Versioning](#versioning)
 1. [Configuration](#configuration)
     - [Site title](#site-title)
+    - [Site description](#site-description)
     - [Navigation](#navigation)
     - [Page subnavigation](#page-subnavigation)
     - [Color and font configuration](#color-and-font-configuration)
@@ -142,6 +143,10 @@ You can change your site's title with the `title` field in your
 _only_ in the site header, you can set the `title` field in
 `_data/header.yml`.
 
+### Site description
+
+You can change your site's description with the `description` field in your
+`_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's frontmatter.
 
 ### Navigation
 
