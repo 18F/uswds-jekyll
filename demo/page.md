@@ -1,5 +1,6 @@
 ---
 title: Documentation
+description: This is a documentation page.
 permalink: /docs/
 
 layout: post
