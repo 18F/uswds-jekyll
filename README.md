@@ -14,9 +14,11 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Hero](#hero)
     - [Tagline intro](#tagline-intro)
     - [Graphics list](#graphics-list)
+    - [Color and font configuration](#color-and-font-configuration)
     - [Search](#search)
     - [Analytics](#analytics)
     - [Last modified date](#last-modified-date)
+    - [Anchor JS](#anchor-js)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -33,7 +35,8 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Page](#layout-page)
     - [Home](#layout-home)
     - [Post](#layout-post)
-    - [Search results](#search-results)
+    - [Project](#layout-project)
+    - [Team member](#layout-team-member)
 
 
 
@@ -149,7 +152,7 @@ This theme's navigation system is powerful and flexible. Named
 navigational lists live in your project's `_data/navigation.yml`,
 e.g.
 
-By default all links are assumed to be internal to the site. You can add `external: true` to links that are external.
+By default all links are assumed to be internal to the site. You can add `external: true` to links that are external. You can also add `class: class-name` to add a class to a specific link.
 
 ```yml
 # _data/navigation.yml
@@ -174,6 +177,15 @@ shared by different components, such as the [header](#header) and
 [footer](#footer). See the documentation for those components for
 more info.
 
+### Page title
+
+Set each page's title in its frontmatter:
+
+```md
+---
+title: About us
+---
+```
 
 ### Page subnavigation
 
@@ -239,6 +251,8 @@ redcarpet:
     - with_toc_data
 ```
 
+**Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page](#layout-page), [project](#layout-project), and [team member](#layout-team-member) layouts to have the sidenav follow as you scroll.
+
 ### Hero
 
 ```yml
@@ -279,6 +293,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
+### Color and font configuration
+
+The default colors and fonts can be configured in the `_data/theme.yml` file.
+
+
 ### Search
 
 [Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
@@ -316,6 +335,16 @@ This will add the date right before the footer component and uses the `last-modi
 ```yml
 # Used to show the "Last updated" date and time;
 # last_updated: true
+```
+
+### Anchor JS
+
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
+This will add an anchor link after the header tag on the page and post layouts making ech header linkable.
+See https://github.com/bryanbraun/anchorjs for more information.
+
+```yml
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 ```
 
 ## Assets
@@ -551,7 +580,6 @@ The default layout provides a layout [front matter] hook to add
 attributes to the `<main>` element. You can see how this works in
 the [page layout](_layouts/page.html#L3-L4).
 
-
 ### `layout: home`
 
 This layout implements the [home page
@@ -561,7 +589,6 @@ accommodates the following [front matter]:
 
 Check out the YAML front matter in the [home demo
 page](demo/home.html) for an example of how to structure it.
-
 
 ### `layout: page`
 
@@ -576,12 +603,37 @@ to structure named navigation data for your site.
 
 This layout is identical to the layout `page` and is included to allow for easier site creation using  `Jekyll new`.
 
-### `layout: search-results`
+### `layout: project`
 
-This layout is for search results and contains the `jekyll_pages_api_search_results`
-that renders the results into the `<main>` element. All of the other layouts "inherit" this one and
-provide other features in the content block.
+This layout is used to show details for an individual project and uses the following front matter.
 
+```yml
+layout: project
+title: Title of project
+permalink: /projects/link-to-project/
+description: Project description.
+large_image: /path/to/image.ext
+small_image: /path/to/image.ext
+image_alt: The image alt text
+```
+
+To show a listing of projects on a page add `{% include project-list.html %} to the page`
+
+### `layout: team-member`
+
+This layout is used to show details for an individual team member and uses the following front matter.
+
+```yml
+layout: team-member
+permalink: /team/link-to-team-member/
+name: Team member name
+image: /path/to/image.ext
+job_title: Team member job title
+phone: 123-456-7890
+email: email@address.gov
+```
+
+To show a listing of team members on a page add `{% include team-list.html %} to the page`
 
 [Sass]: http://sass-lang.com/guide
 [Jekyll Sass]: https://jekyllrb.com/docs/assets/#sassscss

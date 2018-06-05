@@ -19,7 +19,7 @@ hero:
 
 tagline: A tagline highlights your approach.
 intro: |
-  The tagline should inspire confidence and interest, focusing on the value that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
+  The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
 
   Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.
 
@@ -28,7 +28,7 @@ graphics:
       src: /assets/uswds/img/circle-124.png
       alt: ''
     title: Graphic headings can vary.
-    description: Graphic headings can be used a few different ways, depending on what your landing page is for. Highlight your values, specific program areas, or results.
+    description: Graphic headings can be used a few [different ways](javascript:void(0);), depending on what your landing page is for. Highlight your values, specific program areas, or results.
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
@@ -43,9 +43,12 @@ graphics:
       src: /assets/uswds/img/circle-124.png
       alt: ''
     title: Could also have 2 or 6.
-    description: In addition to your goal, find out your users’ goals. What do they want to know or do that supports your mission? Use these headings to show those.
+    description: In addition to your goal, find out your users’ goals. [What do they want to know](https://18f.gsa.gov/) or do that supports your mission? Use these headings to show those.
 ---
 
-<h2>Section heading</h2>
-<p class="usa-font-lead">Everything up to this point should help people understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.</p>
-<a class="usa-button usa-button-big" href="#">Call to action</a>
+## Section heading
+
+Everything up to this point [should help people](javascript:void(0);) understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.
+{: .usa-font-lead }
+
+[Call to action](#){: .usa-button .usa-button-big }
