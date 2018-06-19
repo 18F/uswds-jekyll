@@ -34,6 +34,7 @@
             </button>
             <ul id="{{ _section_id }}" class="usa-nav-submenu usa-megamenu usa-grid-full" aria-hidden="true">
               {% for _link in section_links %}
+              <!-- wrap every 3 links in a usa-megamenu-col div -->
               {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
               {% if modulo == '1' %}
                 <div class="usa-megamenu-col">
