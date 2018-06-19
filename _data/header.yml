@@ -14,9 +14,8 @@ usa_banner: true
 # government_tld: .mil
 
 # Defines the type of header.
-# Header types can be 'basic' or 'extended'.
-# Basic - https://components.designsystem.digital.gov/components/detail/header--basic.html
-# Extended - https://components.designsystem.digital.gov/components/detail/header--extended.html
+# Header types can be 'basic', 'basic-mega', 'extended' or 'extended-mega'.
+# https://designsystem.digital.gov/components/headers/
 type: extended
 
 # this is a key into _data/navigation.yml
