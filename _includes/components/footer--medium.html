@@ -8,7 +8,7 @@
       </div>
     </div>
   {% endif %}
-  
+
   {% if footer.top %}
     <div class="usa-grid usa-footer-return-to-top">
       <a href="{{ footer.top.href | default: '#' }}">{{ footer.top.text | default: 'Return to top' }}</a>
@@ -39,7 +39,7 @@
   </div>
   {% endif %}
 
-  {% if footer.logos or footer.heading or footer.contact %}
+  {% if footer.logos or footer.heading or footer.contact or footer.edit_page %}
   <div class="usa-footer-secondary_section">
     <div class="usa-grid">
       <div class="usa-footer-logo usa-width-one-half">
