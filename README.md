@@ -530,7 +530,7 @@ header data to come directly from the Jekyll configuration file
 `_includes/header.html` to look like this:
 
 ```html
-{% assign header = site.header %}
+{% assign header = site.data.header %}
 {% include components/header--basic.html %}
 ```
 
