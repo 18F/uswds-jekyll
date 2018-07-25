@@ -45,14 +45,14 @@ contact:
       external: true
       type: facebook
     - text: Twitter
-      href: https://twitter.com
+      href: https://www.twitter.com/ChiDesignDir
       external: true
       type: twitter
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Agency contact center
+  heading: Contact the CDS
 # Configuration for contact links for email, phone, etc...
   contact_links:
     - text: design-system@cityofchicago.org

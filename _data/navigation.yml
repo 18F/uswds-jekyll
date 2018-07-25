@@ -12,30 +12,18 @@
 #   links: primary
 #
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: Referenced section
-    links: footer
+  - text: Accessibility
+    href: /accessibility/
+  - text: Patterns
+    href: https://patterns.chicagodesignsystem.org
+  - text: Playboook
+    href: methods.chicagodesignsystem.org
   - text: City Homepage
     href: https://www.cityofchicago.org
     external: true
 
 secondary:
-  - text: Documentation
+  - text: Quick Start Guide
     href: /docs/
   - text: City Homepage
     href: https://www.cityofchicago.org
@@ -59,10 +47,12 @@ docs:
     external: true
 
 footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link
-    href: /demo/
+  - text: Accessibility
+    href: /accessibility
+  - text: Patterns
+    href: https://patterns.chicagodesignsystem.org
+  - text: Playboook
+    href: methods.chicagodesignsystem.org
   - text: City Homepage
     href: https://www.cityofchicago.org
     external: true

@@ -7,23 +7,20 @@ layout: home
 hero:
   image: /assets/uswds/img/hero.png
   callout:
-    alt: "Hero callout:"
-    text: Call attention to a current priority
+    alt: "Join Our Community"
+    text: Get started with the CDS
   button:
     href: /callout/
-    text: This is a call to all my
-  link:
-    text: Link to more about that priority
-    href: /link/
-  content: Support the callout with some short explanatory text. You don't need more than a couple of sentences.
+    text: Quick Start Guide
+  content: You can get involved by giving us feedback, [writing an issue](https://github.com/Chicago/design-system/issues/new), or [finding other ways to contribute](https://opensource.guide/how-to-contribute/). We communicate about this project in our [CDS Slack workspace](https://chicagodesignsystem.slack.com/messages). Request an invitation by emailing us at [Chicago Design System](mailto:design.system@cityofchicago.org).
 
-tagline: A tagline highlights your approach.
+tagline: About the Chicago Design System
 intro: |
-  The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
+  The Chicago Design System (CDS) is a guide to producing delightful services and technology applications for employees and residents of the City of Chicago.
 
-  Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.
+  The CDS is open source (under the MIT license), and contributions or commentary from City of Chicago employees and the public at large are welcome.
 
-graphics:
+<!--graphics:
   - image:
       src: /assets/uswds/img/circle-124.png
       alt: ''
@@ -43,12 +40,28 @@ graphics:
       src: /assets/uswds/img/circle-124.png
       alt: ''
     title: Could also have 2 or 6.
-    description: In addition to your goal, find out your users’ goals. [What do they want to know](https://18f.gsa.gov/) or do that supports your mission? Use these headings to show those.
+    description: In addition to your goal, find out your users’ goals. [What do they want to know](https://18f.gsa.gov/) or do that supports your mission? Use these headings to show those. -->
 ---
+## Accessibility
 
-## Section heading
+Accessibility is an essential aspect of web development for the City of Chicago. With nearly ten million people in the Chicago metropolitan area, and millions of visitors each year, accessibility means the greatest number of users can view our content.
 
-Everything up to this point [should help people](javascript:void(0);) understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.
-{: .usa-font-lead }
+In general, the City of Chicago follows [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standard for accessibility. All patterns, styles, and color combinations in the Pattern Library have been tested to comply with this standard.
 
-[Call to action](#){: .usa-button .usa-button-big }
+[See our Accessibility Standards](#){: .usa-button .usa-button-medium }
+
+## Patterns
+
+The CDS Pattern Library is a complete repository of our colors, fonts, and styles. It gives you the exact details to set the standard for what to implement on your site. At the same time, the Pattern Library offers assets and resources to cut down on time and standardize city sites.
+
+When building your CDS site, make sure to reference the Pattern Library to bring your site as close as possible to the CDS standard. 
+
+[See our Patterns](https://patterns.chicagodesignsystem.org/){: .usa-button .usa-button-medium }
+
+## Playbook 
+
+The CDS Playbook shows you the Chicago way of development and production. These are the services we currently offer, and have been adapted from the federal design process. Creating a well-designed, user-oriented product is of utmost importance, and as such our methods are focused around that goal. 
+
+Check back regularly, as the processes and services we offer may change, and we are always working on updates to our playbook.
+
+[See our Playbook](https://methods.chicagodesignsystem.org){: .usa-button .usa-button-medium }
