@@ -30,15 +30,15 @@ primary:
         href: /two/c/
   - text: Referenced section
     links: footer
-  - text: External link
-    href: https://18f.gsa.gov
+  - text: City Homepage
+    href: https://www.cityofchicago.org
     external: true
 
 secondary:
   - text: Documentation
     href: /docs/
-  - text: External link
-    href: https://18f.gsa.gov
+  - text: City Homepage
+    href: https://www.cityofchicago.org
     external: true
 
 docs:
@@ -54,8 +54,8 @@ docs:
         href: /two/c/
   - text: Sidenav Referenced section
     links: footer
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
+  - text: Sidenav City Homepage
+    href: https://www.cityofchicago.org
     external: true
 
 footer:
@@ -63,6 +63,6 @@ footer:
     href: /docs/
   - text: Demo link
     href: /demo/
-  - text: External link
-    href: https://18f.gsa.gov
+  - text: City Homepage
+    href: https://www.cityofchicago.org
     external: true

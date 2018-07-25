@@ -1,0 +1,91 @@
+//This is a file that will override the defaults preset in the USWDS, allowing you to add your own styles.
+//Added for the Chicago Design System
+
+//Fonts
+$font-sans:                  'Montserrat','Source Sans Pro', sans-serif;
+$font-serif:                 'Sorts Mill Goudy','Merriweather', serif;
+
+// Color
+$color-seal-blue:            #2C5491;
+$color-seal-blue-darker:     #244473;
+$color-seal-blue-darkest:    #112E51;
+
+$color-flag-red:             #BA2E3A;
+$color-flag-red-dark:        #A02A34;
+$color-flag-red-darkest:     #981b1e;
+$color-flag-red-light:       #D68289;
+$color-flag-red-lightest:    #F8EAEB;
+
+$color-flag-blue:            #5E9AC8;
+
+$color-seal-ring-blue:       #005488;
+$color-seal-sky-blue:        #71C8E6;
+$color-seal-ship-brown:      #9A574B;
+$color-seal-banner-red:      #D8232A;
+$color-seal-green:           #009949;
+$color-seal-yellow:          #FFF101;
+$color-seal-beige:           #F5C4AD;
+
+$color-aqua:                 #02bfe7 !default;
+$color-aqua-dark:            #00a6d2 !default;
+$color-aqua-darkest:         #046b99 !default;
+$color-aqua-light:           #9bdaf1 !default;
+$color-aqua-lightest:        #e1f3f8 !default;
+
+$color-white:                #ffffff !default;
+
+$color-black:                #000000 !default;
+$color-black-light:          #212121 !default;
+
+$color-gray-dark:            #323a45 !default;
+$color-gray:                 #5b616b !default;
+$color-gray-medium:          #757575 !default;
+$color-gray-light:           #aeb0b5 !default;
+$color-gray-lighter:         #d6d7d9 !default;
+$color-gray-lightest:        #f1f1f1 !default;
+
+$color-gray-warm-dark:       #494440 !default;
+$color-gray-warm-light:      #e4e2e0 !default;
+
+$color-gray-cool-light:      #dce4ef !default;
+
+$color-gold:                 #DCB13C;
+$color-gold-light:           #E3C163;
+$color-gold-lighter:         #EAD08A;
+$color-gold-lightest:        #F8EFD8;
+
+$color-green:                #339D61;
+$color-green-light:          #5EC88C;
+$color-green-lighter:        #9EDEBA;
+$color-green-lightest:       #DFF4E8;
+
+$color-cool-blue:            #205493 !default;
+$color-cool-blue-light:      #4773aa !default;
+$color-cool-blue-lighter:    #8ba6ca !default;
+$color-cool-blue-lightest:   #dce4ef !default;
+
+$color-purple:               #BD5190;
+$color-purple-light:         #BD5190;
+$color-purple-lighter:       #F0AAD3;
+$color-purple-lightest:      #FAE3F0;
+
+// Functional colors
+$color-primary:              $color-seal-blue;
+$color-primary-darker:       $color-seal-blue-darker;
+$color-primary-darkest:      $color-seal-blue-darkest;
+
+$color-primary-alt:          $color-aqua !default;
+$color-primary-alt-dark:     $color-aqua-dark !default;
+$color-primary-alt-darkest:  $color-aqua-darkest !default;
+$color-primary-alt-light:    $color-aqua-light !default;
+$color-primary-alt-lightest: $color-aqua-lightest !default;
+
+$color-secondary:            $color-flag-red;
+$color-secondary-dark:       $color-flag-red-dark;
+$color-secondary-darkest:    $color-flag-red-darkest;
+$color-secondary-light:      $color-flag-red-light;
+$color-secondary-lightest:   $color-flag-red-lightest;
+
+$color-base:                 $color-black-light !default;
+$color-focus:                #2C5491;
+$color-visited:              #4C2C92;

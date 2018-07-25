@@ -5,8 +5,8 @@
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo" id="logo">
       <em class="usa-logo-text">
-        <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
-          {{ header.title | default: site.title }}
+        <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home"> <img src="/assets/img/logo.png" alt="CDS Logo">
+          <h1 class="usa-header-title">{{ header.title | default: site.title }}</h1>
         </a>
       </em>
     </div>

@@ -1,11 +1,11 @@
-title: This is the site title
-description: This is the site description.
+title: Chicago Design System
+description: The Chicago Design System (CDS) is a guide to producing delightful services and technology applications for employees and residents of the City of Chicago.
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
-  organization: 18F
-  repository: uswds-jekyll
+  organization: chicago
+  repository: cds-jekyll
   default_branch: master
 
 # Configuration for setting the site width to 100%

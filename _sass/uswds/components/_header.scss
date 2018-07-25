@@ -60,7 +60,31 @@ $z-index-nav:     9000;
   font-style: normal;
   font-weight: $font-bold;
   margin: 0;
+  a h1 {
+    display: inline-block;
+    vertical-align: text-bottom;
+    color: $color-primary;
+    margin-top: 0;
+  }
+  img {
+    flex-grow: 1;
+    max-height: 8.5rem;
+    max-width: 8.5rem;
+    padding-right: 1rem;
+  }
+  @media screen and (max-width: $nav-width) {
+    img{height: 3.5rem;}
 
+    a h1 {
+    font-size: 2rem; 
+    margin-top: .75rem;
+    margin-bottom: .75rem;}
+  }
+  @media screen and (max-width: 325px) {
+    img{
+      padding-right: 0;
+    }
+  }
   @include media($nav-width) {
     display: block;
     font-size: 2.4rem;

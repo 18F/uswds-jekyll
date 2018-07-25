@@ -26,14 +26,14 @@ top:
 links: footer
 
 # Configuration for footer heading. (optional)
-heading: Name of agency
+heading: Chicago Design System
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
-    external: true
+  - src: /assets/img/city-seal_blue.png
+    alt: Seal of the City of Chicago
+    external: false
 
 # Configuration for footer contact links
 contact:
@@ -48,10 +48,6 @@ contact:
       href: https://twitter.com
       external: true
       type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
@@ -59,7 +55,5 @@ contact:
   heading: Agency contact center
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: (800) CALL-GOVT
-      href: tel:1-800-555-5555
-    - text: info@agency.gov
-      href: mailto:info@agency.gov
+    - text: design-system@cityofchicago.org
+      href: mailto:design-system@cityofchicago.org
