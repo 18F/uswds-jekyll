@@ -16,13 +16,13 @@ subnav:
     href: '#fractal'
 ---
 
-## How To start using the Chicago Design System
+## How to start using the Chicago Design System
 
 Designers: Check out the [Getting Started for Designers](https://designsystem.digital.gov/getting-started/designers/) information.
 
 Developers: Follow the instructions below to get started.
 
-## How To Contribute to the Chicago Design System.
+## How to contribute to the Chicago Design System.
 
 This quick start guide will walk you through cloning the GitHub repository, as well as installing  Jekyll and Fractal so you can start contributing to the Chicago Design System. Once you've made edits to your local forks, you can submit a pull request through git/GitHub, which may be merged with the main project after review.
 
