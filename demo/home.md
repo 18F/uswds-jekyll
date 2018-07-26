@@ -48,7 +48,7 @@ Accessibility is an essential aspect of web development for the City of Chicago.
 
 In general, the City of Chicago follows [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standard for accessibility. All patterns, styles, and color combinations in the Pattern Library have been tested to comply with this standard.
 
-[See our Accessibility Standards](#){: .usa-button .usa-button-medium }
+[See our Accessibility Standards](https://accessibility.18f.gov/){: .usa-button .usa-button-medium }
 
 ## Patterns
 
