@@ -13,11 +13,11 @@
 #
 primary:
   - text: Accessibility
-    href: /accessibility/
+    href: https://accessibility.18f.gov/
   - text: Patterns
     href: https://patterns.chicagodesignsystem.org
   - text: Playboook
-    href: methods.chicagodesignsystem.org
+    href: https://methods.chicagodesignsystem.org
   - text: City Homepage
     href: https://www.cityofchicago.org
     external: true
@@ -30,25 +30,15 @@ secondary:
     external: true
 
 docs:
-  - text: Sidenav Documentation
+  - text: Quick Start Guide
     href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
-  - text: Sidenav City Homepage
+  - text: City Homepage
     href: https://www.cityofchicago.org
     external: true
 
 footer:
   - text: Accessibility
-    href: /accessibility
+    href: https://accessibility.18f.gov/
   - text: Patterns
     href: https://patterns.chicagodesignsystem.org
   - text: Playboook

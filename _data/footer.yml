@@ -40,10 +40,10 @@ contact:
 # Configuration for social media links
 # Comment out links you don't want to use (RSS is an example)
   social_links:
-    - text: Facebook
-      href: https://facebook.com
-      external: true
-      type: facebook
+   # - text: Facebook
+   #   href: https://facebook.com
+   #   external: true
+   #   type: facebook
     - text: Twitter
       href: https://www.twitter.com/ChiDesignDir
       external: true
