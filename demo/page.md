@@ -20,11 +20,17 @@ subnav:
 
 Designers: Check out the [Getting Started for Designers](https://designsystem.digital.gov/getting-started/designers/) information.
 
-Developers: Follow the instructions below to get started.
+Developers: Follow the instructions below to get started. For a fuller account of how to use the CDS fork of USWDS, go [here](https://github.com/uswds/uswds).
 
 ## How to contribute to the Chicago Design System.
 
 This quick start guide will walk you through cloning the GitHub repository, as well as installing  Jekyll and Fractal so you can start contributing to the Chicago Design System. Once you've made edits to your local forks, you can submit a pull request through git/GitHub, which may be merged with the main project after review.
+
+To use the Design System on your project, you’ll need to reference the CSS (Cascading Style Sheets) and JavaScript files in each HTML page or dynamic templates in your project.
+
+We offer both files, the CSS and the JavaScript, in two versions — a minified version, and an un-minified one. (In the examples above, we are using the minified files.) Use the minified files in a production environment or to reduce the file size of your downloaded assets. And the un-minified files are better if you are in a development environment or would like to debug the CSS or JavaScript assets in the browser.
+
+And that’s it — you should now be able to copy our code samples into your index.html and start using the Design System.
 
 You can get involved by giving us feedback, [writing an issue](https://github.com/Chicago/design-system/issues/new), or [finding other ways to contribute](https://opensource.guide/how-to-contribute/).
 
