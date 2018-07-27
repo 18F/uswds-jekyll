@@ -13,7 +13,7 @@
 #
 primary:
   - text: Accessibility
-    href: https://accessibility.18f.gov/
+    href: /accessibility
   - text: Patterns
     href: https://patterns.chicagodesignsystem.org
   - text: Playbook
@@ -29,16 +29,68 @@ secondary:
     href: https://www.cityofchicago.org
     external: true
 
-docs:
+pages:
   - text: Quick Start Guide
     href: /docs/
+  - text: Accessibility
+    href: /accessibility/
   - text: City Homepage
     href: https://www.cityofchicago.org
     external: true
-
+accessibility:
+  - text: Quick Start Guide
+    href: /docs/
+  - text: Alternative Versions
+    href: '/accessibility/alternative-versions/'
+  - text: Checklist
+    href: '/accessibility/checklist/'
+  - text: Color
+    href: '/accessibility/color/'
+  - text: CSS
+    href: '/accessibility/css/'
+  - text: Flashing
+    href: '/accessibility/flashing/'
+  - text: Forms
+    href: '/accessibility/forms/'
+  - text: Frames
+    href: '/accessibility/frames/'
+  - text: Headings
+    href: '/accessibility/headings/'
+  - text: Hidden Content
+    href: '/accessibility/hidden-content/'
+  - text: IFrame Form
+    href: '/accessibility/iframeform/'
+  - text: Images
+    href: '/accessibility/images/'
+  - text: Keyboard
+    href: '/accessibility/keyboard/'
+  - text: Landmarks
+    href: '/accessibility/landmarks/'
+  - text: Links
+    href: '/accessibility/links/'
+  - text: Multimedia
+    href: '/accessibility/multimedia/'
+  - text: Page Titles
+    href: '/accessibility/pagetitles/'
+  - text: Plugins
+    href: '/accessibility/plugins/'
+  - text: Properties
+    href: '/accessibility/properties/'
+  - text: Tables
+    href: '/accessibility/tables/'
+  - text: Timeouts
+    href: '/accessibility/timeouts/'
+  - text: Tools
+    href: '/accessibility/tools/'
+  - text: Videos
+    href: '/accessibility/videos/'
+  - text: Writing Guide
+    href: '/accessibility/writing-guide/'
+  - text: City Homepage
+    href: https://www.cityofchicago.org
 footer:
   - text: Accessibility
-    href: https://accessibility.18f.gov/
+    href: /accessibility
   - text: Patterns
     href: https://patterns.chicagodesignsystem.org
   - text: Playboook

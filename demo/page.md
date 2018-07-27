@@ -4,7 +4,7 @@ description: This is a documentation page.
 permalink: /docs/
 
 layout: post
-sidenav: docs
+sidenav: pages
 subnav:
   - text: How to Contribute
     href: '#how-to-contribute-to-the-chicago-design-system'
