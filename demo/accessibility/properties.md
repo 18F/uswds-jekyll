@@ -1,5 +1,5 @@
 ---
-title: Web text properties
+title: Web Text Properties
 layout: post
 description: 'How we deal with web text properties'
 permalink: /accessibility/properties/

@@ -1,5 +1,5 @@
 ---
-title: Page titles
+title: Page Titles
 layout: post
 description: 'How we deal with page titles'
 permalink: /accessibility/page-titles/

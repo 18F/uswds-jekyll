@@ -1,7 +1,7 @@
 ---
-title: Plug-ins
+title: Plugins
 layout: post
-description: 'How we deal with Plug-ins'
+description: 'How we deal with Plugins'
 permalink: /accessibility/plugins/
 page_title: Plug-ins
 sidenav: accessibility

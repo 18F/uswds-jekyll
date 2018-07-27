@@ -1,5 +1,5 @@
 ---
-title: Keyboard access
+title: Keyboard Access
 layout: post
 description: 'How we work with keyboards only'
 permalink: /accessibility/keyboard/

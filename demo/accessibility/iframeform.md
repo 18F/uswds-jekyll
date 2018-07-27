@@ -1,7 +1,7 @@
 ---
 layout: iframe
 layout: post
-title: iframe form
+title: IFrame Form
 description: Fill out this form
 permalink: /accessibility/iframeform/
 page_title: iFrame

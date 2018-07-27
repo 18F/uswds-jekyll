@@ -1,5 +1,5 @@
 ---
-title: Training and videos
+title: Training and Videos
 layout: post
 description: 'Videos and trainings from around the web'
 permalink: /accessibility/training-videos/

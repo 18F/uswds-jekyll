@@ -1,5 +1,5 @@
 ---
-title: CSS dependence
+title: CSS Dependence
 layout: post
 description: 'How we deal with CSS'
 permalink: /accessibility/css/

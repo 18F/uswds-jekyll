@@ -1,5 +1,5 @@
 ---
-title: Color and contrast
+title: Color and Contrast
 layout: post
 description: 'How we work with color and contrast'
 permalink: /accessibility/color/

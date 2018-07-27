@@ -1,5 +1,5 @@
 ---
-title: Alternative versions
+title: Alternative Versions
 layout: post
 description: 'How we deal with Alternative Versions'
 permalink: /accessibility/alternative-versions/

@@ -1,5 +1,5 @@
 ---
-title: Writing guide
+title: Writing Guide
 layout: post
 description: 'When writing about accessibility, here are some things to keep in mind'
 permalink: /accessibility/writing-guide/

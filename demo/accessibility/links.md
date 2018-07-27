@@ -1,5 +1,5 @@
 ---
-title: Links and repetitive content
+title: Links and Repetitive Content
 layout: post
 description: 'How we deal with links and repetitive content'
 permalink: /accessibility/links/
