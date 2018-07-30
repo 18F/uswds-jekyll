@@ -38,8 +38,8 @@ pages:
     href: https://www.cityofchicago.org
     external: true
 accessibility:
-  - text: Quick Start Guide
-    href: /docs/
+  - text: Accessibility Home Page
+    href: /accessibility/
   - text: Alternative Versions
     href: '/accessibility/alternative-versions/'
   - text: Checklist
@@ -86,8 +86,6 @@ accessibility:
     href: '/accessibility/videos/'
   - text: Writing Guide
     href: '/accessibility/writing-guide/'
-  - text: City Homepage
-    href: https://www.cityofchicago.org
 footer:
   - text: Accessibility
     href: /accessibility
