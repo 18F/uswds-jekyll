@@ -1,7 +1,8 @@
 # Jekyll + Chicago Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
-[Chicago Design System](https://chicagodesignsystem.org).
+[Chicago Design System](https://chicagodesignsystem.org). It is built off a fork from the
+[US Web Design System](https://github.com/18F/uswds-jekyll), and is adaptable to your organization's needs.
 
 ## Table of contents
 1. [Installation](#installation)
