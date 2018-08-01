@@ -1,5 +1,6 @@
 ---
 title: Tables
+layout: post
 description: 'How we deal with tables'
 permalink: /accessibility/tables/
 page_title: Tables

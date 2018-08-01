@@ -27,10 +27,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ### Correct
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="Sign that reads Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="Sign that reads Warning do not read this sign">
 ```
 
 > Preffered method for providing alternate content.
@@ -38,10 +38,10 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" title="Sign that reads Warning do not read this sign">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" title="Sign that reads Warning do not read this sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" title="Sign that reads Warning do not read this sign">
 ```
 
 > Acceptable, but less compatible with certain assistive technologies.
@@ -49,11 +49,11 @@ When using images on a page, you must provide an alternate method for that conte
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="">
 <span>Sign that reads Warning do not read this sign</span>
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" alt="">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="">
 <span>Sign that reads Warning do not read this sign</span>
 ```
 
@@ -65,30 +65,30 @@ When using images on a page, you must provide an alternate method for that conte
 
 #### Incorrect
 
-<img src="{{site.baseurl}}/images/sign.jpg" >
+<img src="{{site.baseurl}}/assets/img/sign.jpg" >
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg">
+<img src="{{site.baseurl}}/assets/img/sign.jpg">
 ```
 
 > Image is missing an alt tag and alternative content
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="sign">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" alt="sign">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="sign">
 ```
 
 > Alt tag is missing text from image
 
 ---
 
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 
 ```html
-<img src="{{site.baseurl}}/images/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
+<img src="{{site.baseurl}}/assets/img/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
 > Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter. ie. W-A-R-N-I-N-G
