@@ -91,4 +91,4 @@ When using images on a page, you must provide an alternate method for that conte
 <img src="{{site.baseurl}}/assets/img/sign.jpg" alt="Image of sign that says WARNING DO NOT READ THIS SIGN">
 ```
 
-> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter. ie. W-A-R-N-I-N-G
+> Avoid using "Image of" or "Picture of" as the screen reader will notify the user that it's an image. Also avoid using all caps as some screen readers will read each letter (e.g. W-A-R-N-I-N-G).
