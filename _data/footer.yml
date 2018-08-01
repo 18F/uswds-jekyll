@@ -55,5 +55,5 @@ contact:
   heading: Contact the CDS
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: design-system@cityofchicago.org
-      href: mailto:design-system@cityofchicago.org
+    - text: design.system@cityofchicago.org
+      href: mailto:design.system@cityofchicago.org

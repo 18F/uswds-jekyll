@@ -1,7 +1,8 @@
-# Jekyll + U.S. Web Design System
+# Jekyll + Chicago Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
-[U.S. Web Design System](https://designsystem.digital.gov).
+[Chicago Design System](https://chicagodesignsystem.org). It is built off a fork from the
+[US Web Design System](https://github.com/18F/uswds-jekyll), and is adaptable to your organization's needs.
 
 ## Table of contents
 1. [Installation](#installation)
@@ -47,7 +48,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    like so:
 
     ```ruby
-    gem 'uswds-jekyll'
+    gem 'design-cds-jekyll'
     ```
 
 1. Fetch and update your bundled gems by running:
@@ -104,26 +105,7 @@ To develop this theme and/or test it locally:
     ```ruby
     gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
     ```
-### Publish to Rubygems
-1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
-1. Run `bundle install`
-1. Add a PR for the update and get it merged
-1. Run `bundle exec rake release`
-1. Add a GitHub release to the releases page with the same version number
-1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
-
-### Versioning
-
-To reference a specific version of this plugin:
-
-1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
-   decide which version you want to use.
-1. Specify the version in your `Gemfile`.
-
-    ```ruby
-    gem 'uswds-jekyll', '1.4.1'
-    ```
-
+    
 ## Configuration
 
 Configuration of common elements ([header](#header),
@@ -167,7 +149,7 @@ primary:
   - text: Support
     href: /help/
   - text: External link
-    href: https://18f.gsa.gov
+    href: https://cityofchicago.org
     external: true
 
   # link objects with a 'links' field will be presented as
@@ -431,6 +413,10 @@ You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
 [CSS overrides](#customizing-with-css-overrides). Individual sites can also
 [selectively override](#overriding-includes-and-layouts) individual includes
 and layouts.
+
+The CDS includes a built in overrides.scss file to quickly change the site's colors and fonts.
+Just put in your organization's brand colors, and the site will automatically update.
+The included Chicago styling (relatively similar to the original site) is WCAG 2.0 tested.
 
 
 ### Customizing with Sass

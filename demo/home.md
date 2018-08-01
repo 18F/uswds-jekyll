@@ -18,7 +18,7 @@ tagline: About the Chicago Design System
 intro: |
   The Chicago Design System (CDS) is a guide to producing delightful services and technology applications for employees and residents of the City of Chicago.
 
-  The CDS is open source (under the MIT license), and contributions or commentary from City of Chicago employees and the public at large are welcome.
+  The CDS is open source (under the CC0 1.0 License), and contributions or commentary from City of Chicago employees and the public at large are welcome. In its current form, the CDS is forked from the US Web Design System, and follows its baseline standards for design. We have begun adding our own "Chicago" theming on top of this system, and more work will be done to give the CDS a unique look and feel as time goes on.
 
 <!--graphics:
   - image:
