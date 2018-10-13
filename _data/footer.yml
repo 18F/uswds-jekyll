@@ -1,8 +1,16 @@
 # This is the configuration for the site footer.
 
 # Configuration for type of footer.
-# Footer types can be only be medium at the moment
+# Footer types can be 'slim', 'medium', or 'big'.
+# https://designsystem.digital.gov/components/footers/
+#
+# Note that when using the big footer, you must change the value of `links`
+# below to 'footer_big' and edit that list in _data/navigation.html.
 type: medium
+
+# Configuration for which links show at the top of the footer.
+# this is a key into _data/navigation.yml
+links: footer
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -20,10 +28,6 @@ top:
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
 # last_updated: true
-
-# Configuration for which links show at the top of the footer.
-# this is a key into _data/navigation.yml
-links: footer
 
 # Configuration for footer heading. (optional)
 heading: Name of agency

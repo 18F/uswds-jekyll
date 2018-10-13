@@ -66,3 +66,40 @@ footer:
   - text: External link
     href: https://18f.gsa.gov
     external: true
+
+footer_big:
+  - text: Documentation
+    links:
+      - text: Overview
+        href: /docs/
+      - text: Secondary documentation page
+        href: /docs/two/
+      - text: Tertiary docs
+        href: /docs/three/
+  - text: Navigation section
+    links:
+      - text: Demo link A
+        href: /two/a/
+      - text: Demo link B
+        href: /two/b/
+      - text: Demo link C
+        href: /two/c/
+  - text: Referenced section
+    links:
+      - text: Demo link A
+        href: /three/a/
+      - text: Demo link B
+        href: /three/b/
+      - text: Demo link C
+        href: /three/c/
+  - text: External links
+    links:
+      - text: 18F
+        href: https://18f.gsa.gov
+        external: true
+      - text: Technology Transformation Service
+        href: https://join.tts.gsa.gov/
+        external: true
+      - text: code.gov
+        href: https://code.gov/
+        external: true
