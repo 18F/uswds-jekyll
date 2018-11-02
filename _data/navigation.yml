@@ -37,9 +37,8 @@ primary:
 secondary:
   - text: Documentation
     href: /docs/
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+  - text: Theme
+    href: /theme/
 
 docs:
   - text: Sidenav Documentation
