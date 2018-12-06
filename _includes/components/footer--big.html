@@ -24,7 +24,7 @@
     {% assign _size = _sizes[_size] | default: 'whole' %}
   <div class="usa-footer-primary-section">
     <div class="usa-grid">
-      <nav class="usa-footer-nav usa-width-two-thirds">
+      <nav class="usa-footer-nav{% if footer.big_footer_signup_form %} usa-width-two-thirds{% endif %}">
         {% for _topic in footer_links %}
         <ul class="usa-unstyled-list usa-width-one-{{ _size }} usa-footer-primary-content">
           <li class="usa-footer-primary-link">
@@ -39,7 +39,7 @@
         </ul>
         {% endfor %}
       </nav>
-
+      {% if footer.big_footer_signup_form %}
       <div class="usa-sign_up-block usa-width-one-third">
         <h3 class="usa-sign_up-header">Sign up</h3>
 
@@ -48,6 +48,7 @@
 
         <button type="submit">Sign up</button>
       </div>
+      {% endif %}
     </div>
   </div>
   {% endif %}
