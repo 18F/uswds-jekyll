@@ -1,7 +1,8 @@
 # This is the configuration for the site footer.
 
 # Configuration for type of footer.
-# Footer types can be only be medium at the moment
+# Footer types can be 'slim', 'medium', or 'big'.
+# https://designsystem.digital.gov/components/footers/
 type: medium
 
 # Configuration for "Return to top" link.
@@ -24,6 +25,11 @@ top:
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
 links: footer
+
+# Configuration for the big footer's email sign-up form.
+# Set to true to make the form visible.
+# Hooking it up to send the data somewhere is up to you :)
+big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
 heading: Name of agency
