@@ -4,12 +4,4 @@
   {% include components/banner.html %}
 {% endif %}
 
-{% if header.type == 'basic' %}
-  {% include components/header--basic.html %}
-{% elsif header.type == 'basic-mega' %}
-  {% include components/header--basic-mega-menu.html %}
-{% elsif header.type == 'extended' %}
-  {% include components/header--extended.html %}
-{% elsif header.type == 'extended-mega' %}
-  {% include components/header--extended-mega-menu.html %}
-{% endif %}
+{% include components/header.html %}
