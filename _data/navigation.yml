@@ -19,14 +19,14 @@ primary:
   - text: Playbook
     href: https://methods.chicagodesignsystem.org
   - text: City Homepage
-    href: https://www.cityofchicago.org
+    href: https://www.chicago.gov
     external: true
 
 secondary:
   - text: Quick Start Guide
     href: /docs/
   - text: City Homepage
-    href: https://www.cityofchicago.org
+    href: https://www.chicago.gov
     external: true
 
 pages:
@@ -35,7 +35,7 @@ pages:
   - text: Accessibility
     href: /accessibility/
   - text: City Homepage
-    href: https://www.cityofchicago.org
+    href: https://www.chicago.gov
     external: true
 accessibility:
   - text: Accessibility Home Page
@@ -94,5 +94,5 @@ footer:
   - text: Playbook
     href: https://methods.chicagodesignsystem.org
   - text: City Homepage
-    href: https://www.cityofchicago.org
+    href: https://www.chicago.gov 
     external: true
