@@ -18,6 +18,8 @@ usa_banner: true
 # https://designsystem.digital.gov/components/headers/
 type: extended
 
+logo: 'https://18f.gsa.gov/assets/img/logos/18f-logo.svg'
+
 # this is a key into _data/navigation.yml
 primary:
   links: primary

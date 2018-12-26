@@ -9,6 +9,15 @@
         color: $header-title;
       }
     }
+
+    @if variable-exists(header-logo) {
+      .usa-logo-text {
+        @include display-icon('', before, 1.5rem, 0.25rem, no-hover);
+        &::before {
+          background-image: $header-logo !important;
+        }
+      }
+    }
   }
 
   .usa-nav-secondary-links {

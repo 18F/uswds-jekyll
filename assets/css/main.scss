@@ -25,6 +25,9 @@ $image-path: '../uswds/img';
 {% if site.data.theme.colors.header.header-link %}$header-link: {{ site.data.theme.colors.header.header-link }};{% endif %}
 {% if site.data.theme.colors.header.header-link-hover %}$header-link-hover: {{ site.data.theme.colors.header.header-link-hover }};{% endif %}
 
+// Header title logo - optional
+{% if site.data.header.logo %}$header-logo: url('{{ site.data.header.logo }}');{% endif %}
+
 // Color - Primary
 {% if site.data.theme.colors.primary %}$color-primary: {{ site.data.theme.colors.primary }};{% endif %}
 {% if site.data.theme.colors.primary-darker %}$color-primary-darker: {{ site.data.theme.colors.primary-darker }};{% endif %}
