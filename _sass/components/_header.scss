@@ -9,13 +9,21 @@
         color: $header-title;
       }
     }
+  }
 
-    @if variable-exists(header-logo) {
-      .usa-logo-text {
-        @include display-icon('', before, 1.5rem, 0.25rem, no-hover);
-        &::before {
-          background-image: $header-logo !important;
-        }
+  @if variable-exists(header-logo) {
+    .usa-logo-text {
+      @include display-icon('', before, 1.5rem, 0.25rem, no-hover);
+      @include media($nav-width) {
+        @include display-icon('', before, 2.4rem, 0.25rem, no-hover);
+      }
+      &::before {
+        background-image: $header-logo !important;
+      }
+    }
+    &.usa-header-extended .usa-logo-text {
+      @include media($nav-width) {
+        @include display-icon('', before, 3.2rem, 0.25rem, no-hover);
       }
     }
   }
