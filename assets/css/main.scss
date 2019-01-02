@@ -26,7 +26,7 @@ $image-path: '../uswds/img';
 {% if site.data.theme.colors.header.header-link-hover %}$header-link-hover: {{ site.data.theme.colors.header.header-link-hover }};{% endif %}
 
 // Header title logo - optional
-{% if site.data.header.logo %}$header-logo: url('{{ site.data.header.logo }}');{% endif %}
+{% if site.data.header.logo %}$header-logo: url('{% if site.data.header.logo.external == true %}{{ site.data.header.logo.src }}{% else %}{{ site.data.header.logo.src | relative_url }}{% endif %}');{% endif %}
 
 // Color - Primary
 {% if site.data.theme.colors.primary %}$color-primary: {{ site.data.theme.colors.primary }};{% endif %}
