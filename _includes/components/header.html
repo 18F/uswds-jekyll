@@ -15,6 +15,9 @@
       <button class="usa-menu-btn">Menu</button>
       <div class="usa-logo" id="{% if header.type == 'extended' or header.type == 'extended-mega' %}extended-mega-{% endif %}logo">
         <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
+          {% if header.logo %}
+            <img class="usa-logo-img" src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}" alt="{{ header.logo.alt }}">
+          {% endif %}
           <em class="usa-logo-text">
             {{ header.title | default: site.title }}
           </em>
