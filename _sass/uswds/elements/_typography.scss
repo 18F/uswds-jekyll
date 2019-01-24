@@ -1,5 +1,5 @@
 html {
-  font-family: $font-sans;
+  font-family: $font-serif;
   font-size: $em-base;
 }
 
@@ -79,6 +79,7 @@ h6 {
 }
 
 h1 {
+  font-family: $font-logo;
   @include h1();
 }
 
