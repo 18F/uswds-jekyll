@@ -1,0 +1,146 @@
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//  Google Fonts  v.2.0.0
+// –––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+//
+//  Subset config 
+//    
+//  Note! 
+//  The Latin subset is always included if available and need not be specified. 
+//  Please note that if a client browser supports unicode-range the subset parameter 
+//  is ignored; the browser will select from the subsets supported by the font to 
+//  get what it needs to render the text.
+//  Source: https://developers.google.com/fonts/docs/getting_started
+//
+$google-font-subsets: (
+  'arabic'      : false 
+  , 'bengali'     : false 
+  , 'cyrillic'    : false 
+  , 'cyrillic-ext': false 
+  , 'devanagari'  : false 
+  , 'greek'       : false 
+  , 'greek-ext'   : false 
+  , 'gujarati'    : false
+  , 'hebrew'      : false 
+  , 'khmer'       : false 
+  , 'latin'       : false
+  , 'latin-ext'   : false 
+  , 'tamil'       : false 
+  , 'telugu'      : false 
+  , 'thai'        : false
+  , 'vietnamese'  : false 
+) !default;
+
+//  
+//   Google Fonts
+//
+@mixin google-font(
+  $name   : null,     //  string (unquoted will work too)
+  $weights: 400,      //  list or numeric value (100 200 300 400 ...)
+  $styles : normal,   //  list or string (normal and or italic)
+  $text   : null      //  string (don\'t forget to unescape )
+  ){
+    //  base url
+    $URL: '//fonts.googleapis.com/css?family=';
+
+    //  create global variables 
+    @if not variable-exists(__gf__combine){ $__gf__combine: false !global; }
+    @if not variable-exists(__gf__map){ $__gf__map: () !global; }   
+    @if not variable-exists(google-font-subsets){ $google-font-subsets: () !global; }   
+
+    //  append italic to weights
+    @if index($styles, italic) and not str-index($weights+'',i){
+      $wgt: if(index($styles, normal), $weights, ()); 
+      @each $weight in $weights { $wgt: append($wgt, $weight + i); }
+      $weights: $wgt;
+    } 
+
+    //  reduce and encode text
+    @if $text {
+      $list: __gf__list-unique(__gf__str-explode($text));
+      $text:'&text=';
+      $encode:('!':'%21','#':'%23','$':'%24','&':'%26','\'':'%27',
+               '(':'%28',')':'%29','*':'%2A','+':'%2B',',':'%2C',
+               '/':'%2F',':':'%3A',';':'%3B','=':'%3D','?':'%3F',
+               '@':'%40','[':'%5B',']':'%5D',' ':'%20');           
+      @for $i from 1 through length($list) {
+        $char: map-get($encode,nth($list,$i)) or nth($list,$i);
+        $text: $text + $char;
+      }
+    }
+
+    //  subsets from config
+    $subset: '';    
+    @each $set, $enabled in $google-font-subsets {
+      @if $enabled {
+        $subset: $subset + if($subset == '', '', ',') + $set;            
+      }
+    } 
+    $subset: if(str-length($subset) > 0 and $subset != latin, '&subset=' + $subset, '');
+
+    @if $name {
+      //  replace name whitespaces  
+      $name: if(type-of($name) == string, unquote($name),$name);
+      $name: __gf__str-replace(inspect($name),' ','+');
+      @if $__gf__combine and not $text {
+        //  add weights to combine map 
+        $wgt: map-get($__gf__map, $name) or ();
+        $wgt: __gf__list-unique(join($wgt, $weights, comma));
+        $__gf__map: map-merge($__gf__map, ($name: $wgt)) !global;
+      } @else {
+        //  create query
+        $query: '';
+        @each $weight in $weights { $query: $query + if($query != '', ',', '') + $weight; }
+        $query: __gf__str-replace($query, ' ');
+        $query: $name + if(str-length($query) > 0 and $query != '400',  ':'+ $query, '');
+
+        //  create single immport
+        @at-root { @import url($URL + $query + if($text, $text, '') + $subset); }
+      }
+    } @else {
+      //  set combine flag
+      $__gf__combine: true  !global;
+
+      //  nested includes   
+      @content;
+
+      //  convert combine map to query
+      //  (remove weights if just 400)
+      $query:'';        
+      @each $font, $weights in $__gf__map {
+        $query: $query + if($query != '', '|', '') + $font + 
+                if(length($weights) == 1 and (nth($weights, 1) == '400'), 
+                '', ':' + join((), $weights, comma));
+      }       
+
+      //  remove query whitespaces 
+      $query: __gf__str-replace($query,' ');
+
+      //  create combined immport
+      @at-root { @import url($URL + $query + $subset); }
+
+      //  reset combine flag
+      $__gf__combine: false !global;
+    }
+}
+// 
+//  Helper functions
+//
+@function __gf__list-unique($list) {
+  $result: ();
+  @each $item in $list { @if not index($result, $item+''){ $result: append($result, $item+'');} }
+  @each $item in $result { $result: set-nth($result, index($result, $item),unquote($item)); }
+  @return $result;
+}
+@function __gf__str-replace($string, $search, $replace: '') {
+  $index: str-index($string, $search); 
+  @return if($index, 
+    str-slice($string, 1, $index - 1) + $replace + 
+    __gf__str-replace(str-slice($string, $index + 
+    str-length($search)), $search, $replace), 
+    $string);
+}
+@function __gf__str-explode($string){
+  $list:(); 
+  @for $i from 1 through str-length($string) { $list: append($list, str-slice($string, $i, $i)); } 
+  @return $list;
+}
