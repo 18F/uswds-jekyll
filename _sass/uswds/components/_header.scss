@@ -54,9 +54,17 @@ $z-index-nav:     9000;
   }
 }
 
+.usa-logo .usa-logo-text .usa-header-title {
+
+  font-family: $font-logo;
+  font-size: $h1-font-size;
+  font-weight: $font-bold;
+  
+}
+
 .usa-logo-text {
   display: block;
-  font-family:$font-logo;
+  font-family: $font-logo;
   font-size: $h5-font-size;
   font-style: normal;
   font-weight: $font-bold;
