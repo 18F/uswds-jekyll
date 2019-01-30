@@ -56,15 +56,28 @@ $z-index-nav:     9000;
 
 /* @jdkunesh 01-30-2019 added these rules to better align our logo 
 
-// div#logo em a {
-// }
 
-// .usa-logo .usa-logo-text a, .usa-logo .usa-logo-text a .usa-header-title {
-
-
-// }
 */
 
+div#logo em a {
+  vertical-align: middle;
+}
+
+div#logo em a img {
+  vertical-align: middle;
+}
+
+.usa-logo .usa-logo-text a, .usa-logo .usa-logo-text a .usa-header-title {
+
+  color: $color-black;
+  font-family: $font-logo;
+  font-size: $h1-font-size;
+  font-weight: $font-bold;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+
+}
 
 .usa-logo-text {
   display: block;
@@ -85,24 +98,14 @@ $z-index-nav:     9000;
     max-height: 8.5rem;
     max-width: 8.5rem;
     padding-right: 1rem;
-    vertical-align: middle;
-
   }
   @media screen and (max-width: $nav-width) {
     img{height: 3.5rem;}
 
     a h1 {
-
     font-size: 2rem; 
     margin-top: .75rem;
-    margin-bottom: .75rem;
-    color: $color-black;
-    font-family: $font-logo;
-    font-size: $h1-font-size;
-    font-weight: $font-bold;
-    padding: 0;
-
-}
+    margin-bottom: .75rem;}
   }
   @media screen and (max-width: 325px) {
     img{
