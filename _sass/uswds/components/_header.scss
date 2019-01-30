@@ -57,7 +57,7 @@ $z-index-nav:     9000;
 /* @jdkunesh 01-30-2019 added these rules to better align our logo */
 .usa-logo .usa-logo-text a, .usa-logo .usa-logo-text a .usa-header-title {
 
-  color: $color-black;
+  color: #000; // $color-black;
   font-family: $font-logo;
   font-size: $h1-font-size;
   font-weight: $font-bold;
