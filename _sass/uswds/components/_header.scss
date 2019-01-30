@@ -54,8 +54,9 @@ $z-index-nav:     9000;
   }
 }
 
-.usa-logo .usa-logo-text .usa-header-title {
+.usa-logo .usa-logo-text a .usa-header-title {
 
+  color: $color-black;
   font-family: $font-logo;
   font-size: $h1-font-size;
   font-weight: $font-bold;
