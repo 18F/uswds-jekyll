@@ -54,13 +54,15 @@ $z-index-nav:     9000;
   }
 }
 
-.usa-logo .usa-logo-text a .usa-header-title {
+/* @jdkunesh 01-30-2019 added these rules to better align our logo */
+.usa-logo .usa-logo-text a, .usa-logo .usa-logo-text a .usa-header-title {
 
   color: $color-black;
   font-family: $font-logo;
   font-size: $h1-font-size;
   font-weight: $font-bold;
-  
+  padding: 0;
+
 }
 
 .usa-logo-text {
