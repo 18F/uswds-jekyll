@@ -18,6 +18,13 @@ usa_banner: true
 # https://designsystem.digital.gov/components/headers/
 type: extended
 
+# Configuration for site header logo
+# If the logo is external add external: true
+logo:
+  src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
+  alt: 18F
+  external: true
+
 # this is a key into _data/navigation.yml
 primary:
   links: primary
