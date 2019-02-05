@@ -8,6 +8,7 @@ body {
 }
 
 p {
+  font-weight: 600;
   line-height: $base-line-height;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -69,6 +70,7 @@ h4,
 h5 {
   clear: both;
   font-family: $font-serif;
+  font-weight: bold;
   line-height: $heading-line-height;
   margin-bottom: .5em;
   margin-top: 1.5em;
