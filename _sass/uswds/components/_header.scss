@@ -54,11 +54,6 @@ $z-index-nav:     9000;
   }
 }
 
-/* @jdkunesh 01-30-2019 added these rules to better align our logo 
-
-
-*/
-
 div#logo em a {
   vertical-align: middle;
 }
@@ -97,7 +92,6 @@ div#logo em a img {
     flex-grow: 1;
     max-height: 8.5rem;
     max-width: 8.5rem;
-    padding-right: 1rem;
   }
   @media screen and (max-width: $nav-width) {
     img{height: 3.5rem;}
