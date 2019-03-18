@@ -7,27 +7,35 @@ page_title: Accessibility
 sidenav: accessibility
 ---
 
-This site is currently in __Draft__ as it's still being built. It will eventually contain resources for all things accessibility, development best practices, testing guides, and tools.
+Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And it is a required by law for the City of Chicago's products to be accessible.
 
-Accessibility is one of the most important aspects of modern web development. Accessibility means the greatest number of users can view your content. It means search engines will be able to read your site more completely. Users of all types will have a better experience if you take accessibility concerns into account. And least of all, it is a required by law for all federal EIT products to be accessible (with a few minor exceptions).
+Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and have a basic understanding of how they are addressed.
 
-Accessibility works best when incorporated into an agile production environment. It's very hard to adequately address accessibility concerns at the end of a project, but if taken into account at the beginning, it's quite straightforward and cost effective. The best and perhaps only way to ensure this is done, is training and education. Every member of a production team should be aware of what accessibility concerns are and a basic understanding of how they are addressed.
-
-Here at 18F we follow [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/) as our standard for accessibility. We do this for a couple of reasons. WCAG has long been the gold standard for accessibility on the web. The access board has also been working on a refresh to the correct 508 standards to incorporate WCAG2.0 AA into the standards. This sets us up for a smooth transition when that happens. Finally, under 1194.5 of the section 508 standards allows us to use a set of standards that meet the current standards.
+The City of Chicago's standard for web accessibility is [WCAG2.0 AA](https://www.w3.org/TR/WCAG20/). This is a high but obtainable bar for our teams, as WCAG AA is the gold standard for accessibility on the web. The access board has also been working on a refresh to the 508 standards to incorporate WCAG2.0 AA into the standards. This sets us up for a smooth transition when that happens. Finally, under 1194.5 of the section 508 standards allows us to use a set of standards that meet the current standards.
 
 If you have any questions about accessiblity, 508, or would like help, please reach out on the [GitHub Repo](https://github.com/18F/accessibility).
 
-<b>Disclaimer:</b> This resource is intended to help 18f develop accessible products and is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+#### Disclaimer
+
+This resource is intended to help City of Chicago staff and its partners develop accessible products. It is not a replacement for the standards defined by the Access Board. Please visit the [Access Board](http://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/section-508-standards) for information on 508 and their compliance criteria.
+
+#### Acknowledgement
+
+
+
 
 ### Resources
 
 ### Tools
 
+* Google Chrome browser extension tools
+  * [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh?hl=en-US)
+  * [Accessibility Developer Tools - Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
+  * [Lighthouse Automated Web App Testing - Chrome](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en)
+  * [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
 * [HTML CodeSniffer](http://squizlabs.github.io/HTML_CodeSniffer/) - use this for a quick audit of any URL
 * [Colour Contrast Analyser](http://www.paciellogroup.com/resources/contrastanalyser/)
 * [pa11y automated CLI 508 tool](http://pa11y.org/)
-* [Accessibility Developer Tools - Chrome](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en)
-* [Web Developer - Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=en-US)
 * [Inspector - Windows](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318521%28v=vs.85%29.aspx)
   * This tool is used by the Department of Homeland Security for their Trusted Tester Program
 * [Web Accessibility Evaluation Tools List](https://www.w3.org/WAI/ER/tools/)
