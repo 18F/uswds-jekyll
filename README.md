@@ -435,29 +435,22 @@ and layouts.
 
 ### Customizing with Sass
 
-1. Create a [Sass][] (or SCSS) entry point that sets variables and then imports
-   the USWDS source files:
+Create a [Sass][] (or SCSS) entry point that sets variables and then imports
+the USWDS source files:
 
-    ```scss
-    ---
-    # assets/main.scss
-    ---
-    // set your variables or @import them here.
+```scss
+---
+# assets/css/main.scss
+---
+// set your variables or @import them here.
 
-    // at the very least, you should set the USWDS font and image paths
-    // to the correct paths relative to assets/main.css, like so:
-    $font-path: 'uswds/fonts';
-    $image-path: 'uswds/img';
+// at the very least, you should set the USWDS font and image paths
+// to the correct paths relative to assets/main.css, like so:
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
 
-    @import 'uswds/all';
-    ```
-
-1. Change the path to your site's default stylesheet in your `_config.yml`:
-
-    ```yml
-    styles:
-      - /assets/main.css
-    ```
+@import 'uswds/all';
+```
 
 All of the USWDS [SCSS source files](https://github.com/uswds/uswds/tree/master/src/stylesheets)
 are placed in the [_sass/uswds](_sass/uswds) directory and are available as
