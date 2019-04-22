@@ -446,8 +446,8 @@ the USWDS source files:
 
 // at the very least, you should set the USWDS font and image paths
 // to the correct paths relative to assets/main.css, like so:
-$font-path: 'uswds/fonts';
-$image-path: 'uswds/img';
+$font-path: '../uswds/fonts';
+$image-path: '../uswds/img';
 
 @import 'uswds/all';
 ```
