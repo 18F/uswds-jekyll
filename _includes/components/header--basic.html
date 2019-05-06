@@ -9,6 +9,7 @@
           <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
           <img src="/assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
           <h1 class="usa-header-title">{{ header.title | default: site.title }}</h1>
+          <h1 class="usa-header-title">BASIC ! {{ header.type | default: 'yoyo' }}</h1>
           </a>
         </em>
       </div>
