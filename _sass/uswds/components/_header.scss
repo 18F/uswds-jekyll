@@ -89,12 +89,13 @@ div#logo em a img {
     margin-top: 0;
   }
   a h1 span {
+    color: $color-gray-warm-light;
     display: inline-block;
     font-family: $font-sans;
     font-size: $h6-font-size;
-    vertical-align: text-bottom;
-    color: $color-gray-warm-dark;
+//    vertical-align: text-bottom; //
     margin-top: 0;
+    width:50%;
   }
   img {
     flex-grow: 1;
