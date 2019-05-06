@@ -1,4 +1,5 @@
 html {
+  color: $color-gray-warm-dark;
   font-family: $font-serif;
   font-size: $em-base;
 }
@@ -8,7 +9,6 @@ body {
 }
 
 p {
-  color: $color-gray-dark;
   font-weight: 400;
   line-height: $base-line-height;
   margin-bottom: 1em;
