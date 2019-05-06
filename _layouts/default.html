@@ -39,6 +39,8 @@
 
     <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
           {{ content }}
+
+          {{site.data}}
     </main>
 
     {% if page.graphics_position == 'after' %}
