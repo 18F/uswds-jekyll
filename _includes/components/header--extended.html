@@ -7,8 +7,7 @@
       <em class="usa-logo-text">
         <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
           <img src="/assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
-          <h1 class="usa-header-title">{{ header.title | default: site.title }}</h1>
-          <h2>{{ header.subtitle | default: site.subtitle }}</h2>
+          <h1 class="usa-header-title">{{ header.title | default: site.title }} <span>{{ header.subtitle | default: site.subtitle }}</span></h1>
         </a>
       </em>
     </div>

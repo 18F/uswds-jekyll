@@ -88,6 +88,14 @@ div#logo em a img {
     color: $color-primary;
     margin-top: 0;
   }
+  a h1 span {
+    display: inline-block;
+    font-family: $font-sans;
+    font-size: $h6-font-size;
+    vertical-align: text-bottom;
+    color: $color-gray-warm-dark;
+    margin-top: 0;
+  }
   img {
     flex-grow: 1;
     max-height: 8.5rem;
