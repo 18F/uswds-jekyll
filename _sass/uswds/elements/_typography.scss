@@ -8,7 +8,8 @@ body {
 }
 
 p {
-  font-weight: 600;
+  color: $color-gray-dark;
+  font-weight: 400;
   line-height: $base-line-height;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -69,7 +70,7 @@ h3,
 h4,
 h5 {
   clear: both;
-  font-family: $font-serif;
+  font-family: $font-sans;
   font-weight: bold;
   line-height: $heading-line-height;
   margin-bottom: .5em;
@@ -81,7 +82,7 @@ h6 {
 }
 
 h1 {
-  font-family: $font-serif;
+  font-family: $font-sans;
   @include h1();
 }
 
