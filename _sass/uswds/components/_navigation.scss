@@ -22,6 +22,7 @@
 }
 
 .usa-nav-link {
+  text-transform: uppercase;
   @include font-smoothing;
 
   &:hover {
