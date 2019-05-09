@@ -59,7 +59,6 @@ select {
 
   label {
     margin-top: 0;
-    font-family: $font-sans;
 
   }
 
@@ -100,6 +99,7 @@ select {
 
 label {
   display: block;
+  font-family: $font-sans;
   margin-top: 3rem;
   max-width: $input-max-width;
 }
