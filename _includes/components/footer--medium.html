@@ -1,3 +1,10 @@
+{% comment %} 
+
+This is the only footer cleared for use in the Chicago Design System.
+
+{% endcomment %}
+
+
 {% if footer %}
 <footer class="usa-footer usa-footer-medium" role="contentinfo">
 
@@ -62,6 +69,7 @@
 
       {% if footer.contact %}
       <div class="usa-footer-contact-links usa-width-one-half">
+        <a name="contact"></a>
         {% assign social_links = site.data.footer.contact.social_links %}
         {% if footer.contact.contact_links %}
           {% for _link in social_links %}
