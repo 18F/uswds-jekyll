@@ -5,19 +5,16 @@
   <head>
     {% include meta.html %}
     {% include styles.html %}
-    {% if site.google_analytics_ua or site.dap_agency %}
+    {% if site.google_analytics_ua %}
       {% include analytics.html %}
     {% endif %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
-
     {% include skipnav.html %}
     {% include header.html %}
-
     {% assign hero = page.hero %}
     {% include components/hero.html %}
-
     {% if page.tagline and page.intro %}
     <section class="usa-grid usa-section">
       <div class="usa-width-one-third">
