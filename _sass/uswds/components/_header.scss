@@ -54,23 +54,52 @@ $z-index-nav:     9000;
   }
 }
 
+div#logo em a {
+  vertical-align: middle;
+}
+
+div#logo em a img {
+  vertical-align: middle;
+}
+
+.usa-logo .usa-logo-text a, .usa-logo .usa-logo-text a .usa-header-title {
+
+  color: $color-black;
+  font-family: $font-logo;
+  font-size: $h1-font-size;
+  font-weight: $font-bold;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+
+}
+
 .usa-logo-text {
   display: block;
+  font-family: $font-logo;
   font-size: $h5-font-size;
   font-style: normal;
   font-weight: $font-bold;
   margin: 0;
+  text-transform: uppercase;
   a h1 {
     display: inline-block;
     vertical-align: text-bottom;
     color: $color-primary;
     margin-top: 0;
   }
+  a h1 span {
+    color: $color-gray-warm-dark;
+    display: inline-block;
+    font-family: $font-sans;
+    font-size: $h6-font-size;
+    margin-top: 0;
+    width:50%;
+  }
   img {
     flex-grow: 1;
     max-height: 8.5rem;
     max-width: 8.5rem;
-    padding-right: 1rem;
   }
   @media screen and (max-width: $nav-width) {
     img{height: 3.5rem;}

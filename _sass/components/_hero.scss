@@ -1,4 +1,5 @@
 .usa-hero {
+  min-height:300px;
   .usa-hero-callout {
     @if variable-exists(hero-bg) {
       background-color: $hero-bg;

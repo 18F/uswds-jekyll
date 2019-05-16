@@ -1,3 +1,9 @@
+{% comment %} 
+
+This is the only header cleared for use in the Chicago Design System.
+
+{% endcomment %}
+
 {% if header %}
 <header class="usa-header usa-header-extended" role="banner">
 
@@ -5,8 +11,9 @@
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo" id="logo">
       <em class="usa-logo-text">
-        <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home"> <img src="/assets/img/logo.png" alt="CDS Logo">
-          <h1 class="usa-header-title">{{ header.title | default: site.title }}</h1>
+        <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
+          <img src="/assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
+          <h1 class="usa-header-title">{{ header.title | default: site.title }} <span>{{ header.subtitle | default: site.subtitle }}</span></h1>
         </a>
       </em>
     </div>
@@ -52,15 +59,14 @@
       {% if _secondary %}
       <div class="usa-nav-secondary">
         {% if site.search_site_handle  %}
-          <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
+          <form accept-charset="UTF-8" action="https://www.chicago.gov/city/en/general/search_results.html" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
             <div style="margin:0;padding:0;display:inline">
               <input name="utf8" type="hidden" value="&#x2713;" />
             </div>
-            <input id="affiliate" name="affiliate" type="hidden" value="{{ site.search_site_handle }}" />
             <div role="search">
-              <label for="query" class="usa-sr-only">Enter Search Term(s):</label>
+              <label for="query" class="usa-sr-only">Enter Search Term(s)</label>
               <input autocomplete="off" class="usagov-search-autocomplete" id="query" name="query" type="search" />
-              <button type="submit" name="commit">
+              <button type="submit" name="commit" id="commit">
                 <span class="usa-sr-only">Search</span>
               </button>
             </div>

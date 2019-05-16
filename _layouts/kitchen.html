@@ -1,21 +1,28 @@
 ---
+# this page is a copy of the default template
+# but then includes much more content related
+# to the display of every component we have..
+
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
     {% include meta.html %}
     {% include styles.html %}
-    {% if site.google_analytics_ua %}
+    {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="/assets/js/cds.js" async></script>
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
+
     {% include skipnav.html %}
+    {% include components/banner.html %}
     {% include header.html %}
+
     {% assign hero = page.hero %}
     {% include components/hero.html %}
+
     {% if page.tagline and page.intro %}
     <section class="usa-grid usa-section">
       <div class="usa-width-one-third">
@@ -43,9 +50,6 @@
     {% if page.graphics_position == 'after' %}
       {{ _graphics }}
     {% endif %}
-
-    {% include 311callout.html %}
-
 
     {% include footer.html %}
 

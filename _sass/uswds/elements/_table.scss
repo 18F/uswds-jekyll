@@ -3,6 +3,9 @@ table {
   margin: 2em 0;
 }
 
+th.nowrap, td.nowrap {
+  white-space: nowrap;
+}
 thead {
   th {
     font-weight: $font-bold;

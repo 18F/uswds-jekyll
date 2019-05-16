@@ -40,6 +40,7 @@ $v-padding: $spacing-md-small;
   font-weight: $font-bold;
   margin: 0;
   padding: $v-padding ($h-padding * 2 + $icon-size) $v-padding $h-padding;
+//  text-transform: uppercase;
   width: 100%;
 
   &:hover {

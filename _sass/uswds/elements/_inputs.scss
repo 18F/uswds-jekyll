@@ -59,6 +59,7 @@ select {
 
   label {
     margin-top: 0;
+
   }
 
   .usa-input-inline {
@@ -80,6 +81,7 @@ select {
 .usa-input-error-message {
   color: $color-secondary-dark;
   display: block;
+  font-family: $font-sans;
   font-size: $base-font-size;
   font-weight: $font-bold;
   padding-bottom: 3px;
@@ -98,6 +100,7 @@ select {
 
 label {
   display: block;
+  font-family: $font-sans;
   margin-top: 3rem;
   max-width: $input-max-width;
 }

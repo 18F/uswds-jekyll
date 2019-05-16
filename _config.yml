@@ -39,4 +39,5 @@ github:
 
 # Compress Sass
 sass:
+  sass_dir: _sass/uswds
   style: compressed

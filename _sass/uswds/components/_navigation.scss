@@ -22,6 +22,7 @@
 }
 
 .usa-nav-link {
+  text-transform: uppercase;
   @include font-smoothing;
 
   &:hover {
@@ -304,8 +305,8 @@
 // Secondary navigation ----------- //
 
 .usa-nav-secondary {
+  font-family: $font-sans;
   margin-top: 1.5rem;
-
   @include media($nav-width) {
     margin-top: 0;
     position: absolute;

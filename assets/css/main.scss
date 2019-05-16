@@ -4,8 +4,11 @@
 
 
 // U.S. Web Design System setup
-$font-path: '../uswds/fonts';
-$image-path: '../uswds/img';
+// $font-path: '../uswds/fonts';
+// $image-path: '../uswds/img';
+
+// @import 'google-font'
+
 
 // Typography
 {% if site.data.theme.fonts.sans %}$font-sans: {{ site.data.theme.fonts.sans }};{% endif %}
