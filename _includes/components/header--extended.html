@@ -13,7 +13,7 @@ This is the only header cleared for use in the Chicago Design System.
       <em class="usa-logo-text">
         <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
           <img src="/assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
-          <h1 class="usa-header-title">{{ header.title | default: site.title }} {% if subtitle != "" %}<span>{{ subtitle }}</span>{% endif %}</h1>
+          <h1 class="usa-header-title">{{ header.title | default: site.title }} {% if subtitle != "" and subtitle %}<span>{{ subtitle }}</span>{% endif %}</h1>
         </a>
       </em>
     </div>
