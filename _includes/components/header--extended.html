@@ -6,14 +6,25 @@ This is the only header cleared for use in the Chicago Design System.
 
 {% if header %}
 <header class="usa-header usa-header-extended" role="banner">
+{% assign subtitle = false %}
 
+{% if header.subtitle
+
+subtitle = header.subtitle
+
+elsif site.subtitle
+
+subtitle = site.subtitle
+
+endif
+%}
   <div class="usa-navbar">
     <button class="usa-menu-btn">Menu</button>
     <div class="usa-logo" id="logo">
       <em class="usa-logo-text">
         <a href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}" title="Home">
           <img src="/assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
-          <h1 class="usa-header-title">{{ header.title | default: site.title }} {% if header.subtitle | site.subtitle %}<span>{{ header.subtitle | default: site.subtitle }}</span>{% endif %}</h1>
+          <h1 class="usa-header-title">{{ header.title | default: site.title }} {% if subtitle %}<span>{{ subtitle }}</span>{% endif %}</h1>
         </a>
       </em>
     </div>
