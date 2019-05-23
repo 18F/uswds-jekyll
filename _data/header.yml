@@ -16,7 +16,7 @@
 # Defines the type of header.
 # Header types can be 'basic', 'basic-mega', 'extended' or 'extended-mega'.
 # https://designsystem.digital.gov/components/headers/
-type: basic-mega
+type: extended
 
 # Configuration for site header logo
 # If the logo is external add external: true

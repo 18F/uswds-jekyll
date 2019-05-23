@@ -5,15 +5,15 @@ permalink: /
 layout: home
 
 hero:
-  image: /assets/uswds/img/hero.png
+  image: /assets/uswds/img/laura-ockel-1194484-unsplash.jpg
   callout:
-    alt: "Hero callout:"
+    alt: "Get Started with SCINet"
     text: Call attention to a current priority
   button:
     href: /callout/
-    text: This is a call to all my
+    text: Get Started
   link:
-    text: Link to more about that priority
+    text: Links to get started
     href: /link/
   content: Support the callout with some short explanatory text. You don't need more than a couple of sentences.
 
