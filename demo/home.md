@@ -7,21 +7,21 @@ layout: home
 hero:
   image: /assets/img/laura-ockel-1194484-unsplash.png
   callout:
-    alt: "Get Started with SCINet"
-    text: Call attention to a current priority
+    alt: Get Started with SCINet
+    text:  Find out what you can do with SCINet and Register for an account if you are an ARS scientist or collaborator.
   button:
-    href: /callout/
+    href: /get_started/
     text: Get Started
-  link:
-    text: Links to get started
-    href: /link/
-  content: Support the callout with some short explanatory text. You don't need more than a couple of sentences.
+#  link:
+#    text: Links to get started
+#    href: /link/
+#  content: Find out what you can do with Scinet and Register for an account if you are an ARS scientist or collaborator.
 
-tagline: A tagline highlights your approach.
+tagline: High Performance computing. Training. Network improvements.
 intro: |
-  The tagline should inspire confidence and interest, [focusing on the value](javascript:void(0);) that your overall approach offers to your audience. Use a heading typeface and keep your tagline to just a few words, and don’t confuse or mystify.
-
-  Use the right side of the grid to explain the tagline a bit more. What are your goals? How do you do your work? Write in the present tense, and stay brief here. People who are interested can find details on internal pages.
+  The SCINet initiative is an effort by ARS to improve our research capacity by
+  providing scientists wit access to high performance computer clusters, cloud computing,
+  improved networking for data transfer and training in scientific computing
 
 graphics:
   - image:
