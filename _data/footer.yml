@@ -37,7 +37,7 @@ heading: Name of agency
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: /assets/img/USDAARSIdentityRGB3.png
+  - src: /uswds-jekyll/assets/img/USDAARSIdentityRGB3.png
     alt: USDA-ARS
     external: true
 
