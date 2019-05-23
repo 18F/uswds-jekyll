@@ -6,7 +6,7 @@
 
 # Show or hide the official USA banner at the top of the site.
 # Comment out to the following line to hide.
-usa_banner: true
+# usa_banner: true
 
 # This setting changes the TLD used as an argument for trust in banner.html.
 # If options besides .mil and .gov are added, it may be worth adding a JS
@@ -16,14 +16,14 @@ usa_banner: true
 # Defines the type of header.
 # Header types can be 'basic', 'basic-mega', 'extended' or 'extended-mega'.
 # https://designsystem.digital.gov/components/headers/
-type: extended
+type: basic
 
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
   src: /uswds-jekyll/assets/img/USDAARSIdentityRGB3.png
   alt: USDA-ARS
-  external: true
+  # external: true
 
 # this is a key into _data/navigation.yml
 primary:
