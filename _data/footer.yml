@@ -20,7 +20,7 @@ top:
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
-# last_updated: true
+last_updated: true
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -32,7 +32,7 @@ links: footer
 big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
-heading: Name of agency
+heading: USDA Agricultural Research Service
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
@@ -47,19 +47,19 @@ contact:
 # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/USDA_ARS
       external: true
       type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
+  #  - text: YouTube
+  #    href: https://youtube.com
+  #    external: true
+  #    type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Agency contact center
+  heading: Contact us
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: info@agency.gov
-      href: mailto:info@agency.gov
+    - text: placeholder@ars.usda.gov
+      href: mailto:placeholder@ars.usda.gov
