@@ -1,10 +1,10 @@
-title: This is the site title
-description: This is the site description.
+title: USDA-ARS SCINet Scientific computing initiative
+description: SCINet is an iticiative to provide access to high performance computing, networking and training
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
-  organization: 18F
+  organization: USDA-ARS SCINet
   repository: uswds-jekyll
   default_branch: master
 
