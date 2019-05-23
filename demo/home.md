@@ -5,7 +5,7 @@ permalink: /
 layout: home
 
 hero:
-  image: /assets/uswds/img/laura-ockel-1194484-unsplash.jpg
+  image: /assets/img/laura-ockel-1194484-unsplash.jpg
   callout:
     alt: "Get Started with SCINet"
     text: Call attention to a current priority
