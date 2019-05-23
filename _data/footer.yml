@@ -39,7 +39,7 @@ heading: USDA Agricultural Research Service
 logos:
   - src: /assets/img/USDAARSIdentityRGB3.png
     alt: USDA-ARS
-    external: true
+    external: false
 
 # Configuration for footer contact links
 contact:
