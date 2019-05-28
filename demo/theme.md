@@ -28,6 +28,14 @@ This is link that goes to an [external website](https://18f.gsa.gov){: .usa-exte
 <button class="usa-button-secondary usa-focus">Focus</button>
 <button class="usa-button-secondary" disabled>Disabled</button>
 
+# Code
+
+```python
+i = [1,3,6,7]
+def test_func(input):
+    return input
+```
+
 # Tables
 ## Standard
 
