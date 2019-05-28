@@ -8,7 +8,7 @@ hero:
   image: /assets/img/laura-ockel-1194484-unsplash.png
   callout:
     alt: Get Started with SCINet
-    text:  Find out what you can do with SCINet and Register for an account if you are an ARS scientist or collaborator.
+    text:  Register for an account if you are an ARS scientist or collaborator.
   button:
     href: /get_started/
     text: Get Started
@@ -20,7 +20,7 @@ hero:
 tagline: High Performance computing. Training. Network improvements.
 intro: |
   The SCINet initiative is an effort by ARS to improve our research capacity by
-  providing scientists wit access to high performance computer clusters, cloud computing,
+  providing scientists with access to high performance computer clusters, cloud computing,
   improved networking for data transfer and training in scientific computing
 
 graphics:
