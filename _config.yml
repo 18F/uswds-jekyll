@@ -40,3 +40,6 @@ github:
 # Compress Sass
 sass:
   style: compressed
+
+# Add code blocks to text
+highlighter: rouge
