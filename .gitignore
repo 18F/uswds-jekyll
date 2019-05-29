@@ -1,7 +1,7 @@
 *.gem
 node_modules/
 
-## Environment normalization:
+# Environment normalization:
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
@@ -13,3 +13,7 @@ node_modules/
 .jekyll-metadata
 _site
 .sass-cache
+
+# USWDS
+assets/uswds/
+_sass/uswds/
