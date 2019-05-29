@@ -12,33 +12,43 @@
 #   links: primary
 #
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
+  - text: User Guide
+    href: /guide/
+  - text: Education
     links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: Referenced section
-    links: footer
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+      - text: Tutorials
+        href: /education/tutorial/
+      - text: Training Meetings
+        href: /education/training/
+      - text: Videos
+        href: /education/video/
+      - text: Plan a training
+        href: /education/plantrain/
+  - text: I am a...
+    links:
+      - text: Research Leader
+        href: personas/rl/
+      - text: National Program Leader
+        href: /personas/npl
+      - text: Scientist
+        href: /personas/sy/
+      - text: Technical staff
+        href: /personas/tech/
+  - text: Support
+    links:
+      - text: Virtual Research Support Core (VSRC)
+        href: /support/vsrc/
+      - text: FAQ's
+        href: /support/faq/
+      - text: User Forum
+        href: https://try.discourse.org/
+        external: true
 
-secondary:
-  - text: Documentation
-    href: /docs/
-  - text: Theme
-    href: /theme/
+# secondary:
+#   - text: Documentation
+#     href: /docs/
+#   - text: Theme
+#     href: /theme/
 
 docs:
   - text: Sidenav Documentation
