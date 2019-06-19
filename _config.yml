@@ -20,7 +20,7 @@ github:
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
- anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
