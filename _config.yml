@@ -3,14 +3,9 @@ description: SCINet is an initiative to provide access to high performance compu
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
-<<<<<<< HEAD
 github:
   organization: USDA-ARS SCINet
-=======
-github_info:
-  organization: 18F
->>>>>>> c38a8d6edc51b219c78cf649ac48c622733b35be
-  repository: uswds-jekyll
+  repository: scinet-site
   default_branch: master
 
 # Configuration for setting the site width to 100%
@@ -25,7 +20,7 @@ github_info:
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+ anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
