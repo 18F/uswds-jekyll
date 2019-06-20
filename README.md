@@ -1,4 +1,11 @@
-# Jekyll + U.S. Web Design System
+# Info specific to SCINet Website Development
+
+
+
+
+
+
+# Info on the Jekyll + U.S. Web Design System template
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design System](https://designsystem.digital.gov).
