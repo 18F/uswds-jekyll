@@ -36,17 +36,17 @@ primary:
   - text: Use Cases
     links:
       - text: Research Leader
-        href: /uses/rl/
+        href: /user/rl/
       - text: National Program Leader
-        href: /uses/npl
+        href: /user/npl
       - text: Genomics
-        href: /uses/genomics/
+        href: /user/genomics/
       - text: Plant and animal breeding
-        href: /uses/breeding/
+        href: /user/breeding/
       - text: Geospatial
-        href: /uses/geospatial/
+        href: /user/geospatial/
       - text: Hydrology
-        href: /uses/hydrology/
+        href: /user/hydrology/
 
   - text: Support
     links:
