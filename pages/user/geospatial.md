@@ -1,7 +1,7 @@
 ---
 title: SCINet for geospatial research
 description: SCINet has a number of tools available for geospatial research
-permalink: /user/geospatial
+permalink: /user/geospatial/
 author:
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file

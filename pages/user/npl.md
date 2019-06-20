@@ -1,7 +1,7 @@
 ---
 title: Information on SCINet for Research Leaders (RL's)
 description: Empowering your unit's research with SCINet
-permalink: /user/npl
+permalink: /user/npl/
 author:
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
