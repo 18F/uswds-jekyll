@@ -1,7 +1,7 @@
 ---
 title: SCINet for plant and animal breeding research
 description: SCINet tools available for breeding research
-permalink: /user/breeding
+permalink: /user/breeding/
 author:
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file

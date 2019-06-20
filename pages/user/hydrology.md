@@ -1,7 +1,7 @@
 ---
 title: SCINet for hydrology research
 description: SCINet has a number of tools available for geospatial research
-permalink: /user/hydrology
+permalink: /user/hydrology/
 author:
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
