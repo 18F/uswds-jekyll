@@ -12,8 +12,17 @@
 #   links: primary
 #
 primary:
+  - text: Sign up for an account
+    href: /signup/
   - text: User Guide
-    href: /guide/
+    links:
+      - text: Quick Start
+        href: /guide/quickstart
+      - text: Software
+        href: /guide/software
+      - text: User manual
+        href: /guide/software
+
   - text: Education
     links:
       - text: Tutorials
@@ -24,16 +33,21 @@ primary:
         href: /education/video/
       - text: Plan a training
         href: /education/plantrain/
-  - text: I am a...
+  - text: Use Cases
     links:
       - text: Research Leader
-        href: personas/rl/
+        href: /uses/rl/
       - text: National Program Leader
-        href: /personas/npl
-      - text: Scientist
-        href: /personas/sy/
-      - text: Technical staff
-        href: /personas/tech/
+        href: /uses/npl
+      - text: Genomics
+        href: /uses/genomics/
+      - text: Plant and animal breeding
+        href: /uses/breeding/
+      - text: Geospatial
+        href: /uses/geospatial/
+      - text: Hydrology
+        href: /uses/hydrology/
+
   - text: Support
     links:
       - text: Virtual Research Support Core (VSRC)
@@ -43,6 +57,18 @@ primary:
       - text: User Forum
         href: https://try.discourse.org/
         external: true
+  - text: About
+    links:
+      - text: Overview
+        href: /about/overview
+      - text: Computer Systems
+        href: /about/compute
+      - text: Networking
+        href: /about/networking
+      - text: Organization
+        href: /about/Organization
+      - text: People
+        href: /about/people
 
 # secondary:
 #   - text: Documentation
@@ -50,31 +76,33 @@ primary:
 #   - text: Theme
 #     href: /theme/
 
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
+# docs:
+#   - text: Sidenav Documentation
+#     href: /docs/
+#   - text: Sidenav Navigation section
+#     links:
+#       - text: Demo link A
+#         href: /two/a/
+#       - text: Demo link B
+#         href: /two/b/
+#       - text: Demo link C
+#         href: /two/c/
+#   - text: Sidenav Referenced section
+#     links: footer
+#   - text: Sidenav External link
+#     href: https://18f.gsa.gov
+#     external: true
 
-footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link
-    href: /demo/
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+# footer:
+#   - text: Documentation
+#     href: /docs/
+#   - text: Demo link
+#     href: /demo/
+#   - text: External link
+#     href: https://18f.gsa.gov
+#     external: true
+
+
 # Uncomment the items below and comment the items above in the `footer` list
 # to use footer link columns in the 'big' footer style.
   # - text: Documentation
