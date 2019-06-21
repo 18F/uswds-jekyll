@@ -36,7 +36,9 @@ Person | section | url
 Erin Scully | Genomics | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/genomics.md
 Pat Clark| Geospatial | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
 Rowan Gaffney | Geospatial |  https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
-
+Adam Rivers | Org Page |
+Adam Rivers | People |
+Adam Rivers | signup page |
 
 
 
