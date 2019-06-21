@@ -1,0 +1,39 @@
+---
+layout: page
+class: page-team
+filters:
+  - key: year
+    title: Years active
+    multiple: true
+  - key: title
+    title: Title
+    multiple: true
+  - key: home
+    title: Home institution
+    multiple: false
+  - key: agency
+    title: Agency collaborator
+    multiple: true
+scripts:
+  /assets/js/filters.js
+---
+
+{{ content }}
+{% include filter.html items=site.team filters=layout.filters %}
+
+<section class="usa-graphic_list">
+{% for person in site.team %}
+  <div class="usa-width-one-half usa-media_block js-filterable" {% for filter in layout.filters %}
+    data-{{ filter.key }}="{{ team[filter.key] | jsonify | xml_escape }}"{% endfor %}>
+    <div class="usa-media_block-img team-image" style="background-image: url({{ team.image | prepend: site.baseurl }});" role="image" aria-label="{{ team.name }}"></div>
+    <div class="usa-media_block-body">
+      <h3>
+        <a href="{{ site.baseurl }}{{ team.url }}">
+          {{ person.name }}
+        </a>
+      </h3>
+      <p>{{ person.title | join: ", " }}</p>
+    </div>
+  </div>
+{% endfor %}
+</div>

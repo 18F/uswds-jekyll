@@ -1,0 +1,113 @@
+// Filter ------------- //
+
+.filter {
+  margin-bottom: 6rem;
+
+  > li {
+    background-color: $color-white;
+  }
+
+  li {
+    @include media($small-screen) {
+      display: inline-block;
+    }
+  }
+
+  .usa-accordion-button {
+    background-color: $color-gray-cool-light;
+    color: $color-blue-darker;
+
+    p {
+      margin: 0;
+    }
+
+    &:hover {
+      background-color: $color-blue-darker;
+
+      p {
+        color: $color-white;
+      }
+    }
+  }
+
+  .usa-accordion-content {
+    background-color: $color-gray-cool-light;
+    margin-top: 2px;
+    padding: 0;
+  }
+
+  .usa-button-outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px $color-blue-darker;
+    color: $color-blue-darker;
+    font-weight: $font-bold;
+
+    &:hover {
+      background-color: transparent;
+      box-shadow: inset 0 0 0 2px $color-blue-darkest;
+      color: $color-blue-darkest;
+    }
+
+    &:focus {
+     box-shadow: inset 0 0 0 2px $color-blue-darker, $focus-outline;
+    }
+
+    &:active {
+     box-shadow: inset 0 0 0 2px $color-blue-darkest, $focus-outline;
+    }
+  }
+
+  [type=radio]:checked + label {
+    background-color: $color-blue-darker;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-blue-darkest;
+    }
+  }
+
+  input:focus + .usa-button-outline {
+      box-shadow: $focus-outline;
+  }
+
+  label:before {
+    display: none;
+  }
+
+  input {
+    height: 0;
+    position: relative;
+  }
+}
+
+.filter-button-title {
+  font-size: 24px;
+}
+
+.filter-button-message {
+  color: $color-base;
+  font-family: $font-serif;
+  font-weight: $font-normal;
+  font-size: $small-font-size;
+}
+
+.filter-section {
+  border-bottom: 2px solid $color-white;
+  clear: left;
+  padding: 2.1rem 3rem;
+}
+
+.filter-category {
+  font-size: $base-font-size;
+  font-weight: $font-bold;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
+
+.filter-selection {
+  overflow: hidden;
+
+  button {
+    @include margin(5px 6px 5px null);
+  }
+}
