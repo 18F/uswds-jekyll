@@ -1,4 +1,4 @@
-account# Info specific to SCINet Website Development
+# Info specific to SCINet Website Development
 
 These are the instructions for how to contribute to the scinet webpage if you have been contacted to contibute.
 
@@ -8,7 +8,7 @@ There are two ways to do this.
 2. edit online in github
 2. Sent your markdown file to Adam Rivers
 
-## The github way.
+## The github command line
 
 1. get a GitHub account if you don't have one
 2. clone the repository to your computer: `git clone https://github.com/USDA-ARS-GBRU/scinet-site.git`
@@ -24,13 +24,17 @@ There are two ways to do this.
 
 6. Then go the main scinet repository and createa pull request
 
-## Edit online in github
+## Edit online in Github
 1. get a GitHub account if you don't have one
 2. go to the scinet repository: https://github.com/USDA-ARS-GBRU/scinet-site and navigate to your file and click the pencil. this will "fork the archive for you".
 3 edit it and say what you did in the comment box and click "propose file change"
 
 ## Assignments
 
+Person | section | url
+-------|--------|---------------
+Erin Scully | Genomics | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/genomics.md
+Pat Reaves | Geospatial | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
 
 
 
