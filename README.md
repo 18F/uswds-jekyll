@@ -1,5 +1,35 @@
-# Info specific to SCINet Website Development
+account# Info specific to SCINet Website Development
 
+These are the instructions for how to contribute to the scinet webpage if you have been contacted to contibute.
+
+There are two ways to do this.
+
+1. Using Github pull requests (prefered)
+2. edit online in github
+2. Sent your markdown file to Adam Rivers
+
+## The github way.
+
+1. get a GitHub account if you don't have one
+2. clone the repository to your computer: `git clone https://github.com/USDA-ARS-GBRU/scinet-site.git`
+3. create a new brach for your work
+4. Edit your assigned page, photos go in `/assets/img` and docs go in `assets/docs`
+5. When you are done commit your changes:
+
+  ```
+  git add .
+  git commit -m "here is a description of what I did what I did"
+  git push
+  ```
+
+6. Then go the main scinet repository and createa pull request
+
+## Edit online in github
+1. get a GitHub account if you don't have one
+2. go to the scinet repository: https://github.com/USDA-ARS-GBRU/scinet-site and navigate to your file and click the pencil. this will "fork the archive for you".
+3 edit it and say what you did in the comment box and click "propose file change"
+
+## Assignments
 
 
 
@@ -11,7 +41,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design System](https://designsystem.digital.gov).
 
 ## Table of contents
-1. [Installation](#installation)
+1. [Installation](#installation)ßß
     - [Development](#development)
     - [Versioning](#versioning)
 1. [Configuration](#configuration)

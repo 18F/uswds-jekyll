@@ -26,13 +26,13 @@ primary:
   - text: Education
     links:
       - text: Tutorials
-        href: /education/tutorial/
+        href: /education/tutorials/
       - text: Training Meetings
         href: /education/training/
       - text: Videos
         href: /education/video/
       - text: Plan a training
-        href: /education/plantrain/
+        href: /education/plan-training/
   - text: Use Cases
     links:
       - text: Research Leader
@@ -66,7 +66,7 @@ primary:
       - text: Networking
         href: /about/networking
       - text: Organization
-        href: /about/Organization
+        href: /about/organization
       - text: People
         href: /about/people
 
