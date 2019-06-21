@@ -14,13 +14,10 @@ layout: page
 #    href: '#section-two'
 ---
 
-
-
 ## Getting started material for authors.
 (please remove after writing the article)
 
-* For examples of formatting in markdown see [this page](https://usda-ars-gbru.github.io/scinet-site/)
-
+* For examples of formatting in markdown see [this page](/theme/)
 * To add photos
   1. place them in the `/assets/img/` directory
   2. place them on the page using this tag:
@@ -29,7 +26,6 @@ layout: page
   ![](/assets/img)
 
   ```
-
 
 ## Page specific instructions
 
