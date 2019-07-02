@@ -7,9 +7,9 @@
   | push: layout.styles
   | push: page.styles %}
 {% for _list in _styles %}{% for _style in _list %}
-<!-- <link rel="stylesheet"
+<link rel="stylesheet"
   href="{{ _style.href | default: _style | relative_url }}"
-  media="{{ _style.media | default: 'screen' }}"> -->
+  media="{{ _style.media | default: 'screen' }}">
 {% endfor %}{% endfor %}
 
-<link rel="stylesheet" href="assets/uswds-2.0.3/css/uswds.min.css">
+<!-- <link rel="stylesheet" href="assets/uswds-2.0.3/css/uswds.min.css"> -->
