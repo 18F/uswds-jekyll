@@ -77,7 +77,7 @@ $image-path: '../uswds/img';
 {% if site.data.theme.colors.footer.footer-text %}$footer-text: {{ site.data.theme.colors.footer.footer-text }};{% endif %}
 {% if site.data.theme.colors.footer.footer-link %}$footer-link: {{ site.data.theme.colors.footer.footer-link }};{% endif %}
 
-@import 'uswds/all';
+@import 'uswds/uswds';
 @import 'components/all';
 
 {% for item in site.data.navigation.primary %}
