@@ -2,11 +2,11 @@
 <section class="usa-hero"{% if hero.image %}
   style="background-image: url('{{ hero.image | relative_url }}')"{% endif %}>
   <div class="usa-grid">
-    <div class="usa-hero-callout usa-section-dark">
+    <div class="usa-hero__callout usa-section--dark">
       {% if hero.callout %}
       <h2>
         {% if hero.callout.alt %}
-        <span class="usa-hero-callout-alt">{{ hero.callout.alt }}</span>
+        <span class="usa-hero__callout-alt">{{ hero.callout.alt }}</span>
         {% endif %}
         {{ hero.callout.text | default: hero.callout }}
       </h2>

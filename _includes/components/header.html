@@ -1,11 +1,11 @@
 {% if header %}
 
 {% if header.type == 'basic' %}
-  <header class="usa-header usa-header-basic" role="banner">
+  <header class="usa-header usa-header--basic" role="banner">
 {% elsif header.type == 'basic-mega' %}
-  <header class="usa-header usa-header-basic usa-header-basic-megamenu" role="banner">
+  <header class="usa-header usa-header--basic usa-header--basic-megamenu" role="banner">
 {% elsif header.type == 'extended' or header.type == 'extended-mega' %}
-  <header class="usa-header usa-header-extended" role="banner">
+  <header class="usa-header usa-header--extended" role="banner">
 {% endif %}
 
   {% if header.type == 'basic' or header.type == 'basic-mega' %}
@@ -18,7 +18,7 @@
           {% if header.logo %}
             <img class="usa-logo-img" src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}" alt="{{ header.logo.alt }}">
           {% endif %}
-          <em class="usa-logo-text">
+          <em class="usa-logo__text">
             {{ header.title | default: site.title }}
           </em>
         </a>
@@ -26,29 +26,29 @@
     </div>
 
     <nav role="navigation" class="usa-nav">
-      <div class="usa-nav-inner">
-        <button class="usa-nav-close">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
           <img src="{{ site.baseurl }}/assets/uswds/img/close.svg" alt="close">
         </button>
 
         {% assign _primary = header.primary.links %}
         {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
         {% if primary_links %}
-        <ul class="usa-nav-primary usa-accordion">
+        <ul class="usa-nav__primary usa-accordion">
           {% for _section in primary_links %}
           <li>
             {% if _section.links %}
               {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
               {% assign _section_id = _section.id %}
               {% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
-            <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="{{ _section_id }}">
+            <button class="usa-accordion-button usa-nav__link" aria-expanded="false" aria-controls="{{ _section_id }}">
               <span>{{ _section.text }}</span>
             </button>
             {% if header.type == 'basic' or header.type == 'extended' %}
-            <ul id="{{ _section_id }}" class="usa-nav-submenu" aria-hidden="true">
+            <ul id="{{ _section_id }}" class="usa-nav__submenu" aria-hidden="true">
             {% endif %}
             {% if header.type == 'basic-mega' or header.type == 'extended-mega' %}
-            <div id="{{ _section_id }}" class="usa-nav-submenu usa-megamenu usa-grid-full" aria-hidden="true">
+            <div id="{{ _section_id }}" class="usa-nav__submenu usa-megamenu usa-grid-full" aria-hidden="true">
             {% endif %}
               {% for _link in section_links %}
                 {% if header.type == 'basic-mega' or header.type == 'extended-mega' %}
@@ -76,7 +76,7 @@
             </div>
             {% endif %}
             {% else %}
-              <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav-link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
+              <a class="{% if _section.class %}{{ _section.class }}{% else %} usa-nav__link {% endif %} {% if _section.href == page.permalink %} usa-current{% endif %}" href="{% if _section.external %}{{ _section.href }}{% else %}{{ _section.href | relative_url }}{% endif %}">
                 <span>{{ _section.text }}</span>
               </a>
             {% endif %}
@@ -106,7 +106,7 @@
 
           {% if header.type == 'extended' or header.type == 'extended-mega' %}
           {% assign _secondary = header.secondary %}
-          <div class="usa-nav-secondary">
+          <div class="usa-nav__secondary">
             {% if site.search_site_handle  %}
               <form accept-charset="UTF-8" action="https://search.usa.gov/search" id="search_form" method="get" class="usa-search usa-search-small js-search-form usa-sr-only">
                 <div style="margin:0;padding:0;display:inline">
@@ -122,7 +122,7 @@
                 </div>
               </form>
             {% endif %}
-            <ul class="usa-unstyled-list usa-nav-secondary-links">
+            <ul class="usa-unstyled-list usa-nav__secondary-links">
               {% if site.search_site_handle %}
               <li class="js-search-button-container">
                 <button class="usa-header-search-button js-search-button">Search</button>
