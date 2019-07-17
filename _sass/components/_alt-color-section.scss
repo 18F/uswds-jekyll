@@ -1,4 +1,4 @@
-.usa-section-dark {
+.usa-section--dark {
   @if variable-exists(alt-section-bg) {
     background-color: $alt-section-bg;
   }

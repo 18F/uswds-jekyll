@@ -36,13 +36,13 @@
 .usa-layout-docs {
   display: flex;
 }
-@include media ($medium-screen){
+@media ($medium-screen){
   .sidenav {
     width: 250px;
   }
 }
 
-@include media($nav-width) {
+@media($nav-width) {
   .usa-layout-docs {
     display: block;
 

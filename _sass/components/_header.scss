@@ -16,7 +16,7 @@
       margin-top: 1.25rem;
       margin-right: 0.25rem;
 
-      @include media($nav-width) {
+      @media($nav-width) {
         margin-top: 0;
         height: 2.4rem;
       }
@@ -28,7 +28,7 @@
   }
 
   &.usa-header-extended .usa-logo-img {
-    @include media($nav-width) {
+    @media($nav-width) {
       height: 3.2rem;
     }
   }
