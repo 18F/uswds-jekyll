@@ -14,7 +14,7 @@ layout: page
 #    href: '#section-two'
 ---
 <br>
-<br>
+
 ## Use Cases
 ### **Machine Learning**
 * Classification
@@ -29,8 +29,8 @@ layout: page
 * Spatial variance or autocorrelation
 * Kriging / Interpolation
 <br>
-<br>
-## When to SCINet Appropriate?
+
+## When to Use SCINet?
 Setting up and modifying analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited in SCINET are: 
 * CPU intensive workloads
 * High memory workloads
@@ -40,7 +40,7 @@ Additional considerations are:
 * Will I need to parallelize my analyses (typically for cpu intensive workloads)?
 * Will I require more than a single node (ie. distributed computing)
 <br>
-<br>
+
 ## Tools / Software
 The following tools/software are currently available on SCINet.
 ### Geospatial Specific Software
@@ -57,7 +57,7 @@ The following tools/software are currently available on SCINet.
 * [**JupyterLab**](https://jupyterlab.readthedocs.io/en/stable/): Web-based user interface for Project Jupyter
 
 ### Other
-* [**SCINet Remote Sensing Docker Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
+* [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
     *  Located at (read only): /project/geospatial_tutorials/data_science_im_rs.sif
        or
     *  Pull from dockerhub repository to local folder with:
