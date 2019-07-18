@@ -2,7 +2,11 @@
 title: SCINet for geospatial research
 description: SCINet has a number of tools available for geospatial research
 permalink: /user/geospatial/
+<<<<<<< HEAD
 author: Rowan Gaffney and Pat Clark
+=======
+author:
+>>>>>>> c8a399ece1fc4bfda10ebbc264c467667afc9c83
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
@@ -14,6 +18,7 @@ layout: page
 #    href: '#section-two'
 ---
 
+<<<<<<< HEAD
 ## Use Cases
 ### **Machine Learning**
 * Classification
