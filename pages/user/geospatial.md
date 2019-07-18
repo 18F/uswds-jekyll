@@ -16,14 +16,18 @@ layout: page
 <br>
 
 ## Use Cases
+---
 ### **Machine Learning**
 * Classification
 * Clustering: [Python Example (Not attached yet)](/assets/img/geospatial//assets/img/___.html)
+* Regression
 
 ### **Modeling**
 * Process based or statistical models
 
 ### **Time Series Analysis**
+* Estimating Productivity
+* Land Use / Land Change
 
 ### **Geostatistics**
 * Spatial variance or autocorrelation
@@ -31,17 +35,19 @@ layout: page
 <br>
 
 ## When to Use SCINet?
-Setting up and modifying analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited in SCINET are: 
+---
+Setting up and modifying analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are: 
 * CPU intensive workloads
 * High memory workloads
 
 Additional considerations are:
 * Is my analyses already optimized?
-* Will I need to parallelize my analyses (typically for cpu intensive workloads)?
-* Will I require more than a single node (ie. distributed computing)
+* Will I need to parallelize my analyses (typical for cpu intensive workloads)?
+* Will I require more than a single node of compute power (ie. distributed computing)?
 <br>
 
 ## Tools / Software
+---
 The following tools/software are currently available on SCINet.
 ### Geospatial Specific Software
 * [**ENVI**](https://www.harrisgeospatial.com/Software-Technology/ENVI) (5.5): Image analysis software (1 license available)
@@ -64,5 +70,9 @@ The following tools/software are currently available on SCINet.
 ```bash
 singularity pull docker://rowangaffney/data_science_im_rs
 ```
+    * [Setup Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using the data_science_im_rs container on SCINet.
 
-    * [Setup Tutorial for JypuyterLab and Dask Distrubuted on SCINet](/assets/img/geospatial/Tutorial1.html)
+## Case Studies
+---
+
+**Not Yet Completed**
