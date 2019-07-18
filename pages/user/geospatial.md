@@ -13,8 +13,8 @@ layout: page
 #  - text: Section two
 #    href: '#section-two'
 ---
-
-
+<br>
+<br>
 ## Use Cases
 ### **Machine Learning**
 * Classification
@@ -28,8 +28,9 @@ layout: page
 ### **Geostatistics**
 * Spatial variance or autocorrelation
 * Kriging / Interpolation
-
-## When is SCINet Appropriate?
+<br>
+<br>
+## When to SCINet Appropriate?
 Setting up and modifying analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited in SCINET are: 
 * CPU intensive workloads
 * High memory workloads
@@ -38,7 +39,8 @@ Additional considerations are:
 * Is my analyses already optimized?
 * Will I need to parallelize my analyses (typically for cpu intensive workloads)?
 * Will I require more than a single node (ie. distributed computing)
-
+<br>
+<br>
 ## Tools / Software
 The following tools/software are currently available on SCINet.
 ### Geospatial Specific Software
