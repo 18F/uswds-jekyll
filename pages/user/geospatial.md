@@ -66,10 +66,10 @@ The following tools/software are currently available on SCINet.
 
 ### Other
 * [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
-    * [User Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using the data_science_im_rs_latest.sif container on SCINet.
-    *  Located at (read only): /project/geospatial_tutorials/data_science_im_rs.sif
-       or
-    *  Pull from dockerhub repository to local folder with:
+    * [User Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using:
+      * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif 
+      * sbatch script: /project/geospatial_tutorials/data_science_nb_dask.sbatch
+    *  Optionally, pull the container from dockerhub to local folder with:
 ```bash
 singularity pull docker://rowangaffney/data_science_im_rs
 ```
