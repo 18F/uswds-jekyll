@@ -32,7 +32,6 @@ layout: page
 ### **Geostatistics**
 * Spatial Variance or Autocorrelation
 * Kriging / Interpolation
-<br>
 
 ### **Processing Data**
 * UAS DN/Radiance to Reflectance
