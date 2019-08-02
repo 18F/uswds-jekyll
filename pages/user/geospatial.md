@@ -19,24 +19,27 @@ layout: page
 ---
 ### **Machine Learning**
 * Classification
-* Clustering: [Python Example (Not attached yet)](/assets/img/geospatial//assets/img/___.html)
+* Clustering: [Python Notebook Example](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
 * Regression
 
 ### **Modeling**
-* Process based or statistical models
+* Process Based or Statistical Models
 
 ### **Time Series Analysis**
 * Estimating Productivity
 * Land Use / Land Change
 
 ### **Geostatistics**
-* Spatial variance or autocorrelation
+* Spatial Variance or Autocorrelation
 * Kriging / Interpolation
 <br>
 
+### **Processing Data**
+* UAS DN/Radiance to Reflectance
+
 ## When to Use SCINet?
 ---
-Setting up and modifying analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are: 
+Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are: 
 * CPU intensive workloads
 * High memory workloads
 
@@ -71,8 +74,3 @@ The following tools/software are currently available on SCINet.
 singularity pull docker://rowangaffney/data_science_im_rs
 ```
     * [Setup Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using the data_science_im_rs container on SCINet.
-
-## Case Studies
----
-
-**Not Yet Completed**
