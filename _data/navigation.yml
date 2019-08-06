@@ -21,7 +21,7 @@ primary:
       - text: Software
         href: /guide/software
       - text: User manual
-        href: /guide/software
+        href: /guide/manual
 
   - text: Education
     links:

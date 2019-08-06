@@ -31,15 +31,8 @@ There are two ways to do this.
 
 ## Assignments
 
-Person | section | url
--------|--------|---------------
-Erin Scully | Genomics | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/genomics.md
-Pat Clark| Geospatial | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
-Rowan Gaffney | Geospatial |  https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
-Adam Rivers | Org Page |
-Adam Rivers | People |
-Adam Rivers | signup page |
-
+See this link for page assignments:
+https://usdagcc-my.sharepoint.com/:x:/g/personal/adam_rivers_usda_gov/EQP9eDqpsVxJqizxNxEesiEBXvcV4h0jym8xcopQ1q9biA
 
 
 
