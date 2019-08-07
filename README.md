@@ -5,9 +5,9 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [US Web Design System](https://github.com/18F/uswds-jekyll) v1.0, and is adaptable to your organization's needs.
 
 ## Table of contents
-1. [Using the CDS in your Jekyll Site](#Using-the-Chicago-Design-System-in-your-Jekyll-Site)
+1. [Using the CDS in your jekyll Site](#Using-the-Chicago-Design-System-in-your-Jekyll-Site)
 1. [Contributing to the CDS](#contributing-to-the-cds)
-1. [Jekyll Basics](#jekyll-basics)
+1. [Jekyll basics](#jekyll-basics)
     - [Getting started](#getting-started-with-jekyll)
     - [Site configuration](#site-configuration)
         - [Site title](#site-title)
@@ -18,7 +18,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
         - [Anchor JS](#anchor-js)
 1. [Pages](#pages)
     - [Front matter](#front-matter)
-        - [page title](#page-title)
+        - [Page title](#page-title)
         - [Page subnavigation](#page-subnavigation)
         - [Hero](#hero)
         - [Tagline intro](#tagline-intro)
@@ -545,7 +545,7 @@ Cards are tiles that represent the pages or in a collection, such as a list of t
 To implement a card deck on your website:
 
 1. Make a collection folder in the main directory of your jekyll site. The folder must be prefaced with an underscore, e.g. `_collection-name`. 
-1. Include the new collection in a `collections` section of your `_config.yml` file. Note that the collection-name is the same name as the folder but without a preceding underscore. 
+1. Include the new collection in a `collections` section of your `_config.yml` file. Note that `collection-name` is the same name as the folder but *without* a preceding underscore. 
     ```yml
       collections:
         collection-name: 
@@ -565,7 +565,7 @@ To implement a card deck on your website:
       image_alt: The image alt text
       ---
     ```
-1. Add a card deck to a page (`card-page` in this example) by adding the HTML code below to body fo the markdown file for that page. Make sure to replace `collection-name` with the name of your collection with no underscore.
+1. Add a card deck to a page (`card-page` in this example) by adding the HTML code below to body to the markdown file for that page. Make sure to replace `collection-name` with the name of your collection with no underscore.
     ```html
     <div class="card-deck">
       {% for item in site.collection-name %}
