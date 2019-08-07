@@ -1,13 +1,13 @@
 # Jekyll + Chicago Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
-[Chicago Design System](https://chicagodesignsystem.org). It is built off a fork from the
-[US Web Design System](https://github.com/18F/uswds-jekyll), and is adaptable to your organization's needs.
+[Chicago Design System](https://chicagodesignsystem.org) (CDS). It is built off a fork from the
+[US Web Design System](https://github.com/18F/uswds-jekyll) v1.0, and is adaptable to your organization's needs.
 
 ## Table of contents
-1. [Installation](#installation)
-    - [Development](#development)
-    - [Versioning](#versioning)
+1. [Jekyll Basics](#jekyll-basics)
+1. [Using the CDS in your Jekyll Site](#Using-the-Chicago-Design-System-in-your-Jekyll-Site)
+1. [Contributing to the CDS](#contributing-to-the-cds)
 1. [Configuration](#configuration)
     - [Site title](#site-title)
     - [Site description](#site-description)
@@ -41,71 +41,74 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Team member](#layout-team-member)
 
 
+## Jekyll Basics
 
-## Installation
+Jekyll is a static website generator that converts markdown files to webpages in pre-made themes and layouts. In this case, the themes and layouts are provided by the Chicago Design System. 
 
-1. Install the theme as a Ruby Gem by adding it to your `Gemfile`
-   like so:
+### Why Jekyll?
+
+A Jekyll theme is lightweight and easily edited. Jekyll separates the content (markdown files) from the theme (this repository), which means that content editors don't need any knowledge of ruby or stylesheets to generate a uniformly formatted webpage.  
+
+### Installing Jekyll
+
+Visit the [official Jekyll documentation](https://jekyllrb.com/docs/) for instructions on how to install Jekyll.
+
+
+## Using the Chicago Design System in your Jekyll Site
+
+The Chicago Design System is currently in development. To access the most up-to-date system, include the CDS as a remote theme. 
+
+1. Include the `jekyll-feed` and `jekyll-remote-theme` plugins in your gemfile. Remove any other theme gems, such as the default `gem "minima", "~> 2.0"`, from your gemfile.
 
     ```ruby
-    gem 'design-cds-jekyll'
+    gem "github-pages", group: :jekyll_plugins
+
+    # If you have any plugins, put them here!
+    group :jekyll_plugins do
+      gem "jekyll-feed", "~> 0.6"
+      gem "jekyll-remote-theme"
+    end
     ```
 
-1. Fetch and update your bundled gems by running:
+1. Open a command shell. Navigate to the main folder of your jekyll site. Fetch and update your bundled gems by running:
 
     ```sh
-    bundle
+    bundle update
     ```
 
-1. Set the `theme` in your site's Jekyll configuration,
-   `_config.yml`:
+1. Adjust the build settings in your `_config.yml` file to include the Chicago Design System.
 
     ```yml
-    theme: uswds-jekyll
+    # Build settings
+    markdown: kramdown
+    remote_theme: Chicago/design-cds-jekyll
+    plugins:
+      - jekyll-feed
+      - jekyll-remote-theme
     ```
 
 You will need to restart your Jekyll server to see the effects.
 
-### Install as a new Jekyll site
+## Contributing to the CDS
 
-1. Create a new Jekyll site:
-    ```
-    jekyll new
-    ```
-1. Replace the default `gem "minima", "~> 2.0"` gem with the `uswds-jekyll` gem in your `Gemfile`:
+You can get involved by contributing code to this repo, [writing an issue](https://github.com/Chicago/chicagodesignsystem.org/issues/new), or finding [other ways to get involved](https://opensource.guide/how-to-contribute/).
 
-    ```ruby
-    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
-    ```
-
-1. Set the `theme` in your site's Jekyll configuration,
-   `_config.yml`:
-
-    ```yml
-    theme: uswds-jekyll
-    ```
-1. Fetch and update your bundled gems by running:
-
-    ```sh
-    bundle
-    ```
-1. Run Jekyll `jekyll serve` to build your site locally at http://localhost:4000/
-
-### Development
+We communicate about this project in our [CDS slack workspace](https://chicagodesignsystem.slack.com/messages). Request an invitation by emailing us at [Chicago Design System](design.system@cityofchicago.org) or using our [shared invite link](https://join.slack.com/t/chicagodesignsystem/shared_invite/enQtMzM2OTA4MTQyNzIzLWVlOWFkOWQ4YWE0NWQ2YTAzOTFmYWFlMGVjNTEwZjA5ZWNmYjFkZTNhNDNhMmM1MTJiYmQ3MDk2NWZkNzg2Mjg).
 
 To develop this theme and/or test it locally:
 
 1. Clone this repo
-1. Run Jekyll (`jekyll serve`) in the local clone of this repo;
-   **or**
-1. Create a new Jekyll project, follow the
-   [installation](#installation) instructions, then change your
-   `Gemfile` to point at the local clone of this repo:
+    1. Navigate to the Chicago Design System [main repo](https://github.com/Chicago/design-library).
+    1. In the top-right corner of the page, click *Fork*.
+    1. Make a local copy to edit. Go to the *code* section of your fork and click *Clone or download*.
+    1. Copy the URL provided.
+    1. Open your command line or terminal application. Navigate to the directory where you would like to copy the repository (download the code).
+    1. Clone the repository by typing `git clone <URL>`, replacing `<URL>` with the url you copied.
+1. Install ruby, a bundler, and jekyll by following the [quickstart instructions](https://jekyllrb.com/docs/) in the official jekyll documentation.
+1. If you already have ruby or jekyll installed, navigate to the folder containing your local clone of this repository, open a command terminal, and run `bundle update` to ensure all necessary gems and plugins are up to date.
+1. Run Jekyll (`jekyll serve`) in the local clone of this repo.
 
-    ```ruby
-    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
-    ```
-    
+
 ## Configuration
 
 Configuration of common elements ([header](#header),
@@ -450,7 +453,6 @@ are placed in the [_sass/uswds](_sass/uswds) directory and are available as
 Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][Jekyll Sass]
 for more information about its Sass/SCSS support, and configuring its Sass
 renderer in your site's config.
-
 
 ### Customizing with CSS overrides
 
