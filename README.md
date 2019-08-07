@@ -584,6 +584,8 @@ To implement a card deck on your website:
     ```
 1. Build the site. The cards will render based on what pages are in the collections folder.
 
+This repo contains an example HTML for a collection called `projects`. Using this default include, you can simply add the liquid line `{% include project-list.html %}` to show all projects in the `projects` collection. This pattern can also be followed to move HTML components to outside documents. 
+
 ## Layouts
 
 This theme provides the following layouts, which you can use by
