@@ -16,7 +16,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
         - [Search](#search)
         - [Analytics](#analytics)
         - [Anchor JS](#anchor-js)
-1. [Pages]
+1. [Pages](#pages)
     - [Front matter](#front-matter)
         - [page title](#page-title)
         - [Page subnavigation](#page-subnavigation)
@@ -35,6 +35,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 1. [Components](#components)
     - [Header](#header)
     - [Footer](#footer)
+    - [Cards](#cards)
 1. [Layouts](#layouts)
     - [Default](#layout-default)
     - [Page](#layout-page)
@@ -536,6 +537,52 @@ render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
 
+
+### Cards
+
+Cards are tiles that represent the pages or in a collection, such as a list of team member bios or a list of projects. A card deck is embedded in a page ("card page"), and is generated from a collection. A collection corresponds to a project folder, which contains project files. One card is generated for each project file, and clicking on a card brings you to the corresponding project.
+
+To implement a card deck on your website:
+
+1. Make a collection folder in the main directory of your jekyll site. The folder must be prefaced with an underscore, e.g. `_collection-name`. 
+1. Include the new collection in a `collections` section of your `_config.yml` file. Note that the collection-name is the same name as the folder but without a preceding underscore. 
+    ```yml
+      collections:
+        collection-name: 
+          output: true
+          permalink: /:path/
+    ```
+1. Create a series of project files in your collection folder. These will be normal markdown files of type "project." Some additional front matter (below) should be included that will be reflected on the card. 
+
+    ```md
+      ---
+      layout: project
+      title: Project Title
+      permalink: /card-page/project
+      description: Project description.
+      large_image: /assets/img/aerial-northside-water.png
+      small_image: /assets/img/city-seal-blue.png
+      image_alt: The image alt text
+      ---
+```
+1. Add a card deck to a page (`card-page` in this example) by adding the HTML code below to body fo the markdown file for that page. Make sure to replace `collection-name` with the name of your collection with no underscore.
+    ```html
+    <div class="card-deck">
+      {% for item in site.collection-name %}
+        <div class="card">
+          <img class="card-img-top" src="{{ site.baseurl }}{{ item.small_image }}" alt="{{ item.image_alt }} ">
+          <div class="card-body">
+            <h3 class="card-title">{{ item.title }}</h3>
+            <p class="card-text">{{ item.description }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ site.baseurl }}{{ item.url }}" class="card-read-more-link">Read more <svg xmlns="http://www.w3.org/2000/svg" width="444.819" height="444.819" viewBox="0 0 444.819 444.819"><path d="M352.025 196.712L165.885 10.848C159.028 3.615 150.468 0 140.185 0s-18.84 3.62-25.696 10.848l-21.7 21.416c-7.045 7.043-10.567 15.604-10.567 25.692 0 9.897 3.52 18.56 10.566 25.98L231.544 222.41 92.785 361.168c-7.04 7.043-10.563 15.604-10.563 25.693 0 9.9 3.52 18.566 10.564 25.98l21.7 21.417c7.043 7.043 15.612 10.564 25.697 10.564 10.09 0 18.656-3.52 25.697-10.564L352.025 248.39c7.046-7.423 10.57-16.084 10.57-25.98.002-10.09-3.524-18.655-10.57-25.698z"/></svg></a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    ```
+1. Build the site. The cards will render based on what pages are in the collections folder.
 
 ## Layouts
 
