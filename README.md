@@ -5,22 +5,25 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [US Web Design System](https://github.com/18F/uswds-jekyll) v1.0, and is adaptable to your organization's needs.
 
 ## Table of contents
-1. [Jekyll Basics](#jekyll-basics)
 1. [Using the CDS in your Jekyll Site](#Using-the-Chicago-Design-System-in-your-Jekyll-Site)
 1. [Contributing to the CDS](#contributing-to-the-cds)
-1. [Configuration](#configuration)
-    - [Site title](#site-title)
-    - [Site description](#site-description)
-    - [Navigation](#navigation)
-    - [Page subnavigation](#page-subnavigation)
-    - [Hero](#hero)
-    - [Tagline intro](#tagline-intro)
-    - [Graphics list](#graphics-list)
-    - [Color and font configuration](#color-and-font-configuration)
-    - [Search](#search)
-    - [Analytics](#analytics)
-    - [Last modified date](#last-modified-date)
-    - [Anchor JS](#anchor-js)
+1. [Jekyll Basics](#jekyll-basics)
+    - [Getting started](#getting-started-with-jekyll)
+    - [Site configuration](#site-configuration)
+        - [Site title](#site-title)
+        - [Site description](#site-description)
+        - [Navigation](#navigation)
+        - [Search](#search)
+        - [Analytics](#analytics)
+        - [Anchor JS](#anchor-js)
+1. [Pages]
+    - [Front matter](#front-matter)
+        - [page title](#page-title)
+        - [Page subnavigation](#page-subnavigation)
+        - [Hero](#hero)
+        - [Tagline intro](#tagline-intro)
+        - [Graphics list](#graphics-list)
+    - [Body](#body)
 1. [Assets](#assets)
     - [Stylesheets](#stylesheets)
     - [Scripts](#scripts)
@@ -39,19 +42,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
     - [Post](#layout-post)
     - [Project](#layout-project)
     - [Team member](#layout-team-member)
-
-
-## Jekyll Basics
-
-Jekyll is a static website generator that converts markdown files to webpages in pre-made themes and layouts. In this case, the themes and layouts are provided by the Chicago Design System. 
-
-### Why Jekyll?
-
-A Jekyll theme is lightweight and easily edited. Jekyll separates the content (markdown files) from the theme (this repository), which means that content editors don't need any knowledge of ruby or stylesheets to generate a uniformly formatted webpage.  
-
-### Installing Jekyll
-
-Visit the [official Jekyll documentation](https://jekyllrb.com/docs/) for instructions on how to install Jekyll.
 
 
 ## Using the Chicago Design System in your Jekyll Site
@@ -109,13 +99,25 @@ To develop this theme and/or test it locally:
 1. Run Jekyll (`jekyll serve`) in the local clone of this repo.
 
 
-## Configuration
+## Jekyll Basics
+
+Jekyll is a static website generator that converts markdown files to webpages in pre-made themes and layouts. In this case, the themes and layouts are provided by the Chicago Design System. 
+
+### Why Jekyll?
+
+A Jekyll theme is lightweight and easily edited. Jekyll separates the content (markdown files) from the theme (this repository), which means that content editors don't need any knowledge of ruby or stylesheets to generate a uniformly formatted webpage.
+
+### Getting Started with Jekyll
+
+Visit the [official Jekyll documentation](https://jekyllrb.com/docs/) for instructions on how to install Jekyll.
+
+**If you've never used Jekyll before, reading this [step-by-step tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) from the official Jekyll documentation is strongly recommended.**
+
+### Site Configuration
 
 Configuration of common elements ([header](#header),
 [footer](#footer), [navigation](#navigation), etc.) happens in your
-project's [data files](https://jekyllrb.com/docs/datafiles/). See
-this project's [data directory](_data) for reference configurations
-of each component.
+project's [data files](https://jekyllrb.com/docs/datafiles/). 
 
 The [default layout](#layout-default) also provides a mechanism for
 automatically including [stylesheets](#stylesheets) and
@@ -123,20 +125,19 @@ automatically including [stylesheets](#stylesheets) and
 basis. See [asset load order](#asset-load-order) for more
 information.
 
-
-### Site title
+#### Site title
 
 You can change your site's title with the `title` field in your
 `_config.yml`.  If you want to provide an alternate title for use
 _only_ in the site header, you can set the `title` field in
 `_data/header.yml`.
 
-### Site description
+#### Site description
 
 You can change your site's description with the `description` field in your
-`_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's frontmatter.
+`_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's front matter.
 
-### Navigation
+#### Navigation
 
 This theme's navigation system is powerful and flexible. Named
 navigational lists live in your project's `_data/navigation.yml`,
@@ -167,9 +168,60 @@ shared by different components, such as the [header](#header) and
 [footer](#footer). See the documentation for those components for
 more info.
 
-### Page title
+#### Search
 
-Set each page's title in its frontmatter:
+[Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
+
+Before configuring your search you will need to create a search.gov account and set up your website
+with search.gov.
+
+After setting up your site on search.gov you can then add your `site handle` to the `config.yml`.
+
+#### Analytics
+
+You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
+
+```
+# Configuration for Google Analytics, add your UA code here:
+# google_analytics_ua: UA-????????-??
+```
+
+#### Anchor JS
+
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
+This will add an anchor link after the header tag on the page and post layouts making each header linkable.
+See https://github.com/bryanbraun/anchorjs for more information.
+
+```yml
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+```
+
+
+## Pages
+
+Once you have a skeleton of a Jekyll site set up, you will be able to start creating site content in the form of pages written with markdown. 
+
+You can create a page by saving a markdown file (a text file with the `.md` extension) in the main directory of your site. For more details on pages, such as saving pages to sub-directories and determining permalinks, see the [official jekyll page documentation](https://jekyllrb.com/docs/pages/). 
+
+A jekyll page has two sectons: the **front matter** and the **body**.
+
+### Front Matter
+
+The **front matter** of a page contains the page metadata and global variables, including the title, layout, permalink, and date. Custom graphic elements, such as a hero image or tagline, are also contained in the front matter. For more details on front matter and a full list of predefined front matter variables, see the [official jekyll front matter documentation](https://jekyllrb.com/docs/front-matter/).
+
+Front matter is contained between two triple dashes:
+
+```md
+---
+title: My Page
+permalink: /my-page/
+layout: page
+---
+```
+
+#### Page title
+
+Set each page's title in its front matter:
 
 ```md
 ---
@@ -177,10 +229,10 @@ title: About us
 ---
 ```
 
-### Page subnavigation
+#### Page subnavigation
 
 If you're using the [page layout](#layout-page), each page may declare its own
-side navigation and subnavigation in its [front matter]:
+side navigation and/or subnavigation in its [front matter](#front-matter):
 
 ```md
 ---
@@ -204,8 +256,6 @@ The `subnav` field should be used to link to sections _within_ the current
 page, because links to other pages will cause the linking page's side
 navigation to collapse when visited.
 
-
-`sidenav` is a key _into_ `_data/navigation.yml`. See the [navigation](#navigation) docs for more info.
 
 A page's "current" or "active" state in the sidenav is
 determined by whether a link's `href` matches `page.url` or
@@ -231,32 +281,22 @@ into:
 <h2 id="section-one">Section one</h2>
 ```
 
-If you're using Redcarpet, you will need to configure it to enable
-the `with_toc_data` extension in your `_config.yml`, like so:
-
-```yml
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - with_toc_data
-```
-
 **Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page](#layout-page), [project](#layout-project), and [team member](#layout-team-member) layouts to have the sidenav follow as you scroll.
 
-### Hero
+#### Hero
 
 ```yml
 hero: # optional
   image: /path/to/image.jpg # optional
   callout:
     alt: Callout white text! # optional
-    text: The rest of the callout
+    text: The rest of the callout in light blue text
   button: # optional
     text: The button text
     href: /button-href/
 ```
 
-### Tagline intro
+#### Tagline intro
 
 ```yml
 # optional, but must be used in conjunction with 'intro', below
@@ -268,7 +308,7 @@ intro: |
   This will be processed as **Markdown**.
 ```
 
-### Graphics list
+#### Graphics list
 ```yml
 # an optional list of graphics to display before or after the content
 graphics:
@@ -283,59 +323,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
-### Color and font configuration
+### Body
+Body content starts after the front matter and is written in markdown, which is converted to HTML at build. Here's a great [starting point for markdown help](https://www.markdownguide.org/). Global variables set in the front matter can be accessed in the body of the page using [liquid](https://jekyllrb.com/docs/liquid/) syntax. You can also add raw HTML to a markdown file, which may be necessary to include certain page elements.
 
-The default colors and fonts can be configured in the `_data/theme.yml` file.
 
 
-### Search
-
-[Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
-
-Before configuring your search you will need to create a search.gov account and set up your website
-with search.gov.
-
-After setting up your site on search.gov you can then add your `site handle` to the `config.yml`.
-
-### Analytics
-
-#### Google Analytics
-
-You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
-
-```
-# Configuration for Google Analytics, add your UA code here:
-# google_analytics_ua: UA-????????-??
-```
-
-#### Digital Analytics Program (DAP)
-
-You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
-
-```
-# Configuration for DAP, add your agency ID here:
-# dap_agency: GSA
-```
-
-### Last modified date
-
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
-This will add the date right before the footer component and uses the `last-modified.html` include.
-
-```yml
-# Used to show the "Last updated" date and time;
-# last_updated: true
-```
-
-### Anchor JS
-
-You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
-This will add an anchor link after the header tag on the page and post layouts making ech header linkable.
-See https://github.com/bryanbraun/anchorjs for more information.
-
-```yml
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
-```
 
 ## Assets
 
