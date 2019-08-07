@@ -564,7 +564,7 @@ To implement a card deck on your website:
       small_image: /assets/img/city-seal-blue.png
       image_alt: The image alt text
       ---
-```
+    ```
 1. Add a card deck to a page (`card-page` in this example) by adding the HTML code below to body fo the markdown file for that page. Make sure to replace `collection-name` with the name of your collection with no underscore.
     ```html
     <div class="card-deck">
