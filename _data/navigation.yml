@@ -41,8 +41,10 @@ primary:
         href: /user/npl
       - text: Genomics
         href: /user/genomics/
-      - text: Plant and animal breeding
-        href: /user/breeding/
+      - text: Plant breeding
+        href: /user/plant-breeding/
+      - text: Animal breeding
+        href: /user/animal-breeding/
       - text: Geospatial
         href: /user/geospatial/
       - text: Hydrology

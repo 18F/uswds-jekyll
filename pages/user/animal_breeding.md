@@ -1,7 +1,7 @@
 ---
-title: SCINet for plant breeding research
-description: SCINet tools available for plant breeding research
-permalink: /user/plant-breeding/
+title: SCINet for animal breeding research
+description: SCINet tools available for animal breeding research
+permalink: /user/animal-breeding/
 author:
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
@@ -28,4 +28,4 @@ layout: page
 
 ## Page specific instructions
 
-Write about the tools available for plant breeding research and add use cases from people if possible.
+Write about the tools available for animal breeding research and add use cases from people if possible.
