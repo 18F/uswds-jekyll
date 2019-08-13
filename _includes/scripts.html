@@ -24,10 +24,10 @@
 {% endfor %}{% endfor %}
 
 
-{% if site.search %}
+{% if site.search_site_handle %}
 <script type="text/javascript">
 //<![CDATA[
-      var usasearch_config = { siteHandle:"{{ site.search.site_handle }}" };
+      var usasearch_config = { siteHandle:"{{ site.search_site_handle }}" };
 
       var script = document.createElement("script");
       script.type = "text/javascript";
