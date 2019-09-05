@@ -11,9 +11,6 @@ node_modules/
 
 # Jekyll stuff
 .jekyll-metadata
+.jekyll-cache
 _site
 .sass-cache
-
-# USWDS
-assets/uswds/
-_sass/uswds/

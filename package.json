@@ -10,7 +10,7 @@
     "update-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/"
   },
   "dependencies": {
-    "uswds": "^2.0.3"
+    "uswds": "^2.1.0"
   },
   "devDependencies": {
     "cached-path-relative": "^1.0.2"
