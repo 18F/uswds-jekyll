@@ -8,13 +8,14 @@
       @if variable-exists(header-title) {
         color: $header-title;
       }
+      align-items: center;
+      display: flex;
     }
 
     .usa-logo-img {
       float: left;
       height: 1.5rem;
-      margin-top: 1.25rem;
-      margin-right: 0.25rem;
+      margin-right: units(1);
 
       @media($nav-width) {
         margin-top: 0;
