@@ -6,6 +6,14 @@ $font-logo:                  'Saira Extra Condensed', sans-serif;
 $font-sans:                  'Roboto', sans-serif;
 $font-serif:                 'Lora', serif;
 
+$local-font-path:   '../fonts' !default;
+$local-image-path:   '../img' !default;
+
+
+@include google-font(Roboto, 100 300 500 700, italic normal);
+@include google-font(Saira Extra Condensed, 700, normal);
+@include google-font(Lora, 400 700, italic normal);
+
 
 // CDS 2.0 Colors
 
