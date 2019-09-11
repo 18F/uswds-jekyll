@@ -6,9 +6,6 @@
 $font-path: '../uswds/fonts';
 $image-path: '../uswds/img';
 
-// @import 'google-font'
-
-
 // Typography
 {% if site.data.theme.fonts.sans %}$font-sans: {{ site.data.theme.fonts.sans }};{% endif %}
 {% if site.data.theme.fonts.serif %}$font-serif: {{ site.data.theme.fonts.serif }};{% endif %}
