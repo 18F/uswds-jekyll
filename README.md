@@ -195,16 +195,11 @@ title: About us
 ### Page subnavigation
 
 If you're using the [page layout](#layout-page), each page may declare its own
-side navigation and subnavigation in its [front matter]:
+side navigation:
 
 ```md
 ---
 sidenav: documentation
-subnav:
-  - text: Section one
-    href: '#section-one'
-  - text: Section two
-    href: '#section-two
 ---
 ## Section one
 
@@ -215,22 +210,14 @@ As with the [header](#header) and [footer](#footer), the `sidenav` field may
 either reference a common [navigation list](#navigation) from
 `_data/navigation.yml` (recommended) or be a literal list of links.
 
-The `subnav` field should be used to link to sections _within_ the current
-page, because links to other pages will cause the linking page's side
-navigation to collapse when visited.
-
+The subnavigation will be shown automatically for the current page. See
+[customization options](https://github.com/toshimaru/jekyll-toc#customization).
 
 `sidenav` is a key _into_ `_data/navigation.yml`. See the [navigation](#navigation) docs for more info.
 
 A page's "current" or "active" state in the sidenav is
 determined by whether a link's `href` matches `page.url` or
 `page.permalink` for each page being rendered.
-
-`subnav` is a list of links to display on this page under its own link in the side navigation.
-
-**Note that subnav link hrefs are not prefixed with
-`site.baseurl`** because this breaks hash links prefixed with
-`#`.
 
 **Pro tip:** Unless your Jekyll configuration specifies otherwise, the default
 Markdown formatter (Kramdown) will automatically generate predictable `id`

@@ -5,11 +5,7 @@ permalink: /docs/
 
 layout: post
 sidenav: docs
-subnav:
-  - text: Section one
-    href: '#section-one'
-  - text: Section two
-    href: '#section-two'
+toc: true
 ---
 
 ## Section one

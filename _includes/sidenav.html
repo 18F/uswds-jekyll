@@ -12,10 +12,8 @@
          {% if link.class %}class="{{ link.class }}" {% endif %} >
          {{ link.text }}
       </a>
-      {% if _current and page.subnav %}
-      <ul class="usa-sidenav-sub_list">
-        {% include subnav.html links=page.subnav %}
-      </ul>
+      {% if _current %}
+      {{ content | toc_only }}
       {% endif %}
     </li>
     {% endfor %}

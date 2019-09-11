@@ -40,3 +40,9 @@ github_info:
 # Compress Sass
 sass:
   style: compressed
+
+toc:
+  min_level: 2
+  max_level: 3
+  list_class: usa-sidenav-sub_list
+  sublist_class: usa-sidenav-sub_list
