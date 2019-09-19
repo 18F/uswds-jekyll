@@ -2,7 +2,7 @@
 //Added for the Chicago Design System
 
 //Fonts
-$font-logo:                  'Saira Extra Condensed', sans-serif;
+$font-logo:                  'Big Shoulders Text', sans-serif;
 $font-sans:                  'Roboto', sans-serif;
 $font-serif:                 'Lora', serif;
 
@@ -11,7 +11,7 @@ $font-serif:                 'Lora', serif;
 
 
 @include google-font(Roboto, 100 300 500 700, italic normal);
-@include google-font(Saira Extra Condensed, 700, normal);
+@include google-font(Big Shoulders Text, 100 200 300 400 500 600 700 800 900, light medium regular black bold extrabold semibold thin);
 @include google-font(Lora, 400 700, italic normal);
 
 
