@@ -1,7 +1,7 @@
 ---
-title: Training Meetings
-description: SCINet organizes training meetings in scientific commuting
-permalink: /education/training/
+title: Workshops
+description: SCINet organizes training meetings in scientific computing
+permalink: /education/workshops/
 author:
 layout: page
 ---
