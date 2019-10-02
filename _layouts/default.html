@@ -1,4 +1,5 @@
 ---
+main: foo, bar, qaz
 ---
 
 <!DOCTYPE html>
@@ -19,12 +20,14 @@
     {% include components/hero.html %}
 
     {% if page.tagline and page.intro %}
-    <section class="usa-grid usa-section">
-      <div class="usa-width-one-third">
-        <h2>{{ page.tagline }}</h2>
-      </div>
-      <div class="usa-width-two-thirds">
-        {{ page.intro | markdownify }}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+          {{ page.intro | markdownify }}
+        </div>
       </div>
     </section>
     {% endif %}
