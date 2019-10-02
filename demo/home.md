@@ -8,10 +8,10 @@ hero:
   image: /assets/uswds/img/hero.png
   callout:
     alt: "Hero callout:"
-    text: Call attention to a current priority
+    text: Bring attention to a current priority
   button:
     href: /callout/
-    text: This is a call to all my
+    text: Call to action
   link:
     text: Link to more about that priority
     href: /link/
@@ -47,8 +47,9 @@ graphics:
 ---
 
 ## Section heading
+{:.font-heading-xl.margin-y-0"}
 
 Everything up to this point [should help people](javascript:void(0);) understand your agency or project: who you are, your goal or mission, and how you approach it. Use this section to encourage them to act. Describe why they should get in touch here, and use an active verb on the button below. “Get in touch,” “Learn more,” and so on.
-{: .usa-font-lead }
+{:.usa-intro }
 
-[Call to action](#){: .usa-button .usa-button-big }
+[Call to action](#){: .usa-button.usa-button--big }
