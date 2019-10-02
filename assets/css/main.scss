@@ -91,3 +91,14 @@ $theme-image-path: '../uswds/img';
 {% if site.site_width %}
   @import 'components/site-width';
 {% endif %}
+
+// uswds shims
+.usa-footer__logo-img {
+  width: 100%;
+}
+
+@include at-media('mobile-lg') {
+  .usa-footer__contact-info {
+    display: flex;
+  }
+}
