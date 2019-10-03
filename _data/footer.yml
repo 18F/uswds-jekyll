@@ -3,7 +3,7 @@
 # Configuration for type of footer.
 # Footer types can be 'slim', 'default', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: slim
+type: default
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -29,7 +29,7 @@ links: footer
 # Configuration for the big footer's email sign-up form.
 # Set to true to make the form visible.
 # Hooking it up to send the data somewhere is up to you :)
-big_footer_signup_form: false
+big_footer_signup_form: true
 
 # Configuration for footer heading. (optional)
 heading: Name of agency
