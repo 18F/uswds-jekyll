@@ -1,9 +1,9 @@
 # This is the configuration for the site footer.
 
 # Configuration for type of footer.
-# Footer types can be 'slim', 'medium', or 'big'.
+# Footer types can be 'slim', 'default', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: medium
+type: default
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
