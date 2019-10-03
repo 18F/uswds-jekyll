@@ -1,11 +1,9 @@
 {% if footer %}
-<footer class="usa-footer usa-footer-slim" role="contentinfo">
+<footer class="usa-footer usa-footer--slim">
 
   {% if footer.last_updated %}
-    <div class="usa-grid">
-      <div class="usa-width-one-whole">
-        <p>Last updated: {{ page.last_modified_at | date: '%B %d, %Y at %I:%M %p' }}</p>
-      </div>
+    <div class="usa-container">
+      <p>Last updated: {{ page.last_modified_at | date: '%B %d, %Y at %I:%M %p' }}</p>
     </div>
   {% endif %}
 
