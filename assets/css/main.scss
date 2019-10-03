@@ -101,4 +101,7 @@ $theme-image-path: '../uswds/img';
   .usa-footer__contact-info {
     display: flex;
   }
+  .usa-footer--slim .usa-footer__contact-info {
+    display: inline-block;
+  }
 }
