@@ -15,12 +15,12 @@ top:
 # Configuration for "Edit this page" link in the footer.
 # Customize with 'text' property.
 # Uncomment the following lines to show.
-edit_page:
-  text: Edit this page
+#edit_page:
+#  text: Edit this page
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
-last_updated: true
+last_updated: false
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -29,7 +29,7 @@ links: footer
 # Configuration for the big footer's email sign-up form.
 # Set to true to make the form visible.
 # Hooking it up to send the data somewhere is up to you :)
-big_footer_signup_form: true
+big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
 heading: Name of agency
