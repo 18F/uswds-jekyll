@@ -10,7 +10,7 @@
     color: $color-white;
     padding: 1rem;
     &:hover {
-      background-color: $color-primary-darker;
+      background-color: color('primary-dark');
       color: $color-white;
       text-decoration: none;
     }
