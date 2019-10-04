@@ -1,11 +1,7 @@
 ---
 ---
-// This file should not be modified unless by an advanced user.
-
-
-// U.S. Web Design System setup
-$theme-font-path: '../uswds/fonts';
-$theme-image-path: '../uswds/img';
+// Modifying this file can can cause the theme to break.
+// It should only be modified by an advanced user.
 
 // Typography
 {% if site.data.theme.fonts.sans %}$font-sans: {{ site.data.theme.fonts.sans }};{% endif %}
