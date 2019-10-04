@@ -1,12 +1,12 @@
 .usa-header {
   @if variable-exists(header-bg) {
-    background-color: $header-bg;
+    background-color: color($header-bg);
   }
 
   .usa-logo {
     a {
       @if variable-exists(header-title) {
-        color: $header-title;
+        color: color($header-title);
       }
       align-items: center;
       display: flex;
@@ -14,35 +14,35 @@
 
     .usa-logo-img {
       float: left;
-      height: 1.5rem;
+      height: units(2);
       margin-right: units(1);
 
       @media($nav-width) {
         margin-top: 0;
-        height: 2.4rem;
+        height: units(3);
       }
 
-      & + .usa-logo-text {
+      & + .usa-logo__text {
         float: left;
       }
     }
   }
 
-  &.usa-header-extended .usa-logo-img {
-    @media($nav-width) {
-      height: 3.2rem;
+  &.usa-header--extended .usa-logo-img {
+    @include at-media($theme-header-min-width) {
+      height: units(4);
     }
   }
 
-  .usa-nav-secondary-links {
+  .usa-nav__secondary-links {
     a {
       @if variable-exists(header-link) {
-        color: $header-link;
+        color: color($header-link);
       }
 
       &:hover {
         @if variable-exists(header-link-hover) {
-          color: $header-link-hover;
+          color: color($header-link-hover);
         }
       }
     }
