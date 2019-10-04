@@ -1,19 +1,23 @@
 ---
 layout: default
 main:
-  class: usa-grid usa-section usa-content usa-layout-docs
+  class: usa-layout-docs usa-section
 ---
 
-{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
-{% if sidenav %}
-  <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
-    {% include sidenav.html links=sidenav %}
-  </aside>
-{% endif %}
+<div class="grid-container">
+  <div class="grid-row grid-gap">
+    {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+    {% if sidenav %}
+      <aside class="usa-layout-docs__sidenav desktop:grid-col-3" {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
+        {% include sidenav.html links=sidenav %}
+      </aside>
+    {% endif %}
 
-<div class="usa-layout-docs-main_content">
-  {% if page.title %}
-    <h1>{{ page.title }}</h1>
-  {% endif %}
-  {{ content }}
+    <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+      {{ content }}
+    </div>
+  </div>
 </div>
