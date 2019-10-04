@@ -77,7 +77,18 @@ $theme-image-path: '../uswds/img';
 {% if site.data.theme.colors.footer.footer-text %}$footer-text: {{ site.data.theme.colors.footer.footer-text }};{% endif %}
 {% if site.data.theme.colors.footer.footer-link %}$footer-link: {{ site.data.theme.colors.footer.footer-link }};{% endif %}
 
+// import theme settings
+@import 'theme/uswds-theme-general';
+@import 'theme/uswds-theme-typography';
+@import 'theme/uswds-theme-spacing';
+@import 'theme/uswds-theme-color';
+@import 'theme/uswds-theme-utilities';
+@import 'theme/uswds-theme-components';
+
+// import uswds
 @import 'uswds/uswds';
+
+// import jekyll uswds overrides
 @import 'components/all';
 
 {% for item in site.data.navigation.primary %}
@@ -92,27 +103,5 @@ $theme-image-path: '../uswds/img';
   @import 'components/site-width';
 {% endif %}
 
-// uswds shims
-.usa-footer__logo-img {
-  width: 100%;
-}
-
-@include at-media('mobile-lg') {
-  .usa-footer__contact-info {
-    display: flex;
-  }
-  .usa-footer--slim .usa-footer__contact-info {
-    display: inline-block;
-  }
-  .usa-footer--big a.usa-footer__primary-link {
-    margin-bottom: units(3);
-  }
-}
-
-.usa-footer--big .usa-footer__primary-content--collapsible.hidden .usa-footer__primary-link {
-  background-size: units(1) auto;
-}
-
-.usa-footer--big .usa-footer__primary-link {
-  background-size: auto units(1);
-}
+// import custom styles
+@import 'theme/uswds-theme-custom-styles';

@@ -5,9 +5,10 @@
   "scripts": {
     "postinstall": "bundle",
     "start": "bundle exec jekyll serve",
-    "update-uswds": "npm run update-assets && npm run update-sass",
+    "update-uswds": "npm run update-assets && npm run update-sass && npm run update-settings",
     "update-assets": "rsync -avr --delete node_modules/uswds/dist/ assets/uswds/ --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss",
-    "update-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/"
+    "update-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/",
+    "update-settings": "rsync -avr --delete node_modules/uswds/src/stylesheets/theme/ _sass/theme/"
   },
   "dependencies": {
     "uswds": "^2.2.1"
