@@ -1,7 +1,5 @@
 // Variables present in USWDS <2.0
-$nav-width: 951px !default;
-$medium-screen: 600px !default;
-$color-blue: #0071bc !default;
+$medium-screen: 'tablet' !default;
 
 @import 'alt-color-section';
 @import 'card';

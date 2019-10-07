@@ -1,6 +1,6 @@
 .usa-header,
 .usa-sidenav-list {
-  @media($nav-width) {
+  @media($theme-header-min-width) {
     .usa-button {
       margin: 0;
       width: auto;

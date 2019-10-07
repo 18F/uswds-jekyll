@@ -17,7 +17,7 @@
       height: units(2);
       margin-right: units(1);
 
-      @media($nav-width) {
+      @media($theme-header-min-width) {
         margin-top: 0;
         height: units(3);
       }
