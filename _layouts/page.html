@@ -8,12 +8,12 @@ main:
   <div class="grid-row grid-gap">
     {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
     {% if sidenav %}
-      <aside class="usa-layout-docs__sidenav desktop:grid-col-3" {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
+      <aside class="usa-layout-docs__sidenav{% if page.sticky_sidenav %}  usa-sticky-sidenav{% endif %}">
         {% include sidenav.html links=sidenav %}
       </aside>
     {% endif %}
 
-    <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+    <div class="usa-layout-docs__main usa-prose">
       {% if page.title %}
         <h1>{{ page.title }}</h1>
       {% endif %}
