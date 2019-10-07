@@ -44,3 +44,12 @@ i.e.
 .usa-footer--big .usa-footer__primary-link {
   background-size: auto units(1);
 }
+
+.usa-header {
+  button[aria-expanded=true],
+  button[aria-expanded=true]:hover {
+    &:after {
+      display: none;
+    }
+  }
+}
