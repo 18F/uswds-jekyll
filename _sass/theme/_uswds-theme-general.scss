@@ -25,7 +25,7 @@ Relative image file path
 ----------------------------------------
 */
 
-$theme-image-path: '../uswds/img';
+$theme-image-path: '../uswds/img' !default;
 
 /*
 ----------------------------------------
@@ -36,7 +36,7 @@ mixins use non-standard tokens.
 ----------------------------------------
 */
 
-$theme-show-compile-warnings: true;
+$theme-show-compile-warnings: true !default;
 
 /*
 ----------------------------------------
@@ -53,7 +53,7 @@ $theme-namespace: (
     namespace:  'u-',
     output:     false,
   ),
-);
+) !default;
 
 /*
 ----------------------------------------
@@ -76,7 +76,7 @@ property of all site elements to
 ----------------------------------------
 */
 
-$theme-global-border-box-sizing: true;
+$theme-global-border-box-sizing: true !default;
 
 /*
 ----------------------------------------
@@ -84,10 +84,10 @@ Focus styles
 ----------------------------------------
 */
 
-$theme-focus-color:  'blue-40v';
-$theme-focus-offset: 0;
-$theme-focus-style:  solid;
-$theme-focus-width:  0.5;
+$theme-focus-color:  'blue-40v' !default;
+$theme-focus-offset: 0 !default;
+$theme-focus-style:  solid !default;
+$theme-focus-width:  0.5 !default;
 
 /*
 ----------------------------------------
@@ -95,4 +95,4 @@ Icons
 ----------------------------------------
 */
 
-$theme-icon-image-size: 2;
+$theme-icon-image-size: 2 !default;

@@ -17,8 +17,8 @@ https://v2.designsystem.digital.gov/utilities
 ----------------------------------------
 */
 
-$utilities-use-important:     false;
-$output-all-utilities:        true;
+$utilities-use-important:     false !default;
+$output-all-utilities:        true !default;
 
 /*
 ----------------------------------------
@@ -40,7 +40,7 @@ $theme-utility-breakpoints: (
   'desktop':          true,    // 1024px
   'desktop-lg':       false,   // 1200px
   'widescreen':       false,   // 1400px
-);
+) !default;
 
 /*
 ----------------------------------------
@@ -56,7 +56,7 @@ The following palettes will be added to
 
 $global-color-palettes: (
   'palette-color-default'
-);
+) !default;
 
 /*
 ----------------------------------------
@@ -71,7 +71,7 @@ $add-aspect-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $add-list-reset-settings: (
   output:       true,
@@ -80,7 +80,7 @@ $add-list-reset-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $align-items-settings: (
   output:       true,
@@ -89,7 +89,7 @@ $align-items-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $background-color-settings: (
   output:       true,
@@ -98,7 +98,7 @@ $background-color-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $border-settings: (
   output:       true,
@@ -107,7 +107,7 @@ $border-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $border-color-settings: (
   output:       true,
@@ -116,7 +116,7 @@ $border-color-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $border-radius-settings: (
   output:       true,
@@ -125,7 +125,7 @@ $border-radius-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $border-style-settings: (
   output:       true,
@@ -134,7 +134,7 @@ $border-style-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $border-width-settings: (
   output:       true,
@@ -143,7 +143,7 @@ $border-width-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $bottom-settings: (
   output:       true,
@@ -152,7 +152,7 @@ $bottom-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $box-shadow-settings: (
   output:       true,
@@ -161,7 +161,7 @@ $box-shadow-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $circle-settings: (
   output:       true,
@@ -170,7 +170,7 @@ $circle-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $clearfix-settings: (
   output:       true,
@@ -179,7 +179,7 @@ $clearfix-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $color-settings: (
   output:       true,
@@ -188,7 +188,7 @@ $color-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $cursor-settings: (
   output:       true,
@@ -197,7 +197,7 @@ $cursor-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $display-settings: (
   output:       true,
@@ -206,7 +206,7 @@ $display-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $flex-settings: (
   output:       true,
@@ -215,7 +215,7 @@ $flex-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $flex-direction-settings: (
   output:       true,
@@ -224,7 +224,7 @@ $flex-direction-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $flex-wrap-settings: (
   output:       true,
@@ -233,7 +233,7 @@ $flex-wrap-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $float-settings: (
   output:       true,
@@ -242,7 +242,7 @@ $float-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $font-settings: (
   output:       true,
@@ -251,7 +251,7 @@ $font-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $font-family-settings: (
   output:       true,
@@ -260,7 +260,7 @@ $font-family-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $font-feature-settings: (
   output:       true,
@@ -269,7 +269,7 @@ $font-feature-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $font-style-settings: (
   output:       true,
@@ -278,7 +278,7 @@ $font-style-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $font-weight-settings: (
   output:       true,
@@ -287,7 +287,7 @@ $font-weight-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $height-settings: (
   output:       true,
@@ -296,7 +296,7 @@ $height-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $justify-content-settings: (
   output:       true,
@@ -305,7 +305,7 @@ $justify-content-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $left-settings: (
   output:       true,
@@ -314,7 +314,7 @@ $left-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $letter-spacing-settings: (
   output:       true,
@@ -323,7 +323,7 @@ $letter-spacing-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $line-height-settings: (
   output:       true,
@@ -332,7 +332,7 @@ $line-height-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $margin-settings: (
   output:       true,
@@ -341,7 +341,7 @@ $margin-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $max-height-settings: (
   output:       true,
@@ -350,7 +350,7 @@ $max-height-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $max-width-settings: (
   output:       true,
@@ -359,7 +359,7 @@ $max-width-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $measure-settings: (
   output:       true,
@@ -368,7 +368,7 @@ $measure-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $min-height-settings: (
   output:       true,
@@ -377,7 +377,7 @@ $min-height-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $min-width-settings: (
   output:       true,
@@ -386,7 +386,7 @@ $min-width-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $opacity-settings: (
   output:       true,
@@ -395,7 +395,7 @@ $opacity-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $order-settings: (
   output:       true,
@@ -404,7 +404,7 @@ $order-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $outline-settings: (
   output:       true,
@@ -413,7 +413,7 @@ $outline-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $outline-color-settings: (
   output:       true,
@@ -422,7 +422,7 @@ $outline-color-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $overflow-settings: (
   output:       true,
@@ -431,7 +431,7 @@ $overflow-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $padding-settings: (
   output:       true,
@@ -440,7 +440,7 @@ $padding-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $pin-settings: (
   output:       true,
@@ -449,7 +449,7 @@ $pin-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $position-settings: (
   output:       true,
@@ -458,7 +458,7 @@ $position-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $right-settings: (
   output:       true,
@@ -467,7 +467,7 @@ $right-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $square-settings: (
   output:       true,
@@ -476,7 +476,7 @@ $square-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $text-align-settings: (
   output:       true,
@@ -485,7 +485,7 @@ $text-align-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $text-decoration-settings: (
   output:       true,
@@ -494,7 +494,7 @@ $text-decoration-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $text-decoration-color-settings: (
   output:       true,
@@ -503,7 +503,7 @@ $text-decoration-color-settings: (
   focus:        false,
   hover:        true,
   visited:      false
-);
+) !default;
 
 $text-indent-settings: (
   output:       true,
@@ -512,7 +512,7 @@ $text-indent-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $text-transform-settings: (
   output:       true,
@@ -521,7 +521,7 @@ $text-transform-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $top-settings: (
   output:       true,
@@ -530,7 +530,7 @@ $top-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $vertical-align-settings: (
   output:       true,
@@ -539,7 +539,7 @@ $vertical-align-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $whitespace-settings: (
   output:       true,
@@ -548,7 +548,7 @@ $whitespace-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $width-settings: (
   output:       true,
@@ -557,7 +557,7 @@ $width-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 $z-index-settings: (
   output:       true,
@@ -566,7 +566,7 @@ $z-index-settings: (
   focus:        false,
   hover:        false,
   visited:      false
-);
+) !default;
 
 /*
 ----------------------------------------
@@ -576,49 +576,49 @@ Values
 
 // .add-aspect
 
-$add-aspect-palettes: ();
-$add-aspect-manual-values: ();
+$add-aspect-palettes: () !default;
+$add-aspect-manual-values: () !default;
 
 // .align-items
 
-$align-items-palettes: ('palette-align-items-default');
-$align-items-manual-values: ();
+$align-items-palettes: ('palette-align-items-default') !default;
+$align-items-manual-values: () !default;
 
 // .background-color
 
-$background-color-palettes: ();
-$background-color-manual-values: ();
+$background-color-palettes: () !default;
+$background-color-manual-values: () !default;
 
 // .border
 
-$border-palettes: ('palette-border-default');
-$border-manual-values: ();
+$border-palettes: ('palette-border-default') !default;
+$border-manual-values: () !default;
 
 // .border-color
 
-$border-color-palettes: ();
-$border-color-manual-values: ();
+$border-color-palettes: () !default;
+$border-color-manual-values: () !default;
 
 // .border-radius
 
-$border-radius-palettes: ('palette-border-radius-default');
-$border-radius-manual-values: ();
+$border-radius-palettes: ('palette-border-radius-default') !default;
+$border-radius-manual-values: () !default;
 
 // .border-style
 
-$border-style-palettes: ('palette-border-style-default');
-$border-style-manual-values: ();
+$border-style-palettes: ('palette-border-style-default') !default;
+$border-style-manual-values: () !default;
 
 // .border-width
 
-$border-width-palettes: ('palette-border-width-default');
-$border-width-manual-values: ();
+$border-width-palettes: ('palette-border-width-default') !default;
+$border-width-manual-values: () !default;
 
 // .bottom
 
-$bottom-palettes: ('palette-bottom-default');
+$bottom-palettes: ('palette-bottom-default') !default;
 
-$bottom-manual-values: ();
+$bottom-manual-values: () !default;
 
 // .box-shadow
 
@@ -626,225 +626,225 @@ $box-shadow-palettes: (
   /*
   */
   'palette-box-shadow-default'
-);
+) !default;
 
-$box-shadow-manual-values: ();
+$box-shadow-manual-values: () !default;
 
 // .circle
 
-$circle-palettes: ('palette-circle-default');
-$circle-manual-values: ();
+$circle-palettes: ('palette-circle-default') !default;
+$circle-manual-values: () !default;
 
 // .color
 
-$color-palettes: ();
-$color-manual-values: ();
+$color-palettes: () !default;
+$color-manual-values: () !default;
 
 // .cursor
 
-$cursor-palettes: ('palette-cursor-default');
-$cursor-manual-values: ();
+$cursor-palettes: ('palette-cursor-default') !default;
+$cursor-manual-values: () !default;
 
 // .display
 
-$display-palettes: ('palette-display-default');
-$display-manual-values: ();
+$display-palettes: ('palette-display-default') !default;
+$display-manual-values: () !default;
 
 // .flex
 
-$flex-palettes: ('palette-flex-default');
-$flex-manual-values: ();
+$flex-palettes: ('palette-flex-default') !default;
+$flex-manual-values: () !default;
 
 // .flex-direction
 
-$flex-direction-palettes: ('palette-flex-direction-default');
-$flex-direction-manual-values: ();
+$flex-direction-palettes: ('palette-flex-direction-default') !default;
+$flex-direction-manual-values: () !default;
 
 // .flex-wrap
 
-$flex-wrap-palettes: ('palette-flex-wrap-default');
-$flex-wrap-manual-values: ();
+$flex-wrap-palettes: ('palette-flex-wrap-default') !default;
+$flex-wrap-manual-values: () !default;
 
 // .float
 
-$float-palettes: ('palette-float-default');
-$float-manual-values: ();
+$float-palettes: ('palette-float-default') !default;
+$float-manual-values: () !default;
 
 // .font
 
-$font-palettes: ('palette-font-default');
-$font-manual-values: ();
+$font-palettes: ('palette-font-default') !default;
+$font-manual-values: () !default;
 
 // .font-family
 
-$font-family-palettes: ('palette-font-family-default');
-$font-family-manual-values: ();
+$font-family-palettes: ('palette-font-family-default') !default;
+$font-family-manual-values: () !default;
 
 // .font-feature-settings
 
-$font-feature-palettes: ('palette-font-feature-settings-default');
-$font-feature-manual-values: ();
+$font-feature-palettes: ('palette-font-feature-settings-default') !default;
+$font-feature-manual-values: () !default;
 
 // .font-style
 
-$font-style-palettes: ('palette-font-style-default');
-$font-style-manual-values: ();
+$font-style-palettes: ('palette-font-style-default') !default;
+$font-style-manual-values: () !default;
 
 // .font-weight
 
-$font-weight-palettes: ('palette-font-weight-default');
-$font-weight-manual-values: ();
+$font-weight-palettes: ('palette-font-weight-default') !default;
+$font-weight-manual-values: () !default;
 
 // .height
 
-$height-palettes: ('palette-height-default');
-$height-manual-values: ();
+$height-palettes: ('palette-height-default') !default;
+$height-manual-values: () !default;
 
 // .justify-content
 
-$justify-content-palettes: ('palette-justify-content-default');
-$justify-content-manual-values: ();
+$justify-content-palettes: ('palette-justify-content-default') !default;
+$justify-content-manual-values: () !default;
 
 // .left
 
-$left-palettes: ('palette-left-default');
-$left-manual-values: ();
+$left-palettes: ('palette-left-default') !default;
+$left-manual-values: () !default;
 
 // .letter-spacing
 
-$letter-spacing-palettes: ('palette-letter-spacing-default');
-$letter-spacing-manual-values: ();
+$letter-spacing-palettes: ('palette-letter-spacing-default') !default;
+$letter-spacing-manual-values: () !default;
 
 // .line-height
 
-$line-height-palettes: ('palette-line-height-default');
-$line-height-manual-values: ();
+$line-height-palettes: ('palette-line-height-default') !default;
+$line-height-manual-values: () !default;
 
 // .margin
 
-$margin-palettes: ('palette-margin-default');
-$margin-manual-values: ();
-$margin-vertical-palettes: ('palette-margin-vertical-default');
-$margin-vertical-manual-values: ();
-$margin-horizontal-palettes: ('palette-margin-horizontal-default');
-$margin-horizontal-manual-values: ();
+$margin-palettes: ('palette-margin-default') !default;
+$margin-manual-values: () !default;
+$margin-vertical-palettes: ('palette-margin-vertical-default') !default;
+$margin-vertical-manual-values: () !default;
+$margin-horizontal-palettes: ('palette-margin-horizontal-default') !default;
+$margin-horizontal-manual-values: () !default;
 
 // .max-height
 
-$max-height-palettes: ('palette-max-height-default');
-$max-height-manual-values: ();
+$max-height-palettes: ('palette-max-height-default') !default;
+$max-height-manual-values: () !default;
 
 // .max-width
 
-$max-width-palettes: ('palette-max-width-default');
-$max-width-manual-values: ();
+$max-width-palettes: ('palette-max-width-default') !default;
+$max-width-manual-values: () !default;
 
 // .measure
 
-$measure-palettes: ('palette-measure-default');
-$measure-manual-values: ();
+$measure-palettes: ('palette-measure-default') !default;
+$measure-manual-values: () !default;
 
 // .min-height
 
-$min-height-palettes: ('palette-min-height-default');
-$min-height-manual-values: ();
+$min-height-palettes: ('palette-min-height-default') !default;
+$min-height-manual-values: () !default;
 
 // .min-width
 
-$min-width-palettes: ('palette-min-width-default');
-$min-width-manual-values: ();
+$min-width-palettes: ('palette-min-width-default') !default;
+$min-width-manual-values: () !default;
 
 // .opacity
 
-$opacity-palettes: ('palette-opacity-default');
-$opacity-manual-values: ();
+$opacity-palettes: ('palette-opacity-default') !default;
+$opacity-manual-values: () !default;
 
 // .order
 
-$order-palettes: ('palette-order-default');
-$order-manual-values: ();
+$order-palettes: ('palette-order-default') !default;
+$order-manual-values: () !default;
 
 // .outline
 
-$outline-palettes: ('palette-outline-default');
-$outline-manual-values: ();
+$outline-palettes: ('palette-outline-default') !default;
+$outline-manual-values: () !default;
 
 // .outline-color
 
-$outline-color-palettes: ('palette-outline-color-default');
-$outline-color-manual-values: ();
+$outline-color-palettes: ('palette-outline-color-default') !default;
+$outline-color-manual-values: () !default;
 
 // .overflow
 
-$overflow-palettes: ('palette-overflow-default');
-$overflow-manual-values: ();
+$overflow-palettes: ('palette-overflow-default') !default;
+$overflow-manual-values: () !default;
 
 // .padding
 
-$padding-palettes: ('palette-padding-default');
-$padding-manual-values: ();
+$padding-palettes: ('palette-padding-default') !default;
+$padding-manual-values: () !default;
 
 // .position
 
-$position-palettes: ('palette-position-default');
-$position-manual-values: ();
+$position-palettes: ('palette-position-default') !default;
+$position-manual-values: () !default;
 
 // .right
 
-$right-palettes: ('palette-right-default');
-$right-manual-values: ();
+$right-palettes: ('palette-right-default') !default;
+$right-manual-values: () !default;
 
 // .square
 
-$square-palettes: ('palette-square-default');
-$square-manual-values: ();
+$square-palettes: ('palette-square-default') !default;
+$square-manual-values: () !default;
 
 // .text-align
 
-$text-align-palettes: ('palette-text-align-default');
-$text-align-manual-values: ();
+$text-align-palettes: ('palette-text-align-default') !default;
+$text-align-manual-values: () !default;
 
 // .text-decoration
 
-$text-decoration-palettes: ('palette-text-decoration-default');
-$text-decoration-manual-values: ();
+$text-decoration-palettes: ('palette-text-decoration-default') !default;
+$text-decoration-manual-values: () !default;
 
 // .text-decoration-color
 
-$text-decoration-color-palettes: ();
-$text-decoration-color-manual-values: ();
+$text-decoration-color-palettes: () !default;
+$text-decoration-color-manual-values: () !default;
 
 // .text-indent
 
-$text-indent-palettes: ('palette-text-indent-default');
-$text-indent-manual-values: ();
+$text-indent-palettes: ('palette-text-indent-default') !default;
+$text-indent-manual-values: () !default;
 
 // .text-transform
 
-$text-transform-palettes: ('palette-text-transform-default');
-$text-transform-manual-values: ();
+$text-transform-palettes: ('palette-text-transform-default') !default;
+$text-transform-manual-values: () !default;
 
 // .top
 
-$top-palettes: ('palette-top-default');
-$top-manual-values: ();
+$top-palettes: ('palette-top-default') !default;
+$top-manual-values: () !default;
 
 // .vertical-align
 
-$vertical-align-palettes: ('palette-vertical-align-default');
-$vertical-align-manual-values: ();
+$vertical-align-palettes: ('palette-vertical-align-default') !default;
+$vertical-align-manual-values: () !default;
 
 // .white-space
 
-$whitespace-palettes: ('palette-white-space-default');
-$whitespace-manual-values: ();
+$whitespace-palettes: ('palette-white-space-default') !default;
+$whitespace-manual-values: () !default;
 
 // .width
 
-$width-palettes: ('palette-width-default');
-$width-manual-values: ();
+$width-palettes: ('palette-width-default') !default;
+$width-manual-values: () !default;
 
 // .z-index
 
-$z-index-palettes: ('palette-z-index-default');
-$z-index-manual-values: ();
+$z-index-palettes: ('palette-z-index-default') !default;
+$z-index-manual-values: () !default;
