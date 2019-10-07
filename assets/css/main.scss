@@ -28,6 +28,8 @@
   @import 'components/site-width';
 {% endif %}
 
+$theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint }}';
+
 // Banner colors
 {% assign colors_banner = site.data.theme.colors.usa-banner %}
 {% if colors_banner.usa-banner-bg %}
@@ -161,6 +163,9 @@
 {% endif %}
 {% if colors_footer.footer-link %}
   $footer-link: '{{ colors_footer.footer-link }}';
+{% endif %}
+{% if colors_footer.footer-social-link %}
+  $footer-social-link: '{{ colors_footer.footer-social-link }}';
 {% endif %}
 
 // import jekyll uswds override styles
