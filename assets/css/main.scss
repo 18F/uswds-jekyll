@@ -28,7 +28,9 @@
   @import 'components/site-width';
 {% endif %}
 
-$theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint }}';
+{% if site.data.navigation.sidenav-breakpoint %}
+  $theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint }}';
+{% endif %}
 
 // Banner colors
 {% assign colors_banner = site.data.theme.colors.usa-banner %}
