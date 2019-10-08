@@ -3,37 +3,37 @@
 // Modifying this file can can cause the theme to break.
 // It should only be modified by an advanced user.
 
-// import theme settings
-@import 'custom/uswds-theme-general';
-@import 'custom/uswds-theme-typography';
-@import 'custom/uswds-theme-spacing';
-@import 'custom/uswds-theme-color';
-@import 'custom/uswds-theme-utilities';
-@import 'custom/uswds-theme-components';
+// import project theme settings
+@import 'settings/uswds-theme-general';
+@import 'settings/uswds-theme-typography';
+@import 'settings/uswds-theme-spacing';
+@import 'settings/uswds-theme-color';
+@import 'settings/uswds-theme-utilities';
+@import 'settings/uswds-theme-components';
 
-// import default settings
-@import 'default/uswds-theme-general';
-@import 'default/uswds-theme-typography';
-@import 'default/uswds-theme-spacing';
-@import 'default/uswds-theme-color';
-@import 'default/uswds-theme-utilities';
-@import 'default/uswds-theme-components';
+// import theme default settings
+@import 'uswds/settings/uswds-theme-general';
+@import 'uswds/settings/uswds-theme-typography';
+@import 'uswds/settings/uswds-theme-spacing';
+@import 'uswds/settings/uswds-theme-color';
+@import 'uswds/settings/uswds-theme-utilities';
+@import 'uswds/settings/uswds-theme-components';
 
 // import uswds
-@import 'uswds/uswds';
+@import 'uswds/src/uswds';
 
 // set jekyll overrides
 // Nav buttons
 {% for item in site.data.navigation.primary %}
   {% if item.class %}
-    @import 'components/nav-buttons';
+    @import 'uswds/components/nav-buttons';
   {% break %}
   {% endif %}
 {% endfor %}
 
 // Setting site width
 {% if site.site_width %}
-  @import 'components/site-width';
+  @import 'uswds/components/site-width';
 {% endif %}
 
 {% if site.data.navigation.sidenav-breakpoint %}
@@ -179,10 +179,10 @@
 {% endif %}
 
 // import jekyll uswds override styles
-@import 'components/all';
+@import 'uswds/components/all';
 
 // import theme styles
-@import 'default/uswds-theme-custom-styles';
+@import 'uswds/custom/uswds-theme-custom-styles';
 
 // import user custom styles
 @import 'custom/uswds-theme-custom-styles';
