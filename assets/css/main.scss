@@ -4,12 +4,20 @@
 // It should only be modified by an advanced user.
 
 // import theme settings
-@import 'theme/uswds-theme-general';
-@import 'theme/uswds-theme-typography';
-@import 'theme/uswds-theme-spacing';
-@import 'theme/uswds-theme-color';
-@import 'theme/uswds-theme-utilities';
-@import 'theme/uswds-theme-components';
+@import 'custom/uswds-theme-general';
+@import 'custom/uswds-theme-typography';
+@import 'custom/uswds-theme-spacing';
+@import 'custom/uswds-theme-color';
+@import 'custom/uswds-theme-utilities';
+@import 'custom/uswds-theme-components';
+
+// import default settings
+@import 'default/uswds-theme-general';
+@import 'default/uswds-theme-typography';
+@import 'default/uswds-theme-spacing';
+@import 'default/uswds-theme-color';
+@import 'default/uswds-theme-utilities';
+@import 'default/uswds-theme-components';
 
 // import uswds
 @import 'uswds/uswds';
@@ -173,5 +181,8 @@
 // import jekyll uswds override styles
 @import 'components/all';
 
-// import custom styles
-@import 'theme/uswds-theme-custom-styles';
+// import theme styles
+@import 'default/uswds-theme-custom-styles';
+
+// import user custom styles
+@import 'custom/uswds-theme-custom-styles';
