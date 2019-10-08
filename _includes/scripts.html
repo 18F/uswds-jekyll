@@ -18,10 +18,12 @@
   | push: layout.scripts
   | push: page.scripts
   | uniq %}
-{% for _list in _scripts %}{% for _script in _list %}
+{% for _script in _scripts %}
   {% assign _src = _script.src | default: _script %}
-<script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
-{% endfor %}{% endfor %}
+    {% if _src %}
+      <script src="{{ _src | replace: _async_marker, '' | relative_url }}"{% if _script.async or _src contains _async_marker %} async{% endif %}></script>
+    {% endif %}
+{% endfor %}
 
 
 {% if site.search %}
