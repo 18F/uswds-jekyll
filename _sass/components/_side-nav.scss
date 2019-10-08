@@ -32,3 +32,17 @@
     }
   }
 }
+
+@if variable-exists(theme-sidenav-breakpoint) {
+  @include at-media($theme-sidenav-breakpoint){
+    .usa-layout-docs__sidenav {
+      @include u-flex(3);
+      order: 1;
+      padding-top: 0;
+    }
+    .usa-layout-docs__main {
+      @include u-flex(9);
+      order: 2;
+    }
+  }
+}
