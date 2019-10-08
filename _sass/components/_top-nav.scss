@@ -56,7 +56,9 @@
       background-color: color($top-nav-dropdown-bg);
     }
     span {
-      color: color($top-nav-dropdown-link);
+      @if variable-exists(top-nav-dropdown-link) {
+        color: color($top-nav-dropdown-link);
+      }
     }
   }
 
