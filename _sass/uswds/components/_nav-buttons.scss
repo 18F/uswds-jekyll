@@ -8,7 +8,7 @@
   }
   .usa-button {
     color: $color-white;
-    padding: 1rem;
+    padding: units(1.5);
     &:hover {
       background-color: color('primary-dark');
       color: $color-white;
@@ -19,6 +19,6 @@
 .usa-sidenav-list,
 .usa-footer-nav .usa-footer-primary-content {
   .usa-button {
-    margin: 1rem 0;
+    margin: units(1.5) 0;
   }
 }
