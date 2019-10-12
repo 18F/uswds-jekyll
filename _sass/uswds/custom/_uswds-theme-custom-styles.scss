@@ -58,3 +58,11 @@ i.e.
 .usa-layout-docs__main {
   width: 100%;
 }
+
+.usa-footer__contact-info:hover {
+    text-decoration: none;
+}
+
+.usa-footer__contact-info a:hover {
+  text-decoration: underline;
+}
