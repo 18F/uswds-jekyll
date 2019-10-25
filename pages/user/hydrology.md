@@ -2,7 +2,7 @@
 title: SCINet for hydrology research
 description: SCINet has a number of tools available for geospatial research
 permalink: /user/hydrology/
-author:
+author: John Smith
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
@@ -14,18 +14,11 @@ layout: page
 #    href: '#section-two'
 ---
 
-## Getting started material for authors.
-(please remove after writing the article)
+As hydrologic modeling tools become more sophisticated and data about the natural environment becomes available at finer and finer resolutions, there is a need for more advanced computing capabilities to run watershed, erosion, and hydrodyanmic simulation models. Currently tools such as the Environmental Policy Integrated Climate (EPIC) model, the Kinematic Runoff and Erosion Model (KINEROS2), and the Soil and Water Assessment Tool (SWAT) are available on SCINet. Users also can upload other freely-available software to suite their research needs.
 
-* For examples of formatting in markdown see [this page](/theme/)
-* To add photos
-  1. place them in the `/assets/img/` directory
-  2. place them on the page using this tag:
+## Use Case
+ARS scientists in Boise, Idaho at the Northwest Watershed Research Center (NWRC) utilize SCINet and Amazon Web Service (AWS) cloud computing to run iSnobal, ARS’s physically based snow model, with frequent airborne lidar surveys. SCINet and AWS allow scientists to efficiently and effectively deliver model results in real time to water managers in California. Snowpack summary reports are uploaded to AWS where they can be displayed and downloaded on the NWRC website. The spatial snowpack results are publicly available through a GIS server where collaborators can download the data or visualize real time model results. This information is vital for water management for agriculture in the west, as well as decision making for flood mitigation, drought management, reservoir outflows, power generation, and domestic water supplies.
 
-  ```markdown
-  ![](/assets/img/example_pic.jpg)
-  ```
+For more information see: [https://www.ars.usda.gov/pacific-west-area/boise-id/watershed-management-research](https://www.ars.usda.gov/pacific-west-area/boise-id/watershed-management-research)
 
-## Page specific instructions
-
-Write about the tools available for hydrology research and add use cases from people if possible.
+Reports can be found at: [https://www.ars.usda.gov/pacific-west-area/boise-id/watershed-management-research/docs/ars-snowpack-reports](https://www.ars.usda.gov/pacific-west-area/boise-id/watershed-management-research/docs/ars-snowpack-reports).
