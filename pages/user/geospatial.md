@@ -14,7 +14,7 @@ layout: page
 #    href: '#section-two'
 ---
 <br>
-
+By: Pat Clark and Rowan Gaffney
 ## Use Cases
 ---
 ### **Machine Learning**
@@ -38,7 +38,7 @@ layout: page
 
 ## When to Use SCINet?
 ---
-Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are: 
+Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are:
 * CPU intensive workloads
 * High memory workloads
 
@@ -67,7 +67,7 @@ The following tools/software are currently available on SCINet.
 ### Other
 * [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
     * [User Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using:
-      * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif 
+      * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif
       * sbatch script: /project/geospatial_tutorials/data_science_nb_dask.sbatch
     *  Optionally, pull the container from dockerhub to local folder with:
 ```bash

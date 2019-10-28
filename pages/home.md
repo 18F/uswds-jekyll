@@ -8,10 +8,10 @@ hero:
   image: /assets/img/laura-ockel-1194484-unsplash.png
   callout:
     alt: Get Started with SCINet
-    text:  Register for an account if you are an ARS scientist or collaborator.
+    text: "ARS scientists/ collaborators: Register for an account"
   button:
     href: /signup/
-    text: Get Started
+    text: Get Started now
 #  link:
 #    text: Links to get started
 #    href: /link/
@@ -58,7 +58,7 @@ graphics:
 
 ## Find out how SCINet can enable your Research
 
-Look at our [use cases](/uses/), Read what other ARS scientists are posting on our [community forum](https://try.discourse.org) or contact your [SCINet Advisory counsel representative](/about/people) or your [local technical and or science engagement coordinator](/about/people) to learn  more. You can get get the process started by requesting an account right now.
+Look at our [use cases](/uses/), Read what other ARS scientists are posting on our [community forum](https://try.discourse.org) or contact your [SCINet Advisory counsel representative](/about/people) or your [local technical and or science engagement coordinator](/about/people) to learn  more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
 [Get an account](signup){: .usa-button .usa-button-big }

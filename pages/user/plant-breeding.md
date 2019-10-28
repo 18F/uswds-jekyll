@@ -13,6 +13,7 @@ layout: page
 #  - text: Section two
 #    href: '#section-two'
 ---
+By: Justin Vaughn
 
 # Performing QTL-seq data processing on Ceres
 
@@ -86,7 +87,7 @@ bcftools convert filt_output_snps.bcf -O z -o output_snps.vcf.gz #convert to com
 
 ## Examining differential frequency of alleles visually and identifying peak genomic regions
 
-From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally.  Alternatively, you can also use RStudio on Ceres as documented in the auxillary section below ("Using Rstudio on Scinet CERES in 3 steps").  We focus on a QTL-seq analysis software called QTLSurge.  Many others exist, such as [QTLseqr](https://github.com/bmansfeld/QTLseqr).  Importantly, these other programs may not be completely compatible with the pipeline we have described above.
+From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally.  Alternatively, you can also use RStudio on Ceres as documented in the auxiliary section below ("Using Rstudio on Scinet CERES in 3 steps").  We focus on a QTL-seq analysis software called QTLSurge.  Many others exist, such as [QTLseqr](https://github.com/bmansfeld/QTLseqr).  Importantly, these other programs may not be completely compatible with the pipeline we have described above.
 
 QTLsurge is designed to be run under RStudio as a Shiny app and requires some dependent libraries.  These are already installed on Ceres, so you can skip step 0 if working there:  
 

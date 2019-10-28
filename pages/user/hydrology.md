@@ -13,6 +13,7 @@ layout: page
 #  - text: Section two
 #    href: '#section-two'
 ---
+By: Lindsey Yasarer
 
 As hydrologic modeling tools become more sophisticated and data about the natural environment becomes available at finer and finer resolutions, there is a need for more advanced computing capabilities to run watershed, erosion, and hydrodyanmic simulation models. Currently tools such as the Environmental Policy Integrated Climate (EPIC) model, the Kinematic Runoff and Erosion Model (KINEROS2), and the Soil and Water Assessment Tool (SWAT) are available on SCINet. Users also can upload other freely-available software to suite their research needs.
 

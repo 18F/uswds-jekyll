@@ -1,0 +1,117 @@
+Application,Version(s)
+TBB,4.4
+a5_miseq,20160825--pl5.22.0_0
+abricate,0.5
+abyss,2.0.2
+ace,1
+admixture,1.3.0
+allpathslg,52488
+alphaimpute,1.9.2
+amap,2.2
+amos,3.1.0
+amphora,2.0.0
+antismash,4.2.0
+antlr,2.7.7
+arcs,1.0.0
+argtable2,2.13
+arrowgrid,1.0.0
+augustus,"3.2.3, 3.3.2"
+bamm,1.7.3
+bamm_groopm_checkm_refinem,latest
+bamtools,"2.4.0, 2.5.1"
+barrnap,0.8
+bayestraits,2.0
+bazel,0.4.5
+bbtools,"36.92, 37.02"
+bcftools,"1.2, 1.4.1, 1.9"
+bcl2fastq,2.2
+beagle-geno,"4.1, 5.0"
+beagle,"2.1.2, 3.1.1"
+beast,"1.8.2, 1.10.4"
+bedtools,2.25.0
+beopest,14.02
+bigscape,latest
+binutils,2.25
+bismark,0.16.2
+blast+,"2.2.31, 2.6.0"
+blast,2.2.26
+blat,35
+blobtools,"1.0.1, 1.1.1"
+blupf90,20190531
+boost,1.62.0
+bowtie,1.1.2
+bowtie2,"2.2.6, 2.3.4"
+braker,2.1.2
+braker1,1.9
+breakdancer,1.4.5
+busco,1.1b1
+busco2,2.0.1
+busco3,3.1.0
+bwa,"0.7.12, 0.7.17"
+bzip2,1.0.6
+cDNA_cupcake,5.8.0
+cactus,2019.03.01--py27hdbcaa40_1
+canu,"latest, 1.6.0, 1.6, 1.7.0, 1.7.1_0828, 1.7.1_0830, 1.7.1, 1.8"
+canu16,1.6.0
+cap3,3
+card,1.1.3
+cd-hit,4.6.4
+censor,4.2.29
+centrifuge,1.0.4-beta
+cfncluster,1.3.1
+checkm,v1.0.11
+circlator,1.5.0
+circos,0.69.6
+cisa,2014.03.04
+clark,"1.2.3.2, 1.2.5.1"
+clustalomega,"1.2.3, 1.2.4"
+cmake,3.10.0
+cnvnator,v0.3.3
+cogent,2.1
+cometgazer,1.0
+concoct,"latest, 1.0.0--py36h88e4a8a_5"
+consensuscore,1.0.0
+crl_scripts,1.0
+cuda,"9.2, 10.0"
+cudnn,"7.4.1, 7.5.0.56"
+cufflinks,2.2.1
+curl,7.54.0
+cutadapt,1.16
+dastool,"1.1.0, 1.1.1"
+diamond,"0.8.29, 0.9.18"
+discovar,52488
+discovardenovo,52488
+dna_3d,"1.0.0, 180922"
+eautils,1.04.807
+eccodes,2.7.3
+edirect,11.7
+eigen,"3.2.6, 3.3.7"
+emboss,6.6.0
+envi,5.5
+epic,0810
+esmf,7.1.0
+evm,1.1.1
+exonerate,2.2.0
+express,f845cab
+falcon,"0.3.0, 0.4.2"
+fargene,1.0.0
+fasta,36.3.8e
+fastaindex,0.11c
+fastme,2.1.6.1
+fastqc,0.11.5
+faststructure,"latest, 1.0"
+fasttreemp,2.1.8
+fastx,0.0.14
+flexbar,2.5.0
+flye,2.5
+fraggenescan,1.3.0
+frc_align,1.0.0
+freebayes,"1.1.0, 1.2.0"
+funannotate,1.5.3
+gapcloser,1.12
+garli,2.01
+gatk,"3.6, 4.0.8.1"
+gcc,"5.3.0, 8.1.0, 9.1.0"
+gdal,2.4.2
+geant4,"10.1.2, 10.4.0"
+gemma,0.96
