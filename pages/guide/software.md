@@ -1,5 +1,5 @@
 ---
-title: Software list
+title: Software preinstalled on Ceres
 description: Software preinstalled on Ceres
 permalink: /guide/software
 author:
@@ -12,13 +12,15 @@ layout: page
 #  - text: Section two
 #    href: '#section-two'
 ---
-# Graphical Software on Ceres
+# Graphical Software
 
-## Galaxy Server
-
-SCINet Runs its own [Galaxy Server](https://galaxy.scinet.science).  Galaxy is an open source, web-based platform for data intensive bioinformatic research.
-
-Other Graphical software is available.  A complete list is coming soon.
+Software | information
+---|---
+Galaxy Server | SCINet Runs its own [Galaxy Server](https://galaxy.scinet.science).  Galaxy is an open source, web-based platform for data intensive bioinformatic research.
+CLC Workbench | SCINet has a license key to CLC Wrokbench
+Geneious |SCINet has a license key to Geneious
+Rstudio | SCINet runs a R studio Server
+Jupyter |  Jupyter notebooks can be run on Ceres
 
 
 # Command-line software on SCINet clusters
@@ -31,7 +33,9 @@ No problem. you have two options: you can install the software yourself or you c
 
 ### Option 1: Install the software yourself
 
-The easiest way to do this is to use a [conda](https://docs.conda.io/en/latest/) environment. often times installing the software you need is as easy as typing `conda create --name my_environment my_program`. you can also install and or compile software manually in your `$HOME` or `$PROJECT` directories. This is the fastest and easiest way to get your software.
+The easiest way to do this is to use a [conda](https://docs.conda.io/en/latest/) environment. often times installing the software you need is as easy as typing `conda create --name my_environment my_program`. Thousands of biological packages and their dependencies can be installed with a single command using the Bioconda repository for the Conda package manager. You can also install a package directly from Github or elsewhere and compile it yourself.
+
+You can also install and or compile software manually in your `$HOME` or `$PROJECT` directories. This is the fastest and easiest way to get your software.
 
 ### Option 2: Request a new module be installed
 

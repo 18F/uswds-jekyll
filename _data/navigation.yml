@@ -14,10 +14,12 @@
 primary:
   - text: Sign up for an account
     href: /signup/
-  - text: User Guide
+  - text: User Guides
     links:
       - text: Quick Start
         href: /guide/quickstart
+      - text: Set up Multifactor authetication
+        href: /guide/multifactor
       - text: Software
         href: /guide/software
       - text: User manual
