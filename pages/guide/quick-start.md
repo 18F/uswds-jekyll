@@ -4,13 +4,27 @@ description: A Quick Guide to getting started with SCINet
 permalink: /guide/quickstart
 author:
 layout: page
+
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
-# subnav:
-#  - text: Section one
-#    href: '#section-one'
-#  - text: Section two
-#    href: '#section-two'
+sidenav:
+ - text: What is SCINet
+   href: '/guide/quickstart/#what-is-scinet'
+ - text: Multi-Factor Authentication
+   href: '/guide/quickstart/#setup-multi-factor-authentication'
+ - text: Windows 10 instructions
+   href: '/guide/quickstart/#from-windows-10'
+ - text: Older Windows instructions
+   href: '/guide/quickstart/#from-older-windows-versions'
+ - text: Mac and Linux instructions
+   href: '/guide/quickstart/#from-mac-and-linux'
+ - text: Storage
+   href: '/guide/quickstart/#data-storage'
+ - text: Data Transfer
+   href: '/guide/quickstart/#data-transfer'
+ - text: Running Applications
+   href: '/guide/quickstart/#running-applications'
+
 ---
 
 [No account? Signup here.](signup){: .usa-button .usa-button-big }
