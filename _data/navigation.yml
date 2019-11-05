@@ -20,10 +20,20 @@ primary:
         href: /guide/quickstart
       - text: Set up Multifactor authetication
         href: /guide/multifactor
-      - text: Software
+      - text: Ceres User manual
+        href: /guide/ceres
+      - text: Software Overview
         href: /guide/software
-      - text: User manual
-        href: /guide/manual
+      - text: Installing packages
+        href: /guide/packageinstall
+      - text: CLC Workbench
+        href: /guide/clc
+      - text: Rstudio
+        href: /guide/rstudio
+      - text: Geneious
+        href: /guide/geneious
+      - text: Transfering files
+        href: /guide/globus
 
   - text: Education
     links:
