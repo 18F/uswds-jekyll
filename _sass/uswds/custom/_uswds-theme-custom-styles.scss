@@ -25,7 +25,7 @@ i.e.
   width: 100%;
 }
 
-@include at-media('mobile-lg') {
+@include at-media("mobile-lg") {
   .usa-footer__contact-info {
     display: flex;
   }
@@ -37,7 +37,9 @@ i.e.
   }
 }
 
-.usa-footer--big .usa-footer__primary-content--collapsible.hidden .usa-footer__primary-link {
+.usa-footer--big
+  .usa-footer__primary-content--collapsible.hidden
+  .usa-footer__primary-link {
   background-size: units(1) auto;
 }
 
@@ -46,8 +48,8 @@ i.e.
 }
 
 .usa-header {
-  button[aria-expanded=true],
-  button[aria-expanded=true]:hover {
+  button[aria-expanded="true"],
+  button[aria-expanded="true"]:hover {
     &:after {
       display: none;
     }
@@ -60,7 +62,7 @@ i.e.
 }
 
 .usa-footer__contact-info:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .usa-footer__contact-info a:hover {

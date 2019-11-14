@@ -6,11 +6,11 @@
   .card {
     display: block;
     display: flex;
-    flex: 0 0 units('mobile');
+    flex: 0 0 units("mobile");
     flex-direction: column;
     float: left;
     margin-bottom: units(4);
-    min-width: units('mobile');
+    min-width: units("mobile");
 
     &:not(:last-child) {
       margin-right: units(2);
@@ -19,13 +19,13 @@
 }
 
 .card {
-  border: units(1px) solid color('base-lightest');
+  border: units(1px) solid color("base-lightest");
   position: relative;
-  width: units('card-lg');
+  width: units("card-lg");
 
   .card-img-top {
     display: block;
-    height: units('card-lg');
+    height: units("card-lg");
     width: 100%;
   }
 
@@ -52,7 +52,7 @@
 
     svg {
       display: inline-block;
-      fill: color('primary');
+      fill: color("primary");
       height: units(1.5);
       margin-left: units(0.5);
       margin-top: units(-2px);
