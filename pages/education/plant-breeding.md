@@ -1,6 +1,6 @@
 ---
-title: SCINet for plant breeding research
-description: SCINet tools available for plant breeding research
+title: Quantitative Trait Locus (QTL) Analysis for Breeding
+description: Quantitative Trait Locus Analysis for Breeding research
 permalink: /user/plant-breeding/
 author:
 layout: page
