@@ -37,14 +37,12 @@ primary:
 
   - text: Education
     links:
-      - text: Tutorials
+      - text: Science Tutorials
         href: /education/tutorials/
-      - text: Workshops
+      - text: Past Workshops
         href: /education/workshops/
       - text: Videos
         href: /education/video/
-      - text: Plan a training
-        href: /education/plan-training/
   - text: Use Cases
     links:
       - text: Research Leader
@@ -81,9 +79,18 @@ primary:
         href: /about/networking
       - text: Organization
         href: /about/organization
+      - text: Working Groups
+        href: /about/working-groups
       - text: People
         href: /about/people
-
+      - text: Contact
+        href: /about/contact
+  - text: Opportunities
+    links:
+      - text: Plan a Workshop
+        href: /education/plan-workshop/
+      - text: Postdocs
+        href: /about/postdocs
 # secondary:
 #   - text: Documentation
 #     href: /docs/
