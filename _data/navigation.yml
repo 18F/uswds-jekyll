@@ -69,6 +69,10 @@ primary:
       - text: User Forum
         href: https://try.discourse.org/
         external: true
+      - text: Request Project Storage
+        href: /support/request-storage
+      - text: Request Software
+        href: /support/request-software
   - text: About
     links:
       - text: Overview
