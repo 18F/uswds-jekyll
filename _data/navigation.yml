@@ -91,9 +91,9 @@ primary:
   - text: Opportunities
     links:
       - text: Plan a Workshop
-        href: /education/plan-workshop/
+        href: /opportunities/plan-workshop
       - text: Postdocs
-        href: /about/postdocs
+        href: /opportunities/postdocs
 # secondary:
 #   - text: Documentation
 #     href: /docs/
