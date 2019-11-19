@@ -36,6 +36,8 @@ collections:
     output: true
   team:
     output: true
+  workshops:
+    output: true
 
 # Compress Sass
 sass:
