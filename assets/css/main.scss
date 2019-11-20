@@ -11,13 +11,17 @@
 @import 'settings/uswds-theme-utilities';
 @import 'settings/uswds-theme-components';
 
-// import theme default settings
-@import 'uswds/settings/uswds-theme-general';
-@import 'uswds/settings/uswds-theme-typography';
-@import 'uswds/settings/uswds-theme-spacing';
-@import 'uswds/settings/uswds-theme-color';
-@import 'uswds/settings/uswds-theme-utilities';
-@import 'uswds/settings/uswds-theme-components';
+// import theme override settings
+$theme-image-path: "../uswds/img";
+$theme-font-path: "../uswds/fonts";
+
+// import uswds default settings
+@import 'uswds/settings/settings-general';
+@import 'uswds/settings/settings-typography';
+@import 'uswds/settings/settings-spacing';
+@import 'uswds/settings/settings-color';
+@import 'uswds/settings/settings-utilities';
+@import 'uswds/settings/settings-components';
 
 // import uswds
 @import 'uswds/src/uswds';
