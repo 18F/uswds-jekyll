@@ -1,12 +1,11 @@
 ---
-title: Postdoc Opportunities
-description: current listing of SCINet-funded postdocs, administered through ORISE
-permalink: /opportunities/postdocs
+title: SCINet Contact Information
+description: contact infor for website, newsletter, policy/development, and technical assistance
+permalink: /about/contact
 author: Kerrie Geil
 layout: page
 ---
 
-### **SCINet Contact Information** <br><br>
 
 For questions or feedback about this website, email placeholder@usda.gov <br> <br>
 For questions about the SCINet newsletter or to contribute content, email SCINet@usda.gov <br><br>
