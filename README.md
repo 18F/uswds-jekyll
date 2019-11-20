@@ -633,7 +633,7 @@ To develop this theme and/or test it locally:
    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
    ```
 
-### Publish to Rubygems
+#### Publish to Rubygems
 
 1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
 1. Run `bundle install`
