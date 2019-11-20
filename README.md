@@ -4,113 +4,92 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
 [U.S. Web Design System](https://designsystem.digital.gov).
 
 ## Table of contents
+
 1. [Installation](#installation)
-    - [Development](#development)
-    - [Versioning](#versioning)
+   - [Versioning](#versioning)
 1. [Configuration](#configuration)
-    - [Site title](#site-title)
-    - [Site description](#site-description)
-    - [Navigation](#navigation)
-    - [Page subnavigation](#page-subnavigation)
-    - [Hero](#hero)
-    - [Tagline intro](#tagline-intro)
-    - [Graphics list](#graphics-list)
-    - [Color and font configuration](#color-and-font-configuration)
-    - [Search](#search)
-    - [Analytics](#analytics)
-    - [Last modified date](#last-modified-date)
-    - [Anchor JS](#anchor-js)
+   - [Site title](#site-title)
+   - [Site description](#site-description)
+   - [Navigation](#navigation)
+   - [Page subnavigation](#page-subnavigation)
+   - [Hero](#hero)
+   - [Tagline intro](#tagline-intro)
+   - [Graphics list](#graphics-list)
+   - [Color and font configuration](#color-and-font-configuration)
+   - [Search](#search)
+   - [Analytics](#analytics)
+   - [Last modified date](#last-modified-date)
+   - [Anchor JS](#anchor-js)
 1. [Assets](#assets)
-    - [Stylesheets](#stylesheets)
-    - [Scripts](#scripts)
-    - [Asset load order](#asset-load-order)
+   - [Stylesheets](#stylesheets)
+   - [Scripts](#scripts)
+   - [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-    - [Customizing with Sass](#customizing-with-sass)
-    - [Customizing with CSS overrides](#customizing-with-css-overrides)
-    - [Overriding includes and layouts](#overriding-includes-and-layouts)
+   - [Customizing with Sass](#customizing-with-sass)
+   - [Customizing with CSS overrides](#customizing-with-css-overrides)
+   - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
-    - [Header](#header)
-    - [Footer](#footer)
+   - [Header](#header)
+   - [Footer](#footer)
 1. [Layouts](#layouts)
-    - [Default](#layout-default)
-    - [Page](#layout-page)
-    - [Home](#layout-home)
-    - [Post](#layout-post)
-    - [Project](#layout-project)
-    - [Team member](#layout-team-member)
-
-
+   - [Default](#layout-default)
+   - [Page](#layout-page)
+   - [Home](#layout-home)
+   - [Post](#layout-post)
+   - [Project](#layout-project)
+   - [Team member](#layout-team-member)
+1. [Development](#development)
 
 ## Installation
 
 1. Install the theme as a Ruby Gem by adding it to your `Gemfile`
    like so:
 
-    ```ruby
-    gem 'uswds-jekyll'
-    ```
+   ```ruby
+   gem 'uswds-jekyll'
+   ```
 
 1. Fetch and update your bundled gems by running:
 
-    ```sh
-    bundle
-    ```
+   ```sh
+   bundle
+   ```
 
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
-    ```yml
-    theme: uswds-jekyll
-    ```
+   ```yml
+   theme: uswds-jekyll
+   ```
 
 You will need to restart your Jekyll server to see the effects.
 
 ### Install as a new Jekyll site
 
 1. Create a new Jekyll site:
-    ```
-    jekyll new
-    ```
+   ```
+   jekyll new
+   ```
 1. Replace the default `gem "minima", "~> 2.0"` gem with the `uswds-jekyll` gem in your `Gemfile`:
 
-    ```ruby
-    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
-    ```
+   ```ruby
+   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+   ```
 
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
-    ```yml
-    theme: uswds-jekyll
-    ```
+   ```yml
+   theme: uswds-jekyll
+   ```
+
 1. Fetch and update your bundled gems by running:
 
-    ```sh
-    bundle
-    ```
+   ```sh
+   bundle
+   ```
+
 1. Run Jekyll `jekyll serve` to build your site locally at http://localhost:4000/
-
-### Development
-
-To develop this theme and/or test it locally:
-
-1. Clone this repo
-1. Run Jekyll (`jekyll serve`) in the local clone of this repo;
-   **or**
-1. Create a new Jekyll project, follow the
-   [installation](#installation) instructions, then change your
-   `Gemfile` to point at the local clone of this repo:
-
-    ```ruby
-    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
-    ```
-### Publish to Rubygems
-1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
-1. Run `bundle install`
-1. Add a PR for the update and get it merged
-1. Run `bundle exec rake release`
-1. Add a GitHub release to the releases page with the same version number
-1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
 
 ### Versioning
 
@@ -120,9 +99,9 @@ To reference a specific version of this plugin:
    decide which version you want to use.
 1. Specify the version in your `Gemfile`.
 
-    ```ruby
-    gem 'uswds-jekyll', '1.4.1'
-    ```
+   ```ruby
+   gem 'uswds-jekyll', '1.4.1'
+   ```
 
 ## Configuration
 
@@ -138,11 +117,10 @@ automatically including [stylesheets](#stylesheets) and
 basis. See [asset load order](#asset-load-order) for more
 information.
 
-
 ### Site title
 
 You can change your site's title with the `title` field in your
-`_config.yml`.  If you want to provide an alternate title for use
+`_config.yml`. If you want to provide an alternate title for use
 _only_ in the site header, you can set the `title` field in
 `_data/header.yml`.
 
@@ -206,6 +184,7 @@ subnav:
   - text: Section two
     href: '#section-two
 ---
+
 ## Section one
 
 ## Section two
@@ -218,7 +197,6 @@ either reference a common [navigation list](#navigation) from
 The `subnav` field should be used to link to sections _within_ the current
 page, because links to other pages will cause the linking page's side
 navigation to collapse when visited.
-
 
 `sidenav` is a key _into_ `_data/navigation.yml`. See the [navigation](#navigation) docs for more info.
 
@@ -284,6 +262,7 @@ intro: |
 ```
 
 ### Graphics list
+
 ```yml
 # an optional list of graphics to display before or after the content
 graphics:
@@ -301,7 +280,6 @@ graphics_position: (before|after)
 ### Color and font configuration
 
 The default colors and fonts can be configured in the `_data/theme.yml` file.
-
 
 ### Search
 
@@ -369,7 +347,6 @@ you add one or both of those manually, your HTML will include the following:
 Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts)
 below.
 
-
 ### Stylesheets
 
 As a general rule, all stylesheets are inserted in a layouts'
@@ -386,7 +363,6 @@ styles:
 
 Stylesheets specified as objects (in the latter item above) must
 have an `href` property. The `media` defaults to `screen`.
-
 
 ### Scripts
 
@@ -411,7 +387,6 @@ users. (Conversely, if you don't know whether your scripts need to execute in a
 particular order, then you should not set `async: true` because it may prevent
 your scripts from running propertly.)
 
-
 ### Asset load order
 
 Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
@@ -424,14 +399,12 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 1. Those configured at the page level (in the page's [front matter])
    will be loaded last.
 
-
 ## Customization
 
 You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
 [CSS overrides](#customizing-with-css-overrides). Individual sites can also
 [selectively override](#overriding-includes-and-layouts) individual includes
 and layouts.
-
 
 ### Customizing with Sass
 
@@ -442,45 +415,46 @@ the USWDS source files:
 ---
 # assets/css/main.scss
 ---
+
 // set your variables or @import them here.
 
 // at the very least, you should set the USWDS font and image paths
 // to the correct paths relative to assets/main.css, like so:
-$font-path: '../uswds/fonts';
-$image-path: '../uswds/img';
+$font-path: "../uswds/fonts";
+$image-path: "../uswds/img";
 
-@import 'uswds/all';
+@import "uswds/all";
 ```
 
 All of the USWDS [SCSS source files](https://github.com/uswds/uswds/tree/master/src/stylesheets)
-are placed in the [_sass/uswds](_sass/uswds) directory and are available as
-Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][Jekyll Sass]
+are placed in the [\_sass/uswds](_sass/uswds) directory and are available as
+Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][jekyll sass]
 for more information about its Sass/SCSS support, and configuring its Sass
 renderer in your site's config.
-
 
 ### Customizing with CSS overrides
 
 1. Create a new CSS or Sass file that defines your customizations,
    e.g.
 
-    ```scss
-    ---
-    # assets/uswds-overrides.scss
-    ---
-    .usa-header {
-      // overrides here
-    }
-    ```
+   ```scss
+   ---
+   # assets/uswds-overrides.scss
+   ---
+
+   .usa-header {
+     // overrides here
+   }
+   ```
 
 1. Add the new stylesheet's path to your `_config.yml` _after_
    `uswds.min.css`:
 
-    ```yml
-    styles:
-      - /assets/uswds/css/uswds.min.css
-      - /assets/uswds-overrides.css
-    ```
+   ```yml
+   styles:
+     - /assets/uswds/css/uswds.min.css
+     - /assets/uswds-overrides.css
+   ```
 
 ### Overriding includes and layouts
 
@@ -523,10 +497,9 @@ header data to come directly from the Jekyll configuration file
 `_includes/header.html` to look like this:
 
 ```html
-{% assign header = site.data.header %}
-{% include components/header--basic.html %}
+{% assign header = site.data.header %} {% include components/header--basic.html
+%}
 ```
-
 
 ### Header
 
@@ -538,7 +511,6 @@ render the header's markup.
 
 See this repo's [header.yml](_data/header.yml) for more info.
 
-
 ### Footer
 
 The [footer.html include](_includes/footer.html) sets the `header`
@@ -549,7 +521,6 @@ render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
 
-
 ## Layouts
 
 This theme provides the following layouts, which you can use by
@@ -559,7 +530,9 @@ setting the `layout` [front matter] on each page, like so:
 ---
 layout: name
 ---
+
 ```
+
 Supported (optional) front matter for page layouts.
 
 - [page navigation](#page-subnavigation)
@@ -584,7 +557,6 @@ This layout implements the [home page
 template](https://designsystem.digital.gov/page-templates/landing/), which
 accommodates the following [front matter]:
 
-
 Check out the YAML front matter in the [home demo
 page](demo/home.html) for an example of how to structure it.
 
@@ -594,12 +566,12 @@ This layout implements the [document page
 template](https://designsystem.digital.gov/page-templates/docs/).
 
 See the [page demo page](demo/page.md) for an example of how this
-works, and see [_data/navigation.yml](_data/navigation.yml) for how
+works, and see [\_data/navigation.yml](_data/navigation.yml) for how
 to structure named navigation data for your site.
 
 ### `layout: post`
 
-This layout is identical to the layout `page` and is included to allow for easier site creation using  `Jekyll new`.
+This layout is identical to the layout `page` and is included to allow for easier site creation using `Jekyll new`.
 
 ### `layout: project`
 
@@ -633,6 +605,52 @@ email: email@address.gov
 
 To show a listing of team members on a page add `{% include team-list.html %} to the page`
 
-[Sass]: http://sass-lang.com/guide
-[Jekyll Sass]: https://jekyllrb.com/docs/assets/#sassscss
+[sass]: http://sass-lang.com/guide
+[jekyll sass]: https://jekyllrb.com/docs/assets/#sassscss
 [front matter]: https://jekyllrb.com/docs/frontmatter/
+
+### Development
+
+To develop this theme and/or test it locally:
+
+1. Clone this repo
+
+1. Check the version of USWDS in `package.json` — update to the newest version if necessary.
+
+> `npm install uswds@latest --save-dev`
+
+1. Setup USWDS and sync the proper USWDS files to the theme.
+
+> `npm run setup-uswds`
+
+1. Start Jekyll to preview the effects of your changes. This will build the Jekyll site, watch the Sass files, and recompile the Sass when there are changes.
+
+> `npm start`
+
+**or**
+
+1. Create a new Jekyll project, follow the
+   [installation](#installation) instructions, then change your
+   `Gemfile` to point at the local clone of this repo:
+
+   ```ruby
+   gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
+   ```
+
+### Publish to Rubygems
+
+1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
+1. Run `bundle install`
+1. Add a PR for the update and get it merged
+1. Run `bundle exec rake release`
+1. Add a GitHub release to the releases page with the same version number
+1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
+
+##### Scripts
+
+- `start`: Starts the jekyll site
+- `setup-uswds`: Copies assets from the USWDS package to their theme locations, but running the following scipts, which can also be run separately:
+  - `sync-assets`: Copies assets to `assets/uswds`
+  - `sync-sass`: Copies Sass cource files to `_sass/uswds/src/`
+  - `sync-default-settings`: Copies default settings files to `_sass/uswds/settings`
+  - `sync-theme-settings`: Copies only theme settings files to `_sass/settings`
