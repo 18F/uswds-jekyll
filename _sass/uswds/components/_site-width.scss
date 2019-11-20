@@ -1,12 +1,6 @@
 .site-wide {
-  .usa-grid {
+  .grid-container,
+  .usa-footer__nav {
     max-width: 100%;
-  }
-
-  .usa-header {
-    .usa-navbar,
-    .usa-nav-inner {
-      max-width: 100%;
-    }
   }
 }

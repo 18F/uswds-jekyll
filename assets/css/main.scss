@@ -23,6 +23,12 @@ $theme-font-path: "../uswds/fonts";
 @import 'uswds/settings/settings-utilities';
 @import 'uswds/settings/settings-components';
 
+// Setting site width
+{% if site.site_width %}
+  $theme-header-max-width: "full";
+  $theme-banner-max-width: "full";
+{% endif %}
+
 // import uswds
 @import 'uswds/src/uswds';
 
