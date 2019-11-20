@@ -403,7 +403,7 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to manually add these custom files to your Jekyll project into a couple specific locations.
 
-1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/master/_sass/settings).
+1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings).
 
 1. Copy these theme settings files to you project's `_sass/settings` directory. If this directory doesn't exist, create it.
 
