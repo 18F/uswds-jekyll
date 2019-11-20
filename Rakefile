@@ -12,7 +12,7 @@ desc "Update to latest USWDS"
 task :update do
   puts "Updating USWDS..."
   system('npm install --save uswds@latest')
-  system('npm run update-uswds')
+  system('npm run setup-uswds')
 end
 
 desc "Create a gem release"
