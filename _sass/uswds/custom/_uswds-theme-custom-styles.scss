@@ -26,25 +26,9 @@ i.e.
 }
 
 @include at-media("mobile-lg") {
-  .usa-footer__contact-info {
-    display: flex;
-  }
-  .usa-footer--slim .usa-footer__contact-info {
-    display: inline-block;
-  }
   .usa-footer--big a.usa-footer__primary-link {
     margin-bottom: units(3);
   }
-}
-
-.usa-footer--big
-  .usa-footer__primary-content--collapsible.hidden
-  .usa-footer__primary-link {
-  background-size: units(1) auto;
-}
-
-.usa-footer--big .usa-footer__primary-link {
-  background-size: auto units(1);
 }
 
 .usa-header {
@@ -59,12 +43,4 @@ i.e.
 .usa-layout-docs__sidenav,
 .usa-layout-docs__main {
   width: 100%;
-}
-
-.usa-footer__contact-info:hover {
-  text-decoration: none;
-}
-
-.usa-footer__contact-info a:hover {
-  text-decoration: underline;
 }
