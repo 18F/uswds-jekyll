@@ -403,13 +403,13 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to manually add these custom files to your Jekyll project into a couple specific locations.
 
-1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings).
+1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings). [Download these files with DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings)
 
 1. Copy these theme settings files to you project's `_sass/settings` directory. If this directory doesn't exist, create it.
 
 1. Edit these new settings files to customize your USWDS implementation, following the USWDS's [theme settings guidance](https://designsystem.digital.gov/documentation/settings/).
 
-1. Add any **custom CSS or Sass** to a folder called `_sass/custom/_uswds-theme-custom-styles.scss`. You can also use this file to import any additional Sass or CSS files your project needs.
+1. Add any **custom CSS or Sass** to a folder called `_sass/custom/_uswds-theme-custom-styles.scss`. You can also use this file to import any additional Sass or CSS files your project needs. [Download this file from Github](https://raw.githubusercontent.com/18F/uswds-jekyll/update-uswds-2.0/_sass/custom/_uswds-theme-custom-styles.scss)
 
 You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
 [CSS overrides](#customizing-with-css-overrides). Individual sites can also
