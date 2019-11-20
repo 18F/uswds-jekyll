@@ -1,4 +1,5 @@
 ---
+layout: workshop
 title: Training to develop computational links from ground to satellite: LTAR phenology network case study
 location: Las Cruces, NM
 date: 08/27/2019 - 08/28/2019
