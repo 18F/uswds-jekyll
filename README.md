@@ -93,14 +93,14 @@ You will need to restart your Jekyll server to see the effects.
 
 ### Versioning
 
-To reference a specific version of this plugin:
+To reference a specific version of this theme:
 
 1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
    decide which version you want to use.
 1. Specify the version in your `Gemfile`.
 
    ```ruby
-   gem 'uswds-jekyll', '1.4.1'
+   gem 'uswds-jekyll', '5.0.0'
    ```
 
 ## Configuration
@@ -401,60 +401,20 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 ## Customization
 
+Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to manually add these custom files to your Jekyll project into a couple specific locations.
+
+1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/master/_sass/settings).
+
+1. Copy these theme settings files to you project's `_sass/settings` directory. If this directory doesn't exist, create it.
+
+1. Edit these new settings files to customize your USWDS implementation, following the USWDS's [theme settings guidance](https://designsystem.digital.gov/documentation/settings/).
+
+1. Add any **custom CSS or Sass** to a folder called `_sass/custom/_uswds-theme-custom-styles.scss`. You can also use this file to import any additional Sass or CSS files your project needs.
+
 You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
 [CSS overrides](#customizing-with-css-overrides). Individual sites can also
 [selectively override](#overriding-includes-and-layouts) individual includes
 and layouts.
-
-### Customizing with Sass
-
-Create a [Sass][] (or SCSS) entry point that sets variables and then imports
-the USWDS source files:
-
-```scss
----
-# assets/css/main.scss
----
-
-// set your variables or @import them here.
-
-// at the very least, you should set the USWDS font and image paths
-// to the correct paths relative to assets/main.css, like so:
-$font-path: "../uswds/fonts";
-$image-path: "../uswds/img";
-
-@import "uswds/all";
-```
-
-All of the USWDS [SCSS source files](https://github.com/uswds/uswds/tree/master/src/stylesheets)
-are placed in the [\_sass/uswds](_sass/uswds) directory and are available as
-Sass imports via `@import 'uswds/<path>';`. See the [Jekyll docs][jekyll sass]
-for more information about its Sass/SCSS support, and configuring its Sass
-renderer in your site's config.
-
-### Customizing with CSS overrides
-
-1. Create a new CSS or Sass file that defines your customizations,
-   e.g.
-
-   ```scss
-   ---
-   # assets/uswds-overrides.scss
-   ---
-
-   .usa-header {
-     // overrides here
-   }
-   ```
-
-1. Add the new stylesheet's path to your `_config.yml` _after_
-   `uswds.min.css`:
-
-   ```yml
-   styles:
-     - /assets/uswds/css/uswds.min.css
-     - /assets/uswds-overrides.css
-   ```
 
 ### Overriding includes and layouts
 
