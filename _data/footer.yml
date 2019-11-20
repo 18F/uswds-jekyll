@@ -10,7 +10,7 @@ type: default
 # Comment out to the following section to hide.
 top:
   text: Return to top
-  href: '#'
+  href: "#"
 
 # Configuration for "Edit this page" link in the footer.
 # Customize with 'text' property.
@@ -43,8 +43,8 @@ logos:
 
 # Configuration for footer contact links
 contact:
-# Configuration for social media links
-# Comment out links you don't want to use (RSS is an example)
+  # Configuration for social media links
+  # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Facebook
       href: https://facebook.com
@@ -63,7 +63,7 @@ contact:
   #   external: true
   #   type: rss
   heading: Agency contact center
-# Configuration for contact links for email, phone, etc...
+  # Configuration for contact links for email, phone, etc...
   contact_links:
     - text: (800) CALL-GOVT
       href: tel:1-800-555-5555
