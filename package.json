@@ -11,7 +11,7 @@
     "update-settings": "rsync -avr --delete node_modules/uswds/src/stylesheets/theme/ _sass/theme/ --exclude=_uswds-theme-custom-styles.scss"
   },
   "dependencies": {
-    "uswds": "^2.2.1"
+    "uswds": "github:uswds/uswds#develop"
   },
   "devDependencies": {
     "cached-path-relative": "^1.0.2"
