@@ -1,4 +1,5 @@
 ---
+layout: workshop
 title: Artificial Intelligence and the Accessibility and Analysis of Geospatial Data: A SCINet Workshop
 location: Las Cruces, NM
 date: 09/10/2019 - 09/11/2019
