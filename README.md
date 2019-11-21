@@ -76,6 +76,12 @@ You will need to restart your Jekyll server to see the effects.
    gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
    ```
 
+   Or if you want to use the 5.0.0 preview:
+
+   ```ruby
+   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git', :branch => 'update-uswds-2.0'
+   ```
+
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
@@ -575,15 +581,15 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
 1. Update your `uswds-jekyll` gem in your project's Gemfile. Replace the current `gem 'uswds-jekyll'` line with:
 
-```ruby
-gem 'uswds-jekyll', '5.0.0'
-```
+   ```ruby
+   gem 'uswds-jekyll', '5.0.0'
+   ```
 
-Then, in the terminal, run
+   Then, in the terminal, run
 
-```
-bundle update uswds-jekyll
-```
+   ```
+   bundle update uswds-jekyll
+   ```
 
 1. Add any custom styles to `\_sass/custom/`
 1. `_sass` folder needs to be at the root level, not in assets.
