@@ -277,9 +277,9 @@ graphics:
 graphics_position: (before|after)
 ```
 
-### Color and font configuration
+### Color configuration
 
-The default colors and fonts can be configured in the `_data/theme.yml` file.
+The default colors can be configured in the `_data/theme.yml` file. Other settings can be configured using USWDS theme settings. (See the [customization](#customization) section, below.)
 
 ### Search
 
