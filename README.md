@@ -597,70 +597,70 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 1. Don't duplicate the `h1` in the body content of `page` template pages. (This is automatically inserted at the top with the content of `page.title`.)
 1. Check that certain data keys exist
 
-```
---> config.yml
-styles:
-  - /assets/css/main.css
+   ```
+   --> config.yml
+   styles:
+     - /assets/css/main.css
 
---> header.yml
-type: [basic | basic-mega | extended | extended-mega]
+   --> header.yml
+   type: [basic | basic-mega | extended | extended-mega]
 
---> footer.yml
-type: [slim | default | big]
+   --> footer.yml
+   type: [slim | default | big]
 
---> navigation.yml
-sidenav-breakpoint: {{ breakpoint_token }}
+   --> navigation.yml
+   sidenav-breakpoint: {{ breakpoint_token }}
 
---> theme.yml (examples)
-colors:
-  usa-banner:
-    usa-banner-bg: 'base-lightest'
-    usa-banner-text: 'ink'
-    usa-banner-link: 'primary-dark'
-    usa-banner-link-hover: 'primary-darker'
-  header:
-    header-bg: 'white'
-    header-title: 'ink'
-    header-link: 'base'
-    header-link-hover: 'primary-dark'
-  alt-section:
-    bg-color: 'primary-darker'
-    header-color: 'accent-cool'
-    text-color: 'white'
-    link-color: 'base-lightest'
-    link-hover-color: 'white'
-  hero:
-    hero-bg: 'primary-darker'
-    hero-header: 'accent-cool'
-    hero-header-alt: 'white'
-    hero-text: 'white'
-    hero-link: 'accent-cool'
-    hero-button-bg: 'primary'
-    hero-button-text: 'white'
-  top-navigation:
-    top-nav-bg: 'white'
-    top-nav-link: 'base-dark'
-    top-nav-link-hover: 'primary'
-    top-nav-link-hover-bg: 'white'
-    top-nav-link-current: 'base-dark'
-    top-nav-dropdown-bg: 'primary-dark'
-    top-nav-dropdown-link: 'white'
-    top-nav-dropdown-link-hover-bg: 'transparent'
-  side-navigation:
-    side-nav-bg: 'transparent'
-    side-nav-link: 'ink'
-    side-nav-link-hover: 'primary-dark'
-    side-nav-link-hover-bg: 'base-lightest'
-    side-nav-link-current: 'primary-dark'
-  footer:
-    primary-footer-bg: 'base-lightest'
-    primary-footer-link: 'ink'
-    footer-bg: 'base-lighter'
-    footer-text: 'ink'
-    footer-link: 'ink'
-    footer-social-link: 'black-transparent-10'
+   --> theme.yml (examples)
+   colors:
+     usa-banner:
+       usa-banner-bg: 'base-lightest'
+       usa-banner-text: 'ink'
+       usa-banner-link: 'primary-dark'
+       usa-banner-link-hover: 'primary-darker'
+     header:
+       header-bg: 'white'
+       header-title: 'ink'
+       header-link: 'base'
+       header-link-hover: 'primary-dark'
+     alt-section:
+       bg-color: 'primary-darker'
+       header-color: 'accent-cool'
+       text-color: 'white'
+       link-color: 'base-lightest'
+       link-hover-color: 'white'
+     hero:
+       hero-bg: 'primary-darker'
+       hero-header: 'accent-cool'
+       hero-header-alt: 'white'
+       hero-text: 'white'
+       hero-link: 'accent-cool'
+       hero-button-bg: 'primary'
+       hero-button-text: 'white'
+     top-navigation:
+       top-nav-bg: 'white'
+       top-nav-link: 'base-dark'
+       top-nav-link-hover: 'primary'
+       top-nav-link-hover-bg: 'white'
+       top-nav-link-current: 'base-dark'
+       top-nav-dropdown-bg: 'primary-dark'
+       top-nav-dropdown-link: 'white'
+       top-nav-dropdown-link-hover-bg: 'transparent'
+     side-navigation:
+       side-nav-bg: 'transparent'
+       side-nav-link: 'ink'
+       side-nav-link-hover: 'primary-dark'
+       side-nav-link-hover-bg: 'base-lightest'
+       side-nav-link-current: 'primary-dark'
+     footer:
+       primary-footer-bg: 'base-lightest'
+       primary-footer-link: 'ink'
+       footer-bg: 'base-lighter'
+       footer-text: 'ink'
+       footer-link: 'ink'
+       footer-social-link: 'black-transparent-10'
 
-```
+   ```
 
 1. Check that css is referencing `main.css`
 
