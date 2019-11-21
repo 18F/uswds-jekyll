@@ -672,15 +672,15 @@ To develop this theme and/or test it locally:
 
 1. Check the version of USWDS in `package.json` — update to the newest version if necessary, and sync its new files to the theme.
 
-> `rake update`
+   > `rake update`
 
 1. Start Jekyll to preview the effects of your changes. This will build the Jekyll site, watch the Sass files, and recompile the Sass when there are changes.
 
-> `npm start`
+   > `npm start`
 
-**or**
+   **or**
 
-1. Create a new Jekyll project, follow the
+   Create a new Jekyll project, follow the
    [installation](#installation) instructions, then change your
    `Gemfile` to point at the local clone of this repo:
 
