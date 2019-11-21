@@ -49,6 +49,12 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    gem 'uswds-jekyll'
    ```
 
+   Or if you want to use the 5.0.0 preview:
+
+   ```ruby
+   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git', :branch => 'update-uswds-2.0'
+   ```
+
 1. Fetch and update your bundled gems by running:
 
    ```sh
