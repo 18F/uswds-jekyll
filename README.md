@@ -38,6 +38,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Post](#layout-post)
    - [Project](#layout-project)
    - [Team member](#layout-team-member)
+1. [Migrating from earlier versions](#migrating-from-earlier-versions)
 1. [Development](#development)
 
 ## Installation
