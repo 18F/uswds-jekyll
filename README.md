@@ -79,7 +79,7 @@ You will need to restart your Jekyll server to see the effects.
 1. Replace the default `gem "minima", "~> 2.0"` gem with the `uswds-jekyll` gem in your `Gemfile`:
 
    ```ruby
-   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git'
+   gem 'uswds-jekyll'
    ```
 
    Or if you want to use the 5.0.0 preview:
