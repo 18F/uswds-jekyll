@@ -607,7 +607,7 @@ To show a listing of team members on a page add `{% include team-list.html %} to
    ```
    --> config.yml
    styles:
-     - /assets/css/main.css
+     [nothing unless adding additional stylesheets]
 
    --> header.yml
    type: [basic | basic-mega | extended | extended-mega]
