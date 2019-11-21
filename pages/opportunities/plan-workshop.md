@@ -1,12 +1,10 @@
 ---
-title: Plan your own SCINet-funded workshop or training
+title: Apply to Hold a SCINet-Funded Workshop or Training
 description: Apply to SCINet to develop a training meeting
-permalink: /opportunities/plan-workshop/
+permalink: /opportunities/plan-workshop
 author:
 layout: page
 ---
-
-## Apply to Hold a SCINet-Funded Workshop or Training
 
 link to application (coming soon)
 
