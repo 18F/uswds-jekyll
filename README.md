@@ -569,7 +569,96 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 [jekyll sass]: https://jekyllrb.com/docs/assets/#sassscss
 [front matter]: https://jekyllrb.com/docs/frontmatter/
 
-### Development
+## Migrating from earlier versions
+
+**Note:** `uswds-jekyll 5.0.0` is only compatible with Jekyll 4.0 and higher.
+
+1. Update your `uswds-jekyll` gem in your project's Gemfile. Replace the current `gem 'uswds-jekyll'` line with:
+
+```ruby
+gem 'uswds-jekyll', '5.0.0'
+```
+
+Then, in the terminal, run
+
+```
+bundle update uswds-jekyll
+```
+
+1. Add any custom styles to `\_sass/custom/`
+1. `_sass` folder needs to be at the root level, not in assets.
+1. Convert manual values to tokenzied values using the guidance on the [USWDS migration page](https://designsystem.digital.gov/documentation/migration/#spacing-units).
+1. Don't duplicate the `h1` in the body content of `page` template pages. (This is automatically inserted at the top with the content of `page.title`.)
+1. Check that certain data keys exist
+
+```
+--> config.yml
+styles:
+  - /assets/css/main.css
+
+--> header.yml
+type: [basic | basic-mega | extended | extended-mega]
+
+--> footer.yml
+type: [slim | default | big]
+
+--> navigation.yml
+sidenav-breakpoint: {{ breakpoint_token }}
+
+--> theme.yml (examples)
+colors:
+  usa-banner:
+    usa-banner-bg: 'base-lightest'
+    usa-banner-text: 'ink'
+    usa-banner-link: 'primary-dark'
+    usa-banner-link-hover: 'primary-darker'
+  header:
+    header-bg: 'white'
+    header-title: 'ink'
+    header-link: 'base'
+    header-link-hover: 'primary-dark'
+  alt-section:
+    bg-color: 'primary-darker'
+    header-color: 'accent-cool'
+    text-color: 'white'
+    link-color: 'base-lightest'
+    link-hover-color: 'white'
+  hero:
+    hero-bg: 'primary-darker'
+    hero-header: 'accent-cool'
+    hero-header-alt: 'white'
+    hero-text: 'white'
+    hero-link: 'accent-cool'
+    hero-button-bg: 'primary'
+    hero-button-text: 'white'
+  top-navigation:
+    top-nav-bg: 'white'
+    top-nav-link: 'base-dark'
+    top-nav-link-hover: 'primary'
+    top-nav-link-hover-bg: 'white'
+    top-nav-link-current: 'base-dark'
+    top-nav-dropdown-bg: 'primary-dark'
+    top-nav-dropdown-link: 'white'
+    top-nav-dropdown-link-hover-bg: 'transparent'
+  side-navigation:
+    side-nav-bg: 'transparent'
+    side-nav-link: 'ink'
+    side-nav-link-hover: 'primary-dark'
+    side-nav-link-hover-bg: 'base-lightest'
+    side-nav-link-current: 'primary-dark'
+  footer:
+    primary-footer-bg: 'base-lightest'
+    primary-footer-link: 'ink'
+    footer-bg: 'base-lighter'
+    footer-text: 'ink'
+    footer-link: 'ink'
+    footer-social-link: 'black-transparent-10'
+
+```
+
+1. Check that css is referencing `main.css`
+
+## Development
 
 To develop this theme and/or test it locally:
 
@@ -593,7 +682,7 @@ To develop this theme and/or test it locally:
    gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
    ```
 
-#### Publish to Rubygems
+### Publish to Rubygems
 
 1. Update `spec.version = "NUMBER HERE"` in the uswds-jekyll.gemspec file to the version you want to publish
 1. Run `bundle install`
@@ -602,7 +691,7 @@ To develop this theme and/or test it locally:
 1. Add a GitHub release to the releases page with the same version number
 1. You should see the latest version here https://rubygems.org/gems/uswds-jekyll
 
-##### Scripts
+#### Scripts
 
 - `start`: Starts the jekyll site
 - `setup-uswds`: Copies assets from the USWDS package to their theme locations, but running the following scipts, which can also be run separately:
