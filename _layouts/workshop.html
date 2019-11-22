@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 main:
   class: usa-grid usa-section usa-content usa-layout-docs
 ---
@@ -12,24 +12,27 @@ main:
 
 <div class="usa-layout-docs-main_content">
   {% if page.title %}
-    <h3>{{ page.title }}</h3>
+    <h1>{{ page.title }}</h1>
   {% endif %}
   
   {% if page.date %}
-    <h5>Date: {{ page.date }}</h5>
+    <h3>Date: {{ page.date }}</h3>
   {% endif %}
   
   {% if page.location %}
-    <h5>Location: {{ page.title }}</h5>
+    <h3>Location: {{ page.title }}</h3>
   {% endif %}
 
   {% if page.lead %}
-    <h5>Lead: {{ page.lead }}</h5>
+    <h3>Lead: {{ page.lead }}</h3>
   {% endif %}
-  
-  {{ content }}
-  
+</div>  
+
+{{ content }}
+
+<div class="usa-layout-docs-main_content">
   {% if page.picture %}
     <img src="{{ page.picture }}">
   {% endif %} 
-</div>
+</div>  
+
