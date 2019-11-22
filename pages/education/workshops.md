@@ -10,7 +10,7 @@ layout: page
   {% for workshop in site.workshops %}
     <li>
       <h5>
-        <a href="{{ workshop.url }}">{{ workshop.title }}</a>
+        <a href="{{ site.baseurl }}{{ workshop.url }}">{{ workshop.title }}</a>
       </h5>
     </li>
   {% endfor %}
