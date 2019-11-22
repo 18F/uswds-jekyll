@@ -7,6 +7,8 @@ github:
   organization: USDA-ARS SCINet
   repository: scinet-site
   default_branch: master
+  
+baseurl: /scinet-site
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
