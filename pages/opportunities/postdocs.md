@@ -6,6 +6,8 @@ author: Kerrie Geil
 layout: page
 ---
 
+### **Postdoc Opportunities**
+<br>
 There are currently five open 2-year SCINet-funded postdoc positions based at various locations across the US. These postdocs will 
 be administered through the Department of Energy's Oak Ridge Institute for Science and Education (ORISE) and will focus on 
 cross-disciplinary, cross-location, computational research projects.<br><br>
