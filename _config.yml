@@ -40,7 +40,6 @@ collections:
     output: true
   workshops:
     output: true
-    permalink: /m/:path/
 
 # Compress Sass
 sass:
