@@ -1,7 +1,7 @@
 ---
-title: Workshops
-description: SCINet organizes training meetings in scientific computing
-permalink: /education/workshops/
+title: Request SCINet Project Storage
+description: link to request project allocation
+permalink: /support/request-storage
 author:
 layout: page
 ---
@@ -20,10 +20,4 @@ layout: page
 
 ## Page specific instructions
 
-Write about the trainings that have been done. these include:
-
-* https://usda-ars-gbru.github.io/Microbiome-workshop/
-
-Others?
-
-Link to instruction for developing a workshop?
+Brief description of user /home and /proj allocations and link to project allocation application
