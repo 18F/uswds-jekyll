@@ -11,20 +11,16 @@ main:
 {% endif %}
 
 <div class="usa-layout-docs-main_content">
-  {% if page.title %}
-    <h1>{{ page.title }}</h1>
-  {% endif %}
-  
-  {% if page.date %}
-    <h3>Date: {{ page.date }}</h3>
-  {% endif %}
-  
-  {% if page.location %}
-    <h3>Location: {{ page.title }}</h3>
-  {% endif %}
-
-  {% if page.lead %}
-    <h3>Lead: {{ page.lead }}</h3>
+  {% if page.dates %}
+    {% if page.location %}
+      {% if page.lead %}
+        <h3>{{ page.dates }} | {{ page.location }} | Lead: {{ page.lead }}</h3>
+      {% endif %}
+    {% else %}
+        <h3>{{ page.dates }} | {{ page.location }}</h3>
+    {% endif %}
+  {% else %}
+    <h3>{{ page.dates }}</h3>
   {% endif %}
 </div>  
 
