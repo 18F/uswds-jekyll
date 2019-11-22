@@ -8,7 +8,7 @@ github:
   repository: scinet-site
   default_branch: master
   
-baseurl: /scinet-site
+# baseurl: /scinet-site
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
@@ -40,6 +40,7 @@ collections:
     output: true
   workshops:
     output: true
+    permalink: /m/:path/
 
 # Compress Sass
 sass:
