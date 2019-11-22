@@ -3,36 +3,24 @@ layout: page
 main:
   class: usa-grid usa-section usa-content usa-layout-docs
 ---
-{% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
-{% if sidenav %}
-  <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
-    {% include sidenav.html links=sidenav %}
-  </aside>
-{% endif %}
-
-<div class="usa-layout-docs-main_content">
-  {% if page.title %}
-    <h1>{{ page.title }}</h1>
-  {% endif %}
-  
-  {% if page.date %}
-    <h3>Date: {{ page.date }}</h3>
-  {% endif %}
-  
-  {% if page.location %}
-    <h3>Location: {{ page.title }}</h3>
+<article class="workshop">
+  {% if page.dates %}
+    {% if page.location %}
+      {% if page.lead %}
+        <h3>{{ page.dates }} | {{ page.location }} | Lead: {{ page.lead }}</h3>
+      {% endif %}
+    {% else %}
+        <h3>{{ page.dates }} | {{ page.location }}</h3>
+    {% endif %}
+  {% else %}
+    <h3>{{ page.dates }}</h3>
   {% endif %}
 
-  {% if page.lead %}
-    <h3>Lead: {{ page.lead }}</h3>
-  {% endif %}
-</div>  
+  {{ content }}
 
-{{ content }}
-
-<div class="usa-layout-docs-main_content">
-  {% if page.picture %}
-    <img src="{{ page.picture }}">
-  {% endif %} 
-</div>  
-
+  <div>
+    {% if page.picture %}
+      <img src="{{ page.picture }}">
+    {% endif %} 
+  </div>  
+</article>
