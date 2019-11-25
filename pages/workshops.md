@@ -1,0 +1,4 @@
+---
+layout: workshop
+permalink: /workshops/
+---

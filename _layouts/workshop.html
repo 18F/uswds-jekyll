@@ -1,26 +1,13 @@
 ---
-layout: page
-main:
-  class: usa-grid usa-section usa-content usa-layout-docs
+layout: post
+title: Scinet Workshops
 ---
-<article class="workshop">
-  {% if page.dates %}
-    {% if page.location %}
-      {% if page.lead %}
-        <h3>{{ page.dates }} | {{ page.location }} | Lead: {{ page.lead }}</h3>
-      {% endif %}
-    {% else %}
-        <h3>{{ page.dates }} | {{ page.location }}</h3>
-    {% endif %}
-  {% else %}
-    <h3>{{ page.dates }}</h3>
-  {% endif %}
 
-  {{ content }}
-
-  <div>
-    {% if page.picture %}
-      <img src="{{ page.picture }}">
-    {% endif %} 
-  </div>  
-</article>
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+    {% for post in site.workshops %}
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+        {{ post.excerpt }}
+    {% endfor %}
+</div>

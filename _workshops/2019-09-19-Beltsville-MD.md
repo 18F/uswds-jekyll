@@ -1,9 +1,9 @@
 ---
-layout: workshop
+layout: post
 title: "AI and Machine Learning SCINet Conference: Current Uses and Potential to Solve Complex Problems in Agriculture"
-location: Beltsville, MD
-dates: "09/19/2019 - 09/20/2019"
-lead: Deb Peters
+# location: Beltsville, MD
+# dates: "09/19/2019 - 09/20/2019"
+# lead: Deb Peters
 author: Kerrie Geil
 picture:
 ---
