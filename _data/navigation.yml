@@ -36,6 +36,8 @@ primary:
         href: /guide/geneious
       - text: Transfering files
         href: /guide/globus
+      - text: Useful Links
+        href: /guide/useful-links
   - text: Education
     links:
       - text: Science Tutorials
