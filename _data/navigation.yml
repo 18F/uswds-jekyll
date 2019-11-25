@@ -14,6 +14,8 @@
 primary:
   - text: Sign up for an account
     href: /signup/
+  - text: News
+    href: /news/
   - text: User Guides
     links:
       - text: Quick Start
