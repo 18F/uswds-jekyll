@@ -1,9 +1,9 @@
 ---
-layout: workshop
+layout: post
 title: "Training to develop computational links from ground to satellite: LTAR phenology network case study"
-location: Las Cruces, NM
-dates: "08/27/2019 - 08/28/2019"
-lead: Dawn Browning
+# location: Las Cruces, NM
+# dates: "08/27/2019 - 08/28/2019"
+# lead: Dawn Browning
 author: Dawn Browning
 picture:
 ---
