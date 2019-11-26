@@ -4,11 +4,11 @@ description: SCINet is an initiative to provide access to high performance compu
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
-  organization: USDA-ARS SCINet
+  organization: USDA-ARS-GBRU
   repository: scinet-site
   default_branch: master
 
-# baseurl: /scinet-site
+# baseurl:
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
@@ -36,10 +36,10 @@ github:
 collections:
   projects:
     output: true
-  team:
-    output: true
+    permalink: /:collection/:path/
   workshops:
     output: true
+    permalink: /:collection/:path/
 
 # Compress Sass
 sass:
