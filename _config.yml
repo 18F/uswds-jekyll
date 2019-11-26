@@ -11,7 +11,7 @@ github:
 baseurl: "/scinet-site"
 
 # Configure a separator for post excerpts
-excerpt_separator: <!--end-excerpt-->
+excerpt_separator: "<!--end-excerpt-->"
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
