@@ -8,6 +8,6 @@ title: Scinet news
         <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
       </h3>
 <!---      {{ post.excerpt }} --->
-      {{ post.excerpt | strip_html | truncatewords:18 | "..." }}
+      {{ post.excerpt | strip_html | truncatewords:18 }}
     {% endfor %}
 </div>
