@@ -6,18 +6,16 @@ author:
 layout: page
 ---
 
-## Getting started material for authors.
-(please remove after writing the article)
+## Before sending VRSC a software request do the following: 
 
-* For examples of formatting in markdown see [this page](/theme/)
-* To add photos
-  1. place them in the `/assets/img/` directory
-  2. place them on the page using this tag:
+1) Make sure the software isn't already available as a module by checking the lists of module software on the [Software Overview page](https://usda-ars-gbru.github.io/scinet-site/guide/software)
 
-  ```markdown
-  ![](/assets/img/example_pic.jpg)
-  ```
+2) Consider whether you should install the software yourself in your home or project directory - see the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for more details. 
 
-## Page specific instructions
+   You may want to use Conda for package, dependency, and environment management- see this [guide about how to use conda on SCINet](https://public.3.basecamp.com/p/zPVBsTPGSnm36h3dtjeRceRp). 
 
-Copy some of the info about requesting software (check Software Overview first, options for self installation, links to installation guides) from the software request form, link to the VRSC software install request form
+   If you're not sure whether you should install software yourself or if you need help, email the [Virtual Research Support Core](https://usda-ars-gbru.github.io/scinet-site/support/vsrc/) at scinet_vrsc@ars.usda.gov. Software that will be useful to many SCINet users should be installed as a module by the VRSC.
+
+
+### How to send a software request
+If you've done the above but need new software installed as a module, use the [Software Request Form](https://e.arsnet.usda.gov/sites/OCIO/scinet/Lists/Software%20Approval/Main1.aspx) (eAuthentication required, non-ARS users should contact their sponsor). Doing this requires an agency-level security review and takes a few weeks.
