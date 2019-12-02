@@ -16,8 +16,10 @@ primary:
     href: /signup/
   - text: News
     links:
+      - text: Announcements
+        href: /news/announcements/
       - text: User Stories
-        href: /stories/
+        href: /news/stories/
       - text: Newsletter
         href: /news/newsletter
   - text: User Guides
