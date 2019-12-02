@@ -1,7 +1,7 @@
 ---
 title: Newsletter Archive
 description: External Links to the GovDelivery html newsletters
-permalink: /news/newletter/
+permalink: /news/newletter
 author: Kerrie Geil
 layout: page
 ---
