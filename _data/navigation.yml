@@ -15,7 +15,13 @@ primary:
   - text: Sign up for an account
     href: /signup/
   - text: News
-    href: /news/
+    links:
+      -text: Announcements
+       href: /announcements/
+      -text: User Stories
+       href: /stories/
+      -text: Newsletter
+       href: /news/newsletter
   - text: User Guides
     links:
       - text: Quick Start
