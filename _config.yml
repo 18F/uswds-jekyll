@@ -43,12 +43,12 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:path/
-  announcements:
-    output: true
-    permalink: /:collection/:path/
-  stories:
-    output: true
-    permalink: /:collection/:path/
+#  announcements:
+#    output: true
+#    permalink: /:collection/:path/
+#  stories:
+#    output: true
+#    permalink: /:collection/:path/
 
 # Compress Sass
 sass:
