@@ -17,7 +17,7 @@ primary:
   - text: News
     links:
       -text: User Stories
-       href: /stories/
+       href: /news/stories/
       -text: Newsletter
        href: /news/newsletter
   - text: User Guides
