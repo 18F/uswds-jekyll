@@ -26,13 +26,10 @@ title: Scinet news
 </div>
 -->
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
-  {% for category in site.categories[announcements] %}
-    <h1>{{ category[0] }}</h1>
-    {% for post in category[1] %}
-      <h3>
-        <a href="{{ post.url | relative_url}}">{{ post.date | date_to_string }}  |  {{ post.title }}</a>
-      </h3>
-      {{ post.excerpt | truncatewords:25 }}
-    {% endfor %}
+  {% for post in site.categories.announcements %}
+    <h3>
+      <a href="{{ post.url | relative_url}}">{{ post.date | date_to_string }}  |  {{ post.title }}</a>
+    </h3>
+    {{ post.excerpt | truncatewords:25 }}
   {% endfor %}
 </div>
