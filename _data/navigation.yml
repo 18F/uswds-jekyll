@@ -16,8 +16,6 @@ primary:
     href: /signup/
   - text: News
     links:
-      -text: Announcements
-       href: /announcements/
       -text: User Stories
        href: /stories/
       -text: Newsletter
