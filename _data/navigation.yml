@@ -19,7 +19,7 @@ primary:
       -text: Announcements
        href: /news/announcements/
       -text: User Stories
-       href: /news/user-stories/
+       href: /news/stories/
       -text: Newsletter
        href: /news/newsletter
   - text: User Guides
