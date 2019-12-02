@@ -3,12 +3,13 @@ layout: page
 title: Scinet news
 ---
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
-    {% for category in site.categories[user stories] %}
-        {% for post in site.category[1] %} 
+<!--    {% for category in site.categories[user-stories] %}
+        {% for post in site.category[1] %} -->
+        {% for post in site.post %}
             <h3>
-                <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
+                <a href="{{ post.url | relative_url}}">{{ post.date | date_to_string }}{{ post.title }}</a>
             </h3>
             {{ post.excerpt | truncatewords:25 }}
         {% endfor %}
-    {% endfor %}
+<!--    {% endfor %} -->
 </div>
