@@ -6,8 +6,6 @@ author: Kerrie Geil
 layout: page
 ---
 
-## Getting started material for authors.
-
 When a user applies for a SCINet account, they are allocated space on Ceres in a /home directory. Each user is allowed 10GB of data and 10,240 files in the home directory (soft quota). For a grace period of 30 days, users can exceed their soft quota limits up to the hard limit of 100GB and 1,024,000 files. After 30 days, any additional file creation is locked until the amount of data and file count has been reduced below the soft limit again.
 
 Users can request additional space in the /project and /KEEP directories. Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.
