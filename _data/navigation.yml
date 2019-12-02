@@ -15,10 +15,10 @@ primary:
   - text: Sign up for an account
     href: /signup/
   - text: News
-    href: /news/
-#    links:
-#      - text: Announcements
-#        href: /news/announcements/
+#    href: /news/
+    links:
+      - text: Announcements
+        href: /announcements/
 #      - text: User Stories
 #        href: /news/stories/
 #      - text: Newsletter
