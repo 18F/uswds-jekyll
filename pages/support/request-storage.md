@@ -11,9 +11,9 @@ When a user applies for a SCINet account, they are allocated space on Ceres in a
 Users can request additional space in the /project and /KEEP directories. Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.
 
 ## To Modify an Existing SCINet Project Allocation ##
-Send an email that includes the name of the project directory (/project/<projectname>) and the requested changes to the SCINet Virtual Research Support Core (VRSC) at scinet_vrsc@ars.usda.gov.
+Send an email that includes the name of the project directory (/project/\<projectname\>/) and the requested changes to the SCINet Virtual Research Support Core (VRSC) at scinet_vrsc@ars.usda.gov.
 
 ## To Request a New Project Allocation
 When requesting additional data storage you will be asked for a project summary, a project end date, and to detail your long-term plan for data in your project/keep directories after your project end date.
 
-Please fill out an application form at [Request Project Storage](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) (eAuthentication required, non-ARS users should contact their sponsor) to request more storage.
+Fill out an application form at [Request Project Storage](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) (eAuthentication required, non-ARS users should contact their sponsor) to request more storage.
