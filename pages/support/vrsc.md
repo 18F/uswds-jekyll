@@ -2,7 +2,7 @@
 title: The SCINet Virtual Research Support Core
 description: Responsive support of SCINet is provided by a VSRC
 permalink: /support/vsrc/
-author:
+author: Kerrie Geil
 layout: page
 ---
 
