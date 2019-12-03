@@ -6,7 +6,7 @@ author:
 layout: page
 ---
 
-[Request for FY20 SCINet Workshop/Training Application](https://www.surveymonkey.com/r/SCINet)
+### [Request for FY20 SCINet Workshop/Training Application](https://www.surveymonkey.com/r/SCINet)
 
 The SCINet initiative is currently accepting proposals for FY 2020 trainings and workshops. These events can span a broad range of activities from establishing/promoting SCINet-related computational working groups to conducting local or national computational trainings. Successful proposals must state how state how the workshop/training will promote the goals of SCINet, including: 
 - improving high performance computing or big data analytical capabilities of ARS scientists
