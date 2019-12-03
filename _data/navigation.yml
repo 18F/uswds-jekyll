@@ -18,11 +18,11 @@ primary:
 #    href: /news/
     links:
       - text: Announcements
-        href: /announcements
-#      - text: User Stories
-#        href: /stories/
+        href: /announcements/
+      - text: User Stories
+        href: /stories/
       - text: Newsletter
-        href: /newsletter
+        href: /newsletter/
   - text: User Guides
     links:
       - text: Quick Start
