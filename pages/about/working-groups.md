@@ -6,24 +6,49 @@ author:
 layout: page
 ---
 
-## Getting started material for authors.
-(please remove after writing the article)
+The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. The current working groups are:
 
-* For examples of formatting in markdown see [this page](/theme/)
-* To add photos
-  1. place them in the `/assets/img/` directory
-  2. place them on the page using this tag:
+## Ag100Pest Genome Working Group
 
-  ```markdown
-  ![](/assets/img/example_pic.jpg)
-  ```
+information coming soon, contact Brian Scheffler
 
+<br>
+
+## Arthropods Working Group
+
+information coming soon
+
+<br>
+
+## Geospatial Research Working Group
+
+information coming soon, contact Kerrie Geil
+
+<br>
+
+## Microbiome Working Group
+
+information coming soon, contact Adam Rivers
+
+<br>
+
+## SCINet Website Developers
+
+information coming soon, contact Adam Rivers
+
+<br>
+
+## Workbook Developers
+
+information coming soon, contact Andrew Severin
+
+<!--
 ## Page specific instructions
-
-Write about the mission of the current working groups and who to contact to get involved, if applicable.
+Write about the mission/status of the current working groups and who to contact to get involved, if applicable.
 Arthropods
 Microbiome
 Workbooks? (bioinformatics, geospatial)
 AG100Pest Genome
 Geospatial
 SCINet Website?
+-->
