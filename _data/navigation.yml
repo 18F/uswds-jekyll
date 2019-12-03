@@ -83,6 +83,8 @@ primary:
         href: /support/request-storage
       - text: Request Software
         href: /support/request-software
+      - text: Request AWS
+        href: /support/request-AWS
   - text: About
     links:
       - text: Overview
