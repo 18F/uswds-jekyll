@@ -2,7 +2,7 @@
 title: SCINet High Performance Computer Systems
 description: SCINet High Performance Computer Systems
 permalink: /about/compute
-author:
+author: Kerrie Geil
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
