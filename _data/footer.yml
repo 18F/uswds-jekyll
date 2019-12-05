@@ -61,5 +61,5 @@ contact:
   heading: Contact us
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: placeholder@ars.usda.gov
-      href: mailto:placeholder@ars.usda.gov
+    - text: scinet@usda.gov
+      href: mailto:scinet@usda.gov
