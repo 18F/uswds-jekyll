@@ -68,6 +68,7 @@ Single user operational questions should be emailed to the VRSC scinet_vrsc@ars.
 
 For new software installation requests, see [Request Software Installation on SCINet](https://usda-ars-gbru.github.io/scinet-site/support/request-software).
 
+For new SCINet AWS project requests, see [Request SCINet AWS](https://usda-ars-gbru.github.io/scinet-site/support/request-AWS).
 
 <!--
 ## Page specific instructions

@@ -2,7 +2,7 @@
 title: SCINet High Performance Computer Systems
 description: SCINet High Performance Computer Systems
 permalink: /about/compute
-author:
+author: Kerrie Geil
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
@@ -22,7 +22,7 @@ Additional technical information about the Ceres HPC cluster can be found in the
 
 New users may also want to reference the [Ceres Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart).
 
-Many additional user guides are available under the "User Guide" dropdown list.
+Many additional user guides are available under the "User Guides" dropdown list.
 
 Other helpful links:<br>
 [Apply for a SCINet Account](https://usda-ars-gbru.github.io/scinet-site/signup/) to access Ceres<br>
