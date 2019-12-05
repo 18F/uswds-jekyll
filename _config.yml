@@ -56,3 +56,6 @@ sass:
 
 # Add code blocks to text
 highlighter: rouge
+
+plugins:
+  - jekyll-last-modified-at
