@@ -22,7 +22,7 @@ Additional technical information about the Ceres HPC cluster can be found in the
 
 New users may also want to reference the [Ceres Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart).
 
-Many additional user guides are available under the "User Guide" dropdown list.
+Many additional user guides are available under the "User Guides" dropdown list.
 
 Other helpful links:<br>
 [Apply for a SCINet Account](https://usda-ars-gbru.github.io/scinet-site/signup/) to access Ceres<br>
