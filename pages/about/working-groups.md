@@ -14,9 +14,9 @@ information coming soon, contact Brian Scheffler
 
 <br>
 
-## Arthropods Working Group
+## Arthropod Genomics Research Working Group
 
-information coming soon
+information coming soon, contact Brad Coates
 
 <br>
 
