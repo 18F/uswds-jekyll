@@ -104,7 +104,7 @@ primary:
   - text: Opportunities
     links:
       - text: Plan a Workshop
-        href: /opportunities/plan-workshop
+        href: /opportunities/request-workshop
       - text: Postdocs
         href: /opportunities/postdocs
 # secondary:
