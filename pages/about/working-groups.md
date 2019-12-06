@@ -45,10 +45,10 @@ information coming soon, contact Andrew Severin
 <!--
 ## Page specific instructions
 Write about the mission/status of the current working groups and who to contact to get involved, if applicable.
-Arthropods
-Microbiome
-Workbooks? (bioinformatics, geospatial)
-AG100Pest Genome
-Geospatial
-SCINet Website?
+Include:
+decription of the work/research
+any pertinent links to publications, data, websites,
+any photos or scientific graphics
+whether the group is open to new members
+who to contact
 -->
