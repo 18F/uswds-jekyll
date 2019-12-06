@@ -2,7 +2,7 @@
 title: SCINet Working Groups
 description: summary of current working groups
 permalink: /about/working-groups
-author:
+author: Kerrie Geil
 layout: page
 ---
 
@@ -14,9 +14,9 @@ information coming soon, contact Brian Scheffler
 
 <br>
 
-## Arthropods Working Group
+## Arthropod Genomics Research Working Group
 
-information coming soon
+information coming soon, contact Brad Coates
 
 <br>
 
@@ -44,11 +44,12 @@ information coming soon, contact Andrew Severin
 
 <!--
 ## Page specific instructions
+Kerrie working on contacting group leaders for the following info. Goal to complete this page by some time in Jan 2020
 Write about the mission/status of the current working groups and who to contact to get involved, if applicable.
-Arthropods
-Microbiome
-Workbooks? (bioinformatics, geospatial)
-AG100Pest Genome
-Geospatial
-SCINet Website?
+Include:
+decription of the work/research
+any pertinent links to publications, data, websites,
+any photos or scientific graphics
+whether the group is open to new members
+who to contact
 -->
