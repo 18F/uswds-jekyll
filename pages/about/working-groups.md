@@ -2,7 +2,7 @@
 title: SCINet Working Groups
 description: summary of current working groups
 permalink: /about/working-groups
-author:
+author: Kerrie Geil
 layout: page
 ---
 
@@ -44,6 +44,7 @@ information coming soon, contact Andrew Severin
 
 <!--
 ## Page specific instructions
+Kerrie working on contacting group leaders for the following info. Goal to complete this page by some time in Jan 2020
 Write about the mission/status of the current working groups and who to contact to get involved, if applicable.
 Include:
 decription of the work/research
