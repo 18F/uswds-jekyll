@@ -76,9 +76,9 @@ primary:
         href: /support/vsrc/
       - text: FAQ's
         href: /support/faq/
-      - text: User Forum
-        href: https://try.discourse.org/
-        external: true
+#      - text: User Forum
+#        href: https://try.discourse.org/
+#        external: true
       - text: Request Project Storage
         href: /support/request-storage
       - text: Request Software
