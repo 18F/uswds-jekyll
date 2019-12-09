@@ -43,6 +43,13 @@ collections:
   workshops:
     output: true
     permalink: /:collection/:path/
+  team:
+    output: true
+    permalink: /:collection/:path/
+    order:
+      - deb-peters.md
+      - stan-kosecki.md
+      - adam-rivers.md
 #  announcements:
 #    output: true
 #    permalink: /:collection/:path/
