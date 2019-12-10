@@ -10,6 +10,7 @@ image: /assets/img/team-images/team-placeholder.png
 #  - Census
 # home: Government
 position: Chair eSAC, Computational Biologist
+page-position: 3
 email: test.person@usda.gov
 ---
 

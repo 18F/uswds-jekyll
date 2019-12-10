@@ -10,6 +10,7 @@ image: /assets/img/team-images/team-placeholder.png
 #  - Census
 # home: Government
 position: Acting SCINet Project Manager
+page-position: 2
 email: test.person@usda.gov
 ---
 
