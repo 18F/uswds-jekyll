@@ -1,5 +1,5 @@
 ---
 title: People
-layout: team_member
+layout: team-member
 permalink: /team/
 ---
