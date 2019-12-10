@@ -39,7 +39,6 @@ layout: page
   {% assign people = site.team | sort: 'page-position' %}
     {% for person in people %}
 <!--      <img src={{ site.url }}"/assets/img/team-images/deb-peters.jpg" alt="" style="width:500px;height:600px;"><h3>{{person.name}}</h3> -->
-      <h3>{{person.name}}</h3>
-      <h5>{{person.position}}</h5>
+      <h3>{{person.name}}</h3> &middot <h5>{{person.position}}</h5>
     {% endfor %}
 </div>
