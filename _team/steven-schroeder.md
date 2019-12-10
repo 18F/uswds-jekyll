@@ -10,7 +10,7 @@ image: /assets/img/team-images/team-placeholder.jpg
 #  - Census
 # home: Government
 position: NEA eSAC Member, Computational Biologist
-page-position: 5
+page-position: 6
 email: test.person@usda.gov
 ---
 
