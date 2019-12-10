@@ -2,7 +2,7 @@
 layout: page
 ---
 
-
+<!--
 <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
   <ul class="usa-sidenav-list">
     {% for item in site.team %}
@@ -32,4 +32,13 @@ layout: page
   {% endif %}
   </p>
   {{ content }}
+</div>
+-->
+
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+    {% for person in site.team %}
+      <h3>
+        {{person.name}}
+      </h3>
+    {% endfor %}
 </div>
