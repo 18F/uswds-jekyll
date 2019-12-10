@@ -5,7 +5,7 @@ title: Scinet news
 
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
 
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     {% if post.categories contains page.title %}
     <h3>
       <a href="{{ post.url | relative_url}}">{{ post.date | date_to_string }} &middot {{ post.title }}</a>
