@@ -10,7 +10,7 @@ image: /assets/img/team-images/team-placeholder.jpg
 #  - Census
 # home: Government
 position: NEA eSAC Member, Research Ecologist
-page-position: 4
+page-position: 5
 email: test.person@usda.gov
 ---
 
