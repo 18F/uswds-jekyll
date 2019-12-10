@@ -36,7 +36,8 @@ layout: page
 -->
 
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
-    {% for person in site.team %}
+  {% assign people = site.team | sort: 'page-position' %}
+    {% for person in people %}
       <h3>
         {{person.name}}
       </h3>
