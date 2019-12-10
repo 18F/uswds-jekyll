@@ -40,9 +40,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-#  workshops:
-#    output: true
-#    permalink: /:collection/:path/
+  workshops:
+    output: true
+    permalink: /:collection/:path/
   team:
     output: true
     permalink: /:collection/:path/
