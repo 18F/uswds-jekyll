@@ -47,9 +47,9 @@ collections:
     people: true
     permalink: /:collection/:path/
     order:
-      - /:collection/deb-peters.md
-      - /:collection/stan-kosecki.md
-      - /:collection/adam-rivers.md
+      - /_team/deb-peters.md
+      - /_team/stan-kosecki.md
+      - /_team/adam-rivers.md
 #  announcements:
 #    output: true
 #    permalink: /:collection/:path/
