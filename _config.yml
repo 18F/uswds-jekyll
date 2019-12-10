@@ -46,10 +46,10 @@ collections:
   team:
     people: true
     permalink: /:collection/:path/
-#    order:
-#      - deb-peters.md
-#      - stan-kosecki.md
-#      - adam-rivers.md
+    order:
+      - deb-peters.md
+      - stan-kosecki.md
+      - adam-rivers.md
 #  announcements:
 #    output: true
 #    permalink: /:collection/:path/
