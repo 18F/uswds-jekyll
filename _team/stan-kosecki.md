@@ -12,7 +12,6 @@ image: /assets/img/team-images/team-placeholder.png
 position: Acting SCINet Project Manager
 page-position: 2
 email: test.person@usda.gov
-picture: /assets/img/team-images/team-placeholder.png
 ---
 
 Test Person is an analyst with the Research experience.
