@@ -46,10 +46,7 @@ collections:
   team:
     people: true
     permalink: /:collection/:path/
-    order:
-      - /_team/deb-peters.md
-      - /_team/stan-kosecki.md
-      - /_team/adam-rivers.md
+    sort_by: page-position
 #  announcements:
 #    output: true
 #    permalink: /:collection/:path/
