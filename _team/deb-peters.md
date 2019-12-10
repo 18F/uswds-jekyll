@@ -10,6 +10,7 @@ image: /assets/img/team-images/team-placeholder.png
 #  - Census
 # home: Government
 position: ARS Acting Chief Science Information Officer, Research Ecologist
+page-position: 1
 email: test.person@usda.gov
 ---
 
