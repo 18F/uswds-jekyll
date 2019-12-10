@@ -9,8 +9,7 @@ image: /assets/img/team-images/team-placeholder.png
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-scinet-position: ARS Acting Chief Science Information Officer
-research-position: Research Ecologist  
+position: ARS Acting Chief Science Information Officer, Research Ecologist
 email: test.person@usda.gov
 ---
 
