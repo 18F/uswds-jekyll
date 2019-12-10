@@ -38,7 +38,7 @@ layout: page
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
   {% assign people = site.team | sort: 'page-position' %}
     {% for person in people %}
-<!--      <img src="{{ site.url }}/assets/img/team-images/{{person.name}}.jpg" alt="" style="width:500px;height:600px;"><h3>{{person.name}}</h3> -->
+      <img src="{{ site.baseurl }}/assets/img/team-images/{{person.name}}.jpg" alt="" style="width:500;height:600;">
       <h3>{{person.name}}</h3> 
       <h5>{{person.position}}</h5> 
       <br>
