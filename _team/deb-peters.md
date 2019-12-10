@@ -1,6 +1,6 @@
 ---
 name: Deb Peters
-image: /assets/img/team-images/team-placeholder.png
+image: /assets/img/team-images/deb-peters.jpg
 # year:
 #  - 2018
 #  - 2019
@@ -12,7 +12,6 @@ image: /assets/img/team-images/team-placeholder.png
 position: ARS Acting Chief Science Information Officer, Research Ecologist
 page-position: 1
 email: test.person@usda.gov
-picture: /assets/img/team-images/deb-peters.jpg
 ---
 
 Test Person is an analyst with the Research experience.

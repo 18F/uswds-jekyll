@@ -14,7 +14,6 @@ home: Government
 title: Associate Fellow
 page-position: 4
 email: john.smith@usda.gov
-picture: /assets/img/team-images/team-placeholder.png
 ---
 
 John Smith is an analyst with the Research experience.

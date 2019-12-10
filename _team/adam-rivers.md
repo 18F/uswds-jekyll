@@ -1,6 +1,6 @@
 ---
 name: Adam Rivers
-image: /assets/img/team-images/team-placeholder.png
+image: /assets/img/team-images/adam-rivers.jpg
 # year:
 #  - 2018
 #  - 2019
@@ -12,7 +12,6 @@ image: /assets/img/team-images/team-placeholder.png
 position: Chair eSAC, Computational Biologist
 page-position: 3
 email: test.person@usda.gov
-picture: /assets/img/team-images/adam-rivers.jpg
 ---
 
 Test Person is an analyst with the Research experience.
