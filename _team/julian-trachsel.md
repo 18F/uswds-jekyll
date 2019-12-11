@@ -1,5 +1,5 @@
 ---
-name: Steven Schroeder
+name: Julian Trachsel
 image: /assets/img/team-images/team-placeholder.jpg
 # year:
 #  - 2018
