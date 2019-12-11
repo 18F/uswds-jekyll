@@ -39,11 +39,9 @@ layout: page
   {% assign people = site.team | sort: 'page-position' %}
     {% for person in people %}
       <p>
-        <img src="{{ site.baseurl }}{{person.image}}" alt="" class="align-left">
-        <!-- height="600" width="500"> -->
-        <h3>{{person.name}}</h3> 
-        <h5>{{person.position}}</h5> 
+        <img src="{{ site.baseurl }}{{person.image}}" alt="" class="align-left">{{person.name}} &middot {{person.position}} 
         <br>
+        <!-- height="600" width="500"> -->
       </p>
     {% endfor %}
 </div>
