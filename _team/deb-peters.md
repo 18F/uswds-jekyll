@@ -9,7 +9,7 @@ image: /assets/img/team-images/deb-peters.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: ARS Acting Chief Science Information Officer, Research Ecologist
+position: Acting ARS Chief Science Information Officer, Research Ecologist
 page-position: 1
 email: test.person@usda.gov
 ---
