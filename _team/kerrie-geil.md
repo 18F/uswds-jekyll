@@ -1,6 +1,6 @@
 ---
 name: Kerrie Geil
-image: /assets/img/team-images/team-placeholder.jpg
+image: /assets/img/team-images/kerrie-geil.jpg
 # year:
 #  - 2018
 #  - 2019
