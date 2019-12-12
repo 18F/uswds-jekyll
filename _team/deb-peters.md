@@ -1,6 +1,6 @@
 ---
 name: Deb Peters
-image: /assets/img/team-images/deb-peters.jpg
+image: /assets/img/team-images/deb-peters-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
