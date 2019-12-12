@@ -1,7 +1,7 @@
 ---
 title: The SCINet Virtual Research Support Core
 description: Responsive support of SCINet is provided by a VSRC
-permalink: /support/vsrc/
+permalink: /support/vrsc/
 author: Kerrie Geil
 layout: page
 ---
