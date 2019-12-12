@@ -87,8 +87,8 @@ primary:
         href: /support/request-AWS
   - text: About
     links:
-      - text: Overview
-        href: /about/overview
+#      - text: Overview
+#        href: /about/overview
       - text: Computer Systems
         href: /about/compute
       - text: Networking
