@@ -1,6 +1,6 @@
 ---
 name: Rowan Gaffney
-image: /assets/img/team-images/team-placeholder.jpg
+image: /assets/img/team-images/team-placeholder-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
