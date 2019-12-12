@@ -14,6 +14,9 @@ layout: page
 #    href: '#section-two'
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -29,3 +32,4 @@ layout: page
 ## Page specific instructions
 
 Write about the tools available for genomics research and add use cases from people if possible.
+-->
