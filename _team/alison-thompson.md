@@ -1,6 +1,6 @@
 ---
 name: Alison Thompson
-image: /assets/img/team-images/alison-thompson.jpg
+image: /assets/img/team-images/alison-thompson-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
