@@ -14,7 +14,7 @@ layout: page
 #    href: '#section-two'
 ---
 
-### coming soon
+### coming soon...
 
 <!--
 ## Getting started material for authors.
