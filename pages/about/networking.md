@@ -7,6 +7,9 @@ layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -28,3 +31,4 @@ what has been done
 what is planned
 
 relationship to I2
+-->
