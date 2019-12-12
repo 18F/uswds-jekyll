@@ -60,7 +60,7 @@ graphics:
 <!--
 Look at our [use cases](/user/), Read what other ARS scientists are posting on our [community forum](https://try.discourse.org) or contact your [SCINet Advisory counsel representative](/about/people) or your [local technical and or science engagement coordinator](/about/people) to learn  more. You can get the process started by requesting an account right now.
 {: .usa-font-lead } -->
-Look at our [use cases](/user/) or contact your [SCINet Advisory counsel representative](/about/people) to learn more. You can get the process started by requesting an account right now.
+Look at our use cases ([RL](/user/rl/), [NPL](/user/npl/), [genomics](/user/genomics/), [plant breeding](/user/plant-breeding/), [animal breeding](/user/animal-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Advisory counsel representative](/about/people) to learn more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
 [Get an account](signup){: .usa-button .usa-button-big }
