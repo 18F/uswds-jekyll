@@ -1,6 +1,6 @@
 ---
 name: Erin Scully
-image: /assets/img/team-images/erin-scully.jpg
+image: /assets/img/team-images/erin-scully-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
