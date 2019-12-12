@@ -38,12 +38,12 @@ graphics:
       src: /assets/img/heart-o.png
       alt: ''
     title: Not just for Biologists.
-    description: We are expanding our mission and want to create solutions for people doing research in modeling, chemistry and geospatial analysis. If you need something to meet your needs [let us know](/about/people).
+    description: We are expanding our mission and want to create solutions for people doing research in modeling, chemistry and geospatial analysis. If you need something to meet your needs [let us know](/scinet-site/support/vrsc).
   - image:
       src: /assets/img/file-code-o.png
       alt: ''
     title: Command line tools are here too.
-    description: Use preinstalled software modules, or install our own with Conda or compile them yourself. Containers are supported too. analysis. If you need something to meet your needs [let us know](/about/people).
+    description: Use preinstalled software modules, or install our own with Conda or compile them yourself. Containers are supported too. analysis. If you need something to meet your needs [let us know](/scinet-site/support/request-software).
   - image:
       src: /assets/img/hdd-o.png
       alt: ''
