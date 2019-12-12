@@ -1,6 +1,6 @@
 ---
 name: Adam Rivers
-image: /assets/img/team-images/adam-rivers.jpg
+image: /assets/img/team-images/adam-rivers-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
