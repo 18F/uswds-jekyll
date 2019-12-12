@@ -57,8 +57,10 @@ graphics:
 ---
 
 ## Find out how SCINet can enable your Research
-
-Look at our [use cases](/uses/), Read what other ARS scientists are posting on our [community forum](https://try.discourse.org) or contact your [SCINet Advisory counsel representative](/about/people) or your [local technical and or science engagement coordinator](/about/people) to learn  more. You can get the process started by requesting an account right now.
+<!--
+Look at our [use cases](/user/), Read what other ARS scientists are posting on our [community forum](https://try.discourse.org) or contact your [SCINet Advisory counsel representative](/about/people) or your [local technical and or science engagement coordinator](/about/people) to learn  more. You can get the process started by requesting an account right now.
+{: .usa-font-lead } -->
+Look at our [use cases](/user/) or contact your [SCINet Advisory counsel representative](/about/people) to learn more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
 [Get an account](signup){: .usa-button .usa-button-big }
