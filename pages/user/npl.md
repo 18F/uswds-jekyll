@@ -14,6 +14,9 @@ layout: page
 #    href: '#section-two'
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -30,3 +33,4 @@ layout: page
 
 Make the use case for  NPL's to encourage their units to participate in SCINet
 and point them to the domain specific resources available.
+-->
