@@ -6,6 +6,9 @@ author:
 layout: page
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -27,3 +30,4 @@ Write about the trainings that have been done. these include:
 Others?
 
 Link to instruction for developing a workshop?
+-->
