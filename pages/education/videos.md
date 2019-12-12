@@ -6,6 +6,9 @@ author:
 layout: page
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -21,3 +24,4 @@ layout: page
 ## Page specific instructions
 
 Links to  training videos related to SCINet. Jill Lake has said that video can be uploaded to the arsnet ftp server https://ftp.arsnet.usda.gov/home.html. After uploading  notify her to receive links.
+-->

@@ -7,6 +7,9 @@ layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
 
+### coming soon...
+
+<!--
 ## Getting started material for authors.
 (please remove after writing the article)
 
@@ -30,3 +33,4 @@ network connections
 links to operating docs
 
 * Info on next generation HPS's coming online
+-->
