@@ -1,6 +1,6 @@
 ---
 name: Stan Kosecki
-image: /assets/img/team-images/team-placeholder.png
+image: /assets/img/team-images/team-placeholder-300-300.png
 # year:
 #  - 2018
 #  - 2019
