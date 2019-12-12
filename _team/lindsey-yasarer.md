@@ -1,6 +1,6 @@
 ---
 name: Lindsey Yasarer
-image: /assets/img/team-images/lindsey-yasarer.jpg
+image: /assets/img/team-images/lindsey-yasarer-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
