@@ -1,6 +1,6 @@
 ---
 name: Carson Andorf
-image: /assets/img/team-images/carson-andorf-300-300.jpg
+image: /assets/img/team-images/carson-andorf-300-300.png
 # year:
 #  - 2018
 #  - 2019
