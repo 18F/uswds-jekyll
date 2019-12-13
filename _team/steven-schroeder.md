@@ -1,6 +1,6 @@
 ---
 name: Steven Schroeder
-image: /assets/img/team-images/team-placeholder-300-300.jpg
+image: /assets/img/team-images/steven-schroeder-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
