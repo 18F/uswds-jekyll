@@ -48,7 +48,11 @@ SCINet website development, led by Adam Rivers, started in 2019 to create this c
 
 ## Workbook Developers
 
+### [Bioinformatics Workbook](https://bioinformaticsworkbook.org/)
 information coming soon, contact Andrew Severin
+
+### Geospatial Research Workbook
+information coming soon
 
 <!--
 ## Page specific instructions
