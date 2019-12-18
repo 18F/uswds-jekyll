@@ -8,15 +8,15 @@ layout: page
 
 The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. The current working groups are:
 
-## Ag100Pest Genome Working Group
+## Ag100Pest Genome Working Group (subgroup of AGR)
 
 information coming soon, contact Brian Scheffler
 
 <br>
 
-## Arthropod Genomics Research Working Group
+## Arthropod Genomics Research (AGR) Working Group
 
-The Arthropod Genomics Research (AGR) working group focuses on outreach within USDA-ARS aimed at enhancing the genomic analyse knowledge and skill sets of members and collaborators. This is delivered through monthly teleconferences and webinars by internal and external scientists focused on genome assembly, gene and protein expression, population genomics, and reverse genetic (RNAi and CRISPR) approaches. The AGR was initiated following two organizational meetings in 2014 (AGR Workshop I) and 2016 ([AGR Workshop II](https://usda-ars-gbru.github.io/scinet-site/workshops/2016-07-26-Arthropod-Genomics-Workshop-2/)), at which participants communicated needs and devised solutions for challenging analytical pipelines. The AGR facilitates internal and external collaborations by merging those with complementary knowledge, skills, and capabilities within a given research area. Collaborations among AGR members have also resulted in two published papers reviewing ARS arthropod genomics research<sup>1</sup> and developing RNAi and CRISPR technologies<sup>2</sup>.  Work within the AGR includes the Ag100Pest Initiative, which aims to provide reference quality genome sequence assemblies for arthropod pests of U.S. agricultural commodities.
+The AGR working group focuses on outreach within USDA-ARS aimed at enhancing the genomic analyse knowledge and skill sets of members and collaborators. This is delivered through monthly teleconferences and webinars by internal and external scientists focused on genome assembly, gene and protein expression, population genomics, and reverse genetic (RNAi and CRISPR) approaches. The AGR was initiated following two organizational meetings in 2014 (AGR Workshop I) and 2016 ([AGR Workshop II](https://usda-ars-gbru.github.io/scinet-site/workshops/2016-07-26-Arthropod-Genomics-Workshop-2/)), at which participants communicated needs and devised solutions for challenging analytical pipelines. The AGR facilitates internal and external collaborations by merging those with complementary knowledge, skills, and capabilities within a given research area. Collaborations among AGR members have also resulted in two published papers reviewing ARS arthropod genomics research<sup>1</sup> and developing RNAi and CRISPR technologies<sup>2</sup>.  Work within the AGR includes the Ag100Pest Initiative, which aims to provide reference quality genome sequence assemblies for arthropod pests of U.S. agricultural commodities.
 
 The AGR is open to anyone within ARS, and those interested in joining can contact Brad Coates. 
 
