@@ -12,10 +12,10 @@ Thirty three members of the Arthropod Genomics Research (AGR) community represen
 
 [Workshop Agenda](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_Agenda.pdf)
 
-[Participant List](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_Participants.pdf)
+[Participant List](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop_Participants.pdf)
 
 [Breakout Session I Exercise: Gap Analysis](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_BreakoutSessionI.pdf)
 
 [Breakout Session II Exercise: Devising solutions within and among Grand Challenge Areas](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_BreakoutSessionII.pdf)
 
-[Workshop Summary Document](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_SummaryDocument.docx)
+[Workshop Summary Document](/scinet-site/assets/pdf/workshops/2016-07-AGRW2-Beltsville/ArthropodGenomicsResearchWorkshop2_SummaryDocument.pdf)
