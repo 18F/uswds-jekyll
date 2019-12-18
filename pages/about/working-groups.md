@@ -6,7 +6,7 @@ author: Kerrie Geil
 layout: page
 ---
 
-The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. The current working groups are:
+The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. The current working groups are:
 
 ## Ag100Pest Genome Working Group (subgroup of AGR)
 
