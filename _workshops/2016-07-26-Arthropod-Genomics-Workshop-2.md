@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arthropod Genomics Research Workshop II"
+title: "Arthropod Genomics Research Workshop 2"
 author: Brad Coates
 excerpt: Thirty three members of the Arthropod Genomics Research community representing all five Areas of the Agricultural Research Service convened a workshop charged with building collaborative research communities and improving communication channels
 ---
