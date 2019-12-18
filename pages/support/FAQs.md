@@ -72,16 +72,16 @@ SCINet is a high-speed network connecting equipment like compute servers, data t
 ARS employees and those collaborators that are covered under a formal agreement with the ARS.
 
 ### How do I find documentation on Ceres and SCINet?
-The most up-to-date documentation is available on the [SCINet website](https://usda-ars-gbru.github.io/scinet-site/). Some information is still in the process of being posted to this website. If you can’t find what you need there, please also check Basecamp.
+The most up-to-date documentation is available on this website although some information is still in the process of being posted. If you can’t find what you need here, please also check Basecamp [Basecamp](https://3.basecamp.com/3625179/projects/5538276) (must have SCINet account to access).
 
 ### How much does a Ceres account cost?
-Ceres is currently free to USDA-ARS researchers, and collaborators.
+Ceres is currently free to USDA-ARS researchers and collaborators.
 
 ### How much does Amazon Web Services (AWS) cost?
-SCINet provides AWS at no cost to SCINet users with suitable workloads. A limited amount of funding is available annually. Interested SCINet users must submit a SCINet AWS Project Request to be considered for AWS funding.
+SCINet provides AWS at no cost to SCINet users with suitable workloads. A limited amount of funding is available annually. Interested SCINet users must submit a [SCINet AWS Project Request](https://usda-ars-gbru.github.io/scinet-site/support/request-AWS) to be considered for AWS funding.
 
 ### Who manages SCINet?
-Day to day operations and user support are provided by the Virtual Research Support Core (see [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)). Higher level policy and development are managed by the SCINet Executive Committee, including the SCINet project manager Stan Kosecki, with input from the Executive Scientific Advisory Committee (SAC; see [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac))
+Day to day operations and user support are provided by the Virtual Research Support Core (see [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)). Higher level policy and development are managed by the SCINet Executive Committee, including the SCINet project manager Stan Kosecki, with input from the Scientific Advisory Committee (SAC; see [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac))
 
 ### Who can I contact for help using SCINet?
 Single user operational questions should be emailed to the VRSC scinet_vrsc@ars.usda.gov (see also [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)).
@@ -99,11 +99,11 @@ When your SCINet account is created, you will receive a welcome email and anothe
 Please fill out the [SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information. You will also be signed up for [Basecamp](https://3.basecamp.com/3625179/projects/5538276), a forum on which users can post questions.
 
 ### How do I get an account for non-ARS collaborators, students, or postdocs?
-All students, postdocs, visiting scientists and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
+All students, postdocs, visiting scientists, and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
 
 Please fill out the [Non-ARS SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
 
-Collaborators also have access to this SCINet website for user guides and upon account approval, access to the VRSC for operational assistance and the SCINet [Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. 
+Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the SCINet [Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. 
 
 ### How do I reactivate my account?
 Please email the VRSC: scinet_vrsc@ars.usda.gov
@@ -146,12 +146,12 @@ You may install your own software in your own directories, however, we strongly 
 
 The popular R, Perl and Python languages have many packages/modules available. Some of the programming-language-specific packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. See the list of installed packages on the [Software Overview page](https://usda-ars-gbru.github.io/scinet-site/guide/software) or use “module avail” at the command line. To see more information on a specific module, issue the "module help <module_name>" command. Also see the [Installing Packages guide](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall/) for R, Perl, and Python packages. 
 
-Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories since collaborators on the same project most probably would need same packages. In addition, home quotas are much lower than project directories quotas. 
+Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories (preferably in /KEEP/<*projectname*>) since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. 
 
 Alternatively, one can use Singularity to run software container images (including Docker images). For more information, see the Singularity on Ceres guide https://public.3.basecamp.com/p/eDqAxrYQiFNuMcdjUMMEAiQJ.
 
 ### How do I compile software?
-Ceres has development libraries available on all nodes. There is a system version of gcc which is well maintained by CentOS. The VRSC also makes available modules with newer versions of gcc and the intel compilers. See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for available versions or use ```module avail intel``` or ```module avail gcc``` at the command line to see all of the versions that are available at any given time to make use of them. To access the software use ```module load gcc``` or ```module load intel```. Note that after using these compilers you will probably need to load the modules again in the future to run the code you compiled as well.
+Ceres has development libraries available on all nodes. There is a system version of gcc which is well maintained by CentOS. The VRSC also makes available modules with newer versions of gcc and the intel compilers. See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for available versions or use  ```module avail intel```  or  ```module avail gcc```  at the command line to see all of the versions that are available at any given time to make use of them. To access the software use  ```module load gcc```  or  ```module load intel``` . Note that after using these compilers you will probably need to load the modules again in the future to run the code you compiled as well.
 
 ### What is Galaxy?
 Galaxy is a web-based interface to software on Ceres in which users can build analysis workflows. General information about Galaxy as well as training guides can be found at https://galaxyproject.org/.
@@ -200,9 +200,9 @@ If your problem is specific to Galaxy, please email galaxy.support@ars.usda.gov
 The current acting SCINet project manager is Stan Kosecki.
 
 ### What is the Scientific Advisory Committee (SAC)?
-The Scientific Advisory Committee is composed of ARS scientists across all the five physical Areas, NAL, and a representative from the Area Statisticians. These scientists serve 3-year terms on the committee and represent a broad spectrum of the computational research efforts within ARS. This is the Executive SAC and this body interacts directly with the SCINet Executive Committee on SCINet policy, development, and training. 
+The Scientific Advisory Committee is composed of ARS scientists across all the five physical Areas, NAL, and a representative from the Area Statisticians. These scientists serve 3-year terms on the committee and represent a broad spectrum of the computational research efforts within ARS. The SAC, which is also referred to as the executive SAC (eSAC), interacts directly with the SCINet Executive Committee on SCINet policy, development, and training. 
 
-There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the Executive SAC Chair. Current Executive SAC members can be found on the [SCINet People page](https://usda-ars-gbru.github.io/scinet-site/about/people). 
+There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet People page](https://usda-ars-gbru.github.io/scinet-site/team/). 
 
 ### How do I write a batch script to submit a compute job?
 answer coming soon
@@ -222,7 +222,8 @@ The table below summarizes the relevant GNU compiler names and command line flag
  | C++        | g++          | mpicxx  | g++ -fopenmp          | mpicxx -fopenmp
 
 ### My terminal window keeps freezing. Is there something I can do to stop this?
-As a result of the current networking infrastructure, working at the command line can be difficult sometimes because displaying hundreds of lines freezes the display. The solution to this is to enable SSH compression. There are a few different ways to do ssh using compression: do ```ssh -C``` from the command line; or instead of ssh in Putty, click on SSH on the left, then check Enable Compression In Unix; or alter your ~/.ssh/config file to contain these lines:
+As a result of the current networking infrastructure, working at the command line can be difficult sometimes because displaying hundreds of lines freezes the display. The solution to this is to enable SSH compression. There are a few different ways to do ssh using compression: do  ```ssh -C```  from the command line; or instead of ssh in Putty, click on SSH on the left, then check Enable Compression In Unix; or alter your ~/.ssh/config file to contain these lines:
+
 ```
 Host login.scinet.science  
 Compression yes
