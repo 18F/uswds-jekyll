@@ -30,7 +30,7 @@ The AGR is open to anyone within ARS, and those interested in joining can contac
 
 ## Geospatial Research Working Group
 
-The SCINet Geospatial Working Group was formed as the result of a September 2019 workshop hosted by Deb Peters, the acting ARS Chief Science Information Officer. The focus of this group is to provide continued input on the development of SCINet, to determine the computational needs of ARS geospatial researchers, and to develop collaborative research projects. This group will also learn from each other on topics related to high-performance computing. For example, how to use Ceres (the ARS high-performance computer), optimizing code for parallel processing, getting software onto Ceres, etc. Monthly working group teleconference calls and working sessions are beginning soon. If you would like to join this group, please contact Kerrie Geil to be added to the group’s Basecamp.
+This working group was formed as the result of a September 2019 SCINet-funded workshop hosted by Deb Peters, the acting ARS Chief Science Information Officer. The focus of the group is to provide continued input on the development of SCINet, to determine the computational needs of ARS geospatial researchers, and to develop collaborative research projects. The group will also learn from each other on topics related to high-performance computing. For example, how to use Ceres (the ARS high-performance computer), optimizing code for parallel processing, getting software onto Ceres, etc. Monthly working group teleconference calls and working sessions are beginning soon. If you would like to join the group, please contact Kerrie Geil to be added to the group’s Basecamp.
 
 <br>
 
