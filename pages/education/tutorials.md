@@ -1,11 +1,11 @@
 ---
 title: Tutorials
 description: Tutorials for specific analyses
-permalink: /education/tutorials/
+permalink: /tutorials/
 author:
-layout: page
+layout: tutorial
 ---
-
+<!--
 ### coming soon...
 
 <!--
@@ -30,4 +30,5 @@ Write about the trainings that have been done. these include:
 Others?
 
 Link to instruction for developing a workshop?
+-->
 -->
