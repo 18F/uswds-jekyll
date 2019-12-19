@@ -47,6 +47,9 @@ collections:
     people: true
     permalink: /:collection/:path/
     sort_by: page-position
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
 #  announcements:
 #    output: true
 #    permalink: /:collection/:path/
