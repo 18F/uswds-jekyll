@@ -1,7 +1,6 @@
 ---
 title: Quantitative Trait Locus (QTL) Analysis for Breeding
 description: Quantitative Trait Locus Analysis for Breeding research
-permalink: /user/plant-breeding/
 author:
 layout: page
 ---
