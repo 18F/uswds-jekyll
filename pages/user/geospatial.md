@@ -15,11 +15,12 @@ layout: page
 ---
 <br>
 By: Pat Clark and Rowan Gaffney
+
 ## Use Cases
 ---
 ### **Machine Learning**
 * Classification
-* Clustering: [Python Notebook Example](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
+* Clustering: [Python Notebook Example](/scinet-site/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
 * Regression
 
 ### **Modeling**
