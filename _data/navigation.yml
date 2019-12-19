@@ -48,7 +48,7 @@ primary:
   - text: Education
     links:
       - text: Science Tutorials
-        href: /education/tutorials/
+        href: /tutorials/
       - text: Past Workshops
         href: /workshops/
       - text: Videos
