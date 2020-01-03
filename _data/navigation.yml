@@ -43,8 +43,7 @@ primary:
         href: /guide/geneious
       - text: Transfering files
         href: /guide/globus
-      - text: Useful Links
-        href: /guide/useful-links
+
   - text: Education
     links:
       - text: Science Tutorials
@@ -53,6 +52,8 @@ primary:
         href: /workshops/
       - text: Videos
         href: /education/video/
+      - text: Useful Links
+        href: /education/useful-links        
   - text: Use Cases
     links:
       - text: Research Leader
