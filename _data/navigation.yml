@@ -48,10 +48,12 @@ primary:
     links:
       - text: Science Tutorials
         href: /tutorials/
+      - text: Videos
+        href: /education/video/        
       - text: Past Workshops
         href: /workshops/
-      - text: Videos
-        href: /education/video/
+      - text: Working Groups
+        href: /education/working-groups        
       - text: Useful Links
         href: /education/useful-links        
   - text: Use Cases
@@ -96,8 +98,6 @@ primary:
         href: /about/networking
       - text: Organization
         href: /about/organization
-      - text: Working Groups
-        href: /about/working-groups
       - text: People
         href: /team/
       - text: Contact
