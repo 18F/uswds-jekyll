@@ -10,7 +10,7 @@ image: /assets/img/team-images/kathy-yeater-300-300.jpg
 #  - Census
 # home: Government
 position: Stats eSAC Member, Statistician
-page-position: 13
+page-position: 14
 email: test.person@usda.gov
 ---
 
