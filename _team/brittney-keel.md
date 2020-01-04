@@ -10,7 +10,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Census
 # home: Government
 position: PA eSAC Member, Research Biologist
-page-position: 9
+page-position: 10
 email: test.person@usda.gov
 ---
 
