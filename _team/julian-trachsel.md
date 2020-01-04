@@ -10,7 +10,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Census
 # home: Government
 position: MWA eSAC Member, Computational Biologist
-page-position: 8
+page-position: 9
 email: test.person@usda.gov
 ---
 
