@@ -10,7 +10,7 @@ image: /assets/img/team-images/steven-schroeder-300-300.jpg
 #  - Census
 # home: Government
 position: NEA eSAC Member, Computational Biologist
-page-position: 6
+page-position: 7
 email: test.person@usda.gov
 ---
 
