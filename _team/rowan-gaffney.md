@@ -10,7 +10,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Census
 # home: Government
 position: At Large eSAC Member, Remote Sensing Specialist
-page-position: 14
+page-position: 15
 email: test.person@usda.gov
 ---
 
