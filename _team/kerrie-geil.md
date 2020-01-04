@@ -10,7 +10,7 @@ image: /assets/img/team-images/kerrie-geil-300-300.jpg
 #  - Census
 # home: Government
 position: AAAS Science & Technology Policy Fellow for SCINet
-page-position: 15
+page-position: 16
 email: test.person@usda.gov
 ---
 
