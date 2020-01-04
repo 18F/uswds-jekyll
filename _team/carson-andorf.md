@@ -10,7 +10,7 @@ image: /assets/img/team-images/carson-andorf-300-300.png
 #  - Census
 # home: Government
 position: MWA eSAC Member, Computational Biologist
-page-position: 7
+page-position: 8
 email: test.person@usda.gov
 ---
 
