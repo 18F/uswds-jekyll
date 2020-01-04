@@ -6,7 +6,7 @@ author: Andrew Severin/Kerrie Geil
 layout: page
 ---
 
-[![bioinformatics-workbook-screenshot](/scinet-site/assets/img/bioinformatics-workbook.png)](https://bioinformaticsworkbook.org/)
+[![bioinformatics-workbook-screenshot](/scinet-site/assets/img/bioinformatics-workbook-1280.png)](https://bioinformaticsworkbook.org/)
 
 The Bioinformatics Workbook created by Andrew Severin and colleagues at Iowa State University has guides and tutorials extending well beyond the bioinformatics community. Researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more.
 
