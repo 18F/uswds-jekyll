@@ -1,5 +1,5 @@
 ---
-title: Information on SCINet for Research Leaders (RL's)
+title: Information on SCINet for National Program Leaders (NPL's)
 description: Empowering your unit's research with SCINet
 permalink: /user/npl/
 author:
