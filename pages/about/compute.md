@@ -1,6 +1,6 @@
 ---
-title: SCINet High Performance Computer Systems
-description: SCINet High Performance Computer Systems
+title: SCINet High-Performance Computer Systems
+description: SCINet High-Performance Computer Systems
 permalink: /about/compute
 author: Kerrie Geil
 layout: page
