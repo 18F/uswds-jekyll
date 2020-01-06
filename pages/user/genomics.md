@@ -1,5 +1,5 @@
 ---
-title: SCINet for Genomics Research
+title: SCINet for genomics research
 description: SCINet has a number of tools available for genomics research
 permalink: /user/genomics/
 author:
