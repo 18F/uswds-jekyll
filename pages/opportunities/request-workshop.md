@@ -14,7 +14,7 @@ The SCINet initiative is currently accepting two types of requests:
 
 <br> 
 
-## Proposals for Self-Led SCINet-Funded Workshops or Training 
+## Proposals for Self-led SCINet-funded Workshops or Training 
 
 ### [Request for FY20 SCINet Workshop/Training Application](https://www.surveymonkey.com/r/SCINet) (Due Feb 1, 2020)
 
@@ -29,7 +29,7 @@ If you would like to hold a SCINet-funded workshop or training in FY20, please s
 
 <br>
 
-## Suggestions for SCINet-Led Workshops or Training
+## Suggestions for SCINet-led Workshops or Training
 
 ### [Request Form for SCINet-Led Workshop/Training](https://www.surveymonkey.com/r/FY20SCINetTraining)
 
