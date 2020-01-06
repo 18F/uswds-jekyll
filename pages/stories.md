@@ -1,5 +1,5 @@
 ---
-title: Stories
+title: stories
 layout: categories
 permalink: /stories/
 ---
