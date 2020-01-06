@@ -10,8 +10,10 @@ title: Scinet news
     <h3>
       <a href="{{ post.url | relative_url}}">{{ post.date | date_to_string }} &middot {{ post.title }}</a>
     </h3>
-    {{ post.excerpt | truncatewords:25 }}
+      {% if post.categories != newsletter %}
+        {{ post.excerpt | truncatewords:25 }}
       {% endif %}
+    {% endif %}
   {% endfor %}
 
 </div>
