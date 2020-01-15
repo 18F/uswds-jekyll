@@ -35,4 +35,4 @@ If you would like to hold a SCINet-funded workshop or training in FY20, please s
 
 This form is for suggesting workshops or training that you see a need for and that SCINet should lead. You will be asked to describe the type of event and topic area(s), learning goals or outcomes, pre-requisite skills or knowledge needed, the intended audience, and to cite or link to a documented need, if applicable.
 
-If you would like to propose a SCINet-funded workshop/training that you would lead yourself, please instead use the Request for FY20 SCINet Workshop/Training Application above.
+If you would like to propose a SCINet-funded workshop/training that you would lead yourself, please instead use the Request for FY20 SCINet Workshop/Training Application above. 

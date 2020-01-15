@@ -9,7 +9,7 @@ layout: page
 
 #### Table of Contents
 * [Login](#login)
-* [Copying Data]($copying-data)
+* [Copying Data](#copying-data)
 * [Globus Connect Personal](#globus-connect-personal)
 
 # Login

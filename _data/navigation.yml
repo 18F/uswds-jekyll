@@ -41,6 +41,8 @@ primary:
         href: /guide/rstudio
       - text: Geneious
         href: /guide/geneious
+      - text: Galaxy on SCINet
+        href: /guide/galaxy        
       - text: Transfering files
         href: /guide/globus
 

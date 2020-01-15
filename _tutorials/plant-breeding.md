@@ -101,7 +101,7 @@ perl vcf2freq.pl output_snps.vcf 0 >output_frequency_file.txt #vcf2freq.pl is su
 
 Browse to this file and open it.  A graph, similar to the one below will appear momentarily.  You can step through each chromosome using the interface and look for peaks that are above the genome-wide threshold (95th percentile based on raw deltaSNP values).  Because raw data of this kind is very noisy, a sliding window average is supplied.  The appropriate window size is a function of population size, recombination rate, marker density, and read depth.  Generally, if read depth is >40x, your window size should decrease as your population size increases.  A good rule-of-thumb is that few windows should have an average that extends beyond 3 standard error units of a directly adjacent window, assuming your overlap-to-window-size is ~20%.  The red line indicates the average of window and the gray shading indicates 3 standard error units. Note: Setting the overlap size very low will cause QTLSurge to respond slowly and should only be used when zoomed in to a <1MB range.
 
-![image](/assets/img/loadedFileOverview.png)
+![image](/scinet-site/assets/img/loadedFileOverview.png)
 
 For a standard QTL-seq experiment, this might be a stopping point for publication.  QTLsurge provides further support for iterative rounds of genotyping that allow a researcher to further pinpoint genes and/or confirm the peaks that they have discovered.  The QTLsurge page describes these possible experiments and analyses in more detail.
 
