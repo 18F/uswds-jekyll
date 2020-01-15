@@ -84,7 +84,7 @@ SCINet provides AWS at no cost to SCINet users with suitable workloads. A limite
 Day to day operations and user support are provided by the Virtual Research Support Core (see [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)). Higher level policy and development are managed by the SCINet Executive Committee, including the SCINet project manager Stan Kosecki, with input from the Scientific Advisory Committee (SAC; see [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac))
 
 ### Who can I contact for help using SCINet?
-Single user operational questions should be emailed to the VRSC scinet_vrsc@ars.usda.gov (see also [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)).
+Single user operational questions should be emailed to the VRSC scinet_vrsc@usda.gov (see also [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)).
 
 Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the Basecamp message board. Access to [Basecamp](https://3.basecamp.com/3625179/projects/5538276) is provided during the SCINet account application process.
 
@@ -106,7 +106,7 @@ Please fill out the [Non-ARS SCINet Account Request Form](https://usda-ars-gbru.
 Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the SCINet [Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. 
 
 ### How do I reactivate my account?
-Please email the VRSC: scinet_vrsc@ars.usda.gov
+Please email the VRSC: scinet_vrsc@usda.gov
 
 ### How do I reset or change my password?
 If your password is expired you should be prompted to change your password when you attempt to login. If you are still able to login, do so and type "passwd" you will be prompted for your old password and asked for a new one.
@@ -121,7 +121,7 @@ passwd: all authentication tokens updated successfully.
 ```
 The video How_to_ssh_to_Ceres_and_change_password.mp4 https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x on Basecamp demonstrates the process.
 
-If you have forgotten your login password, please email the VRSC: scinet_vrsc@ars.usda.gov
+If you have forgotten your login password, please email the VRSC: scinet_vrsc@usda.gov
 
 ### What are the SCINet password requirements?
 * AT LEAST 12 characters long and have AT LEAST 3 different character classes: lower case letters, upper case letters, digits and special symbols (?^\[ etc.)
@@ -133,7 +133,7 @@ Older passwords CAN NOT be reused.
 Command line access is available via Secure Shell (SSH) and Virtual Private Network (VPN). For more info, see the [Ceres Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart) or watch the short video How_to_ssh_to_Ceres_and_change_password.mp4 https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x
 
 ### I took my onboarding a long time ago, how do I get a refresher course?
-Email the VRSC scinet_vrsc@ars.usda.gov for a time and day. You can also read the [Ceres Quick Start](https://usda-ars-gbru.github.io/scinet-site/guide/quickstartGuide) or [Ceres User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/).
+Email the VRSC scinet_vrsc@usda.gov for a time and day. You can also read the [Ceres Quick Start](https://usda-ars-gbru.github.io/scinet-site/guide/quickstartGuide) or [Ceres User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/).
 
 ### What software is available on SCINet?
 See the Ceres [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for a list of available software. You can also login to SCINet and issue the command “module avail” to see the same list of available software modules. 
@@ -154,15 +154,13 @@ Alternatively, one can use Singularity to run software container images (includi
 Ceres has development libraries available on all nodes. There is a system version of gcc which is well maintained by CentOS. The VRSC also makes available modules with newer versions of gcc and the intel compilers. See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for available versions or use  ```module avail intel```  or  ```module avail gcc```  at the command line to see all of the versions that are available at any given time to make use of them. To access the software use  ```module load gcc```  or  ```module load intel``` . Note that after using these compilers you will probably need to load the modules again in the future to run the code you compiled as well.
 
 ### What is Galaxy?
-Galaxy is a web-based interface to software on Ceres in which users can build analysis workflows. General information about Galaxy as well as training guides can be found at https://galaxyproject.org/.
-
-Information on using Galaxy on Ceres is available on Axon. See Getting Started with Galaxy on Ceres (eAuthentication required) https://e.arsnet.usda.gov/sites/OCIO/scinet/_layouts/15/WopiFrame.aspx?sourcedoc=/sites/OCIO/scinet/General%20Knowledge/Getting%20started%20with%20Galaxy%20on%20CERES.pdf&action=default.
+Galaxy is a web-based interface to software on Ceres in which users can build analysis workflows. See [Getting Started with Galaxy on SCINet](https://usda-ars-gbru.github.io/scinet-site/guide/galaxy/). General information about Galaxy as well as training guides can be found at [galaxyproject.org](https://galaxyproject.org/).
 
 ### How do I login to SCINet Galaxy?
-Go to https://galaxy.scinet.science/. Enter your email address and SCINet password. See Getting Started with Galaxy on Ceres (eAuthentication required) https://e.arsnet.usda.gov/sites/OCIO/scinet/_layouts/15/WopiFrame.aspx?sourcedoc=/sites/OCIO/scinet/General%20Knowledge/Getting%20started%20with%20Galaxy%20on%20CERES.pdf&action=default for more details.
+Go to [galaxy.scinet.science](https://galaxy.scinet.science/). Enter your email address and SCINet password. See [Getting Started with Galaxy on SCINet](https://usda-ars-gbru.github.io/scinet-site/guide/galaxy/) for more details.
 
 ### How do I request software to be loaded onto SCINet Galaxy?
-Please email the VRSC at scinet_vrsc@ars.usda.gov.
+Please email the VRSC at scinet_vrsc@usda.gov.
 
 ### How much data can I store on Ceres?
 Each user is allowed 10GB of data and 10,240 files in the home directory (soft quota). For a grace period of 30 days users can exceed their soft quota limits up to the hard limit of 100GB and 1,024,000 files. After 30 days, any additional file creation is locked until the amount of data and file count has been reduced below the soft limit again.
@@ -184,7 +182,7 @@ See Getting Started with Galaxy on Ceres (eAuthentication required) https://e.ar
 The Virtual Research Support Core is a team of Iowa State University and ARS personnel who manage the maintenance and operation of the Ceres HPC system and provide user support. See the [Virtual Research Support Core page](https://usda-ars-gbru.github.io/scinet-site/support/vsrc/) and [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance) for more details.
 
 ### How do I contact the VRSC for assistance?
-Contact scinet_vrsc@ars.usda.gov for operational issues affecting a single user such as:
+Contact scinet_vrsc@usda.gov for operational issues affecting a single user such as:
 * I can't login
 * I'm having problems with a batch script
 * I'm have a problem with storage
@@ -194,7 +192,7 @@ Contact scinet_vrsc@ars.usda.gov for operational issues affecting a single user 
 
 Use the [Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board for discussions/questions about the best practices for research computations.
 
-If your problem is specific to Galaxy, please email galaxy.support@ars.usda.gov 
+For Galaxy questions, please use the same email contact scinet_vrsc@usda.gov 
 
 ### Who is the SCINet project manager?
 The current acting SCINet project manager is Stan Kosecki.

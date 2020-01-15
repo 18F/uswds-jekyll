@@ -54,9 +54,7 @@ Discussion that is relevant to other SCINet users such as questions about the be
 
 If your question is related to SCINet policy or development, contact the acting SCINet Project Manager, Stan Kosecki.
 
-If your problem is specific to Galaxy on SCINet, please email galaxy.support@ars.usda.gov
-
-Single user operational questions should be emailed to the VRSC scinet_vrsc@ars.usda.gov, for example:
+Single user operational questions, including Galaxy questions, should be emailed to the VRSC scinet_vrsc@usda.gov, for example:
 
 * I can’t login
 * I’m having problems with a batch script
