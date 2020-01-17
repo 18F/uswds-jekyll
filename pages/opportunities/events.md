@@ -13,7 +13,7 @@ We envision workshops covering new, intermediate, and experienced AI users, i.e.
 ARS Acting Chief Science Information Officer, Deb Peters, will coordinate development of the training workshops.
 
 
-***Interested staff should notify Deb Peters by January 24 and <br>indicate subjects(s) and level(s) of AI training of interest.***
+***Interested ARS staff should notify Deb Peters by January 24 and <br>indicate subjects(s) and level(s) of AI training of interest.***
 
 <br>
 <br>
