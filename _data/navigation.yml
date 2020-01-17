@@ -112,6 +112,9 @@ primary:
         href: /opportunities/request-workshop
       - text: Postdocs
         href: /opportunities/postdocs
+      - text: Upcoming Events
+        href: /opportunities/events
+
 # secondary:
 #   - text: Documentation
 #     href: /docs/
