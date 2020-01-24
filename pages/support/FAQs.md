@@ -119,7 +119,7 @@ New password:
 Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
-The video How_to_ssh_to_Ceres_and_change_password.mp4 https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x on Basecamp demonstrates the process.
+The video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x) on Basecamp demonstrates the process.
 
 If you have forgotten your login password, please email the VRSC: scinet_vrsc@usda.gov
 
@@ -130,7 +130,7 @@ If you have forgotten your login password, please email the VRSC: scinet_vrsc@us
 Older passwords CAN NOT be reused.
 
 ### How do I login to Ceres?
-Command line access is available via Secure Shell (SSH) and Virtual Private Network (VPN). For more info, see the [Ceres Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart) or watch the short video How_to_ssh_to_Ceres_and_change_password.mp4 https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x
+Command line access is available via Secure Shell (SSH) and Virtual Private Network (VPN). For more info, see the [Ceres Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart) or watch the short video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x).
 
 ### I took my onboarding a long time ago, how do I get a refresher course?
 Email the VRSC scinet_vrsc@usda.gov for a time and day. You can also read the [Ceres Quick Start](https://usda-ars-gbru.github.io/scinet-site/guide/quickstartGuide) or [Ceres User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/).
@@ -144,11 +144,11 @@ For new software requests, go to the [Request Software page](https://usda-ars-gb
 ### How do I install my own software programs?
 You may install your own software in your own directories, however, we strongly encourage users to contact the VRSC team to ensure that their required tool(s) might not be better distributed as a shared package within the official software modules tree. 
 
-The popular R, Perl and Python languages have many packages/modules available. Some of the programming-language-specific packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. See the list of installed packages on the [Software Overview page](https://usda-ars-gbru.github.io/scinet-site/guide/software) or use “module avail” at the command line. To see more information on a specific module, issue the "module help <module_name>" command. Also see the [Installing Packages guide](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall/) for R, Perl, and Python packages. 
+The popular R, Perl and Python languages have many packages/modules available. Some of the programming-language-specific packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. See the list of installed packages on the [Software Overview page](https://usda-ars-gbru.github.io/scinet-site/guide/software) or use “module avail” at the command line. To see more information on a specific module, issue the "module help <module_name>" command. Also see the [Installing Packages guide](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall) for R, Perl, and Python packages. 
 
 Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories (preferably in /KEEP/<*projectname*>) since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. 
 
-Alternatively, one can use Singularity to run software container images (including Docker images). For more information, see the Singularity on Ceres guide https://public.3.basecamp.com/p/eDqAxrYQiFNuMcdjUMMEAiQJ.
+Alternatively, one can use Singularity to run software container images (including Docker images). For more information, see the [Singularity on Ceres guide](https://public.3.basecamp.com/p/eDqAxrYQiFNuMcdjUMMEAiQJ).
 
 ### How do I compile software?
 Ceres has development libraries available on all nodes. There is a system version of gcc which is well maintained by CentOS. The VRSC also makes available modules with newer versions of gcc and the intel compilers. See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for available versions or use  ```module avail intel```  or  ```module avail gcc```  at the command line to see all of the versions that are available at any given time to make use of them. To access the software use  ```module load gcc```  or  ```module load intel``` . Note that after using these compilers you will probably need to load the modules again in the future to run the code you compiled as well.
@@ -176,7 +176,7 @@ Please fill out an application form at [Request Project Storage](https://usda-ar
 SCP, SFTP, lftp (to/from Box accounts) Globus, and hard drive shipment are supported. This is described in the [File Transfers section of the Ceres User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#file-transfers). If you work near Beltsville, you may also use the SCINet lab located at the National Agricultural Library (NAL). Two computers with 10GB Internet2 SCINet connections are available.
 
 ### How do I get my data onto Ceres via SCINet Galaxy?
-See Getting Started with Galaxy on Ceres (eAuthentication required) https://e.arsnet.usda.gov/sites/OCIO/scinet/_layouts/15/WopiFrame.aspx?sourcedoc=/sites/OCIO/scinet/General%20Knowledge/Getting%20started%20with%20Galaxy%20on%20CERES.pdf&action=default.
+See [Getting Started with Galaxy on Ceres](https://usda-ars-gbru.github.io/scinet-site/guide/galaxy).
 
 ### What is the Virtual Research Support Core (VRSC)?
 The Virtual Research Support Core is a team of Iowa State University and ARS personnel who manage the maintenance and operation of the Ceres HPC system and provide user support. See the [Virtual Research Support Core page](https://usda-ars-gbru.github.io/scinet-site/support/vsrc/) and [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance) for more details.
@@ -243,6 +243,9 @@ ServerAliveCountMax 30
 That will send a "keepalive" signal every 20 seconds and keep retrying for up to 30 failures. This also simplifies your login to just: `ssh ceres`
 
 If you don't want to use the config file method you can just add these options to the ssh command: 
-```ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 @login.scinet.science -XA```
+
+```
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 @login.scinet.science -XA
+```
 
 Using PuTTY on windows you can do the same via the Connections tab. Set the "Seconds between keepalives" to 20 and check the "Enable TCP keepalives"
