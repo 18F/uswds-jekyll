@@ -228,7 +228,7 @@ Compression yes
 ```
 
 ### I log in at the command line but the system keeps logging me out. Is there something I can do to stop this?
-On Linux or Mac OS just create or add the following to a ~/.ssh/config file. If you use Windows Powershell to login to Ceres the config file will be located at C:\Users\username/\.ssh\config.
+On Linux or Mac OS just create or add the following to a ~/.ssh/config file. If you use Windows Powershell to login to Ceres the config file will be located at 'C:\Users\username\.ssh\config.'
 
 ```
 Host ceres
