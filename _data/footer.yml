@@ -3,7 +3,7 @@
 # Configuration for type of footer.
 # Footer types can be 'slim', 'medium', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: medium
+type: big
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.

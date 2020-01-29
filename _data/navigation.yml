@@ -42,7 +42,7 @@ primary:
       - text: Geneious
         href: /guide/geneious
       - text: Galaxy on SCINet
-        href: /guide/galaxy        
+        href: /guide/galaxy
       - text: Transfering files
         href: /guide/globus
 
@@ -51,15 +51,15 @@ primary:
       - text: Science Tutorials
         href: /tutorials/
       - text: Videos
-        href: /education/video/        
+        href: /education/video/
       - text: Past Workshops
         href: /workshops/
       - text: Working Groups
-        href: /education/working-groups        
+        href: /education/working-groups
       - text: Bioinformatics Workbook
-        href: /education/bioinformatics-workbook        
+        href: /education/bioinformatics-workbook
       - text: Useful Links
-        href: /education/useful-links        
+        href: /education/useful-links
   - text: Use Cases
     links:
       - text: Research Leader
@@ -126,50 +126,85 @@ secondary:
     href: /guide/
 
 
-# footer:
-#   - text: Documentation
-#     href: /docs/
-#   - text: Demo link
-#     href: /demo/
-#   - text: External link
-#     href: https://18f.gsa.gov
-#     external: true
-
-
 # Uncomment the items below and comment the items above in the `footer` list
 # to use footer link columns in the 'big' footer style.
-  # - text: Documentation
-  #   links:
-  #     - text: Overview
-  #       href: /docs/
-  #     - text: Secondary documentation page
-  #       href: /docs/two/
-  #     - text: Tertiary docs
-  #       href: /docs/three/
-  # - text: Navigation section
-  #   links:
-  #     - text: Demo link A
-  #       href: /two/a/
-  #     - text: Demo link B
-  #       href: /two/b/
-  #     - text: Demo link C
-  #       href: /two/c/
-  # - text: Referenced section
-  #   links:
-  #     - text: Demo link A
-  #       href: /three/a/
-  #     - text: Demo link B
-  #       href: /three/b/
-  #     - text: Demo link C
-  #       href: /three/c/
-  # - text: External links
-  #   links:
-  #     - text: 18F
-  #       href: https://18f.gsa.gov
-  #       external: true
-  #     - text: Technology Transformation Service
-  #       href: https://join.tts.gsa.gov/
-  #       external: true
-  #     - text: code.gov
-  #       href: https://code.gov/
-  #       external: true
+footer:
+  - text:
+    links:
+      - text: Policies and Links
+        href: https://usda.gov/policies-and-links
+        external: true
+      - text: Our Performance
+        href: https://usda.gov/our-agency/about-usda/performance
+        external: true
+      - text: Careers
+        href: https://www.usda.gov/oig/contractorform.htm
+        external: true
+      - text: Report Fraud on USDA
+        href: https://www.usda.gov/our-agency/careers
+        external: true
+      - text: Visit OIG
+        href: https://www.usda.gov/oig/
+        external: true
+  - text:
+    links:
+      - text: Plain Writing
+        href: https://usda.gov/plain-writing
+        external: true
+      - text: Open
+        href: https://usda.gov/open
+        external: true
+      - text: FOIA
+        href: https://www.dm.usda.gov/foia/
+        external: true
+      - text: Accessibility Statement
+        href: https://usda.gov/accessibility-statement
+        external: true
+      - text: Privacy Policy
+        href: https://usda.gov/privacy-policy
+        external: true
+  - text:
+    links:
+      - text: Plain Writing
+        href: https://usda.gov/plain-writing
+        external: true
+      - text: Open
+        href: https://usda.gov/open
+        external: true
+      - text: FOIA
+        href: https://www.dm.usda.gov/foia/
+        external: true
+      - text: Accessibility Statement
+        href: https://usda.gov/accessibility-statement
+        external: true
+      - text: Privacy Policy
+        href: https://usda.gov/privacy-policy
+        external: true
+  - text:
+    links:
+      - text: Non-Discrimination Statement
+        href: https://usda.gov/non-discrimination-statement
+        external: true
+      - text: Anti-Harassment Policy
+        href: https://www.ascr.usda.gov/civil-rights-statements
+        external: true
+      - text: Information Quality
+        href: https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities
+        external: true
+      - text: USA.gov
+        href: https://www.usa.gov
+        external: true
+      - text: WhiteHouse.gov
+        href: https://www.whitehouse.gov
+        external: true
+  - text:
+    links:
+      - text: eGov
+        href: https://usda.gov/federal-web-site-inventory
+        external: true
+      - text: Feedback
+        href: mailto:scinet@usda.gov
+        external: true
+      - text: No FEAR Act Data
+        href: https://usda.gov/nofear
+        external: true
