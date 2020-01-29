@@ -165,23 +165,6 @@ footer:
         external: true
   - text:
     links:
-      - text: Plain Writing
-        href: https://usda.gov/plain-writing
-        external: true
-      - text: Open
-        href: https://usda.gov/open
-        external: true
-      - text: FOIA
-        href: https://www.dm.usda.gov/foia/
-        external: true
-      - text: Accessibility Statement
-        href: https://usda.gov/accessibility-statement
-        external: true
-      - text: Privacy Policy
-        href: https://usda.gov/privacy-policy
-        external: true
-  - text:
-    links:
       - text: Non-Discrimination Statement
         href: https://usda.gov/non-discrimination-statement
         external: true
