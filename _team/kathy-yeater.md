@@ -9,7 +9,7 @@ image: /assets/img/team-images/kathy-yeater-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: Stats eSAC Member, Statistician
+position: Stats SAC Member, Statistician
 page-position: 14
 email: test.person@usda.gov
 ---

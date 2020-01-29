@@ -9,7 +9,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: At Large eSAC Member, Remote Sensing Specialist
+position: At Large SAC Member, Remote Sensing Specialist
 page-position: 15
 email: test.person@usda.gov
 ---

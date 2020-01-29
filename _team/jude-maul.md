@@ -9,7 +9,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: NEA eSAC Member, Research Ecologist
+position: NEA SAC Member, Research Ecologist
 page-position: 6
 email: test.person@usda.gov
 ---

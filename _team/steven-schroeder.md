@@ -9,10 +9,9 @@ image: /assets/img/team-images/steven-schroeder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: NEA eSAC Member, Computational Biologist
+position: NEA SAC Member, Computational Biologist
 page-position: 7
 email: test.person@usda.gov
 ---
 
 Test Person is an analyst with the Research experience.
-

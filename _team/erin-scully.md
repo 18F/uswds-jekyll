@@ -9,7 +9,7 @@ image: /assets/img/team-images/erin-scully-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: PA eSAC Member, Research Molecular Biologist
+position: PA SAC Member, Research Molecular Biologist
 page-position: 11
 email: test.person@usda.gov
 ---

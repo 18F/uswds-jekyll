@@ -9,7 +9,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: PA eSAC Member, Research Biologist
+position: PA SAC Member, Research Biologist
 page-position: 10
 email: test.person@usda.gov
 ---

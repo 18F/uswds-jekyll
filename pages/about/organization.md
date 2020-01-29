@@ -7,30 +7,17 @@ layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
 
-### coming soon...
+The Scinet program is led by the Associate administrator for National Programs, Dr. Steven Kappes,
+the Associate administrator for Research Management and Operations, Dr Simon Liu
+ and the Acting Chief Scientific information officer Dr. Debra Peters. The
+program is guided by an Executive Director and an Executive Committee with
+input from a Scientific Advisory Committee.
 
-<!--
-## Getting started material for authors.
-(please remove after writing the article)
+The program runs three high performance computer clusters.  The Ceres cluster
+is housed at the National Animal disease center in Ames. IA and operated by
+Iowa State University. A Cray cluster is located and run by Mississippi State
+University in Starkville, MS and a planned cluster will be housed and operated
+at the National Agricultural Library in Beltsville, MD.
 
-* For examples of formatting in markdown see [this page](/theme/)
-* To add photos
-  1. place them in the `/assets/img/` directory
-  2. place them on the page using this tag:
-
-  ```markdown
-  ![](/assets/img/example_pic.jpg)
-  ```
-
-## Page specific instructions
-
-* Ceres
-
-configuration
-nodes storage queses
-opperators
-network connections
-links to operating docs
-
-* Info on next generation HPS's coming online
--->
+User support at SCINet is provided by the  Virtual Support Research Core (VSRC)
+operated by Iowas State University.

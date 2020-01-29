@@ -9,7 +9,7 @@ image: /assets/img/team-images/lindsey-yasarer-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: SEA eSAC Member, Research Hydrologist
+position: SEA SAC Member, Research Hydrologist
 page-position: 5
 email: test.person@usda.gov
 ---

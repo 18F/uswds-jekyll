@@ -9,7 +9,7 @@ image: /assets/img/team-images/adam-rivers-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: Chair eSAC, Computational Biologist
+position: Chair SAC, Computational Biologist
 page-position: 4
 email: test.person@usda.gov
 ---

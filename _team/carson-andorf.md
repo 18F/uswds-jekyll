@@ -9,7 +9,7 @@ image: /assets/img/team-images/carson-andorf-300-300.png
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: MWA eSAC Member, Computational Biologist
+position: MWA SAC Member, Computational Biologist
 page-position: 8
 email: test.person@usda.gov
 ---

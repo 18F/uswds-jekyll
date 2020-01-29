@@ -9,7 +9,7 @@ image: /assets/img/team-images/pat-clark-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: PWA eSAC Member, Rangeland Scientist
+position: PWA SAC Member, Rangeland Scientist
 page-position: 12
 email: test.person@usda.gov
 ---
