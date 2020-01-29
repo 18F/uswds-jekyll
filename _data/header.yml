@@ -21,8 +21,9 @@ type: extended
 # Configuration for site header logo
 # If the logo is external add external: true
 logo:
-  src: /assets/img/USDAARSIdentityRGB3.png
+  src: /assets/img/usda-symbol-rgb-color.svg
   alt: USDA-ARS
+  #src: /assets/img/USDAARSIdentityRGB3.png
   # external: true
 
 # this is a key into _data/navigation.yml
