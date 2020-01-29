@@ -18,10 +18,11 @@ excerpt_separator: "<!--end-excerpt-->"
 # site_width: wide
 
 # Configuration for Google Analytics, add your UA code here:
-# google_analytics_ua: UA-????????-??
+google_analytics_ua: UA-27627304-1
+
 
 # Configuration for DAP, add your agency ID here:
-# dap_agency: GSA
+dap_agency: USDA
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
