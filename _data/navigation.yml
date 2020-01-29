@@ -121,9 +121,9 @@ primary:
 #   - text: Theme
 #     href: /theme/
 
-secondary:
-  - text: Contents
-    href: /guide/
+#secondary:
+#  - text: Contents
+#    href: /guide/
 
 
 # Uncomment the items below and comment the items above in the `footer` list
