@@ -7,9 +7,9 @@ layout: page
 ---
 
 
-For questions or feedback about this website, email scinet@usda.gov
+For questions or feedback about this website, email scinet_vrsc@usda.gov
 
-For questions about the SCINet newsletter or to contribute content, email scinet@usda.gov
+For questions about the SCINet newsletter or to contribute content, email scinet_vrsc@usda.gov
 
 For questions about SCINet policy and development, contact the acting SCINet Program Manager, Stan Kosecki
 
