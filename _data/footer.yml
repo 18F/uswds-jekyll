@@ -61,5 +61,5 @@ contact:
   heading: Contact us
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: scinet@usda.gov
-      href: mailto:scinet@usda.gov
+    - text: scinet_vrsc@usda.gov
+      href: mailto:scinet_vrsc@usda.gov
