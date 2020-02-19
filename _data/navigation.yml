@@ -108,6 +108,8 @@ primary:
         href: /about/contact
   - text: Opportunities
     links:
+      - text: SAC Membership
+        href: /opportunities/SAC
       - text: Request a Workshop
         href: /opportunities/request-workshop
       - text: Postdocs
