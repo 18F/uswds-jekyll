@@ -3,7 +3,7 @@
 # Configuration for type of footer.
 # Footer types can be 'slim', 'medium', or 'big'.
 # https://designsystem.digital.gov/components/footers/
-type: medium
+type: big
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
@@ -37,7 +37,7 @@ heading: USDA Agricultural Research Service
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: /assets/img/USDAARSIdentityRGB3.png
+  - src: /assets/img/usda-symbol-rgb-color.png
     alt: USDA-ARS
     external: false
 
@@ -61,5 +61,5 @@ contact:
   heading: Contact us
 # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: placeholder@ars.usda.gov
-      href: mailto:placeholder@ars.usda.gov
+    - text: scinet_vrsc@usda.gov
+      href: mailto:scinet_vrsc@usda.gov

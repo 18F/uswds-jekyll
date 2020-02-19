@@ -2,7 +2,7 @@
 layout: page
 ---
 
-
+<!--
 <aside class="usa-layout-docs-sidenav sidenav {% if page.sticky_sidenav %}usa-sticky-sidenav{% endif %}">
   <ul class="usa-sidenav-list">
     {% for item in site.team %}
@@ -32,4 +32,15 @@ layout: page
   {% endif %}
   </p>
   {{ content }}
+</div>
+-->
+
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+  {% assign people = site.team | sort: 'page-position' %}
+    {% for person in people %}
+      <img src="{{ site.baseurl }}{{person.image}}" alt="" class="align-left">
+        <h3>{{person.name}}</h3> 
+        <h5>{{person.position}}</h5>
+        <br>
+    {% endfor %}
 </div>

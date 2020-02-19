@@ -79,6 +79,7 @@ $image-path: '../uswds/img';
 
 @import 'uswds/all';
 @import 'components/all';
+@import 'zenburn';
 
 {% for item in site.data.navigation.primary %}
   {% if item.class %}
@@ -91,3 +92,5 @@ $image-path: '../uswds/img';
 {% if site.site_width %}
   @import 'components/site-width';
 {% endif %}
+
+@import 'zenburn';

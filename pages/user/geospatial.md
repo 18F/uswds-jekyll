@@ -14,12 +14,13 @@ layout: page
 #    href: '#section-two'
 ---
 <br>
+By: Pat Clark and Rowan Gaffney
 
 ## Use Cases
 ---
 ### **Machine Learning**
 * Classification
-* Clustering: [Python Notebook Example](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
+* Clustering: [Python Notebook Example](/scinet-site/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
 * Regression
 
 ### **Modeling**
@@ -38,7 +39,7 @@ layout: page
 
 ## When to Use SCINet?
 ---
-Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are: 
+Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are:
 * CPU intensive workloads
 * High memory workloads
 
@@ -50,7 +51,8 @@ Additional considerations are:
 
 ## Tools / Software
 ---
-The following tools/software are currently available on SCINet.
+The following tools/software are currently available on SCINet. (See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for a full list of available software.)
+
 ### Geospatial Specific Software
 * [**ENVI**](https://www.harrisgeospatial.com/Software-Technology/ENVI) (5.5): Image analysis software (1 license available)
 * [**ESMF: Earth System Modeling Framework**]() (7.1): High-performance, flexible software infrastructure for building and coupling weather, climate, and related Earth science applications
@@ -66,8 +68,8 @@ The following tools/software are currently available on SCINet.
 
 ### Other
 * [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
-    * [User Tutorial](/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using:
-      * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif 
+    * [User Tutorial](/scinet-site/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using:
+      * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif
       * sbatch script: /project/geospatial_tutorials/data_science_nb_dask.sbatch
     *  Optionally, pull the container from dockerhub to local folder with:
 ```bash

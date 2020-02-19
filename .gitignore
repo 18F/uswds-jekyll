@@ -10,6 +10,9 @@ node_modules/
 .rvmrc
 
 # Jekyll stuff
+.jekyll-cache
 .jekyll-metadata
 _site
 .sass-cache
+
+.DS_store

@@ -31,15 +31,8 @@ There are two ways to do this.
 
 ## Assignments
 
-Person | section | url
--------|--------|---------------
-Erin Scully | Genomics | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/genomics.md
-Pat Clark| Geospatial | https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
-Rowan Gaffney | Geospatial |  https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/pages/user/geospatial.md
-Adam Rivers | Org Page |
-Adam Rivers | People |
-Adam Rivers | signup page |
-
+See this link for page assignments:
+https://usdagcc-my.sharepoint.com/:x:/g/personal/adam_rivers_usda_gov/EQP9eDqpsVxJqizxNxEesiEBXvcV4h0jym8xcopQ1q9biA
 
 
 
@@ -356,7 +349,7 @@ The default colors and fonts can be configured in the `_data/theme.yml` file.
 Before configuring your search you will need to create a search.gov account and set up your website
 with search.gov.
 
-After setting up your site on search.gov you can then add your `site handle` to the `config.yml`.
+After setting up your site on search.gov you can then add your `search_site_handle` to the `config.yml`.
 
 ### Analytics
 
