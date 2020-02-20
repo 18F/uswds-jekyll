@@ -83,9 +83,9 @@ primary:
         href: /support/vrsc/
       - text: FAQ's
         href: /support/faq/
-#      - text: User Forum
-#        href: https://try.discourse.org/
-#        external: true
+      - text: Basecamp User Forum 
+        href: https://3.basecamp.com/3625179/projects/5538276
+        external: true
       - text: Request Project Storage
         href: /support/request-storage
       - text: Request Software
