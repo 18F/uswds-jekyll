@@ -4,7 +4,10 @@ import itertools
 import csv
 
 
-# run module -t avail &2> applications.csv on Ceres to generate input data
+# run this command  on Ceres to generate input data
+# module -t --redirect avail > applications.csv
+
+# in directory with the applications.csv file run this script
 
 appdict = {}
 with open('applications.csv', 'r') as f:
