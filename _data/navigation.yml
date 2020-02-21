@@ -37,6 +37,8 @@ primary:
         href: /guide/packageinstall
       - text: CLC Workbench
         href: /guide/clc
+      - text: Jupyter
+        href: /guide/jupyter
       - text: Rstudio
         href: /guide/rstudio
       - text: Geneious
