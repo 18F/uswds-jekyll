@@ -40,17 +40,17 @@ Ceres Galaxy is public facing, so to access it you just type or paste “https:/
 
 You will be presented with the following screen:
 
-![galaxy-logging-on-1](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-1_1280.jpg)
+![screen shot of galaxy login screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-1_1280.jpg)
 
 Your user name should match the full email address you used when registering for your Ceres account and the password should match your Ceres password followed by the Google Authenticator code (Example: password123456). After logging in, the standard Galaxy home screen should appear as:
 
-![galaxy-logging-on-2](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-2_1280.jpg)
+![screen shot of galaxy home screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-2_1280.jpg)
 
 The "Tools" bar in the left window frame is where you can load, manipulate, and analyze data. The central window frame is where you will see options and parameters programs that you will be running. The right "History" frame shows all the imported files and programs you have run.  In order to begin, you need to upload data. Often data of general interest, such a genome sequences or annotations, are already available in Galaxy under the "Get Data" tab. More commonly, you will be using data that you have generated.
 
 You will import files into Galaxy by clicking on the "Tools" sub-heading "Get Data" and then "Upload File" under "Get Data".  The following screen should appear:
 
-![galaxy-logging-on-3](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-3_1280.jpg)
+![screen shot of galaxy tool to download or upload data](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-3_1280.jpg)
 
 Galaxy offers a method to import data directly from your computer as "Choose local file" button. Feel free to experiment with this direct method, but we find it can be slower and fickler than FTP transfer. To that end, we will mainly focus on uploading files using a file transfer program, such as Globus or Filezilla. If you click on "Choose FTP file", Galaxy will look in your FTP upload folder on Ceres (/galaxy/upload/ceres_email_ID) for files you have uploaded, so you must first upload your data to that folder.
 
@@ -68,7 +68,7 @@ NOTE: If you already have data on Ceres, simply copy files into your Galaxy fold
 
 Once your data files are in your Galaxy folder in your home directory on Ceres, go back to the “Upload File” screen and click “Choose FTP site”. You will see a screen like this:
 
-![galaxy-ftp-transfer-1](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-1_1280.jpg)
+![screen shot of galaxy tool to download data from ftp](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-1_1280.jpg)
 
 Select the file you want to import and hit “Start”.  
 
@@ -76,7 +76,7 @@ NOTE: IMPORTING THE DATA INTO GALAXY WILL REMOVE THE FILE THAT YOU MOVED VIA FTP
 
 You can close this window and the file will appear in your History as so:
 
-![galaxy-ftp-transfer-2](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-2_1280.jpg)
+![screen shot of galaxy home screen with history pane](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-2_1280.jpg)
 
 This is a generic way to import files and can be used regardless of file format.  You are now ready to process your data. 
 
@@ -112,14 +112,14 @@ If you need some consultation on your results or on parameter settings, it can b
 
 Briefly, if you are in the appropriate history, follow the clicks indicated in red (Settings gear icon, then Share or Publish):
 
-![galaxy-sharing-data-1](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-1_1280.jpg)
+![screen shot of galaxy home screen indicating to click the gear icon on the history pane](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-1_1280.jpg)
 
 
-![galaxy-sharing-data-2](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-2_1280.jpg)
+![screen shot indicating to click Share and Publish on the settings menu](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-2_1280.jpg)
 
 You will see:
 
-![galaxy-sharing-data-3](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-3_1280.jpg)
+![screen shot of the Share or Publish History 'Galaxy_Walkthru' screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-3_1280.jpg)
 
 You can manually enter the user name you wish to share with in the drop-down space. Be careful that the user-name is exact and appropriate capitalization is observed.  
 
@@ -133,4 +133,4 @@ We have loaded a core subset of all tools that are available on the public Galax
 
 Additionally, there is an option for galaxy install as well on the application to [request software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) installation by the VRSC:
 
-![galaxy-cant-find-a-tool-1](/scinet-site/assets/img/galaxy-user-guide/galaxy-cant-find-a-tool-1_640.jpg)
+![screen shot of the software request form](/scinet-site/assets/img/galaxy-user-guide/galaxy-cant-find-a-tool-1_640.jpg)
