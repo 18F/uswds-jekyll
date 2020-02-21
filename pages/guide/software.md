@@ -45,7 +45,7 @@ request that the software be installed as a module. Doing this requires an agenc
 
 ## Ceres command-line software managed by the Module system
 
-List updated  October 28, 2019. To generate this list run `module avail`.
+List updated  February 20, 2020. To generate this list run `module avail`.
 
 {% assign mydata=site.data.applications-parsed %}
 <table>

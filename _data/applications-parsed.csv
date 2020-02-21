@@ -5,6 +5,8 @@ abricate,0.5
 abyss,2.0.2
 ace,1
 admixture,1.3.0
+agbase,1.0.0
+agbase_interproscan,5.36-75.0_0
 allpathslg,52488
 alphaimpute,1.9.2
 amap,2.2
@@ -33,7 +35,7 @@ beopest,14.02
 bigscape,latest
 binutils,2.25
 bismark,0.16.2
-blast+,"2.2.31, 2.6.0"
+blast+,"2.2.31, 2.6.0, 2.9.0"
 blast,2.2.26
 blat,35
 blobtools,"1.0.1, 1.1.1"
@@ -46,12 +48,13 @@ braker1,1.9
 breakdancer,1.4.5
 busco,1.1b1
 busco2,2.0.1
-busco3,3.1.0
+busco3,"3.0.2, 3.1.0"
+busco4,4.0.2
 bwa,"0.7.12, 0.7.17"
 bzip2,1.0.6
 cDNA_cupcake,5.8.0
 cactus,2019.03.01--py27hdbcaa40_1
-canu,"latest, 1.6.0, 1.6, 1.7.0, 1.7.1_0828, 1.7.1_0830, 1.7.1, 1.8"
+canu,"latest, 1.6, 1.6.0, 1.7.0, 1.7.1_0828, 1.7.1_0830, 1.7.1, 1.8, 1.9"
 canu16,1.6.0
 cap3,3
 card,1.1.3
@@ -68,8 +71,9 @@ clustalomega,"1.2.3, 1.2.4"
 cmake,3.10.0
 cnvnator,v0.3.3
 cogent,2.1
+combine_gafs,1.0
 cometgazer,1.0
-concoct,"latest, 1.0.0--py36h88e4a8a_5"
+concoct,"latest, 1.0.0--py36h88e4a8a_5, 1.1.0--py36h88e4a8a_0"
 consensuscore,1.0.0
 crl_scripts,1.0
 cuda,"9.2, 10.0"
@@ -78,7 +82,8 @@ cufflinks,2.2.1
 curl,7.54.0
 cutadapt,1.16
 dastool,"1.1.0, 1.1.1"
-diamond,"0.8.29, 0.9.18"
+delly,0.8.1
+diamond,"0.8.29, 0.9.18, 0.9.28"
 discovar,52488
 discovardenovo,52488
 dna_3d,"1.0.0, 180922"
@@ -103,7 +108,7 @@ faststructure,"latest, 1.0"
 fasttreemp,2.1.8
 fastx,0.0.14
 flexbar,2.5.0
-flye,2.5
+flye,"2.5, 2.6"
 fraggenescan,1.3.0
 frc_align,1.0.0
 freebayes,"1.1.0, 1.2.0"
@@ -121,12 +126,14 @@ genomestrip,2.00.1685
 genometools,1.5.9
 genomicconsensus,1.0.0
 gensel,4.90
+get_homologues,3.2.3
 git,2.7.1
 glimmer3,3.02
 glpk,4.55
 gmap_gsnap,2017-03-17
 gmp,6.1.0
 gnuplot,4.6.7
+goanna,2.0
 google_cloud_sdk,211.0.0
 grib-api,1.26.1
 groopm,1.7.3
@@ -143,10 +150,12 @@ hdf5,"1.8.9, 1.8.16, 1.8.19"
 hgtector,0.2.1
 hisat2,2.0.5
 hmmer3,"3.1b2, 3.2.1"
+htslib,1.10
 htstream,1.0.0
 humann2,0.11.1
 idba,1.1.2
 infernal,1.1.2
+intarna,3.1.3--h176a8bc_0
 intel,2017.3
 interproscan,5.24-63.0
 iq_tree,"1.5.3, 1.5.5-omp, 1.6.8, 1.6.10, 1.6.12"
@@ -159,12 +168,13 @@ jellyfish,1.1.11
 jellyfish2,2.2.9
 jemalloc,4.0.4
 juicer,1.6.2
-kaiju,"1.5.0, 1.6.0, 1.6.3"
+kaiju,"1.5.0, 1.6.0, 1.6.3, 1.7.2"
 kallisto,0.42.4
 kentutils,302
 kineros2,2.0
+kobas,3.0.3_0
 kraken,"0.10.5-beta, 1.1"
-kraken2,2.0.7-beta
+kraken2,"2.0.7-beta, 2.0.8-beta"
 ksnp3,3.021
 ldt,7.2r
 libevent,2.0.22
@@ -182,7 +192,7 @@ maker,2.31.10
 maker_centos7,3.00.0-beta
 manta,1.1.1
 mariadb,10.1
-masurca,"3.1.3, 3.2.4, 3.3.1"
+masurca,"3.1.3, 3.2.4, 3.3.1, 3.3.6"
 matlab_runtime,R2017b
 mauve,2015-02-13
 maxbin,2.2.5
@@ -193,8 +203,9 @@ mecat,1.0.0
 mecat2,2019.03.04
 med-foes,0.6
 megahit,1.1.1
-megan,6.17.0
+megan,"6.17.0, 6.18.4"
 metabat,"0.32.4, 2.12.1"
+metabgc,"1.1.0, 1.2"
 metagenemark,3.26
 metaphian2,2.6.0
 metavelvet,1.2.02
@@ -203,7 +214,7 @@ methpipe,3.4.3
 metis,5.1.0
 minced,0.3.0
 miniasm,0.3
-miniconda,3.6
+miniconda,"3.6, 4.7.12"
 minimac4,latest
 minimap2,"2.6, 2.16"
 minpath,1.2
@@ -241,7 +252,7 @@ parallel,20151022
 parsnp,1.2
 pasa,2.2.0
 paup,4a152
-pb-assembly,"0.0.4--py27_6, 0.0.6"
+pb-assembly,"0.0.4--py27_6, 0.0.6, 0.0.8"
 pbsuite,15.8.24
 pbsuite_new,15.8.24
 pbzip2,1.1.13
@@ -254,6 +265,7 @@ picard,"64, 64"
 piggy,1.2
 pigz,2.3.3
 pilon,"1.22, 1.23"
+pindel,1.0
 plasflow,1.0.7
 platanus,1.2.4
 plink,"1.07, 1.9, 2.0_avx2, 2.0"
@@ -277,7 +289,7 @@ qiime,"latest, 1.9.1--np112py27_1"
 qiime2,"latest, 2.2017.12, 2.2018.2, 2019.4"
 qiime_vsearch,1.9.1
 qtlcart,1.17f
-quast,3.1
+quast,"3.1, 5.0.2"
 quickmerge,0.2
 r-gcc-9.1.0,3.6.1
 r-intel,3.6.1
@@ -290,7 +302,7 @@ refinem,1.7.3
 repeatmasker,"4.0.6, 4.0.7"
 repeatmodeler,1.0.8
 repeatscout,1.0.5
-rgi,"3.1.1, 4.0.3"
+rgi,"3.1.1, 4.0.3, 5.1.0--py36hed695b0_0, 5.1.0"
 rmblast,2.2.28
 roary,3.12.0
 rsem,"1.2.23, 1.3.0"
@@ -314,6 +326,7 @@ snpeff,4.3
 soapdenovo2,2.04
 soapdenovotrans,"1.03, 1.04"
 soapindel,2.1.7.17
+sortmerna,4.0.0
 spades,"3.7.1, 3.10.1, 3.11.1, 3.12.0"
 sparsehash,2.0.3
 speedseq,0.1.2
@@ -334,7 +347,7 @@ tabix,1.3.2
 tassel5,5.2.37
 tcltk,8.6.6
 tcoffee,11.00.8cbe486
-tmux,2.1
+tmux,"2.1, 3.0-rc5"
 toil_vg,"latest, 1.4.1, 1.6.0a1.dev132, 1.6.0a1"
 tophat2,2.1.0
 trf,4.09
