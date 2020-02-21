@@ -8,7 +8,7 @@ author: Kerrie Geil
 excerpt: In September 2019, approximately 40 ARS research leaders, administrators, and scientists met at the George Washington Carver Center in Beltsville, MD for a SCINet-funded conference focused on the use of artificial intelligence
 picture:
 ---
-![Beltsville 2019 Workshop](/scinet-site/assets/img/Workshop-Beltsville-09-2019_1280px.jpg)
+![Beltsville conference attendees posing on the stairs inside the USDA George Washington Carver Center](/scinet-site/assets/img/Workshop-Beltsville-09-2019_1280px.jpg)
 
 In September 2019, approximately 40 ARS research leaders, administrators, and scientists met at the George Washington Carver Center in Beltsville, MD for a SCINet-funded conference focused on the use of artificial intelligence (AI) in agriculture. The purpose of the event was to learn how AI is currently being used at ARS and to envision the harnessing of AI to transform agricultural research. Presentations included examples of how ARS researchers are using machine learning, deep learning, and AI recommendation systems to improve predictive analytics, decision making, and advance agricultural research. Attendees were also updated on SCINet resources available to ARS scientists. As a result of the conference, ARS researchers are hoping to publish a special issue in IT Professional magazine that highlights current and future use of AI methods in ARS research and the benefits to our stakeholders. 
 
