@@ -5,23 +5,24 @@ permalink: /guide/quickstart
 author:
 layout: page
 
-sidenav:
+sidenav: Quick Start
+subnav:
  - text: What is SCINet
-   href: '{{ thisPage.url }}/#what-is-scinet'
+   href: '#what-is-scinet'
  - text: Multi-Factor Authentication
-   href: '/guide/quickstart/#setup-multi-factor-authentication'
+   href: '#setup-multi-factor-authentication'
  - text: Windows 10 instructions
-   href: '{{ thisPage.url }}/#from-windows-10'
+   href: '#from-windows-10'
  - text: Older Windows Instructions
-   href: '/guide/quickstart/#from-older-windows-versions'
+   href: '#from-older-windows-versions'
  - text: Mac and Linux Instructions
-   href: '/guide/quickstart/#from-mac-and-linux'
+   href: '#from-mac-and-linux'
  - text: Storage
-   href: '/guide/quickstart/#data-storage'
+   href: '#data-storage'
  - text: Data Transfer
-   href: '/guide/quickstart/#data-transfer'
+   href: '#data-transfer'
  - text: Running Applications
-   href: '/guide/quickstart/#running-applications'
+   href: '#running-applications'
 
 ---
 
