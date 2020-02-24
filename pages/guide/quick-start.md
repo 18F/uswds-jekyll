@@ -5,28 +5,37 @@ permalink: /guide/quickstart
 author:
 layout: page
 
-sidenav: Quick Start
-subnav:
- - text: What is SCINet
-   href: '#what-is-scinet'
- - text: Multi-Factor Authentication
-   href: '#setup-multi-factor-authentication'
- - text: Windows 10 instructions
-   href: '#from-windows-10'
- - text: Older Windows Instructions
-   href: '#from-older-windows-versions'
- - text: Mac and Linux Instructions
-   href: '#from-mac-and-linux'
- - text: Storage
-   href: '#data-storage'
- - text: Data Transfer
-   href: '#data-transfer'
- - text: Running Applications
-   href: '#running-applications'
+#sidenav:
+# - text: What is SCINet
+#   href: '#what-is-scinet'
+# - text: Multi-Factor Authentication
+#   href: '#setup-multi-factor-authentication'
+# - text: Windows 10 Instructions
+#   href: '#from-windows-10'
+# - text: Older Windows Instructions
+#   href: '#from-older-windows-versions'
+# - text: Mac and Linux Instructions
+#   href: '#from-mac-and-linux'
+# - text: Storage
+#   href: '#data-storage'
+# - text: Data Transfer
+#   href: '#data-transfer'
+# - text: Running Software Applications
+#   href: '#running-applications'
 
 ---
 
 [No account? Signup here.](https://usda-ars-gbru.github.io/scinet-site/signup/){: .usa-button .usa-button-big }
+
+#### Quick Links to Content on this Page
+* [What is SCINet](#what-is-scinetn)
+* [Multi-Factor Authentication](#setup-multi-factor-authentication)
+* [Windows 10 Instructions](#from-windows-10)
+* [Older Windows Instructions](#from-older-windows-versions)
+* [Mac and Linux Instructions](#from-mac-and-linuxr)
+* [Storage](#data-storage)
+* [Using Software Applications](#using-the-software-applications-on-ceres)
+
 
 # What is SCINet
 
@@ -43,7 +52,7 @@ SCINet is the name for the USDA-ARS initiative for scientific computing. It cons
 For security, Services services require multifactor authentication. Here are [setup instructions](https://usda-ars-gbru.github.io/scinet-site/guide/multifactor/)
 
 
-# Clusters under SCINet
+# HPC Clusters on SCINet
 
 Cluster name | Location | Login Nodes | Transfer Nodes
 -------------|----------|-------------|---------------
@@ -67,7 +76,7 @@ However we recommend creating a config file as described in the instructions for
 1.	If it is the first time you are logging in, a new Google Authentication account will be created for you, connection will close and and you will receive an email with instructions. After setting GA account on your mobile device, issue again ssh command and enter the 6-digit code from the GA app when prompted for Verification Code. If system accepts the code it will prompt you for password. If you made a mistake when typing 6-digit code, and are prompted for Verification code once again, wait for the new code to be generated.
 2.	If your password has expired (new temporary passwords expire right away, and the passwords set by users expire after 90 days) you will be prompted to change your password. Note that when changing password, first you will need to enter the same password that you used to login, and only when prompted for a new password, you will enter a new one.
 
-## From older Windows versions
+## From Older Windows Versions
 
 1. Please download [Putty.exe](https://www.putty.org/)
 2. Start PuTTY
@@ -179,7 +188,7 @@ You can view the full set of options and their descriptions by typing `man scp`
 Other options for small transfer include [Cyberduck](https://cyberduck.io/) and [FileZilla](https://filezilla-project.org/).
 
 
-## Shipping hard drives
+## Shipping Hard Drives
 
 For extremelylarge data sets typcally < 1TB
 
