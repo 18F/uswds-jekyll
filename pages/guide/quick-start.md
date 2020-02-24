@@ -5,25 +5,23 @@ permalink: /guide/quickstart
 author:
 layout: page
 
-# sidenav:  if a side navigation bar is needed it can be specified in the _data/navigation.yml file
-
 sidenav:
  - text: What is SCINet
-   href: '#what-is-scinet'
+   href: '/scinet-site/guide/quickstart/#what-is-scinet'
  - text: Multi-Factor Authentication
-   href: '#setup-multi-factor-authentication'
+   href: '/scinet-site/guide/quickstart/#setup-multi-factor-authentication'
  - text: Windows 10 instructions
-   href: '#from-windows-10'
+   href: '/scinet-site/guide/quickstart/#from-windows-10'
  - text: Older Windows Instructions
-   href: '#from-older-windows-versions'
+   href: '/scinet-site/guide/quickstart/#from-older-windows-versions'
  - text: Mac and Linux Instructions
-   href: '#from-mac-and-linux'
+   href: '/scinet-site/guide/quickstart/#from-mac-and-linux'
  - text: Storage
-   href: '#data-storage'
+   href: '/scinet-site/guide/quickstart/#data-storage'
  - text: Data Transfer
-   href: '#data-transfer'
+   href: '/scinet-site/guide/quickstart/#data-transfer'
  - text: Running Applications
-   href: '#running-applications'
+   href: '/scinet-site/guide/quickstart/#running-applications'
 
 ---
 
@@ -61,7 +59,7 @@ All users should have received their credentials in an email.  If you have not, 
 
 Windows 10 that is up to date has an ssh client in the Windows Power Shell. To use that client, click on the Start button and start typing "power". Select Windows PowerShell from the list. In the PowerShell window you can simply type 
 ```
-`ssh <user.name>@login.scinet.science`
+ssh <user.name>@login.scinet.science
 ```
 However we recommend creating a config file as described in the instructions for Mac and Linux in the next section. To create config file in `C: > Users > (your account) > .ssh` on your Windows 10 computer use Notepad. Make sure to save file with no extension (simply `config` and not `config.txt`). If you don't want to use config file, you can manually type longer ssh command described in the instructions for Mac and Linux below. The `-o` option is not required but helps to keep ssh connection alive. After typing ssh command, enter your password  and athentication code.
 
