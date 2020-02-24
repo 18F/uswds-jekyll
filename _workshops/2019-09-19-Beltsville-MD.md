@@ -15,12 +15,12 @@ In September 2019, approximately 40 ARS research leaders, administrators, and sc
 **09/19/2019 - 09/20/2019   &middot;   Beltsville, MD   &middot;   lead: Deb Peters**
 
 
-[Conference Agenda](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Agenda.pdf)
+[Conference Agenda](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Agenda.pdf) (opens pdf in this browser window)
 
-[Participant List](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Participant-List.pdf)
+[Participant List](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Participant-List.pdf) (opens pdf in this browser window)
 
-[Poster List](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Poster-List.pdf)
+[Poster List](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Poster-List.pdf) (opens pdf in this browser window)
 
-[Conference Notes](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Notes.docx)
+[Conference Notes](/scinet-site/assets/pdf/workshops/2019-09-AI-Conference-Beltsville/Conference-Notes.docx) (downloads Microsoft Word document)
 
 Visit the [SCINet-funded Workshops Basecamp](https://3.basecamp.com/3625179/projects/13798928) for posters, presentation slides, and recordings of the presentations. ARS employees can contact Kerrie Geil for access to the Basecamp project.
