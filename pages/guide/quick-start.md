@@ -158,7 +158,7 @@ Directories in `/project` are not backed up, however users can copy important da
 
 # Data Transfer
 
-Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. If you have issues with transferring data, please contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov).
+Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. If you have issues with transferring data, please contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov?subject=data%20transfer%20enquiry).
 
 ## Globus Data Transfers
 
@@ -284,7 +284,7 @@ See the [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ce
 
 ## Batch Mode
 
-You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed SCINet: [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#batch-mode).
+You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#batch-mode).
 
 Here is an example of a batch job submission bash script (e.g. `blast_job.sh`, for running BLAST):
 
