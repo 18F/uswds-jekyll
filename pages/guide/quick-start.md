@@ -28,11 +28,11 @@ layout: page
 [No account? Signup here.](https://usda-ars-gbru.github.io/scinet-site/signup/){: .usa-button .usa-button-big }
 
 #### Quick Links to Content on this Page
-* [What is SCINet](#what-is-scinetn)
+* [What is SCINet](#what-is-scinet)
 * [Multi-Factor Authentication](#setup-multi-factor-authentication)
 * [Windows 10 Instructions](#from-windows-10)
 * [Older Windows Instructions](#from-older-windows-versions)
-* [Mac and Linux Instructions](#from-mac-and-linuxr)
+* [Mac and Linux Instructions](#from-mac-and-linux)
 * [Storage](#data-storage)
 * [Using Software Applications](#using-the-software-applications-on-ceres)
 
