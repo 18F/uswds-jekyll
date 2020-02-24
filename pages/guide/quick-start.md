@@ -7,11 +7,11 @@ layout: page
 
 sidenav:
  - text: What is SCINet
-   href: '/guide/quickstart/#what-is-scinet'
+   href: '{{ thisPage.url }}/#what-is-scinet'
  - text: Multi-Factor Authentication
    href: '/guide/quickstart/#setup-multi-factor-authentication'
  - text: Windows 10 instructions
-   href: '/guide/quickstart/#from-windows-10'
+   href: '{{ thisPage.url }}/#from-windows-10'
  - text: Older Windows Instructions
    href: '/guide/quickstart/#from-older-windows-versions'
  - text: Mac and Linux Instructions
