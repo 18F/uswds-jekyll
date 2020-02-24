@@ -7,21 +7,21 @@ layout: page
 
 sidenav:
  - text: What is SCINet
-   href: '/scinet-site/guide/quickstart/#what-is-scinet'
+   href: '/guide/quickstart/#what-is-scinet'
  - text: Multi-Factor Authentication
-   href: '/scinet-site/guide/quickstart/#setup-multi-factor-authentication'
+   href: '/guide/quickstart/#setup-multi-factor-authentication'
  - text: Windows 10 instructions
-   href: '/scinet-site/guide/quickstart/#from-windows-10'
+   href: '/guide/quickstart/#from-windows-10'
  - text: Older Windows Instructions
-   href: '/scinet-site/guide/quickstart/#from-older-windows-versions'
+   href: '/guide/quickstart/#from-older-windows-versions'
  - text: Mac and Linux Instructions
-   href: '/scinet-site/guide/quickstart/#from-mac-and-linux'
+   href: '/guide/quickstart/#from-mac-and-linux'
  - text: Storage
-   href: '/scinet-site/guide/quickstart/#data-storage'
+   href: '/guide/quickstart/#data-storage'
  - text: Data Transfer
-   href: '/scinet-site/guide/quickstart/#data-transfer'
+   href: '/guide/quickstart/#data-transfer'
  - text: Running Applications
-   href: '/scinet-site/guide/quickstart/#running-applications'
+   href: '/guide/quickstart/#running-applications'
 
 ---
 
