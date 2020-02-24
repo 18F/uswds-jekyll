@@ -27,18 +27,36 @@ layout: page
 
 [No account? Signup here.](https://usda-ars-gbru.github.io/scinet-site/signup/){: .usa-button .usa-button-big }
 
-#### Quick Links to Content on this Page
+#### Table of Contents
 * [What is SCINet](#what-is-scinet)
 * [Multi-Factor Authentication](#set-up-multi-factor-authentication)
-* [Windows 10 Instructions](#from-windows-10)
-* [Older Windows Instructions](#from-older-windows-versions)
-* [Mac and Linux Instructions](#from-mac-and-linux)
-* [Storage](#data-storage)
-* [Using Software Applications](#using-the-software-applications-on-ceres)
+* [HPC Clusters on SCINet](#hpc-clusters-on-scinet)
+* [Accessing SCINet](#accessing-scinet)
+  * [Windows 10 Instructions](#from-windows-10)
+  * [Older Windows Instructions](#from-older-windows-versions)
+  * [Mac and Linux Instructions](#from-mac-and-linux)
+* [Password Requirements](#password-requirements)
+* [Storage](#data-storage) 
+  * [Quotas](#quotas) 
+  * [Home Directories](#home-directories) 
+  * [Project Directories](#project-directories) 
+* [Data Transfer](#data-transfer)
+  * [Globus](#globus-data-transfers)
+  * [Small Files](#small-data-transfers)
+  * [Shipping Hard Drives](#shipping-hard-drives)
+* [Using Software Applications on Ceres](#using-the-software-applications-on-ceres)
+  * [Running Applications](#running-applications)
+  * [Login Nodes](#login-nodes)
+  * [Text Editors](#text-editors)
+* [Ceres Compute Nodes](#ceres-compute-nodes)
+  * [Interactive Mode](#interactive-mode)
+  * [Batch Mode](#batch-mode)
+  * [Job Script Generator](#job-script-generator)
+  * [Useful SLURM Commands](#useful-slurm-commands)
+* [Building Your Own Tools](#building-your-own-tools)
 
 
 # What is SCINet
-
 
 SCINet is the name for the USDA-ARS initiative for scientific computing. It consists of:
 
@@ -60,6 +78,7 @@ Ceres        |Ames, IA  |login.scinet.science | dtn-01.scinet.science
 TBD          |Starkville, MS| TBD |TBD
 TBD          |Beltsville, MD| TBD|TBD
 -------------|---|---|
+
 
 # Accessing SCINet
 
@@ -90,9 +109,7 @@ However we recommend creating a config file as described in the instructions for
 
 ![screenshot of Putty software](/scinet-site/assets/img/putty.png)
 
-
 ## From Mac and Linux
-
 
 Open a terminal window. We recommend setting up a config file to make logging in easier and use settings to provide a more stable connection.
 
@@ -118,6 +135,7 @@ Enter your password when prompted.
 
 1. If it is the first time you are logging in, a new Google Authentication account will be created for you, connection will close and and you will receive an email with instructions. After setting GA account on your mobile device, ssh again to login.scinet.science and enter the 6-digit code from the GA app when prompted for Verification Code. If system accepts the code it will prompt you for password. If you made a mistake when typing 6-digit code, and are prompted for Verification code once again, wait for the new code to be generated.
 2. If your password has expired (new temporary passwords expire right away, and the passwords set by users expire after 90 days) you will be prompted to change your password. Note that when changing password, first you will need to enter the same password that you used to login, and only when prompted for a new password, you will enter a new one.
+
 
 # Password Requirements
 
@@ -156,6 +174,7 @@ To request a new project directory see [Request Project Storage](https://usda-ar
 
 Directories in `/project` are not backed up, however users can copy important data from a directory in `/project` to a corresponding directory in `/KEEP` that is backed up nightly. It is not recommended to run jobs from a directory in `/KEEP`.
 
+
 # Data Transfer
 
 Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. If you have issues with transferring data, please contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov?subject=data%20transfer%20enquiry).
@@ -186,7 +205,6 @@ You can view the full set of options and their descriptions by typing `man scp`
 
 
 Other options for small transfer include [Cyberduck](https://cyberduck.io/) and [FileZilla](https://filezilla-project.org/).
-
 
 ## Shipping Hard Drives
 
@@ -242,7 +260,8 @@ If your job runs for longer than a few minutes then please use the interactive m
 The following are a few of the common text editors that are available on the system:
 `vi`, `emacs`, `nano`.
 
-## Compute Node Group: Ceres
+
+# Ceres Compute Nodes
 
 There are different queues or partitions on the Ceres cluster. You will specify a queue when submitting batch jobs.
 
@@ -264,7 +283,6 @@ scontrol show partitions
 ```
 
 In addition, at most 400 cores can be used by all simultaneously running jobs per user across all queues. Any additional jobs will be queued but won't start.
-
 
 ## Interactive Mode
 
@@ -321,6 +339,7 @@ Command	|Description	|Examples
 `scancel`	|Stop and remove jobs|	`scancel 1256` or `scancel -u jane.webb`
 `sinfo`	|Gives information about queues (partitions) or nodes	|`sinfo` or `sinfo -N -l`
 `sinfo` | gives information about state of nodes | `sinfo`
+
 
 # Building Your Own Tools
 
