@@ -29,7 +29,7 @@ layout: page
 
 #### Quick Links to Content on this Page
 * [What is SCINet](#what-is-scinet)
-* [Multi-Factor Authentication](#setup-multi-factor-authentication)
+* [Multi-Factor Authentication](#set-up-multi-factor-authentication)
 * [Windows 10 Instructions](#from-windows-10)
 * [Older Windows Instructions](#from-older-windows-versions)
 * [Mac and Linux Instructions](#from-mac-and-linux)
@@ -42,14 +42,14 @@ layout: page
 
 SCINet is the name for the USDA-ARS initiative for scientific computing. It consists of:
 
-1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020.
-2. Networking improvements across ARS.
-3. Support for Computing through the Virtual Research Support Core (email help), a user forum
-4. Training and workshop opportunities in multiple areas of applied agricultural computing.
+1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](https://usda-ars-gbru.github.io/scinet-site/about/compute) for more detail.
+2. Networking improvements across ARS. See [SCINet Networking](https://usda-ars-gbru.github.io/scinet-site/about/networking) for more detail.
+3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](https://usda-ars-gbru.github.io/scinet-site/support/vrsc/) for more detail.
+4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](https://usda-ars-gbru.github.io/scinet-site/opportunities/events) and [Past Workshops](https://usda-ars-gbru.github.io/scinet-site/workshops/) for more detail.
 
-# Setup Multi-Factor Authentication
+# Set Up Multi-Factor Authentication
 
-For security, Services services require multifactor authentication. Here are [setup instructions](https://usda-ars-gbru.github.io/scinet-site/guide/multifactor/)
+For security, SCINet requires multifactor authentication. See the setup instructions in the [Multi-Factor Authentication User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/multifactor/).
 
 
 # HPC Clusters on SCINet
@@ -63,7 +63,7 @@ TBD          |Beltsville, MD| TBD|TBD
 
 # Accessing SCINet
 
-All users should have received their credentials in an email.  If you have not, please email the Virtual Core at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=account%20access)
+All users should have received their login credentials in an email.  If you have not, please email the Virtual Research Support Core at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=account%20access)
 
 ## From Windows 10
 
@@ -150,7 +150,7 @@ Home directories are private, they are only accessible to you and the system adm
 
 Project directories are intended as high-level workspaces. This is where large datasets would reside, sub-projects can be created, and collaborative analysis results stored. Project directories are usually associated with ARS Research Projects.
 
-To request a new project directory users should fill out the [form](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) and provide Data Management Plan.
+To request a new project directory see [Request Project Storage](https://usda-ars-gbru.github.io/scinet-site/support/request-storage). A direct link to the form (eAuthentication required) which includes submitting a Data Management Plan:
 
 [Request a project directory](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx){: .usa-button }
 
