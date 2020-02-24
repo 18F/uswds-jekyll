@@ -8,7 +8,6 @@ layout: page
 # sidenav:  if a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
 sidenav:
-subnav:
  - text: What is SCINet
    href: '#what-is-scinet'
  - text: Multi-Factor Authentication
