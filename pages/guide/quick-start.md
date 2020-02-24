@@ -5,29 +5,30 @@ permalink: /guide/quickstart
 author:
 layout: page
 
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
+# sidenav:  if a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
 sidenav:
+subnav:
  - text: What is SCINet
-   href: '/guide/quickstart/#what-is-scinet'
+   href: '#what-is-scinet'
  - text: Multi-Factor Authentication
-   href: '/guide/quickstart/#setup-multi-factor-authentication'
+   href: '#setup-multi-factor-authentication'
  - text: Windows 10 instructions
-   href: '/guide/quickstart/#from-windows-10'
- - text: Older Windows instructions
-   href: '/guide/quickstart/#from-older-windows-versions'
- - text: Mac and Linux instructions
-   href: '/guide/quickstart/#from-mac-and-linux'
+   href: '#from-windows-10'
+ - text: Older Windows Instructions
+   href: '#from-older-windows-versions'
+ - text: Mac and Linux Instructions
+   href: '#from-mac-and-linux'
  - text: Storage
-   href: '/guide/quickstart/#data-storage'
+   href: '#data-storage'
  - text: Data Transfer
-   href: '/guide/quickstart/#data-transfer'
+   href: '#data-transfer'
  - text: Running Applications
-   href: '/guide/quickstart/#running-applications'
+   href: '#running-applications'
 
 ---
 
-[No account? Signup here.](signup){: .usa-button .usa-button-big }
+[No account? Signup here.](https://usda-ars-gbru.github.io/scinet-site/signup/){: .usa-button .usa-button-big }
 
 # What is SCINet
 
@@ -41,7 +42,7 @@ SCINet is the name for the USDA-ARS initiative for scientific computing. It cons
 
 # Setup Multi-Factor Authentication
 
-For security, Services services require multifactor authentication. Here are [setup instructions](/guide/multifactor)
+For security, Services services require multifactor authentication. Here are [setup instructions](https://usda-ars-gbru.github.io/scinet-site/guide/multifactor/)
 
 
 # Clusters under SCINet
@@ -59,7 +60,11 @@ All users should have received their credentials in an email.  If you have not, 
 
 ## From Windows 10
 
-Windows 10 that is up to date has an ssh client in the Windows Power Shell. To use that client, click on the Start button and start typing "power". Select Windows PowerShell from the list. In the PowerShell window you can simply type `ssh <user.name>@login.scinet.science`. However we recommend creating config file as described in the instructions for Mac and Linux in the next section. To create config file in `C: > Users > (your account) > .ssh` on your Windows 10 computer use Notepad. Make sure to save file with no extension (simply `config` and not `config.txt`). If you don't want to use config file, you can manually type longer ssh command described in the instructions for Mac and Linux below. The `-o` option is not required but helps to keep ssh connection alive. After typing ssh command, enter your password  and athentication code.
+Windows 10 that is up to date has an ssh client in the Windows Power Shell. To use that client, click on the Start button and start typing "power". Select Windows PowerShell from the list. In the PowerShell window you can simply type 
+```
+`ssh <user.name>@login.scinet.science`
+```
+However we recommend creating a config file as described in the instructions for Mac and Linux in the next section. To create config file in `C: > Users > (your account) > .ssh` on your Windows 10 computer use Notepad. Make sure to save file with no extension (simply `config` and not `config.txt`). If you don't want to use config file, you can manually type longer ssh command described in the instructions for Mac and Linux below. The `-o` option is not required but helps to keep ssh connection alive. After typing ssh command, enter your password  and athentication code.
 
 1.	If it is the first time you are logging in, a new Google Authentication account will be created for you, connection will close and and you will receive an email with instructions. After setting GA account on your mobile device, issue again ssh command and enter the 6-digit code from the GA app when prompted for Verification Code. If system accepts the code it will prompt you for password. If you made a mistake when typing 6-digit code, and are prompted for Verification code once again, wait for the new code to be generated.
 2.	If your password has expired (new temporary passwords expire right away, and the passwords set by users expire after 90 days) you will be prompted to change your password. Note that when changing password, first you will need to enter the same password that you used to login, and only when prompted for a new password, you will enter a new one.
@@ -76,7 +81,7 @@ Windows 10 that is up to date has an ssh client in the Windows Power Shell. To u
 8. Enter your password when prompted.  If it is the first time you are logging in, a new Google Authentication account will be created for you, connection will close and and you will receive an email with instructions. After setting GA account on your mobile device, ssh again to `login.scinet.science` and enter the 6-digit code from the GA app when prompted for Verification Code. If system accepts the code it will prompt you for password. If you made a mistake when typing 6-digit code, and are prompted for Verification code once again, wait for the new code to be generated.
 9. If your password has expired (new temporary passwords expire right away, and the passwords set by users expire after 90 days) you will be prompted to change your password. Note that when changing password, first you will need to enter the same password that you used to login, and only when prompted for a new password, you will enter a new one.
 
-![](/assets/img/putty.png)
+![screenshot of Putty software](/scinet-site/assets/img/putty.png)
 
 
 ## From Mac and Linux
@@ -148,7 +153,9 @@ Directories in `/project` are not backed up, however users can copy important da
 
 Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. If you have issues with transferring data, please contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov).
 
-We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found on Basecamp.
+## Globus Data Transfers
+
+We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/globus/).
 
 ## Small Data Transfers
 
@@ -171,25 +178,23 @@ scp -r sequence_files sally.doe@login.scinet.science:~
 You can view the full set of options and their descriptions by typing `man scp`
 
 
-Other options for small transfer include Cyberduck (https://cyberduck.io/) and FileZilla (https://filezilla-project.org/).
+Other options for small transfer include [Cyberduck](https://cyberduck.io/) and [FileZilla](https://filezilla-project.org/).
 
-
-## Globus Data Transfers
 
 ## Shipping hard drives
 
 For extremelylarge data sets typcally < 1TB
 
-Large data transfers will be facilitated by the Virtual Core and involves users shipping hard disk drives with their data on it to the Virtual Core. The Virtual Core with then upload the data directly and put in in a project directory specified by the user.
+Large data transfers will be facilitated by the Virtual Research Support Core (VRSC) and involves users shipping hard disk drives with their data on it to the VRSC. The VRSC will then upload the data directly and put it in a project directory specified by the user.
 
-If you have over 50 GB of data that needs to be transferred onto SCINet for analysis, please submit a request to the Virtual Core requesting a data transfer with the following information:
+If you have over 50 GB of data that needs to be transferred onto SCINet for analysis, please submit a request by email to the VRSC requesting a data transfer with the following information:
 
 * Amount of data
 * Target project directory
-* Type of filesystem the data is coming from (Window, Mac, Linux)
+* Type of filesystem the data is coming from (Windows, Mac, Linux)
 * If the project directory does not already exist please follow the instructions above for requesting a project directory.
 
-Once the project directory is set up then copy the data onto an external drive (not a USB drive). You are responsible for purchasing your own drive(s), and any type of drive is fine but we strongly recommend NOT to use Western Digital external drives. Disks must be EXT4, NTFS, HFS, XFS, or FAT formatted
+Once the project directory is set up then copy the data onto an external drive (not a USB drive). You are responsible for purchasing your own drive(s) and any type of drive is fine but we strongly recommend NOT to use Western Digital external drives. Disks must be EXT4, NTFS, HFS, XFS, or FAT formatted.
 
 Ship the disk to the following address and send us the tracking information:
 
@@ -203,11 +208,11 @@ PLEASE INCLUDE A RETURN SHIPPING LABEL IF YOU WANT THE DRIVE(S) RETURNED.
 Please also include a printout of the email containing the transfer request sent to VRSC. Once we receive the data we will copy it over to the appropriate project directory and notify you once it is complete. If you provided a return shipping label we will send the drive(s) back to you.
 
 
-# Using the Applications on Ceres
+# Using the Software Applications on Ceres
 
-Many applications are available as modules ([See list here](/guide/software)) or type `module avail` to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to be easily managed.
+Many software applications are available as modules ([see Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software)) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
 
-The module command is used to work with the different application modules. The following table lists some of the most common functions of the module command:
+The `module` command is used to work with the different software application modules. The following table lists some of the most common functions of the `module` command:
 
 Command |	Description
 ---|---
@@ -223,7 +228,7 @@ Command |	Description
 Ceres uses SLURM as the job scheduler. It is similar to SGE and PBS.
 
 ## Login Nodes
-Login node is meant to be used for setting up analysis and tasks that are not computationally or memory intensive.
+The login node is meant to be used for setting up analysis and tasks that are not computationally or memory intensive.
 If your job runs for longer than a few minutes then please use the interactive mode or batch mode described below.
 
 ## Text Editors
@@ -232,7 +237,7 @@ The following are a few of the common text editors that are available on the sys
 
 ## Compute Node Group: Ceres
 
-There are different queues or partitions on the Ceres cluster, you will specify a queue when submitting batch jobs.
+There are different queues or partitions on the Ceres cluster. You will specify a queue when submitting batch jobs.
 
 Main partitions are listed in the table below:
 
@@ -258,13 +263,21 @@ In addition, at most 400 cores can be used by all simultaneously running jobs pe
 
 From the login node, request an interactive session by typing `salloc`
 
-Now you are running interactively on a compute node. You can view and load modules for the applications you need, and execute applications from the command-line.
+Now you are running interactively on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). 
+
+You can view and load modules for the applications you need, and execute applications from the command-line.
 
 When complete, return to the login node by typing `exit`
 
+For more fine grained control over the interactive environment you can use the srun command. Issue the srun command from a login node. Command syntax is:
+
+`srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l` 
+
+See the [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
+
 ## Batch Mode
 
-You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed SCINet: Ceres User Guide.
+You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed SCINet: [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#batch-mode).
 
 Here is an example of a batch job submission bash script (e.g. `blast_job.sh`, for running BLAST):
 
@@ -289,7 +302,7 @@ You would submit the script by typing: `sbatch blast_job.sh`
 
 ## Job Script Generator
 
-You can also use Ceres Job Script Generator to generate job scripts.
+You can also use Ceres Job Script Generator to generate job scripts (eAuthentication Required).
 
 [Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx){: .usa-button }
 
