@@ -108,7 +108,7 @@ Domain | Software
 --- | ---
 Operating System	| CentOS
 Scheduler	| SLURM
-Software | For the full list of installed scientific software refer to the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) or issue the `module spider` command on the Ceres login node.  
+Software | For the full list of installed scientific software refer to the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) page or issue the  `module spider`  command on the Ceres login node.  
 Modeling	| BeoPEST, EPIC, KINEROS2, MED-FOES, SWAT, h2o
 Compilers | GNU (C, C++, Fortran), clang, llvm, Intel Parallel Studio
 Languages | Java 6, Java 7, Java 8, Python, Python 3, R, Perl 5, Julia, Node
@@ -130,7 +130,7 @@ For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see t
 
 Logins to the Ceres cluster require the use of multi-factor authentication (MFA). Ceres uses Google Authenticator (GA) for MFA. On your first attempt to ssh to the cluster a GA code will be created for you and an email with MFA login instructions will be sent to the email you specified when requesting SCINet account.
 
-When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 90 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command `passwd` on the Ceres login node. When prompted for the current password, users need to enter the old (possibly expired) password.
+When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 90 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command  `passwd`  on the Ceres login node. When prompted for the current password, users need to enter the old (possibly expired) password.
 
 If you have forgotten your login password, please email the VRSC: [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=forgot%20login%20password)
 
@@ -138,7 +138,7 @@ When you log in to SCINet HPC you will be on the Ceres login node. The login nod
 
 ## File Transfers
 * Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory (see section [Quotas on Home and Project Directories](#quotas-on-home-and-project-directories))
-* If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below ([Large Data Transfers](#large-data-transfers)).
+* If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below (section [Large Data Transfers](#large-data-transfers)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
 ### Globus Online Data Transfers
@@ -172,7 +172,7 @@ $ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFil
 $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
 ```
 
-To transfer an entire directory, you can use the `-r` option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
+To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
 $ scp -r <PathToSourceFolderOnLocalResource> <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>
@@ -235,7 +235,7 @@ Command | Description
 --- | ---
 `module list` | List modules currently loaded in your environment
 `module avail` / `module spider` | List available modules
-`module unload \<module name>` | Remove \<module name> from the environment
+`module unload <module name>` | Remove \<module name> from the environment
 `module load <module name>` | Load \<module name> into the environment
 `module help <module name>`	| Provide information about \<module name>
 `module swap <module one> <module two>` | Replace \<module one> with \<module two> in the environment
@@ -265,7 +265,7 @@ should display something like
 /software/7/apps/blast/2.2.26/bin/blastall
 ```
 
-If you would like to find out more about a particular software module, you can use the `module help` command, e.g.
+If you would like to find out more about a particular software module, you can use the  `module help`  command, e.g.
 ```
 $ module help blast
 ```
@@ -295,7 +295,7 @@ The last command should display
 /software/7/apps/blast+/2.2.31/bin/blastp
 ```
 
-Another example. If you want to compile parallel C, C++, or Fortran code and wanted to use OpenMPI instead of MPICH which is currently loaded in your environment, you can use `module swap` or `module unload`:
+Another example. If you want to compile parallel C, C++, or Fortran code and wanted to use OpenMPI instead of MPICH which is currently loaded in your environment, you can use  `module swap`  or  `module unload`:
 ```
 $ module swap mpich openmpi
 ```
@@ -334,7 +334,7 @@ At login, current usage and quotas are displayed for all groups that a user belo
 $ my_quotas
 ```
 
-If users need more storage than what is available in the home directory, they should [request a project directory](https://usda-ars-gbru.github.io/scinet-site/support/request-storage). Several users may work on the same project and share the same project directory.
+If users need more storage than what is available in the home directory, they should visit the [Request a Project Storage](https://usda-ars-gbru.github.io/scinet-site/support/request-storage) page. Several users may work on the same project and share the same project directory.
 
 Project directories are located in the 1.8PB BeeGFS space that is mounted on all nodes as /project. Directories in /project are not backed up, however users can copy important data from a directory in /project to a corresponding directory in /KEEP in ZFS space that is backed up nightly using zsend. **It is not recommended to run jobs from a directory in /KEEP.**
 
@@ -364,11 +364,11 @@ NOTE: Files created in the shared_files folder by default are accessible to ever
 
 # Running Application Jobs on Compute Nodes
 
-Users will run their applications on the cluster in either interactive mode or in batch mode. Interactive mode (`salloc` or `srun` command) is familiar to anyone using the command line: the user specifies an application by name and various arguments, hits Enter, and the application runs. However, in interactive mode on a cluster the user is automatically switched from using a login node to using a compute node. This keeps all the intense computation off the login nodes, so that login nodes can have all the resources necessary for managing the cluster. You should always use interactive mode when you are running your application but not using batch mode. **Please do not run your applications on the login nodes, use the interactive mode.**
+Users will run their applications on the cluster in either interactive mode or in batch mode. Interactive mode ( `salloc`  or  `srun`  command) is familiar to anyone using the command line: the user specifies an application by name and various arguments, hits Enter, and the application runs. However, in interactive mode on a cluster the user is automatically switched from using a login node to using a compute node. This keeps all the intense computation off the login nodes, so that login nodes can have all the resources necessary for managing the cluster. You should always use interactive mode when you are running your application but not using batch mode. **Please do not run your applications on the login nodes, use the interactive mode.**
 
-Interactive mode should only be used when interaction is required, for example when preparing or debugging a pipeline. Otherwise the batch mode should be used. Batch mode requires the user to write a short job script (see examples at section [Batch Mode](#batch-mode) or use the [Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx)(eAuthentication required). 
+Interactive mode should only be used when interaction is required, for example when preparing or debugging a pipeline. Otherwise the batch mode should be used. Batch mode requires the user to write a short job script (see examples at section [Batch Mode](#batch-mode)) or use the [Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx)(eAuthentication required). 
 
-Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit interactive and batch jobs to the compute nodes. Requested resources can be specified either within the job script or using options with the `salloc`, `srun`, or `sbatch` commands.
+Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit interactive and batch jobs to the compute nodes. Requested resources can be specified either within the job script or using options with the  `salloc`,  `srun`, or  `sbatch`  commands.
 
 ## Partitions or Queues
 
@@ -378,7 +378,7 @@ Name | Nodes | Maximum Simulation Time | Default Memory per Core | Function
 --- | --- |--- |--- |---
 short	| 55	| 48 hours	| 3100 MB	| short simulation queue (default)
 medium	| 25	| 7 days	| 3100 MB	| medium length simulation queue
-long	| 15	| 21 days	| 3100 MB	long simulation queue
+long	| 15	| 21 days	| 3100 MB	| long simulation queue
 long60	| 2	| 60 days	| 3100 MB	| extra long simulation queue
 mem	| 5	| 7 days	| 12750 MB	| large memory queue
 longmem	| 1	| 1000 hours	| 12750 MB	| long simulation large memory queue
@@ -398,22 +398,22 @@ $ scontrol show partitions
 
 ### Allocation of Cores
 
-On Ceres hyper-threading is turned on. That means that each physical core on a node appears as two separate processors to the operating system and can run two threads. The smallest unit of allocation per job is a single hyper-threaded core, or 2 logical cores, corresponding to specifying `-n 2` on `salloc/srun/sbatch` commands (i.e. jobs cannot access a single hyper-thread within a core). If a job requests an odd number of cores (`-n 1, 3`...) SLURM will automatically allocate the next larger even number of cores.
+On Ceres hyper-threading is turned on. That means that each physical core on a node appears as two separate processors to the operating system and can run two threads. The smallest unit of allocation per job is a single hyper-threaded core, or 2 logical cores, corresponding to specifying  `-n 2`  on  `salloc/srun/sbatch`  commands (i.e. jobs cannot access a single hyper-thread within a core). If a job requests an odd number of cores (`-n 1, -n 3,`...) SLURM will automatically allocate the next larger even number of cores.
 
 ### Allocation of Memory
 
-Each allocated core comes with a default amount of memory listed in the table above for different SLURM partitions. If a job attempts to use more memory than what was allocated to a job it will be killed by SLURM. In order to make more memory available to a given job, users can either request the appropriate total number of cores or request more memory per core via the `--mem-per-cpu` flag to `salloc/srun/sbatch` commands. 
+Each allocated core comes with a default amount of memory listed in the table above for different SLURM partitions. If a job attempts to use more memory than what was allocated to a job it will be killed by SLURM. In order to make more memory available to a given job, users can either request the appropriate total number of cores or request more memory per core via the  `--mem-per-cpu`  flag to  `salloc/srun/sbatch`  commands. 
 
-For example, to support a job that requires 60GB of memory in the short partition, a user could request 20 logical cores (`-n 20`) with their default allocation of 3GB or 2 logical cores with 30GB of memory per core via `--mem-per-cpu 30GB`. Please note that a single hyper-threaded core (2 logical cores) is the smallest unit of allocation. Of course, any other mix of memory per core and total number of cores totaling 60GB would work as well depending on the CPU characteristics of the underlying simulation software.
+For example, to support a job that requires 60GB of memory in the short partition, a user could request 20 logical cores (`-n 20`) with their default allocation of 3GB or 2 logical cores with 30GB of memory per core via  `--mem-per-cpu 30GB`. Please note that a single hyper-threaded core (2 logical cores) is the smallest unit of allocation. Of course, any other mix of memory per core and total number of cores totaling 60GB would work as well depending on the CPU characteristics of the underlying simulation software.
 
 ### Allocation of Time
 
-When submitting interactive or batch job users can specify time limit by using the `-t` (`–time=`) option on `salloc/srun/sbatch` commands. If the time limit is not explicitly specified, it will be set to the partition's Maximum Simulation Time (see the table above).
+When submitting interactive or batch job users can specify time limit by using the  `-t`  (`–time=`) option on  `salloc/srun/sbatch`  commands. If the time limit is not explicitly specified, it will be set to the partition's Maximum Simulation Time (see the table above).
 
 
 ## Interactive Mode
 
-A user can request an interactive session on Ceres using SLURM's `srun` or `salloc` commands. The simplest way to request an interactive job is by entering the command `salloc`:
+A user can request an interactive session on Ceres using SLURM's  `srun`  or  `salloc`  commands. The simplest way to request an interactive job is by entering the command  `salloc`:
 ```
 $ salloc
 ```
@@ -422,7 +422,7 @@ which will place you in an interactive shell. This interactive shell has a durat
 
 To prevent users from requesting interactive nodes and then not using them, there is an inactivity timeout set up. If there is no command running on a node for an hour and a half, the job will be terminated. Otherwise the interactive job is terminated when the user types exit or the allocated time runs out.
 
-For more fine grained control over the interactive environment you can use the `srun` command. Issue the `srun` command from a login node. Command syntax is:
+For more fine grained control over the interactive environment you can use the  `srun`  command. Issue the  `srun`  command from a login node. Command syntax is:
 ```
 $ srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l
 ```
@@ -473,15 +473,15 @@ $ exit
 
 SLURM allows you to precisely choose the allocation of compute cores across nodes. Below are a number of examples that show different ways to allocate an 8 core job across the Ceres cluster
 
-`salloc/srun/sbatch` options | core distribution across nodes
+`salloc/srun/sbatch`  options | core distribution across nodes
 --- | ---
 `-n 8`                       | pick any available cores across the cluster (may be on several nodes or not)
 `-n 8 -N 8`                  | spread 8 cores across 8 distinct nodes (i.e. one core per node)
-`-n 8 --ntasks-per-node=1`   | same as `-n 8 -N 8`
+`-n 8 --ntasks-per-node=1`   | same as  `-n 8 -N 8`
 `-n 8 -N 4`                 |  request 8 cores on 4 nodes (however the spread might be uneven, i.e. one node could end up with 5 cores and one core each for the remaining 3 nodes)
 `-n 8 --ntasks-per-node=2`  |  request 8 cores on 4 nodes with 2 cores per node
 `-n 8 -N 1`                  | request 8 cores on a single node
-`-n 8 --ntasks-per-node=8`   | same as `-n 8 -N 1`
+`-n 8 --ntasks-per-node=8`   | same as  `-n 8 -N 1`
 
 ## Batch Mode
 ### Serial Job
@@ -584,14 +584,14 @@ $ sbatch RAxMLjob.sh
 
 Command | Description | Example
 --- | --- | ---
-`squeue`	| Gives information about jobs	| `squeue` or `squeue -u jane.webb`
-`scancel`	| Stop and remove jobs	| `scancel <job id>` or `scancel -u jane.webb`
-`sinfo`	| Gives information about queues (partitions) or nodes	| `sinfo` or `sinfo -N -l`
-`scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job <job id>` or `scontrol show partition <partition name>` or `scontrol show nodes`
+`squeue`	| Gives information about jobs	| `squeue`  or  `squeue -u jane.webb`
+`scancel`	| Stop and remove jobs	| `scancel <job id>`  or  `scancel -u jane.webb`
+`sinfo`	| Gives information about queues (partitions) or nodes	| `sinfo`  or  `sinfo -N -l`
+`scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job <job id>`  or  `scontrol show partition <partition name>`  or  `scontrol show nodes`
 
 ## Local Scratch Space on Large Memory Nodes
 
-Each of the large memory nodes (available via the *mem* queue) has ~9 TB of fast local temporary data file storage space at /local/scratch supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. Thus, if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to temporarily stage all your input data to /local/scratch at the beginning of your job using `$TMPDIR` variable (which is unique for each job), then do all your computation on /local/scratch. There is no need to remove your local data at the end of your job, since SLURM will automatically remove `$TMPDIR`. This could be accomplished by adding the following commands to your SLURM script (make sure to adjust the paths to your data appropriately). We assume that the data is in /projects/my_project/data and you should replace the path with your data path.
+Each of the large memory nodes (available via the *mem* queue) has ~9 TB of fast local temporary data file storage space at /local/scratch supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. Thus, if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to temporarily stage all your input data to /local/scratch at the beginning of your job using  `$TMPDIR`  variable (which is unique for each job), then do all your computation on /local/scratch. There is no need to remove your local data at the end of your job, since SLURM will automatically remove  `$TMPDIR`. This could be accomplished by adding the following commands to your SLURM script (make sure to adjust the paths to your data appropriately). We assume that the data is in /projects/my_project/data and you should replace the path with your data path.
 ```bash
 #!/bin/bash
 #SBATCH --job-name="my sequence assembly"   #name of the job submitted
@@ -624,7 +624,7 @@ The Ceres login node provides access to a wide variety of scientific software to
 
 If users would like to compile their own software with GNU compilers, they will need to load the gcc module. It is recommended to **compile on compute nodes and not on the login node**. However, before embarking on compiling their own software packages we strongly encourage users to contact the VRSC team to ensure that their required tool(s) might not be better distributed as a shared package within the official software modules tree. All new software needs to be approved by SOC committee before being centrally installed on the system. To request a new software package to be installed, visit the [Request Software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) page.
 
-The popular R, Perl, and Python languages have many packages/modules available. Some of the packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. To see the list of installed packages, visit the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) or use `module help \<module_name>` command. If users need packages that are not available, they can either request VRSC to add packages, or they can download and install packages in their home/project directories. We recommend installing packages in the project directories since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. See the [Package Installation Guide](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall/) for instructions and examples on how to add packages/modules for these languages.
+The popular R, Perl, and Python languages have many packages/modules available. Some of the packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. To see the list of installed packages, visit the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) page or use  `module help <module_name>`  command. If users need packages that are not available, they can either request VRSC to add packages, or they can download and install packages in their home/project directories. We recommend installing packages in the project directories since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. See the [Package Installation Guide](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall/) for instructions and examples on how to add packages/modules for these languages.
 
 Some software packages may not be available for the version of Linux running on the Ceres cluster. In this case users may want to run containers. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so users don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use. See the document [Singularity on Ceres](https://public.3.basecamp.com/p/eDqAxrYQiFNuMcdjUMMEAiQJ) for instructions and examples on how to download and run Docker and Singularity containers on Ceres.
 
