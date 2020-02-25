@@ -122,8 +122,9 @@ For more information on available software and software installs refer to sectio
 ## Logging in to SCINet
 
 Users can connect directly to Ceres using an ssh client. ssh is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell):
-
-```$ ssh <your_username>@login.scinet.science```
+```
+$ ssh <your_username>@login.scinet.science
+```
 
 For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart))
 
@@ -137,7 +138,7 @@ When you log in to SCINet HPC you will be on the Ceres login node. The login nod
 
 ## File Transfers
 * Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory (see section [Quotas on Home and Project Directories](#quotas-on-home-and-project-directories))
-* If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Core to ingress data from a hard drive as described below ([Large Data Transfers](#large-data-transfers)).
+* If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below ([Large Data Transfers](#large-data-transfers)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
 ### Globus Online Data Transfers
@@ -150,32 +151,38 @@ Like ssh, scp is usually available on any Linux or MacOS machine, and on Microso
 To transfer data when logged in to your local machine (the destination filenames are optional):
 
 1. Transfer To SCINet:
-
-```$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]```
+```
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+```
 
 2. Transfer From SCINet:
-
-```$ scp <Username>@login.scinet.science:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]```
-
+```
+$ scp <Username>@login.scinet.science:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+```
 
 To transfer data when logged in to SCINet (the destination filenames are optional):
 
 1. Transfer To SCINet:
-
-```$ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFilename>  ~/<PathToDestinationFolderOnSCINet>/[<LocalFilename>]```
+```
+$ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFilename>  ~/<PathToDestinationFolderOnSCINet>/[<LocalFilename>]
+```
 
 2. Transfer From SCINet:
+```
+$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
+```
 
-```$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]```
+To transfer an entire directory, you can use the `-r` option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
-To transfer an entire directory, you can use the `-r` option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred. E.g.
-
-```$ scp -r <PathToSourceFolderOnLocalResource> <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>```
+```
+$ scp -r <PathToSourceFolderOnLocalResource> <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>
+```
 
 You can type the following to view the full set of options and their descriptions:
 
-```$ man scp```
-
+```
+$ man scp
+```
 
 ### Other Ways to Transfer Data
 
@@ -186,7 +193,6 @@ Other programs that have a GUI to transfer data are:
 * FileZilla - [https://filezilla-project.org/](https://filezilla-project.org/)
 
 Cyberduck supports multiple protocols (including Amazon S3, iRODS, and Google Drive) and is more secure than FileZilla.
-
 
 ### Large Data Transfers
 
@@ -208,9 +214,9 @@ You can send hard drives containing data to the VRSC if you have very large amou
 
 3. Ship the disk to the following address and send the tracking information to scinet_vrsc@USDA.GOV.
 
-   Nathan Humeston
-   74 Durham
-   Iowa State University
+   Nathan Humeston<br>
+   74 Durham<br>
+   Iowa State University<br>
    Ames, IA 50011  
 
 4. Once we receive the data we will copy it over to the appropriate project directory and notify you once it is complete.
@@ -230,21 +236,24 @@ Command | Description
 `module list` | List modules currently loaded in your environment
 `module avail` / `module spider` | List available modules
 `module unload \<module name>` | Remove \<module name> from the environment
-`module load \<module name>` | Load \<module name> into the environment
-`module help \<module name>`	| Provide information about \<module name>
-`module swap \<module one> \<module two>` | Replace \<module one> with \<module two> in the environment
+`module load <module name>` | Load \<module name> into the environment
+`module help <module name>`	| Provide information about \<module name>
+`module swap <module one> <module two>` | Replace \<module one> with \<module two> in the environment
 
 For example to use NCBI-BLAST installed on Ceres, follow these steps:
-
-```$ module load blast+```
+```
+$ module load blast+
+```
 
 This will load latest version of NCBI-BLAST into your environment and you can use all commands that come with this installation. To see the path to the loaded software and the version type
-
-```$ which blastp```
+```
+$ which blastp
+```
 
 which should display something like:
-
-```/software/7/apps/blast+/2.9.0/bin/blastp```
+```
+/software/7/apps/blast+/2.9.0/bin/blastp
+```
 
 If you want to load legacy NCBI-BLAST on Ceres, follow the example below:
 ```
@@ -252,11 +261,14 @@ $ module load blast
 $ which blastall
 ```
 should display something like 
-```/software/7/apps/blast/2.2.26/bin/blastall```
+```
+/software/7/apps/blast/2.2.26/bin/blastall
+```
 
 If you would like to find out more about a particular software module, you can use the `module help` command, e.g.
-
-```$ module help blast```
+```
+$ module help blast
+```
 
 will output basic information about the blast package, including an URL to the package website.
 
@@ -265,27 +277,29 @@ will output basic information about the blast package, including an URL to the p
 You must remove some modules before loading others, to switch versions or dependencies.
 
 For example, if you have already loaded a blast+ module using the "module load blast+" command to use latest version of NCBI-BLAST, but later you want to load a previous version of blast+ (2.2.30), then follow the steps below:
-
-```$ module swap blast+ blast+/2.2.31```
-
+```
+$ module swap blast+ blast+/2.2.31
+```
 or:
 
 ```
 $ module unload blast+
 $ module load blast+/2.2.31
 ```
-
-```$ which blastp```
+```
+$ which blastp
+```
 
 The last command should display 
-```/software/7/apps/blast+/2.2.31/bin/blastp```
+```
+/software/7/apps/blast+/2.2.31/bin/blastp
+```
 
-Another example. If you want to compile parallel C, C++, or Fortran code and wanted to use OpenMPI instead of MPICH which is currently loaded in your environment, you can use “module swap” or “module unload”:
-
-```$ module swap mpich openmpi```
-
+Another example. If you want to compile parallel C, C++, or Fortran code and wanted to use OpenMPI instead of MPICH which is currently loaded in your environment, you can use `module swap` or `module unload`:
+```
+$ module swap mpich openmpi
+```
 or:
-
 ```
 $ module unload mpich
 $ module load openmpi
@@ -296,39 +310,45 @@ Some modules depend on other modules, so additional modules may be loaded or unl
 $ module load beast
 $ which java
 ```
-should display something like
-```/software/7/apps/java/1.8.0_121/bin/java ```
+should display something like:
+```
+/software/7/apps/java/1.8.0_121/bin/java
+```
 
 If you find yourself regularly using a set of module commands, you may want to add these to your configuration files (.bashrc for Bash users, .cshrc for C shell users).
 
 ## Module: command not found
 
 The error message module: command not found is sometimes encountered when switching from one shell to another or attempting to run the module command from within a shell script or batch job. The reason that the module command may not be inherited as expected is that it is defined as a function for your login shell. If you encounter this error execute the following from the command line (interactive shells) or add to your shell script:
+```
+$ source /etc/profile.d/modules.sh
+```
 
-```$ source /etc/profile.d/modules.sh```
 
 # Quotas on Home and Project Directories
 
 Each file on a Linux system is associated with one user and one group. On Ceres, files in a user's home directory by default are associated with the user's primary group, which has the same name as user's SCINet account. Files in the project directories by default are associated with the project groups. Group quotas that control the amount of data stored are enabled on both home and project directories.
 
 At login, current usage and quotas are displayed for all groups that a user belongs to. The `my_quotas` command provides the same output:
-
-```$ my_quotas```
+```
+$ my_quotas
+```
 
 If users need more storage than what is available in the home directory, they should [request a project directory](https://usda-ars-gbru.github.io/scinet-site/support/request-storage). Several users may work on the same project and share the same project directory.
 
 Project directories are located in the 1.8PB BeeGFS space that is mounted on all nodes as /project. Directories in /project are not backed up, however users can copy important data from a directory in /project to a corresponding directory in /KEEP in ZFS space that is backed up nightly using zsend. **It is not recommended to run jobs from a directory in /KEEP.**
 
 Since on Ceres usage and quotas are based on groups, it's important to have files in the home directories to be associated with the users' primary groups, and files in the project directories to be associated with project groups. Sometimes it may happen that files that were originally located in a home directory, were later moved to a project directory with the group ownership preserved. In this case even though files will be located in a project directory, they still will count against home directory quota. To fix this, change the group ownership of these files to the project directory group. The following command will change group association of all files in the project directory in /project (it may take a while if there are too many files in the directory):
-
-```$ chgrp -R proj-<project_directory_name> /project/<project_directory_name>```
+```
+$ chgrp -R proj-<project_directory_name> /project/<project_directory_name>
+```
 
 A similar command will change the group association of all files in the project directory in /KEEP:
-
-```$ chgrp -R proj-<project_directory_name> /KEEP/<project_directory_name>```
+```
+$ chgrp -R proj-<project_directory_name> /KEEP/<project_directory_name>
+```
 
 To search for files owned by your primary group in a project directory, issue:
-
 ```
 $ find /project/<project_directory_name> -group <SCINet UserID> -type f
 $ find /KEEP/<project_directory_name> -group <SCINet UserID> -type f
@@ -341,13 +361,14 @@ To keep the shared_files directory uncluttered please create a dedicated folder 
 
 NOTE: Files created in the shared_files folder by default are accessible to everybody on the system. Thus, this mechanism for sharing should only be used for files of a non-confidential nature.
 
+
 # Running Application Jobs on Compute Nodes
 
-Users will run their applications on the cluster in either interactive mode or in batch mode. Interactive mode (salloc or srun command) is familiar to anyone using the command line: the user specifies an application by name and various arguments, hits Enter, and the application runs. However, in interactive mode on a cluster the user is automatically switched from using a login node to using a compute node. This keeps all the intense computation off the login nodes, so that login nodes can have all the resources necessary for managing the cluster. You should always use interactive mode when you are running your application but not using batch mode. **Please do not run your applications on the login nodes, use the interactive mode.**
+Users will run their applications on the cluster in either interactive mode or in batch mode. Interactive mode (`salloc` or `srun` command) is familiar to anyone using the command line: the user specifies an application by name and various arguments, hits Enter, and the application runs. However, in interactive mode on a cluster the user is automatically switched from using a login node to using a compute node. This keeps all the intense computation off the login nodes, so that login nodes can have all the resources necessary for managing the cluster. You should always use interactive mode when you are running your application but not using batch mode. **Please do not run your applications on the login nodes, use the interactive mode.**
 
 Interactive mode should only be used when interaction is required, for example when preparing or debugging a pipeline. Otherwise the batch mode should be used. Batch mode requires the user to write a short job script (see examples at section [Batch Mode](#batch-mode) or use the [Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx)(eAuthentication required). 
 
-Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit interactive and batch jobs to the compute nodes. Requested resources can be specified either within the job script or using arguments with the `salloc`, `srun`, or `sbatch` commands.
+Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit interactive and batch jobs to the compute nodes. Requested resources can be specified either within the job script or using options with the `salloc`, `srun`, or `sbatch` commands.
 
 ## Partitions or Queues
 
@@ -371,8 +392,9 @@ debug	| 1	| 1 hour	| 3100 MB	| for testing scripts and runs before submitting th
 In addition, **at most 400 cores can be used by all simultaneously running jobs per user** across all queues. Any additional jobs will be queued but won't start. Each user can submit at most 100 simultaneous jobs to the queue. Currently there is no other limits specific to the partitions.
 
 To get current details on all partitions use the following scontrol command:
-
-```$ scontrol show partitions```
+```
+$ scontrol show partitions
+```
 
 ### Allocation of Cores
 
@@ -392,16 +414,18 @@ When submitting interactive or batch job users can specify time limit by using t
 ## Interactive Mode
 
 A user can request an interactive session on Ceres using SLURM's `srun` or `salloc` commands. The simplest way to request an interactive job is by entering the command `salloc`:
-
-```$ salloc```
+```
+$ salloc
+```
 
 which will place you in an interactive shell. This interactive shell has a duration of 2 days and will request a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. 
 
 To prevent users from requesting interactive nodes and then not using them, there is an inactivity timeout set up. If there is no command running on a node for an hour and a half, the job will be terminated. Otherwise the interactive job is terminated when the user types exit or the allocated time runs out.
 
 For more fine grained control over the interactive environment you can use the `srun` command. Issue the `srun` command from a login node. Command syntax is:
-
-```$ srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l```
+```
+$ srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l
+```
 
 Option |Value
 --- | ---
@@ -413,28 +437,37 @@ Option |Value
 The following example commands illustrate an interactive session where the user requests 1 hour in the short queue, using 1 compute node and 20 logical cores (half of the cores available on the original compute node), using the bash shell, followed by a BLAST search of a protein database.
 
 Start the interactive session:
-
-```$ srun --pty -p short -t 01:00:00 -n 20 -N 1 /bin/bash -l```
+```
+$ srun --pty -p short -t 01:00:00 -n 20 -N 1 /bin/bash -l
+```
 
 Load NCBI-BLAST+ on the compute node:
-
-```$ module load blast+```
+```
+$ module load blast+
+```
 
 Uncompress the nr.gz FASTA file that contains your sequence database:
-
-```$ gzip -d nr.gz```
+```
+$ gzip -d nr.gz
+```
 
 Generate the blast database:
 
-```$ makeblastdb -in nr -dbtype prot```
+```
+$ makeblastdb -in nr -dbtype prot
+```
 
 Search the nr database in serial mode with a set of queries in the FASTA file blastInputs.fa:
 
-```$ blastp -db nr -query blastInputs.fa -out blastout```
+```
+$ blastp -db nr -query blastInputs.fa -out blastout
+```
 
 Return to the login node:
 
-```$ exit```
+```
+$ exit
+```
 
 ## Requesting the Proper Number of Nodes and Cores
 
@@ -454,7 +487,6 @@ SLURM allows you to precisely choose the allocation of compute cores across node
 ### Serial Job
 
 Jobs can be submitted to various partitions or queues using SLURM's `sbatch` command. The following is an example of how to run a blastp serial job using a job script named "blastSerialJob.sh". The content of blastSerialJob.sh is as follows:
-
 ```bash
 #!/bin/bash
 #SBATCH --job-name="blastp"   #name of this job
@@ -474,13 +506,13 @@ date                          #optional, prints out timestamp when the job ends
 ```
 
 Launch the job like this:
-
-```$ sbatch blastSerialJob.sh```
+```
+$ sbatch blastSerialJob.sh
+```
 
 ### Running a Simple OpenMP Job
 
 The following example will demonstrate how to use threads. We will use the following OpenMP C code to print "hello world" on each thread. First copy and paste this code into a file, e.g. "testOpenMP.c".
-
 ```
 #include <omp.h>
 #include <stdio.h>
@@ -496,14 +528,12 @@ int main(int argc, char* argv[]){
 ```
 
 Now load the gcc module and compile the code :
-
 ```
 $ module load gcc
 $ gcc testOpenMP.c -fopenmp -o testOpenMP
 ```
 
 Now create a batch job script (OMPjob.sh) to test number of threads you requested:
-
 ```bash
 #!/bin/bash
 #SBATCH --job-name=OpenMP
@@ -520,8 +550,9 @@ export OMP_NUM_THREADS=20
 ```
 
 Launch the job using the batch script like this:
-
-```$ sbatch OMPjob.sh```
+```
+$ sbatch OMPjob.sh
+```
 
 The stdout* file from the above job script should contain 20 lines with "hello world" from each thread.
 
@@ -530,7 +561,6 @@ The stdout* file from the above job script should contain 20 lines with "hello w
 The following is the example to run Hybrid RAxML which uses both MPI and PTHREADS. It will start 2 MPI processes (one per node) and each process will run 40 threads (one thread per logical core).
 
 Create a SLURM script like this (for example, RAxMLjob.sh, but use your own alignment file rather than "align.fasta"):
-
 ```bash
 #!/bin/bash
 #SBATCH --job-name=raxmlMPI
@@ -546,22 +576,22 @@ mpirun -np 2 raxmlHPC-MPI-AVX -T 40 -n raxmlMPI -f a -x 12345 -p 12345 -m GTRGAM
 ```
 
 And execute it with sbatch:
-
-```$ sbatch RAxMLjob.sh```
+```
+$ sbatch RAxMLjob.sh
+```
 
 ## Useful SLURM Commands
 
 Command | Description | Example
 --- | --- | ---
 `squeue`	| Gives information about jobs	| `squeue` or `squeue -u jane.webb`
-`scancel`	| Stop and remove jobs	| `scancel \<job id>` or `scancel -u jane.webb`
+`scancel`	| Stop and remove jobs	| `scancel <job id>` or `scancel -u jane.webb`
 `sinfo`	| Gives information about queues (partitions) or nodes	| `sinfo` or `sinfo -N -l`
-`scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job \<job id>` or `scontrol show partition \<partition name>` or `scontrol show nodes`
+`scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job <job id>` or `scontrol show partition <partition name>` or `scontrol show nodes`
 
 ## Local Scratch Space on Large Memory Nodes
 
 Each of the large memory nodes (available via the *mem* queue) has ~9 TB of fast local temporary data file storage space at /local/scratch supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. Thus, if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to temporarily stage all your input data to /local/scratch at the beginning of your job using `$TMPDIR` variable (which is unique for each job), then do all your computation on /local/scratch. There is no need to remove your local data at the end of your job, since SLURM will automatically remove `$TMPDIR`. This could be accomplished by adding the following commands to your SLURM script (make sure to adjust the paths to your data appropriately). We assume that the data is in /projects/my_project/data and you should replace the path with your data path.
-
 ```bash
 #!/bin/bash
 #SBATCH --job-name="my sequence assembly"   #name of the job submitted
