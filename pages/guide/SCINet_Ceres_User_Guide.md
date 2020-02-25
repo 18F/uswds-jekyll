@@ -1,5 +1,5 @@
 ---
-title: SCINet Ceres User guide
+title: SCINet Ceres User Manual
 description: A Guide to getting started with the Ceres HPC
 permalink: /guide/ceres/
 author: VRSC
