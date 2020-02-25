@@ -10,20 +10,20 @@ layout: page
 
 **This document assumes that a licensed copy of CLC Genomics WorkBench 11 is installed locally and available to the user.**
 
-# Before you begin
+# Before You Begin
 
-Email scinet_vrsc@ars.usda.gov so that the admins can setup the import/export directories and permissions for access.
+Email [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=CLC%20setup) so that the admins can setup the import/export directories and permissions for access.
 
 We need the following information:
 1.	Path to your project directory.
 2.	Do you need access to the mem nodes for your CLC workflow?
 
-# Installing the Genomics server plugin
+# Installing the Genomics Server Plugin
 1.	Navigate to Help -> **Plugins**
 2.	Select Download Plugins
 3.	Install **CLC Workbench Client Plugin** (Note: You may need to have admin privileges on your local machine to install plugins)
 
-![](/assets/img/CLC1.png)
+![screenshot of CLC software Download Plugins Screen](/scinet-site/assets/img/CLC1.png)
 
 4.	Restart Genomic workbench
 
@@ -44,6 +44,6 @@ Server port: 7777
 ```
 4.	Log in.
 
-![](/assets/img/CLC2.png)
+![screenshot of CLC Genomics Workbench 11.0.1 software homescreen](/scinet-site/assets/img/CLC2.png)
 
-After successful login, you should see a directory CLC-<your project> in the top left window.
+After successful login, you should see a directory CLC-\<your project> in the top left window.
