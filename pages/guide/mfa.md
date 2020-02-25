@@ -125,13 +125,18 @@ In the box next to Account (label 2b above), enter your account name, which is \
 
 ### Verify
 
-To verify the application is working correctly, `ssh ceres-dtn-1.scinet.science`. 
-
+To verify the application is working correctly, 
+```
+ssh ceres-dtn-1.scinet.science
+```
 Enter the verification code currently displayed in google authenticator and then enter your password.
 
 If your code is correct, you will be connected to Ceres. If your code is incorrect, try generating a new verification code on your phone, then entering it on your computer. If you're still having trouble, you might want to verify that the time on your phone is correct or read about common issues.
 
-After logging in please save an SMS phone number in the system by running the command `phone-collect.sh` if you have not done so earlier.
+If you have not done so earlier, after logging in please save an SMS phone number in the system by running the command 
+```
+phone-collect.sh
+``` 
 
 Contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20multifactor%20authentication) if you need assistance.
 
