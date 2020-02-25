@@ -20,7 +20,7 @@ Galaxy Server | SCINet Runs its own [Galaxy Server](https://galaxy.scinet.scienc
 [CLC Workbench](/guide/clc/) | SCINet has a license key to CLC Workbench
 [Geneious](/guide/geneious) |SCINet has a license key to Geneious
 [Rstudio](/guide/rstudio) | SCINet runs a R studio Server
-Jupyter |  Jupyter notebooks can be run on Ceres
+Jupyter |  Jupyter notebooks, Lab, and Hub can be run on Ceres
 
 
 # Command-line Software on SCINet Clusters
@@ -45,7 +45,7 @@ The easiest way to do this is to use a [conda](https://docs.conda.io/en/latest/)
 ```
 conda create --name my_environment my_program
 ``` 
-Thousands of biological packages and their dependencies can be installed with a single command using the Bioconda repository for the Conda package manager. You can also install a package directly from Github or elsewhere and compile it yourself.
+Thousands of biological packages and their dependencies can be installed with a single command using the Bioconda repository for the Conda package manager. You can also install a package directly from Github or elsewhere and compile it yourself. For more on installing Conda see [User-installed Software on Ceres with Conda](https://public.3.basecamp.com/p/zPVBsTPGSnm36h3dtjeRceRp)
 
 You can also install and or compile software manually in your  `$HOME`  or  `$PROJECT`  directories. This is the fastest and easiest way to get your software.
 
