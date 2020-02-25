@@ -37,7 +37,7 @@ Available modules are listed below in the section [Ceres Command-line Software M
 
 ## The command-line software I need is not on the list!
 
-No problem. you have two options: you can install the software yourself or you can request the software be installed for you.
+No problem. You have two options: 1) you can install the software yourself or 2) you can request the software be installed for you.
 
 ### Option 1: Install the software yourself
 
