@@ -18,6 +18,8 @@ layout: page
 
 # SCINet VSRC Basecamp
 
+SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, apply for a SCINet account and follow the email instructions).
+
 Basecamp is a forum used for communication with other SCINet users and the VRSC. The main Basecamp forum for SCINet is the "SCINet Virtual Research Support Core" Basecamp. 
 
 After you [request a SCINet account](https://usda-ars-gbru.github.io/scinet-site/signup/), you will receive an email invitation to join this Basecamp project. Please accept the invitation, create a Basecamp account using your usda email address, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.  
@@ -25,8 +27,6 @@ After you [request a SCINet account](https://usda-ars-gbru.github.io/scinet-site
 Basecamp can be accessed on the web with any web browser or you can optionally download the Basecamp app for Windows, Mac, or mobile devices (iOS and Android). Visit [https://basecamp.com/via](https://basecamp.com/via) to download the app.
 
 You can change your Basecamp notification settings at any time by clicking on your user profile (small circle with your initials or profile picture at the top right of any Basecamp screen) and selecting "change your notification settings". Don't forget to click the "Save My Settings" button when you are finished with your changes.
-
-SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, apply for a SCINet account and follow the email instructions).
 
 
 ## Features
