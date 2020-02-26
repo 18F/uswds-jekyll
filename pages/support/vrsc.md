@@ -52,7 +52,7 @@ The SCINet initiative funds various workshops and training events annually ([App
 
 Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board. Access to Basecamp is provided during the SCINet account application process ([Apply for an Account](https://usda-ars-gbru.github.io/scinet-site/signup/)).
 
-If your question is related to SCINet policy or development, contact the acting SCINet Project Manager, Stan Kosecki.
+If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 
 Single user operational questions, including Galaxy questions, should be emailed to the VRSC scinet_vrsc@usda.gov, for example:
 
