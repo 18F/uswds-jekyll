@@ -198,7 +198,7 @@ Cyberduck supports multiple protocols (including Amazon S3, iRODS, and Google Dr
 
 Large data transfers will be facilitated by the VRSC and involves users shipping hard disk drives (not USB drives) with their data on it to the VRSC in Ames, Iowa.  The VRSC will then upload the data directly and put it in a project directory specified by the user.  
 
-You can send hard drives containing data to the VRSC if you have very large amounts of data to transfer to Ceres or if the network speed at your location is slow. Please follow these instructions:
+You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow these instructions:
 
 1. Submit an email request to the VRSC (scinet_vrsc@USDA.GOV) for a data transfer with the following information:
 
@@ -212,7 +212,7 @@ You can send hard drives containing data to the VRSC if you have very large amou
    * Any type of hard drive (not a USB drive) is fine but SSDs will be more tolerant of the postal system
    * Disks must be EXT4, NTFS, HFS, XFS, or FAT formatted
 
-3. Ship the disk to the following address and send the tracking information to scinet_vrsc@USDA.GOV.
+3. Ship the disk to the following address and email the tracking information to scinet_vrsc@USDA.GOV. Include a print out of your email containing the data transfer request to VRSC in your package. Send to:
 
    Nathan Humeston<br>
    74 Durham<br>
