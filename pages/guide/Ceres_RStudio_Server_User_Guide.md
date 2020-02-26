@@ -54,42 +54,42 @@ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
 ```
   * (Optional) By default, this SLURM job is limited to a 4 hour time limit, 1 processor core, and 6600 MB memory. To customize, see the section [Requesting Additional Compute Resources](#requesting-additional-compute-resources) below.
 3. After the job has started, view the "$HOME/rstudio-JOBID.out" file for login information (where JOBID is the SLURM job ID reported by the sbatch command).
-    ```
-    [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
-    Submitted batch job 214664
+  ```
+  [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
+  Submitted batch job 214664
 
-    [jane.user@sn-cn-8-1 ~]$ cat ~/rstudio-214664.out
-    VPN Users:
+  [jane.user@sn-cn-8-1 ~]$ cat ~/rstudio-214664.out
+  VPN Users:
 
-    1. Connect to SCINet VPN and point your web browser to http://sn-cn-6-0:57088
+  1. Connect to SCINet VPN and point your web browser to http://sn-cn-6-0:57088
 
-    2. log in to RStudio Server using the following credentials:
+  2. log in to RStudio Server using the following credentials:
 
-       user: jane.user
-       password: 4wjRJfpIvQDtKdDZpmzY
+     user: jane.user
+     password: 4wjRJfpIvQDtKdDZpmzY
 
-    SSH users:
+  SSH users:
 
-    1. SSH tunnel from your workstation using the following command (macOS or Linux only;
-       for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
+  1. SSH tunnel from your workstation using the following command (macOS or Linux only;
+     for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
 
-       ssh -N -L 8787:sn-cn-6-0:57088 jane.user@login.scinet.science
+     ssh -N -L 8787:sn-cn-6-0:57088 jane.user@login.scinet.science
    
-       and point your web browser to http://localhost:8787
+     and point your web browser to http://localhost:8787
 
-    2. log in to RStudio Server using the following credentials:
+  2. log in to RStudio Server using the following credentials:
    
-       user: jane.user
-       password: 4wjRJfpIvQDtKdDZpmzY
+     user: jane.user
+     password: 4wjRJfpIvQDtKdDZpmzY
 
-    When done using RStudio Server, terminate the job by:
+  When done using RStudio Server, terminate the job by:
 
-    1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
+  1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
 
-    2. On the Ceres command line, issue the command
+  2. On the Ceres command line, issue the command
 
-       scancel -f 214664 
-    ```
+     scancel -f 214664 
+  ```
 4. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://sn-cn-6-0:57088), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/scinet-site/assets/img/RStudio.png)
 
