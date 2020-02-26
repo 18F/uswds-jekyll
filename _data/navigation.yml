@@ -84,8 +84,7 @@ primary:
       - text: FAQ's
         href: /support/faq/
       - text: Basecamp User Forum 
-        href: https://3.basecamp.com/3625179/projects/5538276
-        external: true
+        href: /support/basecamp
       - text: Request Project Storage
         href: /support/request-storage
       - text: Request Software
