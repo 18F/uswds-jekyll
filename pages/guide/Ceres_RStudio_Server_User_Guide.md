@@ -54,7 +54,7 @@ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
 ```
   * (Optional) By default, this SLURM job is limited to a 4 hour time limit, 1 processor core, and 6600 MB memory. To customize, see the section [Requesting Additional Compute Resources](#requesting-additional-compute-resources) below.
 3. After the job has started, view the "$HOME/rstudio-JOBID.out" file for login information (where JOBID is the SLURM job ID reported by the sbatch command).
-```
+```bash
 [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
 Submitted batch job 214664
 [jane.user@sn-cn-8-1 ~]$ cat ~/rstudio-214664.out
