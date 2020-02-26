@@ -200,12 +200,14 @@ Large data transfers will be facilitated by the VRSC and involves users shipping
 
 You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow these instructions:
 
-1. Submit an email request to the VRSC (scinet_vrsc@USDA.GOV) for a data transfer with the following information:
+1. Submit an email request to the VRSC [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=large%20data%20transfer%20request) for a data transfer with the following information:
 
    * Amount of data
    * Target project directory
    * Type of filesystem the data is coming from (Window, Mac, Linux)
-
+   
+   If you don't already have a project directory please request one first: [Request Project Storage](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) (eAuthentication required)
+   
 2. Copy the data onto a SATA hard drive or SSD
 
    * You will be responsible for purchasing your own drive(s)
