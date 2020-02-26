@@ -75,7 +75,7 @@ When done using RStudio Server, terminate the job by:
 1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
 2. On the Ceres command line, issue the command
    scancel -f 214664 
-</pre></code>
+</code></pre>
 4. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://sn-cn-6-0:57088), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/scinet-site/assets/img/RStudio.png)
 
