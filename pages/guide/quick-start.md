@@ -203,34 +203,11 @@ scp -r sequence_files sally.doe@login.scinet.science:~
 ```
 You can view the full set of options and their descriptions by typing `man scp`
 
-
-Other options for small transfer include [Cyberduck](https://cyberduck.io/) and [FileZilla](https://filezilla-project.org/).
+Other options for small data transfers include [Cyberduck](https://cyberduck.io/) and [FileZilla](https://filezilla-project.org/).
 
 ## Shipping Hard Drives
 
-For extremelylarge data sets typcally < 1TB
-
-Large data transfers will be facilitated by the Virtual Research Support Core (VRSC) and involves users shipping hard disk drives with their data on it to the VRSC. The VRSC will then upload the data directly and put it in a project directory specified by the user.
-
-If you have over 50 GB of data that needs to be transferred onto SCINet for analysis, please submit a request by email to the VRSC requesting a data transfer with the following information:
-
-* Amount of data
-* Target project directory
-* Type of filesystem the data is coming from (Windows, Mac, Linux)
-* If the project directory does not already exist please follow the instructions above for requesting a project directory.
-
-Once the project directory is set up then copy the data onto an external drive (not a USB drive). You are responsible for purchasing your own drive(s) and any type of drive is fine but we strongly recommend NOT to use Western Digital external drives. Disks must be EXT4, NTFS, HFS, XFS, or FAT formatted.
-
-Ship the disk to the following address and send us the tracking information:
-
-> Nathan Humeston
-> 74 Durham
-> Iowa State University
-> Ames, IA 50011  
-
-PLEASE INCLUDE A RETURN SHIPPING LABEL IF YOU WANT THE DRIVE(S) RETURNED.
-
-Please also include a printout of the email containing the transfer request sent to VRSC. Once we receive the data we will copy it over to the appropriate project directory and notify you once it is complete. If you provided a return shipping label we will send the drive(s) back to you.
+You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](https://usda-ars-gbru.github.io/scinet-site/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
 
 
 # Using the Software Applications on Ceres
