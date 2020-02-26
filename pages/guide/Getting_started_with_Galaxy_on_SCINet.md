@@ -38,17 +38,17 @@ In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCIN
 
 Ceres Galaxy is public facing, so to access it you just type or paste “https://galaxy.scinet.science” into the address bar of a web browser.  We recommend Firefox, Chrome, or Safari. MAKE SURE TO TYPE THE “https://” prefix and note the “s”. 
 
-You will be presented with the following screen:
+You will be presented with the following login screen, with boxes on the right to enter your username and password:
 
-![screen shot of galaxy login screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-1_1280.jpg)
+![screenshot of galaxy login screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-1_1280.jpg)
 
-Your user name should match the full email address you used when registering for your Ceres account and the password should match your Ceres password followed by the Google Authenticator code (Example: password123456). After logging in, the standard Galaxy home screen should appear as:
+Your user name should match the full email address you used when registering for your Ceres account and the password should match your Ceres password followed by the Google Authenticator code (Example: password123456). After logging in, the standard Galaxy home screen should appear:
 
-![screen shot of galaxy home screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-2_1280.jpg)
+![screenshot of galaxy home screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-2_1280.jpg)
 
 The "Tools" bar in the left window frame is where you can load, manipulate, and analyze data. The central window frame is where you will see options and parameters programs that you will be running. The right "History" frame shows all the imported files and programs you have run.  In order to begin, you need to upload data. Often data of general interest, such a genome sequences or annotations, are already available in Galaxy under the "Get Data" tab. More commonly, you will be using data that you have generated.
 
-You will import files into Galaxy by clicking on the "Tools" sub-heading "Get Data" and then "Upload File" under "Get Data".  The following screen should appear:
+You will import files into Galaxy by clicking on the "Tools" sub-heading "Get Data" and then "Upload File" under "Get Data".  The following download/upload screen should appear:
 
 ![screen shot of galaxy tool to download or upload data](/scinet-site/assets/img/galaxy-user-guide/galaxy-logging-on-3_1280.jpg)
 
@@ -66,7 +66,7 @@ We recommend using Globus to move files to your Galaxy folder on Ceres. For inst
 -->
 NOTE: If you already have data on Ceres, simply copy files into your Galaxy folder on Ceres either via command-line (“cp” command) or by using a Filezilla-like tool. These files will appear as if you had uploaded them via FTP and can be imported using the approach described below.
 
-Once your data files are in your Galaxy folder in your home directory on Ceres, go back to the “Upload File” screen and click “Choose FTP site”. You will see a screen like this:
+Once your data files are in your Galaxy folder in your home directory on Ceres, go back to the “Upload File” screen and click “Choose FTP site”. You will see the download/upload screen with a list of your files:
 
 ![screen shot of galaxy tool to download data from ftp](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-1_1280.jpg)
 
@@ -74,7 +74,7 @@ Select the file you want to import and hit “Start”.
 
 NOTE: IMPORTING THE DATA INTO GALAXY WILL REMOVE THE FILE THAT YOU MOVED VIA FTP.
 
-You can close this window and the file will appear in your History as so:
+You can close this window and the file will appear in the History pane on the right of your home screen:
 
 ![screen shot of galaxy home screen with history pane](/scinet-site/assets/img/galaxy-user-guide/galaxy-ftp-transfer-2_1280.jpg)
 
@@ -110,16 +110,16 @@ Some links to common analyses are given below. Many of these analyses already ex
 
 If you need some consultation on your results or on parameter settings, it can be very useful to share your analysis with someone so that you can both be viewing the same thing. To that end, we will give this aspect special emphasis. You can see a short introduction to this option at [https://moin.galaxyproject.org/Learn/Share](https://moin.galaxyproject.org/Learn/Share).
 
-Briefly, if you are in the appropriate history, follow the clicks indicated in red (Settings gear icon, then Share or Publish):
+Briefly, if you are in the appropriate history, follow the clicks on the History pane indicated in red (select Settings gear icon, then select "Share or Publish" on the settings menu):
 
-![screen shot of galaxy home screen indicating to click the gear icon on the history pane](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-1_1280.jpg)
+![screenshot of galaxy home screen indicating to click the gear icon on the history pane](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-1_1280.jpg)
 
 
-![screen shot indicating to click Share and Publish on the settings menu](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-2_1280.jpg)
+![screenshot indicating to click Share and Publish on the settings menu](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-2_1280.jpg)
 
-You will see:
+You will see the "Share or Publsish History Galaxy_Walkthru" screem:
 
-![screen shot of the Share or Publish History 'Galaxy_Walkthru' screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-3_1280.jpg)
+![screenshot of the Share or Publish History Galaxy_Walkthru screen](/scinet-site/assets/img/galaxy-user-guide/galaxy-sharing-data-3_1280.jpg)
 
 You can manually enter the user name you wish to share with in the drop-down space. Be careful that the user-name is exact and appropriate capitalization is observed.  
 
@@ -131,6 +131,6 @@ After you have gone through these steps, the person you have shared your history
 
 We have loaded a core subset of all tools that are available on the public Galaxy server ([https://usegalaxy.org](https://usegalaxy.org)). If you do not see a tool you need and cannot use a good alternative, you should search in the Toolshed ([https://toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)). After identifying the relevant tool, email a Ceres Galaxy administrator: scinet_vrsc@usda.gov. If there are multiple options, we encourage the use of tools developed by either “devteam” or “iuc”. Depending on the nature of the tool you are requesting, we may ask you to supply a sample dataset for testing purposes, so anticipate having that data available. 
 
-Additionally, there is an option for galaxy install as well on the application to [request software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) installation by the VRSC:
+Additionally, there is an option for galaxy install as well on the application to [request software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) installation by the VRSC. Select the Galaxy checkbox in the "Type of Application" section:
 
-![screen shot of the software request form](/scinet-site/assets/img/galaxy-user-guide/galaxy-cant-find-a-tool-1_640.jpg)
+![screen shot of the software request form section type of application](/scinet-site/assets/img/galaxy-user-guide/galaxy-cant-find-a-tool-1_640.jpg)
