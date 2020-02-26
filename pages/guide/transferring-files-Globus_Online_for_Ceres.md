@@ -1,5 +1,5 @@
 ---
-title: File Transfer To/From Ceres
+title: SCINet File Transfer
 description: Using Globus for fast file transfer and other methods
 permalink: /guide/file-transfer/
 author: VRSC
@@ -9,13 +9,13 @@ layout: page
 
 #### Table of Contents
 * [Best Practices](#best-practices)
-* [Globus](globus-data-transfer) (recommended)
+* [Globus](#globus-data-transfer) (recommended)
   * [Login](#login)
   * [Copying Data](#copying-data)
   * [Globus Connect Personal](#globus-connect-personal)
-* [Small Data Transfer Using scp]()
-* [Large Data Transfer by Shipping Hard Drives]()
-* [Other Ways to Transfer Data]()
+* [Small Data Transfer Using scp](#small-data-transfer-using-scp)
+* [Large Data Transfer by Shipping Hard Drives](#large-data-transfer-by-shipping-hard-drives)
+* [Other Ways to Transfer Data](#other-ways-to-transfer-data)
 
 
 # Best Practices
@@ -106,11 +106,13 @@ Large data transfers will be facilitated by the VRSC and involves users shipping
 
 You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow these instructions:
 
-1. Submit an email request to the VRSC (scinet_vrsc@USDA.GOV) for a data transfer with the following information:
+1. Submit an email request to the VRSC [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=large%20data%20transfer%20request) for a data transfer with the following information:
 
    * Amount of data
-   * Target project directory
+   * Target project directory. 
    * Type of filesystem the data is coming from (Window, Mac, Linux)
+
+   If you don't already have a project directory please request one first: [Request Project Storage](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) (eAuthentication required)
 
 2. Copy the data onto a SATA hard drive or SSD
 
