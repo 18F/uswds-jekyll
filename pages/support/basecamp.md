@@ -26,7 +26,7 @@ Basecamp can be accessed on the web with any web browser or you can optionally d
 
 You can change your Basecamp notification settings at any time by clicking on your user profile (small circle with your initials or profile picture at the top right of any Basecamp screen) and selecting "change your notification settings". Don't forget to click the "Save My Settings" button when you are finished with your changes.
 
-SCINet users who have already joined Basecamp can [access SCINet VRSC Basecamp on the web here](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, apply for a SCINet account and follow the email instructions)
+SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, apply for a SCINet account and follow the email instructions).
 
 
 ## Features
@@ -35,14 +35,14 @@ SCINet users who have already joined Basecamp can [access SCINet VRSC Basecamp o
 
 On SCINet VRSC Basecamp you can communicate with other users and the VRSC on the message board or on the campfire. 
 
-A message board post works similarly to a Facebook post where replies to original message are captured as "comments" and the entire discussion (original message and all comments) are contained/preserved within the original post.  
+A message board post works similarly to a Facebook post where replies to an original message are captured as "comments" and the entire discussion (original message and all comments) are contained/preserved within the original post.  
 
-The message board is recommended for:
+**The message board is recommended for:**
 * starting conversations that are relevant to other SCINet users, such as a discussion about the best practices for research computations
 * posting questions to the VRSC or other users that are relevant to multiple users
 * contributing to a discussion/question thread that someone else has already started
 
-Message board tips:
+**Message board tips:**
 * For single user operational questions, please email the VRSC instead of posting to Basecamp (see the [Virtual Research Support Core](https://usda-ars-gbru.github.io/scinet-site/support/vrsc/) page for how and when to contact the VRSC)
 * When you post to the message board hundreds of people will be notified! 
   * If your message is targeted to a small group of people, please change who you notify. To do this, find the line on the "new message" screen that says something like "When I post this, these 774 people will be notified. Change…". Click the hyperlinked word "Change" and select who you'd like to be notified when you post your message. 
@@ -53,10 +53,10 @@ Message board tips:
 
 Different from message board posts, campfire works similarly to a very large group chat. There can be multiple conversations happening simultaneously such that a post to campfire and any associated replies will be mixed in with any other conversations (non-related) that other users are posting. This makes it potentially difficult to follow a complicated conversation.
 
-Campfire is recommended for:
+**Campfire is recommended for:**
 * quick questions that don't involve a lot of explanation or discussion
 
-Campfire tips:
+**Campfire tips:**
 * For single user operational questions, please email the VRSC instead of posting to Basecamp (see the [Virtual Research Support Core](https://usda-ars-gbru.github.io/scinet-site/support/vrsc/) page for how and when to contact the VRSC)
 * Similar to the message board, hundreds of people will be notified when you post to campfire. You can tag people in your post using @Username (similar to other social media), but you can't reduce the amount of people you notify for campfire posts- everyone is notified unless they've turned their notifications off.
 * Similar to the message board, you can search old campfire posts by using the "Find" feature at the top of the page. Type key words in the "Search for" box, and limit your search to campfire by selecting "Campfires" on the "Search Everything" dropdown menu.
@@ -91,4 +91,4 @@ SCINet Open Science Grid Users  | Nathan Weeks
 SCINet RStudio Server Users  | Nathan Weeks
 SCINet SMRTLink  | [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=request%20to%20join%20SMRTLink%20Basecamp)
 
-Note: Any ARS SCINet user is able to start a new Basecamp project. New Projects require Basecamp Administrator approval and membership. For FOIA reasons, all SCINet Basecamp projects must also include "SCINet General email."  Please send your Project request to Basecamp Administrators Linda Ballard and Jay Joiner. 
+**Note:** Any ARS SCINet user is able to start a new Basecamp project. New Projects require Basecamp Administrator approval and membership. For FOIA reasons, all SCINet Basecamp projects must also include "SCINet General email."  Please send your Project request to Basecamp Administrators Linda Ballard and Jay Joiner. 
