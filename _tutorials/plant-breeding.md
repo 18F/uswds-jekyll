@@ -6,13 +6,26 @@ layout: page
 ---
 By: Justin Vaughn
 
+#### Table of Contents
+* [Performing QTL-seq data processing on Ceres](#performing-qtl-seq-data-processing-on-ceres)
+  * [What is QTL-seq](#what-is-qtl-seq)
+  * [Getting everything ready to run this pipeline](#getting-everything-ready-to-run-this-pipeline)
+  * [Processing raw reads to get allele depth in each bulk](#processing-raw-reads-to-get-allele-depth-in-each-bulk)
+  * [Examining differential frequency of alleles visually and identifying peak genomic regions](#examining-differential-frequency-of-alleles-visually-and-identifying-peak-genomic-regions)
+* [Using Rstudio on Scinet CERES in 3 steps](#using-rstudio-on-scinet-ceres-in-3-steps)
+  * [Log into CERES, and run a pre-made Rstudio script](#log-into-ceres-and-run-a-pre-made-rstudio-script)
+  * [Submit the job and read the instructions in the generated rstudio-out file](#submit-the-job-and-read-the-instructions-in-the-generated-rstudio-out-file)
+  * [Log into the Rstudio server](#log-into-the-rstudio-server)
+
+
 # Performing QTL-seq data processing on Ceres
 
 ## What is QTL-seq?
 
 Bulk segregant analysis (BSA) is used to find genes by identifying biased allele frequencies between two population that have been pooled based on distinctive phenotypes.  The technique has historically been limited by the qualitative nature of older genotyping platforms.  Next-generation sequencing allows for more precise characterization of allele frequencies in a population. This capacity was first realized in yeast studies, where extremely large populations sizes (>100,000) individuals were used and extreme individuals within the population were pooled and resequenced (Ehrenreich et al., 2010).  Plant researchers quickly attempted to apply the above approach, commonly referred to as “QTL-seq”, to quantitative traits such as cold-tolerance (Yang et al., 2013), fungal rice blast (Takagi et al., 2013), and wheat grain protein (Trick et al., 2012), among others.  Though much of the work in QTL-seq is in the field and lab, the last portion does require bioinformatics.  To that end, we provide the following work-flow.
 
-## Getting everything ready to run this pipeline (aka: things I won't discuss how to do)
+## Getting everything ready to run this pipeline 
+(aka: things I won't discuss how to do)
 
 1. Get sequencing data on Ceres and in a working directory
 2. Combine reads across sequencing lanes, if needed
@@ -78,19 +91,21 @@ bcftools convert filt_output_snps.bcf -O z -o output_snps.vcf.gz #convert to com
 
 ## Examining differential frequency of alleles visually and identifying peak genomic regions
 
-From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally.  Alternatively, you can also use RStudio on Ceres as documented in the auxiliary section below ("Using Rstudio on Scinet CERES in 3 steps").  We focus on a QTL-seq analysis software called QTLSurge.  Many others exist, such as [QTLseqr](https://github.com/bmansfeld/QTLseqr).  Importantly, these other programs may not be completely compatible with the pipeline we have described above.
+From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally. Alternatively, you can also use RStudio on Ceres as documented in the auxiliary section below [Using Rstudio on Scinet CERES in 3 steps](#using-rstudio-on-scinet-ceres-in-3-steps). 
 
-QTLsurge is designed to be run under RStudio as a Shiny app and requires some dependent libraries.  These are already installed on Ceres, so you can skip step 0 if working there:  
+We focus on a QTL-seq analysis software called QTLSurge. Many others exist, such as [QTLseqr](https://github.com/bmansfeld/QTLseqr).  Importantly, these other programs may not be completely compatible with the pipeline we have described above.
 
-1. Install dependancies: [RStudio](https://www.rstudio.com/products/rstudio/download/) then, using Rstudio package manager, install zoo, ggplot2, and shiny libraries.
+QTLsurge is designed to be run under RStudio as a Shiny app and requires some dependent libraries. These are already installed on Ceres, so you can skip step 1 if working on Ceres:  
+
+1. Install dependencies: [RStudio](https://www.rstudio.com/products/rstudio/download/) then, using Rstudio package manager, install zoo, ggplot2, and shiny libraries.
 2. Download the programs: QTLsurge.R and vcf2freq.pl from [QTLsurge](https://github.com/USDA-ARS-GBRU/QTLsurge) and put in an appropriate folder.
 3. Open QTLsurge.R in RStudio
 4. Press "Run App" button
 5. If using a Windows machine (not Ceres), you may also have to [install Perl.](https://learn.perl.org/installing/windows.html)
 
-QTLsurge requires a tab delimited file containing chromosome ID in the first column, SNP location in the second column, high-bulk allele frequency in the third column, low-bulk allele frequency in the fourth column, deltaSNP (difference between high and low frequency) value in the fifth column, and cycle number in sixth column (see `test/test.freq`).  Regardless of sign, all deltaSNP values are converted to absolute values for plotting and window calculation.
+QTLsurge requires a tab delimited file containing chromosome ID in the first column, SNP location in the second column, high-bulk allele frequency in the third column, low-bulk allele frequency in the fourth column, deltaSNP (difference between high and low frequency) value in the fifth column, and cycle number in sixth column (see `test/test.freq`). Regardless of sign, all deltaSNP values are converted to absolute values for plotting and window calculation.
 
-A testing file (`test/test.freq`) is located on the github page.  This file demonstrates the required input format and can be used to test that your app is working correctly.
+A testing file (`test/test.freq`) is located on the QTLsurge github page. This file demonstrates the required input format and can be used to test that your app is working correctly.
 
 Create such a file from the data produced above:
 
@@ -99,24 +114,26 @@ gunzip output_snps.vcf.gz #uncompresses as output_snps.vcf and removes output_sn
 perl vcf2freq.pl output_snps.vcf 0 >output_frequency_file.txt #vcf2freq.pl is supplied as a helper program, converts to QTLsurge format.  The last argument is the cycle you are on.  Use 0 if this is your initial, standard QTL-seq experiment.  This script is not robust to variation in genotype format and only accepts "GT:PL:AD" format that results from the pipeline described above.
 ```
 
-Browse to this file and open it.  A graph, similar to the one below will appear momentarily.  You can step through each chromosome using the interface and look for peaks that are above the genome-wide threshold (95th percentile based on raw deltaSNP values).  Because raw data of this kind is very noisy, a sliding window average is supplied.  The appropriate window size is a function of population size, recombination rate, marker density, and read depth.  Generally, if read depth is >40x, your window size should decrease as your population size increases.  A good rule-of-thumb is that few windows should have an average that extends beyond 3 standard error units of a directly adjacent window, assuming your overlap-to-window-size is ~20%.  The red line indicates the average of window and the gray shading indicates 3 standard error units. Note: Setting the overlap size very low will cause QTLSurge to respond slowly and should only be used when zoomed in to a <1MB range.
+Browse to this file and open it. A graph, similar to the one below will appear momentarily. You can step through each chromosome using the interface and look for peaks that are above the genome-wide threshold (95th percentile based on raw deltaSNP values). Because raw data of this kind is very noisy, a sliding window average is supplied. The appropriate window size is a function of population size, recombination rate, marker density, and read depth. Generally, if read depth is >40x, your window size should decrease as your population size increases. A good rule-of-thumb is that few windows should have an average that extends beyond 3 standard error units of a directly adjacent window, assuming your overlap-to-window-size is ~20%. The red line indicates the average of window and the gray shading indicates 3 standard error units. Note: Setting the overlap size very low will cause QTLSurge to respond slowly and should only be used when zoomed in to a <1MB range.
 
 ![screen shot of QTLsurge software](/scinet-site/assets/img/loadedFileOverview.png)
 
-For a standard QTL-seq experiment, this might be a stopping point for publication.  QTLsurge provides further support for iterative rounds of genotyping that allow a researcher to further pinpoint genes and/or confirm the peaks that they have discovered.  The QTLsurge page describes these possible experiments and analyses in more detail.
+For a standard QTL-seq experiment, this might be a stopping point for publication. QTLsurge provides further support for iterative rounds of genotyping that allow a researcher to further pinpoint genes and/or confirm the peaks that they have discovered. The QTLsurge page describes these possible experiments and analyses in more detail.
 
-## Using Rstudio on Scinet CERES in 3 steps
+# Using Rstudio on Scinet CERES in 3 steps
 
-### Log into CERES, and run a pre-made Rstudio script
+see also the [RStudio Server User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/rstudio/)
 
-Open up two terminals or putty windows (important for later) and use one to connect to [username]@scinet.science.  Then, either use the file in /reference/containers/RStudio/3.6.0/rstudio.job, or create an Rstudio script at: https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx .
+## Log into CERES, and run a pre-made Rstudio script
 
-(If using the generator, make sure you select “Rstudio” in the ‘Job Script template’ dropdown menu).  I recommend copying the /reference/ or generated script into your desired working directory. You should now edit the script to request the time and resources you want.  Some R modules, like those for coexpression analysis, need many threads and lots of memory, so you’ll want to edit the “--mem”and “--nodes” lines in the script to request the memory and CPUs you need. Also, for the next step, you may wish to edit the “--output” line to change where the output  (instructions) from this job will go to be the working directory you want, as the default is always /home/[username]. Those instructions will tell you what to do next in detail.
+Open up two terminals or putty windows (important for later) and use one to connect to \<username>@scinet.science. Then, either use the file /reference/containers/RStudio/3.6.0/rstudio.job, or create an Rstudio script using the [Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx) (eAuthentication required).
 
-### Submit the job and read the instructions in the generated rstudio-out file
+If using the generator, make sure you select “Rstudio” in the "Job Script template" dropdown menu). I recommend copying the /reference/ or generated script into your desired working directory. You should now edit the script to request the time and resources you want. Some R modules, like those for coexpression analysis, need many threads and lots of memory, so you’ll want to edit the “--mem” and “--nodes” lines in the script to request the memory and CPUs you need. Also, for the next step, you may wish to edit the “--output” line to change the default location for the output instructions from /home/\<username> to whichever working directory you want. The output instructions will tell you what to do next in detail.
 
-The outputted “rstudio-[lots of numbers].out” file will have instructions on how to connect to your now-running Rstudio session.  You can either a) create an ssh tunnel with an “ssh -N -L 8787:hostname:port” command, then open a browser window at “localhost:8787” (you can then minimize the terminal window you used to do the “ssh -N -L” command); or b) connect to the SciNET VPN, and go to the hostname:8787 address indicated in the rstudio-out file in your browser of choice.
+## Submit the job and read the instructions in the generated rstudio-out file
 
-### Log into the Rstudio server
+The outputted “rstudio-\<lots of numbers>.out” file will have instructions on how to connect to your now-running Rstudio session. You can either a) create an ssh tunnel with an  `ssh -N -L 8787:hostname:port`  command, then open a browser window at “localhost:8787” (you can then minimize the terminal window you used to do the `ssh` command); or b) connect to the SCINet VPN, and go to the hostname:8787 address indicated in the rstudio.out file in your browser of choice.
+
+## Log into the Rstudio server
 
 If you did the above step correctly, your browser should be presenting you with an Rstudio login screen. Following the instructions in the same output file above, log into the server in the browser window using the credentials supplied in that file (your Scinet user name and a randomly-generated one-time password).  
