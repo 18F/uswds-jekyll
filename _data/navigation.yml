@@ -50,8 +50,8 @@ primary:
     links:
       - text: Science Tutorials
         href: /tutorials/
-      - text: Videos
-        href: /education/video/
+#      - text: Videos
+#        href: /education/video/
       - text: Past Workshops
         href: /workshops/
       - text: Working Groups
