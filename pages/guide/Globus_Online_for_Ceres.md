@@ -1,7 +1,7 @@
 ---
 title: Globus Guide
 description: Using Globus for fast file transfer
-permalink: /guide/globus/
+permalink: /guide/file-transfer/
 author: VRSC
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
