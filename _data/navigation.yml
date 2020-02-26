@@ -43,8 +43,8 @@ primary:
         href: /guide/geneious
       - text: Galaxy on SCINet
         href: /guide/galaxy
-      - text: Transfering files
-        href: /guide/globus
+      - text: Transferring files
+        href: /guide/file-transfer
 
   - text: Education
     links:
