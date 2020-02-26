@@ -18,7 +18,7 @@ layout: page
 
 # SCINet VSRC Basecamp
 
-SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, apply for a SCINet account and follow the email instructions).
+SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, [apply for a SCINet account](https://usda-ars-gbru.github.io/scinet-site/signup/) and follow your email instructions or contact (mailto:scinet_vrsc@USDA.GOV?subject=problem%20accessing%20Basecamp) if you already have a SCINet account but can't access Basecamp).
 
 Basecamp is a forum used for communication with other SCINet users and the VRSC. The main Basecamp forum for SCINet is the "SCINet Virtual Research Support Core" Basecamp. 
 
