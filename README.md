@@ -669,7 +669,7 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
    ```
 
-1. Check that css is referencing `main.css`
+1. Check that css is referencing `uswds-theme.css`
 
 ## Development
 
