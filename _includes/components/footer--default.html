@@ -19,7 +19,7 @@
     {% assign _size = footer_links.size | minus: 1 %}
     {% assign _size = _sizes[_size] | default: 'whole' %}
   <div class="usa-footer__primary-section">
-    <nav class="usa-footer__nav">
+    <nav class="usa-footer__nav" aria-label="Footer navigation">
       <ul class="grid-row grid-gap">
         {% for _link in footer_links %}
         <li class="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content">

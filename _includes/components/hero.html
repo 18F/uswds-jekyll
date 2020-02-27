@@ -1,5 +1,5 @@
 {% if hero %}
-<section class="usa-hero"{% if hero.image %} style="background-image: url({{ hero.image }})"{% endif %};>
+<section class="usa-hero"{% if hero.image %} style="background-image: url({{ hero.image }})"{% endif %} aria-label="Introduction";>
   <div class="grid-container">
     <div class="usa-hero__callout">
       {% if hero.callout %}

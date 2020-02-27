@@ -7,7 +7,7 @@
       <div class="usa-media-block tablet:grid-col">
         <img class="usa-media-block__img"  src="{{ graphic.image.src | relative_url }}" alt="{{ graphic.image.alt }}">
         <div class="usa-media-block__body">
-          {% if graphic.title %}<h3 class="usa-graphic-list__heading">{{ graphic.title }}</h3>{% endif %}
+          {% if graphic.title %}<h2 class="usa-graphic-list__heading">{{ graphic.title }}</h2>{% endif %}
           {{ graphic.description | markdownify }}
         </div>
       </div>
