@@ -8,7 +8,7 @@ layout: page
 
 The SCINet Scientific Advisory Committee (SAC) is seeking new members. 
 
-The SAC meets monthly to provide input on planning, educational and communications activities of the SCInet initiative. For example, in the past year SAC members have created a quarterly SCINet newsletter, designed a user needs survey, created this new SCINet website, and held multiple computational workshops and trainings.
+The SAC meets monthly to provide input on planning, educational and communications activities of the SCINet initiative. For example, in the past year SAC members have created a quarterly SCINet newsletter, designed a user needs survey, created this new SCINet website, and held multiple computational workshops and trainings.
 
 These are 3-year terms which begin in March 2020 and end February 2023.
 
