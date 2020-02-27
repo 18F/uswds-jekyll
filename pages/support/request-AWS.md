@@ -11,7 +11,8 @@ SCINet provides AWS at no cost to SCINet users with suitable workloads. A limite
 ## To Add/Modify AWS Resources on an Existing SCINet Project 
 Send an email that includes:
 * the name of the project directory (/project/\<projectname>/) and 
-* the requested changes <br>
+* the requested changes
+
 to the SCINet Virtual Research Support Core [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=add%20AWS%20to%20SCINet%20project). 
 
 This includes requests for additional funding.
