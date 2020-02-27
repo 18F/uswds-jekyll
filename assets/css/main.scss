@@ -4,24 +4,10 @@
 // It should only be modified by an advanced user.
 
 // import project theme settings
-@import 'settings/uswds-theme-general';
-@import 'settings/uswds-theme-typography';
-@import 'settings/uswds-theme-spacing';
-@import 'settings/uswds-theme-color';
-@import 'settings/uswds-theme-utilities';
-@import 'settings/uswds-theme-components';
+@import 'uswds-theme-settings';
 
 // import theme override settings
-$theme-image-path: "../uswds/img";
-$theme-font-path: "../uswds/fonts";
-
-// import uswds default settings
-@import 'uswds/settings/settings-general';
-@import 'uswds/settings/settings-typography';
-@import 'uswds/settings/settings-spacing';
-@import 'uswds/settings/settings-color';
-@import 'uswds/settings/settings-utilities';
-@import 'uswds/settings/settings-components';
+@import 'uswds-theme-override-settings';
 
 // Setting site width
 {% if site.site_width %}
@@ -195,7 +181,7 @@ $theme-font-path: "../uswds/fonts";
 @import 'uswds/custom/uswds-theme-custom-styles';
 
 // import conversion variables
-@import 'custom/variables';
+@import 'uswds/settings/uswds-conversion-variables';
 
 // import user custom styles
-@import 'custom/uswds-theme-custom-styles';
+@import 'uswds-theme-custom-styles';
