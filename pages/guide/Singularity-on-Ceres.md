@@ -86,7 +86,9 @@ Root access is needed to create a Singularity image from a bootstrap file. As Ce
 Three commands may be used to execute applications inside Singularity containers: 
   
   `singularity run`, 
+  
   `singularity exec`, 
+  
   and (less commonly) `singularity shell` 
 
 Note that applications executing within a container do not have access to applications installed outside of the container (e.g., environment modules, or executables installed in /usr/bin on the compute node).
