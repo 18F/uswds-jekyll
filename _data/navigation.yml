@@ -35,6 +35,8 @@ primary:
         href: /guide/software
       - text: Installing packages
         href: /guide/packageinstall
+      - text: Transferring files
+        href: /guide/file-transfer
       - text: CLC Workbench
         href: /guide/clc
       - text: Rstudio
@@ -43,8 +45,8 @@ primary:
         href: /guide/geneious
       - text: Galaxy on SCINet
         href: /guide/galaxy
-      - text: Transferring files
-        href: /guide/file-transfer
+      - text: Containers
+        href: /guide/singularity
 
   - text: Education
     links:
