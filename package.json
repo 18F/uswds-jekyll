@@ -12,7 +12,7 @@
     "sync-theme-settings": "rsync -avr --delete node_modules/uswds/src/stylesheets/theme/ _sass/settings --exclude=_uswds-theme-custom-styles.scss --exclude=styles.scss"
   },
   "dependencies": {
-    "uswds": "^2.4.0"
+    "uswds": "^2.5.0"
   },
   "devDependencies": {
     "cached-path-relative": "^1.0.2"

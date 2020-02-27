@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     uswds-jekyll (5.0.0)
-      jekyll (~> 4.0)
+      jekyll (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -78,4 +78,4 @@ DEPENDENCIES
   uswds-jekyll!
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
