@@ -8,7 +8,7 @@ layout: page
 
 SCINet provides AWS at no cost to SCINet users with suitable workloads. A limited amount of funding is available annually. Interested SCINet users must submit a SCINet AWS Project Request to be considered for AWS funding.
 
-## To Add/Modify AWS Resources on an Existing SCINet Project 
+## To Add/Modify AWS Resources for an Existing SCINet Project 
 Send an email that includes:
 * the name of the project directory (/project/\<projectname>/) and 
 * the requested changes
