@@ -7,12 +7,11 @@ layout: page
 ---
 
 
-For questions or feedback about this website, email scinet_vrsc@usda.gov
+Email [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV) for:
+* questions or feedback about this website
+* questions about the SCINet newsletter or to contribute content
+* technical assistance with your SCINet account
 
-For questions about the SCINet newsletter or to contribute content, email scinet_vrsc@usda.gov
-
-For questions about SCINet policy and development, contact the acting SCINet Program Manager, Stan Kosecki
-
-For technical assistance with your SCINet account, email the SCINet Virtual Research Support Core scinet_vrsc@ars.usda.gov
+Send questions about SCINet policy and development to the acting SCINet Program Manager, Stan Kosecki, or to your area SCINet Scientific Advisory Committee (SAC) members (see the [People](https://usda-ars-gbru.github.io/scinet-site/team/) page).
 
 To contact SCINet users, post on [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) (must have a SCINet account to access)
