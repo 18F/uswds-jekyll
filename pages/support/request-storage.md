@@ -14,6 +14,7 @@ Users can request additional space in the /project and /KEEP directories. Projec
 Send an email that includes:
 * the name of the project directory (/project/\<projectname>/) and 
 * the requested changes 
+
 to the SCINet Virtual Research Support Core (VRSC) [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=modify%20project%20allocation).
 
 ### To Request a New Project Allocation
