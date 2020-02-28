@@ -90,7 +90,7 @@ SCINet website development, led by Adam Rivers, started in 2019 to create this c
 information coming soon, contact Andrew Severin
 
 ### Geospatial Research Workbook
-information coming soon
+information coming soon, contact Andrew Severin
 
 <!--
 ## Page specific instructions
