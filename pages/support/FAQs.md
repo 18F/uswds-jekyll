@@ -51,7 +51,7 @@ layout: page
 ### Support, Policy, O&M
 [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)<br>
 [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)<br>
-[Who is the SCINet project manager?](#who-is-the-scinet-project-manager)<br>
+[Who is the SCINet program manager?](#who-is-the-scinet-program-manager)<br>
 [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac)<br>
 
 ### Parallel Computing
@@ -81,14 +81,14 @@ Ceres is currently free to USDA-ARS researchers and collaborators.
 SCINet provides AWS at no cost to SCINet users with suitable workloads. A limited amount of funding is available annually. Interested SCINet users must submit a [SCINet AWS Project Request](https://usda-ars-gbru.github.io/scinet-site/support/request-AWS) to be considered for AWS funding.
 
 ### Who manages SCINet?
-Day to day operations and user support are provided by the Virtual Research Support Core (see [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)). Higher level policy and development are managed by the SCINet Executive Committee, including the SCINet project manager Stan Kosecki, with input from the Scientific Advisory Committee (SAC; see [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac))
+Day to day operations and user support are provided by the Virtual Research Support Core (see [What is the Virtual Research Support Core (VRSC)?](#what-is-the-virtual-research-support-core-vrsc)). Higher level policy and development are managed by the SCINet Executive Committee, including the SCINet program manager Stan Kosecki, with input from the Scientific Advisory Committee (SAC; see [What is the Scientific Advisory Committee (SAC)?](#what-is-the-scientific-advisory-committee-sac))
 
 ### Who can I contact for help using SCINet?
 Single user operational questions should be emailed to the VRSC scinet_vrsc@usda.gov (see also [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)).
 
 Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the Basecamp message board. Access to [Basecamp](https://3.basecamp.com/3625179/projects/5538276) is provided during the SCINet account application process.
 
-Policy and development questions should be directed to the SCINet project manager, Stan Kosecki.
+Policy and development questions should be directed to the SCINet program manager, Stan Kosecki, or to your area representatives on the SCINet Scientific Advisory Committee (SAC), see the [SCINet People](https://usda-ars-gbru.github.io/scinet-site/team/) page.
 
 ### How do I use Basecamp?
 [Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp.
@@ -194,8 +194,8 @@ Use the [Basecamp](https://3.basecamp.com/3625179/projects/5538276) message boar
 
 For Galaxy questions, please use the same email contact scinet_vrsc@usda.gov 
 
-### Who is the SCINet project manager?
-The current acting SCINet project manager is Stan Kosecki.
+### Who is the SCINet program manager?
+The current acting SCINet program manager is Stan Kosecki.
 
 ### What is the Scientific Advisory Committee (SAC)?
 The Scientific Advisory Committee is composed of ARS scientists across all the five physical Areas, NAL, and a representative from the Area Statisticians. These scientists serve 3-year terms on the committee and represent a broad spectrum of the computational research efforts within ARS. The SAC, which is also referred to as the executive SAC (eSAC), interacts directly with the SCINet Executive Committee on SCINet policy, development, and training. 
