@@ -6,11 +6,43 @@ author: working group leads
 layout: page
 ---
 
-The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. The current working groups are:
+The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. 
 
-## Ag100Pest Genome Working Group (subgroup of AGR)
+The current working groups are:
+* [Ag100Pest Initiative (subgroup of AGR)](#ag100pest-initiative-subgroup-of-agr)
+* [Arthropod Genomics Research (AGR) Working Group](#arthropod-genomics-research-agr-working-group)
+* [Geospatial Research Working Group](#geospatial-research-working-group)
+* [Microbiome Working Group](#microbiome-working-group)
+* [SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group](#scinet-longterm-agroecosystem-research-ltar-phenology-working-group)
+* [SCINet Website Developers](#scinet-website-developers)
+* [Workbook Developers](#workbook-developers)
 
-information coming soon, contact Brian Scheffler
+## Ag100Pest Initiative (subgroup of [AGR](#arthropod-genomics-research-agr-working-group))
+
+The [Ag100Pest Initiative](http://i5k.github.io/ag100pest)’s goal is to produce annotated, reference quality genome assemblies for the top 100 US arthropod agricultural pests by leveraging ARS's unique expertise in both arthropod pest management and agricultural genomics research. We are pushing the limits of current technology to produce long-read sequencing data from individual specimens, despite the challenges of small body sizes, and sometimes large genomes, presented by arthropods. Arthropod pests of US field crops, livestock, bees, trees, and stored products as well as foreign pest species considered potential invasive threats to US agriculture are being considered. 
+
+Ag100Pest teams are developing best practices in many arenas from process and data management to extraction, sequencing, assembly, and annotation that will benefit the entire genomics community. As an example, we collaborated in the development of an open-source [functional annotation workflow](https://agbase-docs.readthedocs.io/en/latest/agbase/workflow.html) specifically tailored to arthropods, which users can find installed on Ceres or available through CyVerse, Docker, and GitHub.
+
+This initiative enhances the agency’s contribution to two international genome sequencing projects – [i5K](http://i5k.github.io/) (the 5000 insect genomes initiative) and the [Earth BioGenome Project](https://www.earthbiogenome.org/) (to sequence the genomes of all of the world’s 1.5 million animals and plants).
+
+
+**Executive Coordination Team**<br>
+Anna Childers, Project Lead<br>
+Brian Scheffler, Technical Lead<br>
+Kevin Hackett, National Program Leader<br>
+
+**Core Leadership Group**<br>
+Brad Coates, Technology Transfer Team Lead<br>
+Scott Geib, Extraction/Pre-Sequencing Team Lead<br>
+Brian Scheffler, Sequencing Team Co-Lead<br>
+Tim Smith, Sequencing Team Co-Lead<br>
+Anna Childers, Assembly and Analysis Team Lead<br>
+Monica Poelchau, Post-Assembly Team Co-Lead<br>
+Chris Childers, Post-Assembly Team Co-Lead<br>
+Kevin Hackett, National Program Leader<br>
+
+
+Please contact a member of the Executive Coordination Team for more information.
 
 <br>
 
