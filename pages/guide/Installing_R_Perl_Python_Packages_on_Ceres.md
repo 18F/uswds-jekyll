@@ -1,5 +1,5 @@
 ---
-title: Package installation guide
+title: Guide to Installing R, Python, and Perl Packages
 description: Installing R, Python, and Perl packages
 permalink: /guide/packageinstall/
 author: VRSC
