@@ -11,6 +11,7 @@ layout: page
 * [Introduction](#introduction)
 * [Setup](#setup)
 * [Installing Software](#installing-software)
+  * [Best Practices]($best-practices)
   * [Example 1: Installing Trinity into a home directory](#example-1-installing-trinity-into-a-home-directory)
   * [Example 2: Installing Tensorflow into a /KEEP directory](#example-2-installing-tensorflow-into-a-keep-directory)
 * [Managing Environments](#managing-environments)
@@ -67,7 +68,18 @@ On Ceres, suitable locations for conda environments housing conda packages inclu
 
   This environment is then usable by others in the project.
 
-**CAUTION: Avoid installing software into the /project file system if possible. It is a BeeGFS parallel file system that is tuned for fewer, larger files, and suffers degraded performance when used as the target for conda packages, which frequently contain many smaller files.**
+## Best Practices
+
+* **CAUTION: Avoid installing software into the /project file system if possible. It is a BeeGFS parallel file system that is tuned for fewer, larger files, and suffers degraded performance when used as the target for conda packages, which frequently contain many smaller files.**
+
+* **Use an interactive session on a compute node to install software with conda to avoid slowing down the login node for everyone**, e.g,
+  ```
+  [user.name@ceres ~]$ salloc
+  [user.name@ceres14-compute-60 ~]$ module load miniconda
+  [user.name@ceres14-compute-60 ~]$ conda activate my_env
+  (my_env) [user.name@ceres14-compute-60 ~]$ conda install <package_name>
+  ...
+  ```
 
 
 ## Example 1: Installing Trinity into a home directory
