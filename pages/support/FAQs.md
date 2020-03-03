@@ -21,6 +21,7 @@ layout: page
 [Who manages SCINet?](#who-manages-scinet)<br>
 [Who can I contact for help using SCINet?](#who-can-i-contact-for-help-using-scinet)<br>
 [How do I use Basecamp?](#how-do-i-use-basecamp)
+[How do I acknowledge SCINet in my publications?](#how-do-i-acknowledge-scinet-in-my-publications)
 
 ### Accounts & Login
 [How do I get an account (I am an ARS employee)?](#how-do-i-get-an-account-i-am-an-ars-employee)<br>
@@ -94,6 +95,12 @@ Policy and development questions should be directed to the SCINet program manage
 [Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp.
 
 When your SCINet account is created, you will receive a welcome email and another email asking to join the Basecamp project. Please accept the invitation, create a Basecamp account and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
+
+### How do I acknowledge SCINet in my publications?
+
+Add the following sentence as an acknowledgment for using SCINet/Ceres as a resource in your manuscripts or datasets meant for publication:
+
+“This research used resources provided by the SCINet project of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D.”
 
 ### How do I get an account (I am an ARS employee)?
 Please fill out the [SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information. You will also be signed up for [Basecamp](https://3.basecamp.com/3625179/projects/5538276), a forum on which users can post questions.
