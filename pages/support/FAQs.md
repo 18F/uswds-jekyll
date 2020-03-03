@@ -20,7 +20,7 @@ layout: page
 [How much does Amazon Web Services (AWS) cost?](#how-much-does-amazon-web-services-aws-cost)<br>
 [Who manages SCINet?](#who-manages-scinet)<br>
 [Who can I contact for help using SCINet?](#who-can-i-contact-for-help-using-scinet)<br>
-[How do I use Basecamp?](#how-do-i-use-basecamp)
+[How do I use Basecamp?](#how-do-i-use-basecamp) <br>
 [How do I acknowledge SCINet in my publications?](#how-do-i-acknowledge-scinet-in-my-publications)
 
 ### Accounts & Login
