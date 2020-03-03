@@ -54,6 +54,7 @@ layout: page
   * [Job Script Generator](#job-script-generator)
   * [Useful SLURM Commands](#useful-slurm-commands)
 * [Building Your Own Tools](#building-your-own-tools)
+* [SCINet Acknowledgement in Publications](#scinet-citation-acknowledgment-in-publications)
 
 
 # What is SCINet
