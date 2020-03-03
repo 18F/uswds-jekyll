@@ -34,8 +34,8 @@ primary:
         href: /guide/software
       - text: Installing R/Python/Perl Packages
         href: /guide/packageinstall
-#      - text: Installing Software with Conda
-#        href: /guide/conda
+      - text: Installing Software with Conda
+        href: /guide/conda
       - text: Transferring files
         href: /guide/file-transfer
       - text: CLC Workbench
