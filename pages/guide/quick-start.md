@@ -321,3 +321,10 @@ Command	|Description	|Examples
 # Building Your Own Tools
 
 Users can build and use their own tools. It is recommended to compile on compute nodes, and not on the login node.
+
+
+# SCINet Citation/Acknowledgment in Publications
+
+Add the following sentence as an acknowledgment for using SCINet/Ceres as a resource in your manuscripts meant for publication:  
+
+**"This research used resources provided by the SCINet project of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D."**
