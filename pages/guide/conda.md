@@ -11,7 +11,7 @@ layout: page
 * [Introduction](#introduction)
 * [Setup](#setup)
 * [Installing Software](#installing-software)
-  * [Best Practices]($best-practices)
+  * [Best Practices](#best-practices)
   * [Example 1: Installing Trinity into a home directory](#example-1-installing-trinity-into-a-home-directory)
   * [Example 2: Installing Tensorflow into a /KEEP directory](#example-2-installing-tensorflow-into-a-keep-directory)
 * [Managing Environments](#managing-environments)
@@ -72,7 +72,7 @@ On Ceres, suitable locations for conda environments housing conda packages inclu
 
 * **CAUTION: Avoid installing software into the /project file system if possible. It is a BeeGFS parallel file system that is tuned for fewer, larger files, and suffers degraded performance when used as the target for conda packages, which frequently contain many smaller files.**
 
-* **Use an interactive session on a compute node to install software with conda to avoid slowing down the login node for everyone**, e.g,
+* **Use an interactive session on a compute node to install software with conda to avoid slowing down the login node for everyone, e.g,**
   ```
   [user.name@ceres ~]$ salloc
   [user.name@ceres14-compute-60 ~]$ module load miniconda
@@ -154,7 +154,9 @@ Load the latest miniconda module if you haven't already and create an environmen
 ```
 
 Note: conda first downloads packages into a package cache directory. By default, the package cache is in your home directory  ($HOME/.conda/pkgs). If installing a large amount of software that may cause home directory quota to be exceeded, you can configure another directory to be the package cache by adding a pkg_dirs list to the $HOME/.condarc file (YAML); e.g.:
+
 `pkg_dirs:`
+  
   `- /KEEP/my_proj/my_pkg_cache`
   
 
