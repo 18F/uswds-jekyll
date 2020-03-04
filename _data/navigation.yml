@@ -94,6 +94,8 @@ primary:
         href: /support/request-software
       - text: Request AWS
         href: /support/request-AWS
+#      - text: Ceres Job Script Generator
+#        href: /support/ceres-job-script        
   - text: About
     links:
       - text: Computer Systems
