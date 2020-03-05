@@ -73,7 +73,7 @@ SCINet is a high-speed network connecting equipment like compute servers, data t
 ARS employees and those collaborators that are covered under a formal agreement with the ARS.
 
 ### How do I find documentation on Ceres and SCINet?
-The most up-to-date documentation is available on this website although some information is still in the process of being posted. If you can’t find what you need here, please also check Basecamp [Basecamp](https://3.basecamp.com/3625179/projects/5538276) (must have SCINet account to access).
+The most up-to-date documentation is available on this website although some information is still in the process of being posted. If you can’t find what you need here, please also check the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) (must have SCINet account to access).
 
 ### How much does a Ceres account cost?
 Ceres is currently free to USDA-ARS researchers and collaborators.
@@ -87,14 +87,14 @@ Day to day operations and user support are provided by the Virtual Research Supp
 ### Who can I contact for help using SCINet?
 Single user operational questions should be emailed to the VRSC scinet_vrsc@usda.gov (see also [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)).
 
-Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the Basecamp message board. Access to [Basecamp](https://3.basecamp.com/3625179/projects/5538276) is provided during the SCINet account application process.
+Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the SCINet VRSC Basecamp message board. Access to [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) is provided during the SCINet account application process. For more about how to use Basecamp see the [SCINet VRSC Basecamp Forum page](https://usda-ars-gbru.github.io/scinet-site/support/basecamp/).
 
 Policy and development questions should be directed to the SCINet program manager, Stan Kosecki, or to your area representatives on the SCINet Scientific Advisory Committee (SAC), see the [SCINet People](https://usda-ars-gbru.github.io/scinet-site/team/) page.
 
 ### How do I use Basecamp?
-[Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp.
+[SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp. For more about SCINet VRSC Basecamp see the [SCINet VRSC Basecamp Forum page](https://usda-ars-gbru.github.io/scinet-site/support/basecamp/).
 
-When your SCINet account is created, you will receive a welcome email and another email asking to join the Basecamp project. Please accept the invitation, create a Basecamp account and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
+When your SCINet account is created, you will receive a welcome email and another email asking to join the SCINet VRSC Basecamp project. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
 
 ### How do I acknowledge SCINet in my publications?
 
@@ -103,14 +103,16 @@ Add the following sentence as an acknowledgment for using SCINet/Ceres as a reso
 “This research used resources provided by the SCINet project of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D.”
 
 ### How do I get an account (I am an ARS employee)?
-Please fill out the [SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information. You will also be signed up for [Basecamp](https://3.basecamp.com/3625179/projects/5538276), a forum on which users can post questions.
+Please fill out the [SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information. 
+
+You will also receive another email asking to join the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) project (must have SCINet account first), a forum on which users can post questions. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts. 
 
 ### How do I get an account for non-ARS collaborators, students, or postdocs?
 All students, postdocs, visiting scientists, and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
 
 Please fill out the [Non-ARS SCINet Account Request Form](https://usda-ars-gbru.github.io/scinet-site/signup/). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
 
-Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the SCINet [Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. 
+Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. Collaborators should accept the email invitation to join SCINet VRSC Basecamp that they will receive upon account approval, create a Basecamp account, and select their preferred email frequency.
 
 ### How do I reactivate my account?
 Please email the VRSC: scinet_vrsc@usda.gov
@@ -126,7 +128,7 @@ New password:
 Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
-The video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x) on Basecamp demonstrates the process.
+The video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x) on SCINet VRSC Basecamp demonstrates the process.
 
 If you have forgotten your login password, please email the VRSC: scinet_vrsc@usda.gov
 
@@ -199,7 +201,7 @@ Contact scinet_vrsc@usda.gov for operational issues affecting a single user such
 * Please update software application X on Ceres.
 * Please add user X to project Y.
 
-Use the [Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board for discussions/questions about the best practices for research computations.
+Use the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board (must have SCINet account to access) for discussions/questions about the best practices for research computations.
 
 For Galaxy questions, please use the same email contact scinet_vrsc@usda.gov 
 
