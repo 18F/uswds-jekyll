@@ -19,7 +19,7 @@ By: Pat Clark and Rowan Gaffney
 #### Table of Contents
 * [Use Cases](#use-cases)
 * [When to Use SCINet?](#when-to-use-scinet)
-* [Tools / Software](#tools-software)
+* [Tools and Software](#tools-and-software)
 
 ## Use Cases
 ---
