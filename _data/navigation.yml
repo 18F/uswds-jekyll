@@ -69,8 +69,8 @@ primary:
 #        href: /user/rl/
 #      - text: National Program Leader
 #        href: /user/npl
-#      - text: Genomics
-#        href: /user/genomics/
+      - text: Genomics
+        href: /user/genomics/
       - text: Plant breeding
         href: /user/plant-breeding/
 #      - text: Animal breeding
