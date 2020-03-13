@@ -54,7 +54,7 @@ Additional considerations are:
 * Will I require more than a single node of compute power (ie. distributed computing)?
 <br>
 
-## Tools / Software
+## Tools and Software
 ---
 The following tools/software are currently available on SCINet. (See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for a full list of currently available software.)
 
