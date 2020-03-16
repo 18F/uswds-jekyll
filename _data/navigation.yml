@@ -48,21 +48,20 @@ primary:
         href: /guide/galaxy
       - text: Containers
         href: /guide/singularity
-
-  - text: Education
+  - text: Working Groups
+    href: /training/working-groups
+  - text: Training
     links:
       - text: Science Tutorials
-        href: /tutorials/
+        href: /training/tutorials/
 #      - text: Videos
-#        href: /education/video/
-      - text: Past Workshops
+#        href: /training/video/
+      - text: Workshops
         href: /workshops/
-      - text: Working Groups
-        href: /education/working-groups
       - text: Bioinformatics Workbook
-        href: /education/bioinformatics-workbook
+        href: /training/bioinformatics-workbook
       - text: Useful Links
-        href: /education/useful-links
+        href: /training/useful-links
   - text: Use Cases
     links:
 #      - text: Research Leader
@@ -86,7 +85,7 @@ primary:
         href: /support/vrsc/
       - text: FAQ's
         href: /support/faq/
-      - text: Basecamp User Forum 
+      - text: Basecamp User Forum
         href: /support/basecamp
       - text: Request Project Storage
         href: /support/request-storage
@@ -95,7 +94,7 @@ primary:
       - text: Request AWS
         href: /support/request-AWS
 #      - text: Ceres Job Script Generator
-#        href: /support/ceres-job-script        
+#        href: /support/ceres-job-script
   - text: About
     links:
       - text: Computer Systems

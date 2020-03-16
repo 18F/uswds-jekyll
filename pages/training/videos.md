@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 description: Tutorials for specific analyses
-permalink: /education/video/
+permalink: /training/video/
 author:
 layout: page
 ---

@@ -1,12 +1,12 @@
 ---
 title: SCINet Working Groups
 description: summary of current working groups
-permalink: /education/working-groups
+permalink: /training/working-groups
 author: working group leads
 layout: page
 ---
 
-The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials. 
+The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials.
 
 The current working groups are:
 * [Ag100Pest Initiative (subgroup of AGR)](#ag100pest-initiative-subgroup-of-agr)
@@ -19,7 +19,7 @@ The current working groups are:
 
 ## Ag100Pest Initiative (subgroup of [AGR](#arthropod-genomics-research-agr-working-group))
 
-The [Ag100Pest Initiative](http://i5k.github.io/ag100pest)’s goal is to produce annotated, reference quality genome assemblies for the top 100 US arthropod agricultural pests by leveraging ARS's unique expertise in both arthropod pest management and agricultural genomics research. We are pushing the limits of current technology to produce long-read sequencing data from individual specimens, despite the challenges of small body sizes, and sometimes large genomes, presented by arthropods. Arthropod pests of US field crops, livestock, bees, trees, and stored products as well as foreign pest species considered potential invasive threats to US agriculture are being considered. 
+The [Ag100Pest Initiative](http://i5k.github.io/ag100pest)’s goal is to produce annotated, reference quality genome assemblies for the top 100 US arthropod agricultural pests by leveraging ARS's unique expertise in both arthropod pest management and agricultural genomics research. We are pushing the limits of current technology to produce long-read sequencing data from individual specimens, despite the challenges of small body sizes, and sometimes large genomes, presented by arthropods. Arthropod pests of US field crops, livestock, bees, trees, and stored products as well as foreign pest species considered potential invasive threats to US agriculture are being considered.
 
 Ag100Pest teams are developing best practices in many arenas from process and data management to extraction, sequencing, assembly, and annotation that will benefit the entire genomics community. As an example, we collaborated in the development of an open-source [functional annotation workflow](https://agbase-docs.readthedocs.io/en/latest/agbase/workflow.html) specifically tailored to arthropods, which users can find installed on Ceres or available through CyVerse, Docker, and GitHub.
 
@@ -52,7 +52,7 @@ Please contact a member of the Executive Coordination Team for more information.
 
 The AGR working group focuses on outreach within USDA-ARS aimed at enhancing the genomic analyse knowledge and skill sets of members and collaborators. This is delivered through monthly teleconferences and webinars by internal and external scientists focused on genome assembly, gene and protein expression, population genomics, and reverse genetic (RNAi and CRISPR) approaches. The AGR was initiated following two organizational meetings in 2014 (AGR Workshop I) and 2016 ([AGR Workshop II](https://usda-ars-gbru.github.io/scinet-site/workshops/2016-07-26-Arthropod-Genomics-Workshop-2/)), at which participants communicated needs and devised solutions for challenging analytical pipelines. The AGR facilitates internal and external collaborations by merging those with complementary knowledge, skills, and capabilities within a given research area. Collaborations among AGR members have also resulted in two published papers reviewing ARS arthropod genomics research<sup>1</sup> and developing RNAi and CRISPR technologies<sup>2</sup>.  Work within the AGR includes the Ag100Pest Initiative, which aims to provide reference quality genome sequence assemblies for arthropod pests of U.S. agricultural commodities.
 
-The AGR is open to anyone within ARS, and those interested in joining can contact Brad Coates. 
+The AGR is open to anyone within ARS, and those interested in joining can contact Brad Coates.
 
 1.	Coates BS, Poelchau M, Childers C, Evans JD, Handler A, Guerrero F, Skoda S, Hopper K, Wintermantel WM, Ling KS, Hunter WB, Oppert B, Perez de Leon AA, Hackett K, Shoemaker D. 2015. [Arthropod genomics research in the United States Department of Agriculture-Agricultural Research Service:  Current impacts and future prospects.](http://www.researchtrends.net/tia/article_pdf.asp?in=0&vn=11&tid=20&aid=5731)  Trends in Entomology 11:1-27. (opens pdf in this browser window)
 

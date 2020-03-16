@@ -1,7 +1,7 @@
 ---
 title: Useful Links for HPC and Data Management
 description: links to mostly external computational and data management information resources
-permalink: /education/useful-links
+permalink: /training/useful-links
 author: various
 layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
@@ -22,8 +22,8 @@ layout: page
 
 - [Data Management Plan Guidance](https://www.nal.usda.gov/main/data/data-management-plan-guidance) from the National Agricultural Library on how to write a data management plan for your research data
 
-### Machine Learning Tutorials 
+### Machine Learning Tutorials
 
-- Tutorials on machine learning and visualization in Python for Earth science (a collaboration between NASA Goddard Space Flight Center and Anaconda) [https://earthml.holoviz.org/index.html](https://earthml.holoviz.org/index.html) 
+- Tutorials on machine learning and visualization in Python for Earth science (a collaboration between NASA Goddard Space Flight Center and Anaconda) [https://earthml.holoviz.org/index.html](https://earthml.holoviz.org/index.html)
 
 - Machine learning tutorials using Python aimed at life sciences from the FY19 USDA ARS/University of Florida Machine Learning Training [https://usda-ars-gbru.github.io/ml-training-site/](https://usda-ars-gbru.github.io/ml-training-site/)

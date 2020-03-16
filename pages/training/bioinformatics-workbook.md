@@ -1,7 +1,7 @@
 ---
 title: Bioinformatics Workbook
 description: Intro and link to the workbook
-permalink: /education/bioinformatics-workbook
+permalink: /training/bioinformatics-workbook
 author: Andrew Severin/Kerrie Geil
 layout: page
 ---

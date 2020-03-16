@@ -1,7 +1,7 @@
 ---
 title: Tutorials
 description: Tutorials for specific analyses
-permalink: /tutorials/
+permalink: /training/tutorials/
 author:
 layout: tutorials
 ---
