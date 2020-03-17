@@ -15,6 +15,7 @@ The table below lists information about planned SCINet outages. See the SCINet V
 | 2/17/2020 | Ceres | All (Ceres offline) | maintenance |
 | 3/2/2020 | SCINet | Clay Center | router replacement |
 | 3/12/2020 | SCINet | Ft Collins | router replacement |
+| 3/19/2020 | SCINet | Ft Collins | router replacement |
 | 6/16/2020 | Ceres | All (Ceres offline) | maintenance |
 | 10/12/2020 | Ceres | All (Ceres offline) | maintenance |    
 
