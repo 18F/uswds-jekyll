@@ -14,7 +14,6 @@ branches:
   only:
   - master
   - travisci
-  - gh-pages # test every branch which starts with "pages-"
 
 env:
   global:
@@ -40,4 +39,4 @@ deploy:
   target_branch: gh-pages
   keep_history: false
   on:
-    branch: gh-pages
+    branch: travisci
