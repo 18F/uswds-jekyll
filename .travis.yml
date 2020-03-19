@@ -10,11 +10,11 @@ before_script:
 script: ./script/cibuild
 
 # branch whitelist, only for GitHub Pages
-  # branches:
-  #   only:
-  #   - master
-  #   - travisci
-  #   - gh-pages # test every branch which starts with "pages-"
+branches:
+  only:
+  - master
+  - travisci
+  - gh-pages # test every branch which starts with "pages-"
 
 env:
   global:
@@ -39,3 +39,5 @@ deploy:
   edge: true # opt in to dpl v2
   target_branch: gh-pages
   keep_history: false
+  on:
+    branch: gh-pages
