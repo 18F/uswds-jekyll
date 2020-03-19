@@ -12,8 +12,9 @@ script: ./script/cibuild
 # branch whitelist, only for GitHub Pages
 branches:
   only:
-  - master     # test the gh-pages branch
-  - travisci # test every branch which starts with "pages-"
+  - master
+  - travisci
+  - gh-pages # test every branch which starts with "pages-"
 
 env:
   global:
