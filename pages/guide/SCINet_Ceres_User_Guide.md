@@ -108,7 +108,7 @@ Domain | Software
 --- | ---
 Operating System	| CentOS
 Scheduler	| SLURM
-Software | For the full list of installed scientific software refer to the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) page or issue the  `module spider`  command on the Ceres login node.  
+Software | For the full list of installed scientific software refer to the [Software Overview](/scinet-site/guide/software) page or issue the  `module spider`  command on the Ceres login node.  
 Modeling	| BeoPEST, EPIC, KINEROS2, MED-FOES, SWAT, h2o
 Compilers | GNU (C, C++, Fortran), clang, llvm, Intel Parallel Studio
 Languages | Java 6, Java 7, Java 8, Python, Python 3, R, Perl 5, Julia, Node
@@ -126,7 +126,7 @@ Users can connect directly to Ceres using an ssh client. ssh is usually availabl
 $ ssh <your_username>@login.scinet.science
 ```
 
-For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart))
+For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](/scinet-site/guide/quickstart))
 
 Logins to the Ceres cluster require the use of multi-factor authentication (MFA). Ceres uses Google Authenticator (GA) for MFA. On your first attempt to ssh to the cluster a GA code will be created for you and an email with MFA login instructions will be sent to the email you specified when requesting SCINet account.
 
@@ -143,7 +143,7 @@ When you log in to SCINet HPC you will be on the Ceres login node. The login nod
 
 ### Globus Online Data Transfers
 
-We recommend using Globus Online to transfer data to and from the Ceres cluster. It provides faster data transfer speeds compared to scp, has a graphical interface, and does not require a GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Guide for Transferring Files](https://usda-ars-gbru.github.io/scinet-site/guide/globus/).
+We recommend using Globus Online to transfer data to and from the Ceres cluster. It provides faster data transfer speeds compared to scp, has a graphical interface, and does not require a GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Guide for Transferring Files](/scinet-site/guide/file-transfer/).
 
 ### Using scp to Transfer Data
 Like ssh, scp is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell).
@@ -336,7 +336,7 @@ At login, current usage and quotas are displayed for all groups that a user belo
 $ my_quotas
 ```
 
-If users need more storage than what is available in the home directory, they should visit the [Request a Project Storage](https://usda-ars-gbru.github.io/scinet-site/support/request-storage) page. Several users may work on the same project and share the same project directory.
+If users need more storage than what is available in the home directory, they should visit the [Request a Project Storage](/scinet-site/support/request-storage) page. Several users may work on the same project and share the same project directory.
 
 Project directories are located in the 1.8PB BeeGFS space that is mounted on all nodes as /project. Directories in /project are not backed up, however users can copy important data from a directory in /project to a corresponding directory in /KEEP in ZFS space that is backed up nightly using zsend. **It is not recommended to run jobs from a directory in /KEEP.**
 
@@ -624,13 +624,13 @@ Regular compute nodes also have (smaller) local scratch space.
 
 The Ceres login node provides access to a wide variety of scientific software tools that users can access and use via the module system. These software tools were compiled and optimized for use on Ceres by members of the Virtual Research Support Core (VRSC) team. Most users will find the software tools they need for their research among the provided packages and thus will not need to compile their own software packages.
 
-If users would like to compile their own software with GNU compilers, they will need to load the gcc module. It is recommended to **compile on compute nodes and not on the login node**. However, before embarking on compiling their own software packages we strongly encourage users to contact the VRSC team to ensure that their required tool(s) might not be better distributed as a shared package within the official software modules tree. All new software needs to be approved by SOC committee before being centrally installed on the system. To request a new software package to be installed, visit the [Request Software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) page.
+If users would like to compile their own software with GNU compilers, they will need to load the gcc module. It is recommended to **compile on compute nodes and not on the login node**. However, before embarking on compiling their own software packages we strongly encourage users to contact the VRSC team to ensure that their required tool(s) might not be better distributed as a shared package within the official software modules tree. All new software needs to be approved by SOC committee before being centrally installed on the system. To request a new software package to be installed, visit the [Request Software](/scinet-site/support/request-software) page.
 
-The popular R, Perl, and Python languages have many packages/modules available. Some of the packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. To see the list of installed packages, visit the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) page or use  `module help <module_name>`  command. If users need packages that are not available, they can either request VRSC to add packages, or they can download and install packages in their home/project directories. We recommend installing packages in the project directories since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. See the [Guide to Installing R, Python, and Perl Packages](https://usda-ars-gbru.github.io/scinet-site/guide/packageinstall/) for instructions and examples on how to add packages/modules for these languages.
+The popular R, Perl, and Python languages have many packages/modules available. Some of the packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. To see the list of installed packages, visit the [Software Overview](/scinet-site/guide/software) page or use  `module help <module_name>`  command. If users need packages that are not available, they can either request VRSC to add packages, or they can download and install packages in their home/project directories. We recommend installing packages in the project directories since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas. See the [Guide to Installing R, Python, and Perl Packages](/scinet-site/guide/packageinstall/) for instructions and examples on how to add packages/modules for these languages.
 
-Another resource for installing your own software programs is the Conda package manager. See the [User-Installed Software on Ceres Using Conda Guide](https://usda-ars-gbru.github.io/scinet-site/guide/conda).
+Another resource for installing your own software programs is the Conda package manager. See the [User-Installed Software on Ceres Using Conda Guide](/scinet-site/guide/conda).
 
-Some software packages may not be available for the version of Linux running on the Ceres cluster. In this case users may want to run containers. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so users don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use. See the document [Singularity on Ceres](https://usda-ars-gbru.github.io/scinet-site/guide/singularity) for instructions and examples on how to download and run Docker and Singularity containers on Ceres.
+Some software packages may not be available for the version of Linux running on the Ceres cluster. In this case users may want to run containers. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so users don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use. See the document [Singularity on Ceres](/scinet-site/guide/singularity) for instructions and examples on how to download and run Docker and Singularity containers on Ceres.
 
 # SCINet Citation/Acknowledgment in Publications
 
