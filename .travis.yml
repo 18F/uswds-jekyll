@@ -13,7 +13,6 @@ script: ./script/cibuild
 branches:
   only:
   - master
-  - travisci
 
 env:
   global:
@@ -40,4 +39,4 @@ deploy:
   keep_history: false
   local_dir: ./_site
   on:
-    branch: travisci
+    branch: master
