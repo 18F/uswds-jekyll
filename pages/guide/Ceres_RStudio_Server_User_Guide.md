@@ -30,7 +30,7 @@ SCINet users can use RStudio in one of the following ways:
 2. To run an RStudio Server virtual machine on and access data in Amazon Web Services, contact the SCINet VRSC.
 3. To run RStudio Server on and access data in Ceres, follow the directions in this guide.
 
-Videos demonstrating the procedure for different access methods (VPN vs. SSH port forwarding) are available on SCINet VRSC Basecamp ([chrome-ssh.mp4](https://public.3.basecamp.com/p/5Myb2X5CR2uZKr8EU2ZJgpmi), [vpn.mp4](https://public.3.basecamp.com/p/aznzZYeWLejJFHyTp6ZT6E8s)).
+Videos demonstrating the procedure for different access methods (VPN vs. SSH port forwarding) are available on SCINet VRSC Basecamp ([chrome-ssh.mp4](https://public.3.basecamp.com/p/5Myb2X5CR2uZKr8EU2ZJgpmi), [vpn.mp4](https://public.3.basecamp.com/p/29EMDf24Hn8SkjDhbRdWn6NU)).
 
 # RStudio Server on Ceres
 RStudio Server is currently available on Ceres using a Docker image (imported into Singularity) provided by the Rocker project. The provided geospatial image provides not only geospatial libraries, but also LaTeX / publishing libraries, and Tidyverse data science libraries. Other R packages can be easily installed into your home directory from within RStudio.
@@ -47,7 +47,7 @@ A few Ceres-specific notes:
 # Starting RStudio Server
 
 0. (If using VPN) Connect to SCINet VPN (see instructions on SCINet VRSC Basecamp [VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/dwGmuqTLhAErovKeJCEggjNC), [VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/TDE9ws88dd6XygPA2ekdGEJY)).
-1. Log into Ceres via SSH (see the [Quick Start Guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart#accessing-scinet) for instructions).
+1. Log into Ceres via SSH (see the [Quick Start Guide](/scinet-site/guide/quickstart#accessing-scinet) for instructions).
 2. Submit the RStudio SLURM job script with the following command:
 ```
 sbatch /reference/containers/RStudio/3.5.0/rstudio.job
