@@ -38,5 +38,6 @@ deploy:
   edge: true # opt in to dpl v2
   target_branch: gh-pages
   keep_history: false
+  local_dir: ./_site
   on:
     branch: travisci
