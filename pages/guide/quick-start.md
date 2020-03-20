@@ -25,7 +25,7 @@ layout: page
 
 ---
 
-[No account? Signup here.](https://usda-ars-gbru.github.io/scinet-site/signup/){: .usa-button .usa-button-big }
+[No account? Signup here.](/scinet-site/signup/){: .usa-button .usa-button-big }
 
 #### Table of Contents
 * [What is SCINet](#what-is-scinet)
@@ -61,14 +61,14 @@ layout: page
 
 SCINet is the name for the USDA-ARS initiative for scientific computing. It consists of:
 
-1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](https://usda-ars-gbru.github.io/scinet-site/about/compute) for more detail.
-2. Networking improvements across ARS. See [SCINet Networking](https://usda-ars-gbru.github.io/scinet-site/about/networking) for more detail.
-3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](https://usda-ars-gbru.github.io/scinet-site/support/vrsc/) for more detail.
-4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](https://usda-ars-gbru.github.io/scinet-site/opportunities/events) and [Past Workshops](https://usda-ars-gbru.github.io/scinet-site/workshops/) for more detail.
+1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](/scinet-site/about/compute) for more detail.
+2. Network improvements across ARS. 
+3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](/scinet-site/support/vrsc/) for more detail.
+4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](/scinet-site/opportunities/events) and [Past Workshops](/scinet-site/workshops/) for more detail.
 
 # Set Up Multi-Factor Authentication
 
-For security, SCINet requires multifactor authentication. See the setup instructions in the [Multi-Factor Authentication User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/multifactor/).
+For security, SCINet requires multifactor authentication. See the setup instructions in the [Multi-Factor Authentication User Guide](/scinet-site/guide/multifactor/).
 
 
 # HPC Clusters on SCINet
@@ -169,7 +169,7 @@ Home directories are private, they are only accessible to you and the system adm
 
 Project directories are intended as high-level workspaces. This is where large datasets would reside, sub-projects can be created, and collaborative analysis results stored. Project directories are usually associated with ARS Research Projects.
 
-To request a new project directory see [Request Project Storage](https://usda-ars-gbru.github.io/scinet-site/support/request-storage). A direct link to the form (eAuthentication required) which includes submitting a Data Management Plan:
+To request a new project directory see [Request Project Storage](/scinet-site/support/request-storage). A direct link to the form (eAuthentication required) which includes submitting a Data Management Plan:
 
 [Request a project directory](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx){: .usa-button }
 
@@ -182,7 +182,7 @@ Given the space and access limitations of a home directory, large amounts of dat
 
 ## Globus Data Transfers
 
-We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/globus/).
+We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](/scinet-site/guide/globus/file-transfer).
 
 ## Small Data Transfers
 
@@ -208,12 +208,12 @@ Other options for small data transfers include [Cyberduck](https://cyberduck.io/
 
 ## Shipping Hard Drives
 
-You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](https://usda-ars-gbru.github.io/scinet-site/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
+You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](/scinet-site/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
 
 
 # Using the Software Applications on Ceres
 
-Many software applications are available as modules ([see Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software)) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
+Many software applications are available as modules ([see Software Overview](/scinet-site/guide/software)) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
 
 The `module` command is used to work with the different software application modules. The following table lists some of the most common functions of the `module` command:
 
@@ -276,11 +276,11 @@ For more fine grained control over the interactive environment you can use the s
 
 `srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l` 
 
-See the [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
+See the [Ceres User Manual](/scinet-site/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
 
 ## Batch Mode
 
-You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#batch-mode).
+You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed [Ceres User Manual](/scinet-site/guide/ceres/#batch-mode).
 
 Here is an example of a batch job submission bash script (e.g. `blast_job.sh`, for running BLAST):
 
