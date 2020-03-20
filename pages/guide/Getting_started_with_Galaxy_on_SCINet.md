@@ -30,7 +30,7 @@ There are a few compelling reasons why we think you’re going to like using Gal
 5. There is plenty of external documentation covering almost all conventional bioinformatic analyses. In fact, many workflows (see below) probably already exist that you can use directly on your data.
 6. If you don’t see a tool in the current interface, it probably is in the Toolshed (see below). You can then request that an administrator install it.
 
-In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCINet account](https://usda-ars-gbru.github.io/scinet-site/signup/) to start that process. New accounts will automatically get a Galaxy user name and directory. The user name should match the email you used when registering for your Ceres account and the password will match your Ceres password.
+In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCINet account](/scinet-site/signup/) to start that process. New accounts will automatically get a Galaxy user name and directory. The user name should match the email you used when registering for your Ceres account and the password will match your Ceres password.
 
 
 
@@ -60,9 +60,9 @@ Galaxy offers a method to import data directly from your computer as "Choose loc
 
 You need to move or copy your data files to the Galaxy folder in your home directory on Ceres to make them "visible" to Galaxy. Then, you will be able to upload/import the files using Galaxy. Remember, the default quota in SCINet galaxy is only 100 GB. Please contact us to increase your default quota.
 
-We recommend using Globus to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](https://usda-ars-gbru.github.io/scinet-site/guide/globus/).
+We recommend using Globus to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](/scinet-site/guide/file-transfer/).
 
-<!--You can also use Filezilla to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](https://usda-ars-gbru.github.io/scinet-site/guide/globus/).
+<!--You can also use Filezilla to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](https://usda-ars-gbru.github.io/scinet-site/guide/file-transfer/).
 -->
 NOTE: If you already have data on Ceres, simply copy files into your Galaxy folder on Ceres either via command-line (“cp” command) or by using a Filezilla-like tool. These files will appear as if you had uploaded them via FTP and can be imported using the approach described below.
 
@@ -108,7 +108,7 @@ Some links to common analyses are given below. Many of these analyses already ex
 
 # Sharing Your Data and Analysis
 
-If you need some consultation on your results or on parameter settings, it can be very useful to share your analysis with someone so that you can both be viewing the same thing. To that end, we will give this aspect special emphasis. You can see a short introduction to this option at [https://moin.galaxyproject.org/Learn/Share](https://moin.galaxyproject.org/Learn/Share).
+If you need some consultation on your results or on parameter settings, it can be very useful to share your analysis with someone so that you can both be viewing the same thing. To that end, we will give this aspect special emphasis. You can see a short introduction to this option at [https://galaxyproject.org/learn/share](https://galaxyproject.org/learn/share).
 
 Briefly, if you are in the appropriate history, follow the clicks on the History pane indicated in red (select Settings gear icon, then select "Share or Publish" on the settings menu):
 
@@ -131,6 +131,6 @@ After you have gone through these steps, the person you have shared your history
 
 We have loaded a core subset of all tools that are available on the public Galaxy server ([https://usegalaxy.org](https://usegalaxy.org)). If you do not see a tool you need and cannot use a good alternative, you should search in the Toolshed ([https://toolshed.g2.bx.psu.edu](https://toolshed.g2.bx.psu.edu)). After identifying the relevant tool, email a Ceres Galaxy administrator: scinet_vrsc@usda.gov. If there are multiple options, we encourage the use of tools developed by either “devteam” or “iuc”. Depending on the nature of the tool you are requesting, we may ask you to supply a sample dataset for testing purposes, so anticipate having that data available. 
 
-Additionally, there is an option for galaxy install as well on the application to [request software](https://usda-ars-gbru.github.io/scinet-site/support/request-software) installation by the VRSC. Select the Galaxy checkbox in the "Type of Application" section:
+Additionally, there is an option for galaxy install as well on the application to [request software](/scinet-site/support/request-software) installation by the VRSC. Select the Galaxy checkbox in the "Type of Application" section:
 
 ![screen shot of the software request form section type of application](/scinet-site/assets/img/galaxy-user-guide/galaxy-cant-find-a-tool-1_640.jpg)
