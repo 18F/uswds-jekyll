@@ -182,7 +182,7 @@ Given the space and access limitations of a home directory, large amounts of dat
 
 ## Globus Data Transfers
 
-We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](/scinet-site/guide/globus/file-transfer).
+We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](/scinet-site/guide/file-transfer).
 
 ## Small Data Transfers
 
