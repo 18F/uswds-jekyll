@@ -34,7 +34,7 @@ notifications:
 
 deploy:
   provider: pages:git
-  token: GITHUB_TOKEN
+  token: $GITHUB_TOKEN
   edge: true # opt in to dpl v2
   target_branch: gh-pages
   keep_history: false
