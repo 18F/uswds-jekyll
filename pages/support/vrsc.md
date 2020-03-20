@@ -38,7 +38,7 @@ Additionally, the VRSC provides research IT support, computational expertise in 
 
 
 ## Support for SCINet-Funded Workshops/Training
-The SCINet initiative funds various workshops and training events annually ([Apply to Hold a SCINet-Funded Workshop/Training](https://usda-ars-gbru.github.io/scinet-site/opportunities/plan-workshop)) to which the VRSC can provide the following types of support:
+The SCINet initiative funds various workshops and training events annually ([Apply to Hold a SCINet-Funded Workshop/Training](/scinet-site/opportunities/request-workshop)) to which the VRSC can provide the following types of support:
 
 * general SCINet information presentation with Q&A
 
@@ -50,7 +50,7 @@ The SCINet initiative funds various workshops and training events annually ([App
 
 ## How and When to Contact the VRSC
 
-Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board. Access to Basecamp is provided during the SCINet account application process ([Apply for an Account](https://usda-ars-gbru.github.io/scinet-site/signup/)).
+Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board. Access to Basecamp is provided during the SCINet account application process ([Apply for an Account](/scinet-site/signup/)).
 
 If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 
@@ -64,12 +64,6 @@ Single user operational questions, including Galaxy questions, should be emailed
 * Please add user X to project Y.
 
 
-For new software installation requests, see [Request Software Installation on SCINet](https://usda-ars-gbru.github.io/scinet-site/support/request-software).
+For new software installation requests, see [Request Software Installation on SCINet](/scinet-site/support/request-software).
 
-For new SCINet AWS project requests, see [Request SCINet AWS](https://usda-ars-gbru.github.io/scinet-site/support/request-AWS).
-
-<!--
-## Page specific instructions
-* The Discourse Forum
-* Requesting software if needed (Jira linked forms instead of sharepoint)
--->
+For new SCINet AWS project requests, see [Request SCINet AWS](/scinet-site/support/request-AWS).
