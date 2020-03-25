@@ -7,6 +7,11 @@ layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
 
+#### Table of Contents
+* [Introduction](#introduction)
+* [Jupyter on Ceres](#jupyter-on-ceres)
+* [Best Practices](#best-practices)
+
 
 ## Introduction
 ---
@@ -16,7 +21,8 @@ layout: page
   
   2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter’s next-generation notebook interface, which includes:
     
-<img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="425" align="left" hspace="5" border="1">
+<img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="425" align="left" hspace="5" border="1" alt="screenshot of jupyterlab software">
+<!-- <img src="/scinet-site/assets/img/jupyter/jupyterlab.png" width="425" align="left" hspace="5" border="1" alt="screenshot of jupyterlab software"> -->
 
    <br>[Notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html)<br>
    [Text Editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html) <br>
@@ -29,7 +35,7 @@ layout: page
    
      
   
-  Additional, JupyterLab can provide arbitrary external processes (such as RStudio, Shiny Server, syncthing, PostgreSQL, etc), and authenticated web access to them. For more details see the [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/) package.
+  Additionally, JupyterLab can provide arbitrary external processes (such as RStudio, Shiny Server, syncthing, PostgreSQL, etc), and authenticated web access to them. For more details see the [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/) package.
   
   
  
@@ -48,6 +54,9 @@ The most succinct method for accessing the Jupyter stack on Ceres is through the
 3. **Spawning a JupyterLab instance**.<br><br>The Spawning page includes a comprehensive set of options for customizing JupyterLab 
 
 <img src="../../assets/img/JHub_spawner.png" width="400" align="left" hspace="0" border="1">
+<!-- update image after Yash finishes edits, copy image to SCINet site-->
+<!-- <img src="/scinet-site/assets/img/jupyter/JHub_spawner.png" width="400" align="left" hspace="0" border="1" alt="screenshot of Jupyter Hub spawner"> -->
+
   
   <u><i>Node Type</i></u>: Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab
 
@@ -59,20 +68,26 @@ The most succinct method for accessing the Jupyter stack on Ceres is through the
    
   <u><i>Working Directory</i></u>: The directory to launch JupyterLab. An example may be */project/name_of_project*
    
-  <u><i>Container Path</i></u>: Path to the singularity container to use to launch JupyterLab. The defualt container is [xxxxxx](link).
+  <u><i>Container Path</i></u>: Path to the Singularity container to use to launch JupyterLab. The defualt container is [xxxxxx](link).
    
-  <u><i>Container Options</i></u>: [Additional options] for executing the container(see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /project/name_of_project*<br>
+  <u><i>Container Options</i></u>: [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /project/name_of_project*<br>
    
-  JupyterHub will spawn an instance of JupyterLab using a singularity container. The default container is the [xxxxxx](link) (if *Container Path* is left blank) . Users can specify an alternateive container on Ceres by:
+  JupyterHub will spawn an instance of JupyterLab using a singularity container. The default container is the [xxxxxx](link) (if *Container Path* is left blank). Users can specify an alternateive container on Ceres by:
   * Pointing to a prebuilt container maintained by SCINet (that includes JupyterLab) in `/references/containers/`.
   * Pointing to a prebuilt container maintained by the user. Singularity containers can be built by pulling images from:<br>
     1. [Docker Hub](): `singularity pull docker://user/image:tag`<br>
     2. [Singularity Hub](https://singularity-hub.org/): `singularity pull shub://user/image:tag`<br>
     3. Building a container locally and transferring to Ceres.
-  * Pointing to a prebuilt container on an external hub. When launching jupyter from an external hub for the first time, it will take 1-10 minutes to serve application because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is cached in your Home directory).
+  * Pointing to a prebuilt container on an external hub. **When launching jupyter from an external hub for the first time, it will take 1-10 minutes** to serve application because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is cached in your Home directory).
     1. Example input into *Container Path*: ```docker://jupyter/datascience-notebook```
 
 &nbsp;&nbsp;&nbsp;&nbsp;4. **Terminating JupyterLab**<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To end the JupyterLab instance go to: *File* **-->** *Hub Control Panel* **-->** *Stop Server*
+
+If you forget to stop the server through the hub, please terminate your job by:<br>
+* logging in to Ceres with ssh<br>
+* `squeue -u <user.name>`, and note the job_id running jupyter<br>
+* `scancel -f <job_id>`
+
 
 An alternative approach to launching JupyterLab (not covered in this page) is to log into Ceres, start a job on Slurm that runs jupyterlab, and port forward the process to your local computer.
 
@@ -86,7 +101,7 @@ An alternative approach to launching JupyterLab (not covered in this page) is to
   * Remember to stop the jupyter server when you are done working (*File* **-->** *Hub Control Panel* **-->** *Stop Server*).
   
   
-  **Parallel and Distributed Computing Packages**: Developing scripts that utilize resources of a cluster can be challenging. Below are some software packages that may assist in parallizing computations as well as links to some Ceres specific examples.
+  **Parallel and Distributed Computing Packages**: Developing scripts that utilize resources of a cluster can be challenging. Below are some software packages that may assist in parallelizing computations as well as links to some Ceres specific examples.
   
   * Python
     1. [Dask](https://dask.org/)<br>
