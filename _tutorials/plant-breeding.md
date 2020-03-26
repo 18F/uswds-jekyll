@@ -3,6 +3,7 @@ title: Quantitative Trait Locus (QTL) Analysis for Breeding
 description: Quantitative Trait Locus Analysis for Breeding research
 author:
 layout: page
+excerpt: use QTL-surge and RStudio on Ceres
 ---
 By: Justin Vaughn
 
