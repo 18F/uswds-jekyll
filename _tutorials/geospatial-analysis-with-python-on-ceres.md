@@ -6,4 +6,4 @@ layout: page
 excerpt: efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing
 ---
 
-[/scinet-site/assets/img/geospatial/Tutorial1-JHub.html](/scinet-site/assets/img/geospatial/Tutorial1-JHub.html)
+[link to tutorial](/scinet-site/assets/img/geospatial/Tutorial1-JHub.html)
