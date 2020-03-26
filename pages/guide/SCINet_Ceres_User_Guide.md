@@ -8,6 +8,7 @@ layout: page
 ---
 
 #### Table of Contents
+* [Onboarding Videos](#onboarding-videos)
 * [Technical Overview](#technical-overview)
 * [System Configuration](#system-configuration)
   * [Software Environment](#software-environment)
@@ -36,6 +37,22 @@ layout: page
   * [Local Scratch Space on Large Memory Nodes](#local-scratch-space-on-large-memory-nodes)
 * [Compiling Software, Installing R/Perl/Python Packages and Using Containers](#compiling-software-installing-rperlpython-packages-and-using-containers)
 * [Citation/Acknowledgment](#scinet-citationacknowledgment-in-publications)
+
+# Onboarding Videos
+Users who are new to the HPC environment may benefit from the following Ceres onboarding video which covers much of the material contained in this guide plus some Unixs basics.
+
+[Ceres Onboarding (Intro to SCINet Ceres HPC) (length 51:17)](https://public.3.basecamp.com/p/PZ52ap6Dr6QSDD2THfv1w8BH)
+This video includes:
+- logging on to Ceres
+- changing your password
+- navigating directories
+- basic Unix and SLURM job scheduler commands
+- setting file/directory access
+- computing in interactive mode with salloc
+- accessing Ceres software modules
+- previewing text file contents
+- computing in batch mode with a batch script
+
 
 # Technical Overview
 
