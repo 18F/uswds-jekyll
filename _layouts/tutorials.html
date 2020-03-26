@@ -7,6 +7,6 @@ layout: page
       <h3>
         <a href="{{ tutorial.url  | relative_url}}">{{ tutorial.title }}</a>
       </h3>
-      {{ post.excerpt | truncatewords:25 }}
+      {{ tutorial.excerpt | truncatewords:25 }}
     {% endfor %}
 </div>
