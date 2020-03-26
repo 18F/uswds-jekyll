@@ -1,5 +1,5 @@
 ---
-title: High Resolution Hyperspectral Data Exercise
+title: NEON High Resolution Hyperspectral Data Exercise
 description: tutorial1 example2 from LTAR webinar series HPC for geospatial analysis
 author: Rowan Gaffney
 layout: page
