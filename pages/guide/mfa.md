@@ -86,7 +86,7 @@ Contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%2
 
 
 
-## Google Authenticator on Apple iOS iPhones and iPads
+## Google Authenticator (GA) on Apple iOS iPhones and iPads
 
 ### Requirements
 
