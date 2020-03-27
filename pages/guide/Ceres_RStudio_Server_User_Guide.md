@@ -48,11 +48,9 @@ A few Ceres-specific notes:
 
 The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE)
 
-1. (If using VPN) Connect to SCINet VPN (see video instructions): 
-
-  [VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/tzGebGAAAqgnTvkyNxc85TYq), 
-
-  [VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/MbHvJiPFSgWWvBJ3WRYuMN1p)
+1. (If using VPN) Connect to SCINet VPN (see video instructions): <br>
+[VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/tzGebGAAAqgnTvkyNxc85TYq)<br>
+[VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/MbHvJiPFSgWWvBJ3WRYuMN1p)
 
 2. Log into Ceres via SSH (see the [Quick Start Guide](/scinet-site/guide/quickstart#accessing-scinet) for instructions).
 
