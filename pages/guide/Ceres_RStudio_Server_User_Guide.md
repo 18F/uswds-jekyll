@@ -118,6 +118,9 @@ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
 # SSH Port Forwarding (instead of VPN)
 
 ## Windows + PuTTY users
+The following silent video is a media alternative for the text in steps 1-4 below:<br> 
+[rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
+
 1. Open a new PuTTY window
 2. In Session > Host Name, enter: **login.scinet.science**
 3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **sn-cn-6-0:57088**), click “Add”, then click “Open”.
