@@ -1,6 +1,6 @@
 ---
-name: Julian Trachsel
-image: /assets/img/team-images/team-placeholder-300-300.jpg
+name: Margaret Woodhouse
+image: /assets/img/team-images/margaret-woodhouse-300-300.jpg
 # year:
 #  - 2018
 #  - 2019
@@ -9,7 +9,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: MWA SAC Member, Computational Biologist
+position: MWA SAC Member, Computational Biologist, MaizeGDB
 page-position: 9
 email: test.person@usda.gov
 ---
