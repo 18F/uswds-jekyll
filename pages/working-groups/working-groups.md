@@ -74,7 +74,7 @@ information coming soon, contact Adam Rivers
 
 ## SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group
 
-information coming soon, contact Dawn Browning
+This working group was formed as the result of an August 2019 SCINet-funded workshop hosted by Dawn Browning. The focus of the group is to learn how to use SCINet high performance computing resources to expand the scope and impact of on-going collaborative phenology research. The group is devising workflows to assemble multiple diverse data streams and using SCINet computing resources to optimize agroecosystem models. Contact Dawn Browning for more information on this research and collaborative opportunities.
 
 <br>
 
@@ -86,21 +86,12 @@ SCINet website development, led by Adam Rivers, started in 2019 to create this c
 
 ## Workbook Developers
 
-information coming soon, contact Andrew Severin
+Andrew Severin of the SCINet Virtual Research Support Core at Iowa State University is the lead for workbook development. Contact Andrew with questions or to get involved.
 
 #### [Bioinformatics Workbook](https://bioinformaticsworkbook.org/)
 
-#### Geospatial Research Workbook (link coming soon)
+The bioinformatics workbook has guides and tutorials focused on the genomics and bioinformatics communities, although researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more.
 
+#### Geospatial Research Workbook
 
-<!--
-## Page specific instructions
-Kerrie working on contacting group leaders for the following info. Goal to complete this page by some time in Jan 2020
-Write about the mission/status of the current working groups and who to contact to get involved, if applicable.
-Include:
-decription of the work/research
-any pertinent links to publications, data, websites,
-any photos or scientific graphics
-whether the group is open to new members
-who to contact
--->
+A geospatial research workbook is currently in development and is planning to offer tutorials and guides similar to the bioinformatics workbook, except focused on geospatial research communities such as ecology, hydrology, and remote sensing sciences.
