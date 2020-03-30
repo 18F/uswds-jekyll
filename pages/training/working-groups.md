@@ -1,7 +1,7 @@
 ---
 title: SCINet Working Groups
 description: summary of current working groups
-permalink: /training/working-groups
+permalink: /working-groups
 author: working group leads
 layout: page
 ---
