@@ -49,7 +49,7 @@ primary:
       - text: Containers
         href: /guide/singularity
   - text: Working Groups
-    href: /training/working-groups
+    href: /working-groups
   - text: Training
     links:
       - text: Science Tutorials
