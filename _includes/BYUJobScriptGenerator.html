@@ -163,30 +163,28 @@ BYUScriptGen.prototype.newSelect = function(args) {
 BYUScriptGen.prototype.newGroup = function() {
 	var newEl = document.createElement("div");
 	newEl.className = "byu-group";
-	if(arguments[0])
-		newEl.id = arguments[0];
-	for (var i = 1; i < arguments.length; i++) {
-		if(typeof arguments[i] == "string") {
-			newEl.appendChild(document.createTextNode(arguments[i]));
-		} else
-			newEl.appendChild(arguments[i]);
-	}
+	newEl = this.appendChildren(newEl,arguments)
 	return newEl;
 };
 
 
 BYUScriptGen.prototype.newSpan = function() {
 	var newEl = document.createElement("span");
-	if(arguments[0])
-		newEl.id = arguments[0];
-	for (var i = 1; i < arguments.length; i++) {
-		if(typeof arguments[i] == "string") {
-			newEl.appendChild(document.createTextNode(arguments[i]));
-		} else
-			newEl.appendChild(arguments[i]);
-	}
+     	newEl = this.appendChildren(newEl, arguments);
 	return newEl;
 };
+
+BYUScriptGen.prototype.appendChildren = function(newEl, args) {
+	if(arguments[0])
+		newEl.id = args[0];
+	for (var i = 1; i < args.length; i++) {
+		if(typeof args[i] == "string") {
+			newEl.appendChild(document.createTextNode(args[i]));
+		} else
+			newEl.appendChild(args[i]);
+	}
+     return newEl
+}
 
 BYUScriptGen.prototype.newA = function(url, body) {
 	var a = document.createElement("a");
@@ -224,13 +222,13 @@ BYUScriptGen.prototype.createForm = function(doc) {
 	this.inputs.num_gpus = this.newInput({value:0, size:4});
 	this.inputs.mem_per_node = this.newInput({size:7, maxLength:7});
 	this.inputs.mem_units = this.newSelect({options:[["GB", "GB"],["MB", "MB"]]});
-	this.inputs.memGr = this.newGroup("mem-group", this.inputs.mem_per_node, this.inputs.mem_units);
+	var memGr = this.newGroup("mem-group", this.inputs.mem_per_node, this.inputs.mem_units);
 	this.inputs.wallhours = this.newInput({value:"00", size:2, maxLength:2, id:"wall-hours"});
 	this.inputs.wallmins = this.newInput({value:"00", size:2, maxLength:2, id:"wall-mins"});
 	this.inputs.wallsecs = this.newInput({value:"00", size:2, maxLength:2, id:"wall-secs"});
-	this.inputs.wallhoursGr = this.newGroup(null, this.newLabel({for:"wall-hours", inner:"Hours"}), this.inputs.wallhours);
-	this.inputs.wallminsGr = this.newGroup(null, this.newLabel({for:"wall-mins", inner:"Minutes"}), this.inputs.wallmins);
-	this.inputs.wallsecsGr = this.newGroup(null, this.newLabel({for:"wall-secs", inner:"Seconds"}), this.inputs.wallsecs);
+	var wallhoursGr = this.newGroup(null, this.newLabel({for:"wall-hours", inner:"Hours"}), this.inputs.wallhours);
+	var wallminsGr = this.newGroup(null, this.newLabel({for:"wall-mins", inner:"Minutes"}), this.inputs.wallmins);
+	var wallsecsGr = this.newGroup(null, this.newLabel({for:"wall-secs", inner:"Seconds"}), this.inputs.wallsecs);
 	this.inputs.is_test = this.newCheckbox({checked:0});
 	this.inputs.is_preemptable = this.newCheckbox({checked:0, toggle:"is_requeueable"});
 
@@ -249,10 +247,11 @@ BYUScriptGen.prototype.createForm = function(doc) {
 	this.inputs.email_begin = this.newCheckbox({checked:0, id:"email-begin"});
 	this.inputs.email_end = this.newCheckbox({checked:0, id:"email-end"});
 	this.inputs.email_abort = this.newCheckbox({checked:0, id:"email-abort"});
-	this.inputs.email_beginGr = this.newGroup(null, this.inputs.email_begin, this.newLabel({for:"email-begin", inner:"BEGIN"}));
-	this.inputs.email_endGr = this.newGroup(null, this.inputs.email_end, this.newLabel({for:"email-end", inner:"END"}));
-	this.inputs.email_abortGr = this.newGroup(null, this.inputs.email_abort, this.newLabel({for:"email-abort", inner:"ABORT"}));
+	var email_beginGr = this.newGroup(null, this.inputs.email_begin, this.newLabel({for:"email-begin", inner:"BEGIN"}));
+	var email_endGr = this.newGroup(null, this.inputs.email_end, this.newLabel({for:"email-end", inner:"END"}));
+	var email_abortGr = this.newGroup(null, this.inputs.email_abort, this.newLabel({for:"email-abort", inner:"ABORT"}));
 	this.inputs.email_address = this.newInput({value:this.settings.defaults.email_address,size: this.settings.defaults.email_address.length+10});
+	this.inputs.email_address.placeholder = "EMAIL";
 	this.inputs.job_output = this.newInput({});
 	this.inputs.job_error = this.newInput({});
 
@@ -261,8 +260,8 @@ BYUScriptGen.prototype.createForm = function(doc) {
 	table.appendChild(this.returnNewRow("byu_sg_row_nodes", REQUIRED + "<b>Number of compute nodes</b>:<br /><i>Use 1 unless running a distributed-memory parallel application (e.g., Maker)<br />Limits: 57 standard, 5 large-memory</i>", this.inputs.nodes));
 	table.appendChild(this.returnNewRow("byu_sg_row_numcores", REQUIRED + "<b>Number of processor cores per node</b>:<br /><i>Limited to 20 per regular node, 60 per large-memory node.<br />Each processor core can simultaneously execute 2 application threads.</i>", this.inputs.ncores_per_node));
 //	table.appendChild(this.returnNewRow("byu_sg_row_numgpus", "Number of GPUs: ", this.inputs.num_gpus));
-			  table.appendChild(this.returnNewRow("byu_sg_row_walltime", REQUIRED + "<b>Walltime limit</b>:<br /><i>Maximum time the job may run. Shorter jobs may start running sooner.<i>", this.newSpan(null, this.inputs.wallhoursGr, " : " , this.inputs.wallminsGr, " : ", this.inputs.wallsecsGr)));
-	table.appendChild(this.returnNewRow("byu_sg_row_mempercore", "<b>Max memory per compute node</b> (1 GB == 1024 MB):<br /><i>Default memory depends on the compute node type:<br /><u>standard</u>: 6400 MB per processor core requested<br /><u>large-memory</u>: 25500 MB per processor core requested</i>", this.newSpan(null, this.inputs.memGr)));
+			  table.appendChild(this.returnNewRow("byu_sg_row_walltime", REQUIRED + "<b>Walltime limit</b>:<br /><i>Maximum time the job may run. Shorter jobs may start running sooner.<i>", this.newSpan(null, wallhoursGr, " : " , wallminsGr, " : ", wallsecsGr)));
+	table.appendChild(this.returnNewRow("byu_sg_row_mempercore", "<b>Max memory per compute node</b> (1 GB == 1024 MB):<br /><i>Default memory depends on the compute node type:<br /><u>standard</u>: 6400 MB per processor core requested<br /><u>large-memory</u>: 25500 MB per processor core requested</i>", this.newSpan(null, memGr)));
 //	table.appendChild(this.returnNewRow("byu_sg_row_testjob", "Job is a <b>test</b> job: ", this.inputs.is_test));
 //	table.appendChild(this.returnNewRow("byu_sg_row_preemptable", "Job is preemptable: ", this.inputs.is_preemptable));
 	table.appendChild(this.formrows["is_requeueable"] = this.returnNewRow("byu_sg_row_requeueable", "Job is requeueable: ", this.inputs.is_requeueable));
@@ -284,11 +283,10 @@ BYUScriptGen.prototype.createForm = function(doc) {
 	table.appendChild(this.returnNewRow("byu_sg_row_jobname", "<b>Job name</b>:<br /><i>Default is the job script name. Displayed by the <b>squeue</b> command.</i>", this.inputs.job_name));
 	table.appendChild(this.returnNewRow("byu_sg_row_emailevents", "<b>Receive email for job events</b>:<br /><i>BEGIN: when job starts, END: when job ends, FAIL: if job fails</i>", 
 				this.newSpan(	null,
-						this.inputs.email_beginGr,
-						this.inputs.email_endGr,
-						this.inputs.email_abortGr,
-                        			this.inputs.email_address,
-                        			" EMAIL"
+						email_beginGr,
+						email_endGr,
+						email_abortGr,
+                        			this.inputs.email_address
 					    )
 			 )
 	);
