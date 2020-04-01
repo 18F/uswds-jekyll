@@ -5,7 +5,7 @@ permalink: /
 layout: home
 
 hero:
-  image: /assets/img/laura-ockel-1194484-unsplash.png
+  image: /assets/img/laura-ockel-1194484-unsplash.jpg
   callout:
     alt: Get Started with SCINet
     text: "ARS scientists/ collaborators: Register for an account"
