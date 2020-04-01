@@ -1,0 +1,24 @@
+---
+layout: post
+title: "The ARS Arthropod Genomics Research (AGR) working group: Agency-wide advancement in research capabilities to address stakeholder concerns"
+categories: [Stories]
+excerpt: Arthropod pests cause damage to crop, livestock and forestry products, as well as ornamental plants and urban structures, that inflicts an economic cost of several billion dollars annually...
+---
+![26 members of the AGR working group pose on the stairs of the USDA George Washington Carver Center](/scinet-site/assets/img/news-tab/news-userstory-coates-04012020.jpg)
+
+### By: Brad Coates  |  04-01-2020 
+### USDA-ARS, Corn Insects & Crop Genetics Research Unit, Ames, IA
+
+Arthropod pests cause damage to crop, livestock and forestry products, as well as ornamental plants and urban structures, that inflicts an economic cost of several billion dollars annually. This occurs not only by direct feeding damage, but also by the spread of disease agents by many arthropods such as mosquitoes and aphids.  
+
+A group of ARS scientists conducting applied research aimed at developing more effective and sustainable methods of arthropod pest control organized into the [Arthropod Genomic Research (AGR) working group](/scinet-site/working-groups#arthropod-genomics-research-agr-working-group) in 2014 following two organizational workshops ([AGR Workshop 1](/scinet-site/workshops/2014-09-17-Arthropod-Genomic-Research-Workshop-1/), [AGR Workshop 2](/scinet-site/workshops/2016-07-26-Arthropod-Genomics-Workshop-2/)) called by NPL, Dr. Kevin Hackett. This working group also played key roles in RNA sequencing (RNA-seq) and population genomics training workshops organized by former CSIO, Dr. Doreen Ware, and a [Data Carpentry](https://carpentries.org/) training in 2018. AGR has monthly teleconferences organized by Dr. Brad Coates featuring invited speakers that highlight advances in genomic research and applications of genomic technologies, which function as a training and learning resource for members. AGR members from NAL, Drs. Monica Poelchau and Chris Childers, are developing arthropod genomic database resources at the [i5KWorkspace@NAL](https://i5k.nal.usda.gov/), providing a community data resource and manual annotation platform.  
+
+These efforts by AGR members have culminated in the [Ag100Pest Initiative](/scinet-site/working-groups#ag100pest-initiative-subgroup-of-agr), which was formed as a subgroup of the AGR with the mission to generate reference-quality genome assemblies for 100 of the most economically- and socially-impactful arthropod species, and develop workflows to support ARS and community research. As part of the Ag100Pest Initiative, Dr. Scott Geib led the genome sequencing of the spotted lanternfly, an invasive and highly destructive pest of several fruit, nut and berry producing plants, which was published in GigaScience and highlighted the impact of this intra-agency effort<sup>1,2</sup>.
+
+**SCINet Note:** 
+
+
+**References**
+1.  Kingan, S.B., Urban, J., Lambert, C.C., Baybayan, P., Childers, A.K., Coates, B., Scheffler, B., Hackett, K., Korlach, J., Geib, S.M. 2019. A high-quality genome assembly from a single, field-collected spotted lanternfly (Lycorma delicatula) using the PacBio Sequel II system. GigaScience, 8(10):giz122, [doi.org/10.1093/gigascience/giz122](doi.org/10.1093/gigascience/giz122).
+
+2.  Kaplan, Kim. “First Genome of Spotted Lanternfly Built from a Single Insect”. ARS Research News, 16 Oct. 2019, [www.ars.usda.gov/news-events/news/research-news/2019/first-genome-of-spotted-lanternfly-built-from-a-single-insect/](www.ars.usda.gov/news-events/news/research-news/2019/first-genome-of-spotted-lanternfly-built-from-a-single-insect/).
