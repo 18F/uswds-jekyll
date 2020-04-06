@@ -325,7 +325,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[RStudio](https://rstudio.com/) | rstudio.com | n/a
+[RStudio](https://rstudio.com/) | rstudio.com | varies
 [Introducing Jupyter](https://aglearn.usda.gov/enrol/index.php?id=47618) | AgLearn/LinkedIn | ~1 hr 
 [Open Source Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science) | Coursera | 3 wks; 3 hrs/wk  
 [Getting Started with R Markdown](https://ourcodingclub.github.io/tutorials/rmarkdown/) | Coding Club | varies
