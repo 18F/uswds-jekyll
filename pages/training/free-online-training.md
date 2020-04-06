@@ -21,6 +21,10 @@ layout: page
 * [General Statistics](#general-statistics)
 * [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
 * [Geographic Information Systems (GIS)](#geographic-information-systems-gis)
+* [Google Earth Engine](#google-earth-engine)
+* [General Data Science Concepts](#general-data-science-concepts)
+* [Bioinformatics Self-Paced Learning](#bioinformatics-self-paced-learning)
+* [Ecological/Spatial Self-Paced Learning](#ecologicalspatial-self-paced-learning)
 * [Git and GitHub](#git-and-github)
 * [Reproducibility, Productivity, and Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
 
@@ -76,6 +80,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
 [Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
 [Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
+[Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
 | [Code Clinic: Python](https://aglearn.usda.gov/enrol/index.php?id=31292) | AgLearn/LinkedIn |	~2 hrs |
 | [Learning Python](https://aglearn.usda.gov/enrol/index.php?id=46051) | AgLearn/LinkedIn |	~2 hrs |
 | [Python Essential Training](https://aglearn.usda.gov/enrol/index.php?id=45430) | AgLearn/LinkedIn |	4 hrs 45m |
@@ -102,6 +107,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 |---|---|---|
 [R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2+ hrs 
 [Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2+ hrs 
+[R Basics Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
 [Learning the R tidyverse](https://aglearn.usda.gov/course/view.php?id=45029) | AgLearn/LinkedIn |	~3.5 hrs 
 [Data visualization in R with ggplot2](https://aglearn.usda.gov/course/view.php?id=46164) | AgLearn/LinkedIn |	 2.5 hrs 
 [R for Excel Users](https://aglearn.usda.gov/course/view.php?id=34842) | AgLearn/LinkedIn 	| 1.5 hrs 
@@ -110,12 +116,12 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Data Wrangling in R](https://aglearn.usda.gov/course/view.php?id=45109) | AgLearn/LinkedIn |	~4 hrs 
 [Code Clinic: R](https://aglearn.usda.gov/course/view.php?id=43536) | AgLearn/LinkedIn |	3.5 hrs 
 [R: Interactive Visualization with htmlwidgets](https://aglearn.usda.gov/course/view.php?id=45028) | AgLearn/LinkedIn |	5.5 hrs 
-R Programming in Data Science: Setup and Start | AgLearn/LinkedIn |	~1.5 hrs 
+[R Programming in Data Science: Setup and Start](https://aglearn.usda.gov/course/view.php?id=45435) | AgLearn/LinkedIn |	~1.5 hrs 
 [R Programming in Data Science: High Velocity Data](https://aglearn.usda.gov/course/view.php?id=46167) | AgLearn/LinkedIn |	~1.5 hrs 
 [R Programming in Data Science: High Volume Data](https://aglearn.usda.gov/course/view.php?id=46168) | AgLearn/LinkedIn |	1.5 hrs 
 [R Programming in Data Science: High Variety Data](https://aglearn.usda.gov/course/view.php?id=46169) | AgLearn/LinkedIn |	1.5 hrs 
-R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs	  
-[Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | 	  
+[R Programming in Data Science: Dates and Times](https://www.linkedin.com/learning/r-programming-in-data-science-dates-and-times/calculating-times-and-dates-with-r?u=76310346) | AgLearn/LinkedIn | ~2.5 hrs	  
+[Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | ~2.5 hrs  
 [Debugging in R](https://aglearn.usda.gov/course/view.php?id=28456) | AgLearn/Skillsoft |	1 hr 
 [Programming Techniques in R](https://aglearn.usda.gov/course/view.php?id=28457) | AgLearn/Skillsoft | ~2 hrs 
 [Domain-Specific Tools in R](https://aglearn.usda.gov/enrol/index.php?id=28458) | AgLearn/Skillsoft |	~1 hr 
@@ -231,11 +237,58 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 [GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
 [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
 
+# Google Earth Engine
+
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Intro to the Google Earth Engine](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
+
+
+# General Data Science Concepts
+
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Data Science Overview](https://aglearn.usda.gov/course/view.php?id=28444) | AgLearn/Skillsoft | 1 hr
+[Data Gathering](https://aglearn.usda.gov/course/view.php?id=28445) | AgLearn/Skillsoft | ~1.5 hrs
+[Data Filtering](https://aglearn.usda.gov/course/view.php?id=28446) | AgLearn/Skillsoft | 1 hr
+[Data Transformation](https://aglearn.usda.gov/course/view.php?id=28447) | AgLearn/Skillsoft | 1 hr
+[Data Exploration](https://aglearn.usda.gov/course/view.php?id=28448) | AgLearn/Skillsoft | 1 hr
+[Data Integration](https://aglearn.usda.gov/course/view.php?id=28449) | AgLearn/Skillsoft | 1 hr
+[Data Analysis Concepts](https://aglearn.usda.gov/course/view.php?id=28450) | AgLearn/Skillsoft | ~1.5 hrs
+[Data Classification and Machine Learning](https://aglearn.usda.gov/course/view.php?id=28451) | AgLearn/Skillsoft | ~1.5 hrs
+[Data Communication and Visualization](https://aglearn.usda.gov/course/view.php?id=28452) | AgLearn/Skillsoft | ~1.5 hrs
+
+
+# Bioinformatics Self-Paced Learning
+
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Bioconductor Courses and Analysis Tools](https://www.bioconductor.org/) | bioconductor.org | varies
+[Online Bioinformatics Tutorials from NIH](https://www.nihlibrary.nih.gov/services/bioinformatics-support/online-bioinformatics-tutorials) | NIH | varies
+[Bioinformatics On-line Courses and Tutorials](http://www.colorbasepair.com/bioinformatics_courses_tutorials.html) | Color Base Pair | varies
+[Bioinformatics Courses](https://www.classcentral.com/subject/bioinformatics) | Class Central | varies
+[Bacterial Genomes: From DNA to Protein Function using Bioinformatics Course](https://www.futurelearn.com/courses/bacterial-genomes-bioinformatics/4) | Future Learn | 2 wks; 5 hrs/wk; next course starts 4/20
+[Bacterial Genomes: Accessing and Analysing Microbial Genome Data Course](https://www.futurelearn.com/courses/bacterial-genomes-access-and-analysis) | Future Learn | 3 wks; 5 hrs/wk; next course starts 5/11
+[Bioinformatics Courses On Edx](https://www.edx.org/learn/bioinformatics) | EdX | varies
+
+
+# Ecological/Spatial Self-Paced Learning
+
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Spatial Data Science (R)](https://rspatial.org/raster/intr/index.html) | Geospatial and Farming Systems Research Consortium (GFC) | varies
+[Ecological Models and Data in R (book with pdf chapters)](http://ms.mcmaster.ca/~bolker/emdbook/index.html) | Princeton University Press | varies
+[Data Science for Ecologists and Environmental Scientists Course](https://ourcodingclub.github.io/course.html) | Coding Club/The Data Lab | varies
+[ZevRoss Tech Blog (mostly R resources)](https://www.zevross.com/blog/) | ZevRoss | varies
+
+
 # Git and GitHub
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [What is Git? (Interactive tutorial)](https://www.atlassian.com/git/tutorials/what-is-git) | atlassian.com | 45 min 
+[Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) | Coding Club | varies
+[Setting up a GitHub Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/) | Coding Club | varies
 [Git Essential Training: The Basics](https://aglearn.usda.gov/course/view.php?id=47901) | AgLearn/LinkedIn |	~3 hrs 
 [Git Intermediate Techniques](https://aglearn.usda.gov/enrol/index.php?id=46084) | AgLearn/LinkedIn |	~3 hrs 
 [GitHub Essential Training](https://aglearn.usda.gov/enrol/index.php?id=46745) | AgLearn/LinkedIn |	~3 hrs 
@@ -244,15 +297,22 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 
 
 # Reproducibility, Productivity, and Integration Management Tools
+(also see [Git and GitHub links](#git-and-github above)
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [RStudio](https://rstudio.com/) | rstudio.com | n/a
 [Introducing Jupyter](https://aglearn.usda.gov/enrol/index.php?id=47618) | AgLearn/LinkedIn | ~1 hr 
-[EndNote Essential Training](https://aglearn.usda.gov/enrol/index.php?id=44590) | AgLearn/LinkedIn | ~1.5 hrs 
-[Learning Markdown](https://aglearn.usda.gov/enrol/index.php?id=43878) | AgLearn/LinkedIn | ~ 1hr 
-[Creating Reports and Presentations with R Markdown and RStudio](https://aglearn.usda.gov/enrol/index.php?id=46475) |  | ~2.5 hrs 
 [Open Source Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science) | Coursera | 3 wks; 3 hrs/wk | 
+
+[Getting Started with R Markdown](https://ourcodingclub.github.io/tutorials/rmarkdown/)
+[Learning Markdown](https://aglearn.usda.gov/enrol/index.php?id=43878) | AgLearn/LinkedIn | ~ 1hr 
+[Creating Reports and Presentations with R Markdown and RStudio](https://aglearn.usda.gov/enrol/index.php?id=46475) | AgLearn/LinkedIn | ~2.5 hrs 
+
+[EndNote Essential Training](https://aglearn.usda.gov/enrol/index.php?id=44590) | AgLearn/LinkedIn | ~1.5 hrs 
+
+[Coding Etiquette](https://ourcodingclub.github.io/tutorials/etiquette/) | Coding Club | varies
+[Transferring Quantitative Skills Among Scientists](https://ourcodingclub.github.io/tutorials/tutorials/) | Coding Club | varies
 [Reproducible Research](https://www.coursera.org/learn/reproducible-research) | Coursera | 11 hrs
 [Work Smarter, Not Harder: Time Management for Personal & Professional Productivity](https://www.coursera.org/learn/work-smarter-not-harder) | Coursera | 3 hrs
 
