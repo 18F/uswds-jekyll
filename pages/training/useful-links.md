@@ -21,9 +21,3 @@ layout: page
 - [Data Management Skillbuilding Hub](https://dataoneorg.github.io/Education/), a searchable repository of data management lessons, best practices and videos maintained by DataONE
 
 - [Data Management Plan Guidance](https://www.nal.usda.gov/main/data/data-management-plan-guidance) from the National Agricultural Library on how to write a data management plan for your research data
-
-### Machine Learning Tutorials
-
-- Tutorials on machine learning and visualization in Python for Earth science (a collaboration between NASA Goddard Space Flight Center and Anaconda) [https://earthml.holoviz.org/index.html](https://earthml.holoviz.org/index.html)
-
-- Machine learning tutorials using Python aimed at life sciences from the FY19 USDA ARS/University of Florida Machine Learning Training [https://usda-ars-gbru.github.io/ml-training-site/](https://usda-ars-gbru.github.io/ml-training-site/)
