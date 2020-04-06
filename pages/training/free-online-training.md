@@ -35,7 +35,7 @@ Also, the [Useful Links page]() contains links to HPC, data management, and mach
 
 All federal USDA permanent and term employees should be able to access the AgLearn courses listed on this page by following the posted links.
 
-Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contactors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
+Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contractors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
 
 For non-federal USDA employees, an exception to the above is AgLearn/LinkedIn Learning. Non-federal USDA employees may be able to access AgLearn/LinkedIn Learning using the following steps:
 1.  Go to aglearn.usda.gov but DO NOT LOG IN
