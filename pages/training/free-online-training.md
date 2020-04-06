@@ -152,11 +152,12 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 # MATLAB Programming
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Practical Data Science with MATLAB Specialization](https://www.coursera.org/specializations/practical-data-science-matlab) | Coursera | 2 mo; 10 hrs/wk
-[Exploratory Data Analysis with MATLAB](https://www.coursera.org/learn/exploratory-data-analysis-matlab) | Coursera | 5 wks; 4 hrs/wk
-[Data Processing and Feature Engineering with MATLAB](https://www.coursera.org/learn/feature-engineering-matlab) | Coursera | 26 hrs
-[Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
-[Data Science Project: MATLAB for the Real World](https://www.coursera.org/learn/matlab-capstone) | Coursera | unknown
+| [Practical Data Science with MATLAB Specialization](https://www.coursera.org/specializations/practical-data-science-matlab) | Coursera | 2 mo; 10 hrs/wk |
+| [Exploratory Data Analysis with MATLAB](https://www.coursera.org/learn/exploratory-data-analysis-matlab) | Coursera | 5 wks; 4 hrs/wk |
+| [Data Processing and Feature Engineering with MATLAB](https://www.coursera.org/learn/feature-engineering-matlab) | Coursera | 26 hrs |
+| [Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs |
+| [Data Science Project: MATLAB for the Real World](https://www.coursera.org/learn/matlab-capstone) | Coursera | unknown |
+
  
 # General Statistics
 
@@ -217,6 +218,7 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
+[ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
 [Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 4 wks; 3-5 hrs/wk
 [GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 4 wks; 2-3 hrs/wk
 [Geospatial and Environmental Analysis (GIS)](https://www.coursera.org/learn/spatial-analysis) | Coursera | 4 wks; 3-4 hrs/wk
@@ -224,7 +226,6 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 [Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
 [GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
 [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
-[ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
 
 # Git and GitHub
 
