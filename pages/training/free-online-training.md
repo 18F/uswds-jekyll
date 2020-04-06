@@ -297,7 +297,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 
 # Reproducibility, Productivity, and Integration Management Tools
-(also see [Git and GitHub links](#git-and-github) above
+(also see [Git and GitHub links](#git-and-github) above)
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
