@@ -297,20 +297,17 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 
 # Reproducibility, Productivity, and Integration Management Tools
-(also see [Git and GitHub links](#git-and-github above)
+(also see [Git and GitHub links](#git-and-github) above
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [RStudio](https://rstudio.com/) | rstudio.com | n/a
 [Introducing Jupyter](https://aglearn.usda.gov/enrol/index.php?id=47618) | AgLearn/LinkedIn | ~1 hr 
 [Open Source Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science) | Coursera | 3 wks; 3 hrs/wk | 
-
 [Getting Started with R Markdown](https://ourcodingclub.github.io/tutorials/rmarkdown/)
 [Learning Markdown](https://aglearn.usda.gov/enrol/index.php?id=43878) | AgLearn/LinkedIn | ~ 1hr 
 [Creating Reports and Presentations with R Markdown and RStudio](https://aglearn.usda.gov/enrol/index.php?id=46475) | AgLearn/LinkedIn | ~2.5 hrs 
-
 [EndNote Essential Training](https://aglearn.usda.gov/enrol/index.php?id=44590) | AgLearn/LinkedIn | ~1.5 hrs 
-
 [Coding Etiquette](https://ourcodingclub.github.io/tutorials/etiquette/) | Coding Club | varies
 [Transferring Quantitative Skills Among Scientists](https://ourcodingclub.github.io/tutorials/tutorials/) | Coding Club | varies
 [Reproducible Research](https://www.coursera.org/learn/reproducible-research) | Coursera | 11 hrs
