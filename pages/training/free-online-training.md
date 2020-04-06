@@ -150,6 +150,7 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 
 
 # MATLAB Programming
+
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 | [Practical Data Science with MATLAB Specialization](https://www.coursera.org/specializations/practical-data-science-matlab) | Coursera | 2 mo; 10 hrs/wk |
