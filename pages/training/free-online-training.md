@@ -16,7 +16,7 @@ layout: page
   * [realpython.com](#realpythoncom)
 * [Python Programming](#python-programming)
 * [R Programming](#r-programming)
-* [SAS Programming](#sas-programming)
+* [SAS Programming and JMP](#sas-programming-and-jmp)
 * [MATLAB Programming](#matlab-programming)
 * [General Statistics](#general-statistics)
 * [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
@@ -47,7 +47,7 @@ Please contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/
 
 Many Coursera courses can be audited for free (i.e. no certification which requires a fee). See https://www.classcentral.com/report/coursera-signup-for-free/ for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
 
-**SCINet-funded licenses for Coursera course certificates:** The SCINet initiative is in the process of purchasing licenses for ARS Scientists to obtain course certificates for completed Coursera and/or EdX courses. If interested in certification for courses, you may want to wait until you are able to obtain one of these licenses. More information will be posted here as soon as it is available. 
+**SCINet-funded licenses for Coursera course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera and/or EdX courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.* 
  
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
@@ -69,16 +69,16 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
 | [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
 | [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
-[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 0.5 hrs
-[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 0.5 hrs
+[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
+[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
 [Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
 [Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
 | [Code Clinic: Python](https://aglearn.usda.gov/enrol/index.php?id=31292) | AgLearn/LinkedIn |	~2 hrs |
 | [Learning Python](https://aglearn.usda.gov/enrol/index.php?id=46051) | AgLearn/LinkedIn |	~2 hrs |
 | [Python Essential Training](https://aglearn.usda.gov/enrol/index.php?id=45430) | AgLearn/LinkedIn |	4 hrs 45m |
-| [Python Data Analysis](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn | | 	  
+| [Python Data Analysis](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn | 2.5 hrs | 	  
 | [Advanced Python](https://aglearn.usda.gov/enrol/index.php?id=46467) | AgLearn/LinkedIn |	2.5 hrs |
-| [NumPy Data Science Essential Training](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn |  |	  
+| [NumPy Data Science Essential Training](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn | ~4 hrs |	  
 | [Getting Started with Python: Introduction](https://aglearn.usda.gov/enrol/index.php?id=48854) | AgLearn/Skillsoft |	1.5 hr | 
 | [Python Fundamentals](https://aglearn.usda.gov/course/view.php?id=42094) | AgLearn/Skillsoft |	1.5 hrs |
 | [Python: the Basics](https://aglearn.usda.gov/course/view.php?id=36287) | AgLearn/Skillsoft |	~3.5 hrs | 
@@ -208,7 +208,7 @@ R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs
 [Convolution Neural Networks w/Andrew Ng](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) | Coursera | 21 hrs
 [Sequence Models w/Andrew Ng](https://www.coursera.org/learn/nlp-sequence-models) | Coursera | 18 hrs
 [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer) | Coursera | 5-6 wks; 3-6 hrs/wk
-Deep Neural Networks with PyTorch | Coursera | 18 hrs
+[Deep Neural Networks with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?specialization=ai-engineer) | Coursera | 20 hrs
 [Introduction to Deep Learning and Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras) | Coursera | 3 wks; 3 hrs/wk
 [Deep Learning in Computer Vision](https://www.coursera.org/learn/deep-learning-in-computer-vision) | Coursera | 5 wks; 5 hrs/wk
 [Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
@@ -230,22 +230,24 @@ Deep Neural Networks with PyTorch | Coursera | 18 hrs
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-What is Git? Interactive tutorial. 	https://www.atlassian.com/git/tutorials/what-is-git 
-Git Essential Training: The Basics  Aglearn LinkedIn 	~3 hrs 
-Git Intermediate Techniques  Aglearn LinkedIn 	~3 hrs 
-GitHub Essential Training Aglearn LinkedIn 	~3 hrs 
-Learning Git and GitHub AgLearn linkedIn 	1 hr 21 m 
-GitHub Actions First Look AgLearn linkedIn 	44 m 
+[What is Git? (Interactive tutorial)](https://www.atlassian.com/git/tutorials/what-is-git) | atlassian.com | 45 min 
+[Git Essential Training: The Basics](https://aglearn.usda.gov/course/view.php?id=47901) | AgLearn/LinkedIn |	~3 hrs 
+[Git Intermediate Techniques](https://aglearn.usda.gov/enrol/index.php?id=46084) | AgLearn/LinkedIn |	~3 hrs 
+[GitHub Essential Training](https://aglearn.usda.gov/enrol/index.php?id=46745) | AgLearn/LinkedIn |	~3 hrs 
+[Learning Git and GitHub](https://aglearn.usda.gov/enrol/index.php?id=43706) | AgLearn/LinkedIn | ~1.5 hrs 
+[GitHub Actions First Look](https://aglearn.usda.gov/course/view.php?id=47692) | AgLearn/LinkedIn |	45 min 
 
 
 # Reproducibility, Productivity, and Integration Management Tools
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
+[RStudio](https://rstudio.com/) | rstudio.com | n/a
+[Introducing Jupyter](https://aglearn.usda.gov/enrol/index.php?id=47618) | AgLearn/LinkedIn | ~1 hr 
+[EndNote Essential Training](https://aglearn.usda.gov/enrol/index.php?id=44590) | AgLearn/LinkedIn | ~1.5 hrs 
+[Learning Markdown](https://aglearn.usda.gov/enrol/index.php?id=43878) | AgLearn/LinkedIn | ~ 1hr 
+[Creating Reports and Presentations with R Markdown and RStudio](https://aglearn.usda.gov/enrol/index.php?id=46475) |  | ~2.5 hrs 
 [Open Source Tools for Data Science](https://www.coursera.org/learn/open-source-tools-for-data-science) | Coursera | 3 wks; 3 hrs/wk | 
-RStudio | https://rstudio.com/ | n/a
-Introducing Jupyter 53 m 
-EndNote Essential Training 1 hr 23 m 
-Learning Markdown ~ 1hr 
-Creating Reports and Presentations with R Markdown and RStudio 2 hr 40 m 
+[Reproducible Research](https://www.coursera.org/learn/reproducible-research) | Coursera | 11 hrs
+[Work Smarter, Not Harder: Time Management for Personal & Professional Productivity](https://www.coursera.org/learn/work-smarter-not-harder) | Coursera | 3 hrs
 
