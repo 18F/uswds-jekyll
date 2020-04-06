@@ -11,7 +11,7 @@ layout: page
 ### Table of Contents
 * [How to Access Training on Different Platforms](#how-to-access-training-on-different-platforms)
   * [AgLearn](#aglearn)
-  * [Coursera.org](#courseraorg)
+  * [Coursera.org and edx.org](#courseraorg-and-edxorg)
   * [sas.com and jmp.com](#sascom-and-jmpcom)
   * [realpython.com](#realpythoncom)
 * [Python Programming](#python-programming)
@@ -50,11 +50,15 @@ For non-federal USDA employees, an exception to the above is AgLearn/LinkedIn Le
 Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) with further questions about how to access AgLearn courses.
 
 
-### Coursera.org
+### Coursera.org and EdX.org
 
-Many Coursera courses can be audited for free (i.e. no certification which requires a fee). See [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
+Many Coursera and EdX courses can be audited for free (i.e. no certification which requires a fee). 
 
-**SCINet-funded licenses for Coursera course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera and/or EdX courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.* 
+For EdX courses: click enroll on a particular course, create an EdX account, and choose the free audit option.
+
+For Coursera courses: see [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
+
+**SCINet-funded licenses for Coursera and EdX course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera and EdX courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.* 
  
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
@@ -99,6 +103,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 |	[Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 1 month; 12 hrs/wk | 
 | [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) | Coursera | 2 mos; 7 hrs/wk | 
 | [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) | Coursera | 13 hrs; 2-4 hrs/wk |
+[Python Basics for Data Science](https://www.edx.org/course/python-basics-for-data-science) | EdX | 2-5 hrs
+[Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 10 wks; 8-10 hr/wk
 
 
 # R Programming
@@ -133,6 +139,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [R for Data Science: Data Visualization](https://aglearn.usda.gov/course/view.php?id=41679) | AgLearn/Skillsoft |	1 hr 
 [Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs 
 [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | 8 mo; 6 hrs/wk
+[Data Science: R Basics](https://www.edx.org/course/data-science-r-basics) | EdX | 8 wks; 1-2 hrs/wk
+[Introduction to R for Data Science](https://www.edx.org/course/introduction-to-r-for-data-science-2) | EdX | 4 wks; 2-3 hrs/wk
 
 
 # SAS Programming and JMP
@@ -167,7 +175,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Data Processing and Feature Engineering with MATLAB](https://www.coursera.org/learn/feature-engineering-matlab) | Coursera | 26 hrs |
 | [Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs |
 | [Data Science Project: MATLAB for the Real World](https://www.coursera.org/learn/matlab-capstone) | Coursera | unknown |
-
+[MATLAB and Octave for Beginners](https://www.edx.org/course/matlab-and-octave-for-beginners) | EdX | 4 wks; unknown hrs
  
 # General Statistics
 
@@ -185,7 +193,9 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Inferential Statistics](https://www.coursera.org/learn/inferential-statistics-intro?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
 [Linear Regression & Modeling](https://www.coursera.org/learn/linear-regression-model?specialization=statistics) | Coursera | 4 wks; 5-7 hrs/wk
 [Bayesian Statistics](https://www.coursera.org/learn/bayesian?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
-[Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics) | Coursera | 4 wks; 2-5 hrs/wk 
+[Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics) | Coursera | 4 wks; 2-5 hrs/wk
+[Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
+[Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
 
 
 # Artificial Intelligence and Machine Learning
@@ -202,7 +212,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Machine Learning & AI Foundations: Clustering and Association](https://aglearn.usda.gov/course/view.php?id=45824) | AgLearn/LinkedIn | ~4 hrs 
 [Machine Learning & AI Foundations: Value Estimations](https://aglearn.usda.gov/course/view.php?id=44554) | AgLearn/LinkedIn | ~4 hrs 
 [Machine Learning & AI Foundations: Recommendations](https://aglearn.usda.gov/course/view.php?id=44673https://aglearn.usda.gov/course/view.php?id=44673) | AgLearn/LinkedIn | ~4 hrs 
-[Deep Learning with Keras (Python)](https://aglearn.usda.gov/course/view.php?id=41700) | AgLearn/Skillsoft |	~2 hrs 
+[Deep Learning with Keras](https://aglearn.usda.gov/course/view.php?id=41700) | AgLearn/Skillsoft |	~2 hrs 
 [Linear Regression Models: Building Simple Regression Models with Scikit Learn and KerasSCORM package (Python)](https://aglearn.usda.gov/mod/scorm/view.php?id=30365) | AgLearn/Skillsoft |	1 hr 
 [Data Science: Statistics and Machine Learning Specialization](https://www.coursera.org/specializations/data-science-statistics-machine-learning) | Coursera | 6 mos; 5 hrs/wk 
 [AI for everyone by Andrew Ng (Beginner)](https://www.coursera.org/learn/ai-for-everyone) | Coursera | 3 wks; 2-3 hrs/wk 
@@ -223,7 +233,21 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Introduction to Deep Learning and Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras) | Coursera | 3 wks; 3 hrs/wk
 [Deep Learning in Computer Vision](https://www.coursera.org/learn/deep-learning-in-computer-vision) | Coursera | 5 wks; 5 hrs/wk
 [Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
- 
+[AI for Everyone: Master the Basics](https://www.edx.org/course/artificial-intelligence-for-everyone) | EdX | 4 wks; 1-2 hrs/wk
+[Deep Learning Essentials](https://www.edx.org/course/deep-learning-essentials) | EdX | 5 wks; 4-6 hrs/wk
+[Machine Learning with Python: A Practical Introduction](https://www.edx.org/course/machine-learning-with-python-a-practical-introduct) | EdX | 5 wks; 4-6 hrs/wk
+[Principles of Machine Learning: R Edition](https://www.edx.org/course/principles-of-machine-learning-r-edition-2) | EdX | 6 wks; 6-8 hrs/wk
+[Principles of Machine Learning: Python Edition]( https://www.edx.org/course/principles-of-machine-learning-python-edition-2) | EdX | 6 wks; 6-8 hrs/wk
+[Deep Learning Fundamentals with Keras](https://www.edx.org/course/deep-learning-fundamentals-with-keras) | EdX | 5 wks; 2-4 hrs/wk
+[Deep Learning with Python and PyTorch](https://www.edx.org/course/deep-learning-with-python-and-pytorch) | EdX | 6 wks; 2-4 hrs/wk
+[Deep Learning with TensorFlow](https://www.edx.org/course/deep-learning-with-tensorflow) | EdX | 5 wks; 2-4 hrs/week
+[Using GPUs to Scale and Speed-Up Deep Learning](https://www.edx.org/course/using-gpus-to-scale-and-speed-up-deep-learning) | EdX | 5 wks; 2-4 hrs/wk
+[Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-2) | EdX | 6 wks; 4-8 hrs/wk
+[Computer Vision and Image Analysis](https://www.edx.org/course/computer-vision-and-image-analysis-2) | EdX | 4 wks; 3-4 hrs/wk
+
+
+
+
 # Geographic Information Systems (GIS)
 
 | Course Title/Link | Platform or Site | Time Investment |
@@ -270,7 +294,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Bacterial Genomes: From DNA to Protein Function using Bioinformatics Course](https://www.futurelearn.com/courses/bacterial-genomes-bioinformatics/4) | Future Learn | 2 wks; 5 hrs/wk; next course starts 4/20
 [Bacterial Genomes: Accessing and Analysing Microbial Genome Data Course](https://www.futurelearn.com/courses/bacterial-genomes-access-and-analysis) | Future Learn | 3 wks; 5 hrs/wk; next course starts 5/11
 [Bioinformatics Courses On Edx](https://www.edx.org/learn/bioinformatics) | EdX | varies
-
+[Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 4 wks; 2-4 hrs/wk
 
 # Ecological/Spatial Self-Paced Learning
 
@@ -312,4 +336,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Transferring Quantitative Skills Among Scientists](https://ourcodingclub.github.io/tutorials/tutorials/) | Coding Club | varies
 [Reproducible Research](https://www.coursera.org/learn/reproducible-research) | Coursera | 11 hrs
 [Work Smarter, Not Harder: Time Management for Personal & Professional Productivity](https://www.coursera.org/learn/work-smarter-not-harder) | Coursera | 3 hrs
+[Data Science Productivity Tools](https://www.edx.org/course/data-science-productivity-tools) | EdX | 8 wks; 1-2 hrs/wk
+[Unix Tools: Data, Software, and Production Engineering](https://www.edx.org/course/unix-tools-data-software-and-production-engineering) | EdX | 6 wks; 4-6 hrs/wk
 
