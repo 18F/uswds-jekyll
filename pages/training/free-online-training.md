@@ -45,7 +45,7 @@ Please contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/
 
 ### Coursera.org
 
-Many Coursera courses can be audited for free (i.e. no certification which requires a fee). See https://www.classcentral.com/report/coursera-signup-for-free/ for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
+Many Coursera courses can be audited for free (i.e. no certification which requires a fee). See [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
 
 **SCINet-funded licenses for Coursera course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera and/or EdX courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.* 
  
