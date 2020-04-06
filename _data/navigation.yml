@@ -54,6 +54,8 @@ primary:
     links:
       - text: Science Tutorials
         href: /training/tutorials/
+      - text: Free Online Training
+        href: /training/free-online-training
 #      - text: Videos
 #        href: /training/video/
       - text: Workshops
