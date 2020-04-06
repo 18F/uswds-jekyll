@@ -13,14 +13,16 @@ layout: page
   * [AgLearn](#aglearn)
   * [Coursera.org](#courseraorg)
   * [sas.com and jmp.com](#sascom-and-jmpcom)
+  * [realpython.com](#realpythoncom)
 * [Python Programming](#python-programming)
 * [R Programming](#r-programming)
 * [SAS Programming](#sas-programming)
+* [MATLAB Programming](#matlab-programming)
 * [General Statistics](#general-statistics)
 * [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
 * [Geographic Information Systems (GIS)](#geographic-information-systems-gis)
 * [Git and GitHub](#git-and-github)
-* [Integration Management (Jupyter, RStudio, Endnote, Markdown, and more)](#integration-management-jupyter-rstudio-endnote-markdown-and-more)
+* [Reproducibility, Productivity, and Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
 
 
 # How to Access Training on Different Platforms
@@ -56,6 +58,9 @@ Follow the link to the course from this page, scroll down the course overview pa
 To start a course on jmp.com:  
 Follow the link to the course from this page, from the JMP course page click "Enroll Now", follow the instructions to create a profile for a new user.
 
+### realpython.com
+Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of free python training courses during the COVID-19 shut-in period. To access these courses for free go to https://realpython.com/free-courses-march-2020 and use the gift code link that Dan has posted on that page. Please contact Dan Bader at Real Python with questions.
+
 
 # Python Programming
 
@@ -64,6 +69,10 @@ Follow the link to the course from this page, from the JMP course page click "En
 | [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
 | [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
 | [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
+[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 0.5 hrs
+[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 0.5 hrs
+[Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
+[Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
 | [Code Clinic: Python](https://aglearn.usda.gov/enrol/index.php?id=31292) | AgLearn/LinkedIn |	~2 hrs |
 | [Learning Python](https://aglearn.usda.gov/enrol/index.php?id=46051) | AgLearn/LinkedIn |	~2 hrs |
 | [Python Essential Training](https://aglearn.usda.gov/enrol/index.php?id=45430) | AgLearn/LinkedIn |	4 hrs 45m |
@@ -98,11 +107,11 @@ Follow the link to the course from this page, from the JMP course page click "En
 [Data Wrangling in R](https://aglearn.usda.gov/course/view.php?id=45109) | AgLearn/LinkedIn |	~4 hrs 
 [Code Clinic: R](https://aglearn.usda.gov/course/view.php?id=43536) | AgLearn/LinkedIn |	3.5 hrs 
 [R: Interactive Visualization with htmlwidgets](https://aglearn.usda.gov/course/view.php?id=45028) | AgLearn/LinkedIn |	5.5 hrs 
-[R Programming in Data Science: Setup and Start]() | AgLearn/LinkedIn |	~1.5 hrs 
+R Programming in Data Science: Setup and Start | AgLearn/LinkedIn |	~1.5 hrs 
 [R Programming in Data Science: High Velocity Data](https://aglearn.usda.gov/course/view.php?id=46167) | AgLearn/LinkedIn |	~1.5 hrs 
 [R Programming in Data Science: High Volume Data](https://aglearn.usda.gov/course/view.php?id=46168) | AgLearn/LinkedIn |	1.5 hrs 
 [R Programming in Data Science: High Variety Data](https://aglearn.usda.gov/course/view.php?id=46169) | AgLearn/LinkedIn |	1.5 hrs 
-[R Programming in Data Science: Dates and Times](https://www.linkedin.com/learning/r-programming-in-data-science-dates-and-times/calculating-times-and-dates-with-r?u=76310346) | AgLearn/LinkedIn | ~2.5 hrs	  
+R Programming in Data Science: Dates and Times | AgLearn/LinkedIn | ~2.5 hrs	  
 [Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | 	  
 [Debugging in R](https://aglearn.usda.gov/course/view.php?id=28456) | AgLearn/Skillsoft |	1 hr 
 [Programming Techniques in R](https://aglearn.usda.gov/course/view.php?id=28457) | AgLearn/Skillsoft | ~2 hrs 
@@ -114,6 +123,7 @@ Follow the link to the course from this page, from the JMP course page click "En
 [R for Data Science: Classification & Clustering](https://aglearn.usda.gov/course/view.php?id=41678) | AgLearn/Skillsoft |	1 hr 
 [R for Data Science: Data Visualization](https://aglearn.usda.gov/course/view.php?id=41679) | AgLearn/Skillsoft |	1 hr 
 [Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs 
+[Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | 8 mo; 6 hrs/wk
 
 
 # SAS Programming and JMP
@@ -138,6 +148,15 @@ Follow the link to the course from this page, from the JMP course page click "En
 [SAS 	Base SAS 9 Programming: Inputs and Outputs](https://aglearn.usda.gov/enrol/index.php?id=28548) | AgLearn/Skillsoft |	~2 hrs 
 [SAS 	Base SAS 9 Programming: Data Structures](https://aglearn.usda.gov/enrol/index.php?id=28549) | AgLearn/Skillsoft |	~2 hrs 
 
+
+# MATLAB Programming
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Practical Data Science with MATLAB Specialization](https://www.coursera.org/specializations/practical-data-science-matlab) | Coursera | 2 mo; 10 hrs/wk
+[Exploratory Data Analysis with MATLAB](https://www.coursera.org/learn/exploratory-data-analysis-matlab) | Coursera | 5 wks; 4 hrs/wk
+[Data Processing and Feature Engineering with MATLAB](https://www.coursera.org/learn/feature-engineering-matlab) | Coursera | 26 hrs
+[Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
+[Data Science Project: MATLAB for the Real World](https://www.coursera.org/learn/matlab-capstone) | Coursera | unknown
  
 # General Statistics
 
@@ -182,12 +201,30 @@ Follow the link to the course from this page, from the JMP course page click "En
 [Machine Learning: Clustering & Retrieval](https://www.coursera.org/learn/ml-clustering-and-retrieval) | Coursera | 6 wks; 5-8 hrs/wk
 [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) | Coursera | 56 hrs; 
 [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) | Coursera | 4 wks; 4-5 hrs/wk 
-
+[Deep Learning Specialization w/Andrew Ng](https://www.coursera.org/specializations/deep-learning) | Coursera | 2 mo; 12 hs/wk
+[Neural Networks and Deep Learning w/Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning) | Coursera | 18 hrs
+[Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization w/Andrew Ng](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning) | Coursera | 15 hours
+[Structuring Machine Learning Projects w/Andrew Ng](https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning) | Coursera | 7 hrs
+[Convolution Neural Networks w/Andrew Ng](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) | Coursera | 21 hrs
+[Sequence Models w/Andrew Ng](https://www.coursera.org/learn/nlp-sequence-models) | Coursera | 18 hrs
+[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer) | Coursera | 5-6 wks; 3-6 hrs/wk
+Deep Neural Networks with PyTorch | Coursera | 18 hrs
+[Introduction to Deep Learning and Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras) | Coursera | 3 wks; 3 hrs/wk
+[Deep Learning in Computer Vision](https://www.coursera.org/learn/deep-learning-in-computer-vision) | Coursera | 5 wks; 5 hrs/wk
+[Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
  
 # Geographic Information Systems (GIS)
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
+[Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 4 wks; 3-5 hrs/wk
+[GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 4 wks; 2-3 hrs/wk
+[Geospatial and Environmental Analysis (GIS)](https://www.coursera.org/learn/spatial-analysis) | Coursera | 4 wks; 3-4 hrs/wk
+[Imagery, Automation, and Applications (GIS)](https://www.coursera.org/learn/gis-applications) | Coursera | 4 wks; 2-5 hrs/wk
+[Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
+[GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
+[Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
+[ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
 
 # Git and GitHub
 
@@ -201,7 +238,7 @@ Learning Git and GitHub AgLearn linkedIn 	1 hr 21 m
 GitHub Actions First Look AgLearn linkedIn 	44 m 
 
 
-# Integration Management (Jupyter, RStudio, Endnote, Markdown, and more)
+# Reproducibility, Productivity, and Integration Management Tools
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
