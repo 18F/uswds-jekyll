@@ -31,9 +31,7 @@ layout: page
 
 # How to Access Training on Different Platforms
 
-In addition to the training resources list on this page, take a look at the [Science Tutorials page]() where ARS researchers and the Virtual Research Support Core post computational tutorials.
-
-Also, the [Useful Links page]() contains links to HPC, data management, and machine learning information resources.
+In addition to the training resources list on this page, take a look at the [Science Tutorials page](/scinet-site/training/tutorials/) where ARS researchers and the Virtual Research Support Core post their own computational tutorials and training.
 
 ### AgLearn 
 
