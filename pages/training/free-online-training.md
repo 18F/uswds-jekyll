@@ -11,7 +11,7 @@ layout: page
 ### Table of Contents
 * [How to Access Training on Different Platforms](#how-to-access-training-on-different-platforms)
   * [AgLearn](#aglearn)
-  * [Coursera.org and edx.org](#courseraorg-and-edxorg)
+  * [coursera.org and edx.org](#courseraorg-and-edxorg)
   * [sas.com and jmp.com](#sascom-and-jmpcom)
   * [realpython.com](#realpythoncom)
 * [Python Programming](#python-programming)
