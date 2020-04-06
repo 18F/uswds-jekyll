@@ -88,94 +88,100 @@ Follow the link to the course from this page, from the JMP course page click "En
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2 + hrs 
-[Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2 + hrs 
-Learning the R tidyverse  LinkedIn 	3 h 44m 
-Data visualization in R with ggplot2 LinkedIn 	 2h 27m 
-R for Excel Users LinkedIn 	 1h 28m 
-Creating Iteractive presentations with Shiny and R LinkedIn 	 1 h 53 
-Cleaning Bad Data in R LinkedIn 	1h 54m 
-Data Wrangling in R LinkedIn 	4h 12m 
-Code Clinic: R LinkedIn 	3h 24m 
-R: Interactive Visualization with htmlwidgets LinkedIn 	5h 25m 
-R Programming in Data Science: Setup and Start LinkedIn 	1h 42 m 
-R Programming in Data Science: High Velocity Data LinkedIn 	1h 21m 
-R Programming in Data Science: High Volume Data LinkedIn 	1h 25m 
-R Programming in Data Science: High Variety Data LinkedIn 	1h 27m 
-R Programming in Data Science: Dates and Times LinkedIn 	  
-Introduction to R Programming Skillsoft  	  
-Debugging in R  Skillsoft  	1 
-Programming Techniques in R Skillsoft 	1.53 
-Domain-Specific Tools in R Skillsoft 	1.15 
-R for Data Science: Data Structures Skillsoft 	1 hr 
-R for Data Science: Importing and Exporting Data Skillsoft 	1 hr 
-R for Data Science: Data Exploration Skillsoft 	1 hr 
-R for Data Science: Regression Methods Skillsoft 	1 hr 
-R for Data Science: Classification & Clustering Skillsoft 	1 hr 
-R for Data Science: Data Visualization Skillsoft 	1 hr 
-Statistics with R: Beginner 	https://www.coursera.org/specializations/statistics? 6 mos; 5 hrs/wk 
-Advanced R Programming (for Intermediate-level user) 	https://www.coursera.org/learn/advanced-r? 12 hrs; 4 hrs/wk 
+[R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2+ hrs 
+[Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2+ hrs 
+[Learning the R tidyverse](https://aglearn.usda.gov/course/view.php?id=45029) | AgLearn/LinkedIn |	~3.5 hrs 
+[Data visualization in R with ggplot2](https://aglearn.usda.gov/course/view.php?id=46164) | AgLearn/LinkedIn |	 2.5 hrs 
+[R for Excel Users](https://aglearn.usda.gov/course/view.php?id=34842) | AgLearn/LinkedIn 	| 1.5 hrs 
+[Creating Iteractive presentations with Shiny and R](https://aglearn.usda.gov/course/view.php?id=34709) | AgLearn/LinkedIn |	~2 hrs 
+[Cleaning Bad Data in R](https://aglearn.usda.gov/course/view.php?id=46584) | AgLearn/LinkedIn |	~2 hrs 
+[Data Wrangling in R](https://aglearn.usda.gov/course/view.php?id=45109) | AgLearn/LinkedIn |	~4 hrs 
+[Code Clinic: R](https://aglearn.usda.gov/course/view.php?id=43536) | AgLearn/LinkedIn |	3.5 hrs 
+[R: Interactive Visualization with htmlwidgets](https://aglearn.usda.gov/course/view.php?id=45028) | AgLearn/LinkedIn |	5.5 hrs 
+[R Programming in Data Science: Setup and Start]() | AgLearn/LinkedIn |	~1.5 hrs 
+[R Programming in Data Science: High Velocity Data](https://aglearn.usda.gov/course/view.php?id=46167) | AgLearn/LinkedIn |	~1.5 hrs 
+[R Programming in Data Science: High Volume Data](https://aglearn.usda.gov/course/view.php?id=46168) | AgLearn/LinkedIn |	1.5 hrs 
+[R Programming in Data Science: High Variety Data](https://aglearn.usda.gov/course/view.php?id=46169) | AgLearn/LinkedIn |	1.5 hrs 
+[R Programming in Data Science: Dates and Times](https://www.linkedin.com/learning/r-programming-in-data-science-dates-and-times/calculating-times-and-dates-with-r?u=76310346) | AgLearn/LinkedIn | ~2.5 hrs	  
+[Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | 	  
+[Debugging in R](https://aglearn.usda.gov/course/view.php?id=28456) | AgLearn/Skillsoft |	1 hr 
+[Programming Techniques in R](https://aglearn.usda.gov/course/view.php?id=28457) | AgLearn/Skillsoft | ~2 hrs 
+[Domain-Specific Tools in R](https://aglearn.usda.gov/enrol/index.php?id=28458) | AgLearn/Skillsoft |	~1 hr 
+[R for Data Science: Data Structures](https://aglearn.usda.gov/course/view.php?id=41674) | AgLearn/Skillsoft |	1 hr 
+[R for Data Science: Importing and Exporting Data](https://aglearn.usda.gov/course/view.php?id=41675) | AgLearn/Skillsoft |	1 hr 
+[R for Data Science: Data Exploration](https://aglearn.usda.gov/course/view.php?id=41676) | AgLearn/Skillsoft |	1 hr 
+[R for Data Science: Regression Methods](https://aglearn.usda.gov/course/view.php?id=41677) | AgLearn/Skillsoft |	1 hr 
+[R for Data Science: Classification & Clustering](https://aglearn.usda.gov/course/view.php?id=41678) | AgLearn/Skillsoft |	1 hr 
+[R for Data Science: Data Visualization](https://aglearn.usda.gov/course/view.php?id=41679) | AgLearn/Skillsoft |	1 hr 
+[Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs 
 
 
 # SAS Programming and JMP
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-SAS e-learning (self-paced)  https://www.sas.com/en_us/learn/academic-programs/resources/free-sas-e-learning.html 
-How-to SAS video tutorials https://video.sas.com/category/videos/how-to-tutorials 5 – 10 min  video tutorials 
-SAS Programming 1: Essentials (free e-learning) 	https://support.sas.com/edu/schedules.html?ctry=us&crs=PROG1 14 hrs 
-Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression (free e-learning) https://support.sas.com/edu/schedules.html?ctry=us&crs=STAT1 21 hrs 
-SAS Programming for R Users (free e-learning) https://support.sas.com/edu/schedules.html?ctry=us&crs=SP4R 14 hrs 
-Statistical thinking for Industrial Prpblem Solving 	https://www.jmp.com/en_us/online-statistics-course.html JMP 20-30 hrs 
-On-demand Webinars -- Mastering JMP 	https://www.jmp.com/en_us/events/mastering/overview.html JMP ≤ 1 hr 
-SAS Programing for R users, Part 1 AgLearn/LinkedIn ~ 2hrs 
-SAS Programing for R users, Part 2 AgLearn/LinkedIn ~ 2hrs 
-Advance SAS Programing for R users, part 1 AgLearn/LinkedIn ~ 2hrs 
-Advance SAS Programing for R users, part 2 AgLearn/LinkedIn ~ 2hrs 
-SAS 	Base SAS 9 Programming: The SAS environment AgLearn/Skillsoft 	~1.5-2 hrs 
-SAS 	Base SAS 9 Programming: Introduction to Data Sets AgLearn/Skillsoft 	~1.5-2 hrs  
-SAS 	Base SAS 9 Programming: Working with Data Sets AgLearn/Skillsoft 	~1.5-2 hrs 
-SAS 	Base SAS 9 Programming: Creating Reports AgLearn/Skillsoft 	~1.5-2 hrs 
-SAS 	Base SAS 9 Programming: Inputs and Outputs AgLearn/Skillsoft 	~1.5-2 hrs 
-SAS 	Base SAS 9 Programming: Data Structures AgLearn/Skillsoft 	~1.5-2 hrs 
+[SAS e-learning (Webinars, Academic Software, and How-to Videos](https://www.sas.com/en_us/learn/academic-programs/resources/free-sas-e-learning.html) | sas.com | varies 
+[How-to SAS video tutorials](https://video.sas.com/category/videos/how-to-tutorials) | sas.com | 5–10 min videos 
+[SAS Programming 1: Essentials](https://support.sas.com/edu/schedules.html?ctry=us&crs=PROG1) | sas.com | 14 hrs 
+[Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression](https://support.sas.com/edu/schedules.html?ctry=us&crs=STAT1) | sas.com | 21 hrs 
+[SAS Programming for R Users](https://support.sas.com/edu/schedules.html?ctry=us&crs=SP4R) | sas.com | 14 hrs 
+[Statistical thinking for Industrial Prpblem Solving](https://www.jmp.com/en_us/online-statistics-course.html) | jmp.com | 20-30 hrs 
+[On-demand Webinars -- Mastering JMP](https://www.jmp.com/en_us/events/mastering/overview.html) | jmp.com | ≤ 1 hr 
+[SAS Programing for R users, Part 1](https://aglearn.usda.gov/course/view.php?id=46364) | AgLearn/LinkedIn | ~2 hrs 
+[SAS Programing for R users, Part 2](https://aglearn.usda.gov/course/view.php?id=46365) | AgLearn/LinkedIn | ~2 hrs 
+[Advanced SAS Programing for R users, part 1](https://aglearn.usda.gov/course/view.php?id=46366) | AgLearn/LinkedIn | ~2 hrs 
+[Advanced SAS Programing for R users, part 2](https://aglearn.usda.gov/course/view.php?id=46367) | AgLearn/LinkedIn | ~2 hrs 
+[SAS 	Base SAS 9 Programming: The SAS environment](https://aglearn.usda.gov/enrol/index.php?id=28544) | AgLearn/Skillsoft |	~2 hrs 
+[SAS 	Base SAS 9 Programming: Introduction to Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28545) | AgLearn/Skillsoft |	~2 hrs 
+[SAS 	Base SAS 9 Programming: Working with Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28546) | AgLearn/Skillsoft |	~2 hrs 
+[SAS 	Base SAS 9 Programming: Creating Reports](https://aglearn.usda.gov/enrol/index.php?id=28547) | AgLearn/Skillsoft |	~2 hrs 
+[SAS 	Base SAS 9 Programming: Inputs and Outputs](https://aglearn.usda.gov/enrol/index.php?id=28548) | AgLearn/Skillsoft |	~2 hrs 
+[SAS 	Base SAS 9 Programming: Data Structures](https://aglearn.usda.gov/enrol/index.php?id=28549) | AgLearn/Skillsoft |	~2 hrs 
 
  
 # General Statistics
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-Statistics Foundations:1 Aglearn LinkedIn 	~ 2 hrs 
-Statistics Foundations:2 Aglearn LinkedIn 	 ~ 2 hrs 
-Statistics Foundations:3 Aglearn LinkedIn 	 ~ 2 hrs 
-Python Statistics Essential Training Aglearn LinkedIn 	~3 hrs 
-R Statistics Essential Training Aglearn LinkedIn 	5h 49m  
-SQL For Statistics Essential Training Aglearn LinkedIn 	~ 50 min 
-SPSS Statistics Essential Training Aglearn LinkedIn 	~5 hrs 
-Bayesian Statistics: From Concept to Data Analysis 	https://www.coursera.org/learn/bayesian-statistics 22 hrs; 2-5 hrs/wk 
+[Statistics Foundations:1](https://aglearn.usda.gov/course/view.php?id=43810) | AgLearn/LinkedIn |	~2 hrs 
+[Statistics Foundations:2](https://aglearn.usda.gov/course/view.php?id=44169) | AgLearn/LinkedIn |	~2 hrs 
+[Statistics Foundations:3](https://aglearn.usda.gov/course/view.php?id=44264) | AgLearn/LinkedIn | ~2 hrs 
+[Python Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=46586) | AgLearn/LinkedIn |	~3 hrs 
+[R Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=30886) | AgLearn/LinkedIn |	~6 hrs  
+[SQL For Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=46166) | AgLearn/LinkedIn |	~1 hr 
+[SPSS Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=31896) | AgLearn/LinkedIn |	~5 hrs 
+[Statistics with R Specialization](https://www.coursera.org/specializations/statistics) | Coursera | 6 mos; 5 hrs/wk 
+[Introduction to Probability & Data](https://www.coursera.org/learn/probability-intro?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
+[Inferential Statistics](https://www.coursera.org/learn/inferential-statistics-intro?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
+[Linear Regression & Modeling](https://www.coursera.org/learn/linear-regression-model?specialization=statistics) | Coursera | 4 wks; 5-7 hrs/wk
+[Bayesian Statistics](https://www.coursera.org/learn/bayesian?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
+[Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics) | Coursera | 4 wks; 2-5 hrs/wk 
 
 
 # Artificial Intelligence and Machine Learning
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-Artificial Intelligence Foundations: Thinking Machines AgLearn LinkedIn 	 1.5 hr 
-Artificial Intelligence Foundations: Machine Learning AgLearn LinkedIn 	 1.25  hr 
-Artificial Intelligence Foundations:  Neural Networks AgLearn LinkedIn 	 1.25 hr 
-Machine Learning & AI Foundations: Linear Regression AgLearn/LinkedIn 	Up to 4 hrs 
-Machine Learning & AI Foundations: Classification Modeling AgLearn/LinkedIn Up to 4 hrs 
-Machine Learning & AI Foundations: Decision Trees AgLearn/LinkedIn Up to 4 hrs 
-Machine Learning & AI Foundations: Advanced Decision Trees AgLearn/LinkedIn Up to 4 hrs  
-Machine Learning & AI Foundations: Clustering and Association AgLearn/LinkedIn Up to 4 hrs 
-Machine Learning & AI Foundations: Value Estimations AgLearn/LinkedIn 	Up to 4 hrs 
-Machine Learning & AI Foundations: Recommendations AgLearn/LinkedIn Up to 4 hrs 
-Deep Learning with Keras (Python) AgLearn/Skillsoft 	~2 hrs 
-Linear Regression Models: Building Simple Regression Models with Scikit Learn and KerasSCORM package (Python) AgLearn/Skillsoft 	1 hr 
-Data Science: Statistics and Machine Learning 	https://www.coursera.org/specializations/data-science-statistics-machine-learning 6 mos; 5 hrs/wk 
-AI for everyone by Andrew Ng: Beginner 	https://www.coursera.org/learn/ai-for-everyone 9 hrs; 2-3 hrs/wk 
-Machine Learning: Regression 	https://www.coursera.org/learn/ml-regression 35 hrs; 5-8 hrs/wk 
-Machine Learning: Classification 	https://www.coursera.org/learn/ml-classification 40 hrs; 5-8 hrs/wk 
-Machine Learning w/ Andrew Ng 	https://www.coursera.org/learn/machine-learning 56 hrs; 
-Introduction to TensorFlow 	https://www.coursera.org/learn/introduction-tensorflow 10 hrs; 4-5 hrs/wk 
+[Artificial Intelligence Foundations: Thinking Machines](https://aglearn.usda.gov/course/view.php?id=45216) | AgLearn/LinkedIn | 1.5 hrs 
+[Artificial Intelligence Foundations: Machine Learning](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs 
+[Artificial Intelligence Foundations: Neural Networks](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs 
+[Machine Learning & AI Foundations: Linear Regression](https://aglearn.usda.gov/course/view.php?id=45825) | AgLearn/LinkedIn |	~4 hrs 
+[Machine Learning & AI Foundations: Classification Modeling](https://aglearn.usda.gov/course/view.php?id=45826) | AgLearn/LinkedIn | ~4 hrs 
+[Machine Learning & AI Foundations: Decision Trees](https://aglearn.usda.gov/course/view.php?id=44442) | AgLearn/LinkedIn | ~4 hrs 
+[Machine Learning & AI Foundations: Advanced Decision Trees](https://aglearn.usda.gov/course/view.php?id=44454) | AgLearn/LinkedIn | ~4 hrs  
+[Machine Learning & AI Foundations: Clustering and Association](https://aglearn.usda.gov/course/view.php?id=45824) | AgLearn/LinkedIn | ~4 hrs 
+[Machine Learning & AI Foundations: Value Estimations](https://aglearn.usda.gov/course/view.php?id=44554) | AgLearn/LinkedIn | ~4 hrs 
+[Machine Learning & AI Foundations: Recommendations](https://aglearn.usda.gov/course/view.php?id=44673https://aglearn.usda.gov/course/view.php?id=44673) | AgLearn/LinkedIn | ~4 hrs 
+[Deep Learning with Keras (Python)](https://aglearn.usda.gov/course/view.php?id=41700) | AgLearn/Skillsoft |	~2 hrs 
+[Linear Regression Models: Building Simple Regression Models with Scikit Learn and KerasSCORM package (Python)](https://aglearn.usda.gov/mod/scorm/view.php?id=30365) | AgLearn/Skillsoft |	1 hr 
+[Data Science: Statistics and Machine Learning Specialization](https://www.coursera.org/specializations/data-science-statistics-machine-learning) | Coursera | 6 mos; 5 hrs/wk 
+[AI for everyone by Andrew Ng (Beginner)](https://www.coursera.org/learn/ai-for-everyone) | Coursera | 3 wks; 2-3 hrs/wk 
+[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning) | Coursera | 8 mo; 7 hrs/wk
+[Machine Learning: Regression](https://www.coursera.org/learn/ml-regression) | Coursera | 6 wks; 5-8 hrs/wk 
+[Machine Learning: Classification](https://www.coursera.org/learn/ml-classification) | Coursera | 7 wks; 5-8 hrs/wk 
+[Machine Learning: Clustering & Retrieval](https://www.coursera.org/learn/ml-clustering-and-retrieval) | Coursera | 6 wks; 5-8 hrs/wk
+[Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) | Coursera | 56 hrs; 
+[Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) | Coursera | 4 wks; 4-5 hrs/wk 
 
  
 # Geographic Information Systems (GIS)
