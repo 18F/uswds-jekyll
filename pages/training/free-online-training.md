@@ -24,7 +24,7 @@ layout: page
 * [Google Earth Engine](#google-earth-engine)
 * [General Data Science Concepts](#general-data-science-concepts)
 * [Bioinformatics Self-Paced Learning](#bioinformatics-self-paced-learning)
-* [Ecological/Spatial Self-Paced Learning](#ecologicalspatial-self-paced-learning)
+* [Ecological/Geospatial Self-Paced Learning](#ecologicalspatial-self-paced-learning)
 * [Git and GitHub](#git-and-github)
 * [Reproducibility, Productivity, and Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
 
@@ -177,6 +177,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Data Science Project: MATLAB for the Real World](https://www.coursera.org/learn/matlab-capstone) | Coursera | unknown |
 [MATLAB and Octave for Beginners](https://www.edx.org/course/matlab-and-octave-for-beginners) | EdX | 4 wks; unknown hrs
  
+ 
 # General Statistics
 
 | Course Title/Link | Platform or Site | Time Investment |
@@ -246,8 +247,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Computer Vision and Image Analysis](https://www.edx.org/course/computer-vision-and-image-analysis-2) | EdX | 4 wks; 3-4 hrs/wk
 
 
-
-
 # Geographic Information Systems (GIS)
 
 | Course Title/Link | Platform or Site | Time Investment |
@@ -260,6 +259,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
 [GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
 [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
+
 
 # Google Earth Engine
 
@@ -296,6 +296,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Bioinformatics Courses On Edx](https://www.edx.org/learn/bioinformatics) | EdX | varies
 [Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 4 wks; 2-4 hrs/wk
 
+
 # Ecological/Spatial Self-Paced Learning
 
 | Course Title/Link | Platform or Site | Time Investment |
@@ -304,6 +305,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Ecological Models and Data in R (book with pdf chapters)](http://ms.mcmaster.ca/~bolker/emdbook/index.html) | Princeton University Press | varies
 [Data Science for Ecologists and Environmental Scientists Course](https://ourcodingclub.github.io/course.html) | Coding Club/The Data Lab | varies
 [ZevRoss Tech Blog (mostly R resources)](https://www.zevross.com/blog/) | ZevRoss | varies
+[Machine Learning and Visualization Tutorials in Python for Earth Science](https://earthml.holoviz.org/index.html) | earthml (NASA) | varies
 
 
 # Git and GitHub
