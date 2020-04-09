@@ -10,7 +10,7 @@ layout: page
 
 ### Table of Contents
 * [How to Access Training on Different Platforms](#how-to-access-training-on-different-platforms)
-  * [AgLearn](#aglearn)
+  * [AgLearn and LinkedIn Learning](#aglearn-and-linkedin-learning)
   * [coursera.org and edx.org](#courseraorg-and-edxorg)
   * [sas.com and jmp.com](#sascom-and-jmpcom)
   * [realpython.com](#realpythoncom)
@@ -33,9 +33,9 @@ layout: page
 
 In addition to the training resources list on this page, take a look at the [Science Tutorials page](/scinet-site/training/tutorials/) where ARS researchers and the Virtual Research Support Core post their own computational tutorials and training.
 
-### AgLearn 
+### AgLearn and LinkedIn Learning
 
-All federal USDA permanent and term employees should be able to access the AgLearn courses listed on this page by following the posted links.
+All federal USDA permanent and term employees should be able to access the AgLearn courses listed on this page by following the posted links. This includes LinkedIn Learning courses.
 
 Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contractors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
 
@@ -201,9 +201,9 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Artificial Intelligence Foundations: Thinking Machines](https://aglearn.usda.gov/course/view.php?id=45216) | AgLearn/LinkedIn | 1.5 hrs 
-[Artificial Intelligence Foundations: Machine Learning](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs 
-[Artificial Intelligence Foundations: Neural Networks](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs 
+[Artificial Intelligence Foundations: Thinking Machines (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45216) | AgLearn/LinkedIn | 1.5 hrs 
+[Artificial Intelligence Foundations: Machine Learning (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs 
+[Artificial Intelligence Foundations: Neural Networks (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs 
 [Machine Learning & AI Foundations: Linear Regression](https://aglearn.usda.gov/course/view.php?id=45825) | AgLearn/LinkedIn |	~4 hrs 
 [Machine Learning & AI Foundations: Classification Modeling](https://aglearn.usda.gov/course/view.php?id=45826) | AgLearn/LinkedIn | ~4 hrs 
 [Machine Learning & AI Foundations: Decision Trees](https://aglearn.usda.gov/course/view.php?id=44442) | AgLearn/LinkedIn | ~4 hrs 
