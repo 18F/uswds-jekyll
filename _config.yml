@@ -8,7 +8,7 @@ github:
   repository: scinet-site
   default_branch: master
 
-baseurl: "/scinet-site"
+#baseurl: "/scinet-site"
 
 # Configure a separator for post excerpts
 excerpt_separator: "<!--end-excerpt-->"
