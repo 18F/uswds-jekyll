@@ -10,11 +10,12 @@ layout: page
 #### Table of Contents
 * [Introduction](#introduction)
 * [Launching Jupyter](#launching-jupyter)
-* [Software/Packages/Environments](#Software/Packages/Environments)
+* [Environments and Software](#environments-and-software)
 * [Best Practices](#best-practices)
 
 
 # Introduction
+---
 ## Background
 [Project Jupyter](https://jupyter.org/index.html) is a open source software stack that supports interactive data science and scientific computing across a wide array of programming languages ([>130 supported kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)). The primary applications within Jupyter are:
 
@@ -51,13 +52,14 @@ layout: page
   * Open Source
  
 # Launching Jupyter
+---
 There are multiple approaches for accessing the Jupyter stack on Ceres. 
 
 * Port Foward with Putty - [Video Coming Soon]()
 * Port Foward with Secure Shell (SSH) - [Video Coming Soon]()
 * JupyterHub (see below)
 
-The easist and most succinct method to launch JupyterLab is through the JupyterHub interface. To access the hub, you must have a functioning SCINet account. To setup an account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions, followed by a video of the process.
+The easist and most succinct method to launch JupyterLab is the JupyterHub interface. To access, you must have a functioning SCINet account. To setup an account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions, followed by a video of the process.
 
 1. **Go To:** COMING SOON
 2. **Log into JupyterHub** (SCINet credentials)
@@ -92,7 +94,8 @@ Below is a video (COMING SOON) showing the above process.
 </video>
 </div>
 
-# Software/Packages/Environments
+# Environments and Software
+---
 ## Default Environment
 The default environment includes:
   * Python and the IPython kernel.
@@ -104,7 +107,7 @@ The default environment includes:
   If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a Jupyter Kernel installed, JupyterLab will autoload this environmnet as a seperate kernel. For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab.
 
 ## Use Ceres Maintained Software
-  The default environment has an extension (located on the left vertical section of JupyterLab) to load Ceres software into the current environment.
+  The default environment includes an extension (located on the left vertical section of JupyterLab) to load Ceres software into the current environment. This is the software visible with the `module avail` command.
 
 ## Containerized Environment
 JupyterHub will spawn an instance of JupyterLab using a singularity container. Whichever container selected needs to have JupyterLab installed. Users can specify a container in the <i>Container Path</i> section on the Spawner Options page. There are several ways to access containers on Ceres:
@@ -120,6 +123,7 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container. W
         * [All-Spark-Notebook](https://hub.docker.com/r/jupyter/all-spark-notebook/)
 
 # Best Practices
+---
 ## Resource Conservation
   * For short sessions (2hrs or less) please choose the brief-low partition in the "Node Type" drop down, if available.
   * For serial computing (non-parallel code) enter 2 or 4 for "*Number of Cores*" in the spawner options. If a computation is not parallelized, having more cores will not improve the computation power.
