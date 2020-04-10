@@ -128,7 +128,7 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container. W
   * For serial computing (non-parallel code) enter 2 or 4 for "*Number of Cores*" in the spawner options. If a computation is not parallelized, having more cores will not improve the computation power.
   * For parallel computing choose a reasonable number of cores to meet your needs.
   * Choose a reasonable job duration.
-  * Remember to stop the jupyter server when you are done working (*File* **-->** *Hub Control Panel* **-->** *Stop Server*).
+  * Remember to stop the jupyter server when you are done working (`File --> Hub Control Panel --> Stop Server`).
   
 ## Reproducible Research
   * <b>Version Control</b>: The gold standard are version control systems like [Github](https://github.com/) or [Gitlab](https://about.gitlab.com/).
