@@ -36,7 +36,7 @@ layout: page
 
   ## Why Jupyter
 
-  The Jupyter software stack is popular amoung data scientiests and researches because:
+  The Jupyter software stack is popular amoung data scientiests and researches ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because:
   * Interactive data exploration features
   * Browser based IDE (easy to work on remote systems such as HPC and Cloud)
   * Language agnostics (supports >130 kernels)
