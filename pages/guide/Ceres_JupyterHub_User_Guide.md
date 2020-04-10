@@ -13,9 +13,8 @@ layout: page
 * [Environments and Software](#environments-and-software)
 * [Best Practices](#best-practices)
 
-
-# Introduction
 ---
+# Introduction
 ## Background
 [Project Jupyter](https://jupyter.org/index.html) is a open source software stack that supports interactive data science and scientific computing across a wide array of programming languages ([>130 supported kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)). The primary applications within Jupyter are:
 
@@ -51,8 +50,8 @@ layout: page
   * Customizable and Extensible
   * Open Source
  
-# Launching Jupyter
 ---
+# Launching Jupyter
 There are multiple approaches for accessing the Jupyter stack on Ceres. 
 
 * Port Foward with Putty - [Video Coming Soon]()
@@ -94,8 +93,9 @@ Below is a video (COMING SOON) showing the above process.
 </video>
 </div>
 
-# Environments and Software
 ---
+# Environments and Software
+
 ## Default Environment
 The default environment includes:
   * Python and the IPython kernel.
@@ -121,9 +121,8 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container. W
         * [DataScience-Notebook](https://hub.docker.com/r/jupyter/datascience-notebook/)
         * [PySpark-Notebook](https://hub.docker.com/r/jupyter/pyspark-notebook/)
         * [All-Spark-Notebook](https://hub.docker.com/r/jupyter/all-spark-notebook/)
-
-# Best Practices
 ---
+# Best Practices
 ## Resource Conservation
   * For short sessions (2hrs or less) please choose the brief-low partition in the "Node Type" drop down, if available.
   * For serial computing (non-parallel code) enter 2 or 4 for "*Number of Cores*" in the spawner options. If a computation is not parallelized, having more cores will not improve the computation power.
