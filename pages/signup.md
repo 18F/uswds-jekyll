@@ -8,12 +8,12 @@ layout: page
 graphics:
   - image:
       src: /assets/img/USDALOGO-BW.png
-      alt: ''
+      alt: 'ARS signup'
     title: ARS Scientists
     description: ARS scientists and staff can sign up for an ARS account directly
   - image:
       src: /assets/img/micro.png
-      alt: ''
+      alt: 'Signup for others'
     title: Non-ARS scientists
     description: Other scientists can sign up for SCINet if sponsored by an ARS employee
 graphics_position: after

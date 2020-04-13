@@ -124,7 +124,7 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 1. Open a new PuTTY window
 2. In Session > Host Name, enter: **login.scinet.science**
 3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **sn-cn-6-0:57088**), click “Add”, then click “Open”.
-![screenshot of PuTTY software Connection-SSH-Tunnels screen](/scinet-site/assets/img/putty-annotated.png)
+![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
 4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
 
 ## macOS / Linux users

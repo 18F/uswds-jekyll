@@ -10,13 +10,13 @@ layout: page
   * [Features](#features)
     * [Message Board](#message-board)
     * [Campfire](#campfire)
-    * [Docs & Files](#docs-files)
+    * [Docs & Files](#docs-and-files)
     * [Schedule](#schedule)
     * [Where Do I Go for HELP?](#where-do-i-go-for-help)
 * [Other Basecamp Projects](#other-basecamp-projects)
 
 
-# SCINet VSRC Basecamp
+# SCINet VRSC Basecamp
 
 SCINet users who have already joined Basecamp can: [access SCINet VRSC Basecamp on the web](https://3.basecamp.com/3625179/projects/5538276){: .usa-button .usa-button-big } (otherwise, [apply for a SCINet account](/signup/) and follow your email instructions or contact [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=problem%20accessing%20Basecamp) if you already have a SCINet account but can't access Basecamp).
 
@@ -61,7 +61,7 @@ Different from message board posts, campfire works similarly to a very large gro
 * Similar to the message board, hundreds of people will be notified when you post to campfire. You can tag people in your post using @Username (similar to other social media), but you can't reduce the amount of people you notify for campfire posts- everyone is notified unless they've turned their notifications off.
 * Similar to the message board, you can search old campfire posts by using the "Find" feature at the top of the page. Type key words in the "Search for" box, and limit your search to campfire by selecting "Campfires" on the "Search Everything" dropdown menu.
 
-### Docs & Files
+### Docs and Files
 
 Most of the user informational resources in SCINet VRSC Basecamp Docs & Files have been copied to the User Guides section of this website. Best practice is to first look on this website for the most updated version of user guides and other SCINet information. Search the Basecamp Docs & Files if you can't find what you are looking for on this website.
 

@@ -26,33 +26,33 @@ intro: |
 graphics:
   - image:
       src: /assets/img/wifi.png
-      alt: ''
+      alt: 'You have access'
     title: Your location has access now.
     description: No network upgrades are needed. Users can access Ceres, our computer cluster, from any ARS location, university or home.
   - image:
       src: /assets/img/camera-retro.png
-      alt: ''
+      alt: 'GUI software is available'
     title: Graphical software is available.
     description: We offer many graphical programs including Galaxy, CLC workbench and Geneious.
   - image:
       src: /assets/img/heart-o.png
-      alt: ''
+      alt: 'Not just for Biologists'
     title: Not just for Biologists.
     description: We are expanding our mission and want to create solutions for people doing research in modeling, chemistry and geospatial analysis. If you need something to meet your needs [let us know](/support/vrsc).
   - image:
       src: /assets/img/file-code-o.png
-      alt: ''
+      alt: 'CLI'
     title: Command line tools are here too.
     description: Use preinstalled software modules, or install our own with Conda or compile them yourself. Containers are supported too. analysis. If you need something to meet your needs [let us know](/support/request-software).
   - image:
       src: /assets/img/hdd-o.png
-      alt: ''
+      alt: 'Storage'
     title: Storage solutions.
     description: We offer fast data transfer tools like Globus are upgrading our cluster to have 7.3 petabytes of storage.
   - image:
      src: /assets/img/book.png
-     alt: ''
-    title: Teaching is a core mission.
+     alt: 'Training'
+    title: Training is a core mission.
     description: SCINet is more than hardware and cable. A key part of our mission is training ARS scientists in computational methods.
 ---
 

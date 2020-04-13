@@ -19,7 +19,7 @@ Federal computer systems are required to use multifactor authentication for site
 
 You will need an app on a mobile device or a small program on your computer to get your login code.
 
-Follow the instructions below to set up multifactor authentication on either your mobile [Android device](#google-authenticator-on-android) (recommended), [Apple device](#google-authenticator-on-apple-ios-iphones-and-ipads) (recommended), or [on your computer](#authentication-on-your-computer-using-authy).
+Follow the instructions below to set up multifactor authentication on either your mobile [Android device](#google-authenticator-ga-on-android) (recommended), [Apple device](#google-authenticator-ga-on-apple-ios-iphones-and-ipads) (recommended), or [on your computer](#authentication-on-your-computer-using-authy).
 
 
 ## Google Authenticator (GA) on Android

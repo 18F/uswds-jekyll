@@ -19,7 +19,7 @@ layout: page
 
 # 1. Introduction
 
-Singularity [https://singularity.lbl.gov](https://singularity.lbl.gov) is an application for running containers on an HPC cluster. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so you don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use, see section [Container Images](#container-images).
+Singularity [https://singularity.lbl.gov](https://singularity.lbl.gov) is an application for running containers on an HPC cluster. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so you don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use, see section [Container Images](#3-container-images).
 
 
 # 2. Prerequisites

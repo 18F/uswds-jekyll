@@ -14,7 +14,7 @@ All nodes run on Linux Centos and compute jobs are managed by the SLURM schedule
 
 Compute jobs are run on functional groups of nodes called partitions or queues. Each partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). There are 10+ different partitions on Ceres to which users can submit compute jobs. For details on the current partitions/queues, see ['Partitions or Queues' in the Ceres User Manual](/guide/ceres/#partitions-or-queues).
 
-Members of the SCINet Virtual Research Support Core (VRSC) in Ames, IA are the operational administrators of the Ceres HPC cluster. The VRSC maintains the system hardware, software, and provides user support. To learn more about the VRSC, visit the [VRSC page](/support/vsrc/). For a current list of command-line software managed by the VRSC through the module system, see the [Software Overview](/guide/software).
+Members of the SCINet Virtual Research Support Core (VRSC) in Ames, IA are the operational administrators of the Ceres HPC cluster. The VRSC maintains the system hardware, software, and provides user support. To learn more about the VRSC, visit the [VRSC page](/support/vrsc/). For a current list of command-line software managed by the VRSC through the module system, see the [Software Overview](/guide/software).
 
 All Ceres users (ARS and formal collaborators) receive 10GB of storage in their /home directory and can request additional storage up to 1TB (or more if justified) in a /project directory.
 

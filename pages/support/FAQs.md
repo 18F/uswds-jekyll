@@ -103,7 +103,7 @@ Add the following sentence as an acknowledgment for using SCINet/Ceres as a reso
 “This research used resources provided by the SCINet project of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D.”
 
 ### How do I get an account (I am an ARS employee)?
-Please fill out the [SCINet Account Request Form](/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information. 
+Please fill out the [SCINet Account Request Form](/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
 
 You will also receive another email asking to join the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) project (must have SCINet account first), a forum on which users can post questions. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
 
@@ -145,7 +145,7 @@ Command line access is available via Secure Shell (SSH) and Virtual Private Netw
 Email the VRSC scinet_vrsc@usda.gov for a time and day. You can also read the [Ceres Quick Start](/guide/quickstart) or [Ceres User Guide](/guide/ceres/).
 
 ### What software is available on SCINet?
-See the Ceres [Software Overview](/guide/software) for a list of available software. You can also login to SCINet and issue the command “module avail” to see the same list of available software modules. 
+See the Ceres [Software Overview](/guide/software) for a list of available software. You can also login to SCINet and issue the command “module avail” to see the same list of available software modules.
 
 ### How do I request software to be loaded onto Ceres?
 For new software requests, go to the [Request Software page](/support/request-software) and follow the instructions which include 1) checking if the software is already installed, 2) considering whether to install software yourself, and 3) requesting new software to be installed as a module by the VRSC. Software requests sent to the VRSC require USDA Security Operations Center (SOC) review and approval which takes a few weeks.
@@ -153,9 +153,9 @@ For new software requests, go to the [Request Software page](/support/request-so
 ### How do I install my own software programs?
 You may install your own software in your own directories, however, we strongly encourage users to contact the VRSC team to ensure that their required tool(s) might not be better distributed as a shared package within the official software modules tree.
 
-The popular R, Perl and Python languages have many packages/modules available. Some of the programming-language-specific packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. See the list of installed packages on the [Software Overview page](/guide/software) or use “module avail” at the command line. To see more information on a specific module, issue the "module help <module_name>" command. Also see the [Installing R/Python/Perl Packages guide](/guide/packageinstall). 
+The popular R, Perl and Python languages have many packages/modules available. Some of the programming-language-specific packages are installed on Ceres and are available with the r/perl/python_2/python_3 modules. See the list of installed packages on the [Software Overview page](/guide/software) or use “module avail” at the command line. To see more information on a specific module, issue the "module help <module_name>" command. Also see the [Installing R/Python/Perl Packages guide](/guide/packageinstall).
 
-Another resource for installing your own software programs is the Conda package manager. See the [User-Installed Software on Ceres Using Conda guide](guide/conda)
+Another resource for installing your own software programs is the Conda package manager. See the [User-Installed Software on Ceres Using Conda guide](/guide/conda)
 
 Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories (preferably in /KEEP/<*projectname*>) since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas.
 
@@ -211,7 +211,7 @@ The current acting SCINet program manager is Stan Kosecki.
 ### What is the Scientific Advisory Committee (SAC)?
 The Scientific Advisory Committee is composed of ARS scientists across all the five physical Areas, NAL, and a representative from the Area Statisticians. These scientists serve 3-year terms on the committee and represent a broad spectrum of the computational research efforts within ARS. The SAC, which is also referred to as the executive SAC (eSAC), interacts directly with the SCINet Executive Committee on SCINet policy, development, and training.
 
-There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet People page](/team/). 
+There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet People page](/team/).
 
 ### How do I write a batch script to submit a compute job?
 answer coming soon
