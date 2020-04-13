@@ -21,7 +21,7 @@ layout: page
 # Best Practices
 
 * Globus Online is the recommended method for transferring data to and from the Ceres cluster. It provides faster data transfer speeds compared to scp, has a graphical interface, and does not require a GA verification code for every file transfer.
-* Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. See the Ceres User Manual section [Quotas on Home and Project Directories](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#quotas-on-home-and-project-directories)) for more information on home and project directory quotas.
+* Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. See the Ceres User Manual section [Quotas on Home and Project Directories](/guide/ceres/#quotas-on-home-and-project-directories)) for more information on home and project directory quotas.
 * If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below (section [Large Data Transfer by Shipping Hard Drives](#large-data-transfer-by-shipping-hard-drives)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
@@ -33,13 +33,13 @@ Globus Online is the recommended method for transferring data to and from the Ce
 ## Login
 * In a browser, navigate to [https://www.globus.org/](https://www.globus.org/), click ‘Log In’ in the upper right corner.
 * There are several ways to login to the Globus Web App. Login using one of the available methods:
-  1. ORCiD iD login (recommended). You can use your ORCiD, a persistent digital identifier for individual researchers, to sign into Globus (all ARS researchers should have an ORCiD). Click on "Sign in with ORCiD iD" at the bottom of the page. If you don't yet have an ORCiD, please visit [https://orcid.org/](https://orcid.org/) to obtain one. 
+  1. ORCiD iD login (recommended). You can use your ORCiD, a persistent digital identifier for individual researchers, to sign into Globus (all ARS researchers should have an ORCiD). Click on "Sign in with ORCiD iD" at the bottom of the page. If you don't yet have an ORCiD, please visit [https://orcid.org/](https://orcid.org/) to obtain one.
   2. Globus ID login. You can create an account on Globus ID and use it to log into Globus. See the link to Globus ID under the list of organizational logins.
   3. Organizational login. Many organizations, mostly universities, have organizational logins. ARS currently does not provide an organizational login. If your organization provides an organizational login, select your organization from the list and login with your organization credentials at the familiar login page.
   4. Google account login. Click on “Sign in with Google” at the bottom of the page if you want to use your google account.
 * You should now be on the Globus ‘File Manager’ page. You should see two panels. If you don't, click on the 2-panels icon at the top right of the screen. You should now see two panels:
 
-![Globus online homescreen showing two panels](/scinet-site/assets/img/file-transfer/globus-homescreen.png)
+![Globus online homescreen showing two panels](/assets/img/file-transfer/globus-homescreen.png)
 
 ## Copying Data
 * The two panes represent the two systems that you want to copy data between. You will need to select a Collection (an Endpoint) for each pane and most likely, authenticate.
@@ -109,7 +109,7 @@ You can send hard drives containing data to the VRSC if you have very large amou
 1. Submit an email request to the VRSC [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=large%20data%20transfer%20request) for a data transfer with the following information:
 
    * Amount of data
-   * Target project directory. 
+   * Target project directory.
    * Type of filesystem the data is coming from (Window, Mac, Linux)
 
    If you don't already have a project directory please request one first: [Request Project Storage](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx) (eAuthentication required)

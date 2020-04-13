@@ -6,4 +6,4 @@ layout: page
 excerpt: explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)
 ---
 
-[link to tutorial](/scinet-site/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
+[link to tutorial](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)

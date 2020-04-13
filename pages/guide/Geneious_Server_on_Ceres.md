@@ -22,16 +22,16 @@ Install and start Geneious
 
 Geneious will complain about not having a license.  click "Activate a License"
 
-![screenshot of Geneious software No License for Geneious R11 popup](/scinet-site/assets/img/geneious/geneious_license_expired.png)
+![screenshot of Geneious software No License for Geneious R11 popup](/assets/img/geneious/geneious_license_expired.png)
 
-On the "Enter Your License Details" screen, 
+On the "Enter Your License Details" screen,
   - select "Use floating license server",
   - enter `sn-geneiousserver-0.scinet.ars.usda.gov` in the "Server" box, and
   - enter `27001` in the "Port" box.
 
-![screenshot of Geneious software Enter Your License Details screen](/scinet-site/assets/img/geneious/geneious_floating_license_server.png)
+![screenshot of Geneious software Enter Your License Details screen](/assets/img/geneious/geneious_floating_license_server.png)
 
-After Geneious is started (see picture below): 
+After Geneious is started (see picture below):
 1. click on "Geneious Server" in the list of Sources on the left
 2. You will see a message on the right "you are not currently logged in to Geneious Server". Select the "Log in" button.
 3. On the "Login to Geneious Server" popup screen:
@@ -45,6 +45,6 @@ After Geneious is started (see picture below):
    - Enter your Ceres password in the "Password" box
    - Click  "OK"
 
-![screenshot of Geneious software login screen](/scinet-site/assets/img/geneious/geneious_login.png)
+![screenshot of Geneious software login screen](/assets/img/geneious/geneious_login.png)
 
 You should now be connected to the Geneious Server.

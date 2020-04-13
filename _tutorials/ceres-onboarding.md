@@ -17,4 +17,4 @@ This [51 minute Ceres onboarding tutorial](https://public.3.basecamp.com/p/PZ52a
 - previewing text file contents
 - computing in batch mode with a batch script
 
-The information in this video is also documented in the [Ceres User Manual](/scinet-site/guide/ceres/).
+The information in this video is also documented in the [Ceres User Manual](/guide/ceres/).

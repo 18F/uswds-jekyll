@@ -22,7 +22,7 @@ We need the following information:
 1.	Navigate to Help -> **Plugins**
 2.	Select Download Plugins
 3.	Install **CLC Workbench Client Plugin** (Note: You may need to have admin privileges on your local machine to install plugins)
-   ![screenshot of CLC software Download Plugins Screen](/scinet-site/assets/img/CLC1.png)
+   ![screenshot of CLC software Download Plugins Screen](/assets/img/CLC1.png)
 4.	Restart Genomic workbench
 
 # CLC Server Login
@@ -42,6 +42,6 @@ Server port: 7777
 ```
 4.	Log in.
 
-![screenshot of CLC Genomics Workbench 11.0.1 software homescreen](/scinet-site/assets/img/CLC2.png)
+![screenshot of CLC Genomics Workbench 11.0.1 software homescreen](/assets/img/CLC2.png)
 
 After successful login, you should see a directory CLC-\<your project> in the top left window.

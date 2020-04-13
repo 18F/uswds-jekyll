@@ -52,7 +52,7 @@ The following silent video is a media alternative for the text in steps 1-5 belo
 [VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/tzGebGAAAqgnTvkyNxc85TYq)<br>
 [VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/MbHvJiPFSgWWvBJ3WRYuMN1p)
 
-2. Log into Ceres via SSH (see the [Quick Start Guide](/scinet-site/guide/quickstart#accessing-scinet) for instructions).
+2. Log into Ceres via SSH (see the [Quick Start Guide](/guide/quickstart#accessing-scinet) for instructions).
 
 3. Submit the RStudio SLURM job script with the following command:
 ```
@@ -81,11 +81,11 @@ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
       for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
 
       ssh -N -L 8787:sn-cn-6-0:57088 jane.user@login.scinet.science
-   
+
       and point your web browser to http://localhost:8787
 
    2. log in to RStudio Server using the following credentials:
-   
+
       user: jane.user
       password: 4wjRJfpIvQDtKdDZpmzY
 
@@ -95,30 +95,30 @@ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
 
    2. On the Ceres command line, issue the command
 
-      scancel -f 214664 
+      scancel -f 214664
    ```
 
 5. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://sn-cn-6-0:57088), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
-![screenshot of signing into RStudio in a web browser](/scinet-site/assets/img/RStudio.png)
+![screenshot of signing into RStudio in a web browser](/assets/img/RStudio.png)
 
 
 # Stopping RStudio Server
 
 1. Click the Quit Session (“power”) button in the top-right corner of the RStudio window (see picture below), or select “File > Quit Session...”
-![screenshot of the Quit Session power button in RStudio](/scinet-site/assets/img/RStudio2.gif)
+![screenshot of the Quit Session power button in RStudio](/assets/img/RStudio2.gif)
 2. After the “R Session has Ended” window appears, cancel the SLURM job from the Ceres command line. E.g., if the job ID is 214664:
 ```
 [jane.user@sn-cn-8-1 ~]$ scancel -f 214664
 ```
   *Be sure to specify the*  `scancel -f`  /  `--full`  *option as demonstrated above.*
-  
+
 3. (If using SSH Port Forwarding instead of VPN) Close the terminal / PuTTY window in which the SSH tunnel was established.
 
 
 # SSH Port Forwarding (instead of VPN)
 
 ## Windows + PuTTY users
-The following silent video is a media alternative for the text in steps 1-4 below:<br> 
+The following silent video is a media alternative for the text in steps 1-4 below:<br>
 [rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
 
 1. Open a new PuTTY window
@@ -137,7 +137,7 @@ There will be no output after logging in. Keep the window / SSH tunnel open for 
 2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
 
 ## Chrome browser users
-Video showing how to ssh to Ceres using the Chrome Secure Shell App: 
+Video showing how to ssh to Ceres using the Chrome Secure Shell App:
 [chrome-ssh.mp4](https://public.3.basecamp.com/p/YJ1smo8ih7tTwG9SoeVCYbFV)
 
 # Requesting Additional Compute Resources

@@ -25,7 +25,7 @@ layout: page
 
 ---
 
-[No account? Signup here.](/scinet-site/signup/){: .usa-button .usa-button-big }
+[No account? Signup here.](/signup/){: .usa-button .usa-button-big }
 
 #### Table of Contents
 * [What is SCINet](#what-is-scinet)
@@ -36,10 +36,10 @@ layout: page
   * [Older Windows Instructions](#from-older-windows-versions)
   * [Mac and Linux Instructions](#from-mac-and-linux)
 * [Password Requirements](#password-requirements)
-* [Storage](#data-storage) 
-  * [Quotas](#quotas) 
-  * [Home Directories](#home-directories) 
-  * [Project Directories](#project-directories) 
+* [Storage](#data-storage)
+  * [Quotas](#quotas)
+  * [Home Directories](#home-directories)
+  * [Project Directories](#project-directories)
 * [Data Transfer](#data-transfer)
   * [Globus](#globus-data-transfers)
   * [Small Files](#small-data-transfers)
@@ -61,14 +61,14 @@ layout: page
 
 SCINet is the name for the USDA-ARS initiative for scientific computing. It consists of:
 
-1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](/scinet-site/about/compute) for more detail.
-2. Network improvements across ARS. 
-3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](/scinet-site/support/vrsc/) for more detail.
-4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](/scinet-site/opportunities/events) and [Past Workshops](/scinet-site/workshops/) for more detail.
+1. High performance computer clusters for running command-line and graphical programs. There is currently one cluster in Ames IA named Ceres. Two new clusters will be coming online in 2020. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](/about/compute) for more detail.
+2. Network improvements across ARS.
+3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](/support/vrsc/) for more detail.
+4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](/opportunities/events) and [Past Workshops](/workshops/) for more detail.
 
 # Set Up Multi-Factor Authentication
 
-For security, SCINet requires multifactor authentication. See the setup instructions in the [Multi-Factor Authentication User Guide](/scinet-site/guide/multifactor/).
+For security, SCINet requires multifactor authentication. See the setup instructions in the [Multi-Factor Authentication User Guide](/guide/multifactor/).
 
 
 # HPC Clusters on SCINet
@@ -87,7 +87,7 @@ All users should have received their login credentials in an email.  If you have
 
 ## From Windows 10
 
-Windows 10 that is up to date has an ssh client in the Windows Power Shell. To use that client, click on the Start button and start typing "power". Select Windows PowerShell from the list. In the PowerShell window you can simply type 
+Windows 10 that is up to date has an ssh client in the Windows Power Shell. To use that client, click on the Start button and start typing "power". Select Windows PowerShell from the list. In the PowerShell window you can simply type
 ```
 ssh <user.name>@login.scinet.science
 ```
@@ -108,7 +108,7 @@ However we recommend creating a config file as described in the instructions for
 8. Enter your password when prompted.  If it is the first time you are logging in, a new Google Authentication account will be created for you, connection will close and and you will receive an email with instructions. After setting GA account on your mobile device, ssh again to `login.scinet.science` and enter the 6-digit code from the GA app when prompted for Verification Code. If system accepts the code it will prompt you for password. If you made a mistake when typing 6-digit code, and are prompted for Verification code once again, wait for the new code to be generated.
 9. If your password has expired (new temporary passwords expire right away, and the passwords set by users expire after 90 days) you will be prompted to change your password. Note that when changing password, first you will need to enter the same password that you used to login, and only when prompted for a new password, you will enter a new one.
 
-![screenshot of Putty software](/scinet-site/assets/img/putty.png)
+![screenshot of Putty software](/assets/img/putty.png)
 
 ## From Mac and Linux
 
@@ -169,7 +169,7 @@ Home directories are private, they are only accessible to you and the system adm
 
 Project directories are intended as high-level workspaces. This is where large datasets would reside, sub-projects can be created, and collaborative analysis results stored. Project directories are usually associated with ARS Research Projects.
 
-To request a new project directory see [Request Project Storage](/scinet-site/support/request-storage). A direct link to the form (eAuthentication required) which includes submitting a Data Management Plan:
+To request a new project directory see [Request Project Storage](/support/request-storage). A direct link to the form (eAuthentication required) which includes submitting a Data Management Plan:
 
 [Request a project directory](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx){: .usa-button }
 
@@ -182,7 +182,7 @@ Given the space and access limitations of a home directory, large amounts of dat
 
 ## Globus Data Transfers
 
-We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](/scinet-site/guide/file-transfer).
+We recommend using Globus Online to transfer data to and from Ceres cluster. It provides faster data transfer speeds compared to scp, has graphical interface and does not require to enter GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Personal which does NOT require admin privileges. More information about Globus Online for Ceres can be found in the [Transferring Files User Guide](/guide/file-transfer).
 
 ## Small Data Transfers
 
@@ -208,12 +208,12 @@ Other options for small data transfers include [Cyberduck](https://cyberduck.io/
 
 ## Shipping Hard Drives
 
-You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](/scinet-site/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
+You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
 
 
 # Using the Software Applications on Ceres
 
-Many software applications are available as modules ([see Software Overview](/scinet-site/guide/software)) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
+Many software applications are available as modules ([see Software Overview](/guide/software)) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
 
 The `module` command is used to work with the different software application modules. The following table lists some of the most common functions of the `module` command:
 
@@ -266,7 +266,7 @@ In addition, at most 400 cores can be used by all simultaneously running jobs pe
 
 From the login node, request an interactive session by typing `salloc`
 
-Now you are running interactively on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). 
+Now you are running interactively on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning).
 
 You can view and load modules for the applications you need, and execute applications from the command-line.
 
@@ -274,13 +274,13 @@ When complete, return to the login node by typing `exit`
 
 For more fine grained control over the interactive environment you can use the srun command. Issue the srun command from a login node. Command syntax is:
 
-`srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l` 
+`srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l`
 
-See the [Ceres User Manual](/scinet-site/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
+See the [Ceres User Manual](/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
 
 ## Batch Mode
 
-You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed [Ceres User Manual](/scinet-site/guide/ceres/#batch-mode).
+You can run jobs on the cluster by writing short scripts that will get executed on the cluster. For more details about running jobs in batch mode, please see the detailed [Ceres User Manual](/guide/ceres/#batch-mode).
 
 Here is an example of a batch job submission bash script (e.g. `blast_job.sh`, for running BLAST):
 

@@ -37,7 +37,7 @@ export TMOUT=5400
 singularity is hashed (/usr/bin/singularity)  
 ```
 
-NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). See the [Ceres User Manual](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/) for more info on how to request resources for interactive jobs.
+NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). See the [Ceres User Manual](/guide/ceres/) for more info on how to request resources for interactive jobs.
 
 
 # 3. Container Images
@@ -83,13 +83,13 @@ Root access is needed to create a Singularity image from a bootstrap file. As Ce
 
 # 6. Executing Containers
 
-Three commands may be used to execute applications inside Singularity containers: 
-  
-  `singularity run`, 
-  
-  `singularity exec`, 
-  
-  and (less commonly) `singularity shell` 
+Three commands may be used to execute applications inside Singularity containers:
+
+  `singularity run`,
+
+  `singularity exec`,
+
+  and (less commonly) `singularity shell`
 
 Note that applications executing within a container do not have access to applications installed outside of the container (e.g., environment modules, or executables installed in /usr/bin on the compute node).
 
@@ -172,33 +172,33 @@ exit
 
 # 7. Ceres Container Repository
 
-There are some containers locally available on Ceres at 
+There are some containers locally available on Ceres at
 /reference/containers
 
 These are available via modules, so the user doesn't have to perform any additional tasks.
 
-**List of containers** 
+**List of containers**
 (may be out of date, `ls /reference/containers` on Ceres for the most up to date info):
 
-* antismash 
-* concoct 
-* itasser 
-* plasflow 
+* antismash
+* concoct
+* itasser
+* plasflow
 * RStudio
-* bamm 
-* gatk 
-* opendronemap 
-* rgi 
-* salmon 
-* checkm 
-* groopm 
-* refinem 
-* roary 
-* SALSA 
+* bamm
+* gatk
+* opendronemap
+* rgi
+* salmon
+* checkm
+* groopm
+* refinem
+* roary
+* SALSA
 
 
 # 8. Support
 
-The SCINet Virtual Research Support Core (VRSC) can provide support for the Singularity application itself, but has no control over the contents of and cannot be expected to support container images. 
+The SCINet Virtual Research Support Core (VRSC) can provide support for the Singularity application itself, but has no control over the contents of and cannot be expected to support container images.
 
 Questions about application-specific container images may be directed to the SCINet community via the [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access), or to the community responsible for maintaining the container image.

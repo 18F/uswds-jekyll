@@ -14,10 +14,10 @@ A group of over 36 geospatial scientists, post-docs, research leaders, and data 
 **09/10/2019 - 09/11/2019   &middot;   Las Cruces, NM   &middot;   lead: Deb Peters**
 
 
-[Workshop Agenda](/scinet-site/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Agenda.pdf) (opens pdf in this browser window)
+[Workshop Agenda](/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Agenda.pdf) (opens pdf in this browser window)
 
-[Participant List with Poster/Presentation Titles](/scinet-site/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Participant-List-with-Presentation-Titles.pdf) (opens pdf in this browser window)
+[Participant List with Poster/Presentation Titles](/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Participant-List-with-Presentation-Titles.pdf) (opens pdf in this browser window)
 
-[Workshop Notes](/scinet-site/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Notes.docx) (downloads Microsoft Word document)
+[Workshop Notes](/assets/pdf/workshops/2019-09-Geospatial-Las-Cruces/Workshop-Notes.docx) (downloads Microsoft Word document)
 
 Visit the [SCINet-funded Workshops Basecamp](https://3.basecamp.com/3625179/projects/13798928) for posters, presentation slides, and recordings of the presentations. ARS employees can contact Kerrie Geil for access to the Basecamp project.

@@ -17,22 +17,22 @@ layout: page
 Software | information
 ---|---
 Galaxy Server | SCINet Runs its own [Galaxy Server](https://galaxy.scinet.science).  Galaxy is an open source, web-based platform for data intensive bioinformatic research.
-[CLC Workbench](/scinet-site/guide/clc/) | SCINet has a license key to CLC Workbench
-[Geneious](/scinet-site/guide/geneious) |SCINet has a license key to Geneious
-[Rstudio](/scinet-site/guide/rstudio) | SCINet runs a R studio Server
+[CLC Workbench](/guide/clc/) | SCINet has a license key to CLC Workbench
+[Geneious](/guide/geneious) |SCINet has a license key to Geneious
+[Rstudio](/guide/rstudio) | SCINet runs a R studio Server
 Jupyter |  [Project Jupyter](https://jupyter.org/) notebooks, Lab, and Hub can be run on Ceres
 
 
 # Command-line Software on SCINet Clusters
 
-Each SCINet cluster has software preinstalled on it. Some general software is available in the global environment but most specialized scientific software is managed by the Module system. This software can be loaded with a command like 
+Each SCINet cluster has software preinstalled on it. Some general software is available in the global environment but most specialized scientific software is managed by the Module system. This software can be loaded with a command like
 ```
 module load bamtools
-``` 
-or a specific version can be selected with 
+```
+or a specific version can be selected with
 ```
 module load bamtools/2.5.1
-``` 
+```
 Available modules are listed below in the section [Ceres Command-line Software Managed by the Module System](#ceres-command-line-software-managed-by-the-module-system).
 
 ## The command-line software I need is not on the list!
@@ -41,11 +41,11 @@ No problem. You have two options: 1) you can install the software yourself or 2)
 
 ### Option 1: Install the software yourself
 
-The easiest way to do this is to use a [conda](https://docs.conda.io/en/latest/) environment. Often times installing the software you need is as easy as typing 
+The easiest way to do this is to use a [conda](https://docs.conda.io/en/latest/) environment. Often times installing the software you need is as easy as typing
 ```
 conda create --name my_environment my_program
-``` 
-Thousands of biological packages and their dependencies can be installed with a single command using the Bioconda repository for the Conda package manager. You can also install a package directly from Github or elsewhere and compile it yourself. For more on installing Conda see [User-installed Software on Ceres with Conda](https://usda-ars-gbru.github.io/scinet-site/guide/conda).
+```
+Thousands of biological packages and their dependencies can be installed with a single command using the Bioconda repository for the Conda package manager. You can also install a package directly from Github or elsewhere and compile it yourself. For more on installing Conda see [User-installed Software on Ceres with Conda](/guide/conda).
 
 You can also install and or compile software manually in your  `$HOME`  or  `$PROJECT`  directories. This is the fastest and easiest way to get your software.
 

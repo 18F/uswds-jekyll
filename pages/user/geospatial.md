@@ -25,7 +25,7 @@ By: Pat Clark and Rowan Gaffney
 ---
 ### **Machine Learning**
 * Classification
-* Clustering: [Python Notebook Example](/scinet-site/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
+* Clustering: [Python Notebook Example](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
 * Regression
 
 ### **Modeling**
@@ -56,7 +56,7 @@ Additional considerations are:
 
 ## Tools and Software
 ---
-The following tools/software are currently available on SCINet. (See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for a full list of currently available software.)
+The following tools/software are currently available on SCINet. (See the [Software Overview](/guide/software) for a full list of currently available software.)
 
 ### Geospatial Specific Software
 * [**ENVI**](https://www.harrisgeospatial.com/Software-Technology/ENVI) (5.5): Image analysis software (1 license available)
@@ -73,7 +73,7 @@ The following tools/software are currently available on SCINet. (See the [Softwa
 
 ### Other
 * [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
-    * [User Tutorial](/scinet-site/assets/img/geospatial/Tutorial1-JHub.html) for JupyterLab+Dask Distrubuted using:
+    * [User Tutorial](/assets/img/geospatial/Tutorial1-JHub.html) for JupyterLab+Dask Distrubuted using:
       * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif
       * sbatch script: /project/geospatial_tutorials/data_science_nb_dask.sbatch
     *  Optionally, pull the container from dockerhub to local folder with:

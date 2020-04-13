@@ -25,7 +25,7 @@ By: Justin Vaughn
 
 Bulk segregant analysis (BSA) is used to find genes by identifying biased allele frequencies between two population that have been pooled based on distinctive phenotypes.  The technique has historically been limited by the qualitative nature of older genotyping platforms.  Next-generation sequencing allows for more precise characterization of allele frequencies in a population. This capacity was first realized in yeast studies, where extremely large populations sizes (>100,000) individuals were used and extreme individuals within the population were pooled and resequenced (Ehrenreich et al., 2010).  Plant researchers quickly attempted to apply the above approach, commonly referred to as “QTL-seq”, to quantitative traits such as cold-tolerance (Yang et al., 2013), fungal rice blast (Takagi et al., 2013), and wheat grain protein (Trick et al., 2012), among others.  Though much of the work in QTL-seq is in the field and lab, the last portion does require bioinformatics.  To that end, we provide the following work-flow.
 
-## Getting everything ready to run this pipeline 
+## Getting everything ready to run this pipeline
 (aka: things I won't discuss how to do)
 
 1. Get sequencing data on Ceres and in a working directory
@@ -92,7 +92,7 @@ bcftools convert filt_output_snps.bcf -O z -o output_snps.vcf.gz #convert to com
 
 ## Examining differential frequency of alleles visually and identifying peak genomic regions
 
-From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally. Alternatively, you can also use RStudio on Ceres as documented in the auxiliary section below [Using Rstudio on Scinet CERES in 3 steps](#using-rstudio-on-scinet-ceres-in-3-steps). 
+From this point, it may be worthwile to download your resultant compressed VCF file and then run processing and viewing programs locally. Alternatively, you can also use RStudio on Ceres as documented in the auxiliary section below [Using Rstudio on Scinet CERES in 3 steps](#using-rstudio-on-scinet-ceres-in-3-steps).
 
 We focus on a QTL-seq analysis software called QTLSurge. Many others exist, such as [QTLseqr](https://github.com/bmansfeld/QTLseqr).  Importantly, these other programs may not be completely compatible with the pipeline we have described above.
 
@@ -117,13 +117,13 @@ perl vcf2freq.pl output_snps.vcf 0 >output_frequency_file.txt #vcf2freq.pl is su
 
 Browse to this file and open it. A graph, similar to the one below will appear momentarily. You can step through each chromosome using the interface and look for peaks that are above the genome-wide threshold (95th percentile based on raw deltaSNP values). Because raw data of this kind is very noisy, a sliding window average is supplied. The appropriate window size is a function of population size, recombination rate, marker density, and read depth. Generally, if read depth is >40x, your window size should decrease as your population size increases. A good rule-of-thumb is that few windows should have an average that extends beyond 3 standard error units of a directly adjacent window, assuming your overlap-to-window-size is ~20%. The red line indicates the average of window and the gray shading indicates 3 standard error units. Note: Setting the overlap size very low will cause QTLSurge to respond slowly and should only be used when zoomed in to a <1MB range.
 
-![screen shot of QTLsurge software](/scinet-site/assets/img/loadedFileOverview.png)
+![screen shot of QTLsurge software](/assets/img/loadedFileOverview.png)
 
 For a standard QTL-seq experiment, this might be a stopping point for publication. QTLsurge provides further support for iterative rounds of genotyping that allow a researcher to further pinpoint genes and/or confirm the peaks that they have discovered. The QTLsurge page describes these possible experiments and analyses in more detail.
 
 # Using Rstudio on Scinet CERES in 3 steps
 
-see also the [RStudio Server User Guide](https://usda-ars-gbru.github.io/scinet-site/guide/rstudio/)
+see also the [RStudio Server User Guide](/guide/rstudio/)
 
 ## Log into CERES, and run a pre-made Rstudio script
 
