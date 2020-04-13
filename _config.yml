@@ -33,7 +33,7 @@ dap_agency: USDA
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
 
- search_site_handle: scinet-usda
+search_site_handle: scinet-usda
 
 # Configuration for projects and team collections
 # See https://jekyllrb.com/docs/collections/ for more information about collections.
