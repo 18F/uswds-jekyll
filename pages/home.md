@@ -19,7 +19,7 @@ hero:
 
 tagline: "High Performance computing.  Training.  Network improvements."
 intro: |
-  The SCINet initiative is an effort by ARS to improve our research capacity by
+  The SCINet initiative is an effort by the USDA Agricultural Research Service (ARS) to improve the USDA's research capacity by
   providing scientists with access to high performance computer clusters, cloud computing,
   improved networking for data transfer and training in scientific computing
 

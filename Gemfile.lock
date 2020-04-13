@@ -50,6 +50,8 @@ GEM
       posix-spawn (~> 0.3.9)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.3.0)
@@ -94,6 +96,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   jekyll-last-modified-at
+  jekyll-sitemap
   json
   rake
   uswds-jekyll!
