@@ -1,4 +1,4 @@
-title: "  SCINet USDA Scientific Computing Initiative"
+title: "SCINet | USDA Scientific Computing Initiative"
 description: SCINet is a USDA initiative to provide agricultural scientists access to high performance computing, networking and training
 
 # GitHub information
@@ -32,7 +32,6 @@ dap_agency: USDA
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
-
 search_site_handle: scinet-usda
 
 # Configuration for projects and team collections
