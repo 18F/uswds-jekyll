@@ -305,9 +305,9 @@ You would submit the script by typing: `sbatch blast_job.sh`
 
 ## Job Script Generator
 
-You can also use Ceres Job Script Generator to generate job scripts (eAuthentication Required).
+You can also use Ceres Job Script Generator to generate job scripts.
 
-[Ceres Job Script Generator](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/ceres_job_script_generator/Home.aspx){: .usa-button }
+[Ceres Job Script Generator](/support/ceres-job-script){: .usa-button }
 
 ## Useful SLURM Commands
 

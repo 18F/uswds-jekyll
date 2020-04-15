@@ -145,10 +145,10 @@ footer:
         href: https://usda.gov/our-agency/about-usda/performance
         external: true
       - text: Careers
-        href: https://www.usda.gov/oig/contractorform.htm
+        href: https://www.usda.gov/our-agency/careers
         external: true
       - text: Report Fraud on USDA
-        href: https://www.usda.gov/our-agency/careers
+        href: https://www.usda.gov/oig/contractorform.htm
         external: true
       - text: Visit OIG
         href: https://www.usda.gov/oig/
