@@ -1,0 +1,783 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div id="BYUJobScriptGenerator"></div>
+<script>
+/*****************************************************************\
+
+Copyright (C) 2014, Brigham Young University
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+*******************************************************************
+
+Available at: https://github.com/BYUHPC/BYUJobScriptGenerator
+
+Author:  Ryan Cox <ryan_cox@byu.edu>
+
+Modified by: Nathan Weeks <nathan.weeks@ars.usda.gov>
+
+This script generator was originally created for Brigham Young University and
+is tailored to its specific needs and configuration.  It is unlikely that this
+script will work for you without modification since there are many, many ways
+to configure a job scheduler.
+
+This should integrate easily into any existing website.  Use CSS for styling.
+
+TODO:
+	job arrays
+	tooltip/help for each parameter row
+
+\*****************************************************************/
+
+
+
+var BYUScriptGen = function(div) {
+	this.values = {};
+	this.containerDiv = div;
+	this.inputs = {};
+	this.inputs.features = {};
+	this.formrows = [];
+	this.settings = {
+		// script_formats = [ ["htmlname1", "Text1"], ["htmlname2", "Text2"], ... ]
+		script_formats : [ ["slurm", "Slurm"] ], // first is default
+		defaults : {
+			email_address : "MY.EMAIL@ars.usda.gov",
+		},
+		qos : {
+			preemptable : "standby",
+			test : "test"
+		},
+		/* You may want to dynamically generate features/partitions. See example HTML file */
+		features : {},
+		features_status : {},
+		partitions : {},
+		partitions_status : {},
+	};
+	return this;
+};
+
+BYUScriptGen.prototype.returnNewRow = function (rowid, left, right) {
+	var l, r, tr;
+	l = document.createElement("td");
+	r = document.createElement("td");
+	tr = document.createElement("tr");
+	l.id = rowid + "_left";
+	r.id = rowid + "_right";
+	tr.id = rowid;
+	l.innerHTML = left;
+	r.appendChild(right)
+	tr.appendChild(l);
+	tr.appendChild(r);
+	return tr;
+}
+
+BYUScriptGen.prototype.newLabel = function(args){
+	var newEl = document.createElement("label");
+	var tthis = this;
+	if(args.for && args.inner) {
+		newEl.onclick = function() {
+			return true;
+		}
+		newEl.htmlFor = args.for;
+		newEl.innerHTML= args.inner;
+		return newEl;
+	}
+	return null;
+}
+
+
+BYUScriptGen.prototype.newCheckbox = function(args) {
+	var tthis = this;
+	var newEl = document.createElement("input");
+	newEl.type = "checkbox";
+	var formrows = this.formrows;
+	if(args.id)
+		newEl.id = args.id;
+	if(args.checked)
+		newEl.checked = true;
+	if(args.toggle)
+		newEl.onclick = newEl.onchange = function () {
+			formrows[args.toggle].style.display = newEl.checked ? "" : "none";
+			tthis.updateJobscript();
+		};
+	else
+		newEl.onclick = newEl.onchange = function () {
+			 tthis.updateJobscript();
+		};
+	return newEl;
+}
+
+BYUScriptGen.prototype.newInput = function(args) {
+	var tthis = this;
+	var newEl = document.createElement("input");
+	newEl.type = "text";
+	if (args.id)
+		newEl.id = args.id;
+	if(args.size)
+		newEl.size = args.size;
+	if(args.maxLength)
+		newEl.maxLength = args.maxLength;
+	if(args.value)
+		newEl.value = args.value;
+	newEl.onclick = newEl.onchange = function () {
+		tthis.updateJobscript();
+	};
+	return newEl;
+}
+
+BYUScriptGen.prototype.newSelect = function(args) {
+	var tthis = this;
+	var newEl = document.createElement("select");
+	if(args.id) 
+		newEl.id = args.id;
+	if(args.options) {
+		for(var i in args.options) {
+			var newOpt = document.createElement("option");
+			newOpt.value = args.options[i][0];
+			newOpt.text = args.options[i][1];
+			if(args.selected && args.selected == args.options[i][0])
+				newOpt.selected = true;
+			newEl.appendChild(newOpt);
+		}
+	}
+	newEl.onclick = newEl.onchange = function () {
+		tthis.updateJobscript();
+	};
+	return newEl;
+}
+
+BYUScriptGen.prototype.newGroup = function() {
+	var newEl = document.createElement("div");
+	newEl.className = "byu-group";
+	newEl = this.appendChildren(newEl,arguments)
+	return newEl;
+};
+
+
+BYUScriptGen.prototype.newSpan = function() {
+	var newEl = document.createElement("span");
+     	newEl = this.appendChildren(newEl, arguments);
+	return newEl;
+};
+
+BYUScriptGen.prototype.appendChildren = function(newEl, args) {
+	if(arguments[0])
+		newEl.id = args[0];
+	for (var i = 1; i < args.length; i++) {
+		if(typeof args[i] == "string") {
+			newEl.appendChild(document.createTextNode(args[i]));
+		} else
+			newEl.appendChild(args[i]);
+	}
+     return newEl
+}
+
+BYUScriptGen.prototype.newA = function(url, body) {
+	var a = document.createElement("a");
+	a.href = url;
+	a.appendChild(document.createTextNode(body));
+	a.target = "_base";
+	return a;
+}
+
+BYUScriptGen.prototype.createForm = function(doc) {
+    var REQUIRED = '<span style="font-weight:bold;color:red">*</span> ';
+	function br() {
+		return document.createElement("br");
+	}
+	function newHeaderRow(text) {
+		var headertr = document.createElement("tr");
+		var headerth = document.createElement("th");
+		headerth.colSpan = 2;
+		headerth.appendChild(document.createTextNode(text));
+		headertr.appendChild(headerth);
+		return headertr;
+	}
+
+	var newEl;
+	form = document.createElement("form");
+	var table = document.createElement("table");
+	form.appendChild(table);
+	table.appendChild(newHeaderRow("Parameters"));
+
+//	this.inputs.single_node = this.newCheckbox({checked:1});
+  	this.inputs.job_script_template = this.newSelect({options:[["standard","standard"], ["rstudio-server", "RStudio Server"]]});
+  	this.inputs.node_type = this.newSelect({options:[["standard","standard"], ["large-memory", "large-memory"]]});
+  	this.inputs.nodes = this.newInput({value:1, size:2, maxLength:2});
+	this.inputs.ncores_per_node = this.newInput({value:1, size:3, maxLength:3});
+	this.inputs.num_gpus = this.newInput({value:0, size:4});
+	this.inputs.mem_per_node = this.newInput({size:7, maxLength:7});
+	this.inputs.mem_units = this.newSelect({options:[["GB", "GB"],["MB", "MB"]]});
+	var memGr = this.newGroup("mem-group", this.inputs.mem_per_node, this.inputs.mem_units);
+	this.inputs.wallhours = this.newInput({value:"00", size:2, maxLength:2, id:"wall-hours"});
+	this.inputs.wallmins = this.newInput({value:"00", size:2, maxLength:2, id:"wall-mins"});
+	this.inputs.wallsecs = this.newInput({value:"00", size:2, maxLength:2, id:"wall-secs"});
+	var wallhoursGr = this.newGroup(null, this.newLabel({for:"wall-hours", inner:"Hours"}), this.inputs.wallhours);
+	var wallminsGr = this.newGroup(null, this.newLabel({for:"wall-mins", inner:"Minutes"}), this.inputs.wallmins);
+	var wallsecsGr = this.newGroup(null, this.newLabel({for:"wall-secs", inner:"Seconds"}), this.inputs.wallsecs);
+	this.inputs.is_test = this.newCheckbox({checked:0});
+	this.inputs.is_preemptable = this.newCheckbox({checked:0, toggle:"is_requeueable"});
+
+	this.inputs.is_requeueable = this.newCheckbox({checked:0});
+	this.inputs.in_group = this.newCheckbox({checked:0, toggle:"group_name"});
+	this.inputs.group_name = this.newInput({value:"MYGROUPNAME"});
+	this.inputs.need_licenses = this.newCheckbox({checked:0, toggle:"licenses"});
+
+	this.inputs.lic0_name = this.newInput({});
+	this.inputs.lic0_count = this.newInput({size:3, maxLength:4});
+	this.inputs.lic1_name = this.newInput({});
+	this.inputs.lic1_count = this.newInput({size:3, maxLength:4});
+	this.inputs.lic2_name = this.newInput({});
+	this.inputs.lic2_count = this.newInput({size:3, maxLength:4});
+	this.inputs.job_name = this.newInput({});
+	this.inputs.email_begin = this.newCheckbox({checked:0, id:"email-begin"});
+	this.inputs.email_end = this.newCheckbox({checked:0, id:"email-end"});
+	this.inputs.email_abort = this.newCheckbox({checked:0, id:"email-abort"});
+	var email_beginGr = this.newGroup(null, this.inputs.email_begin, this.newLabel({for:"email-begin", inner:"BEGIN"}));
+	var email_endGr = this.newGroup(null, this.inputs.email_end, this.newLabel({for:"email-end", inner:"END"}));
+	var email_abortGr = this.newGroup(null, this.inputs.email_abort, this.newLabel({for:"email-abort", inner:"ABORT"}));
+	this.inputs.email_address = this.newInput({value:this.settings.defaults.email_address,size: this.settings.defaults.email_address.length+10});
+	this.inputs.email_address.placeholder = "EMAIL";
+	this.inputs.job_output = this.newInput({});
+	this.inputs.job_error = this.newInput({});
+
+	table.appendChild(this.returnNewRow("byu_sg_row_job_script_template", REQUIRED + "<b>Job Script Template</b>:<br /><i><u>normal</u> - Run any command-line application <br /><u>RStudio Server</u> - Run RStudio Server on a compute node", this.newSpan(null, this.inputs.job_script_template)));
+	table.appendChild(this.returnNewRow("byu_sg_row_node_type", REQUIRED + "<b>Compute node type</b>:<br /><i><u>standard</u> - max 20 cores, 125GB / 128000MB memory<br /><u>large-memory</u> - max 60 cores, 1494 GB / 1530000 MB memory</i>", this.newSpan(null, this.inputs.node_type)));
+	table.appendChild(this.returnNewRow("byu_sg_row_nodes", REQUIRED + "<b>Number of compute nodes</b>:<br /><i>Use 1 unless running a distributed-memory parallel application (e.g., Maker)<br />Limits: 57 standard, 5 large-memory</i>", this.inputs.nodes));
+	table.appendChild(this.returnNewRow("byu_sg_row_numcores", REQUIRED + "<b>Number of processor cores per node</b>:<br /><i>Limited to 20 per regular node, 60 per large-memory node.<br />Each processor core can simultaneously execute 2 application threads.</i>", this.inputs.ncores_per_node));
+//	table.appendChild(this.returnNewRow("byu_sg_row_numgpus", "Number of GPUs: ", this.inputs.num_gpus));
+			  table.appendChild(this.returnNewRow("byu_sg_row_walltime", REQUIRED + "<b>Walltime limit</b>:<br /><i>Maximum time the job may run. Shorter jobs may start running sooner.<i>", this.newSpan(null, wallhoursGr, " : " , wallminsGr, " : ", wallsecsGr)));
+	table.appendChild(this.returnNewRow("byu_sg_row_mempercore", "<b>Max memory per compute node</b> (1 GB == 1024 MB):<br /><i>Default memory depends on the compute node type:<br /><u>standard</u>: 6400 MB per processor core requested<br /><u>large-memory</u>: 25500 MB per processor core requested</i>", this.newSpan(null, memGr)));
+//	table.appendChild(this.returnNewRow("byu_sg_row_testjob", "Job is a <b>test</b> job: ", this.inputs.is_test));
+//	table.appendChild(this.returnNewRow("byu_sg_row_preemptable", "Job is preemptable: ", this.inputs.is_preemptable));
+	table.appendChild(this.formrows["is_requeueable"] = this.returnNewRow("byu_sg_row_requeueable", "Job is requeueable: ", this.inputs.is_requeueable));
+	this.formrows["is_requeueable"].style.display = "none";
+// TODO: may need something like this for Project ID
+//	table.appendChild(this.returnNewRow("byu_sg_row_fsgroup", "I am in a file sharing group and my group members need <br/>to read/modify my output files: ", this.inputs.in_group));
+	table.appendChild(this.formrows["group_name"] = this.returnNewRow("byu_sg_row_fsgroupname", "Group name (case sensitive): ", this.inputs.group_name));
+	this.formrows["group_name"].style.display = "none";
+//	table.appendChild(this.returnNewRow("byu_sg_row_needlicenses", "Need licenses? ", this.inputs.need_licenses));
+	table.appendChild(this.formrows["licenses"] = this.returnNewRow("byu_sg_row_licenses",
+					"Licenses: ", this.newSpan(	null,
+									"Name ", this.inputs.lic0_name, " Count ", this.inputs.lic0_count, br(),
+									"Name ", this.inputs.lic1_name, " Count ", this.inputs.lic1_count, br(),
+									"Name ", this.inputs.lic2_name, " Count ", this.inputs.lic2_count
+								)
+					)
+	);
+	this.formrows["licenses"].style.display = "none";
+	table.appendChild(this.returnNewRow("byu_sg_row_jobname", "<b>Job name</b>:<br /><i>Default is the job script name. Displayed by the <b>squeue</b> command.</i>", this.inputs.job_name));
+	table.appendChild(this.returnNewRow("byu_sg_row_emailevents", "<b>Receive email for job events</b>:<br /><i>BEGIN: when job starts, END: when job ends, FAIL: if job fails</i>", 
+				this.newSpan(	null,
+						email_beginGr,
+						email_endGr,
+						email_abortGr,
+                        			this.inputs.email_address
+					    )
+			 )
+	);
+	table.appendChild(this.returnNewRow("byu_sg_row_output", "<b>Job standard output file</b>:<br /><i>Default is \"slurm-%j.out\", where %j is the job ID.</i>", this.inputs.job_output));
+	table.appendChild(this.returnNewRow("byu_sg_row_output", "<b>Job standard error file</b>:<br /><i>Default is same file as the job standard output file.</i>", this.inputs.job_error));
+
+	this.inputs.features = [];
+	if(this.settings.features.show) {
+		var features_span = this.newSpan("byu_sg_input_features");
+		for(var i in this.settings.features.names) {
+			var new_checkbox = this.newCheckbox({checked:0});
+			new_checkbox.feature_name = this.settings.features.names[i];
+			this.inputs.features.push(new_checkbox);
+			var url = this.newA(this.settings.features.info_base_url + this.settings.features.names[i], "?");
+			var feature_container = this.newSpan(null);
+			feature_container.className = "byu_sg_input_feature_container";
+			var name_span = this.newSpan("byu_sg_input_feature_" + new_checkbox.feature_name, new_checkbox, this.settings.features.names[i] + " [", url, "]");
+			name_span.className = "byu_sg_input_feature_name";
+			feature_container.appendChild(name_span);
+			if(this.settings.features_status && this.settings.features_status[this.settings.features.names[i]]) {
+				var feature_status = this.settings.features_status[this.settings.features.names[i]];
+				feature_container.appendChild(
+					this.newSpan(	null,
+							"Nodes avail: ",
+							feature_status.nodes_free + "/" + feature_status.nodes_total,
+							br(),
+							"Cores avail: ",
+							feature_status.cores_free + "/" + feature_status.cores_total
+					)
+				);
+			}
+			features_span.appendChild(feature_container);
+		}
+		table.appendChild(this.returnNewRow("byu_sg_input_features", "Features: ", features_span));
+	}
+
+	this.inputs.partitions = [];
+	if(this.settings.partitions.show) {
+		var partitions_span = this.newSpan("byu_sg_input_partitions");
+		for(var i in this.settings.partitions.names) {
+			var new_checkbox = this.newCheckbox({checked:0});
+			new_checkbox.partition_name = this.settings.partitions.names[i];
+			this.inputs.partitions.push(new_checkbox);
+			var url = this.newA(this.settings.partitions.info_base_url + this.settings.partitions.names[i], "?");
+			var partition_container = this.newSpan(null);
+			partition_container.className = "byu_sg_input_partition_container";
+			var name_span = this.newSpan("byu_sg_input_partition_" + new_checkbox.partition_name, new_checkbox, this.settings.partitions.names[i] + " [", url, "]");
+			name_span.className = "byu_sg_input_partition_name";
+			partition_container.appendChild(name_span);
+			if(this.settings.partitions_status && this.settings.partitions_status[this.settings.partitions.names[i]]) {
+				var partition_status = this.settings.partitions_status[this.settings.partitions.names[i]];
+				partition_container.appendChild(
+					this.newSpan(	null,
+							"Nodes avail: ",
+							partition_status.nodes_free + "/" + partition_status.nodes_total,
+							br(),
+							"Cores avail: ",
+							partition_status.cores_free + "/" + partition_status.cores_total
+					)
+				);
+			}
+			partitions_span.appendChild(partition_container);
+		}
+		table.appendChild(this.returnNewRow("byu_sg_input_partitions", "Partitions: ", partitions_span));
+	}
+	
+	return form;
+
+}; /* end createForm() */
+
+BYUScriptGen.prototype.retrieveValues = function() {
+    
+    var MIN_MEMORY = 64; // arbitrary minimum memory amount to avoid, e.g.,
+                         // users accidentally requesting MB when they mean GB
+// 2018/02/21 current ceres partitions
+    var max_memory = {
+        mem:     1530000,
+        longmem: 1530000,
+        short:   128000,
+        medium:  128000,
+        long:    128000,
+        debug:   128000
+    };
+    var max_proc_per_node = {
+        mem:     60,
+        longmem: 60,
+        short:   20,
+        medium:  20,
+        long:    20,
+        debug:   20
+    };
+    var max_nodes = {
+        mem:     5,
+        longmem: 1,
+        short:   57,
+        medium:  20,
+        long:    10,
+        debug:   1
+    }
+    var max_walltime_in_seconds = {
+        mem:     21*24*60*60,         // 21 days
+        longmem: 41*24*60*60+16*60*60, // 1000 hours
+        short:   2*24*60*60,           // 48 hours
+        medium:  7*24*60*60,           // 7 days
+        long:    21*24*60*60,          // 21 days
+        debug:   60*60                 // 1 hour
+
+    }
+	var partition, jobnotes = [];
+	this.values.MB_per_node = Math.round(this.inputs.mem_per_node.value * (this.inputs.mem_units.value =="GB" ? 1024 : 1));
+
+	this.values.features = [];
+	for(var i in this.inputs.features) {
+		if(this.inputs.features[i].checked){
+			this.values.features.push(this.inputs.features[i].feature_name);
+		} else {
+		}
+	}
+
+	this.values.partitions = [];
+
+	this.values.is_test = this.inputs.is_test.checked;
+	this.values.is_preemptable = this.inputs.is_preemptable.checked;
+	this.values.is_requeueable = this.inputs.is_requeueable && this.inputs.is_requeueable.checked;
+	this.values.walltime_in_seconds = Number(this.inputs.wallhours.value) * 3600 + Number(this.inputs.wallmins.value) * 60 + Number(this.inputs.wallsecs.value);
+	this.values.ncores_per_node = this.inputs.ncores_per_node.value;
+//	if(this.inputs.single_node.checked)
+//		this.values.nodes = 1;
+    this.values.job_script_template = this.inputs.job_script_template.value;
+    this.values.node_type = this.inputs.node_type.value;
+    this.values.nodes = this.inputs.nodes.value;
+	this.values.gpus = this.inputs.num_gpus.value
+	this.values.job_name = this.inputs.job_name.value;
+	this.values.sendemail = {};
+	this.values.sendemail.begin = this.inputs.email_begin.checked;
+	this.values.sendemail.end = this.inputs.email_end.checked;
+	this.values.sendemail.abort = this.inputs.email_abort.checked;
+	this.values.email_address = this.inputs.email_address.value;
+	this.values.job_output = this.inputs.job_output.value;
+	this.values.job_error = this.inputs.job_error.value;
+
+    // select partition with the shortest wall time limit that will satisfy the request
+    if (this.values.node_type == "large-memory") {
+        if (this.values.walltime_in_seconds > max_walltime_in_seconds["longmem"])
+		    jobnotes.push("ERROR: wall time exceeds maximum (1000:00:00) for \"longmem\" partition");
+        if (this.values.walltime_in_seconds > max_walltime_in_seconds["mem"])
+            partition = "longmem";
+        else
+            partition = "mem";
+    } else {
+        if (this.values.walltime_in_seconds <= max_walltime_in_seconds["short"])
+            partition = "short";
+        else if (this.values.walltime_in_seconds <= max_walltime_in_seconds["medium"])
+            partition = "medium";
+        else if (this.values.walltime_in_seconds <= max_walltime_in_seconds["long"])
+            partition = "long";
+        else
+		    jobnotes.push("ERROR: wall time exceeds maximum (504:00:00) for \"long\" partition");
+    }
+
+	/* Add warnings, etc. to jobnotes array */
+    if (!(this.values.nodes >= 1))
+		jobnotes.push("ERROR: number of compute nodes must be >= 1");
+    if (!(this.values.MB_per_node == 0 || this.values.MB_per_node >= MIN_MEMORY))
+		jobnotes.push("ERROR: if default memory is not specified, the amount of memory requested must be >= " + MIN_MEMORY + " MB");
+    if (this.values.nodes > max_nodes[partition])
+		jobnotes.push("ERROR: maximum compute nodes in \"" + partition + "\" partition is " + max_nodes[partition]);
+	if(this.values.MB_per_node > max_memory[partition])
+		jobnotes.push("ERROR: maximum memory on " + this.values.node_type + " node is " + max_memory[partition] + " MB (" + max_memory[partition] / 1024 + " GB)");
+    if(this.values.ncores_per_node > max_proc_per_node[partition])
+        jobnotes.push("ERROR: requested number of processor cores per node (" + this.values.ncores_per_node + ") exceeds the maximum number of cores on " + this.values.node_type + " compute node(s) (" + max_proc_per_node[partition] + ")"); 
+    if (this.values.node_type == "large-memory" && this.values.MB_per_node <= max_memory["short"] && this.values.ncores_per_node <= max_proc_per_node["short"] && this.values.walltime_in_seconds <= 21*24*60*60)
+        jobnotes.push("WARNING: this job can run on a standard compute node(s). Consider using compute node type \"standard\"");
+    if (this.values.walltime_in_seconds <= 0)
+        jobnotes.push("ERROR: walltime limit must be > 00:00:00");
+
+    // rudimentary email validation
+    // source: http://stackoverflow.com/questions/46155/validate-email-address-in-javascript
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    if ((this.values.sendemail.begin || this.values.sendemail.end || this.values.sendemail.abort)
+        && (this.inputs.email_address.value == this.settings.defaults.email_address
+            || ! re.test(this.values.email_address)))
+        jobnotes.push("ERROR: please enter a valid email address");
+
+    // basic filename validation
+    var re_filename = /^[A-Za-z0-9._%-]+$/; // enforce POSIX portable file name character set + "%"
+    if (this.values.job_output.length && !re_filename.test(this.values.job_output))
+        jobnotes.push("ERROR: please enter job standard output filename containing only the characters [A-Za-z0-9._%-]");
+    if (this.values.job_error.length && !re_filename.test(this.values.job_error))
+        jobnotes.push("ERROR: please enter job standard error filename containing only the characters [A-Za-z0-9._%-]");
+
+    this.values.partitions[0] = partition;
+	this.jobNotesDiv.innerHTML = jobnotes.join("<br/>\n");
+};
+
+BYUScriptGen.prototype.generateScriptPBS = function () {
+	this.retrieveValues();
+
+	var scr = "#!/bin/bash\n\n#Submit this script with: qsub thefilename\n\n";
+	var walltime = "walltime=" + this.inputs.wallhours.value + ":" + this.inputs.wallmins.value + ":" + this.inputs.wallsecs.value;
+	var procs = "procs=" + this.values.ntasks_per_node;
+
+	if(this.inputs.single_node.checked)
+		procs = "nodes=1:ppn=" + this.values.ntasks_per_node;
+
+	if(this.inputs.num_gpus.value > 0)
+		procs += ":gpus=" + this.inputs.num_gpus.value;
+	var features = "";
+
+	if(this.values.features.length > 0)
+		features = ",feature='" + this.values.features.join(",") + "'";
+	var qos = "";
+
+	if(this.inputs.is_preemptable.checked)
+		qos = ",qos=" + this.settings.qos.preemptable;
+	else if(this.inputs.is_test.checked)
+		qos = ",qos=" + this.settings.qos.test;
+	scr += "#PBS -l " + procs + features + ",pmem=" + this.inputs.mem_per_node.value + this.inputs.mem_units.value + "," + walltime + qos + "\n";
+
+	if(this.values.partitions.length > 0)
+		scr += "#PBS -q " + this.values.partitions[0] + "\n";
+	
+	if(this.inputs.job_name.value != "") {
+		scr += "#PBS -N " + this.inputs.job_name.value + "\n";
+	}
+	if(this.inputs.need_licenses.checked) {
+		var lics = new Array();
+		var show_lics = 0;
+		if(this.inputs.lic0_name.value != "" && this.inputs.lic0_count.value > 0) {
+			lics.push(this.inputs.lic0_name.value + "+" + this.inputs.lic0_count.value);
+			show_lics = 1;
+		}
+		if(this.inputs.lic1_name.value != "" && this.inputs.lic1_count.value > 0) {
+			lics.push(this.inputs.lic1_name.value + "+" + this.inputs.lic1_count.value);
+			show_lics = 1;
+		}
+		if(this.inputs.lic2_name.value != "" && this.inputs.lic2_count.value > 0) {
+			lics.push(this.inputs.lic2_name.value + "+" + this.inputs.lic2_count.value);
+			show_lics = 1;
+		}
+		if(show_lics)
+			scr += "#PBS -W x=GRES:" + lics.join("%") + "   #format: lic1_name+lic1_count%lic2_name+lic2_count\n";
+	}
+
+	if(this.inputs.email_begin.checked || this.inputs.email_end.checked || this.inputs.email_abort.checked) {
+		var emailletters = [];
+		if(this.inputs.email_begin.checked)
+			emailletters.push("b");
+		if(this.inputs.email_end.checked)
+			emailletters.push("e");
+		if(this.inputs.email_abort.checked)
+			emailletters.push("a");
+		scr += "#PBS -m " + emailletters.join("") + "\n";
+		scr += "#PBS -M " + this.inputs.email_address.value + "\n";
+		if(this.inputs.email_address.value == this.settings.defaults.email_address)
+			scr += "echo \"$USER: Please change the -M option to your real email address before submitting. Then remove this line.\"; exit 1\n";
+	}
+
+	var requeueable = this.inputs.is_requeueable.checked ? "#PBS -r y    # Job can be requeued if it is preempted\n" : "";
+	scr += requeueable;
+
+	if(this.inputs.in_group.checked) {
+		scr += "\n# Set the output permissions on the .oJOBID and .eJOBID files to be 0660 (owner and group can read/write but not others)\n";
+		scr += "#PBS -W umask=0007\n";
+		scr += "\n# Set the group ownership on the .oJOBID and .eJOBID files to be '" + this.inputs.group_name.value +"'\n";
+		scr += "#PBS -W group_list=" + this.inputs.group_name.value + "\n";
+		scr += "\n# Set the output permissions on files written from my script to be 0660 and directories to be 0770 (owner and group can read/write but not others)\n";
+		scr += "umask 0007\n";
+	}
+	scr += "\n# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE\n";
+
+	return scr;
+};
+
+
+BYUScriptGen.prototype.generateScriptSLURM = function () {
+	var pbscompat = true;
+	var pmemmb;
+	var procs;
+	var features = "";
+
+    // don't display the job script if there was an error
+    if (this.jobNotesDiv.innerHTML.startsWith("ERROR"))
+        return '';
+
+	var scr = "#!/bin/bash\n\n";
+    if (this.values.job_script_template == "rstudio-server") {
+        scr += "# Copy/paste this job script into a text file called rstudio.job and submit with the command:\n"
+             + "#    sbatch rstudio.job\n"
+             + "# RStudio login information will go to the file $HOME/rstudio-%j.out (where %j is the SLURM job ID)\n";
+    }
+    else {
+        "# Copy/paste this job script into a text file and submit with the command:\n#    sbatch thefilename\n";
+        if (!this.values.job_output.length)
+            scr += "# job standard output will go to the file slurm-%j.out (where %j is the job ID)\n";
+    }
+    scr += "\n";
+	var sbatch = function sbatch(txt) {
+		scr += "#SBATCH " + txt + "\n";
+	};
+	
+	sbatch("--time=" + this.inputs.wallhours.value + ":" + this.inputs.wallmins.value + ":" + this.inputs.wallsecs.value + "   # walltime limit (HH:MM:SS)");
+	
+	var procs;
+	sbatch("--nodes=" + this.values.nodes + "   # number of nodes");
+	sbatch("--ntasks-per-node=" + 2 * this.values.ncores_per_node + "   # " + this.values.ncores_per_node + " processor core(s) per node X 2 threads per core");
+
+	if(this.inputs.mem_per_node.value > 0) {
+	    sbatch("--mem=" + this.inputs.mem_per_node.value + this.inputs.mem_units.value.substr(0,1) + "   # maximum memory per node");
+    }
+
+//	if(this.inputs.single_node.checked) {
+//		sbatch("--nodes=1   # number of nodes");
+//	}
+
+	if(this.inputs.num_gpus.value > 0) {
+		sbatch("--gres=gpu:" + this.inputs.num_gpus.value);
+	}
+
+	if(this.values.features.length > 0) {
+		var features = this.values.features.join("&");
+		sbatch("-C '" + features + "'   # features syntax (use quotes): -C 'a&b&c&d'");
+	}
+    sbatch("--partition=" + this.values.partitions[0] + "    # " + this.values.node_type + " node(s)");
+
+	if(this.inputs.job_name.value && this.inputs.job_name.value != "") {
+		sbatch("--job-name=\"" + this.inputs.job_name.value + "\"");
+	}
+	
+	if(this.inputs.email_begin.checked || this.inputs.email_end.checked || this.inputs.email_abort.checked) {
+		sbatch("--mail-user=" + this.values.email_address + "   # email address");
+		if(this.inputs.email_begin.checked)
+			sbatch("--mail-type=BEGIN");
+		if(this.inputs.email_end.checked)
+			sbatch("--mail-type=END");
+		if(this.inputs.email_abort.checked)
+			sbatch("--mail-type=FAIL");
+	}
+
+    if (this.values.job_script_template == "rstudio-server")
+        sbatch("--output=/home/%u/rstudio-%j.out"); // hard-code home directory for security
+    else if(this.values.job_output.length)
+        if (this.values.job_error.length)
+            sbatch("--output=\"" + this.values.job_output + "\" # job standard output file (%j replaced by job id)");
+        else
+            sbatch("--output=\"" + this.values.job_output + "\" # job standard output and standard error file (%j replaced by job id)");
+    if(this.values.job_error.length)
+        sbatch("--error=\"" + this.values.job_error + "\" # job standard error file (%j replaced by job id)");
+	if(this.inputs.is_preemptable.checked)
+		sbatch("--qos=" + this.settings.qos.preemptable);
+	else if(this.inputs.is_test.checked)
+		sbatch("--qos=" + this.settings.qos.test);
+	if(this.inputs.is_requeueable.checked)
+		sbatch("--requeue   #requeue when preempted and on node failure");
+	if(this.inputs.need_licenses.checked) {
+		var lics = new Array();
+		var show_lics = 0;
+		if(this.inputs.lic0_name.value != "" && this.inputs.lic0_count.value > 0) {
+			lics.push(this.inputs.lic0_name.value + ":" + this.inputs.lic0_count.value);
+			show_lics = 1;
+		}
+		if(this.inputs.lic1_name.value != "" && this.inputs.lic1_count.value > 0) {
+			lics.push(this.inputs.lic1_name.value + ":" + this.inputs.lic1_count.value);
+			show_lics = 1;
+		}
+		if(this.inputs.lic2_name.value != "" && this.inputs.lic2_count.value > 0) {
+			lics.push(this.inputs.lic2_name.value + ":" + this.inputs.lic2_count.value);
+			show_lics = 1;
+		}
+		if(show_lics)
+			sbatch("--licenses=" + lics.join(",") + "   #format: lic1_name:lic1_count,lic2_name:lic2_count");
+	}
+	if(this.inputs.in_group.checked) {
+		sbatch("--gid=" + this.inputs.group_name.value);
+	}
+
+    if (this.values.job_script_template == "rstudio-server") {
+		sbatch("--signal=USR2");
+        scr += `
+set -o errexit -o nounset
+export PASSWORD=$(openssl rand -base64 15)
+# get unused socket per https://unix.stackexchange.com/a/132524
+# tiny race condition between the python & singularity commands
+readonly PORT=$(python -c 'import socket; s=socket.socket(); s.bind(("", 0)); print(s.getsockname()[1]); s.close()')
+cat 1>&2 &lt;&lt;END
+VPN Users:
+
+1. Connect to SCINet VPN and point your web browser to http://\${HOSTNAME}:\${PORT}
+
+2. log in to RStudio Server using the following credentials:
+
+   user: \${USER}
+   password: \${PASSWORD}
+
+SSH users:
+
+1. SSH tunnel from your workstation using the following command (macOS or Linux only;
+   for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
+
+   ssh -N -L 8787:\${HOSTNAME}:\${PORT} \${USER}@login.scinet.science
+
+   and point your web browser to http://localhost:8787
+
+2. log in to RStudio Server using the following credentials:
+
+   user: \${USER}
+   password: \${PASSWORD}
+
+When done using RStudio Server, terminate the job by:
+
+1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
+2. On the Ceres command line, issue the command
+   
+      scancel -f \${SLURM_JOB_ID}
+END
+
+if [ ! -e \${HOME}/.Renviron ]
+then
+  printf '\\nNOTE: creating ~/.Renviron file\\n\\n'
+  echo 'R_LIBS_USER=~/R/%p-library/%v' >> \${HOME}/.Renviron
+fi
+
+singularity exec --bind $TMPDIR:/tmp \\
+    /reference/containers/RStudio/3.5.0/rocker-geospatial.simg \\
+    rserver --www-port \${PORT} --auth-none 0 --auth-pam-helper-path=pam-helper
+
+printf 'RStudio Server terminated' 1>&2
+`;
+    } else
+	    scr += "\n# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE\n";
+
+	return scr;
+};
+
+function stackTrace() {
+    var err = new Error();
+    return err.stack;
+}
+
+BYUScriptGen.prototype.updateJobscript = function() {
+	this.retrieveValues();
+	this.toJobScript();
+	return;
+};
+
+BYUScriptGen.prototype.init = function() {
+	this.inputDiv = document.createElement("div");
+	this.inputDiv.id = "byu_sg_input_container";
+	this.containerDiv.appendChild(this.inputDiv);
+
+	var scriptHeader = document.createElement("h1");
+	scriptHeader.id = "byu_sg_script_header";
+	scriptHeader.appendChild(document.createTextNode("Job Script"));
+	this.containerDiv.appendChild(scriptHeader);
+
+	this.scriptFormatSelectorDiv = document.createElement("div");
+	this.scriptFormatSelectorDiv.id = "byu_sg_script_format_selector_container";
+//	this.script_format_selector = this.newSelect({ options : this.settings.script_formats });
+//	this.script_format_selector.id = "byu_sg_script_format_selector";
+//	this.containerDiv.appendChild(this.newSpan("byu_sg_script_format_selector_container", "Script format:", this.script_format_selector));
+
+	this.form = this.createForm();
+	this.inputDiv.appendChild(this.form);
+
+	this.jobNotesDiv = document.createElement("div");
+	this.jobNotesDiv.id = "byu_sg_jobnotes";
+	this.containerDiv.appendChild(this.jobNotesDiv);
+
+	this.jobScriptDiv = document.createElement("div");
+	this.jobScriptDiv.id = "byu_sg_jobscript";
+	this.containerDiv.appendChild(this.jobScriptDiv);
+
+	this.updateJobscript();
+};
+
+BYUScriptGen.prototype.toJobScript = function() {
+	var schedformat = "slurm"; //byu_sg_script_format_selector.options[byu_sg_script_format_selector.selectedIndex].value;
+	var scr;
+	switch(schedformat) {
+		case "slurm" :
+			scr = this.generateScriptSLURM();
+			break;
+		case "pbs" :
+			scr = this.generateScriptPBS();
+			break;
+	}
+	this.jobScriptDiv.innerHTML = "<pre>" + scr + "</pre>";
+};
+
+var byu_script_gen = new BYUScriptGen(document.getElementById("BYUJobScriptGenerator"));
+byu_script_gen.init();
+</script>
+</body>
+</html>

@@ -80,6 +80,7 @@ $image-path: '../uswds/img';
 @import 'uswds/all';
 @import 'components/all';
 @import 'zenburn';
+@import 'byuscriptgen';
 
 {% for item in site.data.navigation.primary %}
   {% if item.class %}
