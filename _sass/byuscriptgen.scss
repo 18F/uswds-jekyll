@@ -1,0 +1,26 @@
+// scss-lint:disable QualifyingElement, PropertyCount
+
+.byu-group {
+	display: inline-block;
+	width: 30%;
+}
+
+.byu-group label {
+	margin-top: 0;
+}
+
+#mem-group {
+	width: 100%;
+}
+
+#mem-group input {
+	width: 75%;
+	float: left;
+}
+
+#mem-group select {
+	width: 25%;
+	float: left;
+}
+
+
