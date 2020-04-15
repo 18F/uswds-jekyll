@@ -52,6 +52,8 @@ primary:
     href: /working-groups
   - text: Training
     links:
+      - text: Overview
+        href: /training/
       - text: ARS Science Tutorials
         href: /training/tutorials/
       - text: Free Online Training
