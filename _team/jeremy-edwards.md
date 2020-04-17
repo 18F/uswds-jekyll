@@ -1,6 +1,6 @@
 ---
 name: Jeremy Edwards
-image: /assets/img/team-images/team-placeholder-300-300.jpg
+image: /assets/img/team-images/jeremy-edwards-300-300.jpg
 position: SEA SAC Member, Research Geneticist (Plants)
 page-position: 5
 ---
