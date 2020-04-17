@@ -148,5 +148,5 @@ The default job resources (4 hour time limit, 1 processor core, 6600 MB memory) 
 sbatch --time=08:00:00 --mem=16G --cpus-per-task=4 /reference/containers/RStudio/3.5.0/rstudio.job
 ```
 * Copying the job script to a directory one has write access to and modifying the appropriate SLURM #SBATCH directives.
-* Using the [Ceres Job Script Generator](http://go.usa.gov/x9fH7) (eAuthentication required) to create a new job RStudio Server job script
+* Using the [Ceres Job Script Generator](/support/ceres-job-script) to create a new job RStudio Server job script
   * In the **Job Script Template** drop down menu, select RStudio Server
