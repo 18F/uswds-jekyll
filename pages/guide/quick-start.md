@@ -186,21 +186,21 @@ We recommend using Globus Online to transfer data to and from Ceres cluster. It 
 
 ## Small Data Transfers
 
-While Globus is faster, you can also transfer data from your local machine to Ceres using the scp command (the destination filenames are optional).
+While Globus is faster, you can also transfer data from your local machine to Ceres using the scp command (the destination filenames are optional). It is recommended to transfer large files into your project directory (due to the limited space of home directories). Smaller files can be transferred to/from your home directory by replacing  `/project/yourproject`  in the examples below with  `~`
 
-Transfer a file to SCINet:
+Transfer a file to your SCINet project directory:
 ```bash
-scp my.fasta sally.doe@ceres-dtn-1.scinet.science:/project/yourproject
+scp yourfile sally.doe@ceres-dtn-1.scinet.science:/project/yourproject
 ```
 
-Transfer a file from SCINet:
+Transfer a file from your SCINet project directory:
 ```bash
-scp sally.doe@ceres-dtn-1.scinet.science :/project/yourproject/my.fasta .
+scp sally.doe@ceres-dtn-1.scinet.science:/project/yourproject/yourfile .
 ```
 
 To transfer an entire directory, you can use the -r option with any one of the above commands and specify a directory to transfer.  All of the files in that directory will get transferred, for example:
 ```bash
-scp -r sequence_files sally.doe@ceres-dtn-1.scinet.science :/project/yourproject
+scp -r sequence_files sally.doe@ceres-dtn-1.scinet.science:/project/yourproject
 ```
 
 You can view the full set of options and their descriptions by typing `man scp`
