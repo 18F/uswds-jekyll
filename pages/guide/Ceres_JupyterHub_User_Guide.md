@@ -35,20 +35,19 @@ layout: page
    [Extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)<br><br><br>
 
   ## Why Jupyter
-
-  The Jupyter software stack is popular amoung data scientiests and researches ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because:
+  Jupyter is popular amoung data scientiests and researchers ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because it offers:
   * Interactive data exploration features
-  * Browser based IDE (easy to work on remote systems such as HPC and Cloud)
-  * Language agnostics (supports >130 kernels)
-  * Easy to convert analyses and results into sharable formats ([nbconvert](https://nbconvert.readthedocs.io/en/latest/)) such as slides, html, pdf, latex, etc...
-  * Easy to share, collaborate, and archive analyses and results
-  * Broad software stack that inter-operates with other Open Source projects
+  * A browser based user interface, making it easy to work on remote systems such as HPC and Cloud
+  * Language agnostic (supports >130 kernels)
+  * Easy ways to convert analyses and results into shareable formats ([nbconvert](https://nbconvert.readthedocs.io/en/latest/)) such as slides, html, pdf, latex, etc.
+  * Ease of sharing, collaborating, and archiving analyses and results
+  * A broad software stack that works with other Open Source projects, such as:
     * [My Binder]()
     * [repo2docker](https://github.com/jupyter/repo2docker)
     * GitHub (renders notebooks)
     * Access and authentication to arbitrary external processes (such as RStudio Server, Shiny Server, PostgreSQL, etc) via [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/).
-  * Customizable and Extensible
-  * Open Source
+  * Customizability and Extensibility
+  * An Open Source code base
  
 ---
 # Launching Jupyter
