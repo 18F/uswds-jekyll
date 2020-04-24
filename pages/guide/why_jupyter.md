@@ -10,23 +10,25 @@ In a nutshell, Jupyter is a tool that allows you to interactively run and visual
 
 ### What can it be used for?
 
-For example, you might be interested in plotting some climate data across a few years in a given region.  Jupyter will allow you to import your data, filter and transform the data, run some stats analyses on it, and plot your results all in one place. 
+It is probably most often used as a way to rapidly and reliably perform data science operations. For example, you might be interested in plotting some climate data across a few years in a given region.  Jupyter will allow you to import your data, filter and transform the data, run some stats analyses on it, and plot your results all in one place. 
 
 ## Why Jupyter?
 
 ### It's easy to use
 
-Jupyter is a lab notebook, a version control system, a development environment, and a visualization tool all in one.  This makes it a one-stop shop for all your scientific computing needs. It works in your browser, so there's no need to install confusing software packages on your machine. It has a simple and easy user interface.
+Jupyter is a lab notebook, a version control system, a development environment, and a visualization tool all in one.  This makes it a one-stop shop for all your scientific computing needs. It works in your browser, so there's no need to install confusing software packages on your machine. It has a simple and easy user interface, especially with the newer Jupyter Lab interface.
 
 ### You can try out code and inspect the results in real time
 
-One of the major challenges with scientific computing and data science is tweaking and editing code to make sure that every step of your data collection and analysis is working correctly.  Often, you will want to download or collect data, reformat or treat it, and then analyze it.  With Jupyter, you can inspect the results of every intermediate step to ensure that your data analysis pipelines are working correctly.
+One of the major challenges with scientific computing and data science is tweaking and editing code to make sure that every step of your data collection and analysis is working correctly.  Often, you will want to download or collect data, reformat or treat it, and then analyze it.  With Jupyter, you can inspect the results of every intermediate step to ensure that your data analysis pipelines are working correctly:
+
+<img src="https://imgur.com/Z1zEdKO.png" alt="alt text" width="700">
 
 ### It lets you quickly create data visualzations and customize them any way you like
 
 Many Rstudio users might already know the virtues of being able to run code and see the graphical output immediately.  Jupyter brings this capability to almost any language or package you can think of. The traditional R packages can be used natively to create graphics, but Jupyter also allows you to harness the growing power of Python-based data visualization software as well:
 
-<img src="https://i.imgur.com/iPDkphP.png" alt="alt text" width="700">
+<img src="https://i.imgur.com/7vpdxem.png" alt="alt text" width="700">
 
 ## How Jupyter can help you perform more repeatable, clear, and responsible data science
 
