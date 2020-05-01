@@ -14,7 +14,7 @@ The current working groups are:
 * [Geospatial Research Working Group](#geospatial-research-working-group)
 * [Microbiome Working Group](#microbiome-working-group)
 * [SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group](#scinet-longterm-agroecosystem-research-ltar-phenology-working-group)
-* [SCINet Policy Working Group](#scinet-policy-working-group)
+* [SCINet Policy Committee](#scinet-policy-committee)
 * [SCINet Website Developers](#scinet-website-developers)
 * [Workbook Developers](#workbook-developers)
 
@@ -79,7 +79,7 @@ This working group was formed as the result of an August 2019 SCINet-funded work
 
 <br>
 
-## SCINet Policy Working Group
+## SCINet Policy Committee
 
 Since SCINet has now been operational for a few years with many research groups utilizing the HPC environment, effective policies are critically important to successful operations. This committee, formed in 2020 by Deb Peters (ARS CSIO), makes recommendations to the SCINet Executive Committee on policies and procedures that are relevant to SCINet operations. The committee is comprised of members from various technical backgrounds, with representation from different ARS geographic areas. Membership also includes representatives from Iowa State University (ISU) and Mississippi State University (MSU; where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. For more information, including how to participate, please contact Jonathan Shao (chair).
 
