@@ -58,7 +58,7 @@ graphics:
 
 ## Find out how SCINet can enable your Research
 
-Look at our use cases ([plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Advisory counsel representative](/team/) to learn more. You can get the process started by requesting an account right now.
+Look at our use cases ([genomics](/user/genomics), [plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Advisory counsel representative](/team/) to learn more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
 [Get an account](signup){: .usa-button .usa-button-big }
