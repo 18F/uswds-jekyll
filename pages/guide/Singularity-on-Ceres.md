@@ -19,7 +19,7 @@ layout: page
 
 # 1. Introduction
 
-Singularity [https://singularity.lbl.gov](https://singularity.lbl.gov) is an application for running containers on an HPC cluster. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so you don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use, see section [Container Images](#3-container-images).
+Singularity [https://sylabs.io/](https://sylabs.io/) is an application for running containers on an HPC cluster. Containers are self-contained application execution environments that contain all necessary software to run an application or workflow, so you don't need to worry about installing all the dependencies. There are many pre-built container images for scientific applications available for download and use, see section [Container Images](#3-container-images).
 
 
 # 2. Prerequisites
@@ -42,13 +42,15 @@ NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) w
 
 # 3. Container Images
 
-Singularity executes a container from a Singularity container image either created by the user or downloaded from Singularity Hub [https://singularity-hub.org/](https://singularity-hub.org/), and can also import and execute Docker [https://www.docker.com/](https://www.docker.com/) container images, either directly uploaded by the user, or downloaded from Docker Hub [https://hub.docker.com/](https://hub.docker.com/).
+Singularity executes a container from a Singularity container image either created by the user or downloaded from Singularity Library [https://cloud.sylabs.io/library](https://cloud.sylabs.io/library), and can also import and execute Docker [https://www.docker.com/](https://www.docker.com/) container images, either directly uploaded by the user, or downloaded from Docker Hub [https://hub.docker.com/](https://hub.docker.com/).
 
-BioContainers is a "community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute Bioinformatics [Docker] containers with special focus in Proteomics, Genomics, Transcriptomics and Metabolomics." (Note that only BioContainers Docker images hosted on Docker Hub - not the Quay.io registry - are supported in Singularity 2.3). Update: Quay.io images
-are now supported in Singularity.
+BioContainers is a "community-driven project that provides the infrastructure and basic guidelines to create, manage and distribute Bioinformatics [Docker] containers with special focus in Proteomics, Genomics, Transcriptomics and Metabolomics."
 
-Note that the nascent Singularity Hub has relatively few images available, but is expected to grow over time with scientific software and workflows.
+BioContainers can be obtained either via docker [https://hub.docker.com/u/biocontainers/](https://hub.docker.com/u/biocontainers/) or via Quay [https://quay.io/](https://quay.io/)
 
+For leveraging GPU using containers, Nvidia provides a container library NGC. [https://ngc.nvidia.com/catalog/all](https://ngc.nvidia.com/catalog/all) 
+
+> NGC offers a comprehensive catalog of GPU-accelerated software for deep learning, machine learning, and HPC. NGC containers deliver powerful and easy-to-deploy software proven to deliver the fastest results. By taking care of the plumbing, NGC enables users to focus on building lean models, producing optimal solutions and gathering faster insights.
 
 # 4. Docker Images
 
@@ -71,14 +73,16 @@ A tag may be specified when selecting the Docker image to download; e.g., a list
 
 # 5. Singularity Images
 
-### Singularity Hub
+### Singularity Library
 
-Singularity Hub is a service that builds Singularity images from community-provided recipes (called "bootstrap files") stored in GitHub repositories and makes them available for search and download. To download a singularity image, search the Singularity Hub container collections, and follow the instructions to download and execute the container. This is similar to the directions for container
-images from Docker Hub, except replace the "docker://" URI prefix with "shub://".
+Singularity Library is a service that builds Singularity images from community-provided recipes (called "bootstrap files") stored in GitHub repositories and makes them available for search and download. To download a singularity image, search the Singularity Library container collections, and follow the instructions to download and execute the container. This is similar to the directions for container
+images from Docker Hub, except replace the "docker://" URI prefix with "library://".
 
 ### Creating Your Own Singularity Images
 
-Root access is needed to create a Singularity image from a bootstrap file. As Ceres users do not have root access, to create your own Singularity image, you'll need to install Singularity on a Linux or Mac workstation.
+Root access is needed to create a Singularity image from a bootstrap file. As Ceres users do not have root access, to create your own Singularity image, you can paste the bootstrap file to Singualrity cloud builder [https://cloud.sylabs.io/builder](https://cloud.sylabs.io/builder). 
+
+Bootstrap examples - https://github.com/sylabs/singularity/tree/master/examples
 
 
 # 6. Executing Containers
@@ -180,21 +184,45 @@ These are available via modules, so the user doesn't have to perform any additio
 **List of containers**
 (may be out of date, `ls /reference/containers` on Ceres for the most up to date info):
 
-* antismash
-* concoct
-* itasser
-* plasflow
 * RStudio
-* bamm
+* agbase_interproscan
+* antismash
+* bamm_groopm_checkm_refinem
+* bigscape
+* braker
+* cDNA_cupcake
+* cactus
+* cnvnator
+* combine_gafs
+* concoct
+* dastool
+* envi-jupyter
+* faststructure
+* funannotate
 * gatk
+* goanna
+* intarna
+* itasser
+* jupyter_notebook
+* kobas
+* metawrap
+* minimac4
+* nanopolish
+* nanopolish_500kbp
 * opendronemap
+* pb_assembly
+* plasflow
+* python36
+* qiime
+* qiime2
+* redundans
+* revbayes
 * rgi
-* salmon
-* checkm
-* groopm
-* refinem
 * roary
-* SALSA
+* salmon
+* salsa
+* toil_vg
+* trinityrnaseq
 
 
 # 8. Support
