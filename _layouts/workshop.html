@@ -4,6 +4,7 @@ title: Scinet Workshops
 ---
 
 <div class="usa-width-three-fourths usa-layout-docs-main_content">
+    {{content}}
     {% for post in site.workshops reversed %}
       <h3>
         <a href="{{ post.url  | relative_url}}">{{ post.date | date_to_string }} &middot {{ post.title }}</a>
