@@ -28,7 +28,7 @@ primary:
         href: /guide/quickstart
       - text: Ceres User manual
         href: /guide/ceres
-      - text: Set up Multifactor authetication
+      - text: Set up multifactor authentication
         href: /guide/multifactor
       - text: Software Overview
         href: /guide/software
