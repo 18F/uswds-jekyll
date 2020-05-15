@@ -2,7 +2,7 @@
 layout: post
 title: "Arthropod Genomics Research Workshop 1"
 author: Brad Coates
-excerpt:
+excerpt: Formation of the AGR working group...
 ---
 ![AGR Logo](/assets/img/working-group/Arthropod-Genomics-Research-WG-400w.png)
 

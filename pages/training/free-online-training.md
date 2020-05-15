@@ -24,7 +24,7 @@ layout: page
 * [Google Earth Engine](#google-earth-engine)
 * [General Data Science Concepts](#general-data-science-concepts)
 * [Bioinformatics Self-Paced Learning](#bioinformatics-self-paced-learning)
-* [Ecological/Geospatial Self-Paced Learning](#ecologicalspatial-self-paced-learning)
+* [Ecological/Geospatial Self-Paced Learning](#ecologicalgeospatial-self-paced-learning)
 * [Git and GitHub](#git-and-github)
 * [Reproducibility, Productivity, and Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
 
@@ -56,7 +56,7 @@ For EdX courses: click enroll on a particular course, create an EdX account, and
 
 For Coursera courses: see [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
 
-**SCINet-funded licenses for Coursera and EdX course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera and EdX courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.*
+**SCINet-funded licenses for Coursera course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.*
 
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
@@ -112,6 +112,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2+ hrs
 [Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2+ hrs
 [R Basics Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
+[Learn R and Data Science Interactively with swirl](https://swirlstats.com/) | swirlstats | varies
 [Learning the R tidyverse](https://aglearn.usda.gov/course/view.php?id=45029) | AgLearn/LinkedIn |	~3.5 hrs
 [Data visualization in R with ggplot2](https://aglearn.usda.gov/course/view.php?id=46164) | AgLearn/LinkedIn |	 2.5 hrs
 [R for Excel Users](https://aglearn.usda.gov/course/view.php?id=34842) | AgLearn/LinkedIn 	| 1.5 hrs
@@ -295,7 +296,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 4 wks; 2-4 hrs/wk
 
 
-# Ecological/Spatial Self-Paced Learning
+# Ecological/Geospatial Self-Paced Learning
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|

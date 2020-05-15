@@ -54,7 +54,7 @@ Discussion that is relevant to other SCINet users such as questions about the be
 
 If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 
-Single user operational questions, including Galaxy questions, should be emailed to the VRSC scinet_vrsc@usda.gov, for example:
+Single user operational questions, including Galaxy questions, should be emailed to the VRSC [scinet_vrsc@usda.gov](mailto:scinet_vrsc@USDA.GOV), for example:
 
 * I can’t login
 * I’m having problems with a batch script
@@ -62,6 +62,7 @@ Single user operational questions, including Galaxy questions, should be emailed
 * How do I use software package X?
 * Please update software application X on Ceres.
 * Please add user X to project Y.
+* I need help with script/program optimization or making a program run faster
 
 
 For new software installation requests, see [Request Software Installation on SCINet](/support/request-software).

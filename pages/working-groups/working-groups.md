@@ -14,6 +14,7 @@ The current working groups are:
 * [Geospatial Research Working Group](#geospatial-research-working-group)
 * [Microbiome Working Group](#microbiome-working-group)
 * [SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group](#scinet-longterm-agroecosystem-research-ltar-phenology-working-group)
+* [SCINet Policy Committee](#scinet-policy-committee)
 * [SCINet Website Developers](#scinet-website-developers)
 * [Workbook Developers](#workbook-developers)
 
@@ -75,6 +76,28 @@ information coming soon, contact Adam Rivers
 ## SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group
 
 This working group was formed as the result of an August 2019 SCINet-funded workshop hosted by Dawn Browning. The focus of the group is to learn how to use SCINet high performance computing resources to expand the scope and impact of on-going collaborative phenology research. The group is devising workflows to assemble multiple diverse data streams and using SCINet computing resources to optimize agroecosystem models. Contact Dawn Browning for more information on this research and collaborative opportunities.
+
+<br>
+
+## SCINet Policy Committee
+
+Since SCINet has now been operational for a few years with many research groups utilizing the HPC environment, effective policies are critically important to successful operations. This committee, formed in 2020 by Deb Peters (ARS CSIO), makes recommendations to the SCINet Executive Committee on policies and procedures that are relevant to SCINet operations. The committee is comprised of members from various technical backgrounds, with representation from different ARS geographic areas. Membership also includes representatives from Iowa State University (ISU) and Mississippi State University (MSU; where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. For more information, including how to participate, please contact Jonathan Shao (chair).
+
+**Current Membership**<br>
+Jonathan Shao (Chair),	Northeast Representative<br>
+Steven Schroeder,	Northeast Representative<br>
+Dereck Bickhart,	Midwest Representative<br>
+Corey Moffet,	Plains Representative<br>
+Erin Scully,	Plains Representative<br>
+Joshua Udall,	Plains Representative<br>
+Loren Honaas,	Pacificwest Representative<br>
+Stan Kosecki,	NAL Representative<br>
+Curtis Brooks,	GWCC Representative<br>
+Jim Coyle,	ISU Representative<br>
+Vincent Sanders,	MSU-HPCC Representative<br>
+Angela Pompey,	Information Security<br>
+Chris Lowe,	Information Security<br>
+Deb Peters,	CSIO<br>
 
 <br>
 
