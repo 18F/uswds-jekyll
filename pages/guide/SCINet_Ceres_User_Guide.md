@@ -393,22 +393,41 @@ Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit intera
 
 Compute jobs are run on functional groups of nodes called partitions or queues. Each different partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). Some nodes appear in several partitions. The following table lists the main partitions. The low partitions allow all users submit short jobs to the new nodes that have been purchased by several groups.
 
+#### Community partitions
+
+Name | Nodes | Logical Cores per Node | Maximum Simulation Time | Default Memory per Core | Function
+--- | --- |--- |--- |--- |---
+short	| 100 | 40, 72 | 48 hours | 3100 MB | short simulation queue (default)
+medium	| 67 | 40, 72 | 7 days | 3100 MB | medium length simulation queue
+long	| 34 | 40, 72 | 21 days | 3100 MB | long simulation queue
+long60	| 6 | 40, 72 | 60 days	| 3100 MB | extra long simulation queue
+mem	| 8 | 120, 80 | 7 days	| 12750 MB | large memory queue
+longmem	| 1 | 120 | 1000 hours | 12750 MB | long simulation large memory queue
+mem768	| 1 | 80 | 7 days | 9500 MB | new node with 768GB of memory
+debug	| 3 | 40, 72 | 1 hour | 3100 MB | for testing scripts and runs before submitting them
+
+#### Partitions that allow all users access to priority nodes
+
+Name | Nodes | Logical Cores per Node | Maximum Simulation Time | Default Memory per Core | Function
+--- | --- |--- |--- |--- |---
+mem768-low | 3	| 80 | 2 hours	| 9500 MB | priority nodes with 768GB of memory
+mem-low	| 5 | 80 | 2 hours | 19000 MB | priority nodes with 1.5TB of memory
+gpu-low	| 1 | 72 | 2 hours | 5250 MB | priority GPU node
+brief-low | 92 | 72 | 2 hours | 5250 MB | all new nodes with 384GB of memory
+scavenger | 57 | 72, 80 | 21 days | 3100 MB | regular priority nodes available to all users; scavenger jobs can be killed at any moment
+scavenger-gpu | 1 | 72 | 21 days | 3100 MB | GPU priority node; jobs can be killed at any moment
+
+#### Priority partitions available only to those users who purchased nodes
+
 Name | Nodes | Maximum Simulation Time | Default Memory per Core | Function
 --- | --- |--- |--- |---
-short	| 55	| 48 hours	| 3100 MB	| short simulation queue (default)
-medium	| 25	| 7 days	| 3100 MB	| medium length simulation queue
-long	| 15	| 21 days	| 3100 MB	| long simulation queue
-long60	| 2	| 60 days	| 3100 MB	| extra long simulation queue
-mem	| 5	| 7 days	| 12750 MB	| large memory queue
-longmem	| 1	| 1000 hours	| 12750 MB	| long simulation large memory queue
-mem768	| 1	| 7 days	| 12750 MB	| new node with 768GB of memory
-mem768-low	| 2	| 2 hours	| 19000 MB	| new nodes with 768GB of memory
-mem-low	| 3	| 2 hours	| 38200 MB	| new nodes with 1.5TB of memory
-gpu-low	| 1	| 2 hours	| 5250 MB	| new GPU node
-brief-low	| 18	| 2 hours	| 5250 MB	| new nodes with 128GB of memory
-debug	| 1	| 1 hour	| 3100 MB	| for testing scripts and runs before submitting them
+priority | 49 | 2 weeks | 5250 MB | priority nodes with 384GB memory
+priority-mem | 5 | 2 weeks | 19000 MB | priority nodes with 1.5TB memory
+priority-mem768 | 3 | 2 weeks | 9500 MB | priority nodes with 768 GB memory
+priority-gpu | 1 | 2 weeks | 5250 MB | priority GPU node
 
-In addition, **at most 400 cores can be used by all simultaneously running jobs per user** across all queues. Any additional jobs will be queued but won't start. Each user can submit at most 100 simultaneous jobs to the queue. Currently there is no other limits specific to the partitions.
+
+In addition, **at most 400 cores and 1512 GB of memory can be used by all simultaneously running jobs per user** across all queues. Any additional jobs will be queued but won't start. Each user can submit at most 100 simultaneous jobs to the queue. Currently there is no other limits specific to the partitions.
 
 To get current details on all partitions use the following scontrol command:
 ```
