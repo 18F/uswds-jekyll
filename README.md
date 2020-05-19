@@ -50,12 +50,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    gem 'uswds-jekyll'
    ```
 
-   Or if you want to use the 5.0.0 preview:
-
-   ```ruby
-   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git', :branch => 'update-uswds-2.0'
-   ```
-
 1. Fetch and update your bundled gems by running:
 
    ```sh
@@ -83,12 +77,6 @@ You will need to restart your Jekyll server to see the effects.
    gem 'uswds-jekyll'
    ```
 
-   Or if you want to use the 5.0.0 preview:
-
-   ```ruby
-   gem 'uswds-jekyll', :git => 'https://github.com/18F/uswds-jekyll.git', :branch => 'update-uswds-2.0'
-   ```
-
 1. Set the `theme` in your site's Jekyll configuration,
    `_config.yml`:
 
@@ -102,7 +90,7 @@ You will need to restart your Jekyll server to see the effects.
    bundle
    ```
 
-1. Run Jekyll `jekyll serve` to build your site locally at http://localhost:4000/
+1. Run `bundle exec jekyll serve` to build your site locally at http://localhost:4000/
 
 ### Versioning
 
@@ -119,51 +107,43 @@ To reference a specific version of this theme:
 ## Configuration
 
 Configuration of common elements ([header](#header),
-[footer](#footer), [navigation](#navigation), etc.) happens in your
-project's [data files](https://jekyllrb.com/docs/datafiles/). See
-this project's [data directory](_data) for reference configurations
+[footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations
 of each component.
 
-The [default layout](#layout-default) also provides a mechanism for
-automatically including [stylesheets](#stylesheets) and
-[scripts](#scripts) on a site-wide, layout-wide, and per-page
-basis. See [asset load order](#asset-load-order) for more
-information.
+The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
 ### Site title
 
-You can change your site's title with the `title` field in your
-`_config.yml`. If you want to provide an alternate title for use
-_only_ in the site header, you can set the `title` field in
-`_data/header.yml`.
+You can change your site's title with the `title` field in `_config.yml`. If you want to provide an alternate title for use _only_ in the site header, you can set the `title` field in `_data/header.yml`.
 
 ### Site description
 
-You can change your site's description with the `description` field in your
-`_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's frontmatter.
+You can change your site's description with the `description` field in `_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's frontmatter.
 
 ### Navigation
 
-This theme's navigation system is powerful and flexible. Named
-navigational lists live in your project's `_data/navigation.yml`,
-e.g.
+This theme's navigation system is powerful and flexible. Named navigational lists live in your project's `_data/navigation.yml`.
 
 By default all links are assumed to be internal to the site. You can add `external: true` to links that are external. You can also add `class: class-name` to add a class to a specific link.
 
 ```yml
 # _data/navigation.yml
+
 primary:
   - text: Documentation
     href: /docs/
   - text: Support
     href: /help/
-  - text: External link
+    class: highlight
+  - text: "18F"
     href: https://18f.gsa.gov
     external: true
 
   # link objects with a 'links' field will be presented as
-  # collapsible link lists. The 'links' field can either be a
-  # reference to another link list in this file, or a literal list.
+  # collapsible link lists. The 'links' field can either be
+  # a reference to another link list in this file, or
+  # a literal list.
+
   - text: Section title
     links: <links>
 ```
@@ -177,7 +157,7 @@ more info.
 
 Set each page's title in its frontmatter:
 
-```md
+```
 ---
 title: About us
 ---
@@ -185,8 +165,7 @@ title: About us
 
 ### Page subnavigation
 
-If you're using the [page layout](#layout-page), each page may declare its own
-side navigation and subnavigation in its [front matter]:
+If you're using the [page layout](#layout-page), each page may declare its own side navigation and subnavigation in its front matter:
 
 ```md
 ---
@@ -203,29 +182,20 @@ subnav:
 ## Section two
 ```
 
-As with the [header](#header) and [footer](#footer), the `sidenav` field may
-either reference a common [navigation list](#navigation) from
-`_data/navigation.yml` (recommended) or be a literal list of links.
+As with the [header](#header) and [footer](#footer), the `sidenav` field may either reference a common [navigation list](#navigation) from `_data/navigation.yml` (recommended) or be a literal list of links.
 
-The `subnav` field should be used to link to sections _within_ the current
-page, because links to other pages will cause the linking page's side
-navigation to collapse when visited.
+The `subnav` field should be used to link to sections _within_ the current page, because links to other pages will cause the linking page's side navigation to collapse when visited.
 
 `sidenav` is a key _into_ `_data/navigation.yml`. See the [navigation](#navigation) docs for more info.
 
-A page's "current" or "active" state in the sidenav is
-determined by whether a link's `href` matches `page.url` or
-`page.permalink` for each page being rendered.
+A page's "current" or "active" state in the sidenav is determined by whether a link's `href` matches `page.url` or `page.permalink` for each page being rendered.
 
 `subnav` is a list of links to display on this page under its own link in the side navigation.
 
 **Note that subnav link hrefs are not prefixed with
-`site.baseurl`** because this breaks hash links prefixed with
-`#`.
+`site.baseurl`** because this breaks hash links prefixed with `#`.
 
-**Pro tip:** Unless your Jekyll configuration specifies otherwise, the default
-Markdown formatter (Kramdown) will automatically generate predictable `id`
-attributes for your page headings and convert markdown like this:
+**Pro tip:** Unless your Jekyll configuration specifies otherwise, the default Markdown formatter (Kramdown) will automatically generate predictable `id` attributes for your page headings and convert markdown like this:
 
 ```md
 ## Section one
@@ -325,8 +295,7 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 
 ### Last modified date
 
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file.
-This will add the date right before the footer component and uses the `last-modified.html` include.
+You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. This will add the date right before the footer component and uses the `last-modified.html` include.
 
 ```yml
 # Used to show the "Last updated" date and time;
@@ -335,9 +304,7 @@ This will add the date right before the footer component and uses the `last-modi
 
 ### Anchor JS
 
-You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file.
-This will add an anchor link after the header tag on the page and post layouts making ech header linkable.
-See https://github.com/bryanbraun/anchorjs for more information.
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making ech header linkable. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
@@ -345,10 +312,7 @@ See https://github.com/bryanbraun/anchorjs for more information.
 
 ## Assets
 
-The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html)
-includes each incorporate the USWDS CSS and JS files if the corresponding
-`styles` and `scripts` lists aren't defined in your `_config.yml`. So unless
-you add one or both of those manually, your HTML will include the following:
+The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html) includes each incorporate the USWDS CSS and JS files if the corresponding `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless you add one or both of those manually, your HTML will include the following:
 
 ```html
 <!-- in the <head> -->
@@ -357,15 +321,12 @@ you add one or both of those manually, your HTML will include the following:
 <script src="/assets/uswds/js/uswds.min.js" async>
 ```
 
-Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts)
-below.
+Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts) below.
 
 ### Stylesheets
 
 As a general rule, all stylesheets are inserted in a layouts'
-`<head>`, which qualifies them as "render-blocking". Site
-stylesheets can be specified in `_config.yml` or a layout or page's
-[front matter] YAML in the following form:
+`<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
 ```yml
 styles:
@@ -392,13 +353,7 @@ scripts:
 ```
 
 Scripts specified as objects (in the latter item above) must have a `src`
-property. Scripts with `async: true` will get an `async` attribute, which tells
-the browser _not_ to let this script's loading block the execution of
-subsequent scripts. If the execution order of your scripts is **not**
-important, setting `async: true` may provide performance benefits to your
-users. (Conversely, if you don't know whether your scripts need to execute in a
-particular order, then you should not set `async: true` because it may prevent
-your scripts from running propertly.)
+property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
 
 ### Asset load order
 
@@ -424,10 +379,8 @@ Customize the USWDS Jekyll theme with [USWDS theme settings files](https://desig
 
 1. Add any **custom CSS or Sass** to a folder called `_sass/custom/_uswds-theme-custom-styles.scss`. You can also use this file to import any additional Sass or CSS files your project needs. [Download this file from Github](https://raw.githubusercontent.com/18F/uswds-jekyll/update-uswds-2.0/_sass/custom/_uswds-theme-custom-styles.scss)
 
-You have two options for customizing the CSS: [Sass](#customizing-with-sass) or
-[CSS overrides](#customizing-with-css-overrides). Individual sites can also
-[selectively override](#overriding-includes-and-layouts) individual includes
-and layouts.
+You have two options for customizing the CSS: [Sass](#customizing-with-sass) or [CSS overrides (#customizing-with-css-overrides). Individual sites can also
+[selectively override](#overriding-includes-and-layouts) individual includes and layouts.
 
 ### Overriding includes and layouts
 
