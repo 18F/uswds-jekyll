@@ -17,7 +17,7 @@ The table below lists information about planned SCINet outages. See the SCINet V
 | 3/12/2020 | SCINet | Ft Collins | router replacement |
 | 3/19/2020 | SCINet | Ft Collins | router migration |
 | 4/17/2020-4/19/2020 | SCINet & AWS | Beltsville, Fargo, University Park, All AWS Users | planned power outage |
-| 6/16/2020 | Ceres | All (Ceres offline) | maintenance |
+| 6/16/2020-6/17/2020 | Ceres | All (Ceres offline) | maintenance |
 | 10/12/2020 | Ceres | All (Ceres offline) | maintenance |    
 
 
