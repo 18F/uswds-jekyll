@@ -38,7 +38,7 @@ To use Google Authenticator on your Android device, it must be running Android v
 
 Your "Welcome to Ceres" email contains a key and a link to a QR code that should be used to initialize GA on your mobile device. If your SCINet account was created before January 2020, and a GA account was never created, attempt to login to the Ceres DTN node:
 ```
-ssh <SCINet username>@ceres-dtn-1.scinet.science
+ssh <your SCINet username>@ceres-dtn-1.scinet.science
 ```
 At the first attempt a GA account will be created for you and you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
 
@@ -66,7 +66,7 @@ Select Scan a barcode. If the Authenticator app cannot locate a barcode scanner 
 
 ### Link phone manually with a GA key
 
-Select Enter a provided key, then Enter account name, which is \<SCINet username>@ceres. Next, enter the Google Authenticator key from the "Welcome to Ceres" email into the box under Enter Key. Make sure you've chosen to make the key time-based and press "Save."
+Select Enter a provided key, then Enter account name, which is \<your SCINet username>@ceres. Next, enter the Google Authenticator key from the "Welcome to Ceres" email into the box under Enter Key. Make sure you've chosen to make the key time-based and press "Save."
 
 ![screenshot of Google Authenticator Android app Enter Account Details screen](/assets/img/mfa-guide/Screenshot_20191029-105940-w300.png)
 
@@ -75,7 +75,7 @@ Select Enter a provided key, then Enter account name, which is \<SCINet username
 
 To verify the application is working correctly,
 ```
-ssh <SCINet username>@ceres-dtn-1.scinet.science
+ssh <your SCINet username>@ceres-dtn-1.scinet.science
 ```
 Enter the verification code currently displayed in Google Authenticator, then enter your SCINet password.
 
@@ -103,7 +103,7 @@ To use Google Authenticator on your iPhone, iPod Touch, or iPad, you must have i
 
 Your "Welcome to Ceres" email contains a key and a link to a QR code that should be used to initialize GA on your mobile device. If your SCINet account was created before January 2020, and a GA account was never created, attempt to login to the Ceres DTN node:
 ```
-ssh <SCINet username>@ceres-dtn-1.scinet.science
+ssh <your SCINet username>@ceres-dtn-1.scinet.science
 ```
 At the first attempt a GA account will be created for you and you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
 
@@ -122,13 +122,13 @@ Tap "Scan Barcode" (label 2a above) and then point your camera at the QR code on
 
 ### Link phone manually with a GA key
 
-In the box next to Account (label 2b above), enter your account name, which is \<SCINet username>@ceres . Then, enter the Google Authenticator key from the "Welcome to Ceres" email into the box next to "Key" (label 2c above) and tap "Done" (label 2d above).
+In the box next to Account (label 2b above), enter your account name, which is \<your SCINet username>@ceres . Then, enter the Google Authenticator key from the "Welcome to Ceres" email into the box next to "Key" (label 2c above) and tap "Done" (label 2d above).
 
 ### Verify
 
 To verify the application is working correctly,
 ```
-ssh <SCINet username>@ceres-dtn-1.scinet.science
+ssh <your SCINet username>@ceres-dtn-1.scinet.science
 ```
 Enter the verification code currently displayed in google authenticator and then enter your password.
 
