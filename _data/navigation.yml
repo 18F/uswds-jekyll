@@ -16,6 +16,8 @@ primary:
     href: /signup/
   - text: News
     links:
+      - text: System Downtime
+        href: /downtime/
       - text: Announcements
         href: /announcements/
       - text: User Stories
