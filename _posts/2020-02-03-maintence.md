@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reminder - Ceres Downtime February 17
-categories: [Announcements]
+categories: [Downtime]
 excerpt: Ceres downtime is scheduled for Presidents' day, Monday, February 17th
 ---
 ### By: David Orman, VRSC  | 02-03-2020
