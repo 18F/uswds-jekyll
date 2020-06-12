@@ -215,7 +215,7 @@ You can send hard drives containing data to the VRSC if you have very large amou
 
 # Using the Software Applications on Ceres
 
-Many software applications are available as modules ([see Software Overview](/guide/software) or type `module avail` on Ceres to see them).  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
+Many software applications are available as modules; see [Software Overview](/guide/software) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
 
 The `module` command is used to work with the different software application modules. The following table lists some of the most common functions of the `module` command:
 
@@ -257,7 +257,7 @@ longmem|	1|	1000 hours	|for high memory applications requiring more than a week
 debug|	1|	1 hour	|for testing
 ---|---|---|---
 
-To learn about other partitions, refer to [Ceres User Manual](/guide/ceres).
+To learn about other partitions, refer to [Ceres User Manual](/guide/ceres/#partitions-or-queues).
 
 To get current details on all partitions use the following scontrol command:
 ```bash
