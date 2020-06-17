@@ -46,7 +46,7 @@ layout: page
   * [Shipping Hard Drives](#shipping-hard-drives)
 * [Using Software Applications on Ceres](#using-the-software-applications-on-ceres)
   * [Running Applications](#running-applications)
-  * [Nodes](#login-nodes)
+  * [Login Nodes](#login-nodes)
   * [Text Editors](#text-editors)
 * [Ceres Compute Nodes](#ceres-compute-nodes)
   * [Interactive Mode](#interactive-mode)
