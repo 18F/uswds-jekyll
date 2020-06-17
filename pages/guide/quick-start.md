@@ -191,12 +191,12 @@ While Globus is faster, you can also transfer data from your local machine to Ce
 
 Transfer a file to your SCINet project directory:
 ```bash
-scp yourfile sally.doe@ceres-dtn-1.scinet.science:/project/yourproject
+scp yourfile sally.doe@ceres-dtn-0.scinet.usda.gov:/project/yourproject
 ```
 
 Transfer a file from your SCINet project directory:
 ```bash
-scp sally.doe@ceres-dtn-1.scinet.science:/project/yourproject/yourfile .
+scp sally.doe@ceres-dtn-0.scinet.usda.gov:/project/yourproject/yourfile .
 ```
 
 To transfer an entire directory, you can use the -r option with any one of the above commands and specify a directory to transfer.  All of the files in that directory will get transferred, for example:
