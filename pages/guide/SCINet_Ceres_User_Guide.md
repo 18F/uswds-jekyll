@@ -140,7 +140,7 @@ For more information on available software and software installs refer to sectio
 
 Users can connect directly to Ceres using an ssh client. ssh is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell):
 ```
-$ ssh <your_username>@login.scinet.science
+$ ssh <your_username>@ceres.scinet.usda.gov
 ```
 
 For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](/guide/quickstart))
@@ -169,12 +169,12 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To SCINet:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
 2. Transfer From SCINet:
 ```
-$ scp <Username>@login.scinet.science:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+$ scp <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
 ```
 
 To transfer data when logged in to SCINet (the destination filenames are optional):
@@ -192,7 +192,7 @@ $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <PathToSourceFolderOnLocalResource> <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>
+$ scp -r <PathToSourceFolderOnLocalResource> <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
