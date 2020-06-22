@@ -70,7 +70,8 @@ The simplist and most succinct method to launch JupyterLab is thru the JupyterHu
   
    The Spawning page includes a comprehensive set of options for customizing JupyterLab.<br><br>
 <img src="../../assets/img/JHubspawner.png" width="400" align="left" hspace="20" border="1">
-  **Standard Options**
+
+**Standard Options**
    * <u><i> Node Type</i></u> (Required): Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab.
    * <u><i> Number of Cores</i></u> (Required): How many cores to allocate (must be an even number).
    * <u><i> Job Duration</i></u> (Required): How long should the Slurm (Ceres resource allocation software) allocate to this task.
@@ -79,7 +80,7 @@ The simplist and most succinct method to launch JupyterLab is thru the JupyterHu
 
    **Container Options**
    * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to luanch JupyterLab with a containers, specify the Ceres path or Hub URL to the container.
-   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /project/name_of_project*.<br>
+   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /lustre/project/name_of_project*.<br>
 
 4. **Terminating JupyterLab**
   
