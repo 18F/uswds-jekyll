@@ -32,7 +32,9 @@ layout: page
    [Data Viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html)<br>
    [Markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown)<br> 
    Context Help<br>
-   [Extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)<br><br><br>
+   [Extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)<br>
+  <br>
+  <br>
 
   ## Why Jupyter
   Jupyter is popular amoung data scientiests and researchers ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because it offers:
@@ -47,7 +49,7 @@ layout: page
     * GitHub (renders notebooks)
     * Access and authentication to arbitrary external processes (such as RStudio Server, Shiny Server, PostgreSQL, etc) via [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/).
   * Customizability and Extensibility
-  * An Open Source code base
+  * An open source code base
  
 ---
 # Launching Jupyter
@@ -55,11 +57,11 @@ There are multiple approaches for accessing the Jupyter stack on Ceres.
 
 * Port Foward with Putty - [Video Coming Soon]()
 * Port Foward with Secure Shell (SSH) - [Video Coming Soon]()
-* JupyterHub (see below)
+* **JupyterHub (see below) - the recommended approach**
 
-The easist and most succinct method to launch JupyterLab is the JupyterHub interface. To access, you must have a functioning SCINet account. To setup an account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions, followed by a video of the process.
+The simplist and most succinct method to launch JupyterLab is thru the JupyterHub interface. To access, you will need functioning SCINet credentials. To setup a SCINet account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions for JupyterHub.
 
-1. **Go To:** COMING SOON
+1. **Go To:** [https://jupyterhub.scinet.usda.gov/](https://jupyterhub.scinet.usda.gov/)
 2. **Log into JupyterHub** (SCINet credentials)
    * Username: SCINet username
    * Verification Code: 6 digit time-sensitive code
@@ -67,17 +69,17 @@ The easist and most succinct method to launch JupyterLab is the JupyterHub inter
 3. **Spawning a JupyterLab Instance**
   
    The Spawning page includes a comprehensive set of options for customizing JupyterLab.<br><br>
-<img src="../../assets/img/JHub_spawner.png" width="400" align="left" hspace="20" border="1">
-<!-- update image after Yash finishes edits, copy image to SCINet site-->
-<!-- <img src="/scinet-site/assets/img/jupyter/JHub_spawner.png" width="400" align="left" hspace="0" border="1" alt="screenshot of Jupyter Hub spawner"> -->
+<img src="../../assets/img/JHubspawner.png" width="400" align="left" hspace="20" border="1">
+  **Standard Options**
+   * <u><i> Node Type</i></u> (Required): Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab.
+   * <u><i> Number of Cores</i></u> (Required): How many cores to allocate (must be an even number).
+   * <u><i> Job Duration</i></u> (Required): How long should the Slurm (Ceres resource allocation software) allocate to this task.
+   * <u><i> Slurm Sbatch Args</i></u> (Optional): Additional options for Slurm (see [sbatch options](https://slurm.schedmd.com/sbatch.html)). An example may be *--mem-per-cpu=6GB*.
+   * <u><i> Working Directory</i></u> (Optional): The directory to launch JupyterLab. An example may be */lustre/project/name_of_project*, defaults to your $HOME directory.
 
-   * <u><i> Node Type</i></u>: Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab
-   * <u><i> Number of Cores</i></u>: How many cores to allocate (must be an even number)
-   * <u><i> Job Duration</i></u>: How long should the Slurm (Ceres resource allocation manager) allocate to this task
-   * <u><i> Additional Slurm Options</i></u>: Additional options for Slurm (see [sbatch options](https://slurm.schedmd.com/sbatch.html)). An example may be *--mem-per-cpu=6GB*
-   * <u><i> Working Directory</i></u>: The directory to launch JupyterLab. An example may be */project/name_of_project*
-   * <u><i> Container Path</i></u>: Singularity container to use to launch JupyterLab. If blank, will use the defualt container (see Jupyter Environments below).
-   * <u><i>Container Options</i></u>: [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /project/name_of_project*<br>
+   **Container Options**
+   * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to luanch JupyterLab with a containers, specify the Ceres path or Hub URL to the container.
+   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /project/name_of_project*.<br>
 
 4. **Terminating JupyterLab**
   
@@ -103,13 +105,13 @@ The default environment includes:
   * Slurm Que Manager
 
 ## Bring Your Own Environment
-  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a Jupyter Kernel installed, JupyterLab will autoload this environmnet as a seperate kernel. For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab.
+  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a Jupyter Kernel installed, JupyterLab will detect this environmnet as a seperate kernel. For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab.
 
 ## Use Ceres Maintained Software
   The default environment includes an extension (located on the left vertical section of JupyterLab) to load Ceres software into the current environment. This is the software visible with the `module avail` command.
 
 ## Containerized Environment
-JupyterHub will spawn an instance of JupyterLab using a singularity container. Whichever container selected needs to have JupyterLab installed. Users can specify a container in the <i>Container Path</i> section on the Spawner Options page. There are several ways to access containers on Ceres:
+JupyterHub will spawn an instance of JupyterLab using a singularity container (see the container options above). The container selected needs to have JupyterLab installed. Users can specify a container in the <i>Container Path</i> section on the Spawner Options page. There are several ways to access containers on Ceres:
    * Pointing to a prebuilt container either maintained by the yourself or by the VRSC (located at `/references/containers/`).
    * Pointing to a prebuilt container on an external hub, such as [Docker Hub](https://hub.docker.com/) or [Singularity Hub](https://singularity-hub.org/). **When launching JupyterLab from a container located on a <i>Hub</i> for the first time, it will take 1-10 minutes** to start JupyterLab because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is now cached in your $HOME directory). If the container is modified on the <i>Hub</i>, it will be re-downloaded, built, and cached.
      1. An example input into *Container Path*: ```docker://jupyter/datascience-notebook```
@@ -123,38 +125,28 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container. W
 ---
 # Best Practices
 ## Resource Conservation
-  * For short sessions (2hrs or less) please choose the brief-low partition in the "Node Type" drop down, if available.
-  * For serial computing (non-parallel code) enter 2 or 4 for "*Number of Cores*" in the spawner options. If a computation is not parallelized, having more cores will not improve the computation power.
+  * For short sessions, select partitions that are have been designated for shorter duration jobs (such as brief-low/2hr limit or short/48hrs) in the "Node Type" drop down.
+  * For serial computing (non-parallel code) enter 2 or 4 for "*Number of Cores*" in the spawner options. If a computation is not parallelized, having more cores will not improve the computation power. If you need more memory, use the *--mem-per-cpu=XXGB* in the *Slurm Sbatch Args* on the spawner page.
   * For parallel computing choose a reasonable number of cores to meet your needs.
   * Choose a reasonable job duration.
   * Remember to stop the jupyter server when you are done working (`File --> Hub Control Panel --> Stop Server`).
   
 ## Reproducible Research
   * <b>Version Control</b>: The gold standard are version control systems like [Github](https://github.com/) or [Gitlab](https://about.gitlab.com/).
-  * <b>Legible and Interperable Code</b>: Coding documents should includeinformation about the mechanics of the code (commenting within code blocks) as well as the underlying scientific narrative (adding markdown cells surronding anlaysis and results).
+  * <b>Legible and Interperable Code</b>: Coding documents should include information about the mechanics of the code (commenting within code blocks) as well as the underlying scientific narrative (adding markdown cells surronding anlaysis and results).
   * <b>Archiving Computational Environment</b>: Containerized environments, such as [Docker](https://www.docker.com/) and [Singularity](https://sylabs.io/docs/), provide the best approach for archiving computatoinal environments. Services such as Docker Hub and Singularity Hub can store images associated with specific research or publications. Another approach is to capture computational environments as text output, such as a [conda requirements.txt](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) file.
   * <b>Data Providence/Archiving</b>: If utilizing a public dataset, the source and version should be documented. If using non-public data, the data should be published to a public repository, such as [NAL](https://www.nal.usda.gov/main/) or [AgCross](https://agcros-usdaars.opendata.arcgis.com/pages/general-information/).
 
-  A detailed tutorial about conducting reproducible research can be found at: LINK_COMING_SOON
+  A detailed tutorial about conducting reproducible research can be found at: [Coming Soon!]()
 
 ## Tutorials and Packages for Parallel Computing
-Developing scripts that utilize resources of a cluster can be challenging. Below are some software packages that may assist in parallelizing computations as well as links to some Ceres specific examples.
-  
-  * Python
-    1. Package: [Dask](https://dask.org/)<br>
-    Ceres Tutorial: [Coming Soon]()
-    2. Package: [Ipyparallel](https://ipyparallel.readthedocs.io/en/latest/)<br>
-    External Tutorial: [Coming Soon]()
-    3. [Ray](https://ray.readthedocs.io/en/latest/)<br>
-    External Tutorial: [Coming Soon]()
-    4. [Joblib](https://joblib.readthedocs.io/en/latest/)<br>
-    External Tutorial: [Coming Soon]()
-  * R
-    1. [rslurm](http://cyberhelp.sesync.org/rslurm/)<br>
-      Ceres Example: [Coming_Soon](None)
-    2. [Parallel](https://www.rdocumentation.org/packages/parallel/versions/3.6.2)<br>
-    External Tutorial: [Coming Soon]()
-    3. [doParallel](https://cran.r-project.org/web/packages/doParallel/doParallel.pdf)<br>
-    External Tutorial: [Coming Soon]()
-    4. [Snow](https://cran.r-project.org/web/packages/snow/snow.pdf)<br>
-    External Tutorial: [Coming Soon]()
+Developing code/scripts that utilize resources of a cluster can be challenging. Below are some software packages that may assist in parallelizing computations as well as links to some Ceres specific examples.
+
+  1. Python - [Dask](https://dask.org/)<br>
+  2. Python - [Ipyparallel](https://ipyparallel.readthedocs.io/en/latest/)<br>
+  3. Python - [Ray](https://ray.readthedocs.io/en/latest/)<br>
+  4. Python - [Joblib](https://joblib.readthedocs.io/en/latest/)<br>
+  1. R - [rslurm](http://cyberhelp.sesync.org/rslurm/)<br>
+  2. R - [Parallel](https://www.rdocumentation.org/packages/parallel/versions/3.6.2)<br>
+  3. R - [doParallel](https://cran.r-project.org/web/packages/doParallel/doParallel.pdf)<br>
+  4. R - [Snow](https://cran.r-project.org/web/packages/snow/snow.pdf)<br>
