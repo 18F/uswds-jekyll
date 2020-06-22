@@ -20,21 +20,9 @@ layout: page
 
   1. [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/#): Jupyter's multi-user server. This application spawns, manages, and proxies multiple instances of the single-user JupyterLab server.
   
-  2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter’s next-generation notebook interface, which includes:
-    
-<img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="425" align="left" hspace="5" border="1" alt="screenshot of jupyterlab software">
-<!-- <img src="/scinet-site/assets/img/jupyter/jupyterlab.png" width="425" align="left" hspace="5" border="1" alt="screenshot of jupyterlab software"> -->
+  2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter’s next-generation notebook interface, which includes: [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html), [text editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html), [terminal](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html), [file browser](https://jupyterlab.readthedocs.io/en/stable/user/files.html) (with upload/download capacity), [data viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html), [markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown), context help, and [external extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html).
 
-   <br>[Notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html)<br>
-   [Text Editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html) <br>
-   [Terminal](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html)<br>
-   [File Browser](https://jupyterlab.readthedocs.io/en/stable/user/files.html)<br> 
-   [Data Viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html)<br>
-   [Markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown)<br> 
-   Context Help<br>
-   [Extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html)<br>
-  <br>
-  <br>
+<img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="600" align="center" hspace="5" border="1" alt="screenshot of jupyterlab software">
 
   ## Why Jupyter
   Jupyter is popular amoung data scientiests and researchers ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because it offers:
@@ -68,10 +56,11 @@ The simplist and most succinct method to launch JupyterLab is thru the JupyterHu
    * Password: SCINet password
 3. **Spawning a JupyterLab Instance**
   
-   The Spawning page includes a comprehensive set of options for customizing JupyterLab.<br><br>
-<img src="../../assets/img/JHubspawner.png" width="400" align="left" hspace="20" border="1">
+   The Spawning page includes a comprehensive set of options for customizing JupyterLab and the compute environment. There are two ways to spawn JupyterLab, with the standard environment (default) or with a user defined container (optional).
 
-**Standard Options**
+   <img src="../../assets/img/JHubspawn.png" width="300" align="center" hspace="20" border="1">
+
+   **Standard Options**
    * <u><i> Node Type</i></u> (Required): Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab.
    * <u><i> Number of Cores</i></u> (Required): How many cores to allocate (must be an even number).
    * <u><i> Job Duration</i></u> (Required): How long should the Slurm (Ceres resource allocation software) allocate to this task.
@@ -79,8 +68,8 @@ The simplist and most succinct method to launch JupyterLab is thru the JupyterHu
    * <u><i> Working Directory</i></u> (Optional): The directory to launch JupyterLab. An example may be */lustre/project/name_of_project*, defaults to your $HOME directory.
 
    **Container Options**
-   * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to luanch JupyterLab with a containers, specify the Ceres path or Hub URL to the container.
-   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /lustre/project/name_of_project*.<br>
+   * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to luanch JupyterLab with a container, specify the Ceres path or Hub URL to the container.
+   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /lustre/project/name_of_project*.
 
 4. **Terminating JupyterLab**
   
@@ -100,10 +89,11 @@ Below is a video (COMING SOON) showing the above process.
 
 ## Default Environment
 The default environment includes:
-  * Python and the IPython kernel.
+  * Python, IDL, R kernels.
   * JupyterLab (and/or Jupyter Notebook)
+  * User conda environments (see below for details)
   * Ability to load Ceres maintained software (see below)
-  * Slurm Que Manager
+  * Slurm que manager
 
 ## Bring Your Own Environment
   If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a Jupyter Kernel installed, JupyterLab will detect this environmnet as a seperate kernel. For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab.
