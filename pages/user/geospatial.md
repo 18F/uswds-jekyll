@@ -16,11 +16,16 @@ layout: page
 <br>
 By: Pat Clark and Rowan Gaffney
 
+#### Table of Contents
+* [Use Cases](#use-cases)
+* [When to Use SCINet?](#when-to-use-scinet)
+* [Tools and Software](#tools-and-software)
+
 ## Use Cases
 ---
 ### **Machine Learning**
 * Classification
-* Clustering: [Python Notebook Example](/scinet-site/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
+* Clustering: [Python Notebook Example](/assets/img/geospatial/Tutorial1_Example2_Hyperspectral.html)
 * Regression
 
 ### **Modeling**
@@ -39,19 +44,19 @@ By: Pat Clark and Rowan Gaffney
 
 ## When to Use SCINet?
 ---
-Setting up analyses to run on SCINet involves a nontrivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well suited for SCINET are:
+Setting up analyses to run on SCINet involves a non-trivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well-suited for SCINet are:
 * CPU intensive workloads
-* High memory workloads
+* high memory workloads
 
 Additional considerations are:
-* Is my analyses already optimized?
-* Will I need to parallelize my analyses (typical for cpu intensive workloads)?
+* Are my analyses already optimized?
+* Will I need to parallelize my analyses (typical for CPU intensive workloads)?
 * Will I require more than a single node of compute power (ie. distributed computing)?
 <br>
 
-## Tools / Software
+## Tools and Software
 ---
-The following tools/software are currently available on SCINet. (See the [Software Overview](https://usda-ars-gbru.github.io/scinet-site/guide/software) for a full list of available software.)
+The following tools/software are currently available on SCINet. (See the [Software Overview](/guide/software) for a full list of currently available software.)
 
 ### Geospatial Specific Software
 * [**ENVI**](https://www.harrisgeospatial.com/Software-Technology/ENVI) (5.5): Image analysis software (1 license available)
@@ -68,7 +73,7 @@ The following tools/software are currently available on SCINet. (See the [Softwa
 
 ### Other
 * [**SCINet Remote Sensing Container Image**](https://hub.docker.com/r/rowangaffney/data_science_im_rs): Python+R geospatial libraries and JupyterLab IDE (R, IDL, and Python kernels).
-    * [User Tutorial](/scinet-site/assets/img/geospatial/Tutorial1.html) for JupyterLab+Dask Distrubuted using:
+    * [User Tutorial](/assets/img/geospatial/Tutorial1-JHub.html) for JupyterLab+Dask Distrubuted using:
       * container: /project/geospatial_tutorials/data_science_im_rs_latest.sif
       * sbatch script: /project/geospatial_tutorials/data_science_nb_dask.sbatch
     *  Optionally, pull the container from dockerhub to local folder with:

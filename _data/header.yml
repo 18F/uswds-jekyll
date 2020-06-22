@@ -2,7 +2,7 @@
 
 # Set header title differently from the site's title (as defined in _config.yml).
 # Uncomment the following line to use the header title.
-# title: Header title
+title: SCINet Scientific Computing Initiative
 
 # Show or hide the official USA banner at the top of the site.
 # Comment out to the following line to hide.

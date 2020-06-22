@@ -22,6 +22,8 @@ input,
 textarea,
 select {
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   border: $input-border-width solid $color-gray;
   border-radius: 0;
   box-sizing: border-box;
@@ -120,6 +122,8 @@ textarea {
 
 select {
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   background-color: $color-white;
   background-image: url('#{$image-path}/arrow-both.png');
   // Ensure browsers that don't support SVG in background-image (IE 11 and below) fall back to PNG.
@@ -137,6 +141,7 @@ select {
   // Show default webkit style on select element when autofilled to show icon
   &:-webkit-autofill {
     appearance: menulist;
+    -webkit-appearance: menulist;
   }
 
   // Remove dotted outline from select element on focus in Firefox
@@ -304,6 +309,8 @@ legend {
 
 [type=range] {
   appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
   border: none;
   padding-left: 0;
   overflow: hidden;
@@ -340,6 +347,7 @@ legend {
   &::-webkit-slider-thumb {
     @include range-thumb;
     appearance: none;
+    -webkit-appearance: none;
     margin-top: -0.6rem;
   }
 
@@ -378,6 +386,7 @@ legend {
 
     &::-webkit-inner-spin-button {
       appearance: none;
+      -webkit-appearance: none;
     }
 
     &::-webkit-contacts-auto-fill-button {

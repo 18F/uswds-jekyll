@@ -9,7 +9,7 @@ image: /assets/img/team-images/team-placeholder-300-300.jpg
 #  - Internal Revenue Service
 #  - Census
 # home: Government
-position: Acting SCINet Project Manager
+position: Acting SCINet Program Manager
 page-position: 2
 email: test.person@usda.gov
 ---

@@ -1,10 +1,12 @@
+[![scinet.usda.gov Build Status](https://travis-ci.org/USDA-ARS-GBRU/scinet-site.svg?branch=master)](https://travis-ci.org/USDA-ARS-GBRU/scinet-site)
+
 # Info specific to SCINet Website Development
 
-These are the instructions for how to contribute to the scinet webpage if you have been contacted to contibute.
+These are the instructions for how to contribute to the [SCINet USDA webpage](https://scinet.usda.gov) if you have been contacted to contribute.
 
 There are two ways to do this.
 
-1. Using Github pull requests (prefered)
+1. Using Github pull requests (preferred)
 2. edit online in github
 2. Sent your markdown file to Adam Rivers
 
@@ -13,7 +15,7 @@ There are two ways to do this.
 1. get a GitHub account if you don't have one
 2. clone the repository to your computer: `git clone https://github.com/USDA-ARS-GBRU/scinet-site.git`
 3. create a new brach for your work
-4. Edit your assigned page, photos go in `/assets/img` and docs go in `assets/docs`
+4. Edit your assigned page, photos go in `/assets/img/` and docs go in the location you were assigned
 5. When you are done commit your changes:
 
   ```
@@ -22,17 +24,13 @@ There are two ways to do this.
   git push
   ```
 
-6. Then go the main scinet repository and createa pull request
+6. Then go the main scinet repository and create a pull request
 
 ## Edit online in Github
 1. get a GitHub account if you don't have one
 2. go to the scinet repository: https://github.com/USDA-ARS-GBRU/scinet-site and navigate to your file and click the pencil. this will "fork the archive for you".
 3 edit it and say what you did in the comment box and click "propose file change"
 
-## Assignments
-
-See this link for page assignments:
-https://usdagcc-my.sharepoint.com/:x:/g/personal/adam_rivers_usda_gov/EQP9eDqpsVxJqizxNxEesiEBXvcV4h0jym8xcopQ1q9biA
 
 
 

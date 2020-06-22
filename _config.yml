@@ -1,5 +1,5 @@
-title: SCINet Scientific Computing Initiative
-description: SCINet is an initiative to provide access to high performance computing, networking and training
+title: "SCINet | USDA Scientific Computing Initiative"
+description: SCINet is a USDA initiative to provide agricultural scientists access to high performance computing, networking and training
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
@@ -8,7 +8,7 @@ github:
   repository: scinet-site
   default_branch: master
 
-baseurl: "/scinet-site"
+baseurl: ""
 
 # Configure a separator for post excerpts
 excerpt_separator: "<!--end-excerpt-->"
@@ -32,8 +32,7 @@ dap_agency: USDA
 # You will need to setup a search account with search.gov
 # https://search.usa.gov/signup
 # Your search_site_handle value is from the search.gov settings page.
-
-# search_site_handle: searchgov-site-handle
+search_site_handle: scinet-usda
 
 # Configuration for projects and team collections
 # See https://jekyllrb.com/docs/collections/ for more information about collections.
@@ -65,5 +64,8 @@ sass:
 # Add code blocks to text
 highlighter: rouge
 
+url: "https://scinet.usda.gov" # the base hostname & protocol for your site
+
 plugins:
   - jekyll-last-modified-at
+  - jekyll-sitemap
