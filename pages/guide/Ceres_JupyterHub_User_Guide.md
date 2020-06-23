@@ -32,7 +32,7 @@ layout: page
   * Easy ways to convert analyses and results into shareable formats ([nbconvert](https://nbconvert.readthedocs.io/en/latest/)) such as slides, html, pdf, latex, etc.
   * Ease of sharing, collaborating, and archiving analyses and results
   * A broad software stack that works with other Open Source projects, such as:
-    * [My Binder]()
+    * [My Binder](https://mybinder.org/)
     * [repo2docker](https://github.com/jupyter/repo2docker)
     * GitHub (renders notebooks)
     * Access and authentication to arbitrary external processes (such as RStudio Server, Shiny Server, PostgreSQL, etc) via [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/).
@@ -68,8 +68,8 @@ The simplist and most succinct method to launch JupyterLab is thru the JupyterHu
    * <u><i> Working Directory</i></u> (Optional): The directory to launch JupyterLab. An example may be */lustre/project/name_of_project*, defaults to your $HOME directory.
 
    **Container Options**
-   * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to luanch JupyterLab with a container, specify the Ceres path or Hub URL to the container.
-   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](http://singularity.lbl.gov/archive/docs/v2-3/docs-exec). An example may be *--bind /lustre/project/name_of_project*.
+   * <u><i>Full Path to the Container</i></u>  (Optional): If you wish to launch JupyterLab with a container, specify the Ceres path or Hub URL to the container.
+   * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](https://sylabs.io/guides/3.5/user-guide/cli/singularity_exec.html). An example may be *--bind /lustre/project/name_of_project*.
 
 4. **Terminating JupyterLab**
   
@@ -96,7 +96,7 @@ The default environment includes:
   * Slurm que manager
 
 ## Bring Your Own Environment
-  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a Jupyter Kernel installed, JupyterLab will detect this environmnet as a seperate kernel. For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab.
+  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a ```Jupyter Kernel installed``` (i.e. IPyKernel, IRKernel, IJulia, idl_kernel, etc...), JupyterLab will detect this environmnet as a seperate kernel (assuming it is not the *base* environment). For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab. The one exception to this is the *base* environment, which already exists in the defualt Jupyter environment, and will not be loaded from your home directory.
 
 ## Use Ceres Maintained Software
   The default environment includes an extension (located on the left vertical section of JupyterLab) to load Ceres software into the current environment. This is the software visible with the `module avail` command.
@@ -104,9 +104,9 @@ The default environment includes:
 ## Containerized Environment
 JupyterHub will spawn an instance of JupyterLab using a singularity container (see the container options above). The container selected needs to have JupyterLab installed. Users can specify a container in the <i>Container Path</i> section on the Spawner Options page. There are several ways to access containers on Ceres:
    * Pointing to a prebuilt container either maintained by the yourself or by the VRSC (located at `/references/containers/`).
-   * Pointing to a prebuilt container on an external hub, such as [Docker Hub](https://hub.docker.com/) or [Singularity Hub](https://singularity-hub.org/). **When launching JupyterLab from a container located on a <i>Hub</i> for the first time, it will take 1-10 minutes** to start JupyterLab because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is now cached in your $HOME directory). If the container is modified on the <i>Hub</i>, it will be re-downloaded, built, and cached.
+   * Pointing to a prebuilt container on an external hub, such as [Docker Hub](https://hub.docker.com/) or [Singularity Hub](https://cloud.sylabs.io/library). **When launching JupyterLab from a container located on a <i>Hub</i> for the first time, it will take 1-10 minutes** to start JupyterLab because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is now cached in your $HOME directory). If the container is modified on the <i>Hub</i>, it will be re-downloaded, built, and cached.
      1. An example input into *Container Path*: ```docker://jupyter/datascience-notebook```
-     2. Project Jupyter maintains a set of containers ([Jupyter Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#image-relationships)) which include:
+     2. Project Jupyter maintains a set of containers ([Jupyter Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)) which include:
         * [Scipy-Notebook](https://hub.docker.com/r/jupyter/scipy-notebook/)
         * [R-Notebook](https://hub.docker.com/r/jupyter/r-notebook/)
         * [Tensorflow-Notebook](https://hub.docker.com/r/jupyter/tensorflow-notebook/)
