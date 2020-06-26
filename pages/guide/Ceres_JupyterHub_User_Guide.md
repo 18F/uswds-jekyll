@@ -29,6 +29,7 @@ layout: page
   * Interactive data exploration features
   * A browser based user interface, making it easy to work on remote systems such as HPC and Cloud
   * Language agnostic (supports >130 kernels)
+  * Upload/Download files between remote and local systems
   * Easy ways to convert analyses and results into shareable formats ([nbconvert](https://nbconvert.readthedocs.io/en/latest/)) such as slides, html, pdf, latex, etc.
   * Ease of sharing, collaborating, and archiving analyses and results
   * A broad software stack that works with other Open Source projects, such as:
@@ -40,7 +41,7 @@ layout: page
   * An open source code base
  
 ---
-# Launching Jupyter
+# Launching JupyterLab
 There are multiple approaches for accessing the Jupyter stack on Ceres. 
 
 * Port Foward with Putty - [Video Coming Soon]()
@@ -134,11 +135,5 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container (s
 ## Tutorials and Packages for Parallel Computing
 Developing code/scripts that utilize resources of a cluster can be challenging. Below are some software packages that may assist in parallelizing computations as well as links to some Ceres specific examples.
 
-  1. Python - [Dask](https://dask.org/)<br>
-  2. Python - [Ipyparallel](https://ipyparallel.readthedocs.io/en/latest/)<br>
-  3. Python - [Ray](https://ray.readthedocs.io/en/latest/)<br>
-  4. Python - [Joblib](https://joblib.readthedocs.io/en/latest/)<br>
-  1. R - [rslurm](http://cyberhelp.sesync.org/rslurm/)<br>
-  2. R - [Parallel](https://www.rdocumentation.org/packages/parallel/versions/3.6.2)<br>
-  3. R - [doParallel](https://cran.r-project.org/web/packages/doParallel/doParallel.pdf)<br>
-  4. R - [Snow](https://cran.r-project.org/web/packages/snow/snow.pdf)<br>
+  1. Python - [Dask](https://dask.org/), [Ipyparallel](https://ipyparallel.readthedocs.io/en/latest/), [Ray](https://ray.readthedocs.io/en/latest/), [Joblib](https://joblib.readthedocs.io/en/latest/)<br>
+  1. R - [rslurm](http://cyberhelp.sesync.org/rslurm/), [Parallel](https://www.rdocumentation.org/packages/parallel/versions/3.6.2), [doParallel](https://cran.r-project.org/web/packages/doParallel/doParallel.pdf), [Snow](https://cran.r-project.org/web/packages/snow/snow.pdf)<br>
