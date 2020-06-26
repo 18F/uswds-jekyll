@@ -39,7 +39,9 @@ layout: page
     * Access and authentication to arbitrary external processes (such as RStudio Server, Shiny Server, PostgreSQL, etc) via [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/).
   * Customizability and Extensibility
   * An open source code base
- 
+  
+  For more details about Jupyter and why you may want to use it for computational research see: [Why Jupyter](why_jupyter.md)
+
 ---
 # Launching JupyterLab
 There are multiple approaches for accessing the Jupyter stack on Ceres. 
