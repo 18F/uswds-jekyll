@@ -91,6 +91,7 @@ Below is a video (COMING SOON) showing the above process.
 The default environment includes:
   * Python, IDL, R kernels.
   * JupyterLab (and/or Jupyter Notebook)
+  * Rstudio (launch as an external process from within JupyterLab)
   * User conda environments (see below for details)
   * Ability to load Ceres maintained software (see below)
   * Slurm que manager
