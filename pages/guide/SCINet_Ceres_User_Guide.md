@@ -140,7 +140,7 @@ For more information on available software and software installs refer to sectio
 ### ssh
 Users can connect directly to Ceres using an ssh client. ssh is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell):
 ```
-$ ssh <your_username>@ceres.scinet.usda.gov
+$ ssh <SCINet UserID>@ceres.scinet.usda.gov
 ```
 
 For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](/guide/quickstart))
@@ -152,7 +152,7 @@ When you log in to SCINet HPC you will be on the Ceres login node. The login nod
 Logins to the Ceres cluster require the use of multi-factor authentication (MFA). Ceres uses Google Authenticator (GA) for MFA. Information required to set up your SCINet GA account is sent along with the temporary password in the Welcome email. When ssh-ing to the cluster you will first be prompted for Verification Code, and then for password. **Note that when you type the code or the password, nothing will be shown on the screen.** See detailed instructions in the [MFA guide](/guide/multifactor).
 
 ### Password expiration
-When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 90 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command  `passwd`  on the Ceres login node. **When prompted for the current password, users need to enter the old (possibly expired) password**.
+When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 60 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command  `passwd`  on the Ceres login node. **When prompted for the current password, users need to enter the old (possibly expired) password**.
 
 If you have forgotten your login password, please email the VRSC: [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=forgot%20login%20password)
 
