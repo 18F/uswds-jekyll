@@ -58,7 +58,7 @@ This video includes:
 
 Ceres is the dedicated high performance computing (HPC) infrastructure for ARS researchers on ARS SCINet. Ceres is designed to enable large-scale computing and large-scale storage. The original cluster had a total of 64 regular compute nodes and 5 high-memory nodes. In 2018-2019 additional nodes have been purchased. Currently, the following compute nodes are available on the Ceres cluster.
 
-65 nodes, each having:
+56 nodes, each having:
 
 * 40 logical cores on 2 x 10 core Intel Xeon Processors (E5-2670 v2 2.50GHz 25MB Cache) with hyper-threading turned ON
 * 128GB DDR3 ECC Memory
@@ -66,31 +66,31 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-20 new nodes, each having:
+92 new nodes, each having:
 
-* 72 logical cores on 2 x 18 core Intel Xeon Processors (6140 2.30GHz 25MB Cache) with hyper-threading turned ON
+* 72 logical cores on 2 x 18 core Intel Xeon Processors (6140 2.30GHz 25MB Cache or 6240 2.60GHz 25MB Cache) with hyper-threading turned ON
 * 384GB DDR3 ECC Memory
 * 250GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-2 new large memory nodes, each having:
+4 new large memory nodes, each having:
 
-* 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache) with hyper-threading turned ON
+* 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
 * 768GB DDR3 ECC Memory
 * 250GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-3 new large memory nodes, each having:
+9 new large memory nodes, each having:
 
-* 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache) with hyper-threading turned ON
+* 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
 * 1,536GB DDR3 ECC Memory
 * 250GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-5 high memory nodes, each having:
+4 high memory nodes, each having:
 
 * 120 logical cores on 4 x 15 Intel Xeon Processors (E7­4880 v2 2.50GHz 37.5MB Cache) with hyper-threading turned ON
 * 1,536GB DDR ECC Memory
@@ -111,13 +111,13 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 
 In addition there are two local specialized data transfer nodes and several service nodes.
 
-In aggregate, there are more than 2500 compute cores (5000 logical cores) with 27 terabytes (TB) of total RAM, 150TB of total local storage, and 2.4 petabyte (PB) of shared storage.
+In aggregate, there are more than 5000 compute cores (10000 logical cores) with 65 terabytes (TB) of total RAM, 250TB of total local storage, and 4.7 petabyte (PB) of shared storage.
 
-Shared storage consists of 1.8PB high-performance BeeGFS space and 600TB of backed-up ZFS space.
+Shared storage consists of 2.3PB high-performance Lustre space, 1.8PB high-performance BeeGFS space and 600TB of backed-up ZFS space.
 
 
 # System Configuration
-Since most HPC compute nodes are dedicated to running HPC cluster jobs, direct access to the nodes is discouraged. The established HPC best practice is to provide login nodes. Users access a login node to submit jobs to the cluster’s resource manager (SLURM), and access other cluster console functions. All nodes run on Linux CentOS 7.6.
+Since most HPC compute nodes are dedicated to running HPC cluster jobs, direct access to the nodes is discouraged. The established HPC best practice is to provide login nodes. Users access a login node to submit jobs to the cluster’s resource manager (SLURM), and access other cluster console functions. All nodes run on Linux CentOS 7.8.
 
 ## Software Environment
 
@@ -137,7 +137,7 @@ For more information on available software and software installs refer to sectio
 
 # System Access
 ## Logging in to SCINet
-
+### ssh
 Users can connect directly to Ceres using an ssh client. ssh is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell):
 ```
 $ ssh <your_username>@ceres.scinet.usda.gov
@@ -145,16 +145,20 @@ $ ssh <your_username>@ceres.scinet.usda.gov
 
 For older Microsoft Windows machines, we recommend using PuTTY or OpenSSH (see the [Quick Start Guide](/guide/quickstart))
 
-Logins to the Ceres cluster require the use of multi-factor authentication (MFA). Ceres uses Google Authenticator (GA) for MFA. On your first attempt to ssh to the cluster a GA code will be created for you and an email with MFA login instructions will be sent to the email you specified when requesting SCINet account.
+When you log in to SCINet HPC you will be on the Ceres login node. The login node is a shared resource among all SCINet users that are currently logged in to the system. **Please do NOT run computationally or memory intensive tasks on the login node, this will negatively impact performance for all other users on the system.** See section [Running Application Jobs on Compute Nodes](#running-application-jobs-on-compute-nodes) for instructions on how to run such tasks on compute nodes.
 
-When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 90 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command  `passwd`  on the Ceres login node. When prompted for the current password, users need to enter the old (possibly expired) password.
+
+### MFA
+Logins to the Ceres cluster require the use of multi-factor authentication (MFA). Ceres uses Google Authenticator (GA) for MFA. Information required to set up your SCINet GA account is sent along with the temporary password in the Welcome email. When ssh-ing to the cluster you will first be prompted for Verification Code, and then for password. **Note that when you type the code or the password, nothing will be shown on the screen.** See detailed instructions in the [MFA guide](/guide/multifactor).
+
+### Password expiration
+When a new SCINet account is created, the temporary password set by the system expires right away. Passwords set by users expire after 90 days. Users can still login to Ceres with the expired password, but they're prompted to change their password right away. Users can also initiate password change on their own by issuing the command  `passwd`  on the Ceres login node. **When prompted for the current password, users need to enter the old (possibly expired) password**.
 
 If you have forgotten your login password, please email the VRSC: [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=forgot%20login%20password)
 
-When you log in to SCINet HPC you will be on the Ceres login node. The login node is a shared resource among all SCINet users that are currently logged in to the system. **Please do NOT run computationally or memory intensive tasks on the login node, this will negatively impact performance for all other users on the system.**
-
 ## File Transfers
 * Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory (see section [Quotas on Home and Project Directories](#quotas-on-home-and-project-directories))
+* Please use one of the data transfer node, e.g. ceres-dtn-1.scinet.usda.gov, instead of the login node to transfer data to/from the cluster. 
 * If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below (section [Large Data Transfers](#large-data-transfers)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
@@ -169,12 +173,12 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To SCINet:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
 2. Transfer From SCINet:
 ```
-$ scp <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+$ scp <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
 ```
 
 To transfer data when logged in to SCINet (the destination filenames are optional):
@@ -186,13 +190,13 @@ $ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFil
 
 2. Transfer From SCINet:
 ```
-$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <Username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
 ```
 
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <PathToSourceFolderOnLocalResource> <Username>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
+$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
@@ -355,7 +359,7 @@ $ my_quotas
 
 If users need more storage than what is available in the home directory, they should visit the [Request a Project Storage](/support/request-storage) page. Several users may work on the same project and share the same project directory.
 
-Project directories are located in the 1.8PB BeeGFS space that is mounted on all nodes as /project. Directories in /project are not backed up, however users can copy important data from a directory in /project to a corresponding directory in /KEEP in ZFS space that is backed up nightly using zsend. **It is not recommended to run jobs from a directory in /KEEP.**
+Project directories are located in the 2.3PB Lustre space that is mounted on all nodes as /lustre/project and is also accessible as /project. Directories in /project are not backed up, however users can copy important data from a directory in /project to a corresponding directory in /KEEP in ZFS space that is backed up nightly using zsend. **It is not recommended to run jobs from a directory in /KEEP.**
 
 Since on Ceres usage and quotas are based on groups, it's important to have files in the home directories to be associated with the users' primary groups, and files in the project directories to be associated with project groups. Sometimes it may happen that files that were originally located in a home directory, were later moved to a project directory with the group ownership preserved. In this case even though files will be located in a project directory, they still will count against home directory quota. To fix this, change the group ownership of these files to the project directory group. The following command will change group association of all files in the project directory in /project (it may take a while if there are too many files in the directory):
 ```
@@ -376,7 +380,7 @@ $ find /KEEP/<project_directory_name> -group <SCINet UserID> -type f
 ## Local Sharing of Files with Other Users
 Users who would like to share files with other users can use the shared_files project directory located at /project/shared_files.
 
-To keep the shared_files directory uncluttered please create a dedicated folder within /project/shared_files for your files. Files stored in the shared_files folder by default are associated with user's primary group that has 1 GB quota.
+To keep the shared_files directory uncluttered please create a dedicated folder within /project/shared_files for your files. Files stored in the shared_files folder by default are associated with user's primary group that has 5 GB quota.
 
 NOTE: Files created in the shared_files folder by default are accessible to everybody on the system. Thus, this mechanism for sharing should only be used for files of a non-confidential nature.
 
@@ -391,7 +395,11 @@ Ceres uses Simple Linux Utility for Resource Management (SLURM) to submit intera
 
 ## Partitions or Queues
 
-Compute jobs are run on functional groups of nodes called partitions or queues. Each different partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). Some nodes appear in several partitions. The following table lists the main partitions. The low partitions allow all users submit short jobs to the new nodes that have been purchased by several groups.
+Compute jobs are run on functional groups of nodes called partitions or queues. Each different partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). Nodes may appear in several partitions. 
+
+Some of the Ceres compute nodes have been purchased by individual researchers or research groups. These nodes are available to the owners in the priority* partitions but can also be used by anyone on the cluster through \*-low and scavenger* partitions. These partitions have been introduced to increase usage of the priority nodes while still allowing node owners to have guaranteed fast access to priority nodes. All \*-low partitions have 2-hour time limit. Scavenger* partitions have 3-weeks time limit, but jobs in this partition will be killed when resources are requested for the jobs in priority* partitions. Since jobs in the scavenger* partitions can be killed at any moment, running in those partitions does not affect job priorities in the community partitions.
+
+The following table lists partitions. Number of nodes in a specific partition can be adjusted from time to time and be different from the one published in this document.
 
 #### Community partitions
 
@@ -427,7 +435,7 @@ priority-mem768 | 3 | 2 weeks | 9500 MB | priority nodes with 768 GB memory
 priority-gpu | 1 | 2 weeks | 5250 MB | priority GPU node
 
 
-In addition, **at most 400 cores and 1512 GB of memory can be used by all simultaneously running jobs per user** across all queues. Any additional jobs will be queued but won't start. Each user can submit at most 100 simultaneous jobs to the queue. Currently there is no other limits specific to the partitions.
+**At most 400 cores and 1512 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 400 cores and 1512 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start.
 
 To get current details on all partitions use the following scontrol command:
 ```
