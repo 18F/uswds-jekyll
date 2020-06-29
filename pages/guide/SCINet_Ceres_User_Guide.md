@@ -422,7 +422,7 @@ mem768-low | 3	| 80 | 2 hours	| 9500 MB | priority nodes with 768GB of memory
 mem-low	| 5 | 80 | 2 hours | 19000 MB | priority nodes with 1.5TB of memory
 gpu-low	| 1 | 72 | 2 hours | 5250 MB | priority GPU node
 brief-low | 92 | 72 | 2 hours | 5250 MB | all new nodes with 384GB of memory
-scavenger | 57 | 72, 80 | 21 days | 3100 MB | regular priority nodes available to all users; scavenger jobs can be killed at any moment
+scavenger | 57 | 72, 80 | 21 days | 3100 MB | non-GPU priority nodes; scavenger jobs can be killed at any moment
 scavenger-gpu | 1 | 72 | 21 days | 3100 MB | GPU priority node; jobs can be killed at any moment
 
 #### Priority partitions available only to those users who purchased nodes
