@@ -1,0 +1,29 @@
+
+    Copy/Paste this in your local terminal to ssh tunnel with remote
+    -----------------------------------------------------------------
+    ssh -N -L 4000:10.1.8.73:4000 kerrie.geil@login.scinet.science
+    -----------------------------------------------------------------
+    
+    Password/Token for this session is:
+    -----------------------------------------------------------------
+    password=ueTsF1A80/kwhtgCKrQ8
+
+    Then open a browser on your local machine to the following address
+    ------------------------------------------------------------------
+    http://localhost:4000
+    localhost:4000/?token=ueTsF1A80/kwhtgCKrQ8  (prefix with:https:// if using password)
+    ------------------------------------------------------------------
+    
+Configuration file: /project/geil_scinet-website/scinet-site/_config.yml
+NOTE: Inheriting Faraday::Error::ClientError is deprecated; use Faraday::ClientError instead. It will be removed in or after version 1.0
+Faraday::Error::ClientError.inherited called from /home/kerrie.geil/software/rubybuild2.5.7/lib/ruby/gems/2.5.0/gems/octokit-4.14.0/lib/octokit/middleware/follow_redirects.rb:14.
+[33m   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.[0m
+            Source: /project/geil_scinet-website/scinet-site
+       Destination: /project/geil_scinet-website/scinet-site/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 66.889 seconds.
+ Auto-regeneration: enabled for '/project/geil_scinet-website/scinet-site'
+    Server address: http://10.1.8.73:4000/scinet-site/
+  Server running... press ctrl-c to stop.
+slurmstepd: error: *** JOB 1795648 ON ceres14-compute-59 CANCELLED AT 2020-03-10T14:24:31 ***

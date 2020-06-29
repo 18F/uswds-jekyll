@@ -1,0 +1,201 @@
+# This is the configuration for the site navigation.
+
+# This file defines the structure of various named navigational
+# listings, any of which can be used (with some caveats) as the
+# links in your header, footer, and per-page side navigation.
+#
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+#
+# primary:
+#   links: primary
+#
+primary:
+  - text: Sign up for an account
+    href: /signup/
+  - text: News
+    links:
+      - text: Announcements
+        href: /announcements/
+      - text: User Stories
+        href: /stories/
+      - text: Newsletter
+        href: /newsletter/
+  - text: User Guides
+    links:
+      - text: Quick Start
+        href: /guide/quickstart
+      - text: Ceres User manual
+        href: /guide/ceres
+      - text: Set up Multifactor authetication
+        href: /guide/multifactor
+      - text: Software Overview
+        href: /guide/software
+      - text: Installing R/Python/Perl Packages
+        href: /guide/packageinstall
+      - text: Installing Software with Conda
+        href: /guide/conda
+      - text: Transferring files
+        href: /guide/file-transfer
+      - text: CLC Workbench
+        href: /guide/clc
+      - text: Rstudio
+        href: /guide/rstudio
+      - text: Geneious
+        href: /guide/geneious
+      - text: Galaxy on SCINet
+        href: /guide/galaxy
+      - text: Containers
+        href: /guide/singularity
+  - text: Working Groups
+    href: /training/working-groups
+  - text: Training
+    links:
+      - text: Science Tutorials
+        href: /training/tutorials/
+#      - text: Videos
+#        href: /training/video/
+      - text: Workshops
+        href: /workshops/
+      - text: Bioinformatics Workbook
+        href: /training/bioinformatics-workbook
+      - text: Useful Links
+        href: /training/useful-links
+  - text: Use Cases
+    links:
+#      - text: Research Leader
+#        href: /user/rl/
+#      - text: National Program Leader
+#        href: /user/npl
+      - text: Genomics
+        href: /user/genomics/
+      - text: Plant breeding
+        href: /user/plant-breeding/
+#      - text: Animal breeding
+#        href: /user/animal-breeding/
+      - text: Geospatial
+        href: /user/geospatial/
+      - text: Hydrology
+        href: /user/hydrology/
+
+  - text: Support
+    links:
+      - text: Virtual Research Support Core (VSRC)
+        href: /support/vrsc/
+      - text: FAQ's
+        href: /support/faq/
+      - text: Basecamp User Forum
+        href: /support/basecamp
+      - text: Request Project Storage
+        href: /support/request-storage
+      - text: Request Software
+        href: /support/request-software
+      - text: Request AWS
+        href: /support/request-AWS
+<<<<<<< HEAD
+      - text: Ceres Job Script Generator
+      - href: /support/ceres-job-script
+=======
+#      - text: Ceres Job Script Generator
+#        href: /support/ceres-job-script
+>>>>>>> 5368f78baf849d43b3812676b4e45f296104a892
+  - text: About
+    links:
+      - text: Computer Systems
+        href: /about/compute
+#      - text: Networking
+#        href: /about/networking
+      - text: Organization
+        href: /about/organization
+      - text: People
+        href: /team/
+      - text: Contact
+        href: /about/contact
+  - text: Opportunities
+    links:
+      - text: SAC Membership
+        href: /opportunities/SAC
+      - text: Request a Workshop
+        href: /opportunities/request-workshop
+      - text: Postdocs
+        href: /opportunities/postdocs
+      - text: Upcoming Events
+        href: /opportunities/events
+
+# secondary:
+#   - text: Documentation
+#     href: /docs/
+#   - text: Theme
+#     href: /theme/
+
+#secondary:
+#  - text: Contents
+#    href: /guide/
+
+
+# Uncomment the items below and comment the items above in the `footer` list
+# to use footer link columns in the 'big' footer style.
+footer:
+  - text:
+    links:
+      - text: Policies and Links
+        href: https://usda.gov/policies-and-links
+        external: true
+      - text: Our Performance
+        href: https://usda.gov/our-agency/about-usda/performance
+        external: true
+      - text: Careers
+        href: https://www.usda.gov/oig/contractorform.htm
+        external: true
+      - text: Report Fraud on USDA
+        href: https://www.usda.gov/our-agency/careers
+        external: true
+      - text: Visit OIG
+        href: https://www.usda.gov/oig/
+        external: true
+  - text:
+    links:
+      - text: Plain Writing
+        href: https://usda.gov/plain-writing
+        external: true
+      - text: Open
+        href: https://usda.gov/open
+        external: true
+      - text: FOIA
+        href: https://www.dm.usda.gov/foia/
+        external: true
+      - text: Accessibility Statement
+        href: https://usda.gov/accessibility-statement
+        external: true
+      - text: Privacy Policy
+        href: https://usda.gov/privacy-policy
+        external: true
+  - text:
+    links:
+      - text: Non-Discrimination Statement
+        href: https://usda.gov/non-discrimination-statement
+        external: true
+      - text: Anti-Harassment Policy
+        href: https://www.ascr.usda.gov/civil-rights-statements
+        external: true
+      - text: Information Quality
+        href: https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities
+        external: true
+      - text: USA.gov
+        href: https://www.usa.gov
+        external: true
+      - text: WhiteHouse.gov
+        href: https://www.whitehouse.gov
+        external: true
+  - text:
+    links:
+      - text: eGov
+        href: https://usda.gov/federal-web-site-inventory
+        external: true
+      - text: Feedback
+        href: mailto:scinet_vrsc@usda.gov
+        external: true
+      - text: No FEAR Act Data
+        href: https://usda.gov/nofear
+        external: true
