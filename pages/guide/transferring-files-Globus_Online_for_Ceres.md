@@ -84,7 +84,7 @@ $ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFil
 
 2. Transfer From SCINet:
 ```
-$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <Username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
 ```
 
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
