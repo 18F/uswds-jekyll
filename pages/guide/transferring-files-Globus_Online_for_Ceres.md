@@ -67,7 +67,7 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To SCINet:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
 2. Transfer From SCINet:
