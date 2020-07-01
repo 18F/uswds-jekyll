@@ -67,12 +67,12 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To SCINet:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
 2. Transfer From SCINet:
 ```
-$ scp <Username>@login.scinet.science:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+$ scp <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
 ```
 
 To transfer data when logged in to SCINet (the destination filenames are optional):
@@ -90,7 +90,7 @@ $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <your_username>@<RemoteServer
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <PathToSourceFolderOnLocalResource> <Username>@login.scinet.science:/<PathToDestinationFolderOnSCINet>
+$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
