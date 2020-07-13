@@ -12,6 +12,7 @@ layout: page
 * [Launching Jupyter](#launching-jupyter)
 * [Environments and Software](#environments-and-software)
 * [Best Practices](#best-practices)
+* [Known Issues](#known-issues)
 
 ---
 # Introduction
@@ -139,3 +140,8 @@ Developing code/scripts that utilize resources of a cluster can be challenging. 
 
   1. Python - [Dask](https://dask.org/), [Ipyparallel](https://ipyparallel.readthedocs.io/en/latest/), [Ray](https://ray.readthedocs.io/en/latest/), [Joblib](https://joblib.readthedocs.io/en/latest/)<br>
   1. R - [rslurm](http://cyberhelp.sesync.org/rslurm/), [Parallel](https://www.rdocumentation.org/packages/parallel/versions/3.6.2), [doParallel](https://cran.r-project.org/web/packages/doParallel/doParallel.pdf), [Snow](https://cran.r-project.org/web/packages/snow/snow.pdf)<br>
+
+# Known Issues
+  * Users launching RStudio from JupyterHub for the first time may encounter timeout error. Refreshing the page should fix this.
+
+   <img src="../../assets/img/rstudio_timeout.png" width="300" align="center" hspace="20" border="1">
