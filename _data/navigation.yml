@@ -16,6 +16,8 @@ primary:
     href: /signup/
   - text: News
     links:
+      - text: System Downtime
+        href: /downtime/
       - text: Announcements
         href: /announcements/
       - text: User Stories
@@ -40,6 +42,8 @@ primary:
         href: /guide/file-transfer
       - text: CLC Workbench
         href: /guide/clc
+      - text: Jupyter
+        href: /guide/jupyter
       - text: Rstudio
         href: /guide/rstudio
       - text: Geneious
