@@ -25,7 +25,7 @@ Many open-source scientific software packages are available:
 * [Browse/search](https://anaconda.org/search) all conda packages
 
 The [Bioconda](http://bioconda.github.io/) channel contains thousands of software packages that are useful for bioinformatics.
-*	[Browse/search](https://bioconda.github.io/conda-recipe_index.html) available Bioconda software packages
+*	[Browse/search](https://bioconda.github.io/conda-package_index.html) available Bioconda software packages
 
 
 # Setup
@@ -35,21 +35,22 @@ Before using conda or conda-installed software on Ceres, the *miniconda* environ
 [user.name@ceres ~]$ module load miniconda
 ```
 
-You can check which version of miniconda loaded with:
-```
-[user.name@ceres ~]$ conda --version
-```
-
 You can see all available versions of miniconda on Ceres with:
 ```
 [user.name@ceres ~]$ module spider miniconda
 ```
 
-*(One-time setup)* Before using conda for the first time on Ceres, execute the following commands to configure conda to search the appropriate channels for software:
+*(Optional one-time setup for bioconda users)* If you plan on installing software primarily from the bioconda channel, before using conda for the first time on Ceres, you may wish to configure conda [per the bioconda documentation](http://bioconda.github.io/user/install.html#set-up-channels) to search for software packages in the conda-forge, bioconda, and defaults channels (in that order):
 ```
 [user.name@ceres ~]$ conda config --add channels defaults
 [user.name@ceres ~]$ conda config --add channels bioconda
 [user.name@ceres ~]$ conda config --add channels conda-forge
+```
+
+Otherwise, the conda-forge and then bioconda channels must be specified every time software is installed via `conda install` or `conda create`:
+
+```
+conda install -c conda-forge -c bioconda SOFTWARE_PACKAGE1 SOFTWARE_PACKAGE2...
 ```
 
 
@@ -76,7 +77,7 @@ On Ceres, suitable locations for conda environments housing conda packages inclu
   ```
   [user.name@ceres ~]$ salloc
   [user.name@ceres14-compute-60 ~]$ module load miniconda
-  [user.name@ceres14-compute-60 ~]$ conda activate my_env
+  [user.name@ceres14-compute-60 ~]$ source activate my_env
   (my_env) [user.name@ceres14-compute-60 ~]$ conda install <package_name>
   ...
   ```
@@ -94,11 +95,59 @@ Note that the  `conda create` command used above without the --prefix option wil
 
 To activate the environment (and update environment variables such as PATH that are required to use software installed into this environment):
 ```
-[user.name@ceres ~]$ conda activate trinityenv
+[user.name@ceres ~]$ source activate trinityenv
 (trinityenv) [user.name@ceres ~]$
 ```
 
-NOTE: In older conda versions, use source activate / deactivate instead of by conda activate / deactivate.
+<div class="usa-alert usa-alert-error" role="alert">
+  <div class="usa-alert-body">
+    <h3 class="usa-alert-heading">Do not execute <tt>conda init</tt></h3>
+    <div class="usa-alert-text">
+      In conda &ge; 4.6, if you run <code>conda activate</code>, you will be prompted to run <code>conda init</code> to modify your shell interactive startup script (e.g, ~/.bashrc):
+      <pre>
+[user.name@ceres ~]$ conda activate
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+$ conda init &lt;SHELL_NAME&gt;
+      </pre>
+      This will have the undesirable side effect of modifying your PATH to include that particular version of miniconda every time you log in (even without loading the miniconda environment variable).
+      <p />
+      If you accidentally run <code>conda init</code>, edit your shell intereractive startup file (<code>$HOME/.bashrc</code> for the bash shell) and remove all lines between
+      <br />
+      <code>&gt;&gt;&gt; conda initialize &gt;&gt;&gt;</code>
+      <br />
+      and
+      <br />
+      <code>&lt;&lt;&lt; conda initialize &lt;&lt;&lt;</code>
+      <br /><br />
+
+      <code>conda deactivate</code> may still be used safely.
+      <p />
+      We will continue to monitor the <a href="https://github.com/conda/conda/issues/7980" target="_blank">GitHub issue</a> that describes the problem and other workarounds.
+    </div>
+  </div>
+</div>
+
+<div class="usa-alert-full-width usa-alert-full-width-info" role="region" aria-labelledby="alert-heading">
+  <div class="usa-alert usa-alert-info" aria-live="assertive" role="alert">
+    <div class="usa-alert-body">
+      <h3 class="usa-alert-heading" id="alert-heading"><code>conda activate</code> after <code>source activate</code></h3>
+      <div class="usa-alert-text">
+        <p>
+          If <code>conda activate</code> is needed for some advanced use cases like <a href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#nested-activation" target="_blank">nested ("stacked") environments</a>, it can be used after <code>source activate</code>:
+          <pre>
+[user.name@ceres ~]$ ml miniconda
+[user.name@ceres ~]$ source activate
+(base) [user.name@ceres ~]$ conda activate samtools
+(samtools) [user.name@ceres ~]$
+          </pre>
+        </p> 
+      </div>
+    </div>
+  </div>
+</div>
 
 Now that you are inside the trinityenv environment, install software into this environment with:
 ```
@@ -148,7 +197,7 @@ Load the latest miniconda module if you haven't already and create an environmen
 [user.name@ceres ~]$ module load miniconda
 [user.name@ceres ~]$ conda create --prefix /KEEP/my_proj/tensorflow
 ...
-[user.name@ceres ~]$ conda activate /KEEP/my_proj/tensorflow
+[user.name@ceres ~]$ source activate /KEEP/my_proj/tensorflow
 (/KEEP/my_proj/tensorflow) [user.name@ceres ~]$ conda install tensorflow
 ... 
 ```
@@ -195,7 +244,7 @@ To remove an environment in your home directory:
 ```
 To remove an environment in your /KEEP directory:
 ```
-rm –rf /KEEP/my_proj/tensorflow
+rm -rf /KEEP/my_proj/tensorflow
 ```
 
 To remove packages not used by any environment, as well as tarballs downloaded into the conda package cache ($HOME/.conda/pkgs):
