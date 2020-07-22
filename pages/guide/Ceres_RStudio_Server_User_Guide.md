@@ -53,6 +53,8 @@ The instructions below tell to use RStudio version 3.6.0 . To see other versions
 ls -l /reference/containers/RStudio/
 ```
 
+If you wish to use a different version, replace 3.6.0 below with the version number you choose.
+
 1. (If using VPN) Connect to SCINet VPN (see video instructions): <br>
 [VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/tzGebGAAAqgnTvkyNxc85TYq)<br>
 [VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/MbHvJiPFSgWWvBJ3WRYuMN1p)
