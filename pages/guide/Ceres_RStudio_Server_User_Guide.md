@@ -48,6 +48,13 @@ A few Ceres-specific notes:
 
 The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE)
 
+The instructions below tell to use RStudio version 3.6.0 . To see other versions available on Ceres issue:
+```
+ls -l /reference/containers/RStudio/
+```
+
+If you wish to use a different version, replace 3.6.0 below with the version number you choose.
+
 1. (If using VPN) Connect to SCINet VPN (see video instructions): <br>
 [VPN Using the OpenConnect Client](https://public.3.basecamp.com/p/tzGebGAAAqgnTvkyNxc85TYq)<br>
 [VPN Using the Cisco AnyConnect Client](https://public.3.basecamp.com/p/MbHvJiPFSgWWvBJ3WRYuMN1p)
@@ -56,13 +63,13 @@ The following silent video is a media alternative for the text in steps 1-5 belo
 
 3. Submit the RStudio SLURM job script with the following command:
 ```
-sbatch /reference/containers/RStudio/3.5.0/rstudio.job
+sbatch /reference/containers/RStudio/3.6.0/rstudio.job
 ```
   *(Optional)* By default, this SLURM job is limited to a 4 hour time limit, 1 processor core, and 6600 MB memory. To customize, see the section [Requesting Additional Compute Resources](#requesting-additional-compute-resources) below.
 
 4. After the job has started, view the "$HOME/rstudio-JOBID.out" file for login information (where JOBID is the SLURM job ID reported by the sbatch command).
    ```
-   [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.5.0/rstudio.job
+   [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    Submitted batch job 214664
 
    [jane.user@sn-cn-8-1 ~]$ cat ~/rstudio-214664.out
@@ -145,7 +152,7 @@ Video showing how to ssh to Ceres using the Chrome Secure Shell App:
 The default job resources (4 hour time limit, 1 processor core, 6600 MB memory) may be customized by:
 * sbatch command-line options, e.g., to specify an 8-hour wall time limit, 16 G memory, and 2 processor cores (= 4 hardware threads):
 ```
-sbatch --time=08:00:00 --mem=16G --cpus-per-task=4 /reference/containers/RStudio/3.5.0/rstudio.job
+sbatch --time=08:00:00 --mem=16G --cpus-per-task=4 /reference/containers/RStudio/3.6.0/rstudio.job
 ```
 * Copying the job script to a directory one has write access to and modifying the appropriate SLURM #SBATCH directives.
 * Using the [Ceres Job Script Generator](/support/ceres-job-script) to create a new job RStudio Server job script
