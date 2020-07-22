@@ -6,16 +6,13 @@ author: Kerrie Geil
 layout: page
 ---
 
-The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months. Information on how to attend these events will be posted on this page closer to the event date.
+The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. You need not have any previous knowledge of the tools that will be presented at the workshop. All trainings will take place online (see also [https://software-carpentry.org/lessons/]). Once registered, you will be provided with connection information, and instructions for software installations. All software used is open source, so you must have administrative privileges on your machine.
 
 **Event** | **Date** | **Location** | **How to Participate**
 ---|---|---|---|
-The Unix Shell, Version Control with Git, and Plotting and Programming in Python | July 14 – 15 | 10 AM – 6:00 PM Eastern
-The Unix Shell, Version Control with Git, and R for Reproducible Scientific Analysis | July 22 – 23 | 10 AM – 6:00 PM Eastern
-The Unix Shell, Version Control with Git, and R for Reproducible Scientific Analysis | August 18 – 19| 10 AM – 6:00 PM Eastern
-The Unix Shell, Version Control with Git, and Plotting and Programming in Python |  August 26 -27| 10 AM – 6:00 PM Eastern
-
-see also https://software-carpentry.org/lessons/
+The Unix Shell, Version Control with Git, and R for Reproducible Scientific Analysis | July 22 – 23 | 10 AM – 6:00 PM Eastern | Registration is full but you can follow along at [the course site](https://nairps.github.io/2020-07-22-usda-online/)
+The Unix Shell, Version Control with Git, and R for Reproducible Scientific Analysis | August 18 – 19| 10 AM – 6:00 PM Eastern | Contact Kathy Yeater directly
+The Unix Shell, Version Control with Git, and Plotting and Programming in Python | August 26 -27| 10 AM – 6:00 PM Eastern | Contact Kathy Yeater directly
 
 <br>
 <br>
