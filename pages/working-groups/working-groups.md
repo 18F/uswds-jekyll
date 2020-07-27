@@ -27,20 +27,22 @@ Ag100Pest teams are developing best practices in many arenas from process and da
 This initiative enhances the agency’s contribution to two international genome sequencing projects – [i5K](http://i5k.github.io/) (the 5000 insect genomes initiative) and the [Earth BioGenome Project](https://www.earthbiogenome.org/) (to sequence the genomes of all of the world’s 1.5 million animals and plants).
 
 
-**Executive Coordination Team**<br>
-Anna Childers, Project Lead<br>
-Brian Scheffler, Technical Lead<br>
-Kevin Hackett, National Program Leader<br>
+**Executive Coordination Team**| Role |
+---|---|
+Anna Childers| Project Lead
+Brian Scheffle| Technical Lead
+Kevin Hackett| National Program Leader
 
-**Core Leadership Group**<br>
-Brad Coates, Technology Transfer Team Lead<br>
-Scott Geib, Extraction/Pre-Sequencing Team Lead<br>
-Brian Scheffler, Sequencing Team Co-Lead<br>
-Tim Smith, Sequencing Team Co-Lead<br>
-Anna Childers, Assembly and Analysis Team Lead<br>
-Monica Poelchau, Post-Assembly Team Co-Lead<br>
-Chris Childers, Post-Assembly Team Co-Lead<br>
-Kevin Hackett, National Program Leader<br>
+**Core Leadership Group**| Role |
+---|---|
+Brad Coates| Technology Transfer Team Lead
+Scott Geib| Extraction/Pre-Sequencing Team Lead
+Brian Scheffler| Sequencing Team Co-Lead
+Tim Smith| Sequencing Team Co-Lead
+Anna Childers| Assembly and Analysis Team Lead
+Monica Poelchau| Post-Assembly Team Co-Lead
+Chris Childers| Post-Assembly Team Co-Lead
+Kevin Hackett| National Program Leader
 
 
 Please contact a member of the Executive Coordination Team for more information.
@@ -83,21 +85,21 @@ This working group was formed as the result of an August 2019 SCINet-funded work
 
 Since SCINet has now been operational for a few years with many research groups utilizing the HPC environment, effective policies are critically important to successful operations. This committee, formed in 2020 by Deb Peters (ARS CSIO), makes recommendations to the SCINet Executive Committee on policies and procedures that are relevant to SCINet operations. The committee is comprised of members from various technical backgrounds, with representation from different ARS geographic areas. Membership also includes representatives from Iowa State University (ISU) and Mississippi State University (MSU; where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. For more information, including how to participate, please contact Jonathan Shao (chair).
 
-**Current Membership**<br>
-Jonathan Shao (Chair),	Northeast Representative<br>
-Steven Schroeder,	Northeast Representative<br>
-Dereck Bickhart,	Midwest Representative<br>
-Corey Moffet,	Plains Representative<br>
-Erin Scully,	Plains Representative<br>
-Joshua Udall,	Plains Representative<br>
-Loren Honaas,	Pacificwest Representative<br>
-Stan Kosecki,	NAL Representative<br>
-Curtis Brooks,	GWCC Representative<br>
-Jim Coyle,	ISU Representative<br>
-Vincent Sanders,	MSU-HPCC Representative<br>
-Angela Pompey,	Information Security<br>
-Chris Lowe,	Information Security<br>
-Deb Peters,	CSIO<br>
+ **Current Membership** | Role|
+ ---|---|
+Jonathan Shao (Chair)|	Northeast Representative
+Steven Schroeder| Northeast Representative
+Dereck Bickhart|	Midwest Representative
+Corey Moffet| Plains Representative
+Erin Scully| Plains Representative
+Joshua Udall| Plains Representative
+Loren Honaas|	Pacific West Representative
+Stan Kosecki|	NAL Representative
+Curtis Brooks|	GWCC Representative
+Jim Coyle|	ISU Representative
+Vincent Sanders|	MSU-HPCC Representative
+Chris Lowe|	Information Security
+Deb Peters|	CSIO
 
 <br>
 

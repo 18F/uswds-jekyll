@@ -42,6 +42,8 @@ primary:
         href: /guide/file-transfer
       - text: CLC Workbench
         href: /guide/clc
+      - text: Jupyter
+        href: /guide/jupyter
       - text: Rstudio
         href: /guide/rstudio
       - text: Geneious
