@@ -97,8 +97,9 @@
           {% if site.search_site_handle  %}
             {% include components/search.html %}
           {% endif %}
+        {% endif %}
 
-          {% if header.type == 'extended' or header.type == 'extended-mega' %}
+        {% if header.type == 'extended' or header.type == 'extended-mega' %}
           {% assign _secondary = header.secondary %}
           <div class="usa-nav__secondary">
             <ul class="usa-unstyled-list usa-nav__secondary-links">
