@@ -11,6 +11,7 @@ node_modules/
 .rvmrc
 
 # Jekyll stuff
+.jekyll-cache
 .jekyll-metadata
 .jekyll-cache
 _site

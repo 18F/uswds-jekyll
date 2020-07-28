@@ -271,7 +271,7 @@ The default colors can be configured in the `_data/theme.yml` file. Other settin
 Before configuring your search you will need to create a search.gov account and set up your website
 with search.gov.
 
-After setting up your site on search.gov you can then add your `site handle` to the `config.yml`.
+After setting up your site on search.gov you can then add your `search_site_handle` to the `config.yml`.
 
 ### Analytics
 
