@@ -1,0 +1,187 @@
+---
+---
+// Modifying this file can can cause the theme to break.
+// It should only be modified by an advanced user.
+
+// import project theme settings
+@import 'uswds-theme-settings';
+
+// import theme override settings
+@import 'uswds-theme-override-settings';
+
+// Setting site width
+{% if site.site_width %}
+  $theme-header-max-width: "full";
+  $theme-banner-max-width: "full";
+{% endif %}
+
+// import uswds
+@import 'uswds-theme-packages';
+
+// set jekyll overrides
+// Nav buttons
+{% for item in site.data.navigation.primary %}
+  {% if item.class %}
+    @import 'uswds/components/nav-buttons';
+  {% break %}
+  {% endif %}
+{% endfor %}
+
+// Setting site width
+{% if site.site_width %}
+  @import 'uswds/components/site-width';
+{% endif %}
+
+{% if site.data.navigation.sidenav-breakpoint %}
+  $theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint }}';
+{% endif %}
+
+// Banner colors
+{% assign colors_banner = site.data.theme.colors.usa-banner %}
+{% if colors_banner.usa-banner-bg %}
+  $usa-banner-bg: '{{ colors_banner.usa-banner-bg }}';
+{% endif %}
+{% if colors_banner.usa-banner-text %}
+  $usa-banner-text: '{{ colors_banner.usa-banner-text }}';
+{% endif %}
+{% if colors_banner.usa-banner-link %}
+  $usa-banner-link: '{{ colors_banner.usa-banner-link }}';
+{% endif %}
+{% if colors_banner.usa-banner-link-hover %}
+  $usa-banner-link-hover: '{{ colors_banner.usa-banner-link-hover }}';
+{% endif %}
+
+// Header colors
+{% assign colors_header = site.data.theme.colors.header %}
+{% if colors_header.header-bg %}
+  $header-bg: '{{ colors_header.header-bg }}';
+{% endif %}
+{% if colors_header.header-title %}
+  $header-title: '{{ colors_header.header-title }}';
+{% endif %}
+{% if colors_header.header-link %}
+  $header-link: '{{ colors_header.header-link }}';
+{% endif %}
+{% if colors_header.header-link-hover %}
+  $header-link-hover: '{{ colors_header.header-link-hover }}';
+{% endif %}
+
+// Top nav colors
+{% assign colors_nav = site.data.theme.colors.top-navigation %}
+{% if colors_nav.top-nav-bg %}
+  $top-nav-bg: '{{ colors_nav.top-nav-bg }}';
+{% endif %}
+{% if colors_nav.top-nav-link %}
+  $top-nav-link: '{{ colors_nav.top-nav-link }}';
+{% endif %}
+{% if colors_nav.top-nav-link-hover %}
+  $top-nav-link-hover: '{{ colors_nav.top-nav-link-hover }}';
+{% endif %}
+{% if colors_nav.top-nav-link-hover-bg %}
+  $top-nav-link-hover-bg: '{{ colors_nav.top-nav-link-hover-bg }}';
+{% endif %}
+{% if colors_nav.top-nav-link-current %}
+  $top-nav-link-current: '{{ colors_nav.top-nav-link-current }}';
+{% endif %}
+{% if colors_nav.top-nav-dropdown-bg %}
+  $top-nav-dropdown-bg: '{{ colors_nav.top-nav-dropdown-bg }}';
+{% endif %}
+{% if colors_nav.top-nav-dropdown-link %}
+  $top-nav-dropdown-link: '{{ colors_nav.top-nav-dropdown-link }}';
+{% endif %}
+{% if colors_nav.top-nav-dropdown-link-hover-bg %}
+  $top-nav-dropdown-link-hover-bg: '{{ colors_nav.top-nav-dropdown-link-hover-bg }}';
+{% endif %}
+
+// Sidenav colors
+{% assign colors_sidenav = site.data.theme.colors.side-navigation %}
+{% if colors_sidenav.side-nav-bg %}
+  $side-nav-bg: '{{ colors_sidenav.side-nav-bg }}';
+{% endif %}
+{% if colors_sidenav.side-nav-link %}
+  $side-nav-link: '{{ colors_sidenav.side-nav-link }}';
+{% endif %}
+{% if colors_sidenav.side-nav-link-hover %}
+  $side-nav-link-hover: '{{ colors_sidenav.side-nav-link-hover }}';
+{% endif %}
+{% if colors_sidenav.side-nav-link-hover-bg %}
+  $side-nav-link-hover-bg: '{{ colors_sidenav.side-nav-link-hover-bg }}';
+{% endif %}
+{% if colors_sidenav.side-nav-link-current %}
+  $side-nav-link-current: '{{ colors_sidenav.side-nav-link-current }}';
+{% endif %}
+
+// Hero colors
+{% assign colors_hero = site.data.theme.colors.hero %}
+{% if colors_hero.hero-bg %}
+  $hero-bg: '{{ colors_hero.hero-bg }}';
+{% endif %}
+{% if colors_hero.hero-header-alt %}
+  $hero-header-alt: '{{ colors_hero.hero-header-alt }}';
+{% endif %}
+{% if colors_hero.hero-header %}
+  $hero-header: '{{ colors_hero.hero-header }}';
+{% endif %}
+{% if colors_hero.hero-text %}
+  $hero-text: '{{ colors_hero.hero-text }}';
+{% endif %}
+{% if colors_hero.hero-link %}
+  $hero-link: '{{ colors_hero.hero-link }}';
+{% endif %}
+{% if colors_hero.hero-button-bg %}
+  $hero-button-bg: '{{ colors_hero.hero-button-bg }}';
+{% endif %}
+{% if colors_hero.hero-button-text %}
+  $hero-button-text: '{{ colors_hero.hero-button-text }}';
+{% endif %}
+
+// Alt section colors
+{% assign colors_alt = site.data.theme.colors.alt-section %}
+{% if colors_alt.bg-color %}
+  $alt-section-bg: '{{ colors_alt.bg-color }}';
+{% endif %}
+{% if colors_alt.header-color %}
+  $alt-section-header: '{{ colors_alt.header-color }}';
+{% endif %}
+{% if colors_alt.text-color %}
+  $alt-section-text: '{{ colors_alt.text-color }}';
+{% endif %}
+{% if colors_alt.link-color %}
+  $alt-section-link: '{{ colors_alt.link-color }}';
+{% endif %}
+{% if colors_alt.link-hover-color %}
+  $alt-section-link-hover: '{{ colors_alt.link-hover-color }}';
+{% endif %}
+
+// Footer colors
+{% assign colors_footer = site.data.theme.colors.footer %}
+{% if colors_footer.primary-footer-bg %}
+  $primary-footer-bg: '{{ colors_footer.primary-footer-bg }}';
+{% endif %}
+{% if colors_footer.primary-footer-link %}
+  $primary-footer-link: '{{ colors_footer.primary-footer-link }}';
+{% endif %}
+{% if colors_footer.footer-bg %}
+  $footer-bg: '{{ colors_footer.footer-bg }}';
+{% endif %}
+{% if colors_footer.footer-text %}
+  $footer-text: '{{ colors_footer.footer-text }}';
+{% endif %}
+{% if colors_footer.footer-link %}
+  $footer-link: '{{ colors_footer.footer-link }}';
+{% endif %}
+{% if colors_footer.footer-social-link %}
+  $footer-social-link: '{{ colors_footer.footer-social-link }}';
+{% endif %}
+
+// import jekyll uswds override styles
+@import 'uswds/components/all';
+
+// import theme styles
+@import 'uswds/custom/uswds-theme-custom-styles';
+
+// import conversion variables
+@import 'uswds/settings/uswds-conversion-variables';
+
+// import user custom styles
+@import 'uswds-theme-custom-styles';

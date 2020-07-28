@@ -1,21 +1,14 @@
 {% if hero %}
-<section class="usa-hero"{% if hero.image %}
-  style="background-image: url('{{ hero.image | relative_url }}')"{% endif %}>
-  <div class="usa-grid">
-    <div class="usa-hero-callout usa-section-dark">
+<section class="usa-hero"{% if hero.image %} style="background-image: url({{ hero.image }})"{% endif %} aria-label="Introduction";>
+  <div class="grid-container">
+    <div class="usa-hero__callout">
       {% if hero.callout %}
-      <h2>
+      <h1 class="usa-hero__heading">
         {% if hero.callout.alt %}
-        <span class="usa-hero-callout-alt">{{ hero.callout.alt }}</span>
+        <span class="usa-hero__heading--alt">{{ hero.callout.alt }}</span>
         {% endif %}
         {{ hero.callout.text | default: hero.callout }}
-      </h2>
-      {% endif %}
-
-      {% if hero.link %}
-      <a class="usa-hero-link" href="{{ hero.link.href | relative_url }}">
-        {{ hero.link.text }}
-      </a>
+      </h1>
       {% endif %}
 
       {{ hero.content | markdownify }}
