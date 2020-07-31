@@ -202,9 +202,9 @@ Load the latest miniconda module if you haven't already and create an environmen
 ... 
 ```
 
-Note: conda first downloads packages into a package cache directory. By default, the package cache is in your home directory  ($HOME/.conda/pkgs). If installing a large amount of software that may cause home directory quota to be exceeded, you can configure another directory to be the package cache by adding a pkg_dirs list to the $HOME/.condarc file (YAML); e.g.:
+Note: conda first downloads packages into a package cache directory. By default, the package cache is in your home directory  ($HOME/.conda/pkgs). If installing a large amount of software that may cause home directory quota to be exceeded, you can configure another directory to be the package cache by adding a pkgs_dirs list to the $HOME/.condarc file (YAML); e.g.:
 
-`pkg_dirs:`
+`pkgs_dirs:`
   
   `- /KEEP/my_proj/my_pkg_cache`
   
