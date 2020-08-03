@@ -10,7 +10,7 @@ layout: page
 
 Ceres has a Geneious Server setup. This server is also providing 20 floating licenses for Ceres users use.
 
-To use the Geneious server you will need to be at an "integrated site", use the VPN, or use SSH tunneling.
+To use the Geneious server you will need to be at an "integrated site" (listed below), use [SCINet ocvpn](https://3.basecamp.com/3625179/buckets/5538276/vaults/1070659735), or use SSH tunneling.
 
 Caveats:
 * Integrated sites currently include: Clay Center, NE; Albany, CA; Stoneville, MS; Fort Collins, CO; Beltsville, MD.  
