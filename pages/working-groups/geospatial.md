@@ -37,7 +37,7 @@ Much of this year's workshop will be interactive follow-along tutorials for whic
 
 - 8/25/2020, 11am-2pm MDT, [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
 
-- 8/27/2020, 11am-1pm MDT, [Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, basic linux, SLURM batch script)](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script
+- 8/27/2020, 11am-1pm MDT, [Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, basic linux, SLURM batch script)](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script)
 
 - 8/27/2020, 1:30-2:30pm MDT, [Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
 
