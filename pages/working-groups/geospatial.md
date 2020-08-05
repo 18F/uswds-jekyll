@@ -19,27 +19,34 @@ Rowan Gaffney | Physical Scientist | Ft Collins, CO
 
 ## Workshops
 
-### Upcoming: 2020 Meeting of the SCINet Geospatial Research Working Group
+### Upcoming: SCINet Geospatial Workshop 2020
 
-**Aug - Sep 2020  &middot;   remotely on Zoom   &middot;   lead: Kerrie Geil, Rowan Gaffney**
+**Aug 25 - Sep 1, 2020  &middot;   remotely on Zoom   &middot;   lead: Kerrie Geil, Rowan Gaffney**
 
-The working group has an upcoming workshop to be held remotely as multiple sessions on Zoom from 11am - 2pm Mountain time on August 25, 27, 28, and September 1. Participation in all sessions not required; participants can pick and choose which sessions to attend based on their interest and experience. Link to the workshop website with more information coming soon.
+The working group will hold their annual workshop over 6 separate sessions on Zoom. 
 
-Topics to be covered will include: 
+Participation in all sessions is not required. We hope everyone will join Session 1: Annual Meeting of the Working Group (non-members welcome) and then pick and choose which other sessions to attend based on interest and computational skill level. 
 
-- a recap from the 2019 workshop, 
-- progress on the Ceres geospatial common data library, 
-- progress on the geospatial workbook computing tutorials, 
-- hands-on tutorial training: 
-    - how to access the Ceres HPC, use JupyterHub (and RStudio) on the Ceres HPC, linux basics 
-    - introduction to distributed computing on the Ceres HPC (Python)
-    - approaches for reproducible research computing (containers, Python environments, workflow tools)
-    - distributed Machine Learning using Xgboost with NDVI, soil, and climate data (Python)
-- speaker day with panel session: "Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture"
+Much of this year's workshop will be interactive follow-along tutorials for which participants will need to already have or [apply for a SCINet account](/signup/). If you need to apply for an account we recommend you do so no later than 8/12/2020 as the account approval process can take 1-2 weeks and then there are a couple additional steps to take before you can successfully access your account (instructions provided upon account approval). Attend Session 0 of the workshop if you are having trouble accessing your account.
 
-There will also be a premeeting session on August 19 from 11am-1pm Mountain time to ensure participants have a functioning SCINet/Ceres account to enable participation in the hands-on tutorial sessions.
+**Visit the [workshop website](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/) to register for each session you plan to attend.**
 
-**Please contact Kerrie Geil and Rowan Gaffney if you would like information on how to participate. Non-members are welcome!**
+Quick links to the session details:
+
+8/19/2020, 11am-1pm MDT, [Session 0: Pre-meeting SCINet Account Login Assistance](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-0-pre-meeting-scinet-account-login-assistance)
+
+8/25/2020, 11am-2pm MDT, [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
+
+8/27/2020, 11am-1pm MDT, [Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, basic linux, SLURM batch script)](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script
+
+8/27/2020, 1:30-2:30pm MDT, [Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
+
+8/28/2020, 10:30am-12:30pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools (Git/Github, Conda, Docker/Singularity containers](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-4-tutorial-computational-reproducibility-tools-gitgithub-conda-dockersingularity-containers)
+
+8/28/2020, 1:00-2:30pm MDT, [Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
+
+9/1/2020, 11am-2pm MDT, [Session 6 Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
+
 
 <br>
 <br>
