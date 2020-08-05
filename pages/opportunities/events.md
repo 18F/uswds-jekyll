@@ -12,7 +12,7 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 ---|---|---|---|
 The Unix Shell, Version Control with Git, and R for Reproducible Scientific Analysis | 8/18 – 8/19| 10 AM – 6:00 PM Eastern | Zoom | Contact Kathy Yeater directly
 The Unix Shell, Version Control with Git, and Plotting and Programming in Python | 8/26 -8/27| 10 AM – 6:00 PM Eastern | Zoom | Contact Kathy Yeater directly
-SCINet Geospatial Workshop Session 1: Annual Meeting of the SCINet Geospatial Research WG (non-members welcome) | 8/25 | 11AM-2PM MDT | Register at https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/ (USDA ARS & collaborators only)
+SCINet Geospatial Workshop Session 1: Annual Meeting of the SCINet Geospatial Research WG (non-members welcome) | 8/25 | 11AM-2PM MDT | Zoom | Register at https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/ (USDA ARS & collaborators only)
 
 
 <br>
