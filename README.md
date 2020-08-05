@@ -553,7 +553,7 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
 1. Add any custom styles to `/_sass/custom/`
 1. `_sass` folder needs to be at the root level, not in assets.
-1. Convert manual values to tokenzied values using the guidance on the [USWDS migration page](https://designsystem.digital.gov/documentation/migration/#spacing-units).
+1. Convert manual values to tokenized values using the guidance on the [USWDS migration page](https://designsystem.digital.gov/documentation/migration/#spacing-units).
 1. Don't duplicate the `h1` in the body content of `page` template pages. (This is automatically inserted at the top with the content of `page.title`.)
 1. Check that certain data keys exist
 
