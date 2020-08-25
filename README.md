@@ -38,7 +38,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Post](#layout-post)
    - [Project](#layout-project)
    - [Team member](#layout-team-member)
-1. [Migrating from earlier versions](#migrating-from-earlier-versions)
+1. [Migration guide](#migration)
 1. [Development](#development)
 
 ## Installation
@@ -535,7 +535,13 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 [jekyll sass]: https://jekyllrb.com/docs/assets/#sassscss
 [front matter]: https://jekyllrb.com/docs/frontmatter/
 
-## Migrating from earlier versions
+## Migration
+
+### From [guides_style_18f](https://github.com/18F/guides-style)
+
+See [this example pull request](https://github.com/18F/before-you-ship/pull/458).
+
+### From from earlier versions
 
 **Note:** `uswds-jekyll 5.0.0` is only compatible with Jekyll 4.0 and higher.
 
