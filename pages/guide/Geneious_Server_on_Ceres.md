@@ -10,11 +10,10 @@ layout: page
 
 Ceres has a Geneious Server setup. This server is also providing 20 floating licenses for Ceres users use.
 
-To use the Geneious server you will need to be at an "integrated site" (listed below), use [SCINet ocvpn](https://3.basecamp.com/3625179/buckets/5538276/vaults/1070659735), or use SSH tunneling.
 
 Caveats:
-* Integrated sites currently include: Clay Center, NE; Albany, CA; Stoneville, MS; Fort Collins, CO; Beltsville, MD.  
-* The floating license server does not work over SSH tunnels, but the server can still be used if you have a perpetual license or a floating license server at your site.
+* The floating license server will only work at USDA sites due to firewall restrictions.
+* If you do encounter license server issues let us know at [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov)
 
 First download the Geneious client from [https://www.geneious.com/download/](https://www.geneious.com/download/)
 
@@ -26,7 +25,7 @@ Geneious will complain about not having a license.  click "Activate a License"
 
 On the "Enter Your License Details" screen,
   - select "Use floating license server",
-  - enter `sn-geneiousserver-0.scinet.ars.usda.gov` in the "Server" box, and
+  - enter `geneious.scinet.usda.gov` in the "Server" box, and
   - enter `27001` in the "Port" box.
 
 ![screenshot of Geneious software Enter Your License Details screen](/assets/img/geneious/geneious_floating_license_server.png)
@@ -35,14 +34,10 @@ After Geneious is started (see picture below):
 1. click on "Geneious Server" in the list of Sources on the left
 2. You will see a message on the right "you are not currently logged in to Geneious Server". Select the "Log in" button.
 3. On the "Login to Geneious Server" popup screen:
-   - Enter a Host name:
-     - If you logged into the VPN or are at an integrated site fill in:
-       `sn-geneiousserver-0.scinet.ars.usda.gov`
-     - If you are using an SSH tunnel type:
-       `localhost`
-   - In all cases type `8080` in the "Port" box
+   - Enter  Host name: "geneious.scinet.usda.gov"
+   - Click the "Use SSL" box.  You can leave the port empty, it should fill in 443 on its own.
    - Enter your Ceres username in the "User Name" box, usually firstname.lastname
-   - Enter your Ceres password in the "Password" box
+   - Enter your Ceres password immedialy followed by your GA code in the "Password" box  MyP@55w0rd123456
    - Click  "OK"
 
 ![screenshot of Geneious software login screen](/assets/img/geneious/geneious_login.png)
