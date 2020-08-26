@@ -1,5 +1,5 @@
 ---
-title: Geneious Software Use
+title: Geneious Software Guide
 description: Geneious Software Use Guide
 permalink: /guide/geneious/
 author: VRSC
@@ -13,14 +13,17 @@ Ceres has a Geneious Server setup. This server is also providing 20 floating lic
 
 Caveats:
 * The floating license server will only work at USDA sites or via VPN due to firewall restrictions.
-* Geneious and its license server should work through the both regular USDA VPN and the SCINet ocvpn vpn servers. 
+* Geneious and its license server should work through both the regular USDA VPN and the SCINet ocvpn vpn servers. 
 * If you do encounter license server issues let us know at [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov)
+
+
+# Install and start Geneious
 
 First download the Geneious client from [https://www.geneious.com/download/](https://www.geneious.com/download/)
 
-Install and start Geneious
+Install it as usual and start it up.
 
-Geneious will complain about not having a license.  click "Activate a License"
+Geneious will complain about not having a license. Click "Activate a License"
 
 ![screenshot of Geneious software No License for Geneious R11 popup](/assets/img/geneious/geneious_license_expired.png)
 
@@ -32,9 +35,12 @@ On the "Enter Your License Details" screen,
 ![screenshot of Geneious software Enter Your License Details screen](/assets/img/geneious/geneious_floating_license_server.png)
 
 After Geneious is started (see picture below):
-1. click on "Geneious Server" in the list of Sources on the left
-2. You will see a message on the right "you are not currently logged in to Geneious Server". Select the "Log in" button.
-3. On the "Login to Geneious Server" popup screen:
+* Click on "Geneious Server" in the list of Sources on the left
+   -  If you dont see "Geneious Server" in the list of "Sources" you may need to download the "Geneious Server Plugin" from the  [Geneious Downloads Page](https://geneious.scinet.usda.gov/GeneiousServer/)
+   -  Download the plugin then click on the file and it should install itself.
+   -  Geneious will need to be restarted after installing new plugins.
+* You will see a message on the right "you are not currently logged in to Geneious Server". Select the "Log in" button.
+* On the "Login to Geneious Server" popup screen:
    - Enter  Host name: "geneious.scinet.usda.gov"
    - Click the "Use SSL" box.  You can leave the port empty, it should fill in 443 on its own.
    - Enter your Ceres username in the "User Name" box, usually firstname.lastname
