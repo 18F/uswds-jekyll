@@ -44,7 +44,7 @@ After Geneious is started (see picture below):
    - Enter  Host name: "geneious.scinet.usda.gov"
    - Click the "Use SSL" box.  You can leave the port empty, it should fill in 443 on its own.
    - Enter your Ceres username in the "User Name" box, usually firstname.lastname
-   - Enter your Ceres password immediately followed by your Ceres GA code in the "Password" box  MyP@55w0rd123456
+   - Enter your Ceres password immediately followed by your Ceres GA code in the "Password" box  as an example if your password was "MyP@55w0rd" and GA app is showing "123456" you would use MyP@55w0rd123456
    - Click  "OK"
 
 ![screenshot of Geneious software login screen](/assets/img/geneious/geneious_login.png)
