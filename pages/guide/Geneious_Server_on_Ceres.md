@@ -29,7 +29,7 @@ Geneious will complain about not having a license. Click "Activate a License"
 
 On the "Enter Your License Details" screen,
   - select "Use floating license server",
-  - enter `geneious.scinet.usda.gov` in the "Server" box, and
+  - enter `geneious.scinet.usda.gov` in the "License Server" box, and
   - enter `27001` in the "Port" box.
 
 ![screenshot of Geneious software Enter Your License Details screen](/assets/img/geneious/geneious_floating_license_server.png)
@@ -44,7 +44,7 @@ After Geneious is started (see picture below):
    - Enter  Host name: "geneious.scinet.usda.gov"
    - Click the "Use SSL" box.  You can leave the port empty, it should fill in 443 on its own.
    - Enter your Ceres username in the "User Name" box, usually firstname.lastname
-   - Enter your Ceres password immedialy followed by your GA code in the "Password" box  MyP@55w0rd123456
+   - Enter your Ceres password immediately followed by your GA code in the "Password" box  MyP@55w0rd123456
    - Click  "OK"
 
 ![screenshot of Geneious software login screen](/assets/img/geneious/geneious_login.png)
