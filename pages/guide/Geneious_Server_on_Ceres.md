@@ -38,6 +38,7 @@ After Geneious is started (see picture below):
 * Click on "Geneious Server" in the list of Sources on the left
    -  If you dont see "Geneious Server" in the list of "Sources" you may need to download the "Geneious Server Plugin" from the  [Geneious Downloads Page](https://geneious.scinet.usda.gov/GeneiousServer/)
    -  Download the plugin then click on the file and it should install itself.
+   -  It should also be noted that the Geneious Server plugin version must match the version of the Geneious Server itsself.  If in doubt update everything to current.
    -  Geneious will need to be restarted after installing new plugins.
 * You will see a message on the right "you are not currently logged in to Geneious Server". Select the "Log in" button.
 * On the "Login to Geneious Server" popup screen:
