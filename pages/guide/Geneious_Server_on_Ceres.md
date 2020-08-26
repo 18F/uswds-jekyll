@@ -12,7 +12,8 @@ Ceres has a Geneious Server setup. This server is also providing 20 floating lic
 
 
 Caveats:
-* The floating license server will only work at USDA sites due to firewall restrictions.
+* The floating license server will only work at USDA sites or via VPN due to firewall restrictions.
+* Geneious and its license server should work through the both regular USDA VPN and the SCINet ocvpn vpn servers. 
 * If you do encounter license server issues let us know at [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov)
 
 First download the Geneious client from [https://www.geneious.com/download/](https://www.geneious.com/download/)
