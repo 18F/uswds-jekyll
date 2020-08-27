@@ -11,6 +11,15 @@ For system downtime information see the [System Downtime page](/downtime/) for p
 
 ## 26-Aug-2020
 
+The network vendor will be performing maintenance on the SCINet connection to the NCAH facility which houses Ceres on tomorrow morning, 8/27 from midnight CDT to 6am CDT.  They have also reserved the same time block the next night 8/28 in case it is needed.
+
+This may cause network interruption which would terminate login sessions, and would not allow data transfers in and out of Ceres. 
+
+This will not affect jobs which access the on-site filesystems, like /project. 
+
+
+## 24-Aug-2020
+
 We have a directory available for medium term usage which allows researchers to run multiple jobs against data in this directory over a 90 day period.
  
 This should be faster than using /project , since not everyone will be using it , and it will be kept performant.  
