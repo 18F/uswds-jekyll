@@ -2,17 +2,13 @@
 name: General
 about: For general Tech Portfolio work
 title: ""
-labels: ""
+labels: "g: initial"
 assignees: ""
 ---
 
 ## Background information
 
-<!-- description, links, what is the problem we are trying to solve, etc. -->
-
-## User stories
-
-<!-- one or more "As a ..., I want ... so that ..." -->
+<!-- Description, links, user stories, what is the problem we are trying to solve, etc. If the work is described/tracked elsewhere, feel free to simply link there. -->
 
 ## Acceptance criteria
 
@@ -21,4 +17,4 @@ assignees: ""
 
 ---
 
-The assignee should add some checkboxes as a "sketch" of the steps to complete, which may evolve.
+The assignee can add some checkboxes as a "sketch" of the steps to complete, which may evolve.
