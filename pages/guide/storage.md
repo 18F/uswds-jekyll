@@ -96,17 +96,17 @@ To use this local storage the following workflow should be used.  These steps ma
 or in batch-mode. In batch mode the copy commands below should be added to the job script.
 
 1.	Copy calculation input to the local filesystem, e.g., 
-```bash
+```
 cp /project/<project_name>/<input files> $TMPDIR
 ``` 
-where `<project_name>` is the name of your project directory and <input files> contains the folders/files to be used by your job (to copy the 
+where `<project_name>` is the name of your project directory and `<input files>` contains the folders/files to be used by your job (to copy the 
 whole folder use `-r` option).
 
 2.	Run your code, getting input from files located in `$TMPDIR` and writing output to `$TMPDIR`
 
 3.	Copy final results to storage location, e.g.:
-```bash
-cp $TMPDIR/<final results> / project/<project_name>/<final results>
+```
+cp $TMPDIR/<final results> /project/<project_name>/<final results>
 ```
 
 Note that files in `$TMPDIR` will disappear at the conclusion of your job.  Any data which is not copied out of `$TMPDIR` cannot be recovered 
