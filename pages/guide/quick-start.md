@@ -44,11 +44,12 @@ layout: page
   * [Globus](#globus-data-transfers)
   * [Small Files](#small-data-transfers)
   * [Shipping Hard Drives](#shipping-hard-drives)
-* [Using Software Applications on Ceres](#using-the-software-applications-on-ceres)
-  * [Running Applications](#running-applications)
-  * [Login Nodes](#login-nodes)
+* [Tools and Software](#tools-and-software)
+  * [Available Software](#available-software)
+  * [Reference Genome Assemblies](#reference-genome-assemblies)
   * [Text Editors](#text-editors)
-* [Ceres Compute Nodes](#ceres-compute-nodes)
+* [Running Applications](#running-applications)
+  * [Ceres Compute Nodes](#ceres-compute-nodes)
   * [Interactive Mode](#interactive-mode)
   * [Batch Mode](#batch-mode)
   * [Job Script Generator](#job-script-generator)
@@ -213,7 +214,9 @@ Other options for small data transfers include [Cyberduck](https://cyberduck.io/
 You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow the instructions for shipping hard drives in the [Transferring Files Guide](/guide/file-transfer/#large-data-transfer-by-shipping-hard-drives).
 
 
-# Using the Software Applications on Ceres
+# Tools and Software
+
+## Available Software
 
 Many software applications are available as modules; see [Software Overview](/guide/software) or type `module avail` on Ceres to see them.  Users can load the modules that they need to do their analysis.  We manage applications as modules to enable different versions of different applications to exist simulatneously and to be easily managed.
 
@@ -229,19 +232,25 @@ Command |	Description
 `module -h`	| Lists the full help menu for the module command
 ----|----
 
-## Running Applications
-Ceres uses SLURM as the job scheduler. It is similar to SGE and PBS.
+## Reference Genome Assemblies
 
-## Login Nodes
-The login node is meant to be used for setting up analysis and tasks that are not computationally or memory intensive.
-If your job runs for longer than a few minutes then please use the interactive mode or batch mode described below.
+The reference genome sequences of many agricultural species are stored in a central location to free space in user’s home and project directories. 
+FASTA files of the sequences and associated index files for popular alignment tools (BLAST, SAMTools, BWA, Bowtie2, etc.) can be found in `/data/reference/XX/`.   
+
+Additional sequences and index files can be added to the shared directory by contacting the Virtual Research Support Core at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=reference%20data)
 
 ## Text Editors
 The following are a few of the common text editors that are available on the system:
 `vi`, `emacs`, `nano`.
 
+# Running Applications
 
-# Ceres Compute Nodes
+The login node is meant to be used for setting up analysis and tasks that are not computationally or memory intensive.
+If your job runs for longer than a few minutes then please use the interactive mode or batch mode described below.
+
+Ceres uses SLURM as the job scheduler. It is similar to SGE and PBS.
+
+## Ceres Compute Nodes
 
 There are different queues or partitions on the Ceres cluster. You will specify a queue when submitting batch jobs.
 
@@ -324,7 +333,13 @@ Command	|Description	|Examples
 
 # Building Your Own Tools
 
-Users can build and use their own tools. It is recommended to compile on compute nodes, and not on the login node.
+Users can build and use their own tools. It is recommended to compile on compute nodes, and not on the login node. 
+In addition, since home directories have a small quota, it is recommended to install software, 
+such as Python, Perl, R packages and conda virtual environments in `/KEEP/project_name`. 
+The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions 
+on how to install conda virtual environments in `/KEEP`, while 
+[Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
+installing packages in a project directory.
 
 
 # SCINet Citation/Acknowledgment in Publications
