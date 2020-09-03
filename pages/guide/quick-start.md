@@ -150,7 +150,7 @@ If your password has expired (new temporary passwords expire right away, and the
 
 # Data Storage
 
-There are three places to store data persistently on SCINet clusters.
+There are three places to store data persistently on SCINet clusters. For more information about storage options, refer to [SCINet Storage Guide](/guide/storage).
 
 Storage | Path
 --------|-----
@@ -164,7 +164,7 @@ Home and project directories have quotas. Current usage and quotas for home and 
 
 ## Home Directories
 
-Home directories are private, they are only accessible to you and the system administrators. When a user logs into the Ceres, they are automatically logged into their home directory. Home directories have small quotas and should be mainly used for configuration and login files. Computations should be run from project directories. Files in home directories are automatically compressed and backed up. Due to backup method used on Ceres, space freed after deleting files in home directories, will become available only after 6 days.
+Home directories are private, they are only accessible to you and the system administrators. When a user logs into Ceres, they are automatically logged into their home directory. Home directories have small quotas and should be mainly used for configuration and login files. Computations should be run from project directories. Files in home directories are automatically compressed and backed up. Due to backup method used on Ceres, space freed after deleting files in home directories, will become available only after 6 days.
 
 ## Project Directories
 
