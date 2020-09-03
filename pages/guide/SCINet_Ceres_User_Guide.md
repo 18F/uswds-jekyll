@@ -378,11 +378,9 @@ $ find /KEEP/<project_directory_name> -group <SCINet UserID> -type f
 ```
 
 ## Local Sharing of Files with Other Users
-Users who would like to share files with other users can use the shared_files project directory located at /project/shared_files.
+Users who would like to share files with other users can use /90daydata/shared directory. Files older than 90 days will be automatically deleted.
 
-To keep the shared_files directory uncluttered please create a dedicated folder within /project/shared_files for your files. Files stored in the shared_files folder by default are associated with user's primary group that has 5 GB quota.
-
-NOTE: Files created in the shared_files folder by default are accessible to everybody on the system. Thus, this mechanism for sharing should only be used for files of a non-confidential nature.
+NOTE: Files in /90daydata/shared folder by default are accessible to everybody on the system. Thus, this mechanism for sharing should only be used for files of a non-confidential nature.
 
 
 # Running Application Jobs on Compute Nodes
