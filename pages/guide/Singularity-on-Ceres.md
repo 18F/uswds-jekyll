@@ -72,8 +72,15 @@ A tag may be specified when selecting the Docker image to download; e.g., a list
 
 **Note on Home directory and Singularity**
 
-While pulling/building the containers, pay attention to the home directory as the cached image blobs will be saved in ${HOME}/.singularity
-Since the home directory has a limited amount of space, this can fill up quite easily. Users can change where the files will be cached by setting SINGULARITY_CACHEDIR and SINGULARITY_TMPDIR environment variables. Setting both to $TMPDIR is suggested. In case the home directory is full, it is also safe to delete the contents of .singularity folder.
+While pulling/building the containers, pay attention to the home directory as the cached image blobs will be saved in ${HOME}/.singularity .
+Since the home directory has a limited amount of space, this can fill up quite easily. Users can change where the files will be cached by setting SINGULARITY_CACHEDIR and SINGULARITY_TMPDIR environment variables. Setting both to $TMPDIR is suggested:
+
+```
+export SINGULARITY_CACHEDIR=$TMPDIR 
+export SINGULARITY_TMPDIR=$TMPDIR
+```
+
+In case the home directory is full, it is safe to delete the contents of ~/.singularity folder.
 
 
 # 5. Singularity Images
