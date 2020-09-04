@@ -9,14 +9,14 @@ layout: page
 #### Table of Contents
 * [Ceres HPC Cluster](#ceres-hpc-cluster)
   * [Quotas](#quotas)
-  * [Home Directories](#home-directories) (`/home/firstname.lastname`)
-  * [Project Directories](#project-directories) (`/project/project_name`)
-  * [KEEP](#keep) (`/KEEP/project_name`)
-  * [Large Short-term Storage](#large-short-term-storage) (`/90daydata/project_name` and `/90daydata/shared`)
-  * [Temporary Local Node Storage](#temporary-local-node-storage) (`$TMPDIR`)  
+  * [Home Directories](#home-directories) (/home/firstname.lastname)
+  * [Project Directories](#project-directories) (/project/project_name)
+  * [KEEP](#keep) (/KEEP/project_name)
+  * [Large Short-term Storage](#large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
+  * [Temporary Local Node Storage](#temporary-local-node-storage) ($TMPDIR)  
 * [Atlas HPC Cluster](#atlas-hpc-cluster)
-  * [Atlas Home Directories](#atlas-home-directories) (`/home/firstname.lastname`)
-  * [Atlas Project Directories](#atlas-project-directories) (`/work/project_name`)
+  * [Atlas Home Directories](#atlas-home-directories) (/home/firstname.lastname)
+  * [Atlas Project Directories](#atlas-project-directories) (/work/project_name)
 * [Orion HPC Cluster](#orion-hpc-cluster)
 
 # Ceres HPC Cluster
