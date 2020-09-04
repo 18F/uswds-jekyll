@@ -70,6 +70,11 @@ INFO:    Build complete: r-base_latest.sif
 The resulting singularity image (r-base.img) contains a complete environment (operating system, libraries, R installation) for running R.
 A tag may be specified when selecting the Docker image to download; e.g., a list of tags for r-base is at: [https://hub.docker.com/r/library/r-base/tags/](https://hub.docker.com/r/library/r-base/tags/). To specify a specific tag, append ":TAG" to the image name (e.g.,  `singularity pull docker://r-base:3.3.3` ). If the tag is omitted, Singularity will look for an image labeled with the "latest" tag (note that the "latest" tag is merely a Docker Hub convention, and is not guaranteed to exist, nor is it guaranteed to point to the latest image—when in doubt, specify the tag).
 
+**Note on Home directory and Singularity**
+
+While pulling/building the containers, pay attention to the home directory as the cached image blobs will be saved in ${HOME}/.singularity
+Since the home directory has a limited amount of space, this can fill up quite easily. Users can change where the files will be cached by setting SINGULARITY_CACHEDIR and SINGULARITY_TMPDIR environment variables. Setting both to $TMPDIR is suggested. In case the home directory is full, it is also safe to delete the contents of .singularity folder.
+
 
 # 5. Singularity Images
 
