@@ -32,6 +32,8 @@ primary:
         href: /guide/ceres
       - text: Set up multifactor authentication
         href: /guide/multifactor
+      - text: SCINet Storage Guide
+        href: /guide/storage        
       - text: Software Overview
         href: /guide/software
       - text: Installing R/Python/Perl Packages
