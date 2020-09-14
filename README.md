@@ -286,11 +286,14 @@ You can add Google Analytics to your site by uncommenting the `google_analytics_
 
 #### Digital Analytics Program (DAP)
 
-You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
+You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key.
+And optionally, `dap_subagency` may also be specified.
+For more information visit <https://www.digitalgov.gov/services/dap/>
 
 ```
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
+# dap_subagency: TTS
 ```
 
 ### Last modified date
