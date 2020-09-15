@@ -128,8 +128,8 @@ up to 10GB of data in the home directory.
 ## Atlas Project Directories
 
 Project directories on Atlas are located in `work`. Same project directory names are used across all SCINet HPC clusters, however quotas and data in
-these directories may differ. For each project directory on Ceres, a directory with the same name is created in `/work` on Atlas. Default quota for
-`\work\project_name` is set to 1TB. Contact SCINet VRSC at scinet_vrsc@usda.gov if more space is needed. 
+these directories may differ. For each project directory on Ceres, a directory with the same name is created in `/work/projects` on Atlas. Default quota for
+`/work/projects/project_name` is set to 1TB. Contact SCINet VRSC at scinet_vrsc@usda.gov if more space is needed. 
 
 As on Ceres, directories in `/work` are not backed up. Users can copy important data from a directory in `/work` on Atlas to a 
 corresponding directory in [`/KEEP`](#keep) on Ceres that is backed up nightly.
