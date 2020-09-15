@@ -101,7 +101,7 @@ To reference a specific version of this theme:
 1. Specify the version in your `Gemfile`.
 
    ```ruby
-   gem 'uswds-jekyll', '5.0.0'
+   gem 'uswds-jekyll', '~> 5.0'
    ```
 
 ## Configuration
@@ -546,17 +546,17 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
 
 ### From from earlier versions
 
-**Note:** `uswds-jekyll 5.0.0` is only compatible with Jekyll 4.0 and higher.
+**Note:** `uswds-jekyll` 5.x is only compatible with Jekyll 4.0 and higher.
 
 1. Update your `uswds-jekyll` gem in your project's Gemfile. Replace the current `gem 'uswds-jekyll'` line with:
 
    ```ruby
-   gem 'uswds-jekyll', '5.0.0'
+   gem 'uswds-jekyll', '~> 5.0'
    ```
 
    Then, in the terminal, run
 
-   ```
+   ```sh
    bundle update uswds-jekyll
    ```
 
