@@ -544,7 +544,7 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
 See [this example pull request](https://github.com/18F/before-you-ship/pull/458).
 
-### From from earlier versions
+### From earlier versions
 
 **Note:** `uswds-jekyll` 5.x is only compatible with Jekyll 4.0 and higher.
 
