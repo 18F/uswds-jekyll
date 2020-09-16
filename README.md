@@ -390,11 +390,6 @@ Any [include](_includes) or [layout](_layouts) can be overridden by
 your site by placing a file with the same name into your site's
 `_includes` or `_layouts` directory. For instance:
 
-- To change how [stylesheets](#stylesheets) are loaded or
-  referenced, you can create your own `_includes/styles.html`,
-  which will subsequently change how stylesheets are loaded in all
-  layouts that inherit from the USWDS [default layout](#layout-default).
-
 - You can change how the side navigation is rendered (but not which
   data it receives) in the [page layout](#layout-page) by creating
   your own `_includes/sidenav.html`.
