@@ -361,7 +361,7 @@ Customize the USWDS Jekyll theme with [USWDS theme settings files](https://desig
 
     Whether you add only individual settings variables or import from multiple files, `_uswds-theme-settings.scss` needs to be the entry point.
 
-1. **Custom Sass and variables:** Add any custom CSS or Sass to `_sass/_uswds-theme-custom-styles.scss`. You can use this custom styles file to `@import` any _additional_ Sass or CSS files your project needs, as long as any additional files exist in the `/sass` directory.
+1. **Custom Sass and variables:** Add any custom CSS or Sass to `_sass/_uswds-theme-custom-styles.scss`. You can use this custom styles file to `@import` any _additional_ Sass or CSS files your project needs, as long as any additional files exist in the `/_sass` directory.
 
     Custom Sass loads after the USWDS and default Sass, so you can use it to override the defaults. Individual sites can also [selectively override](#overriding-includes-and-layouts) individual includes and layouts.
 
