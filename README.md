@@ -77,8 +77,7 @@ You will need to restart your Jekyll server to see the effects.
    gem 'uswds-jekyll'
    ```
 
-1. Set the `theme` in your site's Jekyll configuration,
-   `_config.yml`:
+1. Set the `theme` in your site's Jekyll configuration, `_config.yml`:
 
    ```yml
    theme: uswds-jekyll
@@ -96,8 +95,7 @@ You will need to restart your Jekyll server to see the effects.
 
 To reference a specific version of this theme:
 
-1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
-   decide which version you want to use.
+1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and decide which version you want to use.
 1. Specify the version in your `Gemfile`.
 
    ```ruby
@@ -106,9 +104,7 @@ To reference a specific version of this theme:
 
 ## Configuration
 
-Configuration of common elements ([header](#header),
-[footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations
-of each component.
+Configuration of common elements ([header](#header), [footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
 
 The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
@@ -148,10 +144,7 @@ primary:
     links: <links>
 ```
 
-This scheme allows you to define navigational elements that can be
-shared by different components, such as the [header](#header) and
-[footer](#footer). See the documentation for those components for
-more info.
+This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
 
 ### Page title
 
@@ -192,8 +185,7 @@ A page's "current" or "active" state in the sidenav is determined by whether a l
 
 `subnav` is a list of links to display on this page under its own link in the side navigation.
 
-**Note that subnav link hrefs are not prefixed with
-`site.baseurl`** because this breaks hash links prefixed with `#`.
+**Note that subnav link hrefs are not prefixed with `site.baseurl`** because this breaks hash links prefixed with `#`.
 
 **Pro tip:** Unless your Jekyll configuration specifies otherwise, the default Markdown formatter (Kramdown) will automatically generate predictable `id` attributes for your page headings and convert markdown like this:
 
@@ -207,8 +199,7 @@ into:
 <h2 id="section-one">Section one</h2>
 ```
 
-If you're using Redcarpet, you will need to configure it to enable
-the `with_toc_data` extension in your `_config.yml`, like so:
+If you're using Redcarpet, you will need to configure it to enable the `with_toc_data` extension in your `_config.yml`, like so:
 
 ```yml
 markdown: redcarpet
@@ -286,9 +277,7 @@ You can add Google Analytics to your site by uncommenting the `google_analytics_
 
 #### Digital Analytics Program (DAP)
 
-You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key.
-And optionally, `dap_subagency` may also be specified.
-For more information visit <https://www.digitalgov.gov/services/dap/>
+You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. And optionally, `dap_subagency` may also be specified. For more information visit <https://www.digitalgov.gov/services/dap/>
 
 ```
 # Configuration for DAP, add your agency ID here:
@@ -328,8 +317,7 @@ Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts) 
 
 ### Stylesheets
 
-As a general rule, all stylesheets are inserted in a layouts'
-`<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
+As a general rule, all stylesheets are inserted in a layouts' `<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
 ```yml
 styles:
@@ -338,15 +326,11 @@ styles:
     media: (screen|print|all) # optional
 ```
 
-Stylesheets specified as objects (in the latter item above) must
-have an `href` property. The `media` defaults to `screen`.
+Stylesheets specified as objects (in the latter item above) must have an `href` property. The `media` defaults to `screen`.
 
 ### Scripts
 
-As a general rule, all scripts are inserted before a layouts'
-`</body>`, which prevents them from blocking the rendering of your
-page's content. Scripts can be specified in `_config.yml` or a
-layout or page's [front matter] YAML in the following form:
+As a general rule, all scripts are inserted before a layouts' `</body>`, which prevents them from blocking the rendering of your page's content. Scripts can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
 ```yml
 scripts:
@@ -355,8 +339,7 @@ scripts:
     async: true # optional
 ```
 
-Scripts specified as objects (in the latter item above) must have a `src`
-property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
+Scripts specified as objects (in the latter item above) must have a `src` property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
 
 ### Asset load order
 
@@ -400,24 +383,13 @@ your site by placing a file with the same name into your site's
 
 ## Components
 
-For some [USWDS components](https://designsystem.digital.gov/components/),
-there are two different files that control how data is passed to
+For some [USWDS components](https://designsystem.digital.gov/components/), there are two different files that control how data is passed to
 the template:
 
-1. `components/{component}.html` is the low-level template that
-   assumes a similarly named global template variable. For
-   instance, the header component operates on the `header` template
-   variable.
-1. `{component}.html` is the "concrete" implementation of the
-   component that sets the appropriate global variable then
-   includes the low-level template.
+1. `components/{component}.html` is the low-level template that assumes a similarly named global template variable. For instance, the header component operates on the `header` template variable.
+1. `{component}.html` is the "concrete" implementation of the component that sets the appropriate global variable then includes the low-level template.
 
-This separation allows you to override either of the component
-includes in your own Jekyll site without having to re-implement
-either the high- or low-level logic. For instance, if you want your
-header data to come directly from the Jekyll configuration file
-(`_config.yml`) rather than `_data/header.yml`, you can override
-`_includes/header.html` to look like this:
+This separation allows you to override either of the component includes in your own Jekyll site without having to re-implement either the high- or low-level logic. For instance, if you want your header data to come directly from the Jekyll configuration file (`_config.yml`) rather than `_data/header.yml`, you can override `_includes/header.html` to look like this:
 
 ```html
 {% assign header = site.data.header %} {% include components/header--basic.html
@@ -426,28 +398,20 @@ header data to come directly from the Jekyll configuration file
 
 ### Header
 
-The [header.html include](_includes/header.html) sets the `header`
-template variable to `site.data.header`, the value of which is set
-in your Jekyll project's `_data/header.yml` file. Then it includes
-[components/header.html](_includes/components/header.html) to
-render the header's markup.
+The [header.html include](_includes/header.html) sets the `header` template variable to `site.data.header`, the value of which is set in your Jekyll project's `_data/header.yml` file. Then it includes [components/header.html](_includes/components/header.html) to render the header's markup.
 
 See this repo's [header.yml](_data/header.yml) for more info.
 
 ### Footer
 
-The [footer.html include](_includes/footer.html) sets the `header`
-template variable to `site.data.footer`, the value of which is set
-in your Jekyll project's `_data/footer.yml` file. Then it includes
-[components/footer.html](_includes/components/footer.html) to
+The [footer.html include](_includes/footer.html) sets the `header` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
 render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
 
 ## Layouts
 
-This theme provides the following layouts, which you can use by
-setting the `layout` [front matter] on each page, like so:
+This theme provides the following layouts, which you can use by setting the `layout` [front matter] on each page, like so:
 
 ```yml
 ---
@@ -465,32 +429,22 @@ Supported (optional) front matter for page layouts.
 
 ### `layout: default`
 
-This is the bare-bones USWDS layout, which does all of the
-basic page scaffolding then drops the page content into the
-`<main>` element. All of the other layouts "inherit" this one and
-provide other features in the content block.
+This is the bare-bones USWDS layout, which does all of the basic page scaffolding then drops the page content into the `<main>` element. All of the other layouts "inherit" this one and provide other features in the content block.
 
-The default layout provides a layout [front matter] hook to add
-attributes to the `<main>` element. You can see how this works in
-the [page layout](_layouts/page.html#L3-L4).
+The default layout provides a layout [front matter] hook to add attributes to the `<main>` element. You can see how this works in the [page layout](_layouts/page.html#L3-L4).
 
 ### `layout: home`
 
 This layout implements the [home page
-template](https://designsystem.digital.gov/page-templates/landing/), which
-accommodates the following [front matter]:
+template](https://designsystem.digital.gov/page-templates/landing/), which accommodates the following [front matter]:
 
-Check out the YAML front matter in the [home demo
-page](demo/home.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo page](demo/home.html) for an example of how to structure it.
 
 ### `layout: page`
 
-This layout implements the [document page
-template](https://designsystem.digital.gov/page-templates/docs/).
+This layout implements the [document page template](https://designsystem.digital.gov/page-templates/docs/).
 
-See the [page demo page](demo/page.md) for an example of how this
-works, and see [\_data/navigation.yml](_data/navigation.yml) for how
-to structure named navigation data for your site.
+See the [page demo page](demo/page.md) for an example of how this works, and see [\_data/navigation.yml](_data/navigation.yml) for how to structure named navigation data for your site.
 
 ### `layout: post`
 
