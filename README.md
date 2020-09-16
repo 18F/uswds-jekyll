@@ -560,8 +560,10 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
    bundle update uswds-jekyll
    ```
 
-1. Add any custom styles to `/_sass/custom/`
-1. `_sass` folder needs to be at the root level, not in assets.
+1. If you have an existing `_sass` folder, it needs to move to the root level, and out of any directory like `/assets`.
+1. Add or move any custom styles or variables to `/_sass/_uswds-theme-custom-styles.scss`.
+
+    If you have multiple custom styles files, add them to the `/_sass` directory and `@import` them from `_uswds-theme-custom-styles.scss`.
 1. Convert manual values to tokenized values using the guidance on the [USWDS migration page](https://designsystem.digital.gov/documentation/migration/#spacing-units).
 1. Don't duplicate the `h1` in the body content of `page` template pages. (This is automatically inserted at the top with the content of `page.title`.)
 1. Check that certain data keys exist
