@@ -25,8 +25,6 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Scripts](#scripts)
    - [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-   - [Customizing with Sass](#customizing-with-sass)
-   - [Customizing with CSS overrides](#customizing-with-css-overrides)
    - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
    - [Header](#header)
