@@ -353,7 +353,7 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 ## Customization
 
-Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to USWDS settings and custom Sass into a couple specific location for the theme to find them.
+Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to place USWDS settings and custom Sass into a couple specific locations for the theme to find them.
 
 1. **Settings:** Add custom USWDS settings to `_sass/_uswds-theme-settings.scss`. Settings control the USWDS output. See all available settings in the [USWDS settings documentation](https://designsystem.digital.gov/documentation/settings/). We recommend adding only your modified settings to the `_uswds-theme-settings.scss` file.
 
