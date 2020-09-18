@@ -121,15 +121,13 @@ This storage is useful for workflows that extensively use disk space reading and
 Home directories are private, they are only accessible to the user and the system administrators. When a user logs 
 into Atlas, they are automatically logged into their home directory `/home/firstname.lastname`. 
 
-Home directories on Atlas have 8GB soft quota and 10GB hard quota. This means that for a period of 7 days users can exceed 8GB quota and have 
-up to 10GB of data in the home directory.
-`/home/firstname.lastname` should be mainly used for configuration and login files. Computations should be run from project directories in `/work`.
+Home directories on Atlas have 5GB quota. `/home/firstname.lastname` should be mainly used for configuration and login files. Computations should be run from project directories in `/project`.
 
 ## Atlas Project Directories
 
-Project directories on Atlas are located in `work`. Same project directory names are used across all SCINet HPC clusters, however quotas and data in
-these directories may differ. For each project directory on Ceres, a directory with the same name is created in `/work/projects` on Atlas. Default quota for
-`/work/projects/project_name` is set to 1TB. Contact SCINet VRSC at scinet_vrsc@usda.gov if more space is needed. 
+Project directories on Atlas are located in `/project`. Same project directory names are used across all SCINet HPC clusters, however quotas and data in
+these directories may differ. For each project directory on Ceres, a directory with the same name is created in `/project` on Atlas. Default quota for
+`/project/project_name` is set to 1TB. Contact SCINet VRSC at scinet_vrsc@usda.gov if more space is needed. 
 
-As on Ceres, directories in `/work` are not backed up. Users can copy important data from a directory in `/work` on Atlas to a 
+As on Ceres, directories in `/project` are not backed up. Users can copy important data from a directory in `/project` on Atlas to a 
 corresponding directory in [`/KEEP`](#keep) on Ceres that is backed up nightly.
