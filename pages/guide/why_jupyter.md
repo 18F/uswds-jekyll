@@ -1,3 +1,10 @@
+---
+title: Why Jupyter
+permalink: /guide/why_jupyter/
+author: Brian Nadon
+layout: page
+---
+
 # Why should you use Jupyter?
 
 ## Background
