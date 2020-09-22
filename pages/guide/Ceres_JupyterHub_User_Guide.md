@@ -95,7 +95,7 @@ Below is a video (COMING SOON) showing the above process.
 The default environment includes:
   * Python, IDL, R kernels.
   * JupyterLab (and/or Jupyter Notebook)
-  * Rstudio (launch as an external process from within JupyterLab)
+  * Rstudio (launch as an external process from within JupyterLab) **Note:** RStudio has been disabled in JupyterHub due to security issues. If you need to use RStudio on Ceres, see [RStudio Server Guide](https://scinet.usda.gov/guide/rstudio/)
   * User conda environments (see below for details)
   * Ability to load Ceres maintained software (see below)
   * Slurm que manager
