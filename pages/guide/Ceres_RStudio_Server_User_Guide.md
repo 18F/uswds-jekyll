@@ -87,7 +87,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    1. SSH tunnel from your workstation using the following command (macOS or Linux only;
       for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
 
-      ssh -N -L 8787:sn-cn-6-0:57088 jane.user@login.scinet.science
+      ssh -N -L 8787:sn-cn-6-0:57088 jane.user@ceres.scinet.usda.gov
 
       and point your web browser to http://localhost:8787
 
@@ -129,7 +129,7 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 [rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
 
 1. Open a new PuTTY window
-2. In Session > Host Name, enter: **login.scinet.science**
+2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
 3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **sn-cn-6-0:57088**), click “Add”, then click “Open”.
 ![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
 4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
@@ -138,7 +138,7 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 
 1. Enter the use a new macOS/Linux terminal window and enter the SSH command listed in the job script output file. In this example:
 ```
-ssh -N -L 8787:sn-cn-6-0:57088 jane.user@login.scinet.science
+ssh -N -L 8787:sn-cn-6-0:57088 jane.user@ceres.scinet.usda.gov
 ```
 There will be no output after logging in. Keep the window / SSH tunnel open for the duration of the RStudio session.
 2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
