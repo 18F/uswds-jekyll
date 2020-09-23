@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     uswds-jekyll (5.0.0)
-      jekyll (>= 4.0, < 5)
+      jekyll (>= 4.0)
 
 GEM
   remote: https://rubygems.org/
