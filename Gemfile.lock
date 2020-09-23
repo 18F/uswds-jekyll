@@ -1,20 +1,23 @@
 PATH
   remote: .
   specs:
-    uswds-jekyll (5.0.0)
-      jekyll (>= 4.0)
+    uswds-jekyll (5.0.1)
+      jekyll (>= 4.0, < 5)
 
 GEM
   remote: https://rubygems.org/
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    autoprefixer-rails (9.8.6.5)
+      execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
+    execjs (2.7.0)
     ffi (1.11.1)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
@@ -35,6 +38,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-autoprefixer (1.0.2)
+      autoprefixer-rails (~> 9.3)
     jekyll-last-modified-at (1.1.0)
       jekyll (>= 3.7, < 5.0)
       posix-spawn (~> 0.3.9)
@@ -75,6 +80,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  jekyll-autoprefixer
   jekyll-last-modified-at
   rake
   uswds-jekyll!
