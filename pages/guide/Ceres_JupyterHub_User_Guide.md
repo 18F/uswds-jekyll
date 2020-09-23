@@ -21,12 +21,12 @@ layout: page
 
   1. [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/#): Jupyter's multi-user server. This application spawns, manages, and proxies multiple instances of the single-user JupyterLab server.
   
-  2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter’s next-generation notebook interface, which includes: [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html), [text editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html), [terminal](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html), [file browser](https://jupyterlab.readthedocs.io/en/stable/user/files.html) (with upload/download capacity), [data viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html), [markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown), context help, and [external extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html).
+  2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter's next-generation notebook interface, which includes: [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html), [text editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html), [terminal](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html), [file browser](https://jupyterlab.readthedocs.io/en/stable/user/files.html) (with upload/download capacity), [data viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html), [markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown), context help, and [external extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html).
 
 <img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="600" align="center" hspace="5" border="1" alt="screenshot of jupyterlab software">
 
-  ## Why Jupyter
-  Jupyter is popular amoung data scientiests and researchers ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because it offers:
+## Why Jupyter
+  Jupyter is popular among data scientists and researchers ([Perkel, 2018](https://www.nature.com/articles/d41586-018-07196-1)) because it offers:
   * Interactive data exploration features
   * A browser based user interface, making it easy to work on remote systems such as HPC and Cloud
   * Language agnostic (supports >130 kernels)
@@ -41,17 +41,17 @@ layout: page
   * Customizability and Extensibility
   * An open source code base
   
-  For more details about Jupyter and why you may want to use it for computational research see: [Why Jupyter](why_jupyter.md)
+  For more details about Jupyter and why you may want to use it for computational research see: [Why Jupyter]({% link pages/guide/why_jupyter.md %})
 
 ---
 # Launching JupyterLab
 There are multiple approaches for accessing the Jupyter stack on Ceres. 
 
-* Port Foward with Putty - [Video Coming Soon]()
-* Port Foward with Secure Shell (SSH) - [Video Coming Soon]()
+* Port Forward with Putty - [Video Coming Soon]()
+* Port Forward with Secure Shell (SSH) - [Video Coming Soon]()
 * **JupyterHub (see below) - the recommended approach**
 
-The simplist and most succinct method to launch JupyterLab is thru the JupyterHub interface. To access, you will need functioning SCINet credentials. To setup a SCINet account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions for JupyterHub.
+The simplest and most succinct method to launch JupyterLab is thru the JupyterHub interface. To access, you will need functioning SCINet credentials. To setup a SCINet account, see the [quickstart guide](https://usda-ars-gbru.github.io/scinet-site/guide/quickstart). Below are the instructions for JupyterHub.
 
 1. **Go To:** [https://jupyterhub.scinet.usda.gov/](https://jupyterhub.scinet.usda.gov/)
 2. **Log into JupyterHub** (SCINet credentials)
@@ -98,7 +98,7 @@ The default environment includes:
   * Rstudio (launch as an external process from within JupyterLab) **Note:** RStudio has been disabled in JupyterHub due to security issues. If you need to use RStudio on Ceres, see [RStudio Server Guide](https://scinet.usda.gov/guide/rstudio/)
   * User conda environments (see below for details)
   * Ability to load Ceres maintained software (see below)
-  * Slurm que manager
+  * Slurm queue manager
 
 ## Bring Your Own Environment
   If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a ```Jupyter Kernel installed``` (i.e. IPyKernel, IRKernel, IJulia, idl_kernel, etc...), JupyterLab will detect this environmnet as a seperate kernel (assuming it is not the *base* environment). For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab. The one exception to this is the *base* environment, which already exists in the defualt Jupyter environment, and will not be loaded from your home directory.
@@ -112,12 +112,13 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container (s
    * Pointing to a prebuilt container on an external hub, such as [Docker Hub](https://hub.docker.com/) or [Singularity Hub](https://cloud.sylabs.io/library). **When launching JupyterLab from a container located on a <i>Hub</i> for the first time, it will take 1-10 minutes** to start JupyterLab because the container needs to be downloaded, built, and cached. However, on subsequent tries it should be quite fast ~10-20 seconds (the image is now cached in your $HOME directory). If the container is modified on the <i>Hub</i>, it will be re-downloaded, built, and cached.
      1. An example input into *Container Path*: ```docker://jupyter/datascience-notebook```
      2. Project Jupyter maintains a set of containers ([Jupyter Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)) which include:
-        * [Scipy-Notebook](https://hub.docker.com/r/jupyter/scipy-notebook/)
-        * [R-Notebook](https://hub.docker.com/r/jupyter/r-notebook/)
-        * [Tensorflow-Notebook](https://hub.docker.com/r/jupyter/tensorflow-notebook/)
-        * [DataScience-Notebook](https://hub.docker.com/r/jupyter/datascience-notebook/)
-        * [PySpark-Notebook](https://hub.docker.com/r/jupyter/pyspark-notebook/)
-        * [All-Spark-Notebook](https://hub.docker.com/r/jupyter/all-spark-notebook/)
+        * [Scipy-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-scipy-notebook)
+        * [R-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-r-notebook)
+        * [Tensorflow-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-tensorflow-notebook)
+        * [DataScience-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook)
+        * [PySpark-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pyspark-notebook)
+        * [All-Spark-Notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-all-spark-notebook)
+
 ---
 # Best Practices
 ## Resource Conservation
