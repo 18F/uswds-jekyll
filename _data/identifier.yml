@@ -1,0 +1,61 @@
+# This is the configuration for the site identifier.
+
+lang: en
+domain: domain.gov
+masthead:
+  parent:
+    name:
+      en: "[Parent agency]"
+      es: "[Parent agency]"
+    shortname: "[Parent shortname]"
+    url:
+      en: javascript:void(0);
+      es: javascript:void(0);
+    logo: default
+  agency:
+    name:
+      en:
+      es:
+    shortname:
+    url:
+      en:
+      es:
+    logo:
+  taxpayer_disclaimer:
+    display: false
+required_links:
+  label:
+    content:
+      en: Important links
+      es: Enlaces importantes
+  links:
+    about:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    accessibility:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    foia:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    no_fear:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    oig:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    performance:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    privacy:
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+usagov:
+  display: true
