@@ -402,10 +402,16 @@ See this repo's [header.yml](_data/header.yml) for more info.
 
 ### Footer
 
-The [footer.html include](_includes/footer.html) sets the `header` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
+The [footer.html include](_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
 render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
+
+### Identifier
+
+The [components/identifier.html include](_includes/components/identifier.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file.
+
+See this repo's [identifier.yml](_data/identifier.yml) for more info.
 
 ## Layouts
 
