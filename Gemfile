@@ -3,5 +3,4 @@ gemspec :name => 'uswds-jekyll'
 
 group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
-  gem 'jekyll-autoprefixer'
 end
