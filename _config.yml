@@ -42,10 +42,6 @@ github_info:
 sass:
   style: compressed
 
-# Use autoprefixer
-plugins:
-  - jekyll-autoprefixer
-
 autoprefixer:
   browsers:
     - "> 2%"
