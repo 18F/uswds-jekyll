@@ -41,3 +41,10 @@ github_info:
 # Compress Sass
 sass:
   style: compressed
+
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead
