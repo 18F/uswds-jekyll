@@ -75,7 +75,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    [jane.user@sn-cn-8-1 ~]$ cat ~/rstudio-214664.out
    VPN Users:
 
-   1. Connect to SCINet VPN and point your web browser to http://sn-cn-6-0:57088
+   1. Connect to SCINet VPN and point your web browser to http://ceres14-compute-3-eth.scinet.local:44200
 
    2. log in to RStudio Server using the following credentials:
 
@@ -87,7 +87,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    1. SSH tunnel from your workstation using the following command (macOS or Linux only;
       for how to enter this in PuTTY on Windows see the Ceres RStudio User Guide)
 
-      ssh -N -L 8787:sn-cn-6-0:57088 jane.user@ceres.scinet.usda.gov
+      ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.usda.gov
 
       and point your web browser to http://localhost:8787
 
@@ -99,13 +99,12 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    When done using RStudio Server, terminate the job by:
 
    1. Exit the RStudio Session ("power" button in the top right corner of the RStudio window)
-
    2. On the Ceres command line, issue the command
 
       scancel -f 214664
    ```
 
-5. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://sn-cn-6-0:57088), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
+5. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/assets/img/RStudio.png)
 
 
@@ -130,15 +129,15 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 
 1. Open a new PuTTY window
 2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
-3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **sn-cn-6-0:57088**), click “Add”, then click “Open”.
+3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **ceres14-compute-3-eth:44200**), click “Add”, then click “Open”.
 ![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
 4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
 
-## macOS / Linux users
+## macOS / Linux / Windows + Windows PowerShell users
 
 1. Enter the use a new macOS/Linux terminal window and enter the SSH command listed in the job script output file. In this example:
 ```
-ssh -N -L 8787:sn-cn-6-0:57088 jane.user@ceres.scinet.usda.gov
+ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.usda.gov
 ```
 There will be no output after logging in. Keep the window / SSH tunnel open for the duration of the RStudio session.
 2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
