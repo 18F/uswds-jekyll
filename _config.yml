@@ -42,6 +42,7 @@ github_info:
 sass:
   style: compressed
 
+# https://designsystem.digital.gov/documentation/developers/#sass-compilation-requirements
 autoprefixer:
   browsers:
     - "> 2%"
