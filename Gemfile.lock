@@ -3,6 +3,7 @@ PATH
   specs:
     uswds-jekyll (5.0.1)
       jekyll (>= 4.0, < 5)
+      jekyll-autoprefixer
 
 GEM
   remote: https://rubygems.org/
@@ -80,7 +81,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  jekyll-autoprefixer
   jekyll-last-modified-at
   rake
   uswds-jekyll!
