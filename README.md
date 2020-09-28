@@ -407,12 +407,6 @@ render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
 
-### Identifier
-
-The [components/identifier.html include](_includes/components/identifier.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file.
-
-See this repo's [identifier.yml](_data/identifier.yml) for more info.
-
 ## Layouts
 
 This theme provides the following layouts, which you can use by setting the `layout` [front matter] on each page, like so:
