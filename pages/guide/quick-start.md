@@ -136,7 +136,8 @@ HostName atlas-login-1.hpc.msstate.edu
 User <user.name>
 TCPKeepAlive yes
 ServerAliveInterval 20
-ServerAliveCountMax 30```
+ServerAliveCountMax 30
+```
 
 That will send a "keepalive" signal every 20 seconds and keep retrying for up to 30 failures. This also simplifies your login to just:
 
