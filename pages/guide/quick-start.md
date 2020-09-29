@@ -130,6 +130,7 @@ User <user.name>
 TCPKeepAlive yes
 ServerAliveInterval 20
 ServerAliveCountMax 30
+
 Host atlas-login
 HostName atlas-login-1.hpc.msstate.edu
 User <user.name>
