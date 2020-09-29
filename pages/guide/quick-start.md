@@ -49,7 +49,7 @@ layout: page
   * [Reference Genome Assemblies](#reference-genome-assemblies)
   * [Text Editors](#text-editors)
 * [Running Applications](#running-applications)
-  * [Ceres Compute Nodes](#ceres-compute-nodes)
+  * [Compute Nodes](#compute-nodes)
   * [Interactive Mode](#interactive-mode)
   * [Batch Mode](#batch-mode)
   * [Job Script Generator](#job-script-generator)
@@ -283,7 +283,7 @@ If your job runs for longer than a few minutes then please use the interactive m
 
 SCINet clusters use SLURM as the job scheduler. It is similar to SGE and PBS.
 
-## Ceres Compute Nodes
+## Compute Nodes
 
 There are different queues or partitions on the clusters. You will specify a queue when submitting batch jobs.
 
@@ -320,7 +320,9 @@ When complete, return to the login node by typing `exit`
 
 For more fine grained control over the interactive environment you can use the srun command. Issue the srun command from a login node of a SCINet cluster. Command syntax is:
 
-`srun --pty -p queue -t hh:mm:ss -n tasks -N nodes /bin/bash -l`
+`srun --pty -p queue -t hh:mm:ss -A account -n tasks -N nodes /bin/bash -l`
+
+account is either scinet on Ceres or your project name on Atlas. For example if your project directory is at /project/projectname, then specify "-A projectname" on the srun command.
 
 See the [Ceres User Manual](/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
 
@@ -337,6 +339,7 @@ Here is an example of a batch job submission bash script (e.g. `blast_job.sh`, f
 #SBATCH -N 1 #number of nodes in this job
 #SBATCH -n 40 #number of cores/tasks in this job, you get all 20 cores with 2 threads per core with hyperthreading
 #SBATCH -t 01:00:00 #time allocated for this job hours:mins:seconds
+#SBATCH -A projectname  #substitute with the name of your project
 #SBATCH --mail-user=emailAddress #enter your email address to receive emails
 #SBATCH --mail-type=BEGIN,END,FAIL #will receive an email when job starts, ends or fails
 #SBATCH -o "stdout.%j.%N" # standard out %j adds job number to outputfile name and %N adds the node name
