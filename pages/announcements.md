@@ -9,6 +9,11 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 30-Sept-2020
+
+The Atlas Cluster at Mississippi State is now availible to all SCINet Users!  Documentation on logging in has been added to the [Quick Start Guide](https://scinet.usda.gov/guide/quickstart#accessing-scinet).  Full documention on Altas is coming soon.
+
+
 ## 26-Aug-2020
 
 The network vendor will be performing maintenance on the SCINet connection to the NCAH facility which houses Ceres on tomorrow morning, 8/27 from midnight CDT to 6am CDT.  They have also reserved the same time block the next night 8/28 in case it is needed.
@@ -16,7 +21,6 @@ The network vendor will be performing maintenance on the SCINet connection to th
 This may cause network interruption which would terminate login sessions, and would not allow data transfers in and out of Ceres. 
 
 This will not affect jobs which access the on-site filesystems, like /project. 
-
 
 ## 24-Aug-2020
 
