@@ -21,7 +21,7 @@ layout: page
 # Best Practices
 
 * Globus Online is the recommended method for transferring data to and from the Ceres cluster. It provides faster data transfer speeds compared to scp, has a graphical interface, and does not require a GA verification code for every file transfer.
-* Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. See the Ceres User Manual section [Quotas on Home and Project Directories](/guide/ceres/#quotas-on-home-and-project-directories)) for more information on home and project directory quotas.
+* Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory. See the Ceres User Manual section [Quotas on Home and Project Directories](/guide/ceres/#quotas-on-home-and-project-directories) for more information on home and project directory quotas.
 * If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below (section [Large Data Transfer by Shipping Hard Drives](#large-data-transfer-by-shipping-hard-drives)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
@@ -66,24 +66,34 @@ scp is usually available on any Linux or MacOS machine, and on Microsoft Windows
 
 To transfer data when logged in to your local machine (the destination filenames are optional):
 
-1. Transfer To SCINet:
+1. Transfer To Ceres:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
-```
-
-2. Transfer From SCINet:
-```
-$ scp <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
-To transfer data when logged in to SCINet (the destination filenames are optional):
+Transfer To Atlas:
+```
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@atlas-dtn.hpc.msstate.edu:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+```
 
-1. Transfer To SCINet:
+2. Transfer From Ceres:
+```
+$ scp <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+```
+
+Transfer From Atlas:
+```
+$ scp <SCINet UserID>@atlas-dtn.hpc.msstate.edu:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+```
+
+To transfer data when logged in to Ceres or Atlas (the destination filenames are optional):
+
+1. Transfer To Ceres or Atlas:
 ```
 $ scp <Username>@<RemoteServer>:/<PathToSourceFolderOnRemoteResource>/<RemoteFilename>  ~/<PathToDestinationFolderOnSCINet>/[<LocalFilename>]
 ```
 
-2. Transfer From SCINet:
+2. Transfer From Ceres or Atlas:
 ```
 $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <Username>@<RemoteServer>:/<PathToDestinationFolderOnRemoteResource>/[<RemoteFilename>]
 ```
@@ -91,7 +101,7 @@ $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <Username>@<RemoteServer>:/<P
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
+$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
