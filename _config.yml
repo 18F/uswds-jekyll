@@ -41,3 +41,11 @@ github_info:
 # Compress Sass
 sass:
   style: compressed
+
+# https://designsystem.digital.gov/documentation/developers/#sass-compilation-requirements
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead

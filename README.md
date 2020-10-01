@@ -285,12 +285,23 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 
 ### Last modified date
 
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. This will add the date right before the footer component and uses the `last-modified.html` include.
+To show the last date a page was last modified by:
 
-```yml
-# Used to show the "Last updated" date and time;
-# last_updated: true
-```
+1. Add this line to the `footer.yml` data file:
+
+    ```yml
+    last_updated: true
+    ```
+
+1. Add the following to your `Gemfile`:
+
+    ```ruby
+    group :jekyll_plugins do
+      gem "jekyll-last-modified-at"
+    end
+    ```
+
+This will add the date right before the footer component.
 
 ### Anchor JS
 
@@ -402,7 +413,7 @@ See this repo's [header.yml](_data/header.yml) for more info.
 
 ### Footer
 
-The [footer.html include](_includes/footer.html) sets the `header` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
+The [footer.html include](_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
 render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
