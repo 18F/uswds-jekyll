@@ -10,6 +10,9 @@ Research highlights from researchers who use SCINet resources are added quarterl
 
 <br>
 ### [USDA ARS SCINet Newsletter: October 2020](/assets/pdf/newsletters/SCINET-Newsletter-October-2020.pdf) 
+
 ### [USDA ARS SCINet Newsletter: July 2020](/assets/pdf/newsletters/SCINET-Newsletter-July-2020.pdf) 
+
 ### [USDA ARS SCINet Newsletter: April 2020](/assets/pdf/newsletters/SCINET-Newsletter-April-2020.pdf) 
+
 ### [USDA ARS SCINet Newsletter: January 2020](https://content.govdelivery.com/accounts/USDAARS/bulletins/26f910e) 
