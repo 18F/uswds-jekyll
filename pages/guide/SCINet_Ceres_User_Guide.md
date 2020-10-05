@@ -635,7 +635,8 @@ Command | Description | Example
 
 ## Local Scratch Space on Large Memory Nodes
 
-Each of the large memory nodes (available via the *mem* queue) has ~9 TB of fast local temporary data file storage space at /local/scratch supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. Thus, if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to temporarily stage all your input data to /local/scratch at the beginning of your job using  `$TMPDIR`  variable (which is unique for each job), then do all your computation on /local/scratch. There is no need to remove your local data at the end of your job, since SLURM will automatically remove  `$TMPDIR`. This could be accomplished by adding the following commands to your SLURM script (make sure to adjust the paths to your data appropriately). We assume that the data is in /projects/my_project/data and you should replace the path with your data path.
+Each of the large memory nodes (available via the mem queue) has ~9 TB of fast local temporary data file storage space supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. A job sets up a unique local space accessible available only with the job script via the $TMPDIR variable. You can use this for any scratch space disk space you need, or if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to copy all your input data to this space at the beginning of your job, and then do all your computation on $TMPDIR. You must copy any output data you need to keep back to permanent storage before the job ends, since $TMPDIR will be erased upon job exit. The following example shows how to copy data in, and then run from $TMPDIR.
+
 ```bash
 #!/bin/bash
 #SBATCH --job-name="my sequence assembly"   #name of the job submitted
@@ -648,15 +649,20 @@ Each of the large memory nodes (available via the *mem* queue) has ~9 TB of fast
 #SBATCH -o "stdout.%j.%N"     # standard out %j adds job number to output file name and %N adds the node name
 #SBATCH -e "stderr.%j.%N"     #optional, it prints out standard error
 
-# start staging data to the job temporary directory in /local/scratch
+# start staging data to the job temporary directory in $TMPDIR
+MYDIR=`pwd`
+/bin/cp –r $MYDIR $TMPDIR/
 cd $TMPDIR
-cp -r /projects/my_project/data ./
-
+ 
 # add regular job commands like module load and running scientific software
-
+ 
 # copy output data off of local scratch
-cp -r output /projects/my_project/output
-
+/bin/cp -r output $MYDIR/output
+ 
+# If you do not know the output names, you can issue:
+#   rsync –a $TMPDIR/*  $MYDIR/
+# which will only copy back new or changed files, but rsync takes longer.
+ 
 #End of file
 ```  
 
