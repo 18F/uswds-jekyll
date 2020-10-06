@@ -87,7 +87,7 @@ the space, do not use the `-a` flag, as that preserves date stamps.
 ## Temporary Local Node Storage
 
 One can use the storage on the disk drive on each of the compute nodes by reading and writing to `$TMPDIR` (1.5TB on most compute nodes, 
-for details see [Ceres Technical Overview](https://scinet.usda.gov/guide/ceres/#technical-overview).  This is temporary storage that can 
+for details see [Ceres Technical Overview](https://scinet.usda.gov/guide/ceres/#technical-overview)).  This is temporary storage that can 
 be used only during the execution of your job. Only processes executing on a node have access to this space.  Multiple jobs running on the 
 same node share this space, so an individual job may be able to use less than total available space. If all local space is needed for a job, 
 request the whole node.
