@@ -23,6 +23,7 @@ google_analytics_ua: UA-27627304-1
 
 # Configuration for DAP, add your agency ID here:
 dap_agency: USDA
+dap_subagency: ARS
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
@@ -69,3 +70,10 @@ url: "https://scinet.usda.gov" # the base hostname & protocol for your site
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
+# https://designsystem.digital.gov/documentation/developers/#sass-compilation-requirements
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - last 2 versions
+    - IE 11
+    - not dead

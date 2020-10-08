@@ -1,26 +1,34 @@
 # This is the configuration for the site footer.
 
 # Configuration for type of footer.
-# Footer types can be 'slim', 'medium', or 'big'.
+# Footer types can be 'slim', 'default', or 'big'.
 # https://designsystem.digital.gov/components/footers/
+<<<<<<< HEAD
 type: big
+=======
+type: default
+>>>>>>> upstream/master
 
 # Configuration for "Return to top" link.
 # Customize with 'text' and 'href' properties.
 # Comment out to the following section to hide.
 top:
   text: Return to top
-  href: '#'
+  href: "#"
 
 # Configuration for "Edit this page" link in the footer.
 # Customize with 'text' property.
-# Uncomment the following line to show.
-# edit_page:
-#   text: Edit this page
+# Uncomment the following lines to show.
+#edit_page:
+#  text: Edit this page
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
+<<<<<<< HEAD
 last_updated: true
+=======
+last_updated: false
+>>>>>>> upstream/master
 
 # Configuration for which links show at the top of the footer.
 # this is a key into _data/navigation.yml
@@ -43,8 +51,8 @@ logos:
 
 # Configuration for footer contact links
 contact:
-# Configuration for social media links
-# Comment out links you don't want to use (RSS is an example)
+  # Configuration for social media links
+  # Comment out links you don't want to use (RSS is an example)
   social_links:
     - text: Twitter
       href: https://twitter.com/USDA_ARS
@@ -58,8 +66,13 @@ contact:
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
+<<<<<<< HEAD
   heading: Contact us
 # Configuration for contact links for email, phone, etc...
+=======
+  heading: Agency contact center
+  # Configuration for contact links for email, phone, etc...
+>>>>>>> upstream/master
   contact_links:
     - text: scinet_vrsc@usda.gov
       href: mailto:scinet_vrsc@usda.gov

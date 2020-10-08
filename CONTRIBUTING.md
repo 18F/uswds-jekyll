@@ -10,6 +10,10 @@ We encourage you to read this project's CONTRIBUTING policy (you are here), its 
 
 If you have any questions or want to read more, check out the [18F Open Source Policy GitHub repository](https://github.com/18f/open-source-policy), or just [shoot us an email](mailto:18f@gsa.gov).
 
+## Updating the U.S. Web Design System
+
+Run `rake update`
+
 ## Releasing a new version
 
 1. Update the gem version in [`uswds-jekyll.gemspec`](https://github.com/18F/uswds-jekyll/blob/master/uswds-jekyll.gemspec)

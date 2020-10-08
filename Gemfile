@@ -7,5 +7,6 @@ gem 'html-proofer'
 gem 'jekyll-sitemap'
 
 group :jekyll_plugins do
-  gem "jekyll-last-modified-at"
+  # Only put the optional plugins here. Required plugins should go in the gemspec.
+  gem 'jekyll-last-modified-at'
 end
