@@ -35,7 +35,7 @@ primary:
       - text: Set up multifactor authentication
         href: /guide/multifactor
       - text: SCINet Storage Guide
-        href: /guide/storage        
+        href: /guide/storage
       - text: Software Overview
         href: /guide/software
       - text: Installing R/Python/Perl Packages
@@ -108,8 +108,6 @@ primary:
         href: /user/geospatial/
       - text: Hydrology
         href: /user/hydrology/
-
-<<<<<<< HEAD
   - text: Support
     links:
       - text: Virtual Research Support Core (VSRC)
@@ -225,54 +223,3 @@ footer:
       - text: No FEAR Act Data
         href: https://usda.gov/nofear
         external: true
-=======
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
-
-footer:
-# Uncomment the 'links' sections below to use footer link columns
-# with the 'big' footer style.
-  - text: Documentation
-    href: /docs/
-    links:
-      - text: Overview
-        href: /docs/
-      - text: Secondary documentation page
-        href: /docs/two/
-      - text: Tertiary docs
-        href: /docs/three/
-  - text: Navigation section
-    href: /docs/
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: External links
-    href: /docs/
-    links:
-      - text: 18F
-        href: https://18f.gsa.gov
-        external: true
-      - text: Technology Transformation Service
-        href: https://join.tts.gsa.gov/
-        external: true
-      - text: code.gov
-        href: https://code.gov/
-        external: true
-  - text: Privacy policy
-    href: /docs/
-#   links:
-#     - text: Demo link A
-#       href: /three/a/
-#     - text: Demo link B
-#       href: /three/b/
-#     - text: Demo link C
-#       href: /three/c/
->>>>>>> upstream/master
