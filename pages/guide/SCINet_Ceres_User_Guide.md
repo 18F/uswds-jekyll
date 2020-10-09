@@ -433,7 +433,7 @@ priority-mem768 | 3 | 2 weeks | 9500 MB | priority nodes with 768 GB memory
 priority-gpu | 1 | 2 weeks | 5250 MB | priority GPU node
 
 
-**At most 400 cores and 1512 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 400 cores and 1512 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start.
+**At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 800 cores and 2100 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start.
 
 To get current details on all partitions use the following scontrol command:
 ```
