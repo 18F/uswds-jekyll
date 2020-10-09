@@ -77,5 +77,3 @@ autoprefixer:
     - last 2 versions
     - IE 11
     - not dead
-
-site_width: 90%

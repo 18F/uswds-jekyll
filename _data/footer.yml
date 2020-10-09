@@ -35,10 +35,10 @@ heading: USDA Agricultural Research Service
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
-logos: false
-  #- src: /assets/img/usda-symbol-rgb-color.svg
-  #  alt: USDA-ARS
-  #  external: false
+logos:
+  - src: /assets/img/usda-symbol-rgb-color.svg
+    alt: USDA-ARS
+    external: false
 
 # Configuration for footer contact links
 contact:

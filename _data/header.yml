@@ -2,11 +2,11 @@
 
 # Set header title differently from the site's title (as defined in _config.yml).
 # Uncomment the following line to use the header title.
-title: SCINet Scientific Computing
+title: SCINet Scientific Computing Initiative
 
 # Show or hide the official USA banner at the top of the site.
 # Comment out to the following line to hide.
-usa_banner: true
+# usa_banner: true
 
 # This setting changes the TLD used as an argument for trust in banner.html.
 # If options besides .mil and .gov are added, it may be worth adding a JS
@@ -24,7 +24,7 @@ logo:
   src: /assets/img/usda-symbol-rgb-color.svg
   alt: USDA-ARS
   #src: /assets/img/USDAARSIdentityRGB3.png
-  #external: true
+  # external: true
 
 # this is a key into _data/navigation.yml
 primary:
