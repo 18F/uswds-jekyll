@@ -56,7 +56,7 @@ If you need software that you think will be useful to many SCINet users you can 
 
 ## Ceres Command-line Software Managed by the Module System
 
-List updated  February 20, 2020. To generate this list run  `module avail`.
+List updated October 9, 2020. To generate this list run  `module avail`.
 
 {% assign mydata=site.data.applications-parsed %}
 <table>
