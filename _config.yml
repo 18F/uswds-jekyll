@@ -49,3 +49,11 @@ autoprefixer:
     - last 2 versions
     - IE 11
     - not dead
+
+permalink: pretty
+# https://github.com/jekyll/jekyll/issues/920#issuecomment-431742165
+# note this doesn't get inherited
+collections:
+  pages:
+    output: true
+    permalink: /:path/

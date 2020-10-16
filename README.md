@@ -447,13 +447,13 @@ The default layout provides a layout [front matter] hook to add attributes to th
 This layout implements the [home page
 template](https://designsystem.digital.gov/page-templates/landing/), which accommodates the following [front matter]:
 
-Check out the YAML front matter in the [home demo page](demo/home.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo page](_pages/home.html) for an example of how to structure it.
 
 ### `layout: page`
 
 This layout implements the [document page template](https://designsystem.digital.gov/page-templates/docs/).
 
-See the [page demo page](demo/page.md) for an example of how this works, and see [\_data/navigation.yml](_data/navigation.yml) for how to structure named navigation data for your site.
+See the [page demo page](_pages/docs.md) for an example of how this works, and see [\_data/navigation.yml](_data/navigation.yml) for how to structure named navigation data for your site.
 
 ### `layout: post`
 
