@@ -1,6 +1,6 @@
 # This is the configuration for the site navigation.
 
-sidenav-breakpoint: 'desktop'
+sidenav-breakpoint: "desktop"
 
 # This file defines the structure of various named navigational
 # listings, any of which can be used (with some caveats) as the
@@ -14,27 +14,31 @@ sidenav-breakpoint: 'desktop'
 #   links: primary
 #
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
+  - text: Installation
+    href: /installation/
+  - text: Configuration
+    href: /configuration/
+  - text: Assets
+    href: /assets/
+  - text: Customization
+    href: /customization/
+  - text: Components
+    href: /components/
+  - text: Layouts
+    href: /layouts/
+  - text: Migration
+    href: /migration/
+  - text: Example pages
     links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: Referenced section
-    links: footer
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+      - text: Theme
+        href: /theme/
+      - text: Sidebar
+        href: /docs/
+      - text: Referenced section
+        links: footer
+      - text: External link
+        href: https://18f.gsa.gov
+        external: true
 
 secondary:
   - text: Documentation
@@ -50,8 +54,8 @@ docs:
     external: true
 
 footer:
-# Uncomment the 'links' sections below to use footer link columns
-# with the 'big' footer style.
+  # Uncomment the 'links' sections below to use footer link columns
+  # with the 'big' footer style.
   - text: Documentation
     href: /docs/
     links:
