@@ -3,7 +3,7 @@ title: Assets
 layout: page
 ---
 
-The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html) includes each incorporate the USWDS CSS and JS files if the corresponding `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless you add one or both of those manually, your HTML will include the following:
+The [stylesheet](https://github.com/18F/uswds-jekyll/blob/master/_includes/styles.html) and [script](https://github.com/18F/uswds-jekyll/blob/master/_includes/scripts.html) includes each incorporate the USWDS CSS and JS files if the corresponding `styles` and `scripts` lists aren't defined in your `_config.yml`. So unless you add one or both of those manually, your HTML will include the following:
 
 ```html
 <!-- in the <head> -->
@@ -45,7 +45,7 @@ Scripts specified as objects (in the latter item above) must have a `src` proper
 Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 1. Assets configured at the `site` level (in your `_config.yml`) will be loaded
-   in all pages that use the USWDS [layouts](#layouts).
+   in all pages that use the USWDS [layouts]({% link _pages/layouts.md %}).
 1. Those configured at the layout level (in that layout's [front
    matter]) will be loaded on all pages that use that layout, after
    site assets.

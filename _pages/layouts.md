@@ -14,35 +14,35 @@ layout: name
 
 Supported (optional) front matter for page layouts.
 
-- [page navigation](#page-subnavigation)
-- [hero](#hero)
-- [tagline intro](#tagline-intro)
-- [graphics list](#graphics-list)
+- [page navigation]({{ "/configuration/#page-subnavigation" | relative_url }})
+- [hero]({{ "/configuration/#hero" | relative_url }})
+- [tagline intro]({{ "/configuration/#tagline-intro" | relative_url }})
+- [graphics list]({{ "/configuration/#graphics-list" | relative_url }})
 
-## `layout: default`
+## `default`
 
 This is the bare-bones USWDS layout, which does all of the basic page scaffolding then drops the page content into the `<main>` element. All of the other layouts "inherit" this one and provide other features in the content block.
 
-The default layout provides a layout [front matter] hook to add attributes to the `<main>` element. You can see how this works in the [page layout](_layouts/page.html#L3-L4).
+The default layout provides a layout [front matter] hook to add attributes to the `<main>` element. You can see how this works in the [page layout](https://github.com/18F/uswds-jekyll/blob/master/_layouts/page.html#L3-L4).
 
-## `layout: home`
+## `home`
 
 This layout implements the [home page
 template](https://designsystem.digital.gov/page-templates/landing/), which accommodates the following [front matter]:
 
-Check out the YAML front matter in the [home demo page](_pages/home.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo page](https://github.com/18F/uswds-jekyll/blob/master/_pages/home.html) for an example of how to structure it.
 
-## `layout: page`
+## `page`
 
 This layout implements the [document page template](https://designsystem.digital.gov/page-templates/docs/).
 
-See the [page demo page](_pages/docs.md) for an example of how this works, and see [\_data/navigation.yml](_data/navigation.yml) for how to structure named navigation data for your site.
+See the [page demo page](https://github.com/18F/uswds-jekyll/blob/master/_pages/docs.md) for an example of how this works, and see [\_data/navigation.yml](https://github.com/18F/uswds-jekyll/blob/master/_data/navigation.yml) for how to structure named navigation data for your site.
 
-## `layout: post`
+## `post`
 
 This layout is identical to the layout `page` and is included to allow for easier site creation using `Jekyll new`.
 
-## `layout: project`
+## `project`
 
 This layout is used to show details for an individual project and uses the following front matter.
 
@@ -58,7 +58,7 @@ image_alt: The image alt text
 
 To show a listing of projects on a page add `{% include project-list.html %} to the page`
 
-## `layout: team-member`
+## `team-member`
 
 This layout is used to show details for an individual team member and uses the following front matter.
 

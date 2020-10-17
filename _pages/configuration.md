@@ -3,9 +3,9 @@ title: Configuration
 layout: page
 ---
 
-Configuration of common elements ([header](#header), [footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
+Configuration of common elements ([header]({{ "/components/#header" | relative_url }}), [footer]({{ "/components/#footer" | relative_url }}), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](https://github.com/18F/uswds-jekyll/tree/master/_data) for reference configurations of each component.
 
-The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
+The [default layout]({{ "/layouts/#default" | relative_url }}) also provides a mechanism for automatically including [stylesheets]({{ "/assets/#stylesheets" | relative_url }}) and [scripts]({{ "/assets/#scripts" | relative_url }}) on a site-wide, layout-wide, and per-page basis. See [asset load order]({{ "/assets/#asset-load-order" | relative_url }}) for more information.
 
 ## Site title
 
@@ -43,7 +43,7 @@ primary:
     links: <links>
 ```
 
-This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
+This scheme allows you to define navigational elements that can be shared by different components, such as the [header]({{ "/components/#header" | relative_url }}) and [footer]({{ "/components/#footer" | relative_url }}). See the documentation for those components for more info.
 
 ## Page title
 
@@ -57,7 +57,7 @@ title: About us
 
 ## Page subnavigation
 
-If you're using the [page layout](#layout-page), each page may declare its own side navigation and subnavigation in its front matter:
+If you're using the [page layout]({{ "/layouts/#page" | relative_url }}), each page may declare its own side navigation and subnavigation in its front matter:
 
 ```md
 ---
@@ -74,7 +74,7 @@ subnav:
 ## Section two
 ```
 
-As with the [header](#header) and [footer](#footer), the `sidenav` field may either reference a common [navigation list](#navigation) from `_data/navigation.yml` (recommended) or be a literal list of links.
+As with the [header]({{ "/components/#header" | relative_url }}) and [footer]({{ "/components/#footer" | relative_url }}), the `sidenav` field may either reference a common [navigation list](#navigation) from `_data/navigation.yml` (recommended) or be a literal list of links.
 
 The `subnav` field should be used to link to sections _within_ the current page, because links to other pages will cause the linking page's side navigation to collapse when visited.
 
@@ -107,7 +107,7 @@ redcarpet:
     - with_toc_data
 ```
 
-**Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page](#layout-page), [project](#layout-project), and [team member](#layout-team-member) layouts to have the sidenav follow as you scroll.
+**Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page]({{ "/layouts/#page" | relative_url }}), [project]({{ "/layouts/#project" | relative_url }}), and [team member]({{ "/layouts/#team-member" | relative_url }}) layouts to have the sidenav follow as you scroll.
 
 ## Hero
 
@@ -152,7 +152,7 @@ graphics_position: (before|after)
 
 ## Color configuration
 
-The default colors can be configured in the `_data/theme.yml` file. Other settings can be configured using USWDS theme settings. (See the [customization](#customization) section, below.)
+The default colors can be configured in the `_data/theme.yml` file. Other settings can be configured using USWDS theme settings. (See [customization]({% link _pages/customization.md %}).)
 
 ## Search
 

@@ -17,14 +17,14 @@ Customize the USWDS Jekyll theme with [USWDS theme settings files](https://desig
 
 ## Overriding includes and layouts
 
-Any [include](_includes) or [layout](_layouts) can be overridden by
+Any [include](https://github.com/18F/uswds-jekyll/tree/master/_includes) or [layout](https://github.com/18F/uswds-jekyll/tree/master/_layouts) can be overridden by
 your site by placing a file with the same name into your site's
 `_includes` or `_layouts` directory. For instance:
 
 - You can change how the side navigation is rendered (but not which
-  data it receives) in the [page layout](#layout-page) by creating
+  data it receives) in the [page layout]({{ "/layouts/#page" | relative_url }}) by creating
   your own `_includes/sidenav.html`.
 
 - You can change how and whether the side navigation is displayed
-  at all in the [page layout](#layout-page) by overriding
+  at all in the [page layout]({{ "/layouts/#page" | relative_url }}) by overriding
   `_layouts/page.html`.

@@ -18,13 +18,13 @@ This separation allows you to override either of the component includes in your 
 
 ## Header
 
-The [header.html include](_includes/header.html) sets the `header` template variable to `site.data.header`, the value of which is set in your Jekyll project's `_data/header.yml` file. Then it includes [components/header.html](_includes/components/header.html) to render the header's markup.
+The [header.html include](https://github.com/18F/uswds-jekyll/blob/master/_includes/header.html) sets the `header` template variable to `site.data.header`, the value of which is set in your Jekyll project's `_data/header.yml` file. Then it includes [components/header.html](https://github.com/18F/uswds-jekyll/blob/master/_includes/components/header.html) to render the header's markup.
 
-See this repo's [header.yml](_data/header.yml) for more info.
+See this repo's [header.yml](https://github.com/18F/uswds-jekyll/blob/master/_data/header.yml) for more info.
 
 ## Footer
 
-The [footer.html include](_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
+The [footer.html include](https://github.com/18F/uswds-jekyll/blob/master/_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](https://github.com/18F/uswds-jekyll/blob/master/_includes/components/footer.html) to
 render the footer's markup.
 
-See this repo's [footer.yml](_data/footer.yml) for more info.
+See this repo's [footer.yml](https://github.com/18F/uswds-jekyll/blob/master/_data/footer.yml) for more info.
