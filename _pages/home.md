@@ -46,7 +46,7 @@ graphics:
     description: In addition to your goal, find out your users’ goals. [What do they want to know](https://18f.gsa.gov/) or do that supports your mission? Use these headings to show those.
 ---
 
-## Section heading
+# Section heading
 
 {:.font-heading-xl.margin-y-0"}
 

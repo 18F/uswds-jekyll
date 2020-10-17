@@ -14,7 +14,7 @@ The [stylesheet](_includes/styles.html) and [script](_includes/scripts.html) inc
 
 Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts) below.
 
-### Stylesheets
+## Stylesheets
 
 As a general rule, all stylesheets are inserted in a layouts' `<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
@@ -27,7 +27,7 @@ styles:
 
 Stylesheets specified as objects (in the latter item above) must have an `href` property. The `media` defaults to `screen`.
 
-### Scripts
+## Scripts
 
 As a general rule, all scripts are inserted before a layouts' `</body>`, which prevents them from blocking the rendering of your page's content. Scripts can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
@@ -40,7 +40,7 @@ scripts:
 
 Scripts specified as objects (in the latter item above) must have a `src` property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
 
-### Asset load order
+## Asset load order
 
 Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 

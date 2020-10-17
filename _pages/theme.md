@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Links
+## Links
 
 [This](javascript:void(0);) is a text link on a light background.
 
@@ -14,22 +14,27 @@ This is link that goes to an [external website](https://18f.gsa.gov){: .usa-exte
   [This](javascript:void(0);) is a text link on a light background.
 </div>
 
-# Buttons
-## Default or primary
+## Buttons
+
+### Default or primary
+
 <button class="">Default</button>
 <button class=" usa-button-hover">Hover</button>
 <button class=" usa-button-active">Active</button>
 <button class=" usa-focus">Focus</button>
 <button class="" disabled>Disabled</button>
-## Secondary
+
+### Secondary
+
 <button class="usa-button-secondary">Default</button>
 <button class="usa-button-secondary usa-button-hover">Hover</button>
 <button class="usa-button-secondary usa-button-active">Active</button>
 <button class="usa-button-secondary usa-focus">Focus</button>
 <button class="usa-button-secondary" disabled>Disabled</button>
 
-# Tables
-## Standard
+## Tables
+
+### Standard
 
 | Document title  | Description  | Year |
 |---|---|---|
@@ -38,7 +43,7 @@ This is link that goes to an [external website](https://18f.gsa.gov){: .usa-exte
 | Declaration of Sentiments  | A document written during the Seneca Falls Convention outlining the rights that American women should be entitled to as citizens. | 1848 |
 | Emancipation Proclamation  | An executive order granting freedom to slaves in designated southern states. | 1863 |
 
-## Borderless
+### Borderless
 
 {: .usa-table-borderless}
 | Document title  | Description  | Year |

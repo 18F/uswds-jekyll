@@ -15,7 +15,7 @@ Customize the USWDS Jekyll theme with [USWDS theme settings files](https://desig
 
     Custom Sass loads after the USWDS and default Sass, so you can use it to override the defaults. Individual sites can also [selectively override](#overriding-includes-and-layouts) individual includes and layouts.
 
-### Overriding includes and layouts
+## Overriding includes and layouts
 
 Any [include](_includes) or [layout](_layouts) can be overridden by
 your site by placing a file with the same name into your site's

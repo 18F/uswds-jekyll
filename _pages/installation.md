@@ -25,7 +25,7 @@ layout: page
 
 You will need to restart your Jekyll server to see the effects.
 
-### Install as a new Jekyll site
+## Install as a new Jekyll site
 
 1. Create a new Jekyll site:
    ```
@@ -51,7 +51,7 @@ You will need to restart your Jekyll server to see the effects.
 
 1. Run `bundle exec jekyll serve` to build your site locally at http://localhost:4000/
 
-### Versioning
+## Versioning
 
 To reference a specific version of this theme:
 

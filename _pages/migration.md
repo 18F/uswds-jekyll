@@ -3,11 +3,11 @@ title: Migration
 layout: page
 ---
 
-### From [guides_style_18f](https://github.com/18F/guides-style)
+## From [guides_style_18f](https://github.com/18F/guides-style)
 
 See [this example pull request](https://github.com/18F/before-you-ship/pull/458).
 
-### From earlier versions
+## From earlier versions
 
 **Note:** `uswds-jekyll` 5.x is only compatible with Jekyll 4.0 and higher.
 

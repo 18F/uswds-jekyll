@@ -7,15 +7,15 @@ Configuration of common elements ([header](#header), [footer](#footer), [navigat
 
 The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
-### Site title
+## Site title
 
 You can change your site's title with the `title` field in `_config.yml`. If you want to provide an alternate title for use _only_ in the site header, you can set the `title` field in `_data/header.yml`.
 
-### Site description
+## Site description
 
 You can change your site's description with the `description` field in `_config.yml`. If you want to override it for a particular page, you can set the `description` field in that page's frontmatter.
 
-### Navigation
+## Navigation
 
 This theme's navigation system is powerful and flexible. Named navigational lists live in your project's `_data/navigation.yml`.
 
@@ -45,7 +45,7 @@ primary:
 
 This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
 
-### Page title
+## Page title
 
 Set each page's title in its frontmatter:
 
@@ -55,7 +55,7 @@ title: About us
 ---
 ```
 
-### Page subnavigation
+## Page subnavigation
 
 If you're using the [page layout](#layout-page), each page may declare its own side navigation and subnavigation in its front matter:
 
@@ -109,7 +109,7 @@ redcarpet:
 
 **Pro tip:** If you're like us and prefer your navigation sticky, you can add `sticky_sidenav: true` on [page](#layout-page), [project](#layout-project), and [team member](#layout-team-member) layouts to have the sidenav follow as you scroll.
 
-### Hero
+## Hero
 
 ```yml
 hero: # optional
@@ -122,7 +122,7 @@ hero: # optional
     href: /button-href/
 ```
 
-### Tagline intro
+## Tagline intro
 
 ```yml
 # optional, but must be used in conjunction with 'intro', below
@@ -134,7 +134,7 @@ intro: |
   This will be processed as **Markdown**.
 ```
 
-### Graphics list
+## Graphics list
 
 ```yml
 # an optional list of graphics to display before or after the content
@@ -150,11 +150,11 @@ graphics:
 graphics_position: (before|after)
 ```
 
-### Color configuration
+## Color configuration
 
 The default colors can be configured in the `_data/theme.yml` file. Other settings can be configured using USWDS theme settings. (See the [customization](#customization) section, below.)
 
-### Search
+## Search
 
 [Search.gov](https://search.gov/) is used for search and can be configured in `_config.yml`.
 
@@ -163,9 +163,9 @@ with search.gov.
 
 After setting up your site on search.gov you can then add your `search_site_handle` to the `config.yml`.
 
-### Analytics
+## Analytics
 
-#### Google Analytics
+### Google Analytics
 
 You can add Google Analytics to your site by uncommenting the `google_analytics_ua` line and replacing `UA-????????-??` with your Google analytics UA code.
 
@@ -174,7 +174,7 @@ You can add Google Analytics to your site by uncommenting the `google_analytics_
 # google_analytics_ua: UA-????????-??
 ```
 
-#### Digital Analytics Program (DAP)
+### Digital Analytics Program (DAP)
 
 You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. And optionally, `dap_subagency` may also be specified. For more information visit <https://www.digitalgov.gov/services/dap/>
 
@@ -184,7 +184,7 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 # dap_subagency: TTS
 ```
 
-### Last modified date
+## Last modified date
 
 To show the last date a page was last modified by:
 
@@ -204,7 +204,7 @@ To show the last date a page was last modified by:
 
 This will add the date right before the footer component.
 
-### Anchor JS
+## Anchor JS
 
 You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making ech header linkable. See https://github.com/bryanbraun/anchorjs for more information.
 
