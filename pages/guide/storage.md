@@ -16,7 +16,7 @@ layout: page
   * [Temporary Local Node Storage](#temporary-local-node-storage) ($TMPDIR)  
 * [Atlas HPC Cluster](#atlas-hpc-cluster)
   * [Atlas Home Directories](#atlas-home-directories) (/home/firstname.lastname)
-  * [Atlas Project Directories](#atlas-project-directories) (/work/project_name)
+  * [Atlas Project Directories](#atlas-project-directories) (/project/project_name)
 * [Orion HPC Cluster](#orion-hpc-cluster)
 
 # Ceres HPC Cluster
