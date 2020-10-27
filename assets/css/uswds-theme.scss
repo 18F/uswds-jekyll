@@ -32,9 +32,7 @@
   @import 'uswds/components/site-width';
 {% endif %}
 
-{% if site.data.navigation.sidenav-breakpoint %}
-  $theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint }}';
-{% endif %}
+$theme-sidenav-breakpoint: '{{ site.data.navigation.sidenav-breakpoint | default: "desktop" }}';
 
 // Banner colors
 {% assign colors_banner = site.data.theme.colors.usa-banner %}

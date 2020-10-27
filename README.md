@@ -536,9 +536,6 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
    --> footer.yml
    type: [slim | default | big]
 
-   --> navigation.yml
-   sidenav-breakpoint: {{ breakpoint_token }}
-
    --> theme.yml (examples)
    colors:
      usa-banner:
