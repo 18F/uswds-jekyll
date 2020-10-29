@@ -31,11 +31,12 @@ Other helpful links:<br>
 [Request Software](/support/request-software)<br>
 
 
-## Starkville, MS HPC Cluster
-ARS researchers will also have access to a Cray system in Starkville, MS through an agreement with the Mississippi State University to supplement Agency scientific computing capacity. Installation and testing of the cluster will begin in December 2019.
+## Atlas HPC Cluster | Starkville, MS 
+ARS researchers also have access to a Cray system in Starkville, MS through an agreement with the Mississippi State University to supplement Agency scientific computing capacity. Same SCINet credentials are used to connect to Atlas as to other SCINet HPC clusters.
 
+Atlas cluster consists of 228 standard compute nodes, 8 high memory compute nodes and 4 GPU nodes. All nodes run on Linux Centos and compute jobs are managed by the SLURM scheduler. The system is configured with a login node, which users access to submit compute jobs to the SLURM scheduler.
 
-## Beltsville, MD HPC Cluster
+## Orion HPC Cluster | Beltsville, MD 
 A second Agency-owned HPC cluster is planned for Beltsville, MD and will consist of a blend of compute nodes and multi-tier storage.
 
 
