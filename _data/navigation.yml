@@ -56,6 +56,8 @@ primary:
         href: /guide/galaxy
       - text: Containers
         href: /guide/singularity
+      - text: SMRTLink using Command Line
+        href: /guide/smrtlink
   - text: Working Groups
     links:
       - text: Overview
