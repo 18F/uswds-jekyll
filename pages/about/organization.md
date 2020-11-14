@@ -2,25 +2,106 @@
 title: Organization of the SCINet project
 description: Organization and Management of the SCINet project
 permalink: /about/organization
-author:
+author: 'Adam Rivers Kerrie Geil'
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 ---
 
-The Scinet program is led by the Associate administrator for National Programs, Dr. Steven Kappes,
-the Associate administrator for Research Management and Operations, Dr Simon Liu
- and the Acting Chief Scientific information officer Dr. Debra Peters. The
-program is guided by an Executive Director and an Executive Committee with
-input from a Scientific Advisory Committee.
+#### Table of contents
+* [About](#about-scinet)
+* [Senior Leadership](#senior-leadership)
+* [Executive committee](#executive-committee)
+* [Scientific Advisory Committee](#scientific-advisory-committee)
+* [Policy Committee](#policy-committee)
+* [Scientific points of contact](#scientific-points-of contact)
+
+
+# About SCInet
+The ARS Scientific Computing Initiative is led by an Executive Committee comprised of ARS leadership including Dr. Steven Kappes – Associate Administrator for National Programs, Dr. Simon Liu – Associate Administrator for Research Management and Operations, Dr. Debra Peters – Acting Chief Scientific Information Officer, and Stan Kosecki – Acting SCINet Program Manager. The Executive Committee is guided by security professionals, system administrators, a team of computational ARS scientists called the Scientific Advisory Committee, an HPC Policy Standing Committee, and an HPC Software Standing Committee.
 
 The program runs three high performance computer clusters.  The Ceres cluster
-is housed at the National Animal disease center in Ames. IA and operated by
-Iowa State University. A Cray cluster is located and run by Mississippi State
-University in Starkville, MS and a planned cluster will be housed and operated
-at the National Agricultural Library in Beltsville, MD.
+is housed at the National Animal disease center in Ames, IA and operated by
+Iowa State University. The Atlas cluster is located run by Mississippi State
+University in Starkville, MS and a  planned cluster will be housed and operated
+at ARS in Beltsville, MD.
 
 User support at SCINet is provided by the  Virtual Support Research Core (VSRC)
 operated by Iowas State University.
+
+## Senior leadership
+
+Person | Position
+---|---
+Dr. Steven Kappes | Associate Administrator for National Programs
+Dr. Simon Liu | Associate Administrator for Research Management and Operations
+Dr. Debra Peters | Acting Chief Scientific Information Officer, ARS
+
+## Executive committee
+
+The ARS Scientific Computing Initiative is led by an Executive Committee.
+
+Person | Position
+---|---
+Dr. Steven Kappes | Associate Administrator for National Programs
+Dr. Simon Liu | Associate Administrator for Research Management and Operations
+Dr. Debra Peters | Acting Chief Scientific Information Officer, ARS
+Mr. Stan Kosecki | Deputy Assistant Chief Information Officer
+Mr. Rob Butler | Acting SCINet Executive Director
+Dr. Brian Scheffler | Research Leader, Genomics and Bioinformatics Research Unit
+Dr. Adam Rivers | Chair, SCINet Scientific Advisory Committee
+
+## Scientific advisory committee
+
+The ARS Scientific Computing Initiative is in the dominion of ARS researchers, thus the program is in a constant state of gathering and meeting their research needs. The SAC is an effort to assure that happens.  SAC members represent a broad breadth of scientific research at ARS and membership includes two researchers from each of the five ARS geographic areas, a statistician member, and an “at-large” member. The SAC divides its work over various subcommittees: communications, education, planning, software and membership. In recent years, the SAC has created a quarterly SCINet newsletter, designed a user needs survey, created the scinet.usda.gov website, and held multiple computational workshops and trainings. SAC progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate (non-members welcome), please contact Adam Rivers (chair).
+
+Person | Area |Role | Sub-subcommittees | Term expires
+-------|------|-----|-------------------|-------------
+Adam Rivers | Southeast | Chair | Communications | 2023
+Steve Schroeder | Northeast | Vice-Chair | Planning, Software | 2021
+Erin Scully |Plains | Secretary | Education, Membership | 2022
+Jeremy Edwards | Southeast | Representative | Communications | 2023
+Jude Maul | Northeast | Representative | Planning | 2021
+Julian Trachsel | Midwest | Representative | Membership, Software | 2022
+Margaret Woodhouse | Midwest | Representative | Communications | 2023
+Jason Fiedler | Plains | Representative | Planning | 2023
+Pat Clark | Pacific West | Representative | Education | 2022
+Alison Thompson |Pacific West | Representative | Education | 2021
+Kathy Yeater | Statistician | Representative |Membership | 2021
+Rowan Gaffney | At-Large | Representative | Education | 2022
+Jack Okamoro | ONP | Ex Officio | - | -
+Cyndy Parr | NAL | Ex Officio | - | -
+Bryan Kaphammer | Area Directors | Ex Officio | - | -
+Debra Peters | OCIO | Ex Officio | - | -
+Brian Scheffler | Former OCIO | Ex Officio | - | -
+Kerrie Geil | Scinet Fellow | Ex Officio | - | -
+Rob Butler | Acting SCINet Executive Director | Ex Officio | - | -
+
+## Policy Committee
+
+Formed in 2020, this committee makes recommendations to the Executive Committee on policies and procedures that are relevant to HPC operations. The committee is comprised of members from various technical backgrounds and includes representation from different ARS geographic areas. Membership also includes representatives from Iowa State University and Mississippi State University (where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. Policy Committee progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate, please contact Jonathan Shao (chair).
+
+
+Person | Area
+---|---
+Jonathan Shao (Chair) | Northeast Representative
+Steven Schroeder | Northeast Representative
+Dereck Bickhart | Midwest Representative
+Corey Moffet |Plains Representative
+Erin Scully | Plains Representative
+Joshua Udall |Plains Representative
+Loren Honaas | Pacific West Representative
+Stan Kosecki |NAL Representative
+Curtis Brooks |GWCC Representative
+Jim Coyle | ISU Representative
+Vincent Sanders |MSU-HPCC Representative
+Angela Pompey | Information Security
+Chris Lowe | Information Security
+Deb Peters | CSIO
+Rob Butler | Acting SCINet Executive Director
+
+
+## Scientific points of contact
+
+We are updating our Scientific points of contact for each location. Information will be here shortly.
 
 
 <!---------------------------------------------------------------------------------------

@@ -28,7 +28,7 @@ graphics:
       src: /assets/img/wifi.png
       alt: 'You have access'
     title: Your location has access now.
-    description: No network upgrades are needed. Users can access Ceres, our computer cluster, from any ARS location, university or home.
+    description: No network upgrades are needed. Users can access Ceres and Atlas our computer clusters, from any ARS location, university or home.
   - image:
       src: /assets/img/camera-retro.png
       alt: 'GUI software is available'
@@ -53,12 +53,12 @@ graphics:
      src: /assets/img/book.png
      alt: 'Training'
     title: Training is a core mission.
-    description: SCINet is more than hardware and cable. A key part of our mission is training ARS scientists in computational methods.
+    description: SCINet is more than hardware and cables. A key part of our mission is training ARS scientists in computational methods.
 ---
 
 ## Find out how SCINet can enable your Research
 
-Look at our use cases ([genomics](/user/genomics), [plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Advisory counsel representative](/team/) to learn more. You can get the process started by requesting an account right now.
+Look at our use cases in ([genomics](/user/genomics), [plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Scientific Advisory Committee representative](/about/organization) to learn more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
 [Get an account](signup){: .usa-button .usa-button-big }

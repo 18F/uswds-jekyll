@@ -129,8 +129,6 @@ primary:
 #        href: /about/networking
       - text: Organization
         href: /about/organization
-      - text: People
-        href: /team/
       - text: Contact
         href: /about/contact
   - text: Opportunities

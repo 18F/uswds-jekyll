@@ -134,8 +134,6 @@ primary:
 #        href: /about/networking
       - text: Organization
         href: /about/organization
-      - text: People
-        href: /team/
       - text: Contact
         href: /about/contact
   - text: Opportunities
@@ -175,7 +173,7 @@ footer:
         href: https://www.usda.gov/our-agency/careers
         external: true
       - text: Report Fraud on USDA
-        href: https://www.usda.gov/oig/contractorform.htm
+        href: https://www.usda.gov/oig/forms/contractor-fraud
         external: true
       - text: Visit OIG
         href: https://www.usda.gov/oig/

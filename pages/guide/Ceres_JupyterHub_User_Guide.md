@@ -9,7 +9,7 @@ layout: page
 
 #### Table of Contents
 * [Introduction](#introduction)
-* [Launching Jupyter](#launching-jupyter)
+* [Launching Jupyter](#launching-jupyterlab)
 * [Environments and Software](#environments-and-software)
 * [Best Practices](#best-practices)
 * [Known Issues](#known-issues)
@@ -20,7 +20,7 @@ layout: page
 [Project Jupyter](https://jupyter.org/index.html) is a open source software stack that supports interactive data science and scientific computing across a wide array of programming languages ([>130 supported kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)). The primary applications within Jupyter are:
 
   1. [JupyterHub](https://jupyterhub.readthedocs.io/en/stable/#): Jupyter's multi-user server. This application spawns, manages, and proxies multiple instances of the single-user JupyterLab server.
-  
+
   2. [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/): Jupyter's next-generation notebook interface, which includes: [Jupyter notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html), [text editor](https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html), [terminal](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html), [file browser](https://jupyterlab.readthedocs.io/en/stable/user/files.html) (with upload/download capacity), [data viewer](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html), [markdown](https://jupyterlab.readthedocs.io/en/stable/user/file_formats.html#markdown), context help, and [external extensions](https://jupyterlab.readthedocs.io/en/stable/user/extensions.html).
 
 <img src="https://jupyterlab.readthedocs.io/en/stable/_images/jupyterlab.png" width="600" align="center" hspace="5" border="1" alt="screenshot of jupyterlab software">
@@ -40,12 +40,12 @@ layout: page
     * Access and authentication to arbitrary external processes (such as RStudio Server, Shiny Server, PostgreSQL, etc) via [jupyter-server-proxy](https://jupyter-server-proxy.readthedocs.io/en/latest/).
   * Customizability and Extensibility
   * An open source code base
-  
+
   For more details about Jupyter and why you may want to use it for computational research see: [Why Jupyter]({% link pages/guide/why_jupyter.md %})
 
 ---
 # Launching JupyterLab
-There are multiple approaches for accessing the Jupyter stack on Ceres. 
+There are multiple approaches for accessing the Jupyter stack on Ceres.
 
 * Port Forward with Putty - [Video Coming Soon]()
 * Port Forward with Secure Shell (SSH) - [Video Coming Soon]()
@@ -59,10 +59,10 @@ The simplest and most succinct method to launch JupyterLab is thru the JupyterHu
    * Verification Code: 6 digit time-sensitive code
    * Password: SCINet password
 3. **Spawning a JupyterLab Instance**
-  
+
    The Spawning page includes a comprehensive set of options for customizing JupyterLab and the compute environment. There are two ways to spawn JupyterLab, with the standard environment (default) or with a user defined container (optional).
 
-   <img src="../../assets/img/JHubspawn.png" width="300" align="center" hspace="20" border="1">
+   <img src="../../assets/img/JHubspawn.png" alt="Image of Jupyter Lab at start up" width="300" align="center" hspace="20" border="1">
 
    **Standard Options**
    * <u><i> Node Type</i></u> (Required): Which partition ([Ceres partitions](https://usda-ars-gbru.github.io/scinet-site/guide/ceres/#partitions-or-queues)) to spawn JupyterLab.
@@ -76,7 +76,7 @@ The simplest and most succinct method to launch JupyterLab is thru the JupyterHu
    * <u><i>Container Exec Args</i></u>  (Optional): [Additional options] for executing the container (see the [singularity exec options](https://sylabs.io/guides/3.5/user-guide/cli/singularity_exec.html). An example may be *--bind /lustre/project/name_of_project*.
 
 4. **Terminating JupyterLab**
-  
+
    To end the JupyterLab instance go to: *File* **-->** *Hub Control Panel* **-->** *Stop Server*
 
 Below is a video (COMING SOON) showing the above process.
@@ -127,7 +127,7 @@ JupyterHub will spawn an instance of JupyterLab using a singularity container (s
   * For parallel computing choose a reasonable number of cores to meet your needs.
   * Choose a reasonable job duration.
   * Remember to stop the jupyter server when you are done working (`File --> Hub Control Panel --> Stop Server`).
-  
+
 ## Reproducible Research
   * <b>Version Control</b>: The gold standard are version control systems like [Github](https://github.com/) or [Gitlab](https://about.gitlab.com/).
   * <b>Legible and Interperable Code</b>: Coding documents should include information about the mechanics of the code (commenting within code blocks) as well as the underlying scientific narrative (adding markdown cells surronding anlaysis and results).
@@ -145,4 +145,4 @@ Developing code/scripts that utilize resources of a cluster can be challenging. 
 # Known Issues
   * Users launching RStudio from JupyterHub for the first time may encounter timeout error. Refreshing the page should fix this.
 
-   <img src="../../assets/img/rstudio_timeout.png" width="300" align="center" hspace="20" border="1">
+   <img src="../../assets/img/rstudio_timeout.png" alt="R Studio timeout image" width="300" align="center" hspace="20" border="1">

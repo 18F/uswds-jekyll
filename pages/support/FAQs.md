@@ -89,7 +89,7 @@ Single user operational questions should be emailed to the VRSC scinet_vrsc@usda
 
 Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the SCINet VRSC Basecamp message board. Access to [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) is provided during the SCINet account application process. For more about how to use Basecamp see the [SCINet VRSC Basecamp Forum page](/support/basecamp/).
 
-Policy and development questions should be directed to the SCINet program manager, Stan Kosecki, or to your area representatives on the SCINet Scientific Advisory Committee (SAC), see the [SCINet People](/team/) page.
+Policy and development questions should be directed to the SCINet program manager, Stan Kosecki, or to your area representatives on the SCINet Scientific Advisory Committee (SAC), see the [SCINet Orginization](/about/organization/) page.
 
 ### How do I use Basecamp?
 [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp. For more about SCINet VRSC Basecamp see the [SCINet VRSC Basecamp Forum page](/support/basecamp/).
@@ -211,7 +211,7 @@ The current acting SCINet program manager is Stan Kosecki.
 ### What is the Scientific Advisory Committee (SAC)?
 The Scientific Advisory Committee is composed of ARS scientists across all the five physical Areas, NAL, and a representative from the Area Statisticians. These scientists serve 3-year terms on the committee and represent a broad spectrum of the computational research efforts within ARS. The SAC, which is also referred to as the executive SAC (eSAC), interacts directly with the SCINet Executive Committee on SCINet policy, development, and training.
 
-There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet People page](/team/).
+There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet Organization page](/about/organization/).
 
 ### How do I write a batch script to submit a compute job?
 answer coming soon

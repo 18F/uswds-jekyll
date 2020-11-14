@@ -27,8 +27,8 @@ SCINet also sponsors in-person workshops on specific topics.  A list of those to
 
 ## Data management
 
-Resources on data management can be [found here](/training/useful-links.)
+Resources on data management can be [found here](/training/useful-links/)
 
 ## Working groups
 
-We provide resources to support domain-specific working groups. Information in these groups can be [found here](/working-groups)
+We provide resources to support domain-specific working groups. Information in these groups can be [found here](/training-archive/)

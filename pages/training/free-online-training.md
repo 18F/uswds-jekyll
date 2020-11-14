@@ -139,7 +139,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs
 [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | 8 mo; 6 hrs/wk
 [Data Science: R Basics](https://www.edx.org/course/data-science-r-basics) | EdX | 8 wks; 1-2 hrs/wk
-[Introduction to R for Data Science](https://www.edx.org/course/introduction-to-r-for-data-science-2) | EdX | 4 wks; 2-3 hrs/wk
+
 
 
 # SAS Programming and JMP
@@ -236,14 +236,14 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [AI for Everyone: Master the Basics](https://www.edx.org/course/artificial-intelligence-for-everyone) | EdX | 4 wks; 1-2 hrs/wk
 [Deep Learning Essentials](https://www.edx.org/course/deep-learning-essentials) | EdX | 5 wks; 4-6 hrs/wk
 [Machine Learning with Python: A Practical Introduction](https://www.edx.org/course/machine-learning-with-python-a-practical-introduct) | EdX | 5 wks; 4-6 hrs/wk
-[Principles of Machine Learning: R Edition](https://www.edx.org/course/principles-of-machine-learning-r-edition-2) | EdX | 6 wks; 6-8 hrs/wk
-[Principles of Machine Learning: Python Edition]( https://www.edx.org/course/principles-of-machine-learning-python-edition-2) | EdX | 6 wks; 6-8 hrs/wk
+
+
 [Deep Learning Fundamentals with Keras](https://www.edx.org/course/deep-learning-fundamentals-with-keras) | EdX | 5 wks; 2-4 hrs/wk
 [Deep Learning with Python and PyTorch](https://www.edx.org/course/deep-learning-with-python-and-pytorch) | EdX | 6 wks; 2-4 hrs/wk
 [Deep Learning with TensorFlow](https://www.edx.org/course/deep-learning-with-tensorflow) | EdX | 5 wks; 2-4 hrs/week
 [Using GPUs to Scale and Speed-Up Deep Learning](https://www.edx.org/course/using-gpus-to-scale-and-speed-up-deep-learning) | EdX | 5 wks; 2-4 hrs/wk
-[Deep Learning Explained](https://www.edx.org/course/deep-learning-explained-2) | EdX | 6 wks; 4-8 hrs/wk
-[Computer Vision and Image Analysis](https://www.edx.org/course/computer-vision-and-image-analysis-2) | EdX | 4 wks; 3-4 hrs/wk
+
+
 
 
 # Geographic Information Systems (GIS)
