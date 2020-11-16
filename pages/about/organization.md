@@ -44,10 +44,19 @@ Person | Position
 Dr. Steven Kappes | Associate Administrator for National Programs
 Dr. Simon Liu | Associate Administrator for Research Management and Operations
 Dr. Debra Peters | Acting Chief Scientific Information Officer, ARS
+Ms. Lorna Drennen | Assistant Chief Information officer
 Mr. Stan Kosecki | Deputy Assistant Chief Information Officer
-Mr. Rob Butler | Acting SCINet Executive Director
-Dr. Brian Scheffler | Research Leader, Genomics and Bioinformatics Research Unit
+Mr. Rob Butler | Acting SCINet Project Manager
+Dr. Brian Scheffler | Former Acting Chief Scientific Information Officer
 Dr. Adam Rivers | Chair, SCINet Scientific Advisory Committee
+Mr. Chris Lowe | Policy and Information Assurance Branch Chief Information Security Officer
+Mr. Paul Wester |  Director at National Agricultural Library
+Mr. Nathan Weeks | Information Technology Specialist
+Mr. Jay Joiner | Project Consultant
+Mr. Andy Liberman | Information Technology Specialist(Networking)
+
+
+
 
 ## Scientific advisory committee
 
@@ -95,8 +104,8 @@ Jim Coyle | ISU Representative
 Vincent Sanders |MSU-HPCC Representative
 Angela Pompey | Information Security
 Chris Lowe | Information Security
-Deb Peters | CSIO
-Rob Butler | Acting SCINet Executive Director
+Debra Peters | Acting Chief Scientific Information Officer, ARS
+Rob Butler | Acting SCINet Project Manager
 
 
 ## Scientific points of contact
