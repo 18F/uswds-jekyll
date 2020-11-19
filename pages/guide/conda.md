@@ -13,7 +13,7 @@ layout: page
 * [Installing Software](#installing-software)
   * [Best Practices](#best-practices)
   * [Example 1: Installing Trinity into a home directory](#example-1-installing-trinity-into-a-home-directory)
-  * [Example 2: Installing Tensorflow into a /KEEP directory](#example-2-installing-tensorflow-into-a-keep-directory)
+  * [Example 2: Installing Tensorflow into a /project directory](#example-2-installing-tensorflow-into-a-project-directory)
 * [Managing Environments](#managing-environments)
 
 
@@ -229,8 +229,8 @@ To list software packages in an environment:
 ```
 OR
 ```
-[user.name@ceres ~]$ conda list --prefix /KEEP/my_proj/tensorflow
-# packages in environment at /KEEP/my_proj/tensorflow:
+[user.name@ceres ~]$ conda list --prefix /project/my_proj/tensorflow
+# packages in environment at /project/my_proj/tensorflow:
 ...
 ```
 
@@ -240,9 +240,9 @@ To remove an environment in your home directory:
 ```
 [user.name@ceres ~]$ conda env remove --name trinityenv
 ```
-To remove an environment in your /KEEP directory:
+To remove an environment in your /project directory:
 ```
-rm -rf /KEEP/my_proj/tensorflow
+rm -rf /project/my_proj/tensorflow
 ```
 
 To remove packages not used by any environment, as well as tarballs downloaded into the conda package cache ($HOME/.conda/pkgs):
