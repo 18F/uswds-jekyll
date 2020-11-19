@@ -62,16 +62,14 @@ On Ceres, suitable locations for conda environments housing conda packages inclu
 
 1. Home directory (default; subdirectory of $HOME/.conda/envs/)
 
-  NOTE: some Conda packages (with dependencies) can take gigabytes of storage space. Use the Ceres command  `my_quota`  to check the available space in your home directory. Contact the VRSC [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=home%20directory%20quota%20increase) if a home directory quota increase is needed.
+  NOTE: some Conda packages (with dependencies) can take gigabytes of storage space. Use the Ceres command  `my_quota`  to check the available space in your home directory. 
 
-2. A user-specified directory within one's project storage on the /KEEP file system, e.g.,
-/KEEP/\<MY_PROJECT>/\<MY_ENVIRONMENT_DIRECTORY>
+2. A user-specified directory within one's project directory, e.g.,
+/project/\<MY_PROJECT>/\<MY_ENVIRONMENT_DIRECTORY>
 
   This environment is then usable by others in the project.
 
 ## Best Practices
-
-* **CAUTION: Avoid installing software into the /project file system if possible. It is a BeeGFS parallel file system that is tuned for fewer, larger files, and suffers degraded performance when used as the target for conda packages, which frequently contain many smaller files.**
 
 * **Use an interactive session on a compute node to install software with conda to avoid slowing down the login node for everyone, e.g,**
   ```
@@ -190,15 +188,15 @@ After deactivating the trinityenv environment, Trinity and kallisto are no longe
 ```
 
 
-## Example 2: Installing Tensorflow into a /KEEP directory
+## Example 2: Installing Tensorflow into a /project directory
 
-Load the latest miniconda module if you haven't already and create an environment in your /KEEP directory by using the option  `--prefix`:
+Load the latest miniconda module if you haven't already and create an environment in your /project directory by using the option  `--prefix`:
 ```
 [user.name@ceres ~]$ module load miniconda
-[user.name@ceres ~]$ conda create --prefix /KEEP/my_proj/tensorflow
+[user.name@ceres ~]$ conda create --prefix /project/my_proj/tensorflow
 ...
-[user.name@ceres ~]$ source activate /KEEP/my_proj/tensorflow
-(/KEEP/my_proj/tensorflow) [user.name@ceres ~]$ conda install tensorflow
+[user.name@ceres ~]$ source activate /project/my_proj/tensorflow
+(/project/my_proj/tensorflow) [user.name@ceres ~]$ conda install tensorflow
 ... 
 ```
 
@@ -206,7 +204,7 @@ Note: conda first downloads packages into a package cache directory. By default,
 
 `pkgs_dirs:`
   
-  `- /KEEP/my_proj/my_pkg_cache`
+  `- /project/my_proj/my_pkg_cache`
   
 
 # Managing Environments
