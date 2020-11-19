@@ -94,6 +94,8 @@ primary:
         href: /training/bioinformatics-workbook
       - text: Useful Links
         href: /training/useful-links
+      - text: Coursera
+        href: /training/coursera
   - text: Use Cases
     links:
 #      - text: Research Leader
