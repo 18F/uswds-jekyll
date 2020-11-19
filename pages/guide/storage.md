@@ -37,7 +37,7 @@ into Ceres, they are automatically logged into their home directory `/home/first
 
 Home directories on Ceres have 5GB quotas and are intended to be mainly used for configuration and login files. Computations 
 should be run from project directories in `/project` or `/90daydata`. Software installs that require a lot of space, 
-such as conda virtual environments, should be done in [`/KEEP`](#keep).
+such as conda virtual environments, should be done in [`/project`](#project-directories).
 
 Files in home directories are automatically compressed and backed up. Due to backup method used on Ceres, space freed 
 after deleting files in home directories, becomes available only after 6 days.
@@ -55,20 +55,22 @@ To request a new project directory see [Request Project Storage](/support/reques
 Directories in `/project` are not backed up, however users can copy important data from a directory in `/project` to a 
 corresponding directory in `/KEEP` that is backed up nightly. User should not run jobs from a directory in `/KEEP`.
 
+Since home directories have a small quota, it is recommended to install software, 
+such as Python, Perl, R packages and conda virtual environments in `/projectproject_name`. 
+The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions 
+on how to install conda virtual environments in `/project`, while 
+[Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
+installing packages in a project directory.
+
 ## KEEP
 
-`/KEEP` is used to keep important data and for user software installs, such as conda virtual environments. Like in `/home`, 
+`/KEEP` is used to keep important data and for user software installs. Like in `/home`, 
 files in `/KEEP` are automatically compressed and backed up. It is recommended to copy important data from a directory in 
 `/project` to a corresponding directory in `/KEEP`. Note, that due to backup method used on Ceres, space freed after deleting files 
 in directories in `/KEEP`, becomes available only after 6 days.
 
 Many software applications are available on Ceres as [modules](https://scinet.usda.gov/guide/ceres/#modules), however sometimes 
-users need to install software by themselves. Since home directories have a small quota, it is recommended to install software, 
-such as Python, Perl, R packages and conda virtual environments in `/KEEP/project_name`. 
-The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions 
-on how to install conda virtual environments in `/KEEP`, while 
-[Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
-installing packages in a project directory.
+users need to install software by themselves. 
 
 ## Large Short-term Storage
 
