@@ -6,15 +6,14 @@ labels: "g: initial"
 assignees: ""
 ---
 
-## Background information
+## Background Information
+<!--Description, links, [user stories](https://www.agilealliance.org/glossary/user-stories/), what is the problem we are trying to solve, etc. If the work is described/tracked elsewhere, feel free to simply link there. Use the [INVEST](https://www.agilealliance.org/glossary/invest) method to assess completeness.-->
 
-<!-- Description, links, user stories, what is the problem we are trying to solve, etc. If the work is described/tracked elsewhere, feel free to simply link there. -->
 
-## Acceptance criteria
+## Implementation Steps
+- [ ] 
 
-- [definitive thing]
-- [other definitive thing]
+## Acceptance Criteria
+<!--[Definition of Done](https://www.agilealliance.org/glossary/definition-of-done)-->
+- [ ] 
 
----
-
-The assignee can add some checkboxes as a "sketch" of the steps to complete, which may evolve.
