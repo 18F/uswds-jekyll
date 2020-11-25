@@ -256,7 +256,7 @@ BYUScriptGen.prototype.createForm = function(doc) {
 	this.inputs.job_error = this.newInput({});
 
 	table.appendChild(this.returnNewRow("byu_sg_row_job_script_template", REQUIRED + "<b>Job Script Template</b>:<br /><i><u>normal</u> - Run any command-line application <br /><u>RStudio Server</u> - Run RStudio Server on a compute node", this.newSpan(null, this.inputs.job_script_template)));
-	table.appendChild(this.returnNewRow("byu_sg_row_node_type", REQUIRED + "<b>Compute node type</b>:<br /><i><u>standard</u> - max 20 cores, 125GB / 128000MB memory<br /><u>large-memory</u> - max 60 cores, 1494 GB / 1530000 MB memory</i>", this.newSpan(null, this.inputs.node_type)));
+	table.appendChild(this.returnNewRow("byu_sg_row_node_type", REQUIRED + "<b>Compute node type</b>:<br /><i><u>standard</u> - max 36 cores, 372GB / 381000MB memory<br /><u>large-memory</u> - max 60 cores, 1494 GB / 1530000 MB memory</i>", this.newSpan(null, this.inputs.node_type)));
 	table.appendChild(this.returnNewRow("byu_sg_row_nodes", REQUIRED + "<b>Number of compute nodes</b>:<br /><i>Use 1 unless running a distributed-memory parallel application (e.g., Maker)<br />Limits: 57 standard, 5 large-memory</i>", this.inputs.nodes));
 	table.appendChild(this.returnNewRow("byu_sg_row_numcores", REQUIRED + "<b>Number of processor cores per node</b>:<br /><i>Limited to 20 per regular node, 60 per large-memory node.<br />Each processor core can simultaneously execute 2 application threads.</i>", this.inputs.ncores_per_node));
 //	table.appendChild(this.returnNewRow("byu_sg_row_numgpus", "Number of GPUs: ", this.inputs.num_gpus));
@@ -365,18 +365,18 @@ BYUScriptGen.prototype.retrieveValues = function() {
     var max_memory = {
         mem:     1530000,
         longmem: 1530000,
-        short:   128000,
-        medium:  128000,
-        long:    128000,
-        debug:   128000
+        short:   381000,
+        medium:  381000,
+        long:    381000,
+        debug:   381000
     };
     var max_proc_per_node = {
         mem:     60,
         longmem: 60,
-        short:   20,
-        medium:  20,
-        long:    20,
-        debug:   20
+        short:   36,
+        medium:  36,
+        long:    36,
+        debug:   36
     };
     var max_nodes = {
         mem:     5,
