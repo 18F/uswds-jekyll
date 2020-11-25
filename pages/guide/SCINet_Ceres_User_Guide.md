@@ -632,6 +632,7 @@ Command | Description | Example
 `scancel`	| Stop and remove jobs	| `scancel <job id>`  or  `scancel -u jane.webb`
 `sinfo`	| Gives information about queues (partitions) or nodes	| `sinfo`  or  `sinfo -N -l`
 `scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job <job id>`  or  `scontrol show partition <partition name>`  or  `scontrol show nodes`
+`seff` | Provides resource usage report for a finished job | `seff <job id>`
 
 ## Local Scratch Space on Large Memory Nodes
 
