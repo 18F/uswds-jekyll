@@ -306,7 +306,7 @@ To get current details on all partitions on a cluster use the following scontrol
 scontrol show partitions
 ```
 
-At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user across all queues. Any additional jobs will be queued but won't start. At times these limits can be lowered to prevent small group of users overtaking the whole cluster.
+At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user across all queues. Any additional jobs will be queued but won't start. At times these limits can be lowered to prevent a small group of users overtaking the whole cluster.
 
 ## Interactive Mode
 
