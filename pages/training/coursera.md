@@ -18,7 +18,17 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
 ## Application Process
 
-The application for licenses is on a quarterly basis. *Applicants need to have their supervisors submit their application forms*. The application form can be downloaded at [**this link**](/assets/forms/coursera_form.xlsx). Complete the application form and have your *supervisor* send it to scinet-training@usda.gov. You will be sent a Coursera welcome email on/near the license allocation date (see below table). For active learners, we will make an effort to extend licenses across quarters. The application deadline and license allocation periods are:
+  1. Click the below button/link access and submit the application form. **It is critical that both your email and your supervisors email are entered correctly**. If they are mistyped the application process will fail.
+
+  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl37NLyOJUxpIsYVlLYOL1ABUMEQ1SUJORVJPNk1EVlNRSFRLUjhHR1BGVS4u" class="usa-button">Ars-Coursera License Application</a>
+  
+  2. Your supervisor will receive an email from Microsoft "Power Automate" to either approve or reject your application.
+    
+  3. If rejected, you will receive an email stating "*your application was not approved by your supervisor*".
+
+  4. If approved, you will receive an email stating "*your application was successfully submitted*".
+
+If you  do not receive a confirmation email and think that you entered the correct information on the application form, please contact scinet-training@usda.gov.
 
 | Application Deadline | License Allocation Date | License Active Period |
 |----------------------|-------------------------|-----------------------|
