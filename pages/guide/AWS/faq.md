@@ -1,6 +1,6 @@
 ---
-title: AWS FAQs
-description: AWS FAQ
+title: ARS AWS Resources
+description: AWS resourses availble to scientists
 permalink: /guide/AWS/faq
 author: Jordan Hoosman
 layout: page
@@ -9,6 +9,8 @@ layout: page
 * [How do I get started?](#how-do-i-get-started)
 * [How do I log in?](#how-do-i-log-in)
 * [I'm logged in fine, but I don't see the Service Catalog that I expect. Where did it go?](#im-logged-in-fine-but-i-dont-see-the-service-catalog-that-i-expect-where-did-it-go)
+* [Creating AWS Resources](/guide/AWS/createresource)
+* [Creating EC2 Resources](/guide/AWS/ec2instance)
 * [I'm trying to do something in the AWS Console, but I'm getting an error message saying I don't have enough permissions. What should I do?](#im-trying-to-do-something-in-the-aws-console-but-im-getting-an-error-message-saying-i-dont-have-enough-permissions-what-should-i-do)
 * [I'd like to use a service that isn't covered in the Service Catalog. Can I have it added?](#id-like-to-use-a-service-that-isnt-covered-in-the-service-catalog-can-i-have-it-added)
 
@@ -23,7 +25,7 @@ This will be a space with a managed budget and controlled set of resources that 
 
 ### How do I log in?
 
-Visit <a href="https://shibboleth.scinet.science/">https://shibboleth.scinet.science/</a> and click on the Amazon Web Services link.
+Visit <a href="https://auth.scinet.usda.gov/">https://auth.scinet.usda.gov/</a>  You will need to use your SCINet password immediately folowed by your 6 digit GA code.
 
 ### I'm logged in fine, but I don't see the Service Catalog that I expect. Where did it go?
 
@@ -36,4 +38,4 @@ If you ***are in the Service Catalog***, you may see occasional harmless notices
 
 ### I'd like to use a service that isn't covered in the Service Catalog. Can I have it added?
 
-The VRSC will need to evaluate whether your desired service is appropriate for being included in the Service Catalog. Some services currently aren't suitable for various reasons; unfortunately, if this is thecase, it's likely because we couldn't control costs or permissions for that service sufficiently to prevent other users from interfering with you. If it is possible, make the request and be patient -it can take some time to write the proper template in asecure and reliable manner.
+The VRSC will need to evaluate whether your desired service is appropriate for being included in the Service Catalog. Some services currently aren't suitable for various reasons; unfortunately, if this is the case, it's likely because we couldn't control costs or permissions for that service sufficiently to prevent other users from interfering with you. If it is possible, make the request and be patient -it can take some time to write the proper template in asecure and reliable manner.

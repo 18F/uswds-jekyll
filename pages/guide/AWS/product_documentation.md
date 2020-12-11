@@ -25,23 +25,20 @@ layout: page
 * [Example EC2 Projected Costs](#example-ec2-projected-costs)
 
 ### Product Documentation Links
-* [EC2 Instance](https://confluence.scinet.science/display/SCIN/EC2+Instance)
-* [HPC Cluster](https://confluence.scinet.science/display/SCIN/HPC+Cluster)
-* [S3 Bucket](https://confluence.scinet.science/display/SCIN/S3+Bucket)
-* [Pathway Tools](https://confluence.scinet.science/display/SCIN/Pathway+Tools)
-* [RStudio Server](https://confluence.scinet.science/display/SCIN/RStudio+Server)
-* [S3 Website](https://confluence.scinet.science/display/SCIN/S3+Website)
+* [EC2 Instance](/guide/AWS/ec2instance)
+* [Pathway Tools](/guide/AWS/pathwayitools)
+* [FAQ](/guide/AWS/faq)
 
 ### How To Project Monthly Costs For AWS Products
 
 The following instructions will demonstrate how to calculate the projected monthly cost of an AWS project. In this example, the cost of an EC2 Instance is calculated.
 
 ##### Utilized Resources:
-* [AWS Console via Shibboleth Authentication](https://shibboleth.scinet.science/)
+* [AWS Console via Oauth Authentication](https://auth.scinet.usda.gov)
 * [AWS Simple Monthly Calculator](https://calculator.s3.amazonaws.com/index.html)
 
 <div style="margin-left: 30px">
-    <p>1. Navigate to <a href="https://shibboleth.scinet.science/">https://shibboleth.scinet.science/</a> and click the link for "Amazon Web Services" Identity Provider</p>
+    <p>1. Navigate to <a href="https://auth.scinet.usda.gov/">https://auth.scinet.usda.gov</a> and click the link for "AWS Login"</p>
     <img src="/assets/img/productdocumentation1.png">
     <p>2. Authenticate using your SciNet credentials</p> 
     <img src="/assets/img/productdocumentation2.png">
