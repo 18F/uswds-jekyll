@@ -18,7 +18,9 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
 ## Application Process
 
-  1. Click the below button/link access and submit the application form. **It is critical that both your email and your supervisors email are entered correctly**. If they are mistyped the application process will fail.
+Below are the steps for submitting an applicatoin to obtain a Coursera license. Please do not submit multiple applications per person (e.g. submit multiple application for different periods).
+
+  1. Click the below button/link to access and submit the application form. **It is critical that both your email and your supervisors email are entered correctly**. If they are mistyped the application process will fail.
 
   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl37NLyOJUxpIsYVlLYOL1ABUMEQ1SUJORVJPNk1EVlNRSFRLUjhHR1BGVS4u" class="usa-button">Ars-Coursera License Application</a>
   
@@ -28,7 +30,9 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
   4. If approved, you will receive an email stating "*your application was successfully submitted*".
 
-If you  do not receive a confirmation email and think that you entered the correct information on the application form, please contact scinet-training@usda.gov.
+If you do not receive a confirmation email you should:
+  1. Check with your supervisor to make sure they approved the request.
+  1. Email scinet-training@usda.gov with additional questions. 
 
 | Application Deadline | License Allocation Date | License Active Period |
 |----------------------|-------------------------|-----------------------|
