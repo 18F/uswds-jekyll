@@ -62,6 +62,8 @@ primary:
         href: /guide/smrtlink
       - text: AWS Resources
         href: /guide/AWS/documentation
+      - text: Introduction to Linux
+        href: /guide/linuxintroduction
   - text: Working Groups
     links:
       - text: Overview
