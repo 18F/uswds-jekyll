@@ -171,7 +171,9 @@ If your password has expired (new temporary passwords expire right away, and the
 
 # Linux Command Line Interface
 
-SCINet HPC resources can be used via GUI tools such as Geneious, CLC Workbench, SmartAnalysis, JupyterHub, SCINet Galaxy etc., however users are limited by what these tools provide. One can do much more ssh-ing to a cluster and using Command Line Interface (CLI). If you're not familiar with CLI, check out the following resources:  1. [Introduction to Unix](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html) 
+SCINet HPC resources can be used via GUI tools such as Geneious, CLC Workbench, SmartAnalysis, JupyterHub, SCINet Galaxy etc., however users are limited by what these tools provide. One can do much more ssh-ing to a cluster and using Command Line Interface (CLI). If you're not familiar with CLI, check out the following resources: 
+
+1. [Introduction to Unix](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html) 
 2. [Unix Tutorials](https://www.hpc.iastate.edu/guides/unix-introduction)
 3. The list of basic CLI commands
 
