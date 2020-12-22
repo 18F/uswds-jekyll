@@ -1,5 +1,5 @@
 ---
-title: CLI
+title: List of basic Linux CLI commands
 description: List of basic Linux CLI commands
 permalink: /guide/CLI/
 author: Marina Kraeva
