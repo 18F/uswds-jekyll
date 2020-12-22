@@ -30,8 +30,11 @@ primary:
     links:
       - text: Quick Start
         href: /guide/quickstart
-      - text: Ceres User manual
+      - text: Ceres HPC User manual
         href: /guide/ceres
+      - text: Atlas HPC User Guide
+        href: https://www.hpc.msstate.edu/computing/atlas
+        external: true
       - text: Set up multifactor authentication
         href: /guide/multifactor
       - text: SCINet Storage Guide
