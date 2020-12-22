@@ -47,6 +47,8 @@ primary:
         href: /guide/conda
       - text: Transferring files
         href: /guide/file-transfer
+      - text: Rclone
+        href: /guide/rclone
       - text: CLC Workbench
         href: /guide/clc
       - text: Jupyter
@@ -61,6 +63,10 @@ primary:
         href: /guide/singularity
       - text: SMRTLink using Command Line
         href: /guide/smrtlink
+      - text: AWS Resources
+        href: /guide/AWS/documentation
+      - text: Introduction to Linux
+        href: /guide/linuxintroduction
   - text: Working Groups
     links:
       - text: Overview
