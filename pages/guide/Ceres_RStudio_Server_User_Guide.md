@@ -127,7 +127,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
 The following silent video is a media alternative for the text in steps 1-4 below:<br>
 [rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
 
-1. Open a new PuTTY window
+1. Open a **new** PuTTY window
 2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
 3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **ceres14-compute-3-eth:44200**), click “Add”, then click “Open”.
 ![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
@@ -135,7 +135,7 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 
 ## macOS / Linux / Windows + Windows PowerShell users
 
-1. Enter the use a new macOS/Linux terminal window and enter the SSH command listed in the job script output file. In this example:
+1. Open a **new** macOS/Linux terminal window or a **new** Windows PowerShell window and enter the SSH command listed in the job script output file. In this example:
 ```
 ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.usda.gov
 ```
