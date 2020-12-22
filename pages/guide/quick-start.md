@@ -36,6 +36,7 @@ layout: page
   * [Older Windows Instructions](#from-older-windows-versions)
   * [Mac and Linux Instructions](#from-mac-and-linux)
 * [Password Requirements](#password-requirements)
+* [Linux Command Line Interface](#linux-command-line-interface)
 * [Storage](#data-storage)
   * [Quotas](#quotas)
   * [Home Directories](#home-directories)
@@ -167,6 +168,12 @@ If your password has expired (new temporary passwords expire right away, and the
 4. difficult to guess or brute force. Palindromes, passwords containing your username, and other patterns will be denied.
 5. Older passwords CAN NOT be reused.
 
+
+# Linux Command Line Interface
+
+SCINet HPC resources can be used via GUI tools such as Geneious, CLC Workbench, SmartAnalysis, JupyterHub, SCINet Galaxy etc., however users are limited by what these tools provide. One can do much more ssh-ing to a cluster and using Command Line Interface (CLI). If you're not familiar with CLI, check out the following resources:  1. [Introduction to Unix](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html) 
+2. [Unix Tutorials](https://www.hpc.iastate.edu/guides/unix-introduction)
+3. The list of basic CLI commands
 
 # Data Storage
 
