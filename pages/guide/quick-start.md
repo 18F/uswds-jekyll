@@ -175,7 +175,7 @@ SCINet HPC resources can be used via GUI tools such as Geneious, CLC Workbench, 
 
 1. [Introduction to Unix](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html) 
 2. [Unix Tutorials](https://www.hpc.iastate.edu/guides/unix-introduction)
-3. The list of basic CLI commands
+3. [The list of basic CLI commands](/guide/CLI)
 
 # Data Storage
 
