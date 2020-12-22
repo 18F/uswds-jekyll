@@ -61,6 +61,7 @@ layout: page
 
 **which *command*** – Shows the full path of *command*
 
+---
 
 **module avail** or **module spider** – Show all available software modules
 
@@ -78,6 +79,7 @@ layout: page
 
 **module use *path*** – Add *path* where to search for available modules
 
+---
 
 **salloc -p debug -N 1 -n 2 --mem=7G -t 2:00:00** – Request 2 cores and 7 GB of memory in debug partition for 2 hours
 
