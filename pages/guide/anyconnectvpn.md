@@ -15,7 +15,7 @@ layout: page
 
 <b>Note:</b> You need to setup two factor authentication before using SCINet VPN. [Follow the instructions here.](https://scinet.usda.gov/guide/multifactor/)
 
-<b>Note 2:</b> The address for VPN is now <b>ocvpn.scinet.usda.gov</b>
+<b>Note 2:</b> The address for SCINet VPN is now <b>ocvpn.scinet.usda.gov</b>
 
 The SCINet OpenConnect VPN server is compatible with the Cisco Anyconnect client if you already have that installed. We have tested this with OSX, Windows, Linux, and Android. Use of the VPN does require 2 factor authentication. If you have not set that up yet please read [these instructions](https://scinet.usda.gov/guide/multifactor/) and do so before continuing.
 
