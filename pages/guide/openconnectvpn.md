@@ -13,9 +13,9 @@ layout: page
 }
 </style>
 
-<b>Note:</b> You need to setup two factor authentication before using VPN. [Follow the instructions here.](/guide/multifactor)
+<b>Note:</b> You need to setup two factor authentication before using SCINet VPN. [Follow the instructions here.](/guide/multifactor)
 
-<b>Note 2:</b> The VPN address recently changed to: <b>ocvpn.scinet.usda.gov</b>
+<b>Note 2:</b> The SCINet VPN address recently changed to: <b>ocvpn.scinet.usda.gov</b>
 
 These instructions are for the open source OpenConnect clients from: [http://www.infradead.org/openconnect/](http://www.infradead.org/openconnect/)
 
@@ -52,7 +52,7 @@ and click [Save & Connect]
 
 <img src="/assets/img/openconnectvpn2.png">
 
-Enter your Ceres Username
+Enter your SCINet Username
 
 <img src="/assets/img/openconnectvpn3.png">
 
@@ -86,7 +86,7 @@ After opening the client enter <b>ocvpn.scinet.science</b> and click \[Connect\]
 
 <img src="/assets/img/openconnectvpn8.png">
 
-Enter your Ceres username.
+Enter your SCINet username.
 
 <img src="/assets/img/openconnectvpn9.png">
 
