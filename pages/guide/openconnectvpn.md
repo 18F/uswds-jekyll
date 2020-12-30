@@ -13,7 +13,7 @@ layout: page
 }
 </style>
 
-<b>Note:</b> You need to setup two factor authentication before using VPN. [Follow the instructions here.](https://3.basecamp.com/3625179/buckets/5538276/vaults/1057788883)
+<b>Note:</b> You need to setup two factor authentication before using VPN. [Follow the instructions here.](/guide/multifactor)
 
 <b>Note 2:</b> The VPN address recently changed to: <b>ocvpn.scinet.usda.gov</b>
 
