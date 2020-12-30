@@ -13,7 +13,7 @@ layout: page
 }
 </style>
 
-<b>Note:</b> You need to setup two factor authentication before using SCINet VPN. [Follow the instructions here.](https://scinet.usda.gov/guide/multifactor/)
+<b>Note:</b> You need to setup two factor authentication before using SCINet VPN. [Follow the instructions here.](/guide/multifactor)
 
 <b>Note 2:</b> The address for SCINet VPN is now <b>ocvpn.scinet.usda.gov</b>
 
