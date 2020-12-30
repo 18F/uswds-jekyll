@@ -13,13 +13,11 @@ layout: page
 }
 </style>
 
-<b>Note:</b> You need to setup two factor authentication before using VPN. [Follow the instructions here.](https://3.basecamp.com/3625179/buckets/5538276/vaults/1057788883)
+<b>Note:</b> You need to setup two factor authentication before using VPN. [Follow the instructions here.](https://scinet.usda.gov/guide/multifactor/)
 
 <b>Note 2:</b> The address for VPN is now <b>ocvpn.scinet.usda.gov</b>
 
-The OpenConnect VPN server is compatible with the Cisco Anyconnect client if you already have that installed. We have tested this with OSX, Windows, Linux, Android, Use of the VPN does require 2 factor authentication. If you have not set that up yet please read these instructions and do so before continuing.
-
-[Using Google Authenticator to login to the DTN.pdf - SCINet Virtual Research Support Core](https://3.basecamp.com/3625179/buckets/5538276/uploads/1045832398)
+The OpenConnect VPN server is compatible with the Cisco Anyconnect client if you already have that installed. We have tested this with OSX, Windows, Linux, and Android. Use of the VPN does require 2 factor authentication. If you have not set that up yet please read [these instructions](https://scinet.usda.gov/guide/multifactor/) and do so before continuing.
 
 First open AnyConnect and enter <b>ocvpn.scinet.usda.gov</b> in the box and click \[Connect\]
 
