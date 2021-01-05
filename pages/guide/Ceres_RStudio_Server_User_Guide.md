@@ -46,7 +46,7 @@ A few Ceres-specific notes:
 
 # Starting RStudio Server Using VPN
 
-The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE)
+The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE). Note that the video has been created before the VPN address has been changed to ocvpn.scinet.usda.gov . Instead of ocvpn.scinet.science please use ocvpn.scinet.usda.gov .
 
 The instructions below tell to use RStudio version 3.6.0 . To see other versions available on Ceres issue:
 ```
