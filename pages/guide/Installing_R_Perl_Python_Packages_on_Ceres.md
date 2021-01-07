@@ -28,40 +28,40 @@ To install packages in a project directory, go to the project directory:
 ```
 cd <path/to/the/project/directory>
 ```
-and create a “.Renviron” file and add the following to the file:
+and create a ".Renviron" file containing the following line:
 
-`export R_LIBS=<path/to/the/project/directory>/R_packages`
+`R_LIBS_USER=<path/to/the/project/directory>/R_packages/%v`
 
-The packages you install will be saved in the above location.
+Then when R is started from the directory `<path/to/the/project/directory>`, the R packages for the given version of R will be saved in the above location.
 
-Load module and start R:
+Load an environment module for the desired version of R and start R:
 ```
-$ module load r
+$ module load r/4.0.3
 $ R
-R version 3.4.1 (2017-06-30) -- "Single Candle"
+R version 4.0.3 (2020-10-10) -- "Bunny-Wunnies Freak Out"
 ```
 
-To install A3 package issue the  `install.packages()`  command and answer “y” to both questions:
+To install A3 package issue the  `install.packages()`  command and answer "y" to both questions:
 ```
 > install.packages("A3",repos="http://cran.r-project.org")
-Warning in install.packages("A3", repos = "http://cran.r-project.org") :
-  'lib = "/software/7/apps/r/3.4.1/lib64/R/library"' is not writable
-Would you like to use a personal library instead?  (y/n) y
+Warning in install.packages("A3") :
+'lib = "/lustre/project/software/7/apps/r/4.0.3/lib64/R/library"' is not writable
+Would you like to use a personal library instead? (yes/No/cancel) yes
 Would you like to create a personal library
-~/R/x86_64-pc-linux-gnu-library/3.4
-to install packages into?  (y/n) y
+<path/to/the/project/directory>/R_packages/4.0
+to install packages into? (yes/No/cancel) yes
 ```
 
 To see the library paths, issue  `.libPaths()`  command from within R:
 ```
 > .libPaths();
-[1] "/home/<user.name>/R/x86_64-pc-linux-gnu-library/3.4"
-[2] "<path/to/the/project/directory>/R_packages"
+[1] "<path/to/the/project/directory>/R_packages/4.0"
+[2] "/lustre/project/software/7/apps/r/4.0.3/lib64/R/library"
 ```
 
 # Python
 
-Users can install python packages(via pip) to their home directory. This creates a “site-packages” directory within the user's home directory.
+Users can install python packages(via pip) to their home directory. This creates a "site-packages" directory within the user's home directory.
 ```
 $ module load python_3
 $ pip3 install --user <package.name>
@@ -76,7 +76,7 @@ After loading the python module, create a virtual environment by:
 $ virtualenv <path/to/the/project/directory/name.of.the.project>
 ```
 
-This creates a directory in your current project directory. This example below shows a virtualenv “virt_test” being created and activated.
+This creates a directory in your current project directory. This example below shows a virtualenv "virt_test" being created and activated.
 ```
 $ virtualenv virt_test
 Using base prefix '/software/apps/python_3/gcc/64/3.5.0'
@@ -112,7 +112,7 @@ $ module load perl
 $ cpanm Test::More
 ```
 
-Running the above command creates a “perl5” directory within the users’ home directory and contains all the required binaries and libraries associated with the “Test::More” module. Add **PERL5LIB** to the environment
+Running the above command creates a "perl5" directory within the users' home directory and contains all the required binaries and libraries associated with the "Test::More" module. Add **PERL5LIB** to the environment
 ```
 $ export PERL5LIB=$HOME/perl5/lib/perl5
 ```
@@ -125,7 +125,7 @@ $ eval "$(perl -I/path/to/the/project/dir/perl5/lib/perl5 -
 Mlocal::lib=/path/to/the/project/dir/perl5)"
 ```
 
-In addition to creating “perl5” directory within the specified project directory, the above
+In addition to creating "perl5" directory within the specified project directory, the above
 command adds perl local::lib environment variables.
 
 Then use cpanm to install the required modules.
