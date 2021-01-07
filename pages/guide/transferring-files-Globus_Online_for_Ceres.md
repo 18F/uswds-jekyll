@@ -16,6 +16,7 @@ layout: page
 * [Small Data Transfer Using scp](#small-data-transfer-using-scp)
 * [Large Data Transfer by Shipping Hard Drives](#large-data-transfer-by-shipping-hard-drives)
 * [Other Ways to Transfer Data](#other-ways-to-transfer-data)
+* [Data Transfer to NCBI](#data-transfer-to-ncbi)
 
 
 # Best Practices
@@ -152,3 +153,10 @@ Other programs that have a GUI to transfer data and are suitable for smaller fil
 * FileZilla - [https://filezilla-project.org/](https://filezilla-project.org/)
 
 Cyberduck supports multiple protocols (including Amazon S3, iRODS, and Google Drive) and is more secure than FileZilla.
+
+
+# Data Transfer to NCBI
+
+To transfer data to/from NCBI, ssh to a DTN node and use either ncftp commands (ncftpput, ncftpget) or Aspera command (ascp).
+
+To use Aspera, you will need a private key file that you can acquire by following instructions listed on Page 3 of the document - [https://www.ncbi.nlm.nih.gov/books/NBK242625](https://www.ncbi.nlm.nih.gov/books/NBK242625)
