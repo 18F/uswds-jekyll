@@ -157,6 +157,6 @@ Cyberduck supports multiple protocols (including Amazon S3, iRODS, and Google Dr
 
 # Data Transfer to NCBI
 
-To transfer data to/from NCBI, ssh to a DTN node and use either ncftp commands (ncftpput, ncftpget) or Aspera command (ascp).
+To transfer data to/from NCBI, ssh to a DTN node and use either ncftp commands (ncftpput, ncftpget) or Aspera command (ascp). Since ftp connections can be unstable we recommend using Aspera for large file transfers.
 
 To use Aspera, you will need a private key file that you can acquire by following instructions listed on Page 3 of the document - [https://www.ncbi.nlm.nih.gov/books/NBK242625](https://www.ncbi.nlm.nih.gov/books/NBK242625)
