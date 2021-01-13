@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = 'uswds-jekyll'
-  s.version       = '5.2.0'
+  s.version       = '5.3.0'
   s.authors       = ['Shawn Allen', 'Tom Black', 'Brian Hurst', 'Scott Weber', 'Dan O. Williams']
   s.email         = ['daniel.williams@gsa.gov']
 

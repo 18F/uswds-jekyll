@@ -20,6 +20,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Analytics](#analytics)
    - [Last modified date](#last-modified-date)
    - [Anchor JS](#anchor-js)
+   - [Private Eye JS](#private-eye-js)
 1. [Assets](#assets)
    - [Stylesheets](#stylesheets)
    - [Scripts](#scripts)
@@ -306,6 +307,14 @@ This will add the date right before the footer component.
 ### Anchor JS
 
 You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making ech header linkable. See https://github.com/bryanbraun/anchorjs for more information.
+
+```yml
+# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+```
+
+### Private Eye JS
+
+By default, the USWDS Jekyll theme uses [Private Eye](https://github.com/18F/private-eye) to denote private links. You can turn this off by commenting the appropriate line out in the `_config.yml` data file. If you would like to customize the default Private Eye configuration, you can find it in `/assets/js/private_eye_conf.js`.
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]

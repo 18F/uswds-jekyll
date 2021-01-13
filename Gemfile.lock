@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    uswds-jekyll (5.2.0)
+    uswds-jekyll (5.3.0)
       jekyll (>= 4.0, < 5)
       jekyll-autoprefixer
       mini_racer
@@ -88,4 +88,4 @@ DEPENDENCIES
   uswds-jekyll!
 
 BUNDLED WITH
-   2.1.4
+   2.2.5
