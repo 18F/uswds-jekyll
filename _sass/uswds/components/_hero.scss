@@ -1,0 +1,45 @@
+.usa-hero {
+  .usa-hero__callout {
+    @if variable-exists(hero-bg) {
+      background-color: color($hero-bg);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @if variable-exists(hero-header) {
+        color: color($hero-header);
+      }
+    }
+
+    .usa-hero__heading--alt {
+      @if variable-exists(hero-header-alt) {
+        color: color($hero-header-alt);
+      }
+    }
+
+    p {
+      @if variable-exists(hero-text) {
+        color: color($hero-text);
+      }
+    }
+
+    .usa-hero-link {
+      @if variable-exists(hero-link) {
+        color: color($hero-link);
+      }
+    }
+
+    .usa-button {
+      @if variable-exists(hero-button-bg) {
+        background-color: color($hero-button-bg);
+      }
+      @if variable-exists(hero-button-text) {
+        color: color($hero-button-text);
+      }
+    }
+  }
+}

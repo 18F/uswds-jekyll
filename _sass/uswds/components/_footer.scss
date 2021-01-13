@@ -1,0 +1,32 @@
+.usa-footer__primary-section {
+  @if variable-exists(primary-footer-bg) {
+    background-color: color($primary-footer-bg);
+  }
+
+  .usa-footer__primary-link {
+    @if variable-exists(primary-footer-link) {
+      color: color($primary-footer-link);
+    }
+  }
+}
+
+.usa-footer__secondary-section {
+  @if variable-exists(footer-bg) {
+    background-color: color($footer-bg);
+  }
+  @if variable-exists(footer-text) {
+    color: color($footer-text);
+  }
+
+  a {
+    @if variable-exists(footer-link) {
+      color: color($footer-link);
+    }
+  }
+
+  .usa-social-link {
+    @if variable-exists(footer-social-link) {
+      background-color: color($footer-social-link);
+    }
+  }
+}

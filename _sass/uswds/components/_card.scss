@@ -1,0 +1,63 @@
+.card-deck {
+  display: block;
+  display: flex;
+  flex-flow: row wrap;
+
+  .card {
+    display: block;
+    display: flex;
+    flex: 0 0 units("mobile");
+    flex-direction: column;
+    float: left;
+    margin-bottom: units(4);
+    min-width: units("mobile");
+
+    &:not(:last-child) {
+      margin-right: units(2);
+    }
+  }
+}
+
+.card {
+  border: units(1px) solid color("base-lightest");
+  position: relative;
+  width: units("card-lg");
+
+  .card-img-top {
+    display: block;
+    height: units("card-lg");
+    width: 100%;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    padding: units(2.5);
+
+    :first-child {
+      margin-top: 0;
+    }
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .card-footer {
+    padding: units(2.5);
+  }
+
+  .card-read-more-link {
+    display: inline-block;
+    text-decoration: none;
+
+    svg {
+      display: inline-block;
+      fill: color("primary");
+      height: units(1.5);
+      margin-left: units(0.5);
+      margin-top: units(-2px);
+      vertical-align: middle;
+      width: units(1.5);
+    }
+  }
+}

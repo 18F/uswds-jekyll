@@ -1,0 +1,46 @@
+.usa-sticky-sidenav {
+  position: sticky;
+  top: units(1.5);
+}
+
+.usa-sidenav {
+  @if variable-exists(side-nav-bg) {
+    background-color: color($side-nav-bg);
+  }
+
+  a {
+    @if variable-exists(side-nav-link) {
+      color: color($side-nav-link);
+    }
+
+    &:hover {
+      @if variable-exists(side-nav-link-hover-bg) {
+        background-color: color($side-nav-link-hover-bg);
+      }
+      @if variable-exists(side-nav-link-hover) {
+        color: color($side-nav-link-hover);
+      }
+    }
+
+    &.usa-current {
+      @if variable-exists(side-nav-link-current) {
+        color: color($side-nav-link-current);
+        &:after {
+          background-color: color($side-nav-link-current);
+        }
+      }
+    }
+  }
+}
+
+@include at-media($theme-sidenav-breakpoint){
+  .usa-layout-docs__sidenav {
+    @include u-flex(3);
+    order: 1;
+    padding-top: 0;
+  }
+  .usa-layout-docs__main {
+    @include u-flex(9);
+    order: 2;
+  }
+}

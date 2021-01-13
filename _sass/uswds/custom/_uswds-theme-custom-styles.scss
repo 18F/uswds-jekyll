@@ -1,0 +1,47 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+// uswds shims
+.usa-footer__logo-img {
+  width: 100%;
+}
+
+@include at-media("mobile-lg") {
+  .usa-footer--big a.usa-footer__primary-link {
+    margin-bottom: units(3);
+  }
+}
+
+.usa-header {
+  button[aria-expanded="true"],
+  button[aria-expanded="true"]:hover {
+    &:after {
+      display: none;
+    }
+  }
+}
+
+.usa-layout-docs__sidenav,
+.usa-layout-docs__main {
+  width: 100%;
+  overflow: hidden;
+}
