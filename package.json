@@ -11,7 +11,8 @@
     "sync-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/src/"
   },
   "dependencies": {
-    "uswds": "^2.9.0"
+    "@18f/private-eye": "^2.0.0",
+    "uswds": "^2.10.0"
   },
   "devDependencies": {
     "cached-path-relative": "^1.0.2"
