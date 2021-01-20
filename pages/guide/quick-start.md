@@ -331,7 +331,9 @@ For more fine grained control over the interactive environment you can use the s
 
 `srun --pty -p queue -t hh:mm:ss -A account -n tasks -N nodes /bin/bash -l`
 
-account is either scinet on Ceres or your project name on Atlas. For example if your project directory is at /project/projectname, then specify "-A projectname" on the srun command.
+account is usually your project name. For example if your project directory is at /project/projectname, then specify "-A projectname" on the srun command. To view all your slurm accounts, issue “sacctmgr -Pns show user format=account”.
+
+On Ceres every user has a default Slurm account. If you have no project, then your default Slurm account is scinet, otherwise it's a projectname. If you have access to more than one project, then one of the project names is set as your default Slurm account. To change your default Slurm account issue slurm-account-selector.sh on the Ceres login node. 
 
 See the [Ceres User Manual](/guide/ceres/#running-application-jobs-on-compute-nodes) for details on `srun`.
 
