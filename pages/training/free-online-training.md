@@ -260,11 +260,12 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
 
 
-# Google Earth Engine
+# Google Earth Engine (GEE)
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Intro to the Google Earth Engine](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
+[Intro to GEE](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
+[Training Materials from 3 GEE Workshops](https://developers.google.com/earth-engine/tutorials/ttt) | GEE tutorials | 2 hrs each
 
 
 # General Data Science Concepts
