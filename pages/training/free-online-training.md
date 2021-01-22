@@ -265,6 +265,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [Intro to GEE](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
+[GEE 101: Intro to GEE for beginners Part 1](https://earthoutreachonair.withgoogle.com/events/earthengine101a) | Google Earth Outreach | 1.5 hr
+[GEE 101: Intro to GEE for beginners Part 2](https://earthoutreachonair.withgoogle.com/events/earthengine101b) | Google Earth Outreach | 1.5 hr
 [Training Materials from 3 GEE Workshops](https://developers.google.com/earth-engine/tutorials/ttt) | GEE tutorials | 2 hrs each
 
 
