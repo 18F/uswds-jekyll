@@ -21,7 +21,7 @@ layout: page
 * [General Statistics](#general-statistics)
 * [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
 * [Geographic Information Systems (GIS)](#geographic-information-systems-gis)
-* [Google Earth Engine](#google-earth-engine)
+* [Google Earth Engine (GEE)](#google-earth-engine-gee)
 * [General Data Science Concepts](#general-data-science-concepts)
 * [Bioinformatics Self-Paced Learning](#bioinformatics-self-paced-learning)
 * [Ecological/Geospatial Self-Paced Learning](#ecologicalgeospatial-self-paced-learning)
