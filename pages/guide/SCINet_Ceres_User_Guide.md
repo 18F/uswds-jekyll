@@ -460,9 +460,9 @@ When submitting interactive or batch job users can specify time limit by using t
 
 To provide better Ceres usage report all Ceres users have been assigned Slurm accounts based on their project groups. If you don't have a project, then your default and only Slurm account is scinet. If you have more than one project, then your default Slurm account is one of the project names. You can specify a different Slurm account when submitting a job by using “-A <account_name>” option on salloc/srun/sbatch command or adding “#SBATCH -A <account_name>” to the job script.
   
- To see all your Slurm accounts at any time, use “sacctmgr -Pns show user format=account”
+ To see all your Slurm accounts and your default account at any time, use “sacctmgr -Pns show user format=account,defaultaccount”
   
- You can change your default Slurm account using running slurm-account-selector.sh on the login node.
+ You can change your default Slurm account running slurm-account-selector.sh on the login node.
  
 
 ## Interactive Mode
