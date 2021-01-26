@@ -2,16 +2,22 @@
 title: Getting Started with Galaxy on SCINet
 description: Using Galaxy
 permalink: /guide/galaxy/
-author: VRSC
+author: VRSC and Jordan Hoosman
 layout: page
-
 ---
 
+<style>
+.cmd {
+    background-color: rgb(245, 245, 245);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+</style>
 
 #### Table of Contents
 * [Introduction](#introduction)
 * [Logging On](#logging-on)
-* [FTP Transfer to Ceres Galaxy](#ftp-transfer-to-ceres-galaxy)
+* [Import data to Ceres Galaxy](#import-data-to-ceres-galaxy)
 * [Using Galaxy](#using-galaxy)
 * [Sharing Your Data and Analysis](#sharing-your-data-and-analysis)
 * [Can't Find a Tool You Need?](#cant-find-a-tool-you-need)
@@ -32,11 +38,11 @@ There are a few compelling reasons why we think you’re going to like using Gal
 
 In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCINet account](/signup/) to start that process. New accounts will automatically get a Galaxy user name and directory. The user name should match the email you used when registering for your Ceres account and the password will match your Ceres password.
 
-
+<b>NOTE: </b>All uploaded and output files are removed after<b><i> 90 Days </i></b>so it is<b> recommended </b>users save their data outside of galaxy.
 
 # Logging On
 
-Ceres Galaxy is public facing, so to access it you just type or paste “https://galaxy.scinet.science” into the address bar of a web browser.  We recommend Firefox, Chrome, or Safari. MAKE SURE TO TYPE THE “https://” prefix and note the “s”.
+Ceres Galaxy is public facing, so to access it you just type or paste “https://galaxy.scinet.usda.gov” into the address bar of a web browser.  We recommend Firefox, Chrome, or Safari. MAKE SURE TO TYPE THE “https://” prefix and note the “s”.
 
 You will be presented with the following login screen, with boxes on the right to enter your username and password:
 
@@ -56,15 +62,15 @@ Galaxy offers a method to import data directly from your computer as "Choose loc
 
 
 
-# FTP Transfer to Ceres Galaxy
+# Import data to Ceres Galaxy
 
 You need to move or copy your data files to the Galaxy folder in your home directory on Ceres to make them "visible" to Galaxy. Then, you will be able to upload/import the files using Galaxy. Remember, the default quota in SCINet galaxy is only 100 GB. Please contact us to increase your default quota.
 
 We recommend using Globus to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](/guide/file-transfer/).
 
-<!--You can also use Filezilla to move files to your Galaxy folder on Ceres. For instructions please see the [Transferring Files Guide](https://usda-ars-gbru.github.io/guide/file-transfer/).
--->
-NOTE: If you already have data on Ceres, simply copy files into your Galaxy folder on Ceres either via command-line (“cp” command) or by using a Filezilla-like tool. These files will appear as if you had uploaded them via FTP and can be imported using the approach described below.
+<b>NOTE: </b>If you already have data on Ceres, simply copy files into your Galaxy folder on Ceres either via command-line (<i class="cmd">cp</i> command) or by using a Filezilla-like tool. These files will appear as if you had uploaded them via FTP and can be imported using the approach described below.
+
+<b>IMPORTANT NOTE: </b>Make sure when transfering files to consider<i> how </i>the files are being transfered, i.e. using<i> cp </i> or <i>mv</i>. Moving (<i class="cmd">mv</i>) instead of copying(<i class="cmd">cp</i>) will<b> REMOVE </b> the original files so it is recommended to use <i class="cmd"> cp </i> or review how you want your files to be handled before moving.
 
 Once your data files are in your Galaxy folder in your home directory on Ceres, go back to the “Upload File” screen and click “Choose FTP site”. You will see the download/upload screen with a list of your files:
 
@@ -72,7 +78,8 @@ Once your data files are in your Galaxy folder in your home directory on Ceres, 
 
 Select the file you want to import and hit “Start”.  
 
-NOTE: IMPORTING THE DATA INTO GALAXY WILL REMOVE THE FILE THAT YOU MOVED VIA FTP.
+<b>NOTE: </b>Importing the data into galaxy will<b> REMOVE </b> the file that you moved via FTP.
+<b>NOTE: </b>Uploading directly from disk is <i>slower</i> than the other methods of tranfering.
 
 You can close this window and the file will appear in the History pane on the right of your home screen:
 
@@ -84,7 +91,7 @@ This is a generic way to import files and can be used regardless of file format.
 
 # Using Galaxy
 
-We have tried to focus on aspects of using Galaxy that are specific to USDA-ARS’s Ceres installation. There are hundreds of tutorials and videos to introduce you to the Galaxy framework, which is essentially the same no matter where it is installed. We suggest that you start at [https://galaxyproject.org/learn/](https://galaxyproject.org/learn/). A nice interactive introduction is also available at Help > Interactive Tours, or [https://galaxy.scinet.science/tours](https://galaxy.scinet.science/tours).
+We have tried to focus on aspects of using Galaxy that are specific to USDA-ARS’s Ceres installation. There are hundreds of tutorials and videos to introduce you to the Galaxy framework, which is essentially the same no matter where it is installed. We suggest that you start at [https://galaxyproject.org/learn/](https://galaxyproject.org/learn/). A nice interactive introduction is also available at Help > Interactive Tours, or [https://galaxy.scinet.usda.gov/tours](https://galaxy.scinet.usda.gov/tours).
 
 A common initial hang-up is getting your uploaded data in the right format. For sequencing data, you usually need to make clear what quality-scale you are using. For illumina reads, review the following link: [https://galaxyproject.org/support/fastqsanger/](https://galaxyproject.org/support/fastqsanger/). In addition, it is common for sample data from sequencing centers to be spread across multiple lanes. If you only have a few samples, you can concatenate these in Galaxy using Concatenate – Text Manipulation tool. If you have many samples, it will probably be best to concatenate those files prior to uploading using the commandline function *cat*.
 
