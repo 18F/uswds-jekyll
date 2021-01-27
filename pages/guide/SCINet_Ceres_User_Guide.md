@@ -378,6 +378,8 @@ $ find /project/<project_directory_name> -group <SCINet UserID> -type f
 $ find /KEEP/<project_directory_name> -group <SCINet UserID> -type f
 ```
 
+For more information about storage options, refer to [SCINet Storage Guide](/storage).
+
 ## Local Sharing of Files with Other Users
 Users who would like to share files with other users can use /90daydata/shared directory. Files older than 90 days will be automatically deleted.
 
