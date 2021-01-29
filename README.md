@@ -20,6 +20,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Analytics](#analytics)
    - [Last modified date](#last-modified-date)
    - [Anchor JS](#anchor-js)
+   - [Private Eye JS](#private-eye-js)
 1. [Assets](#assets)
    - [Stylesheets](#stylesheets)
    - [Scripts](#scripts)
@@ -309,6 +310,14 @@ You can show an anchor link next to header tags by uncommenting this section fro
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+```
+
+### Private Eye JS
+
+By default, the USWDS Jekyll theme uses [Private Eye](https://github.com/18F/private-eye) to denote private links. You can turn this off with the setting below. If you would like to customize the default Private Eye configuration, you can find it in `/assets/js/private_eye_conf.js`.
+
+```yml
+private_eye: false
 ```
 
 ## Assets
