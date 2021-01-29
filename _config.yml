@@ -23,7 +23,7 @@ github_info:
 # See https://github.com/bryanbraun/anchorjs for more information.
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
-# Enables Private Eye functionality. 
+# Enables Private Eye functionality.
 # See https://github.com/18F/private-eye for more information.
 # Private Eye configuration is in assets/js/main.js
 private_eye: true
