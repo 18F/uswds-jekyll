@@ -317,7 +317,7 @@ You can show an anchor link next to header tags by uncommenting this section fro
 By default, the USWDS Jekyll theme uses [Private Eye](https://github.com/18F/private-eye) to denote private links. You can turn this on by adding the setting below in your _config.yml. If you would like to customize the default Private Eye configuration, you can find it in `/assets/js/private_eye_conf.js`.
 
 ```yml
-private_eye: false
+private_eye: true
 ```
 
 ## Assets
