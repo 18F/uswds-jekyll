@@ -9,6 +9,17 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 05-Feb-2021
+
+**galaxy.scinet.science is set to retire Feb 15, 2021**
+
+Due to major refactoring, updates and policy changes we could not continue using the old database and are starting with a clean slate on galaxy.scinet.usda.gov 
+
+galaxy.scinet.science is currently in "read-only" mode where users have access but cannot launch new jobs. Users have until 7AM CST Feb 15, 2021 to access galaxy.scinet.science and download the existing files. 
+
+If you have any issues or concerns, email scinet_vrsc@usda.gov 
+
+
 ## 30-Sept-2020
 
 The Atlas Cluster at Mississippi State is now availible to all SCINet Users!  Documentation on logging in has been added to the [Quick Start Guide](https://scinet.usda.gov/guide/quickstart#accessing-scinet).  Full documention on Altas is coming soon.
