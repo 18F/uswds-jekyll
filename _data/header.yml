@@ -25,6 +25,8 @@ logo:
   alt: 18F
   external: true
 
+logo__text: true #switch to false if you only want the logo
+
 # this is a key into _data/navigation.yml
 primary:
   links: primary

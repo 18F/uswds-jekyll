@@ -22,9 +22,11 @@
               src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
               alt="{{ header.logo.alt }}">
           {% endif %}
-          <em class="usa-logo__text">
-            {{ header.title | default: site.title }}
-          </em>
+          {% if header.logo__text %}
+            <em class="usa-logo__text">
+              {{ header.title | default: site.title }}
+            </em>
+          {% endif $}
         </a>
       </div>
       <button class="usa-menu-btn">Menu</button>
