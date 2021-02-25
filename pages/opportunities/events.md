@@ -10,6 +10,7 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 
 **Event** | **Date** | **Time** | **Location** | **How to Participate**
 ---|---|---|---|---|
+UAS Workshop II: Missions, Operations, and Planning | 3/16/2021 | 1-5pm CST | Virtual | For research pilots of sUAS: an overview of vehicle types, regulations, operations planning, flight skill and currency requirements, and reporting.  Ensure your organization is prepared to take to the skies quickly, safely, and with a sound approach to gathering research data. Registration capped at 30 participants. Familiarity with the material in UAS Workshop I is expected. You can [watch the Workshop I training video](https://web.microsoftstream.com/video/ab74daf3-9151-4a4e-b78b-eea25729bc40) on the REE-ARS-SCINet-Media MS Stream Channel (must eAuthenticate to access). [Register for Workshop II here](https://msstate.webex.com/msstate/k2/j.php?MTID=tfdc127b21f0f74d3b051243566296cd0) by 3/15/2021. Contact Dixie Cartwright dixie at gri dot msstate dot edu with questions. 
 
 
 
