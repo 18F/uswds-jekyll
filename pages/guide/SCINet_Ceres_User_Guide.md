@@ -438,6 +438,8 @@ priority-gpu | 1 | 2 weeks | 5250 MB | priority GPU node
 
 **At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 800 cores and 2100 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start. At times these limits can be lowered to prevent a small group of users overtaking the whole cluster.
 
+Users that have access to priority partitions are limited by the amount of resources purchased by the group. For example, if a group has purchased one 768GB node, then group members cannot use more than an equivalent of one 768GB node across all jobs simulteniously running in priority-mem768 partition even when there are idle nodes in the partition. However all users on the system can use these idle nodes through \*-low and scavenger* partitions.
+
 To get current details on all partitions use the following scontrol command:
 ```
 $ scontrol show partitions
