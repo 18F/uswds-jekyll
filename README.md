@@ -306,7 +306,7 @@ This will add the date right before the footer component.
 
 ### Anchor JS
 
-You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making ech header linkable. See https://github.com/bryanbraun/anchorjs for more information.
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making each header linkable. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
@@ -357,7 +357,7 @@ scripts:
     async: true # optional
 ```
 
-Scripts specified as objects (in the latter item above) must have a `src` property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
+Scripts specified as objects (in the latter item above) must have a `src` property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running properly.)
 
 ### Asset load order
 
@@ -634,8 +634,8 @@ To develop this theme and/or test it locally:
 #### Scripts
 
 - `start`: Starts the jekyll site
-- `setup-uswds`: Copies assets from the USWDS package to their theme locations, but running the following scipts, which can also be run separately:
+- `setup-uswds`: Copies assets from the USWDS package to their theme locations, by running the following scripts, which can also be run separately:
   - `sync-assets`: Copies assets to `assets/uswds`
-  - `sync-sass`: Copies Sass cource files to `_sass/uswds/src/`
+  - `sync-sass`: Copies Sass source files to `_sass/uswds/src/`
   - `sync-default-settings`: Copies default settings files to `_sass/uswds/settings`
   - `sync-theme-settings`: Copies only theme settings files to `_sass/settings`
