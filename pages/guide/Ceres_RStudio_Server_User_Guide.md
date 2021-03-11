@@ -12,9 +12,10 @@ layout: page
 * [Introduction](#introduction)
 * [SCINet Options for RStudio](#scinet-options-for-rstudio)
 * [RStudio Server on Ceres](#rstudio-server-on-ceres)
-* [Starting RStudio Server Using VPN](#starting-rstudio-server-using-vpn)
-* [Stopping RStudio Server](#stopping-rstudio-server)
+* [Starting RStudio Server](#starting-rstudio-server)
+* [Using VPN](#using-vpn)
 * [SSH Port Forwarding (instead of VPN)](#ssh-port-forwarding-instead-of-vpn)
+* [Stopping RStudio Server](#stopping-rstudio-server)
 * [Requesting Additional Compute Resources](#requesting-additional-compute-resources)
 
 # Introduction
@@ -44,7 +45,7 @@ A few Ceres-specific notes:
 3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 10G soft limit quota on your home directory being surpassed.
 
 
-# Starting RStudio Server Using VPN
+# Starting RStudio Server
 
 The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE). Note that the video has been created before the VPN address has been changed to ocvpn.scinet.usda.gov . Instead of ocvpn.scinet.science please use ocvpn.scinet.usda.gov .
 
@@ -104,9 +105,38 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
       scancel -f 214664
    ```
 
+## Using VPN
+
 5. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/assets/img/RStudio.png)
 
+
+## SSH Port Forwarding (instead of VPN)
+
+The instructions below replace instructions for the step 5 of the instructions in the section [Using VPN](#using-vpn). Before performing the instructions below, first read and follow the instructions in [steps 1-4](#starting-rstudio-server).
+
+### Windows + PuTTY users
+The following silent video is a media alternative for the text in steps 1-4 below:<br>
+[rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
+
+1. Open a **new** PuTTY window
+2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
+3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **ceres14-compute-3-eth:44200**), click “Add”, then click “Open”.
+![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
+4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
+
+### macOS / Linux / Windows + Windows PowerShell users
+
+1. Open a **new** macOS/Linux terminal window or a **new** Windows PowerShell window and enter the SSH command listed in the job script output file. In this example:
+```
+ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.usda.gov
+```
+There will be no output after logging in. Keep the window / SSH tunnel open for the duration of the RStudio session.
+2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
+
+### Chrome browser users
+Video showing how to ssh to Ceres using the Chrome Secure Shell App:
+[chrome-ssh.mp4](https://public.3.basecamp.com/p/YJ1smo8ih7tTwG9SoeVCYbFV)
 
 # Stopping RStudio Server
 
@@ -119,32 +149,6 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
   *Be sure to specify the*  `scancel -f`  /  `--full`  *option as demonstrated above.*
 
 3. (If using SSH Port Forwarding instead of VPN) Close the terminal / PuTTY window in which the SSH tunnel was established.
-
-
-# SSH Port Forwarding (instead of VPN)
-
-## Windows + PuTTY users
-The following silent video is a media alternative for the text in steps 1-4 below:<br>
-[rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
-
-1. Open a **new** PuTTY window
-2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
-3. In the category: Connection > SSH > Tunnels, enter 8787 in Source Port, the Destination hostname:port listed in the job script output (in this example: **ceres14-compute-3-eth:44200**), click “Add”, then click “Open”.
-![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
-4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
-
-## macOS / Linux / Windows + Windows PowerShell users
-
-1. Open a **new** macOS/Linux terminal window or a **new** Windows PowerShell window and enter the SSH command listed in the job script output file. In this example:
-```
-ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.usda.gov
-```
-There will be no output after logging in. Keep the window / SSH tunnel open for the duration of the RStudio session.
-2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
-
-## Chrome browser users
-Video showing how to ssh to Ceres using the Chrome Secure Shell App:
-[chrome-ssh.mp4](https://public.3.basecamp.com/p/YJ1smo8ih7tTwG9SoeVCYbFV)
 
 # Requesting Additional Compute Resources
 
