@@ -13,8 +13,8 @@ layout: page
 * [SCINet Options for RStudio](#scinet-options-for-rstudio)
 * [RStudio Server on Ceres](#rstudio-server-on-ceres)
 * [Starting RStudio Server](#starting-rstudio-server)
-* [Using VPN](#using-vpn)
-* [SSH Port Forwarding (instead of VPN)](#ssh-port-forwarding-instead-of-vpn)
+  * [Using VPN](#using-vpn)
+  * [SSH Port Forwarding (instead of VPN)](#ssh-port-forwarding-instead-of-vpn)
 * [Stopping RStudio Server](#stopping-rstudio-server)
 * [Requesting Additional Compute Resources](#requesting-additional-compute-resources)
 
