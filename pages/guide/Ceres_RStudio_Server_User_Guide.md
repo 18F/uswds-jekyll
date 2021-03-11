@@ -113,7 +113,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
 
 ## SSH Port Forwarding (instead of VPN)
 
-The instructions below replace instructions for the step 5 of the instructions in the section [Using VPN](#using-vpn). Before performing the instructions below, first read and follow the instructions in [steps 1-4](#starting-rstudio-server).
+The instructions below replace instructions for the step 5 of the instructions in the section [Using VPN](#using-vpn). Before performing the instructions below, first read and follow the instructions in [steps 2-4](#starting-rstudio-server).
 
 ### Windows + PuTTY users
 The following silent video is a media alternative for the text in steps 1-4 below:<br>
