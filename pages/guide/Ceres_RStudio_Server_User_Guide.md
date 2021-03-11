@@ -104,16 +104,17 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
 
       scancel -f 214664
    ```
+5. Instructions for this step differ for when you use SCINet VPN or SSH Port Forwarding.
 
 ## Using VPN
 
-5. (*If using VPN*) Point your web browser to the listed hostname / port (in this example, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
+*If using VPN* point your web browser to the listed hostname / port (in this example, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/assets/img/RStudio.png)
 
 
 ## SSH Port Forwarding (instead of VPN)
 
-The instructions below replace instructions for the step 5 of the instructions in the section [Using VPN](#using-vpn). Before performing the instructions below, first read and follow the instructions in [steps 2-4](#starting-rstudio-server).
+*Note* Before performing the instructions below, first read and follow the instructions in [steps 2-4](#starting-rstudio-server).
 
 ### Windows + PuTTY users
 The following silent video is a media alternative for the text in steps 1-4 below:<br>
