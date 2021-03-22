@@ -59,7 +59,7 @@ This video includes:
 
 Ceres is the dedicated high performance computing (HPC) infrastructure for ARS researchers on ARS SCINet. Ceres is designed to enable large-scale computing and large-scale storage. Currently, the following compute nodes are available on the Ceres cluster.
 
-92 regular nodes, each having:
+92 regular compute nodes, each having:
 
 * 72 logical cores on 2 x 18 core Intel Xeon Processors (6140 2.30GHz 25MB Cache or 6240 2.60GHz 25MB Cache) with hyper-threading turned ON
 * 384GB DDR3 ECC Memory
