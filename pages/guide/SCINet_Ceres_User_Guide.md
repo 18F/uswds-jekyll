@@ -67,6 +67,7 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
+
 4 large memory nodes, each having:
 
 * 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
@@ -75,9 +76,19 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-20 large memory nodes, each having:
+
+9 large memory nodes, each having:
 
 * 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
+* 1,536GB DDR3 ECC Memory
+* 250GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
+* 1.5TB SSD used for temporary local storage
+* Mellanox ConnectX®­3 VPI FDR InfiniBand
+
+
+20 large memory nodes, each having:
+
+* 96 logical cores on 2 x 20 core Intel Xeon Processors (6248R 3GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
 * 1,536GB DDR3 ECC Memory
 * 250GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
 * 1.5TB SSD used for temporary local storage
