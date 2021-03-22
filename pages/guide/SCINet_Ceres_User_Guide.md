@@ -57,15 +57,7 @@ This video includes:
 
 # Technical Overview
 
-Ceres is the dedicated high performance computing (HPC) infrastructure for ARS researchers on ARS SCINet. Ceres is designed to enable large-scale computing and large-scale storage. The original cluster had a total of 64 regular compute nodes and 5 high-memory nodes. In 2018-2019 additional nodes have been purchased. Currently, the following compute nodes are available on the Ceres cluster.
-
-56 nodes, each having:
-
-* 40 logical cores on 2 x 10 core Intel Xeon Processors (E5-2670 v2 2.50GHz 25MB Cache) with hyper-threading turned ON
-* 128GB DDR3 ECC Memory
-* 2 x 120GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS and provide small local scratch storage)
-* 1TB SSD used for temporary local storage
-* Mellanox ConnectX®­3 VPI FDR InfiniBand
+Ceres is the dedicated high performance computing (HPC) infrastructure for ARS researchers on ARS SCINet. Ceres is designed to enable large-scale computing and large-scale storage. Currently, the following compute nodes are available on the Ceres cluster.
 
 92 new nodes, each having:
 
@@ -75,7 +67,7 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-4 new large memory nodes, each having:
+4 large memory nodes, each having:
 
 * 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
 * 768GB DDR3 ECC Memory
@@ -83,7 +75,7 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-9 new large memory nodes, each having:
+20 large memory nodes, each having:
 
 * 80 logical cores on 2 x 20 core Intel Xeon Processors (6148 2.40GHz 27.5MB Cache or 6248 2.50GHz 27.5MB Cache) with hyper-threading turned ON
 * 1,536GB DDR3 ECC Memory
@@ -91,16 +83,8 @@ Ceres is the dedicated high performance computing (HPC) infrastructure for ARS r
 * 1.5TB SSD used for temporary local storage
 * Mellanox ConnectX®­3 VPI FDR InfiniBand
 
-4 high memory nodes, each having:
 
-* 120 logical cores on 4 x 15 Intel Xeon Processors (E7­4880 v2 2.50GHz 37.5MB Cache) with hyper-threading turned ON
-* 1,536GB DDR ECC Memory
-* 2 x 120GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to host the OS)
-* 16 x 600GB Intel DC S3500 Series 2.5” SATA 6.0Gb/s SSDs (used to provide 9.6TB of local scratch storage)
-* 2 x LSI SAS 9300­8i SAS 12Gb/s PCIe 3.0 8­-Port HBA
-* 2 x Mellanox ConnectX®­3 VPI FDR InfiniBand
-
-1 new GPU node that has:
+1 GPU node that has:
 
 * 72 logical cores on 2 x 18 core Intel Xeon Processors (6140 2.30GHz 25MB Cache) with hyper-threading turned ON
 * 2 Tesla V100
