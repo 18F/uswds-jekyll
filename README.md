@@ -127,9 +127,11 @@ By default all links are assumed to be internal to the site. You can add `extern
 primary:
   - text: Documentation
     href: /docs/
+    name: docs
   - text: Support
     href: /help/
     class: highlight
+    name: help
   - text: "18F"
     href: https://18f.gsa.gov
     external: true
@@ -144,6 +146,10 @@ primary:
 ```
 
 This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
+
+If you are planning on using the [page side-navigation](#page-subnavigation) deeper than a single item, including a `name` key in the primary navigation that corresponds with the name of the subnav menu will allow the site to keep the primary navigation "active." 
+
+Names are not necessary for external links, as they are not part of your main site.
 
 ### Page title
 

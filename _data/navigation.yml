@@ -14,6 +14,7 @@
 primary:
   - text: Documentation
     href: /docs/
+    name: docs
   - text: Navigation section
     links:
       - text: Demo link A
@@ -43,6 +44,8 @@ secondary:
 docs:
   - text: Sidenav Documentation
     href: /docs/
+  - text: Other Content
+    href: /docs/other-content/
   - text: Sidenav External link
     href: https://18f.gsa.gov
     external: true
