@@ -401,34 +401,34 @@ The following table lists partitions. Number of nodes in a specific partition ca
 
 Name | Nodes | Logical Cores per Node | Maximum Simulation Time | Default Memory per Core | Function
 --- | --- |--- |--- |--- |---
-short	| 100 | 40, 72 | 48 hours | 3100 MB | short simulation queue (default)
-medium	| 67 | 40, 72 | 7 days | 3100 MB | medium length simulation queue
-long	| 34 | 40, 72 | 21 days | 3100 MB | long simulation queue
-long60	| 6 | 40, 72 | 60 days	| 3100 MB | extra long simulation queue
-mem	| 8 | 120, 80 | 7 days	| 12750 MB | large memory queue
-longmem	| 1 | 120 | 1000 hours | 12750 MB | long simulation large memory queue
-mem768	| 1 | 80 | 7 days | 9500 MB | new node with 768GB of memory
-debug	| 3 | 40, 72 | 1 hour | 3100 MB | for testing scripts and runs before submitting them
+short	| 41 | 72 | 48 hours | 3000 MB | short simulation queue (default)
+medium	| 32 | 72 | 7 days | 3000 MB | medium length simulation queue
+long	| 11 | 72 | 21 days | 3000 MB | long simulation queue
+long60	| 2 | 72 | 60 days	| 3000 MB | extra long simulation queue
+mem	| 4 | 80 | 7 days	| 16000 MB | large memory queue
+longmem	| 1 | 80 | 1000 hours | 16000 MB | long simulation large memory queue
+mem768	| 1 | 80 | 7 days | 7900 MB | new node with 768GB of memory
+debug	| 2 | 72 | 1 hour | 3000 MB | for testing scripts and runs before submitting them
 
 #### Partitions that allow all users access to priority nodes
 
 Name | Nodes | Logical Cores per Node | Maximum Simulation Time | Default Memory per Core | Function
 --- | --- |--- |--- |--- |---
-mem768-low | 3	| 80 | 2 hours	| 9500 MB | priority nodes with 768GB of memory
-mem-low	| 5 | 80 | 2 hours | 19000 MB | priority nodes with 1.5TB of memory
-gpu-low	| 1 | 72 | 2 hours | 5250 MB | priority GPU node
-brief-low | 92 | 72 | 2 hours | 5250 MB | all new nodes with 384GB of memory
-scavenger | 57 | 72, 80 | 21 days | 3100 MB | non-GPU priority nodes; scavenger jobs can be killed at any moment
-scavenger-gpu | 1 | 72 | 21 days | 3100 MB | GPU priority node; jobs can be killed at any moment
+mem768-low | 3	| 80 | 2 hours	| 7900 MB | priority nodes with 768GB of memory
+mem-low	| 16 | 80 | 2 hours | 16000 MB | priority nodes with 1.5TB of memory
+gpu-low	| 1 | 72 | 2 hours | 3000 MB | priority GPU node
+brief-low | 92 | 72 | 2 hours | 3000 MB | all new nodes with 384GB of memory
+scavenger | 49 | 72, 80 | 21 days | 3000 MB | non-GPU priority nodes; scavenger jobs can be killed at any moment
+scavenger-gpu | 1 | 72 | 21 days | 3000 MB | GPU priority node; jobs can be killed at any moment
 
 #### Priority partitions available only to those users who purchased nodes
 
 Name | Nodes | Maximum Simulation Time | Default Memory per Core | Function
 --- | --- |--- |--- |---
-priority | 49 | 2 weeks | 5250 MB | priority nodes with 384GB memory
-priority-mem | 5 | 2 weeks | 19000 MB | priority nodes with 1.5TB memory
-priority-mem768 | 3 | 2 weeks | 9500 MB | priority nodes with 768 GB memory
-priority-gpu | 1 | 2 weeks | 5250 MB | priority GPU node
+priority | 49 | 2 weeks | 3000 MB | priority nodes with 384GB memory
+priority-mem | 16 | 2 weeks | 16000 MB | priority nodes with 1.5TB memory
+priority-mem768 | 3 | 2 weeks | 7900 MB | priority nodes with 768 GB memory
+priority-gpu | 1 | 2 weeks | 3000 MB | priority GPU node
 
 
 **At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 800 cores and 2100 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start. At times these limits can be lowered to prevent a small group of users overtaking the whole cluster.
@@ -448,7 +448,7 @@ On Ceres hyper-threading is turned on. That means that each physical core on a n
 
 Each allocated core comes with a default amount of memory listed in the table above for different SLURM partitions. If a job attempts to use more memory than what was allocated to a job it will be killed by SLURM. In order to make more memory available to a given job, users can either request the appropriate total number of cores or request more memory per core via the  `--mem-per-cpu`  flag to  `salloc/srun/sbatch`  commands.
 
-For example, to support a job that requires 60GB of memory in the short partition, a user could request 20 logical cores (`-n 20`) with their default allocation of 3GB or 2 logical cores with 30GB of memory per core via  `--mem-per-cpu 30GB`. Please note that a single hyper-threaded core (2 logical cores) is the smallest unit of allocation. Of course, any other mix of memory per core and total number of cores totaling 60GB would work as well depending on the CPU characteristics of the underlying simulation software.
+For example, to support a job that requires 60GB of memory in the short partition, a user could request 20 logical cores (`-n 20`) with their default allocation of 3000MB or 2 logical cores with 30GB of memory per core via  `--mem-per-cpu 30GB`. Please note that a single hyper-threaded core (2 logical cores) is the smallest unit of allocation. Of course, any other mix of memory per core and total number of cores totaling 60GB would work as well depending on the CPU characteristics of the underlying simulation software.
 
 ### Allocation of Time
 
@@ -471,7 +471,7 @@ A user can request an interactive session on Ceres using SLURM's  `srun`  or  `s
 $ salloc
 ```
 
-which will place you in an interactive shell. This interactive shell has a duration of 2 days and will request a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes.
+which will place you in an interactive shell. This interactive shell has a duration of 2 days and will request a single hyper-threaded core (2 logical cores) with 6000 MB of allocated memory on one of the compute nodes.
 
 To prevent users from requesting interactive nodes and then not using them, there is an inactivity timeout set up. If there is no command running on a node for an hour and a half, the job will be terminated. Otherwise the interactive job is terminated when the user types exit or the allocated time runs out.
 
@@ -643,14 +643,14 @@ Command | Description | Example
 `scontrol` | Provides more detailed information about jobs, partitions or nodes | `scontrol show job <job id>`  or  `scontrol show partition <partition name>`  or  `scontrol show nodes`
 `seff` | Provides resource usage report for a finished job | `seff <job id>`
 
-## Local Scratch Space on Large Memory Nodes
+## Local Scratch Space 
 
-Each of the large memory nodes (available via the mem queue) has ~9 TB of fast local temporary data file storage space supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. A job sets up a unique local space accessible available only with the job script via the environmental $TMPDIR variable. You can use this for any scratch space disk space you need, or if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to copy all your input data to this space at the beginning of your job, and then do all your computation on $TMPDIR. You must copy any output data you need to keep back to permanent storage before the job ends, since $TMPDIR will be erased upon job exit. The following example shows how to copy data in, and then run from $TMPDIR.
+All compute nodes have 1.5 TB of fast local temporary data file storage space supported by SSDs. This local scratch space is significantly faster and supports more input/output operations per second (IOPS) than the mounted filesystems on which the home and project directories reside. A job sets up a unique local space accessible available only with the job script via the environmental $TMPDIR variable. You can use this for any scratch space disk space you need, or if you plan to compute on an existing large data set (such as a sequence assembly job) it might be beneficial to copy all your input data to this space at the beginning of your job, and then do all your computation on $TMPDIR. You must copy any output data you need to keep back to permanent storage before the job ends, since $TMPDIR will be erased upon job exit. The following example shows how to copy data in, and then run from $TMPDIR.
 
 ```bash
 #!/bin/bash
 #SBATCH --job-name="my sequence assembly"   #name of the job submitted
-#SBATCH -p mem                #name of the queue you are submitting job to
+#SBATCH -p short              #name of the queue you are submitting job to
 #SBATCH -N 1                  #number of nodes in this job
 #SBATCH -n 40                 #number of cores/tasks in this job, you get all 20 cores with 2 threads per core with hyper-threading
 #SBATCH -t 01:00:00           #time allocated for this job hours:mins:seconds
@@ -676,7 +676,6 @@ cd $TMPDIR
 #End of file
 ```  
 
-Regular compute nodes also have (smaller) local scratch space.
 
 # Compiling Software, Installing R/Perl/Python Packages and Using Containers
 
