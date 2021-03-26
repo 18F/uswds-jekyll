@@ -14,4 +14,4 @@ The training is set to be offered again virtually in late spring (date TBD). Tho
 **03/23/2021   &middot;   Virtual   &middot;   lead: Lee Hathcock, Mississippi State University Geosystems Research Institute**   
 
 
-[Workshop Slides (~290Mb)](https://public.3.basecamp.com/p/U63CTwFHmkiPKZtTr3jdPXD5) (downloads PowerPoint file)
+[Workshop Slides (284Mb)](https://public.3.basecamp.com/p/U63CTwFHmkiPKZtTr3jdPXD5)
