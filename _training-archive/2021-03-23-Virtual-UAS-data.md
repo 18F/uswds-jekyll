@@ -12,3 +12,6 @@ On March 23, 2021, 50 ARS researchers and university collaborators participated 
 The training is set to be offered again virtually in late spring (date TBD). Those interested in registering for the upcoming training can contact Dixie Cartwright,  dixie at gri dot msstate dot edu to be added to the waitlist.  
 
 **03/23/2021   &middot;   Virtual   &middot;   lead: Lee Hathcock, Mississippi State University Geosystems Research Institute**   
+
+
+[Workshop Slides (~290Mb)](https://public.3.basecamp.com/p/U63CTwFHmkiPKZtTr3jdPXD5) (downloads PowerPoint file)
