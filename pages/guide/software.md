@@ -16,7 +16,7 @@ layout: page
 
 Software | information
 ---|---
-Galaxy Server | SCINet Runs its own [Galaxy Server](https://galaxy.scinet.science).  Galaxy is an open source, web-based platform for data intensive bioinformatic research.
+Galaxy Server | SCINet Runs its own [Galaxy Server](https://galaxy.scinet.usda.gov).  Galaxy is an open source, web-based platform for data intensive bioinformatic research.
 [CLC Workbench](/guide/clc/) | SCINet has a license key to CLC Workbench
 [Geneious](/guide/geneious) |SCINet has a license key to Geneious
 [Rstudio](/guide/rstudio) | SCINet runs a R studio Server
