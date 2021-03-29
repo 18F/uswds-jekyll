@@ -1,12 +1,10 @@
 ---
-title: Postdoc Opportunities
+title: USDA ARS Postdoctoral Fellowship Program in Big Data Science and AI Research
 description: current listing of SCINet-funded postdocs, administered through ORISE and partner universities
 permalink: /opportunities/postdocs
 author: Kerrie Geil
 layout: page
 ---
-
-# USDA ARS Postdoctoral Fellowship Program in Big Data Science and AI Research
 
 Multiple 2-year MS and postdoctoral research opportunities are currently available with the U.S. Department of Agriculture (USDA), Agricultural Research Service (ARS) located at one of the regional ARS locations or with one of our collaborating universities. 100% telework options are possible depending on the position. The SCINet/Big Data Program in collaboration with the AI Center of Excellence at ARS offers exciting research opportunities to motivated participants interested in solving agricultural- or natural resource-related problems at a range of spatial and temporal scales, from the genome to the continent, and sub-daily to evolutionary time scales. One of the goals of these programs is to develop and apply new and emerging technologies, including artificial intelligence (AI) and machine learning, to help solve complex agricultural problems that depend on collaboration across scientific disciplines and geographic locations. Many of these questions rely on the synthesis, integration, and analysis of large, diverse datasets that benefit from high performance computers (HPC) or a cloud computing environment. These opportunities are designed to facilitate cross-disciplinary, cross-location research through collaboration on problems of high priority to the USDA ARS and require an HPC or cloud computing environment. Training will be provided in specific AI, machine learning, deep learning, data science, and/or statistical software as needed for the success of the position.
 
