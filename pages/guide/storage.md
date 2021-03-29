@@ -55,7 +55,8 @@ To request a new project directory see [Request Project Storage](/support/reques
 Directories in `/project` are not backed up, however users can copy important data from a directory in `/project` to a 
 corresponding directory in `/KEEP` that is backed up nightly. User should not run jobs from a directory in `/KEEP`.
 
-Since home directories have a small quota, it is recommended to install software, 
+Many software applications are available on Ceres as [modules](https://scinet.usda.gov/guide/ceres/#modules), however sometimes 
+users need to install software by themselves. Since home directories have a small quota, it is recommended to install software, 
 such as Python, Perl, R packages and conda virtual environments in `/projectproject_name`. 
 The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions 
 on how to install conda virtual environments in `/project`, while 
@@ -64,13 +65,11 @@ installing packages in a project directory.
 
 ## KEEP
 
-`/KEEP` is used to keep important data and for user software installs. Like in `/home`, 
+`/KEEP` is used to keep important data. Like in `/home`, 
 files in `/KEEP` are automatically compressed and backed up. It is recommended to copy important data from a directory in 
 `/project` to a corresponding directory in `/KEEP`. Note, that due to backup method used on Ceres, space freed after deleting files 
 in directories in `/KEEP`, becomes available only after 6 days.
 
-Many software applications are available on Ceres as [modules](https://scinet.usda.gov/guide/ceres/#modules), however sometimes 
-users need to install software by themselves. 
 
 ## Large Short-term Storage
 
