@@ -129,8 +129,8 @@ primary:
         href: /support/vrsc/
       - text: FAQ's
         href: /support/faq/
-      - text: Basecamp User Forum
-        href: /support/basecamp
+      - text: USDA-ARS SCINet Forum
+        href: https://forum.scinet.usda.gov
       - text: Request Project Storage
         href: /support/request-storage
       - text: Request Software
