@@ -56,6 +56,9 @@ graphics:
     description: SCINet is more than hardware and cables. A key part of our mission is training ARS scientists in computational methods.
 ---
 
+## [Check out our SCINet-funded research fellowship opportunities for PhD and MS level graduates](https://scinet.usda.gov/opportunities/postdocs)
+
+
 ## Find out how SCINet can enable your Research
 
 Look at our use cases in ([genomics](/user/genomics), [plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Scientific Advisory Committee representative](/about/organization) to learn more. You can get the process started by requesting an account right now.
