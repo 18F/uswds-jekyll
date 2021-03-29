@@ -37,7 +37,7 @@ export TMOUT=5400
 singularity is hashed (/usr/bin/singularity)  
 ```
 
-NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) with 6200 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). See the [Ceres User Manual](/guide/ceres/) for more info on how to request resources for interactive jobs.
+NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) with 6000 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). See the [Ceres User Manual](/guide/ceres/) for more info on how to request resources for interactive jobs.
 
 
 # 3. Container Images
