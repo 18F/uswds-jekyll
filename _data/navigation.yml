@@ -65,8 +65,8 @@ primary:
         href: /guide/smrtlink
       - text: AWS Resources
         href: /guide/AWS/documentation
-      - text: Introduction to Linux
-        href: /guide/linuxintroduction
+#      - text: Introduction to Linux
+#        href: /guide/linuxintroduction
       - text: SCINet VPN
         href: /guide/vpn
   - text: Working Groups
