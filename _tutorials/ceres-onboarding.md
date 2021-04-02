@@ -6,7 +6,7 @@ layout: page
 excerpt: SCINet and Ceres basics for new SCINet users, including HPC beginners
 ---
 
-This [45 minute SCINet onboarding tutorial](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513) is most appropriate for HPC beginners and includes:
+This [42 minute SCINet onboarding tutorial](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513) is most appropriate for HPC beginners and includes:
 - logging on to Ceres
 - changing your password
 - storage structure
