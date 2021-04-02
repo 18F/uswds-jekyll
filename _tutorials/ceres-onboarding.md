@@ -1,20 +1,18 @@
 ---
-title: Ceres Onboarding (Intro to SCINet Ceres HPC)
+title: SCINet Onboarding (Intro to SCINet)
 description: Ceres basics
 author: Marina Kraeva
 layout: page
-excerpt: Ceres and Unix basics for HPC beginners
+excerpt: SCINet and Ceres basics for new SCINet users, including HPC beginners
 ---
 
-This [51 minute Ceres onboarding tutorial](https://public.3.basecamp.com/p/PZ52ap6Dr6QSDD2THfv1w8BH) is most appropriate for HPC beginners and includes:
+This [45 minute SCINet onboarding tutorial](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513) is most appropriate for HPC beginners and includes:
 - logging on to Ceres
 - changing your password
-- navigating directories
-- basic Unix and SLURM job scheduler commands
-- setting file/directory access
-- computing in interactive mode with salloc
+- storage structure
+- basic SLURM job scheduler commands
 - accessing Ceres software modules
-- previewing text file contents
+- computing in interactive mode with salloc
 - computing in batch mode with a batch script
 
 The information in this video is also documented in the [Ceres User Manual](/guide/ceres/).
