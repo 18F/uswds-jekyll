@@ -42,16 +42,15 @@ layout: page
 # Onboarding Videos
 Users who are new to the HPC environment may benefit from the following Ceres onboarding video which covers much of the material contained in this guide plus some Unixs basics.
 
-[Ceres Onboarding (Intro to SCINet Ceres HPC) (length 51:17)](https://public.3.basecamp.com/p/PZ52ap6Dr6QSDD2THfv1w8BH)
+[Ceres Onboarding (Intro to SCINet Ceres HPC) (length 42:14)](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513)
 This video includes:
 - logging on to Ceres
 - changing your password
-- navigating directories
-- basic Unix and SLURM job scheduler commands
-- setting file/directory access
+- home and project directories
+- data transfer to/from SCINet clusters
+- basic SLURM job scheduler commands
 - computing in interactive mode with salloc
 - accessing Ceres software modules
-- previewing text file contents
 - computing in batch mode with a batch script
 
 
@@ -433,7 +432,7 @@ priority-gpu | 1 | 2 weeks | 3000 MB | priority GPU node
 
 **At most 800 cores and 2100 GB of memory can be used by all simultaneously running jobs per user** across all community and \*-low partitions. In addition, up to 800 cores and 2100 GB of memory can be used by jobs in scavenger* partitions. Any additional jobs will be queued but won't start. At times these limits can be lowered to prevent a small group of users overtaking the whole cluster.
 
-Users that have access to priority partitions are limited by the amount of resources purchased by the group. For example, if a group has purchased one 768GB node, then group members cannot use more than an equivalent of one 768GB node across all jobs simulteniously running in priority-mem768 partition even when there are idle nodes in the partition. However all users on the system can use these idle nodes through \*-low and scavenger* partitions.
+Users that have access to priority partitions are limited by the amount of resources purchased by the group. For example, if a group has purchased one 768GB node, then group members cannot use more than an equivalent of one 768GB node across all jobs simulteniously running in priority-mem768 partition even when there are idle nodes in the partition. However all users on the system can use these idle nodes through \*-low and scavenger* partitions. Each group that has purchased nodes on Ceres, has a special QOS created for the group, which needs to be specified when submitting a job to a priority partition using "-q" salloc/sbatch/srun option. When users submit a job to a priority partition, any node in the partition can be assigned to the job. 
 
 To get current details on all partitions use the following scontrol command:
 ```
