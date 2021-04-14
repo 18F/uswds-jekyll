@@ -39,6 +39,8 @@ singularity is hashed (/usr/bin/singularity)
 
 NOTE: salloc by default runs on a single hyper-threaded core (2 logical cores) with 6000 MB of allocated memory on one of the compute nodes. The session will last for 2 days, but will timeout after 1.5 hours of inactivity (no commands runnning). See the [Ceres User Manual](/guide/ceres/) for more info on how to request resources for interactive jobs.
 
+NOTE: on Atlas singularity is available through environment module. Before issuing any singularity command, load the module by issuing "module load singularity" command.
+
 
 # 3. Container Images
 
@@ -79,8 +81,11 @@ Since the home directory has a limited amount of space, this can fill up quite e
 export SINGULARITY_CACHEDIR=$TMPDIR 
 export SINGULARITY_TMPDIR=$TMPDIR
 ```
+One can also use —disable-cache option to avoid saving cached image blobs (e.g., `singularity pull —disable-cache docker://r-base:3.3.3` ).
 
 In case the home directory is full, it is safe to delete the contents of ~/.singularity folder.
+
+NOTE: As of April 14, 2021, $TMPDIR is not set on Atlas. Atlas users are advised to use the —disable-cache option when pulling docker containers.
 
 
 # 5. Singularity Images
