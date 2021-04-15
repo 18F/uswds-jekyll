@@ -9,6 +9,15 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 15-April-2021
+
+The SCINet Scientific Advisory Committee (SAC) is seeking a representative from the Northeast Area for a 3-year term. 
+
+The SAC meets monthly to provide input on planning, educational and communication activities of the SCINet Initiative. There is also opportunity for input on planning and policy initiatives. For example, SAC members created a quarterly SCINet newsletter, facilitated a user-needs virtual meeting with scientific points-of-contact across ARS research units, launched the new SCINet website, and hold multiple computation workshops and trainings annually. 
+
+This is a 3-year term which begins immediately and will end March 2024. Please reply to Kathleen Yeater (Kathleen.yeater@usda.gov) with nomination(s) by next Friday April 23, 2021. Self-nominations are accepted. Please provide e-mail contact information of nominees, and the SAC Membership committee will continue with the application process for the NEA representative to SAC. 
+
+
 ## 05-Feb-2021
 
 **galaxy.scinet.science is set to retire Feb 15, 2021**
