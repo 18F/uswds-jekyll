@@ -101,7 +101,7 @@ The default environment includes:
   * Slurm queue manager
 
 ## Bring Your Own Environment
-  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) with a ```Jupyter Kernel installed``` (i.e. IPyKernel, IRKernel, IJulia, idl_kernel, etc...), JupyterLab will detect this environmnet as a separate kernel (assuming it is not the *base* environment). For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab. The one exception to this is the *base* environment, which already exists in the defualt Jupyter environment, and will not be loaded from your home directory.
+  If you have an environment (e.g. a conda environment) in your $HOME directory (e.g. ~/.conda/envs/my_env) or in a project directory (e.g. /project/my_project/my_env) with a ```Jupyter Kernel installed``` (i.e. IPyKernel, IRKernel, IJulia, idl_kernel, etc...), JupyterLab will detect this environmnet as a separate kernel (assuming it is not the *base* environment). For instance, a conda environment named <i>my_env</i> with the IPyKernel will appear as <i>Python [conda env:myenv]</i> in the list of optional kernels in JupyterLab. The one exception to this is the *base* environment, which already exists in the defualt Jupyter environment, and will not be loaded from your home directory.
 
 ## Use Ceres Maintained Software
   The default environment includes an extension (located on the left vertical section of JupyterLab) to load Ceres software into the current environment. This is the software visible with the `module avail` command.
