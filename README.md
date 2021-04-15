@@ -284,6 +284,10 @@ You can add DAP to your site by uncommenting the `dap_agency` line and, if need 
 # dap_subagency: TTS
 ```
 
+### Feedback form
+
+To add a user feedback form, create a new survey through [Touchpoints](https://touchpoints.digital.gov/) and add the ID via the `touchpoints_form_id` key in `_config.yml`.
+
 ### Last modified date
 
 To show the last date a page was last modified by:
