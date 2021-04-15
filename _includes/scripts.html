@@ -40,7 +40,7 @@
 
       var script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      script.src = "https://search.usa.gov/javascripts/remote.loader.js";
       document.getElementsByTagName("head")[0].appendChild(script);
 
 //]]>
@@ -49,17 +49,5 @@
 
 
 {% if site.touchpoints_form_id %}
-<script type="text/javascript">
-//<![CDATA[
-      var touchpoints_config = { siteHandle:"{{ site.touchpoints_form_id }}" };
-
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = `https://touchpoints.app.cloud.gov/touchpoints/${touchpoints_config.siteHandle}/js`;
-      script.async = true;
-      document.getElementsByTagName("head")[0].appendChild(script);
-
-//]]>
-</script>
-
+<script src="https://touchpoints.app.cloud.gov/touchpoints/{{ site.touchpoints_form_id }}.js" async></script>
 {% endif %}
