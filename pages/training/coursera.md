@@ -6,7 +6,7 @@ author: SCINet SAC Education Committee.
 layout: page
 ---
 
-The SCINet Initiative and the AI Center of Excellence are excited to provide a training opportunity through [Coursera](coursera.org). This program will provide a limited number of Coursera licenses free to ARS scientists and support staff to complete courses and specializations focused on scientific computing and artificial intelligence over a 3-month period. Successful completion of courses and specializations will result in **widely recognized certificates and credentials**. Note that you should expect to spend 2-3 hours per week on many of these classes, especially for the more advanced courses.
+The SCINet Initiative and the AI Center of Excellence are excited to provide a training opportunity through [Coursera](https://www.coursera.org/). This program will provide a limited number of Coursera licenses free to ARS scientists and support staff to complete courses and specializations focused on scientific computing and artificial intelligence over a 3-month period. Successful completion of courses and specializations will result in **widely recognized certificates and credentials**. Note that you should expect to spend 2-3 hours per week on many of these classes, especially for the more advanced courses.
 
 ## Programs of Study
 
