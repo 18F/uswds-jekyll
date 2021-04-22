@@ -9,6 +9,21 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 22-April-2021
+
+SCINet has launched a new discussion forum that replaces Basecamp:
+
+https://forum.scinet.usda.gov 
+
+SCINet projects on Basecamp will no longer be available after April 30, 2021.
+
+From now on all announcements will be posted on the new SCINet Forum and published in this section of the SCINet website .
+
+SCINet users will NOT receive email notifications from SCINet Forum UNTIL they login to the Forum for the first time. To login to SCINet Forum, go to https://forum.scinet.usda.gov, click on Log In and use your SCINet credentials (what you use to log in to Ceres or Atlas). Make sure to append the GA 6-digit code at the end of the SCINet password.
+
+If you wish to save any data from Basecamp to your computer, please do it before April 30, 2021.
+
+
 ## 15-April-2021
 
 The SCINet Scientific Advisory Committee (SAC) is seeking a representative from the Northeast Area for a 3-year term. 
