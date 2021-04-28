@@ -11,6 +11,9 @@ layout: page
   border: 1px solid grey;
   padding-left: 25px;
 }
+pre{
+    background-color: #EBECE4; 
+} 
 </style>
 
 Rclone is already installed on the DTNS and all of the compute nodes. Please do not use rclone from the headnode. Attempting to do so will remind you to use the others.<br>
@@ -99,9 +102,9 @@ Remove the leftover files.
 <p>The process here is:
 
 <ol>
-<li>Create a basic store
-<li>Apply a crypt overlay.  This gets you encryption and works around filename limitations.
-<li>Apply a chunk overlay.  This gets around file size limitations.
+<li>Create a basic store</li>
+<li>Apply a crypt overlay.  This gets you encryption and works around filename limitations.</li>
+<li>Apply a chunk overlay.  This gets around file size limitations.</li>
 </ol> 
 
 <p>We are going to assume you have  already created a basic functional remote, In this case mine is called "google:"
