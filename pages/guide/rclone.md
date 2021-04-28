@@ -92,20 +92,20 @@ Remove the leftover files.
 
 <p>This advanced guide assumes you have read the previous page and have some familiarity with rclone already.
 
-Rclone supports "overlay" filesystems which can be then be overlayed in multiple layers. 
+<p>Rclone supports "overlay" filesystems which can be then be overlayed in multiple layers. 
 
-In this guide we will discuss the "crypt" and "chunk" overlays.  Using these 2 in combination can overcome virtually all of the limitations of any of the remote services.  i.e.. no 5, 10, or 15GB limit per file, no restrictions on special characters in filenames, etc. The overlays also provide some data protection by doing md5 checksums on the files transferred, if desired.  You should very much desire this.
+<p>In this guide we will discuss the "crypt" and "chunk" overlays.  Using these 2 in combination can overcome virtually all of the limitations of any of the remote services.  i.e.. no 5, 10, or 15GB limit per file, no restrictions on special characters in filenames, etc. The overlays also provide some data protection by doing md5 checksums on the files transferred, if desired.  You should very much desire this.
 
-The process here is:
+<p>The process here is:
 
-1. Create a basic store
-2. Apply a crypt overlay.  This gets you encryption and works around filename limitations.
-3. Apply a chunk overlay.  This gets around file size limitations.
+<li>1. Create a basic store
+<li>2. Apply a crypt overlay.  This gets you encryption and works around filename limitations.
+<li>3. Apply a chunk overlay.  This gets around file size limitations.
  
 
-We are going to assume you have  already created a basic functional remote, In this case mine is called "google:"
+<p>We are going to assume you have  already created a basic functional remote, In this case mine is called "google:"
 
-First we create a folder in the remote to hold our encrypted data.  I called mine "crypt"
+<p>First we create a folder in the remote to hold our encrypted data.  I called mine "crypt"
 
 >$ rclone mkdir google:crypt
 
