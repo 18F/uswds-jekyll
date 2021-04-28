@@ -99,9 +99,9 @@ Remove the leftover files.
 <p>The process here is:
 
 <ol>
-<li>1. Create a basic store
-<li>2. Apply a crypt overlay.  This gets you encryption and works around filename limitations.
-<li>3. Apply a chunk overlay.  This gets around file size limitations.
+<li>Create a basic store
+<li>Apply a crypt overlay.  This gets you encryption and works around filename limitations.
+<li>Apply a chunk overlay.  This gets around file size limitations.
 </ol> 
 
 <p>We are going to assume you have  already created a basic functional remote, In this case mine is called "google:"
@@ -114,7 +114,7 @@ Remove the leftover files.
 
 <p>You must remember the password(s) you chose here. Your data will not be recoverable by anyone if your forget or lose it. There is no "password recovery."
 
-<div class="code">$ rclone config
+<pre>$ rclone config
 
 Current remotes:
 
@@ -289,15 +289,15 @@ q) Quit config
 e/n/d/r/c/s/q> q
 [orman@condodtn:/work/ccresearch] 127 $ rclone ls googlecrypt:
 orman@condodtn:/work/ccresearch] $
-</div>
+</pre>
 
 <p>At this point you have a working encryption overlay.  You you want to add a "chunking" overlay on top on that.
 As before first create a folder in the encrypted overlay to hold your chunked overlay.  In this case I called mine "chunk"
 
-<div class="code">$ rclone mkdir googlecrypt:chunk
+<pre>$ rclone mkdir googlecrypt:chunk
 Now create a chunk overlay, the defaults should be fine.
  
-[orman@condodtn:/work/ccresearch] 4s $ rclone config
+$ rclone config
 Current remotes:
  
 Name                 Type
@@ -458,7 +458,8 @@ s) Set configuration password
 q) Quit config
 e/n/d/r/c/s/q> q 
 $ rclone ls googlechunk:
-</div>
+</pre>
+
 <p>You now have an encrypted chunked storage, that is fully md5 checksummed.  Under current ISU contracts your space is "unlimited" although some services do limit total data transferred per user per day.
 
 
