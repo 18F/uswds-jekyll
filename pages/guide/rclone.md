@@ -290,16 +290,16 @@ c) Copy remote
 s) Set configuration password
 q) Quit config
 e/n/d/r/c/s/q> q
-[orman@condodtn:/work/ccresearch] 127 $ rclone ls googlecrypt:
-orman@condodtn:/work/ccresearch] $
+$ rclone ls googlecrypt:
+$
 </pre>
 
-<p>At this point you have a working encryption overlay.  You you want to add a "chunking" overlay on top on that.
+<p>At this point you have a working encryption overlay.  You will want to add a "chunking" overlay on top on that.
 As before first create a folder in the encrypted overlay to hold your chunked overlay.  In this case I called mine "chunk"
 
-<pre>$ rclone mkdir googlecrypt:chunk
-Now create a chunk overlay, the defaults should be fine.
- 
+<pre>$ rclone mkdir googlecrypt:chunk </pre>
+<p>Now create a chunk overlay, the defaults should be fine.
+<pre> 
 $ rclone config
 Current remotes:
  
