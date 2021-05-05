@@ -323,7 +323,7 @@ to
         Int cpu = 8
         Int requested_memory_mb_per_core = 8000
         String queue_name = "priority"
-        String? jms_args = "--qos=your_QOS --timelimit=14:00:00" 
+        String? jms_args = "--qos=your_QOS --time=14:00:00" 
         """
 ```
  
