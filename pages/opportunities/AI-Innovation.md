@@ -22,8 +22,7 @@ For funding by the AI Innovation Fund we seek projects that either:
 3.	develop or adapt an AI/ML method to test a specific hypothesis or answer a specific problem of agricultural importance
 
 
-Researchers developing a method or digital product are encouraged to define a minimum viable product as a deliverable. All proposals are encouraged to utilize of SCINet computing resources including the high-performance computing clusters, Ceres and Atlas equipped with graphical processing units (GPU), commodity, and high memory nodes. The systems support containerized workflows. A SCINet account will be needed to access these resources; see the
-SCINet web page to apply (scinet.usda.gov).
+Researchers developing a method or digital product are encouraged to define a minimum viable product as a deliverable. All proposals are encouraged to utilize of SCINet computing resources including the high-performance computing clusters, Ceres and Atlas equipped with graphical processing units (GPU), commodity, and high memory nodes. The systems support containerized workflows. A SCINet account will be needed to access these resources; see the SCINet web page to apply (scinet.usda.gov).
 
 The proposal should be primarily focused on developing, adapting, and applying statistical and optimization methods that fall into the category of AI or ML. AI methods involve automated decision making from data and use methods in the subfields:
 
