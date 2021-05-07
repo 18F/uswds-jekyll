@@ -46,7 +46,7 @@ The proposal should be a maximum of 2 pages in length, not including references,
 
 # Deadline
 
-5 PM Eastern, April 25, 2021; successful proposals will be contacted as soon as possible to allow a start date in June
+5 PM Eastern, May 25, 2021; successful proposals will be contacted as soon as possible to allow a start date in June.
 
 # Eligibility:
 
