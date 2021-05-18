@@ -89,7 +89,7 @@ To transfer data when logged in to Ceres or Atlas (the destination filenames are
 
 1. Transfer To Ceres or Atlas:
 ```
-scp <Username>@<RemoteServer>:/<Src/On/Remote>/<RemoteFile>  ~/Destination/On/SCINet/[<LclFile>]
+scp <User>@<Remote>:/<Src/On/Remote>/<RemoteFile>  /Dest/On/SCINet/[<LclFile>]
 ```
 
 2. Transfer From Ceres or Atlas:
