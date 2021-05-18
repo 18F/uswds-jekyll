@@ -73,9 +73,7 @@ $ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-
 `
 
 Transfer To Atlas:
-```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@atlas-dtn.hpc.msstate.edu:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
-```
+    $ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@atlas-dtn.hpc.msstate.edu:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 
 2. Transfer From Ceres:
 ```
