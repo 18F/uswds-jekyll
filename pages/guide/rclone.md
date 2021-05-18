@@ -463,6 +463,6 @@ e/n/d/r/c/s/q> q
 $ rclone ls googlechunk:
 </pre>
 
-<p>You now have an encrypted chunked storage, that is fully md5 checksummed.  Under current ISU contracts your space is "unlimited" although some services do limit total data transferred per user per day.
+<p>You now have an encrypted chunked storage remote, that is fully md5 checksummed. 
 
 
