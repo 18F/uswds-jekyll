@@ -77,30 +77,30 @@ $ scp /path/to/file/filename.ext <SCINetUserID>@atlas-dtn.hpc.msstate.edu:/dest/
 ```
 2. Transfer From Ceres:
 ```
-$ scp <SCINetUserID>@ceres-dtn.scinet.usda.gov:/PathToSourceFolderOnSCINet/RemoteFilename ~/PathOnLocalResource/[<LocalFilename>]
+$ scp <SCINetUserID>@ceres-dtn.scinet.usda.gov:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LocalFile>]
 ```
 
 Transfer From Atlas:
 ```
-$ scp <SCINetUserID>@atlas-dtn.hpc.msstate.edu:/PathToSourceFolderOnSCINet/RemoteFilename ~/PathOnLocalResource/[<LocalFilename>]
+$ scp <SCINetUserID>@atlas-dtn.hpc.msstate.edu:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LocalFile>]
 ```
 
 To transfer data when logged in to Ceres or Atlas (the destination filenames are optional):
 
 1. Transfer To Ceres or Atlas:
 ```
-$ scp <Username>@<RemoteServer>:/<SourceFolderOnRemoteResource>/<RemoteFile>  ~/<PathToDestinationOnSCINet>/[<LocalFile>]
+$ scp <Username>@<RemoteServer>:/<Src/On/Remote>/<RemoteFile>  ~/Destination/On/SCINet/[<LocalFile>]
 ```
 
 2. Transfer From Ceres or Atlas:
 ```
-$ scp <SourceFolderOnSCINet>/<LocalFile> <Username>@<RemoteServer>:/<DestinationFolderOnRemoteResource>/[<RemoteFile>]
+$ scp <SourceFolderOnSCINet>/<LocalFile> <Username>@<RemoteServer>:/Folder/On/Remote>/[<RemoteFile>]
 ```
 
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <SourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<DestinationFolderOnSCINet>
+$ scp -r </Folder/On/Local> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<DestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
