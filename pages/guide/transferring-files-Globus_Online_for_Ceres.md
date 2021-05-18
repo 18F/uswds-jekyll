@@ -69,38 +69,38 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To Ceres:
 ```
-$ scp /path/to/file/filename.ext  <SCINetUserID>@ceres-dtn.scinet.usda.gov:/dest/path/destfile.ext
+scp /path/to/file/file.ext  <SCINetID>@ceres-dtn.scinet.usda.gov:/dest/path/dest.ext
 ```
 Transfer To Atlas:
 ```
-$ scp /path/to/file/filename.ext <SCINetUserID>@atlas-dtn.hpc.msstate.edu:/dest/path/destfile.ext
+scp /path/to/file/filename.ext <SCINetID>@atlas-dtn.hpc.msstate.edu:/dest/path/dest.ext
 ```
 2. Transfer From Ceres:
 ```
-$ scp <SCINetUserID>@ceres-dtn.scinet.usda.gov:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LocalFile>]
+scp <SCINetID>@ceres-dtn.scinet.usda.gov:/Src/On/SCINet/RmtFile /Path/On/Local/[<LclFile>]
 ```
 
 Transfer From Atlas:
 ```
-$ scp <SCINetUserID>@atlas-dtn.hpc.msstate.edu:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LocalFile>]
+scp <SCINetID>@atlas-dtn.hpc.msstate.edu:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LclFile>]
 ```
 
 To transfer data when logged in to Ceres or Atlas (the destination filenames are optional):
 
 1. Transfer To Ceres or Atlas:
 ```
-$ scp <Username>@<RemoteServer>:/<Src/On/Remote>/<RemoteFile>  ~/Destination/On/SCINet/[<LocalFile>]
+scp <Username>@<RemoteServer>:/<Src/On/Remote>/<RemoteFile>  ~/Destination/On/SCINet/[<LclFile>]
 ```
 
 2. Transfer From Ceres or Atlas:
 ```
-$ scp <SourceFolderOnSCINet>/<LocalFile> <Username>@<RemoteServer>:/Folder/On/Remote>/[<RemoteFile>]
+scp /Src/Folder/On/SCINet/<LclFile> <User>@<Remote>:/Folder/On/Rmt>/[<RmtFile>]
 ```
 
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r </Folder/On/Local> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<DestinationFolderOnSCINet>
+scp -r </Folder/On/Local> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<DestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
