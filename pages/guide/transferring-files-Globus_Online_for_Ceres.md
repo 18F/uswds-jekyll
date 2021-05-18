@@ -68,8 +68,9 @@ scp is usually available on any Linux or MacOS machine, and on Microsoft Windows
 To transfer data when logged in to your local machine (the destination filenames are optional):
 
 1. Transfer To Ceres:
-> $ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
-
+<code>
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+</code>
 Transfer To Atlas:
 > $ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@atlas-dtn.hpc.msstate.edu:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 
