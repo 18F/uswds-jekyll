@@ -276,7 +276,7 @@ Command |	Description
 
 ## Reference Genome Assemblies
 
-The reference genome sequences of many agricultural species are stored in a central location to free space in user’s home and project directories.
+NCBI and other databases, reference genome sequences of many agricultural species are stored in a central location to free space in user’s home and project directories.
 FASTA files of the sequences and associated index files for popular alignment tools (BLAST, SAMTools, BWA, Bowtie2, etc.) can be found in `/reference/data/XX/`.   
 
 Additional sequences and index files can be added to the shared directory by contacting the Virtual Research Support Core at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=reference%20data)
