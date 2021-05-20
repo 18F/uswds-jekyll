@@ -58,7 +58,7 @@ To submit please create a single PDF with these documents:
 
 1.	[Signed cover page](/assets/docs/AIInnovationCoverPage.pdf)
 2.	Proposal
-3.	Budget on the [REE-455 form](https://axon.ars.usda.gov/FMAD/Documents/REE-454%20-%20Agreement%20Budget%20112018.xls)
+3.	Budget on the [REE-455 form](https://axon.ars.usda.gov/FMAD/Documents/REE-455%20-%20Grant%20and%20Cooperative%20Agreement%20Budget%20112018.xlsx)
 4.	Budget justification
 
 Email to: <ARS-SCINet-CSIO@usda.gov> with the subject line “AI Innovation application”
