@@ -24,6 +24,6 @@ The table below lists information about planned SCINet outages. See the SCINet V
 | 02/15/2021 | Ceres | All (Ceres offline) | maintenance |
 | 02/16/2021 | Ceres | All (Ceres offline) | maintenance |
 | 02/23/2021 | Atlas | All (connections to Atlas) | maintenance |
-| 06/14/2021-06/18/2021 | Ceres | All (Ceres offline) | maintenance |
+| 05/24/2021-05/27/2021 | Ceres | All (connections to Ceres) | maintenance |
 
 **Further detail for each outage will be posted in advance of the outage date in the announcements below.**
