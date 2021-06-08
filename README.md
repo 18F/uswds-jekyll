@@ -34,7 +34,7 @@ There are two ways to do this.
 
 ## TravisCI builds
 
-After a commit the site is built by Tracis.ci and pushed to the gh-pages branch of the repoto create the web page. See the dashboard for status https://travis-ci.com/github/USDA-ARS-GBRU/scinet-site
+After a commit the site is built by Tracis.ci and pushed to the gh-pages branch of the repoto create the web page. See the dashboard for status https://travis-ci.com/github/USDA-ARS-GBRU/scinet-site. Builds use tokens.
 
 
 # Info on the Jekyll + U.S. Web Design System template
