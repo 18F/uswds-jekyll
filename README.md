@@ -602,34 +602,57 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
 
 1. Check that css is referencing `uswds-theme.css`
 
+
 ## Development
 
-To develop this theme and/or test it locally:
+This section explains how to develop this theme and/or test it locally.
 
-1. Clone this repo
 
-1. Install the dependencies
+### Requirements
 
-       $  npm install
-       $  npm run setup-jekyll
+- [Ruby](https://www.ruby-lang.org/)
+- [Bundler](https://bundler.io/) 2.x
+- [Node.js](https://nodejs.org/)
 
-1. Check the version of USWDS in `package.json` — update to the newest version if necessary, and sync its new files to the theme.
 
-       $ rake update
+### Setup
 
-1. Start Jekyll to preview the effects of your changes. This will build the Jekyll site, watch the Sass files, and recompile the Sass when there are changes.
+Install the Node.js dependencies.
 
-       $ npm start
+    $ npm install
 
-   **or**
+Install Ruby dependencies.
 
-   Create a new Jekyll project, follow the
-   [installation](#installation) instructions, then change your
-   `Gemfile` to point at the local clone of this repo:
+    $ npm run setup-jekyll
 
-   ```ruby
-   gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
-   ```
+Start the application. This allows you to preview the effects of your changes.
+Jekyll will build the site, watch the Sass files, and rebuild when there are
+changes.
+
+    $ npm start
+
+Open your web browser to [localhost:4000](http://localhost:4000/).
+
+
+### To update USWDS
+
+When new version of USWDS is released, you should pull in the latest assets.
+
+   $ rake update
+
+Review and commit the assets.
+
+
+### Working with a Jekyll site
+
+If you want to test an existing Jekyll site that uses uswds-jekyll, you can link
+the gem to your local uswds-jekyll repo.
+
+In your Jekyll site, change your `Gemfile` to point at the local clone of this repo.
+
+```ruby
+gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
+```
 
 ### Publish to Rubygems
 
