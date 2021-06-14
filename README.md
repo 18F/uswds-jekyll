@@ -638,7 +638,7 @@ Open your web browser to [localhost:4000](http://localhost:4000/).
 
 When new version of USWDS is released, you should pull in the latest assets.
 
-   $ rake update
+    $ rake update
 
 Review and commit the assets.
 
