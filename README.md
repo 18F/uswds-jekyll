@@ -1,3 +1,5 @@
+**This repository is in maintenance mode and only accepting fixes. The Tech Portfolio and TTS Digital Council are working on a strategy for TTS microsites which will inform the future of this theme. [Open an issue to provide any feedback](https://github.com/18F/uswds-jekyll/issues/new).**
+
 # Jekyll + U.S. Web Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
