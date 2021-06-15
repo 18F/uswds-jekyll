@@ -1,18 +1,25 @@
+<!-- dynamically determine scripts needed for this config -->
 {% assign _scripts = '' | split: '' %}
 {% assign _async_marker = 'uswds_async=true' %}
 {% assign _site_scripts = site.scripts %}
 {% unless _site_scripts -%}
   {% assign _uswds_js = '/assets/uswds/js/uswds.min.js' | append: '?' | append: _async_marker %}
-  {% assign _site_scripts = '' | split: ''
-    | push: _uswds_js %}
-    {% if site.anchor_js_targets %}
-      {% assign _anchor_js = '/assets/js/vendor/anchor.min.js' %}
-      {% assign _main_js = '/assets/js/main.js' %}
-      {% assign _site_scripts = _site_scripts
-        | push: _anchor_js
-        | push: _main_js %}
-    {% endif %}
+  {% assign _site_scripts = '' | split: '' | push: _uswds_js %}
+  {% if site.anchor_js_targets %}
+    {% assign _anchor_js = '/assets/js/vendor/anchor.min.js' %}
+    {% assign _anchor_conf_js = '/assets/js/anchor.js' %}
+    {% assign _site_scripts = _site_scripts
+      | push: _anchor_js
+      | push: _main_js %}
+  {% endif %}
 {% endunless %}
+{% if site.private_eye %}
+  {% assign _pi_js = '/assets/js/vendor/private_eye.js' %}
+  {% assign _pi_conf_js = '/assets/js/private_eye_conf.js' %}
+  {% assign _site_scripts = _site_scripts
+    | push: _pi_js
+    | push: _pi_conf_js %}
+{% endif %}
 {% assign _scripts = _scripts
   | push: _site_scripts
   | push: layout.scripts
@@ -33,9 +40,14 @@
 
       var script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "//search.usa.gov/javascripts/remote.loader.js";
+      script.src = "https://search.usa.gov/javascripts/remote.loader.js";
       document.getElementsByTagName("head")[0].appendChild(script);
 
 //]]>
 </script>
+{% endif %}
+
+
+{% if site.touchpoints_form_id %}
+<script src="https://touchpoints.app.cloud.gov/touchpoints/{{ site.touchpoints_form_id }}.js" async></script>
 {% endif %}

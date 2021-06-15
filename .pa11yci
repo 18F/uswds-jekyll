@@ -1,0 +1,12 @@
+{
+  "defaults": {
+    "concurrency": 4,
+    "standard": "WCAG2AA",
+    "runners": ["axe"]
+  },
+  "urls": [
+    "http://localhost:4000/",
+    "http://localhost:4000/docs/",
+    "http://localhost:4000/theme/"
+  ]
+}

@@ -1,17 +1,17 @@
 .usa-header,
 .usa-sidenav-list {
-  @media($theme-header-min-width) {
+  @include at-media($theme-header-min-width) {
     .usa-button {
       margin: 0;
       width: auto;
     }
   }
   .usa-button {
-    color: $color-white;
+    color: color("white");
     padding: units(1.5);
     &:hover {
-      background-color: color('primary-dark');
-      color: $color-white;
+      background-color: color("primary-dark");
+      color: color("white");
       text-decoration: none;
     }
   }

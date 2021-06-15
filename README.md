@@ -1,3 +1,5 @@
+**This repository is in maintenance mode and only accepting fixes. The Tech Portfolio and TTS Digital Council are working on a strategy for TTS microsites which will inform the future of this theme. [Open an issue to provide any feedback](https://github.com/18F/uswds-jekyll/issues/new).**
+
 # Jekyll + U.S. Web Design System
 
 This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
@@ -20,13 +22,12 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Analytics](#analytics)
    - [Last modified date](#last-modified-date)
    - [Anchor JS](#anchor-js)
+   - [Private Eye JS](#private-eye-js)
 1. [Assets](#assets)
    - [Stylesheets](#stylesheets)
    - [Scripts](#scripts)
    - [Asset load order](#asset-load-order)
 1. [Customization](#customization)
-   - [Customizing with Sass](#customizing-with-sass)
-   - [Customizing with CSS overrides](#customizing-with-css-overrides)
    - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
    - [Header](#header)
@@ -38,7 +39,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Post](#layout-post)
    - [Project](#layout-project)
    - [Team member](#layout-team-member)
-1. [Migrating from earlier versions](#migrating-from-earlier-versions)
+1. [Migration guide](#migration)
 1. [Development](#development)
 
 ## Installation
@@ -77,8 +78,7 @@ You will need to restart your Jekyll server to see the effects.
    gem 'uswds-jekyll'
    ```
 
-1. Set the `theme` in your site's Jekyll configuration,
-   `_config.yml`:
+1. Set the `theme` in your site's Jekyll configuration, `_config.yml`:
 
    ```yml
    theme: uswds-jekyll
@@ -96,19 +96,16 @@ You will need to restart your Jekyll server to see the effects.
 
 To reference a specific version of this theme:
 
-1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and
-   decide which version you want to use.
+1. Visit the [releases page](https://github.com/18F/uswds-jekyll/releases) and decide which version you want to use.
 1. Specify the version in your `Gemfile`.
 
    ```ruby
-   gem 'uswds-jekyll', '5.0.0'
+   gem 'uswds-jekyll', '~> 5.0'
    ```
 
 ## Configuration
 
-Configuration of common elements ([header](#header),
-[footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations
-of each component.
+Configuration of common elements ([header](#header), [footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
 
 The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
@@ -148,10 +145,7 @@ primary:
     links: <links>
 ```
 
-This scheme allows you to define navigational elements that can be
-shared by different components, such as the [header](#header) and
-[footer](#footer). See the documentation for those components for
-more info.
+This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
 
 ### Page title
 
@@ -192,8 +186,7 @@ A page's "current" or "active" state in the sidenav is determined by whether a l
 
 `subnav` is a list of links to display on this page under its own link in the side navigation.
 
-**Note that subnav link hrefs are not prefixed with
-`site.baseurl`** because this breaks hash links prefixed with `#`.
+**Note that subnav link hrefs are not prefixed with `site.baseurl`** because this breaks hash links prefixed with `#`.
 
 **Pro tip:** Unless your Jekyll configuration specifies otherwise, the default Markdown formatter (Kramdown) will automatically generate predictable `id` attributes for your page headings and convert markdown like this:
 
@@ -207,8 +200,7 @@ into:
 <h2 id="section-one">Section one</h2>
 ```
 
-If you're using Redcarpet, you will need to configure it to enable
-the `with_toc_data` extension in your `_config.yml`, like so:
+If you're using Redcarpet, you will need to configure it to enable the `with_toc_data` extension in your `_config.yml`, like so:
 
 ```yml
 markdown: redcarpet
@@ -286,28 +278,52 @@ You can add Google Analytics to your site by uncommenting the `google_analytics_
 
 #### Digital Analytics Program (DAP)
 
-You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. For more information visit <https://www.digitalgov.gov/services/dap/>
+You can add DAP to your site by uncommenting the `dap_agency` line and, if need be, replacing `GSA` with the appropriate agency key. And optionally, `dap_subagency` may also be specified. For more information visit <https://www.digitalgov.gov/services/dap/>
 
 ```
 # Configuration for DAP, add your agency ID here:
 # dap_agency: GSA
+# dap_subagency: TTS
 ```
+
+### Feedback form
+
+To add a user feedback form, create a new survey through [Touchpoints](https://touchpoints.digital.gov/) and add the ID via the `touchpoints_form_id` key in `_config.yml`.
 
 ### Last modified date
 
-You can show the last date a page was last modified by uncommenting this line from the `footer.yml` data file. This will add the date right before the footer component and uses the `last-modified.html` include.
+To show the last date a page was last modified by:
 
-```yml
-# Used to show the "Last updated" date and time;
-# last_updated: true
-```
+1. Add this line to the `footer.yml` data file:
+
+    ```yml
+    last_updated: true
+    ```
+
+1. Add the following to your `Gemfile`:
+
+    ```ruby
+    group :jekyll_plugins do
+      gem "jekyll-last-modified-at"
+    end
+    ```
+
+This will add the date right before the footer component.
 
 ### Anchor JS
 
-You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making ech header linkable. See https://github.com/bryanbraun/anchorjs for more information.
+You can show an anchor link next to header tags by uncommenting this section from the `_config.yml` data file. This will add an anchor link after the header tag on the page and post layouts making each header linkable. See https://github.com/bryanbraun/anchorjs for more information.
 
 ```yml
 # anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+```
+
+### Private Eye JS
+
+By default, the USWDS Jekyll theme uses [Private Eye](https://github.com/18F/private-eye) to denote private links. You can turn this on by adding the setting below in your _config.yml. If you would like to customize the default Private Eye configuration, you can find it in `/assets/js/private_eye_conf.js`.
+
+```yml
+private_eye: true
 ```
 
 ## Assets
@@ -325,8 +341,7 @@ Read more about customizing [stylesheets](#stylesheets) and [scripts](#scripts) 
 
 ### Stylesheets
 
-As a general rule, all stylesheets are inserted in a layouts'
-`<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
+As a general rule, all stylesheets are inserted in a layouts' `<head>`, which qualifies them as "render-blocking". Site stylesheets can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
 ```yml
 styles:
@@ -335,15 +350,11 @@ styles:
     media: (screen|print|all) # optional
 ```
 
-Stylesheets specified as objects (in the latter item above) must
-have an `href` property. The `media` defaults to `screen`.
+Stylesheets specified as objects (in the latter item above) must have an `href` property. The `media` defaults to `screen`.
 
 ### Scripts
 
-As a general rule, all scripts are inserted before a layouts'
-`</body>`, which prevents them from blocking the rendering of your
-page's content. Scripts can be specified in `_config.yml` or a
-layout or page's [front matter] YAML in the following form:
+As a general rule, all scripts are inserted before a layouts' `</body>`, which prevents them from blocking the rendering of your page's content. Scripts can be specified in `_config.yml` or a layout or page's [front matter] YAML in the following form:
 
 ```yml
 scripts:
@@ -352,8 +363,7 @@ scripts:
     async: true # optional
 ```
 
-Scripts specified as objects (in the latter item above) must have a `src`
-property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running propertly.)
+Scripts specified as objects (in the latter item above) must have a `src` property. Scripts with `async: true` will get an `async` attribute, which tells the browser _not_ to let this script's loading block the execution of subsequent scripts. If the execution order of your scripts is **not** important, setting `async: true` may provide performance benefits to your users. (Conversely, if you don't know whether your scripts need to execute in a particular order, then you should not set `async: true` because it may prevent your scripts from running properly.)
 
 ### Asset load order
 
@@ -369,29 +379,23 @@ Both [stylesheets](#stylesheets) and [scripts](#scripts) can be configured
 
 ## Customization
 
-Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to manually add these custom files to your Jekyll project into a couple specific locations.
+Customize the USWDS Jekyll theme with [USWDS theme settings files](https://designsystem.digital.gov/documentation/settings/), [USWDS design tokens](https://designsystem.digital.gov/design-tokens/), and custom Sass or CSS. You'll need to place USWDS settings and custom Sass into a couple specific locations for the theme to find them.
 
-1. Find the **most current settings files** in the `_sass/settings` [folder of this theme](https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings). [Download these files with DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/18F/uswds-jekyll/tree/update-uswds-2.0/_sass/settings)
+1. **Settings:** Add custom USWDS settings to `_sass/_uswds-theme-settings.scss`. Settings control the USWDS output. See all available settings in the [USWDS settings documentation](https://designsystem.digital.gov/documentation/settings/). We recommend adding only your modified settings to the `_uswds-theme-settings.scss` file.
 
-1. Copy these theme settings files to you project's `_sass/settings` directory. If this directory doesn't exist, create it.
+    To see an example of all the settings available to USWDS, see the files [in the USWDS GitHub repo](https://github.com/uswds/uswds/tree/develop/src/stylesheets/theme). The repo splits settings into multiple files. If you want to copy and mimic that structure, download the repo files using a tool like [DownGit](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/uswds/uswds/tree/develop/src/stylesheets/theme). Then add them to the `_sass/` directory and `@import` them from `_uswds-theme-settings.scss`.
 
-1. Edit these new settings files to customize your USWDS implementation, following the USWDS's [theme settings guidance](https://designsystem.digital.gov/documentation/settings/).
+    Whether you add only individual settings variables or import from multiple files, `_uswds-theme-settings.scss` needs to be the entry point.
 
-1. Add any **custom CSS or Sass** to a folder called `_sass/custom/_uswds-theme-custom-styles.scss`. You can also use this file to import any additional Sass or CSS files your project needs. [Download this file from Github](https://raw.githubusercontent.com/18F/uswds-jekyll/update-uswds-2.0/_sass/custom/_uswds-theme-custom-styles.scss)
+1. **Custom Sass and variables:** Add any custom CSS or Sass to `_sass/_uswds-theme-custom-styles.scss`. You can use this custom styles file to `@import` any _additional_ Sass or CSS files your project needs, as long as any additional files exist in the `/_sass` directory.
 
-You have two options for customizing the CSS: [Sass](#customizing-with-sass) or [CSS overrides (#customizing-with-css-overrides). Individual sites can also
-[selectively override](#overriding-includes-and-layouts) individual includes and layouts.
+    Custom Sass loads after the USWDS and default Sass, so you can use it to override the defaults. Individual sites can also [selectively override](#overriding-includes-and-layouts) individual includes and layouts.
 
 ### Overriding includes and layouts
 
 Any [include](_includes) or [layout](_layouts) can be overridden by
 your site by placing a file with the same name into your site's
 `_includes` or `_layouts` directory. For instance:
-
-- To change how [stylesheets](#stylesheets) are loaded or
-  referenced, you can create your own `_includes/styles.html`,
-  which will subsequently change how stylesheets are loaded in all
-  layouts that inherit from the USWDS [default layout](#layout-default).
 
 - You can change how the side navigation is rendered (but not which
   data it receives) in the [page layout](#layout-page) by creating
@@ -403,24 +407,13 @@ your site by placing a file with the same name into your site's
 
 ## Components
 
-For some [USWDS components](https://designsystem.digital.gov/components/),
-there are two different files that control how data is passed to
+For some [USWDS components](https://designsystem.digital.gov/components/), there are two different files that control how data is passed to
 the template:
 
-1. `components/{component}.html` is the low-level template that
-   assumes a similarly named global template variable. For
-   instance, the header component operates on the `header` template
-   variable.
-1. `{component}.html` is the "concrete" implementation of the
-   component that sets the appropriate global variable then
-   includes the low-level template.
+1. `components/{component}.html` is the low-level template that assumes a similarly named global template variable. For instance, the header component operates on the `header` template variable.
+1. `{component}.html` is the "concrete" implementation of the component that sets the appropriate global variable then includes the low-level template.
 
-This separation allows you to override either of the component
-includes in your own Jekyll site without having to re-implement
-either the high- or low-level logic. For instance, if you want your
-header data to come directly from the Jekyll configuration file
-(`_config.yml`) rather than `_data/header.yml`, you can override
-`_includes/header.html` to look like this:
+This separation allows you to override either of the component includes in your own Jekyll site without having to re-implement either the high- or low-level logic. For instance, if you want your header data to come directly from the Jekyll configuration file (`_config.yml`) rather than `_data/header.yml`, you can override `_includes/header.html` to look like this:
 
 ```html
 {% assign header = site.data.header %} {% include components/header--basic.html
@@ -429,28 +422,20 @@ header data to come directly from the Jekyll configuration file
 
 ### Header
 
-The [header.html include](_includes/header.html) sets the `header`
-template variable to `site.data.header`, the value of which is set
-in your Jekyll project's `_data/header.yml` file. Then it includes
-[components/header.html](_includes/components/header.html) to
-render the header's markup.
+The [header.html include](_includes/header.html) sets the `header` template variable to `site.data.header`, the value of which is set in your Jekyll project's `_data/header.yml` file. Then it includes [components/header.html](_includes/components/header.html) to render the header's markup.
 
 See this repo's [header.yml](_data/header.yml) for more info.
 
 ### Footer
 
-The [footer.html include](_includes/footer.html) sets the `header`
-template variable to `site.data.footer`, the value of which is set
-in your Jekyll project's `_data/footer.yml` file. Then it includes
-[components/footer.html](_includes/components/footer.html) to
+The [footer.html include](_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
 render the footer's markup.
 
 See this repo's [footer.yml](_data/footer.yml) for more info.
 
 ## Layouts
 
-This theme provides the following layouts, which you can use by
-setting the `layout` [front matter] on each page, like so:
+This theme provides the following layouts, which you can use by setting the `layout` [front matter] on each page, like so:
 
 ```yml
 ---
@@ -468,32 +453,22 @@ Supported (optional) front matter for page layouts.
 
 ### `layout: default`
 
-This is the bare-bones USWDS layout, which does all of the
-basic page scaffolding then drops the page content into the
-`<main>` element. All of the other layouts "inherit" this one and
-provide other features in the content block.
+This is the bare-bones USWDS layout, which does all of the basic page scaffolding then drops the page content into the `<main>` element. All of the other layouts "inherit" this one and provide other features in the content block.
 
-The default layout provides a layout [front matter] hook to add
-attributes to the `<main>` element. You can see how this works in
-the [page layout](_layouts/page.html#L3-L4).
+The default layout provides a layout [front matter] hook to add attributes to the `<main>` element. You can see how this works in the [page layout](_layouts/page.html#L3-L4).
 
 ### `layout: home`
 
 This layout implements the [home page
-template](https://designsystem.digital.gov/page-templates/landing/), which
-accommodates the following [front matter]:
+template](https://designsystem.digital.gov/page-templates/landing/), which accommodates the following [front matter]:
 
-Check out the YAML front matter in the [home demo
-page](demo/home.html) for an example of how to structure it.
+Check out the YAML front matter in the [home demo page](demo/home.html) for an example of how to structure it.
 
 ### `layout: page`
 
-This layout implements the [document page
-template](https://designsystem.digital.gov/page-templates/docs/).
+This layout implements the [document page template](https://designsystem.digital.gov/page-templates/docs/).
 
-See the [page demo page](demo/page.md) for an example of how this
-works, and see [\_data/navigation.yml](_data/navigation.yml) for how
-to structure named navigation data for your site.
+See the [page demo page](demo/page.md) for an example of how this works, and see [\_data/navigation.yml](_data/navigation.yml) for how to structure named navigation data for your site.
 
 ### `layout: post`
 
@@ -535,24 +510,32 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 [jekyll sass]: https://jekyllrb.com/docs/assets/#sassscss
 [front matter]: https://jekyllrb.com/docs/frontmatter/
 
-## Migrating from earlier versions
+## Migration
 
-**Note:** `uswds-jekyll 5.0.0` is only compatible with Jekyll 4.0 and higher.
+### From [guides_style_18f](https://github.com/18F/guides-style)
+
+See [this example pull request](https://github.com/18F/before-you-ship/pull/458).
+
+### From earlier versions
+
+**Note:** `uswds-jekyll` 5.x is only compatible with Jekyll 4.0 and higher.
 
 1. Update your `uswds-jekyll` gem in your project's Gemfile. Replace the current `gem 'uswds-jekyll'` line with:
 
    ```ruby
-   gem 'uswds-jekyll', '5.0.0'
+   gem 'uswds-jekyll', '~> 5.0'
    ```
 
    Then, in the terminal, run
 
-   ```
+   ```sh
    bundle update uswds-jekyll
    ```
 
-1. Add any custom styles to `/_sass/custom/`
-1. `_sass` folder needs to be at the root level, not in assets.
+1. If you have an existing `_sass` folder, it needs to move to the root level, and out of any directory like `/assets`.
+1. Add or move any custom styles or variables to `/_sass/_uswds-theme-custom-styles.scss`.
+
+    If you have multiple custom styles files, add them to the `/_sass` directory and `@import` them from `_uswds-theme-custom-styles.scss`.
 1. Convert manual values to tokenized values using the guidance on the [USWDS migration page](https://designsystem.digital.gov/documentation/migration/#spacing-units).
 1. Don't duplicate the `h1` in the body content of `page` template pages. (This is automatically inserted at the top with the content of `page.title`.)
 1. Check that certain data keys exist
@@ -567,9 +550,6 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
    --> footer.yml
    type: [slim | default | big]
-
-   --> navigation.yml
-   sidenav-breakpoint: {{ breakpoint_token }}
 
    --> theme.yml (examples)
    colors:
@@ -624,29 +604,57 @@ To show a listing of team members on a page add `{% include team-list.html %} to
 
 1. Check that css is referencing `uswds-theme.css`
 
+
 ## Development
 
-To develop this theme and/or test it locally:
+This section explains how to develop this theme and/or test it locally.
 
-1. Clone this repo
 
-1. Check the version of USWDS in `package.json` — update to the newest version if necessary, and sync its new files to the theme.
+### Requirements
 
-   > `rake update`
+- [Ruby](https://www.ruby-lang.org/)
+- [Bundler](https://bundler.io/) 2.x
+- [Node.js](https://nodejs.org/)
 
-1. Start Jekyll to preview the effects of your changes. This will build the Jekyll site, watch the Sass files, and recompile the Sass when there are changes.
 
-   > `npm start`
+### Setup
 
-   **or**
+Install the Node.js dependencies.
 
-   Create a new Jekyll project, follow the
-   [installation](#installation) instructions, then change your
-   `Gemfile` to point at the local clone of this repo:
+    $ npm install
 
-   ```ruby
-   gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
-   ```
+Install Ruby dependencies.
+
+    $ npm run setup-jekyll
+
+Start the application. This allows you to preview the effects of your changes.
+Jekyll will build the site, watch the Sass files, and rebuild when there are
+changes.
+
+    $ npm start
+
+Open your web browser to [localhost:4000](http://localhost:4000/).
+
+
+### To update USWDS
+
+When new version of USWDS is released, you should pull in the latest assets.
+
+    $ rake update
+
+Review and commit the assets.
+
+
+### Working with a Jekyll site
+
+If you want to test an existing Jekyll site that uses uswds-jekyll, you can link
+the gem to your local uswds-jekyll repo.
+
+In your Jekyll site, change your `Gemfile` to point at the local clone of this repo.
+
+```ruby
+gem 'uswds-jekyll', :path => '../path/to/uswds-jekyll'
+```
 
 ### Publish to Rubygems
 
@@ -660,8 +668,8 @@ To develop this theme and/or test it locally:
 #### Scripts
 
 - `start`: Starts the jekyll site
-- `setup-uswds`: Copies assets from the USWDS package to their theme locations, but running the following scipts, which can also be run separately:
+- `setup-uswds`: Copies assets from the USWDS package to their theme locations, by running the following scripts, which can also be run separately:
   - `sync-assets`: Copies assets to `assets/uswds`
-  - `sync-sass`: Copies Sass cource files to `_sass/uswds/src/`
+  - `sync-sass`: Copies Sass source files to `_sass/uswds/src/`
   - `sync-default-settings`: Copies default settings files to `_sass/uswds/settings`
   - `sync-theme-settings`: Copies only theme settings files to `_sass/settings`

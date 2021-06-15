@@ -4,16 +4,20 @@
   "author": "18F",
   "license": "CC0-1.0",
   "scripts": {
-    "postinstall": "bundle",
     "start": "bundle exec jekyll serve",
+    "start-detached": "bundle exec jekyll serve --detach",
+    "setup-jekyll": "bundle",
     "setup-uswds": "npm run sync-assets && npm run sync-sass",
     "sync-assets": "rsync -avr --delete node_modules/uswds/dist/ assets/uswds/ --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss",
-    "sync-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/src/"
+    "sync-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/src/",
+    "pa11y-ci": "pa11y-ci --threshold=7"
   },
   "dependencies": {
-    "uswds": "^2.7.0"
+    "@18f/private-eye": "^2.0.0",
+    "uswds": "^2.11.2"
   },
   "devDependencies": {
-    "cached-path-relative": "^1.0.2"
+    "cached-path-relative": "^1.0.2",
+    "pa11y-ci": "^2.4.0"
   }
 }

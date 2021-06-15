@@ -126,7 +126,7 @@ $z-index-overlay: 400;
   position: fixed;
   background: color("black");
   opacity: opacity(0);
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity $project-easing;
   visibility: hidden;
   z-index: z-index($z-index-overlay);
 
@@ -283,5 +283,12 @@ $z-index-overlay: 400;
       left: 0;
       padding-left: units($theme-site-margins-width);
     }
+  }
+}
+
+// [uswds-init.js] Offscreen content while js is loading
+html.usa-js-loading {
+  .usa-nav__submenu {
+    @include add-sr-only;
   }
 }

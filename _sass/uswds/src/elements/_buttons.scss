@@ -1,5 +1,6 @@
 // Buttons variables
 
+$button-context: "Button";
 $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
 
 // Buttons
@@ -7,12 +8,10 @@ $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
 .usa-button {
   @include border-box-sizing;
   @include typeset($theme-button-font-family, null, 1);
-  @include add-knockout-font-smoothing;
+  @include set-text-and-bg("primary", $context: $button-context);
   appearance: none;
-  background-color: color("primary");
   border: 0;
   border-radius: radius($theme-button-border-radius);
-  color: color("white");
   cursor: pointer;
   display: inline-block;
   font-weight: font-weight("bold");
@@ -32,16 +31,14 @@ $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
 
   &:hover,
   &.usa-button--hover {
-    background-color: color("primary-dark");
+    @include set-text-and-bg("primary-dark", $context: $button-context);
     border-bottom: 0;
-    color: color("white");
     text-decoration: none;
   }
 
   &:active,
   &.usa-button--active {
-    background-color: color("primary-darker");
-    color: color("white");
+    @include set-text-and-bg("primary-darker", $context: $button-context);
   }
 
   &:not([disabled]):focus,
@@ -55,31 +52,42 @@ $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
 }
 
 .usa-button--accent-cool {
-  @include no-knockout-font-smoothing;
-  background-color: color("accent-cool");
-  color: color("ink");
+  @include set-text-and-bg("accent-cool", $context: $button-context);
 
   &:visited {
-    color: color("ink");
+    @include set-text-and-bg("accent-cool", $context: $button-context);
   }
 
   &:hover,
   &.usa-button--hover {
-    @include add-knockout-font-smoothing;
-    background-color: color("accent-cool-dark");
-    color: color("white");
+    @include set-text-and-bg("accent-cool-dark", $context: $button-context);
   }
 
   &:active,
   &.usa-button--active {
-    @include add-knockout-font-smoothing;
-    background-color: color("accent-cool-darker");
-    color: color("white");
+    @include set-text-and-bg("accent-cool-darker", $context: $button-context);
+  }
+}
+
+.usa-button--accent-warm {
+  @include set-text-and-bg("accent-warm", $context: $button-context);
+
+  &:visited {
+    @include set-text-and-bg("accent-warm", $context: $button-context);
+  }
+
+  &:hover,
+  &.usa-button--hover {
+    @include set-text-and-bg("accent-warm-dark", $context: $button-context);
+  }
+
+  &:active,
+  &.usa-button--active {
+    @include set-text-and-bg("accent-warm-darker", $context: $button-context);
   }
 }
 
 .usa-button--outline {
-  @include no-knockout-font-smoothing;
   background-color: color("transparent");
   box-shadow: $button-stroke color("primary");
   color: color("primary");
@@ -131,6 +139,10 @@ $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
       @include button-unstyled;
       color: color($button-inverse-color);
 
+      &:visited {
+        color: color($button-inverse-color);
+      }
+
       &:hover,
       &.usa-button--hover {
         color: color($button-inverse-hover-color);
@@ -145,30 +157,30 @@ $button-stroke: inset 0 0 0 units($theme-button-stroke-width);
 }
 
 .usa-button--base {
-  background-color: color("base");
+  @include set-text-and-bg("base", $context: $button-context);
 
   &:hover,
   &.usa-button--hover {
-    background-color: color("base-dark");
+    @include set-text-and-bg("base-dark", $context: $button-context);
   }
 
   &:active,
   &.usa-button--active {
-    background-color: color("base-darker");
+    @include set-text-and-bg("base-darker", $context: $button-context);
   }
 }
 
 .usa-button--secondary {
-  background-color: color("secondary");
+  @include set-text-and-bg("secondary", $context: $button-context);
 
   &:hover,
   &.usa-button--hover {
-    background-color: color("secondary-dark");
+    @include set-text-and-bg("secondary-dark", $context: $button-context);
   }
 
   &:active,
   &.usa-button--active {
-    background-color: color("secondary-darker");
+    @include set-text-and-bg("secondary-darker", $context: $button-context);
   }
 }
 
