@@ -10,7 +10,7 @@
     "setup-uswds": "npm run sync-assets && npm run sync-sass",
     "sync-assets": "rsync -avr --delete node_modules/uswds/dist/ assets/uswds/ --exclude=/*.md --exclude=/*.zip --exclude=/css --exclude=/scss",
     "sync-sass": "rsync -avr --delete node_modules/uswds/src/stylesheets/ _sass/uswds/src/",
-    "pa11y-ci": "pa11y-ci"
+    "pa11y-ci": "pa11y-ci --threshold=7"
   },
   "dependencies": {
     "@18f/private-eye": "^2.0.0",
