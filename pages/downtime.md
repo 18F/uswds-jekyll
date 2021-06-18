@@ -7,7 +7,7 @@ permalink: /downtime/
 
 ## SCINet Scheduled Outages
 
-The table below lists information about planned SCINet outages. See the SCINet VRSC Basecamp (must have SCINet account to access) [schedule (calendar)](https://3.basecamp.com/3625179/buckets/5538276/schedules/764923017) and [message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) for communications about emergency outages.
+The table below lists information about planned SCINet outages. See [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) for communications about emergency outages.
 
 
 | Outage Date | System | Affected Locations | Reason |
