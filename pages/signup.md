@@ -27,7 +27,7 @@ ARS employees can request a SCINet account by filling out a form on the ARS Shar
 
 ## Non-ARS Employees
 
-Non-ARS employees require an ARS employee sponsor to obtain a SCINet account.  Please contact your sponsor and request that they complete a form on your behalf on the ARS Sharepoint site (eAuthentication required). 
+Non-ARS Employees require an ARS employee sponsor to obtain a SCINet account.  Please contact your sponsor and request that they complete a form on your behalf on the ARS Sharepoint site (eAuthentication required). 
 
 Note: if you aren't technically an ARS employee but work for ARS and have a usda.gov email address, do not use the non-ARS Employee link below. Please use the link above for ARS Employees.
 
