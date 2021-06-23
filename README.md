@@ -1,4 +1,4 @@
-[![scinet.usda.gov Build Status](https://travis-ci.org/USDA-ARS-GBRU/scinet-site.svg?branch=master)](https://travis-ci.org/USDA-ARS-GBRU/scinet-site)
+[![Build Status](https://travis-ci.com/USDA-ARS-GBRU/scinet-site.svg?branch=master)](https://travis-ci.com/USDA-ARS-GBRU/scinet-site)
 
 # Info specific to SCINet Website Development
 
@@ -32,7 +32,9 @@ There are two ways to do this.
 3 edit it and say what you did in the comment box and click "propose file change"
 
 
+## TravisCI builds
 
+After a commit the site is built by Tracis.ci and pushed to the gh-pages branch of the repoto create the web page. See the dashboard for status https://travis-ci.com/github/USDA-ARS-GBRU/scinet-site. Builds use tokens.
 
 
 # Info on the Jekyll + U.S. Web Design System template

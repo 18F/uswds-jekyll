@@ -44,6 +44,8 @@ We expect to support 4 to 6 projects with a maximum budget request of $100,000 p
 
 The proposal should be a maximum of 2 pages in length, not including references,. The proposal should describe a specific challenge, method, or tool to be developed or applied to solve a problem/challenge or to answer an agricultural question. Deliverables for the project should be defined. A budget and budget explanation of no more than 1 page should be included in addition to the two-page proposal. All pages should be single-spaced in Times New Roman 11-point font with 1-inch margins.
 
+
+
 # Deadline
 
 5 PM Eastern, May 25, 2021; successful proposals will be contacted as soon as possible to allow a start date in June.
@@ -52,13 +54,23 @@ The proposal should be a maximum of 2 pages in length, not including references,
 
 USDA-ARS Category 1, 4, or 6 scientists with supervisor approval.
 
+# FAQ
+
+Can a University professor by a PI on this?
+
+No, this is not a formal external grant call, it is an internal ARS funding
+mechanism to fund specific AI projects led by SY's. If you want to work with a university
+collaborator you would first create an overall budget for the project.  After it is funded you would initiate a NACA agreement with its own budget.  That would be a
+separate process. When creating your initial budget keep in mind the rules 
+about allowable costs for a NACA (no IDC, cooperator in kind contributions).  
+
 # Submission
 
 To submit please create a single PDF with these documents:
 
 1.	[Signed cover page](/assets/docs/AIInnovationCoverPage.pdf)
 2.	Proposal
-3.	Budget on the [REE-455 form](https://axon.ars.usda.gov/FMAD/Documents/REE-454%20-%20Agreement%20Budget%20112018.xls)
+3.	Budget on the [REE-455 form] if you intend to use a NACA agreement or do work in house(https://axon.ars.usda.gov/FMAD/Documents/REE-455%20-%20Grant%20and%20Cooperative%20Agreement%20Budget%20112018.xlsx) OR a udget on the [REE-454 form] if you intend to use a NACA agreement or do work in house(https://axon.ars.usda.gov/FMAD/Documents/REE-455%20-%20Grant%20and%20Cooperative%20Agreement%20Budget%20112018.xlsx)
 4.	Budget justification
 
 Email to: <ARS-SCINet-CSIO@usda.gov> with the subject line “AI Innovation application”

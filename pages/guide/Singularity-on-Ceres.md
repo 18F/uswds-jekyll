@@ -246,4 +246,4 @@ These are available via modules, so the user doesn't have to perform any additio
 
 The SCINet Virtual Research Support Core (VRSC) can provide support for the Singularity application itself, but has no control over the contents of and cannot be expected to support container images.
 
-Questions about application-specific container images may be directed to the SCINet community via the [SCINet VRSC Basecamp message board](https://3.basecamp.com/3625179/buckets/5538276/message_boards/764923015) (must have a SCINet account to access), or to the community responsible for maintaining the container image.
+Questions about application-specific container images may be directed to the SCINet community via the [SCINet Forum](https://forum.scinet.usda.gov) (must have a SCINet account to access), or to the community responsible for maintaining the container image.
