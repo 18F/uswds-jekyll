@@ -42,8 +42,9 @@ layout: page
 # Onboarding Videos
 Users who are new to the HPC environment may benefit from the following Ceres onboarding video which covers much of the material contained in this guide plus some Unixs basics.
 
-[Ceres Onboarding (Intro to SCINet Ceres HPC) (length 42:14)](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513)
-This video includes:
+[Ceres Onboarding (Intro to SCINet Ceres HPC) (length 42:14)*](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513)
+Note: SCINet nor longer uses Basecamp. If you need access to the onboarding video please email scinet_vrsc@usda.gov.
+The video includes:
 - logging on to Ceres
 - changing your password
 - home and project directories
