@@ -14,7 +14,7 @@ Run `rake update`
 
 ## Releasing a new version
 
-1. Update the gem version in [`uswds-jekyll.gemspec`](https://github.com/18F/uswds-jekyll/blob/master/uswds-jekyll.gemspec)
+1. Update the gem version in [`uswds-jekyll.gemspec`](https://github.com/18F/uswds-jekyll/blob/main/uswds-jekyll.gemspec)
 1. `bundle install`
 1. `bundle exec rake release` which creates the tag based on the version in the gemspec file and pushes the tag to Github and the gem to RubyGems.
 

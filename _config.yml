@@ -6,7 +6,7 @@ description: This is the site description.
 github_info:
   organization: 18F
   repository: uswds-jekyll
-  default_branch: master
+  default_branch: main
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
