@@ -44,6 +44,7 @@ layout: page
 ### Storage Space
 [How much data can I store on Ceres?](#how-much-data-can-i-store-on-ceres)<br>
 [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space)<br>
+[How do I request access to a project directory?](#how-do-i-request-access-to-a-project-directory)<br>
 
 ### Data Transfer
 [How do I get my data onto and off of Ceres?](#how-do-i-get-my-data-onto-and-off-of-ceres)<br>
@@ -92,7 +93,7 @@ Discussion that is relevant to other SCINet users such as questions about the be
 Policy and development questions should be directed to the SCINet program manager, Rob Butler, or to your area representatives on the SCINet Scientific Advisory Committee (SAC), see the [SCINet Orginization](/about/organization/) page.
 
 ### How do I use Basecamp?
-[SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) is a forum used for communication with other SCINet users and the VRSC. When you want to start a discussion that is relevant to other SCINet users such as questions about the best practices for research computations, you can post a question on the Basecamp message board or contribute to a discussion that someone else has already started. You can search old discussions in Basecamp by using the Find feature at the top of the page. For single user operational questions, please email the VRSC (see [How do I contact the VRSC for assistance?](#how-do-i-contact-the-vrsc-for-assistance)) instead of posting to Basecamp. For more about SCINet VRSC Basecamp see the [SCINet VRSC Basecamp Forum page](/support/basecamp/).
+Basecamp  has been replaced by [SCINet Forum](https://forum.scinet.usda.gov). SCINet documentation previously available on Basecamp can now be found in the User Guides section of the (SCINet website](https://scinet.usda.gov).
 
 When your SCINet account is created, you will receive a welcome email and another email asking to join the SCINet VRSC Basecamp project. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
 
@@ -168,13 +169,13 @@ Ceres has development libraries available on all nodes. There is a system versio
 Galaxy is a web-based interface to software on Ceres in which users can build analysis workflows. See [Getting Started with Galaxy on SCINet](/guide/galaxy/). General information about Galaxy as well as training guides can be found at [galaxyproject.org](https://galaxyproject.org/).
 
 ### How do I login to SCINet Galaxy?
-Go to [galaxy.scinet.science](https://galaxy.scinet.science/). Enter your email address and SCINet password. See [Getting Started with Galaxy on SCINet](/guide/galaxy/) for more details.
+Go to [galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov/). Enter your email address and SCINet password. See [Getting Started with Galaxy on SCINet](/guide/galaxy/) for more details.
 
 ### How do I request software to be loaded onto SCINet Galaxy?
-Please email the VRSC at scinet_vrsc@usda.gov.
+Please submit software install request at https://e.arsnet.usda.gov/sites/OCIO/scinet/Pages/SCINet-New-Application.aspx and check next to Galaxy Application.
 
 ### How much data can I store on Ceres?
-Each user is allowed 10GB of data and 10,240 files in the home directory (soft quota). For a grace period of 30 days users can exceed their soft quota limits up to the hard limit of 100GB and 1,024,000 files. After 30 days, any additional file creation is locked until the amount of data and file count has been reduced below the soft limit again.
+Each user is allowed 10GB of data in the home directory (soft quota). 
 
 Additional storage can be provided on Ceres in  /project and /KEEP directories. To request more storage see [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space). Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.   
 
@@ -182,6 +183,9 @@ When requesting additional data storage you will be asked for a project summary,
 
 ### How do I request an increase in storage space?
 Please fill out an application form at [Request Project Storage](/support/request-storage) (eAuthentication required, non-ARS users should contact their sponsor) to request more storage.
+
+### How do I request access to a project directory?
+Only project directory managers can request access to their project space for other users. 
 
 ### How do I get my data onto and off of Ceres?
 SCP, SFTP, lftp (to/from Box accounts) Globus, and hard drive shipment are supported. This is described in the [File Transfers section of the Ceres User Guide](/guide/ceres/#file-transfers). If you work near Beltsville, you may also use the SCINet lab located at the National Agricultural Library (NAL). Two computers with 10GB Internet2 SCINet connections are available.
