@@ -9,6 +9,11 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 06-July-2021
+
+Connection to Ceres is currently down. The issue is being investigated.
+
+
 ## 22-April-2021
 
 SCINet has launched a new discussion forum that replaces Basecamp:
