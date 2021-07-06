@@ -13,6 +13,8 @@ For system downtime information see the [System Downtime page](/downtime/) for p
 
 Connection to Ceres is currently down. The issue is being investigated.
 
+Update: Site service at Ames is currently unavailable. ARS SCINet circuit vendor Internet2 has advised that the provider is reviewing a circuit issue that may be contributing to this outage low light on the path. No ETR is currently available. Updates will be provided as they are received.
+
 
 ## 22-April-2021
 
