@@ -9,6 +9,7 @@ permalink: /newsletter/
 Research highlights from researchers who use SCINet resources are added quarterly. Contact [SCINet-Newsletter@usda.gov](mailto:SCINet-Newsletter@usda.gov?subject=research%20highlight) and use this short [guide for authors](/assets/pdf/research-highlights/Guide-for-SCINet-Research-Highlight-Authors.pdf) (opens pdf in this browser window).
 
 <br>
+### [USDA ARS SCINet Newsletter: July 2021](/assets/pdf/newsletters/SCINET-Newsletter-July-2021.pdf) 
 
 ### [USDA ARS SCINet Newsletter: April 2021](/assets/pdf/newsletters/SCINET-Newsletter-April-2021.pdf) 
  
