@@ -9,6 +9,13 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 07-July-2021
+
+Update: Site Service at Ames is available. Internet2 circuit vendor Lumen has determined a fiber cut from a local construction company to be the cause of the outage. Fiber splicing has been completed, and fiber crews are hands off. No further impact is expected.
+
+Start Time(s) []: 2021-07-06 15:47:54 - 2021-07-07 12:33:45 [0d 20h 45m 51s]
+
+
 ## 06-July-2021
 
 Connection to Ceres is currently down. The issue is being investigated.
