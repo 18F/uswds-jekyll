@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
       defaultMessage: "This link is private to TTS.",
       ignoreUrls: [
         '18f.slack.com',
+        'airtable.com',
         'anywhere.gsa.gov',
         'bookit.gsa.gov',
         'calendar.gsa.gov',
