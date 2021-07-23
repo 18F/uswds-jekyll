@@ -18,6 +18,7 @@ layout: page
   * [Atlas Home Directories](#atlas-home-directories) (/home/firstname.lastname)
   * [Atlas Project Directories](#atlas-project-directories) (/project/project_name)
   * [Atlas Large Short-term Storage](#atlas-large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
+* [Archive Storage at NAL](#archive-storage-at-nal)
 
 # Ceres HPC Cluster
 
