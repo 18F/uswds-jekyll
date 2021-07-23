@@ -17,6 +17,7 @@ layout: page
 * [Atlas HPC Cluster](#atlas-hpc-cluster)
   * [Atlas Home Directories](#atlas-home-directories) (/home/firstname.lastname)
   * [Atlas Project Directories](#atlas-project-directories) (/project/project_name)
+  * [Atlas Large Short-term Storage](#atlas-large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
 * [Orion HPC Cluster](#orion-hpc-cluster)
 
 # Ceres HPC Cluster
@@ -132,3 +133,17 @@ these directories may differ. For each project directory on Ceres, a directory w
 
 As on Ceres, directories in `/project` are not backed up. Users can copy important data from a directory in `/project` on Atlas to a 
 corresponding directory in [`/KEEP`](#keep) on Ceres that is backed up nightly.
+
+## Atlas Large Short-term Storage
+
+Most users will run computations from `/project/project_name`. Project directories in `/project` have large quotas, however sometimes 
+users need even more space for a short period of time. In this case computations can be run from `/90daydata/project_name` which does 
+not have quota. However, files in `/90daydata` older than 90 days will be automatically deleted. This is permanent and the files cannot 
+be recovered. Just like `/project` there is no backup for this space. If you need to keep something, copy data to `/KEEP/project_name` on Ceres.
+
+`/90daydata/shared` is open to all users on Atlas. Anyone can create a directory in `/90daydata/shared` and put data which will be readable 
+by everyone on the system unless file owner limits access using `chmod` command. Files older than 90 days will be automatically deleted.
+
+Warning: If you download archived files, they may contain files with an access date from long ago. This date will still trigger deletion, 
+so make sure that the files have a new access date. For example, when you untar a .tar or .tgz file, use the `-m` flag. If you use `rsync` to 
+the space, do not use the `-a` flag, as that preserves date stamps.
