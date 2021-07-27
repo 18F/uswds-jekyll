@@ -9,6 +9,14 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 27-July-2021 No SCINet priority node purchases this year  
+  
+We will not be making priority node purchases through the SCINet Program this year. We added a large number of nodes to Ceres in the past several years that either replaced older, less reliable nodes or were new nodes that increased our overall capacity. In addition, we brought the Atlas Cray computer online at Mississippi State University, and we will be adding a backup storage system at the National Ag Library in the next month.   
+
+These actions should provide sufficient computational power and storage for scientists to conduct their high-performance computing research without a unit needing to purchase its own nodes.  
+
+We will re-assess the situation as scientific needs continue to change. 
+
 ## 07-July-2021
 
 Update: Site Service at Ames is available. Internet2 circuit vendor Lumen has determined a fiber cut from a local construction company to be the cause of the outage. Fiber splicing has been completed, and fiber crews are hands off. No further impact is expected.
