@@ -114,7 +114,7 @@ $ cpanm Test::More
 
 Running the above command creates a "perl5" directory within the users' home directory and contains all the required binaries and libraries associated with the "Test::More" module. Add **PERL5LIB** to the environment
 ```
-$ export PERL5LIB=$HOME/perl5/lib/perl5
+$ export PERL5LIB=$HOME/perl5/lib/perl5:$PERL5LIB
 ```
 
 Perl modules can also be installed in other directories. For example, the user can have the modules available to the rest of the project members so that everyone involved works in the same environment.
