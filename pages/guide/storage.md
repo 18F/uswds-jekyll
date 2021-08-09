@@ -31,6 +31,17 @@ Most users will only use home directories and project directories in /project an
 Home directories and directories in `/project`  and `/KEEP` have quotas. Current usage and quotas for home and project 
 directories that user belongs to are displayed at login. The `my_quotas` command provides the same information.
 
+Quotas on Ceres are based off file group ownership/association. By default files in a home directory are associated with the user's
+primary group that has the same name as the user name, while files in a project directory are associated with the project
+group (proj-<project_name>). Sometimes when users move files from one directory to another or rsync files using "-a" or "-g" 
+option, files in the new location will retain group from the old location. To avoid this, use "cp" and "rm" instead of "mv" 
+to move data between home and project directories, and use "-rlptoD" rsync options instead  of "-a". 
+
+The "lfs quota -g <first.last> /project" will report usage and quota for the user <first.last> in /project . This quota is 
+intentionally set to a small value. The non-zero usage indicates that there are files associated with the user's primary group
+in /project . To fix this, the user can issue "chmod -R proj-<project_name> /project/proj-<project_name>" , which will
+change ownership of the files in the project directory <project_name> to the project group.
+
 ## Home Directories
 
 Home directories are private, they are only accessible to the user and the system administrators. When a user logs 
