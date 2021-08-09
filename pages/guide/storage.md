@@ -39,7 +39,7 @@ to move data between home and project directories, and use "-rlptoD" rsync optio
 
 The "lfs quota -g <first.last> /project" will report usage and quota for the user <first.last>'s primary group in /project . This quota is 
 intentionally set to a small value. The non-zero usage indicates that there are files associated with the user's primary group
-in /project . To fix this, the user can issue "chmod -R proj-<project_name> /project/proj-<project_name>" , which will
+in /project . To fix this, the user can issue "chgrp -R proj-<project_name> /project/proj-<project_name>" , which will
 set ownership of the files in the project directory <project_name> to the project group.
 
 ## Home Directories
