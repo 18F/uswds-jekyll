@@ -16,11 +16,23 @@ layout: page
 
 # What is Multifactor Authentication
 
-Federal computer systems are required to use multifactor authentication for site security. This means that a code is required in addition to a password to login to SCINet.
+Federal computer systems are required to use multifactor authentication for site security. This means that a code is required in addition to a password to login to SCINet. If you're ssh-ing to Ceres cluster from a connected site (where you already had to use second factor such as PIV/CAC), you probably won't be prompted for a verification code. However the code is always required to ssh to the [Atlas cluster](https://www.hpc.msstate.edu/computing/atlas) and to use other SCINet resources, such as [SCINet Galaxy](https://scinet.usda.gov/guide/galaxy) or [SCINet Forum](https://forum.scinet.usda.gov/). It's also needed to connect to [SCINet VPN](https://scinet.usda.gov/guide/vpn).
 
-You will need an app on a mobile device or a small program on your computer to get your login code.
+You will need to install an app on a mobile device or a small program on your computer that will generate your verification codes. The app is initialized with your SCINet Google Authentication (GA) account, that is normally created along with your SCINet account.
+
+To add your SCINet GA account to the app, you will need a key or a QR code, that you can find in your "Welcome to Ceres" email. 
+
+Note: If your SCINet account was created **before January 2020**, and a GA account was never created, attempt to login to the Ceres DTN node:
+```
+ssh <your SCINet username>@ceres-dtn-0.scinet.usda.gov
+```
+At the first attempt a GA account will be created for you and you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
+
+If you have already had GA installed and initialized but now need to either re-install GA or install it on a new device, and if you saved your SMS phone number in the system, you can reset GA account by going to [https://ga.scinet.usda.gov/reset](https://ga.scinet.usda.gov/reset). After resetting your GA account you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
 
 Follow the instructions below to set up multifactor authentication on either your mobile [Android device](#google-authenticator-ga-on-android) (recommended), [Apple device](#google-authenticator-ga-on-apple-ios-iphones-and-ipads) (recommended), or [on your computer](#authentication-on-your-computer-using-authy).
+
+
 
 
 ## Google Authenticator (GA) on Android
@@ -35,14 +47,6 @@ To use Google Authenticator on your Android device, it must be running Android v
 3. Download and install the application.
 
 ### Setting up the app
-
-Your "Welcome to Ceres" email contains a key and a link to a QR code that should be used to initialize GA on your mobile device. If your SCINet account was created before January 2020, and a GA account was never created, attempt to login to the Ceres DTN node:
-```
-ssh <your SCINet username>@ceres-dtn-0.scinet.usda.gov
-```
-At the first attempt a GA account will be created for you and you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
-
-If you have already had GA installed and initialized but now need to either re-install GA or install it on a new device, and if you saved your SMS phone number in the system, you can reset GA account by going to [https://ga.scinet.usda.gov/reset](https://ga.scinet.usda.gov/reset). After resetting your GA account you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
 
 Open the Google authenticator app on your mobile device.
 
@@ -100,14 +104,6 @@ To use Google Authenticator on your iPhone, iPod Touch, or iPad, you must have i
 3. Download and install the application.
 
 ### Setting up the app
-
-Your "Welcome to Ceres" email contains a key and a link to a QR code that should be used to initialize GA on your mobile device. If your SCINet account was created before January 2020, and a GA account was never created, attempt to login to the Ceres DTN node:
-```
-ssh <your SCINet username>@ceres-dtn-0.scinet.usda.gov
-```
-At the first attempt a GA account will be created for you and you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
-
-If you have already had GA installed and initialized but now need to either re-install GA or install it on a new device, and if you saved your SMS phone number in the system, you can reset GA account by going to [https://ga.scinet.usda.gov/reset](https://ga.scinet.usda.gov/reset). After resetting your GA account you will receive an email containing a key/code that should be used to initialize GA on your mobile device.
 
 On your iOS device, open the Google Authenticator application. Tap the plus icon. Tap "Time Based" (label 1).
 
@@ -170,6 +166,6 @@ Contact [scinet_vrsc@usda.gov](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%2
 
 # GA account reset
 
-Users may need to reset GA accounts when switching or reinstalling their mobile devices that have GA application installed. To be able to perform GA reset by yourself, save an SMS phone number in the system by issuing phone-collect.sh command on Ceres. This is the same process that is run automatically the first time you login. After doing that you will be able to do a self-service reset of your GA at https://ga.scinet.usda.gov/reset/ .
+Users may need to reset GA accounts when switching or reinstalling their mobile devices that have GA application installed. To be able to perform GA reset by yourself, save an SMS phone number in the system by issuing phone-collect.sh command on Ceres. This is the same process that is run automatically the first time you login. After doing that you will be able to do a self-service reset of your GA at [https://ga.scinet.usda.gov/reset/](https://ga.scinet.usda.gov/reset).
 
 If you are unable to or do not wish to save an SMS phone number, GA account reset request will have to go though your supervisor or sponsor as we have no way of directly verifying your identity. 
