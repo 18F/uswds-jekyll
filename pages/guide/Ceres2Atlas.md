@@ -12,6 +12,10 @@ layout: page
   * [Using Containers](#using-containers)
   * [Conda](#conda) 
 * [Submitting a job](#submitting-a-job)
+  * [Slurm account](#slurm-account)
+  * [Partitions](#partitions)
+  * [Nodes](#nodes)
+  * [salloc](#salloc)
 
 This guide lists differences between the Atlas and Ceres clusters to ease transition from one cluster to another.
 
