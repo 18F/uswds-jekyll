@@ -11,10 +11,11 @@ layout: page
 * [Software](#software)
   * [Using Containers](#using-containers)
   * [Conda](#conda) 
-* [Submitting a job](#submitting-a-job)
+* [Submitting a Job](#submitting-a-job)
   * [Slurm account](#slurm-account)
   * [Partitions](#partitions)
   * [Nodes](#nodes)
+  * [Internet Connection](#internet-connection)
   * [salloc](#salloc)
 
 This guide lists differences between the Atlas and Ceres clusters to ease transition from one cluster to another.
@@ -27,7 +28,7 @@ On Ceres usage and quota information for home and project directories that user 
 
 # Software
 
-Not all software installed on Ceres is available on Atlas. However software packages provided as containers are daily synced to Atlas.
+Not all software installed on Ceres is available on Atlas. However software packages provided as containers are synced to Atlas daily.
 
 ## Using Containers
 
@@ -49,3 +50,6 @@ mv ~/miniconda3 /project/project_folder/software/.
 ln -s /project/project_folder/software/miniconda3 ~/.
 ```
 
+# Submitting a Job
+
+Job scripts from one cluster may not work on the other cluster.
