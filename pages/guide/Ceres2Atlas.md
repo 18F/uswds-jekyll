@@ -33,11 +33,15 @@ On Ceres users may not realize that some of the software listed in the output of
 
 To build a Conda environment on Ceres, one can load miniconda module ("module load miniconda"). On Atlas one needs first to install miniconda in their home directory:
 
+```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh
+```
 
 Since home directories on both clusters have 5GB quota, it's recommended to move the installed miniconda to a project directory and create a symbolic link to the new location in the home directory:
 
+```
 mv ~/miniconda3 /project/project_folder/software/.
 ln -s /project/project_folder/software/miniconda3 ~/.
+```
 
