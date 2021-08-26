@@ -17,7 +17,7 @@ This guide lists differences between the Atlas and Ceres clusters to ease transi
 
 # Quotas
 
-All project directories exist on both clusters, however they may have different quotas and data in the project (and home) directories is not automatically synced between the clusters. The default project directory quota on Atlas is 1TB. 
+All project directories exist on both clusters, however they may have different quotas. Data in the project (and home) directories is not automatically synced between the clusters. The default project directory quota on Atlas is 1TB. 
 
 On Ceres usage and quota information for home and project directories that user belongs to is displayed at login (to speed-up logins, the usage data is calculated once a day). To get the current usage information, users can issue the my_quotas command. On Atlas "quota -s" command reports usage and quota for the home directory and "/apps/bin/reportFSUsage -p proj1,proj2,proj3" provides that information for specific projects.
 
