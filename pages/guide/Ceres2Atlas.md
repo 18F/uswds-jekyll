@@ -19,7 +19,7 @@ This guide lists differences between the Atlas and Ceres clusters to ease transi
 
 All project directories exist on both clusters, however they may have different quotas. Data in the project (and home) directories is not automatically synced between the clusters. The default project directory quota on Atlas is 1TB. 
 
-On Ceres usage and quota information for home and project directories that user belongs to is displayed at login (to speed-up logins, the usage data is calculated once a day). To get the current usage information, users can issue the my_quotas command. On Atlas "quota -s" command reports usage and quota for the home directory and "/apps/bin/reportFSUsage -p proj1,proj2,proj3" provides that information for specific projects.
+On Ceres usage and quota information for home and project directories that user belongs to is displayed at login (to speed-up logins, the usage data is calculated once a day). To get the current usage information, users can issue the "`my_quotas`" command. On Atlas "`quota -s`" command reports usage and quota for the home directory and "`/apps/bin/reportFSUsage -p proj1,proj2,proj3`" provides that information for specific projects.
 
 # Software
 
@@ -27,11 +27,11 @@ Not all software installed on Ceres is available on Atlas. However software pack
 
 ## Using Containers
 
-On Ceres users may not realize that some of the software listed in the output of the "module avail" command is installed as singularity containers. On Atlas one needs to load singularity module before issuing "module avail" to see available containers.
+On Ceres users may not realize that some of the software listed in the output of the "`module avail`" command is installed as singularity containers. On Atlas one needs to load singularity module before issuing "`module avail`" to see available containers.
 
 ## Conda
 
-To build a Conda environment on Ceres, one can load miniconda module ("module load miniconda"). On Atlas one needs first to install miniconda in their home directory:
+To build a Conda environment on Ceres, one can load miniconda module ("`module load miniconda`"). On Atlas one needs first to install miniconda in their home directory:
 
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
