@@ -10,6 +10,7 @@ layout: page
 * [Quotas](#quotas)
 * [Software](#software)
   * [Using Containers](#using-containers)
+  * [Seeing All Environment Modules](#seeing-all-environment-modules)
   * [Conda](#conda) 
 * [Submitting a Job](#submitting-a-job)
   * [Slurm account](#slurm-account)
@@ -32,7 +33,44 @@ Not all software installed on Ceres is available on Atlas. However software pack
 
 ## Using Containers
 
-On Ceres users may not realize that some of the software listed in the output of the "`module avail`" command is installed as singularity containers. On Atlas one needs to load singularity module before issuing "`module avail`" to see available containers.
+On Ceres users may not realize that some of the software listed in the output of the "`module avail`" command is installed as singularity containers. On Atlas one needs to load singularity module before issuing "`module avail`" to see environment modules for the software packages installed as containers.
+
+```
+module load singularity
+module avail
+```
+
+## Seeing All Environment Modules
+
+Similar to containers, some modules on Atlas are not reported by the "`module avail`" command and can not be loaded without loading an appropriate gcc module: 
+
+```
+module load gcc/10.2.0
+module avail
+module load canu/2.2
+```
+
+To see all available modules on Atlas, one can use "`module spider`" command instead of the "`module avail`" command. This command will also work on Ceres, but it's not necessary to use it.
+
+```
+Atlas-login-1[7] marina.kraeva$ module spider canu
+
+--------------------------------------------------------------------------------------------------------------------
+  canu:
+--------------------------------------------------------------------------------------------------------------------
+     Versions:
+        canu/2.1.beta
+        canu/2.1
+        canu/2.2
+
+--------------------------------------------------------------------------------------------------------------------
+  For detailed information about a specific "canu" package (including how to load the modules) use the module's full name.
+  Note that names that have a trailing (E) are extensions provided by other modules.
+  For example:
+
+     $ module spider canu/2.2
+--------------------------------------------------------------------------------------------------------------------
+```
 
 ## Conda
 
