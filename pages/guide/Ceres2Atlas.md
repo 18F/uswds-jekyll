@@ -90,4 +90,13 @@ ln -s /project/project_folder/software/miniconda3 ~/.
 
 # Submitting a Job
 
-Job scripts from one cluster may not work on the other cluster.
+Job scripts from one cluster may not work on the other cluster. See below what needs to be changed in the script to make it work.
+
+## Slurm account
+
+To run jobs on compute nodes of either cluster, the jobs need to be associated with a slurm account. For users that have access to one or more project directories, their slurm accounts will have same name as the project directories. The slurm account for users without project directories is called scinet. On Ceres cluster all users have a default slurm account, and thus when submitting a job, they don't need to specify a slurm account for the job unless they want to associate the job with a non-default slurm account (this concerns only users with multiple slurm accounts). On Atlas one needs to specify a slurm account when submitting a job. To specify slurm account, either use "`-A <slurm_account_name>`" on the slurm command (srun, salloc, sbatch) or add the following line to your job script:
+```
+#SBATCH -A <slurm_account_name>
+```
+
+
