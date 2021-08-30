@@ -17,6 +17,7 @@ layout: page
   * [Partitions](#partitions)
   * [Nodes](#nodes)
   * [Internet Connection](#internet-connection)
+  * [TMPDIR](#tmpdir)
   * [salloc](#salloc)
 
 This guide lists differences between the Atlas and Ceres clusters to ease transition from one cluster to another.
@@ -90,7 +91,7 @@ ln -s /project/project_folder/software/miniconda3 ~/.
 
 # Submitting a Job
 
-Job scripts from one cluster may not work on the other cluster. See below what needs to be changed in the script to make it work.
+Job scripts from one cluster may not work on the other cluster. See below what needs to be changed in the script to make it work. This also applies to the salloc/srun commands.
 
 ## Slurm account
 
@@ -101,4 +102,21 @@ To run jobs on compute nodes of either cluster, the jobs need to be associated w
 
 ## Partitions
 
-One does not have to specify a partition when submitting a job to a default partition on either Ceres or Atlas. However scripts that have a partition specified will need to be updated when used on a different cluster. To see the list of available partitions on a cluster, either issue "`sinfo`" command or see the appropriate user guide: [Ceres](https://scinet.usda.gov/guide/ceres/#partitions-or-queues) or [Atlas](https://www.hpc.msstate.edu/computing/atlas).
+One does not have to specify a partition when submitting a job to a default partition on either Ceres or Atlas. However scripts that have a partition specified will need to be updated when used on a different cluster. To see the list of available partitions on a cluster, either issue "`sinfo`" command or consult the appropriate user guide: [Ceres](https://scinet.usda.gov/guide/ceres/#partitions-or-queues) or [Atlas](https://www.hpc.msstate.edu/computing/atlas).
+
+## Nodes
+
+Two clusters have different node types, that have different numbers of compute cores and amounts of memory. For most jobs the scripts already specify resources that are available on either cluster, so no changes need to be made. However if a job relies on the default amount of memory being large, it may fail on the other cluster that has smaller defaults. Some jobs may have high number of cores specified. On Ceres hyper-threading is turned on, meaning that each physical core on a node appears as two separate processors to the operating system and can run two threads. Because of that setting all nodes have at least 72 cores available. On Atlas, nodes have 48 cores. Thus if a script specifies more than 48 cores per node, it won't be accepted on Atlas.
+
+## Internet Connection
+
+On Atlas compute nodes do not have access to internet. If your job requires internet access, either submit it to the service partition or modify the job prefetching data and using the previously downloaded data in the job. Conda installs will need to be performed either on the login or data transfer nodes. 
+
+## TMPDIR
+
+On Ceres when a job starts running on a compute node, a special directory is created for that job on the storage local to the node. This space can be referred by $TMPDIR. The directory with all the data inside is automatically deleted when the job ends. On Atlas TMPDIR is set to /tmp and is not automatically cleaned. If your job uses $TMPDIR, make sure to delete files created by your job.
+
+## salloc
+
+On Ceres issuing "`salloc`" command will allocate resources for an interactive job and log you into the node assigned to the job. On Atlas the "`salloc -A <slurm_account_name>`" command will only allocate resources, but one will still need to use srun command to utilize resources assigned to the job. To login to the node, issue "`srun --pty --preserve-env bash`". Note that exiting from that session will not kill the job, and if you no longer need those resources, you will need to isse "`scancel <job_number>`" command. Note that salloc command is not needed, and one can only use the "`srun -A <slurm_account_name> --pty --preserve-env bash`" command to use a node interactively. 
+
