@@ -1,0 +1,8 @@
+.edit-page p {
+  @include u-font ('sans', 'md');
+}
+.edit-page__date p {
+  @include at-media("tablet") {
+    text-align: right;
+  }
+}
