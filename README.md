@@ -314,12 +314,12 @@ To show the last date a page was last modified by:
 This will add the date right before the identifier component.
 
 ### Edit page
-To add a link which will allow users to submit edits to the current page via GitHub, add the following lines to to the `edit-page.yml` data file:
+To add a link which will allow visitors to submit edits to the current page via GitHub, add the following lines to to the `edit-page.yml` data file:
 
 ```yml
-  edit_page:
-    display_link: false
-    text: "Edit this page"
+edit_page:
+  display_link: true
+  text: "Edit this page"
 ```
 This will add the edit link right before the identifier component.
 
