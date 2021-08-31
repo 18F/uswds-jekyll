@@ -21,6 +21,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Search](#search)
    - [Analytics](#analytics)
    - [Last modified date](#last-modified-date)
+   - [Edit page](#edit-page)
    - [Anchor JS](#anchor-js)
    - [Private Eye JS](#private-eye-js)
 1. [Assets](#assets)
@@ -105,7 +106,7 @@ To reference a specific version of this theme:
 
 ## Configuration
 
-Configuration of common elements ([header](#header), [identifier]](#identifier), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
+Configuration of common elements ([header](#header), [identifier](#identifier), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
 
 The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
@@ -297,9 +298,9 @@ To show the last date a page was last modified by:
 1. Add these lines to the `edit-page.yml` data file:
 
     ```yml
-    edit_page:
-      display_link: true
-      text: "Edit this page"
+    last_modified:
+      display_date: true
+      date_format: '%B %d, %Y'
     ```
 
 1. Add the following to your `Gemfile`:
@@ -311,6 +312,16 @@ To show the last date a page was last modified by:
     ```
 
 This will add the date right before the identifier component.
+
+### Edit page
+To add a link which will allow users to submit edits to the current page via GitHub, add the following lines to to the `edit-page.yml` data file:
+
+```yml
+  edit_page:
+    display_link: false
+    text: "Edit this page"
+```
+This will add the edit link right before the identifier component.
 
 ### Anchor JS
 
