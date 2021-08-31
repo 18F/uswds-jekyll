@@ -30,15 +30,15 @@ On Ceres usage and quota information for home and project directories that user 
 
 # Software
 
-Not all software installed on Ceres is available on Atlas. However software packages provided as containers are synced to Atlas daily.
+Not all software installed on Ceres is available on Atlas. However software packages provided as Singularity container image files in the [Ceres Container Repository](https://scinet.usda.gov/guide/singularity#7-ceres-container-repository) are synced to Atlas daily.
 
 ## Using Containers
 
-On Ceres users may not realize that some of the software listed in the output of the "`module avail`" command is installed as singularity containers. On Atlas one needs to load singularity module before issuing "`module avail`" to see environment modules for the software packages installed as containers.
+On Ceres, the "singularity" command is available in a user's PATH by default, and users may not even realize that some of the software listed in the output of the "`module avail`" command is installed as singularity containers. On Atlas one needs to load a singularity module ("`module load singularity`" or "`module load singularity/<version>`") to make the "singularity" command accessible:
 
 ```
 module load singularity
-module avail
+singularity exec <container image>
 ```
 
 ## Seeing All Environment Modules
@@ -95,7 +95,7 @@ Job scripts from one cluster may not work on the other cluster. See below what n
 
 ## Slurm account
 
-To run jobs on compute nodes of either cluster, the jobs need to be associated with a slurm account. For users that have access to one or more project directories, their slurm accounts have same names as the project directories. The slurm account for users without project directories is called scinet. On Ceres cluster all users have a default slurm account, and thus when submitting a job, they don't need to specify a slurm account for the job unless they want to associate the job with a non-default slurm account (this concerns only users with multiple slurm accounts). On Atlas one needs to specify a slurm account when submitting a job. To specify slurm account, either use "`-A <slurm_account_name>`" on the slurm command (srun, salloc, sbatch) or add the following line to your job script:
+To run jobs on compute nodes of either cluster, the jobs need to be associated with a slurm account. For users that have access to one or more project directories, their slurm accounts have same names as the project directories. The slurm account for users without project directories is called scinet. On Ceres cluster all users have a default slurm account, and thus when submitting a job, they don't need to specify a slurm account for the job unless they want to associate the job with a non-default slurm account (this concerns only users with multiple slurm accounts; see the [SCINet Ceres User Manual "Slurm Accounts" section](https://scinet.usda.gov/guide/ceres/#slurm-accounts) for how to list and change the default Slurm account). On Atlas one needs to specify a slurm account when submitting a job. To specify slurm account, either use "`-A <slurm_account_name>`" on the slurm command (srun, salloc, sbatch) or add the following line to your job script:
 ```
 #SBATCH -A <slurm_account_name>
 ```
