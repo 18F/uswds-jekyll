@@ -6,7 +6,7 @@ layout: page
 excerpt: SCINet and Ceres basics for new SCINet users, including HPC beginners
 ---
 
-This [42 minute SCINet onboarding tutorial](https://3.basecamp.com/3625179/buckets/5538276/uploads/1997286513) is most appropriate for HPC beginners and includes:
+This [42 minute SCINet onboarding tutorial](https://web.microsoftstream.com/video/f22c4659-40fd-4546-bbf5-4add649a870e) is most appropriate for HPC beginners. Note: Only ARS users can access this location. Other users should email scinet_vrsc@usda.gov to request access to the onboarding video. The video includes:
 - logging on to Ceres
 - changing your password
 - storage structure
