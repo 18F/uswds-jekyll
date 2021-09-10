@@ -17,6 +17,8 @@ _**Interested applicants are encouraged to visit the specific ORISE link (below)
 
 ## Specific postdoc opportunities for 2021-2022 include the following:
 
+**Research Biologist (Computational/Bioinformatics):** Incumbent will Perform bioinformatics and statistical analysis in genetics, genomics, and molecular breeding research. Develop an extensible pipeline for NGS based whole genome sequencing, genotyping for highly polyploid and complex genome sugarcane using both DNA and RNA. Perform analysis related to genomic selection, QTL mapping, genome wide association study (GWAS) and transcriptome analysis using latest bioinformatics and statistical software(ARS location: Canal Point, FL). [https://www.linkedin.com/hiring/jobs/2553550605/detail](https://www.linkedin.com/hiring/jobs/2553550605/detail)
+
 **Machine learning and AI in Human Nutrition:** learn about challenges in predicting effects of diet on health outcomes while learning a range of computational skills needed to conduct these analyses (ARS location: Davis, CA). [https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0008](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0008)
 
 **Integrating Breeding Platforms and Bioinformatic Analyses:** develop and implement software pipelines to integrate analysis of phenotypic and genomic resources being collected by specialty crops breeding programs to establish technology driven breeding programs (ARS location: Raleigh, NC). [https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0001](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0001)
