@@ -1,0 +1,9 @@
+# Adjust these setting to display the "edit this page" link and the last modified date stamp
+
+edit_page:
+  display_link: false
+  text: "Edit this page"
+
+last_modified:
+  display_date: false
+  date_format: '%B %d, %Y'

@@ -1,0 +1,70 @@
+lang: es
+domain: domain.gov
+masthead:
+  label:
+    content:
+      en: Agency identifier
+      es: Identificador de la agencia
+  description:
+    label:
+      content:
+        en: Agency description
+        es: Descripción de la agencia
+  text:
+    content:
+      en: An official website of the
+      es: Un sitio web oficial de
+  taxpayer_disclaimer:
+    content:
+      en: Produced and published at taxpayer expense.
+      es: Producido y publicado con dinero de los contribuyentes de impuestos.
+required_links:
+  label:
+    content:
+      en: Important links
+      es: Enlaces importantes
+  links:
+    about:
+      content:
+        en: About
+        es: Acerca de
+    accessibility:
+      content:
+        en: Accessibility support
+        es: Soporte de accesibilidad
+    foia:
+      content:
+        en: FOIA requests
+        es: Solicitud a través de FOIA
+    no_fear:
+      content:
+        en: No FEAR Act data
+        es: Datos de la ley No FEAR
+    oig:
+      content:
+        en: Office of the Inspector General
+        es: Oficina del Inspector General
+    performance:
+      content:
+        en: Performance reports
+        es: Informes de desempeño
+    privacy:
+      content:
+        en: Privacy policy
+        es: Política de privacidad
+usagov:
+  label:
+    content:
+      en: U.S. government information and services
+      es: Información y servicios del Gobierno de EE. UU.
+  description:
+    content:
+      en: Looking for U.S. government information and services?
+      es: ¿Necesita información y servicios del Gobierno?
+  link:
+    content:
+      en: Visit USA.gov
+      es: Visite USA.gov en Español
+    url:
+      en: https://www.usa.gov/
+      es: https://www.usa.gov/espanol/

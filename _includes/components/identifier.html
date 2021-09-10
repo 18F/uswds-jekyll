@@ -1,0 +1,122 @@
+{% assign user = site.data.identifier %}
+{% assign static = site.data.static.identifier %}
+<div class="usa-identifier">
+  <section
+    class="usa-identifier__section usa-identifier__section--masthead"
+    aria-label="{{ static.masthead.label.content[user.lang] }}">
+    <div class="usa-identifier__container">
+      {%- if user.masthead.parent.logo -%}
+      <div class="usa-identifier__logos">
+        <a href="{{ user.masthead.parent.url[user.lang] }}" class="usa-identifier__logo">
+          <img
+            class="usa-identifier__logo-img"
+            {% if user.masthead.parent.logo == "default" %}
+            src="{{ site.baseurl }}/assets/uswds/img/circle-gray-20.svg"
+            {% else %}
+            src="{{ site.baseurl }}/{{ user.masthead.parent.logo }}"
+            {% endif %}
+            {% if user.lang == "en" %}
+            alt="{{ user.masthead.parent.name[user.lang] }} logo"
+            {% else if user.lang == "es" %}
+            alt="Logo de la {{ user.masthead.parent.name[user.lang] }}"
+            {% endif %}
+            role="img">
+        </a>
+        {%- if user.masthead.agency.logo %}
+        <a href="javascript:void(0);" class="usa-identifier__logo">
+          <img
+            class="usa-identifier__logo-img"
+            {% if user.masthead.agency.logo == "default" %}
+            src="{{ site.baseurl }}/assets/uswds/img/circle-gray-20.svg"
+            {% else %}
+            src="{{ site.baseurl }}/{{ user.masthead.agency.logo }}"
+            {% endif %}
+            {% if user.lang == "en" %}
+            alt="{{ user.masthead.agency.name[user.lang] }} logo"
+            {% else if user.lang == "es" %}
+            alt="Logo de la {{ user.masthead.agency.name[user.lang] }}"
+            {% endif %}
+            role="img">
+        </a>
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+      <div class="usa-identifier__identity" aria-label="{{ static.masthead.description.label.content[user.lang] }}">
+        <p class="usa-identifier__identity-domain">{{ user.domain }}</p>
+        <p class="usa-identifier__identity-disclaimer">
+          {{- static.masthead.text.content[user.lang] }} <a href="{{ user.masthead.parent.url[user.lang] }}">{{ user.masthead.parent.name[user.lang] }}</a>
+          {%- if user.masthead.agency.url[user.lang] %}
+          {%- if user.lang == "en" %} and
+          {%- else if user.lang == "es" %} y
+          {%- endif -%}
+          {% if user.masthead.agency.name[user.lang] %}
+          {%- if user.lang == "en" %} the
+          {%- endif %}
+          {%- endif %} <a href="{{ user.masthead.agency.url[user.lang] }}">
+          {%- if user.masthead.agency.name[user.lang] -%}
+          {{- user.masthead.agency.name[user.lang] }}
+          {%- else -%}
+          {{ user.masthead.agency.shortname }}
+          {%- endif -%}
+          </a>
+          {%- endif -%}
+          {%- if user.masthead.taxpayer_disclaimer.display -%}
+          . {{ static.masthead.taxpayer_disclaimer.content[user.lang] }}
+          {%- endif -%}
+        </p>
+      </div>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="{{ static.required_links.label.content[user.lang] }}">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.about.url[user.lang] }}" class="usa-identifier__required-link">
+            {{- static.required_links.links.about.content[user.lang] }} {{ user.masthead.parent.shortname -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.accessibility.url[user.lang] }}"
+            class="usa-identifier__required-link">
+            {{- static.required_links.links.accessibility.content[user.lang] -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.foia.url[user.lang] }}"
+            class="usa-identifier__required-link usa-link">
+            {{- static.required_links.links.foia.content[user.lang] -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.no_fear.url[user.lang] }}"
+            class="usa-identifier__required-link usa-link">
+            {{- static.required_links.links.no_fear.content[user.lang] -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.oig.url[user.lang] }}" class="usa-identifier__required-link usa-link">
+            {{- static.required_links.links.oig.content[user.lang] -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.performance.url[user.lang] }}" class="usa-identifier__required-link usa-link">
+            {{- static.required_links.links.performance.content[user.lang] -}}
+          </a>
+        </li>
+        <li class="usa-identifier__required-links-item">
+          <a href="{{ user.required_links.links.privacy.url[user.lang] }}" class="usa-identifier__required-link usa-link">
+            {{- static.required_links.links.privacy.content[user.lang] -}}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  {% if user.usagov.display -%}
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="{{ static.usagov.label.content[user.lang] }}">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">{{ static.usagov.description.content[user.lang] }}</div>
+      <a href="{{ user.usagov.link.url[user.lang] }}" class="usa-link">{{ static.usagov.link.content[user.lang] }}</a>
+    </div>
+  </section>
+  {% endif -%}
+</div>

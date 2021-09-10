@@ -45,3 +45,12 @@ i.e.
   width: 100%;
   overflow: hidden;
 }
+
+//Settings for pushing footer to the bottom
+@include at-media("desktop") {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}

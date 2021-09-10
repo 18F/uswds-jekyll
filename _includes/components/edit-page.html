@@ -1,0 +1,24 @@
+{% assign options = site.data.edit-page %}
+
+{% if options.edit_page.display_link or (options.last_modified.display_date and page.last_modified_at) %}
+<div class="grid-container grid-container-desktop">
+  <div class="grid-row tablet-lg:grid-gap-2 edit-page">
+    <div class="grid-col-12 tablet:grid-col-6 edit-page__link">
+      <p>
+        {% if options.edit_page %}
+        <span>
+          {% include components/github-edit.html footer=identifier path=page.path %}
+        </span>
+        {% endif %}
+      </p>
+    </div>
+    <div class="grid-col-12 tablet:grid-col-6 edit-page__date">
+      <p>
+        {% if options.last_modified and page.last_modified_at %}
+        <span><small>Last updated: {{ page.last_modified_at | date: options.last_modified.date_format }}</small></span>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+{% endif %}

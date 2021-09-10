@@ -21,6 +21,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Search](#search)
    - [Analytics](#analytics)
    - [Last modified date](#last-modified-date)
+   - [Edit page](#edit-page)
    - [Anchor JS](#anchor-js)
    - [Private Eye JS](#private-eye-js)
 1. [Assets](#assets)
@@ -31,7 +32,7 @@ This is a [Jekyll theme](https://jekyllrb.com/docs/themes/) for the
    - [Overriding includes and layouts](#overriding-includes-and-layouts)
 1. [Components](#components)
    - [Header](#header)
-   - [Footer](#footer)
+   - [Identifier](#identifier)
 1. [Layouts](#layouts)
    - [Default](#layout-default)
    - [Page](#layout-page)
@@ -105,7 +106,7 @@ To reference a specific version of this theme:
 
 ## Configuration
 
-Configuration of common elements ([header](#header), [footer](#footer), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
+Configuration of common elements ([header](#header), [identifier](#identifier), [navigation](#navigation), etc.) happens in your project's [data files](https://jekyllrb.com/docs/datafiles/). See this project's [data directory](_data) for reference configurations of each component.
 
 The [default layout](#layout-default) also provides a mechanism for automatically including [stylesheets](#stylesheets) and [scripts](#scripts) on a site-wide, layout-wide, and per-page basis. See [asset load order](#asset-load-order) for more information.
 
@@ -145,7 +146,7 @@ primary:
     links: <links>
 ```
 
-This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [footer](#footer). See the documentation for those components for more info.
+This scheme allows you to define navigational elements that can be shared by different components, such as the [header](#header) and [sidenav](#Page-subnavigation). See the documentation for those components for more info.
 
 ### Page title
 
@@ -176,7 +177,7 @@ subnav:
 ## Section two
 ```
 
-As with the [header](#header) and [footer](#footer), the `sidenav` field may either reference a common [navigation list](#navigation) from `_data/navigation.yml` (recommended) or be a literal list of links.
+As with the [header](#header), the `sidenav` field may either reference a common [navigation list](#navigation) from `_data/navigation.yml` (recommended) or be a literal list of links.
 
 The `subnav` field should be used to link to sections _within_ the current page, because links to other pages will cause the linking page's side navigation to collapse when visited.
 
@@ -294,10 +295,12 @@ To add a user feedback form, create a new survey through [Touchpoints](https://t
 
 To show the last date a page was last modified by:
 
-1. Add this line to the `footer.yml` data file:
+1. Add these lines to the `edit-page.yml` data file:
 
     ```yml
-    last_updated: true
+    last_modified:
+      display_date: true
+      date_format: '%B %d, %Y'
     ```
 
 1. Add the following to your `Gemfile`:
@@ -308,7 +311,17 @@ To show the last date a page was last modified by:
     end
     ```
 
-This will add the date right before the footer component.
+This will add the date right before the identifier component.
+
+### Edit page
+To add a link which will allow visitors to submit edits to the current page via GitHub, add the following lines to to the `edit-page.yml` data file:
+
+```yml
+edit_page:
+  display_link: true
+  text: "Edit this page"
+```
+This will add the edit link right before the identifier component.
 
 ### Anchor JS
 
@@ -426,12 +439,10 @@ The [header.html include](_includes/header.html) sets the `header` template vari
 
 See this repo's [header.yml](_data/header.yml) for more info.
 
-### Footer
+### Identifier
 
-The [footer.html include](_includes/footer.html) sets the `footer` template variable to `site.data.footer`, the value of which is set in your Jekyll project's `_data/footer.yml` file. Then it includes [components/footer.html](_includes/components/footer.html) to
-render the footer's markup.
-
-See this repo's [footer.yml](_data/footer.yml) for more info.
+The [components/identifier.html include](_includes/components/identifier.html) sets the `identifier` template variable to `site.data.identifier`, the value of which is set in your Jekyll project's `_data/identifier.yml` file.
+See this repo's [identifier.yml](_data/identifier.yml) for more info.
 
 ## Layouts
 
@@ -548,9 +559,6 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
    --> header.yml
    type: [basic | basic-mega | extended | extended-mega]
 
-   --> footer.yml
-   type: [slim | default | big]
-
    --> theme.yml (examples)
    colors:
      usa-banner:
@@ -592,13 +600,6 @@ See [this example pull request](https://github.com/18F/before-you-ship/pull/458)
        side-nav-link-hover: 'primary-dark'
        side-nav-link-hover-bg: 'base-lightest'
        side-nav-link-current: 'primary-dark'
-     footer:
-       primary-footer-bg: 'base-lightest'
-       primary-footer-link: 'ink'
-       footer-bg: 'base-lighter'
-       footer-text: 'ink'
-       footer-link: 'ink'
-       footer-social-link: 'black-transparent-10'
 
    ```
 

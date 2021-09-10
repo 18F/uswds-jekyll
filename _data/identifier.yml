@@ -1,0 +1,76 @@
+# This is the configuration for the site identifier.
+
+# Primary language [en/es]
+lang: en
+# Domain
+domain: domain.gov
+masthead:
+  # Parent agency
+  parent:
+    name:
+      en: "[Parent agency]"
+      es: "[Parent agency]"
+    # Parent agency shortname
+    shortname: "[Parent shortname]"
+    # Parent agency homepage link
+    url:
+      en: javascript:void(0);
+      es: javascript:void(0);
+    # Parent agency logo path [/path/to/logo.svg]
+    logo: default
+  # Other related agency name
+  agency:
+    name:
+      en:
+      es:
+    # Other related agency shortname
+    shortname:
+    # Other related agency homepage link
+    url:
+      en:
+      es:
+    # Other related agency logo path [/path/to/logo.svg]
+    logo:
+  taxpayer_disclaimer:
+    # Show taxpayer disclaimer [true/false]
+    display: false
+required_links:
+  links:
+    about:
+      # Parent agency About page link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    accessibility:
+      # Parent agency Accessibility resources page link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    foia:
+      # Parent agency FOIA link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    no_fear:
+      # Parent agency Equal Employment link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    oig:
+      # Parent agency OIG link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    performance:
+      # Parent agency Performance data and reports link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+    privacy:
+      # Most relevant Privacy page link
+      url:
+        en: javascript:void(0);
+        es: javascript:void(0);
+usagov:
+  # Show USAGov link [true/false]
+  display: true
