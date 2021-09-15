@@ -11,7 +11,7 @@ For system downtime information see the [System Downtime page](/downtime/) for p
 
 ## 15-September-2021 Planned connectivity outages at various SCINet locations
 
-GNOC plans to upgrade the OS on the SCINet gear at the 6 locations. This will result in connectivity interruptions during the upgrade. The schedule upgrade schedule is the following:
+GNOC plans to upgrade the OS on the SCINet gear at the 6 locations. This will result in connectivity interruptions during the upgrade. The upgrade schedule is the following:
 
 Albany - 9/15 10AM CT
 
