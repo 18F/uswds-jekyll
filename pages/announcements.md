@@ -13,7 +13,7 @@ For system downtime information see the [System Downtime page](/downtime/) for p
 
 GNOC plans to upgrade the OS on the SCINet gear at the 6 locations. This will result in connectivity interruptions during the upgrade. The upgrade schedule is the following:
 
-Albany - 9/15 10AM CT
+Albany - 9/16 8AM PT
 
 Clay Center - 9/16 4PM CT
 
