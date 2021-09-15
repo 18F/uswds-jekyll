@@ -9,6 +9,17 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 15-September-2021 Planned connectivity outages at various SCINet locations
+
+GNOC plans to upgrade the OS on the SCINet gear at the 6 locations. This will result in connectivity interruptions during the upgrade. The schedule upgrade schedule is the following:
+
+Albany - 9/15 10AM CT
+Clay Center - 9/16 4PM CT
+Ames - 9/17 8AM CT
+Stoneville - 9/20 8AM CT
+NAL - 9/20 3PM CT
+CSU - 9/21 9AM CT
+
 ## 27-July-2021 No SCINet priority node purchases this year  
   
 We will not be making priority node purchases through the SCINet Program this year. We added a large number of nodes to Ceres in the past several years that either replaced older, less reliable nodes or were new nodes that increased our overall capacity. In addition, we brought the Atlas Cray computer online at Mississippi State University, and we will be adding a backup storage system at the National Ag Library in the next month.   
