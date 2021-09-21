@@ -9,6 +9,30 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+## 21-September-2021 More SCINet Network Hardware OS Updates
+
+**9/22/2021**
+
+Stoneville: Upgrade OS on hardware starting at 1300 UTC (O800 CT)
+
+Ames: Complete upgrade on router at 1530 (1030 CT)
+
+Clay Center: Upgrade OS on hardware starting at 2000 UTC (1500 CT)
+
+ 
+**9/23/2021**
+
+NAL: Upgrade OS on hardware starting at 1900 UTC (1500 ET
+ 
+
+**9/24/2021** Dependent on Wednesday and Thursday’s progress
+
+Fort Collins: Upgrade OS on hardware. TBD
+
+Albany: Finish up the upgrade on the router only. TBD
+
+ 
+
 ## 15-September-2021 Planned connectivity outages at various SCINet locations
 
 GNOC plans to upgrade the OS on the SCINet gear at the 6 locations. This will result in connectivity interruptions during the upgrade. The upgrade schedule is the following:
