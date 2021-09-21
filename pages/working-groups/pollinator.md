@@ -1,12 +1,10 @@
 ---
-title: Pollinator Research Working Group
+title: SCINet Pollinator Working Group
 description: summary of the working group
 permalink: /working-groups/pollinator
 author: Melanie Kammerer
 layout: page
 ---
-
-SCINet Pollinator Working Group
 
 The SCINet Pollinator working group was initiated in February 2021 with a goal of promoting coordinated, computational research on managed and native pollinators. The group focuses on 1) illustrating the utility of large datasets for understanding and mitigating pollinator stressors and declines 2) facilitating interdisciplinary communication on quantitative methods applicable to pollinator research and 3) connecting USDA-ARS researchers and collaborators to high-performance computing and human resources available through SCINet.
 
