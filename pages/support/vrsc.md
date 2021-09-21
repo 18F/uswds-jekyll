@@ -54,7 +54,7 @@ Discussion that is relevant to other SCINet users such as questions about the be
 
 If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 
-Single user operational questions should be emailed to the VRSC at [Ceres](mailto:scinet_vrsc@iastate.edu) or [Atlas](mailto:help-usda@hpc.msstate.edu), for example:
+Single user operational questions should be emailed to the VRSC at [Ceres](mailto:scinet_vrsc@usda.gov) or [Atlas](mailto:help-usda@hpc.msstate.edu), for example:
 
 * I can’t login
 * I’m having problems with a batch script
