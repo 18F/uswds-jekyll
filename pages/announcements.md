@@ -22,7 +22,7 @@ Clay Center: Upgrade OS on hardware starting at 2000 UTC (1500 CT)
  
 **9/23/2021**
 
-NAL: Upgrade OS on hardware starting at 1900 UTC (1500 ET
+NAL: Upgrade OS on hardware starting at 1900 UTC (1500 ET)
  
 
 **9/24/2021** Dependent on Wednesday and Thursday’s progress
