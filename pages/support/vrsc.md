@@ -6,7 +6,7 @@ author: Kerrie Geil
 layout: page
 ---
 
-The Virtual Research Support Core (VRSC) is comprised of ARS personnel and contract personnel at Iowa State University. The VRSC manages the day-to-day operations and maintenance of the Ceres HPC system and is also involved with the networking aspects of SCINet. The VRSC is staffed by talented IT administrators and engineers with expertise in high-performance computing system and network engineering, operations, maintenance, and administration.
+The Virtual Research Support Core (VRSC) is comprised of ARS personnel and contract personnel at Iowa State University and Mississippi State University. The VRSC manages the day-to-day operations and maintenance of the Ceres and Atlas HPC systems and is also involved with the networking aspects of SCINet. The VRSC is staffed by talented IT administrators and engineers with expertise in high-performance computing system and network engineering, operations, maintenance, and administration.
 
 Additionally, the VRSC provides research IT support, computational expertise in various research domains, and support for SCINet-funded workshops/training for SCINet users.
 
@@ -50,11 +50,11 @@ The SCINet initiative funds various workshops and training events annually ([App
 
 ## How and When to Contact the VRSC
 
-Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) message board. Access to Basecamp is provided during the SCINet account application process ([Apply for an Account](/signup/)).
+Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet Forum](https://forum.scinet.usda.gov/) message board. Access to the Forum is provided during the SCINet account application process ([Apply for an Account](/signup/)).
 
 If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 
-Single user operational questions, including Galaxy questions, should be emailed to the VRSC [scinet_vrsc@iastate.edu](mailto:scinet_vrsc@iastate.edu), for example:
+Single user operational questions should be emailed to the VRSC at [Ceres](mailto:scinet_vrsc@iastate.edu) or [Atlas](mailto:help-usda@hpc.msstate.edu), for example:
 
 * I can’t login
 * I’m having problems with a batch script
