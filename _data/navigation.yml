@@ -91,6 +91,8 @@ primary:
         href: /working-groups/webdev
       - text: Workbook Developers
         href: /working-groups/workbooks
+      - text: Pollinator
+        href: /working-groups/pollinator
   - text: Training
     links:
       - text: Overview
