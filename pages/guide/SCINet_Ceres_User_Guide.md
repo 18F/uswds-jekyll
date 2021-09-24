@@ -154,7 +154,7 @@ If you have forgotten your login password, please email the VRSC: [scinet_vrsc@U
 
 ## File Transfers
 * Given the space and access limitations of a home directory, large amounts of data or data that will be used collaboratively should be transferred to a project directory (see section [Quotas on Home and Project Directories](#quotas-on-home-and-project-directories))
-* Please use one of the data transfer node, e.g. ceres-dtn-1.scinet.usda.gov, instead of the login node to transfer data to/from the cluster. 
+* Please use the data transfer node, ceres-dtn.scinet.usda.gov, instead of the login node to transfer data to/from the cluster. 
 * If you have to transfer very large amounts of data or if network speed at your location is slow, please submit a request to the Virtual Research Support Core (VRSC) to ingress data from a hard drive as described below (section [Large Data Transfers](#large-data-transfers)).
 * If you have issues with transferring data, please contact the VRSC at [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV?subject=help%20with%20transferring%20data).
 
@@ -169,12 +169,12 @@ To transfer data when logged in to your local machine (the destination filenames
 
 1. Transfer To SCINet:
 ```
-$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
+$ scp <PathToSourceFolderOnLocalResource>/<LocalFilename> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>/[<RemoteFilename>]
 ```
 
 2. Transfer From SCINet:
 ```
-$ scp <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
+$ scp <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToSourceFolderOnSCINet>/<RemoteFilename> ~/<PathToDestinationFolderOnLocalResource>/[<LocalFilename>]
 ```
 
 To transfer data when logged in to SCINet (the destination filenames are optional):
@@ -192,7 +192,7 @@ $ scp <PathToSourceFolderOnSCINet>/<LocalFilename> <Username>@<RemoteServer>:/<P
 To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
 
 ```
-$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn-0.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
+$ scp -r <PathToSourceFolderOnLocalResource> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<PathToDestinationFolderOnSCINet>
 ```
 
 You can type the following to view the full set of options and their descriptions:
