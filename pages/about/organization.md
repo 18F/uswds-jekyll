@@ -12,7 +12,7 @@ layout: page
 * [Executive committee](#executive-committee)
 * [Scientific Advisory Committee](#scientific-advisory-committee)
 * [Policy Committee](#policy-committee)
-* [Scientific points of contact](#scientific-points-of contact)
+* [Scientific points of contact](#scientific-points-of-contact)
 
 
 # About SCInet
