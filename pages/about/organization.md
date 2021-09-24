@@ -110,8 +110,9 @@ Rob Butler | Acting SCINet Project Manager
 
 ## Scientific points of contact
 
-We are updating our Scientific points of contact for each location. Information will be here shortly.
+The Scientific Point of Contact (SPOC) is the Scientific Computing Infrastructure Network (SCINet) champion for the location. Working with the SCINet Operations Team, the Scientific Advisory Committee (SAC) and the SAC subcommittees to ensure location personnel are familiar with SCINet and the services that are offered, the SPOC should be familiar with the scientific needs of the unit(s) at their location, especially with respect to complex data and computational needs. When the SCINet Operations Team needs information about the science requirements and needs at a location, they will contact the SPOC who is expected to interact with other scientists within the location to provide the information and recommendations to the requesting party.
 
+The list of SPOC can be found on the [USDA Sharepoint Site](https://usdagcc.sharepoint.com/:x:/r/sites/REE-ARS-SCINet-Scientific-Advisory-Committee/Shared%20Documents/Membership/SPOC_SCINetOrg_23Sept2021.xlsx?d=w7df900cb464e4864aa4a514b3abdbb2b&csf=1&web=1&e=ilTRb2).
 
 <!---------------------------------------------------------------------------------------
 WAITING FOR A FEW DEVELOPMENTS IN THE SCINET PROGRAM TO OCCUR, THEN NEED TO EDIT THE TEXT BELOW AND REPLACE THE INFORMATION ON THIS PAGE ENTIRELY
