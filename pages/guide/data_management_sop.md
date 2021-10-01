@@ -18,6 +18,7 @@ This document describes recommended procedures for managing data on ARS HPC and 
 
 
 ![Schematic diagram of recommended data management workflow using Globus.](/assets/img/data_management_sop-fig_1.png)
+*Figure 1. Recommended procedures for managing data on ARS HPC infrastructure using Globus.*
 
 # Definitions
 * **Juno:** Large, multi-petabyte ARS storage device at the National Agricultural Library in Maryland, accessed by users; periodically backed up to tape device.  Includes periodic file system snapshots that allow users to recover accidentally deleted files.
