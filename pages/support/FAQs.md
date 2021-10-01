@@ -129,7 +129,7 @@ New password:
 Retype new password:
 passwd: all authentication tokens updated successfully.
 ```
-The video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x) on SCINet VRSC Basecamp demonstrates the process.
+<!--------------The video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x) on SCINet VRSC Basecamp demonstrates the process.-->
 
 If you have forgotten your login password, please email the VRSC: scinet_vrsc@usda.gov
 
