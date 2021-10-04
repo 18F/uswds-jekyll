@@ -14,7 +14,7 @@ layout: page
 
 # Overview
 
-This document describes recommended procedures for managing data on ARS HPC and storage infrastructure. The key concept is to only use “Tier 1 storage” (that is, storage that is local to a given HPC cluster) as required for actively running compute jobs. Tier 1 storage is not backed up and should not be used for archival purposes. Juno, on the other hand, is periodically backed up to tape and can be used for long-term storage of data and results.  We recommend immediate adoption of the procedures described here for new projects. These procedures should also be followed for “old” projects after first moving extant project data in Tier 1 storage to Juno using one of the procedures described below.
+This document describes recommended procedures for managing data on ARS HPC and storage infrastructure. The key concept is to only use “Tier 1 storage” (that is, storage that is local to a given HPC cluster) as required for actively running compute jobs. Tier 1 storage is not backed up and should not be used for archival purposes. Juno, on the other hand, is periodically backed up to tape and can be used for long-term storage of data and results.  We recommend immediate adoption of the procedures described here for new projects. These procedures should also be followed for “old” projects after first moving extant project data in Tier 1 storage to Juno using one of the procedures described below.  If you would like more detailed information about the data storage options provided by SCINet and how to use them, please see the [SCINet Storage Guide](/guide/storage/).
 
 
 ![Schematic diagram of recommended data management workflow using Globus.](/assets/img/data_management_sop-fig_1.png)
@@ -28,9 +28,9 @@ This document describes recommended procedures for managing data on ARS HPC and 
 
 # Detailed instructions, using Globus (preferred)
 
-Using Globus is recommended for file transfer performance and reliability. The recommended data management workflow using Globus is illustrated in Figure 1.
+Using Globus is recommended for file transfer performance and reliability. The recommended data management workflow using Globus is illustrated in Figure 1, above.
 
-See the SCINet [Globus Data Transfer guide](https://scinet.usda.gov/guide/file-transfer/#globus-data-transfer) for instructions on how to use Globus.[WN4] [SBRABM5] 
+See the SCINet [Globus Data Transfer guide](https://scinet.usda.gov/guide/file-transfer/#globus-data-transfer) for instructions on how to use Globus.
 
 1. Copy raw data and custom software (e.g., custom scripts, ideally also versioned in Git repositories; conda environments/environment.yml, Singularity image/definition files) from a local workstation or other data source to a project directory on Juno using Globus (search for Globus collection “NAL DTN 0”) (Figure 1.1).  On Juno, the data should be copied to `/LTS/project/PROJNAME/`.
 1. If not already there, copy data to Tier 1 storage on the cluster you will run on, either Ceres or Atlas, using Globus.  This will either be in `/project` or into scratch space in `/90dayadata` for short-term use (Figure 1.2).
