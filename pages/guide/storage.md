@@ -7,6 +7,7 @@ layout: page
 ---
 
 #### Table of Contents
+* [Introduction](#introduction)
 * [Ceres HPC Cluster](#ceres-hpc-cluster)
   * [Quotas](#quotas)
   * [Home Directories](#home-directories) (/home/firstname.lastname)
@@ -19,6 +20,12 @@ layout: page
   * [Atlas Project Directories](#atlas-project-directories) (/project/project_name)
   * [Atlas Large Short-term Storage](#atlas-large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
 * [Archive Storage at NAL](#archive-storage-at-nal)
+
+
+# Introduction
+
+This document provides detailed information about the storage options provided by SCINet and how to use them.  For a simpler overview of suggested procedures for managing data on SCINet, please see [Managing Data on ARS HPC and Storage Infrastructure](/guide/data_management_sop/).
+
 
 # Ceres HPC Cluster
 
