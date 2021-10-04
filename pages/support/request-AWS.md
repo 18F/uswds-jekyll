@@ -21,7 +21,7 @@ This includes requests for additional funding.
 ## To Request a New SCINet-funded AWS Project 
 Fill out an application form (eAuthentication required, non-ARS users should contact their sponsor)
 
-[Request AWS Project](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/SCINet-AWS-Project-Request.aspx){: .usa-button .usa-button-big }
+[Request AWS Project](https://usda-scinet.atlassian.net/servicedesk/customer/portal/4/group/13/create/64){: .usa-button .usa-button-big }
 
-Requests will be reviewed and projects funded based on criteria such as suitability for AWS versus other SCINet computing resources (e.g., Ceres), resource requirements estimated from the project description, and availability of SCINet funding.
+Requests will be reviewed and projects funded based on criteria such as suitability for AWS versus other SCINet computing resources (e.g., Ceres, Atlas), resource requirements estimated from the project description, and availability of SCINet funding.
 
