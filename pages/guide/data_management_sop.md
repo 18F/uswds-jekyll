@@ -23,7 +23,7 @@ This document describes recommended procedures for managing data on ARS HPC and 
 # Definitions
 * **Juno:** Large, multi-petabyte ARS storage device at the National Agricultural Library in Maryland, accessed by users; periodically backed up to tape device.  Includes periodic file system snapshots that allow users to recover accidentally deleted files.
 * **Tape backup:** Off-site backup of Juno, located at Mississippi State University, accessible by VRSC staff for disaster recovery following major system data loss.
-* **Tier 1 Storage:** Project-specific working directory (/project/) and scratch disk (/90daydata/) on either of of the HPC clusters, local to computing resources at the National Centers for Animal Health in Ames, Iowa or Mississippi State University. These locations are for storing intermediate results while performing a series of computational jobs. This storage is not backed up.
+* **Tier 1 Storage:** Storage on either of the HPC clusters, local to computing resources at the National Centers for Animal Health in Ames, Iowa or Mississippi State University. These locations are for storing code, data, and intermediate results while performing a series of computational jobs. This storage is not backed up. Two storage locations are available on each HPC cluster, `/project` and `/90daydata`. Historically, space had routinely been allocated in `/project`, but going forward, space in `/project` will only be allocated on an as-needed basis. Most users should use `/90daydata` for routine Tier 1 storage.
 
 
 # Detailed instructions, using Globus (preferred)
@@ -33,7 +33,7 @@ Using Globus is recommended for file transfer performance and reliability. The r
 See the SCINet [Globus Data Transfer guide](https://scinet.usda.gov/guide/file-transfer/#globus-data-transfer) for instructions on how to use Globus.
 
 1. Copy raw data and custom software (e.g., custom scripts, ideally also versioned in Git repositories; conda environments/environment.yml, Singularity image/definition files) from a local workstation or other data source to a project directory on Juno using Globus (search for Globus collection “NAL DTN 0”) (Figure 1.1).  On Juno, the data should be copied to `/LTS/project/PROJNAME/`.
-1. If not already there, copy data to Tier 1 storage on the cluster you will run on, either Ceres or Atlas, using Globus.  This will either be in `/project` or into scratch space in `/90dayadata` for short-term use (Figure 1.2).
+1. If not already there, copy data to Tier 1 storage on the cluster you will run on, either Ceres or Atlas, using Globus.  For most projects, you should use `/90dayadata` for routine, short-term storage (Figure 1.2).  There are no storage quotas on `/90daydata`, so it is ideal for data-intensive work.  For projects that require longer-term use of Tier 1 storage, space can be requested in `/project`.  However, please note that _no_ data on Tier 1 storage is backed up.
 1. Use ssh to log in to your chosen HPC cluster (Ceres or Atlas; see [Logging in to SCINet](https://scinet.usda.gov/guide/ceres/#logging-in-to-scinet)); (e.g.:
 ```
 ssh FIRST.LAST@ceres.scinet.usda.gov
@@ -41,7 +41,7 @@ ssh FIRST.LAST@ceres.scinet.usda.gov
 ) and run your compute job (Figure 1.3).
 1. Copy any results you need to keep to Juno so that they are preserved (Figure 1.4).
 1. If desired, you can also copy results to your local workstation (Figure 1.5). 
-Note that step 1 might not be necessary for all data used for a project. For example, suppose you need to use a large, publicly available satellite-derived dataset for a project. In this case, the data probably do not need to be stored on Juno and can simply be placed directly on Tier 1 storage and deleted when they are no longer needed.
+Note that step 1 might not be necessary for all data used for a project. For example, suppose you need to use a large, publicly available satellite-derived dataset for a project. In this case, the data probably do not need to be stored on Juno and can simply be placed directly in `/90daydata` on Tier 1 storage and deleted when they are no longer needed.
 
 
 # Alternative instructions, not using Globus
