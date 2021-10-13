@@ -12,7 +12,6 @@ layout: page
   * [Quotas](#quotas)
   * [Home Directories](#home-directories) (/home/firstname.lastname)
   * [Project Directories](#project-directories) (/project/project_name)
-  * [KEEP](#keep) (/KEEP/project_name)
   * [Large Short-term Storage](#large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
   * [Temporary Local Node Storage](#temporary-local-node-storage) ($TMPDIR)  
 * [Atlas HPC Cluster](#atlas-hpc-cluster)
@@ -31,11 +30,11 @@ This document provides detailed information about the storage options provided b
 
 There are multiple places to store data on the Ceres cluster that all serve different purposes. 
 
-Most users will only use home directories and project directories in /project and /KEEP.
+Most users will only use home directories and project directories in /project.
 
 ## Quotas
 
-Home directories and directories in `/project`  and `/KEEP` have quotas. Current usage and quotas for home and project 
+Home directories and directories in `/project` have quotas. Current usage and quotas for home and project 
 directories that user belongs to are displayed at login. The `my_quotas` command provides the same information.
 
 Quotas on Ceres are based off file group ownership/association. By default files in a home directory are associated with the user's
@@ -71,9 +70,6 @@ To request a new project directory see [Request Project Storage](/support/reques
 
 [Request a project directory](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Project_Allocation_Request.aspx){: .usa-button }
 
-Directories in `/project` are not backed up, however users can copy important data from a directory in `/project` to a 
-corresponding directory in `/KEEP` that is backed up nightly. User should not run jobs from a directory in `/KEEP`.
-
 Many software applications are available on Ceres as [modules](https://scinet.usda.gov/guide/ceres/#modules), however sometimes 
 users need to install software by themselves. Since home directories have a small quota, it is recommended to install software, 
 such as Python, Perl, R packages and conda virtual environments in `/projectproject_name`. 
@@ -82,20 +78,12 @@ on how to install conda virtual environments in `/project`, while
 [Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
 installing packages in a project directory.
 
-## KEEP
-
-`/KEEP` is used to keep important data. Like in `/home`, 
-files in `/KEEP` are automatically compressed and backed up. It is recommended to copy important data from a directory in 
-`/project` to a corresponding directory in `/KEEP`. Note, that due to backup method used on Ceres, space freed after deleting files 
-in directories in `/KEEP`, becomes available only after 6 days.
-
-
 ## Large Short-term Storage
 
 Most users will run computations from `/project/project_name`. Project directories in `/project` have large quotas, however sometimes 
 users need even more space for a short period of time. In this case computations can be run from `/90daydata/project_name` which does 
 not have quota. However, files in `/90daydata` older than 90 days will be automatically deleted. This is permanent and the files cannot 
-be recovered. Just like `/project` there is no backup for this space. If you need to keep something, copy data to `/KEEP/project_name`.
+be recovered. Just like `/project` there is no backup for this space.
 
 `/90daydata/shared` is open to all users on Ceres. Anyone can create a directory in `/90daydata/shared` and put data which will be readable 
 by everyone on the system unless file owner limits access using `chmod` command. Files older than 90 days will be automatically deleted.
@@ -149,15 +137,14 @@ Project directories on Atlas are located in `/project`. Same project directory n
 these directories may differ. For each project directory on Ceres, a directory with the same name is created in `/project` on Atlas. Default quota for
 `/project/project_name` is set to 1TB. Contact SCINet VRSC at scinet_vrsc@usda.gov if more space is needed. 
 
-As on Ceres, directories in `/project` are not backed up. Users can copy important data from a directory in `/project` on Atlas to a 
-corresponding directory in [`/KEEP`](#keep) on Ceres that is backed up nightly.
+As on Ceres, directories in `/project` are not backed up.
 
 ## Atlas Large Short-term Storage
 
 Most users will run computations from `/project/project_name`. Project directories in `/project` have large quotas, however sometimes 
 users need even more space for a short period of time. In this case computations can be run from `/90daydata/project_name` which does 
 not have quota. However, files in `/90daydata` older than 90 days will be automatically deleted. This is permanent and the files cannot 
-be recovered. Just like `/project` there is no backup for this space. If you need to keep something, copy data to `/KEEP/project_name` on Ceres.
+be recovered. Just like `/project` there is no backup for this space.
 
 `/90daydata/shared` is open to all users on Atlas. Anyone can create a directory in `/90daydata/shared` and put data which will be readable 
 by everyone on the system unless file owner limits access using `chmod` command. Files older than 90 days will be automatically deleted.
