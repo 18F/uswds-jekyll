@@ -1,5 +1,5 @@
 ---
-title: "SCINet Standard Operating Procedure: Managing Data on ARS HPC and Storage Infrastructure"
+title: "SCINet Standard Operating Procedure (SOP): Managing Data on ARS HPC and Storage Infrastructure"
 description: Suggested best practices for managing data on SCINet infrastructure
 permalink: /guide/data_management_sop/
 author: Brian Stucky et al.
