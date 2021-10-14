@@ -12,6 +12,7 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 |---|---|---|---|---|
 |Introduction to Atlas | 28 Sept 2021 | 10:30-11:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 |Introduction to Atlas | 28 Oct 2021 | 2:30-3:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
+|SCINet-AI COE Fellows Conference | 9-10 Nov 2021 | 9:30-4:30 ET | Zoom | For more information, email scinet-training@usda.gov |
 |Introduction to Atlas | 17 Nov 2021 | 10:30-11:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 |Introduction to Atlas | 15 Dec 2021 | 2:30-3:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 
