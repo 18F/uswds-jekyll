@@ -1,7 +1,7 @@
 ---
 title: SCINet and AI COE Fellows Conference 2021
 description: SCINet and AI COE Fellows Conference 2021
-permalink: /guide/scinetceresfaq/
+permalink: /pages/opportunities/fellowsconference
 author: Delanie Johnson
 layout: page
 ---
