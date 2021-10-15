@@ -18,7 +18,7 @@ layout: page
   * [Atlas Home Directories](#atlas-home-directories) (/home/firstname.lastname)
   * [Atlas Project Directories](#atlas-project-directories) (/project/project_name)
   * [Atlas Large Short-term Storage](#atlas-large-short-term-storage) (/90daydata/project_name and /90daydata/shared)
-* [Archive Storage at NAL](#archive-storage-at-nal)
+* [Juno Archive Storage](#juno-archive-storage)
 
 
 # Introduction
@@ -34,8 +34,8 @@ Most users will only use home directories and project directories in /project.
 
 ## Quotas
 
-Home directories and directories in `/project` have quotas. Current usage and quotas for home and project 
-directories that user belongs to are displayed at login. The `my_quotas` command provides the same information.
+Home directories and directories in `/project` have quotas. To see the current usage and quotas for your home and project 
+directories issue the `my_quotas` command.
 
 Quotas on Ceres are based off file group ownership/association. By default files in a home directory are associated with the user's
 primary group that has the same name as the user name, while files in a project directory are associated with the project
@@ -72,11 +72,13 @@ To request a new project directory see [Request Project Storage](/support/reques
 
 Many software applications are available on Ceres as [modules](https://scinet.usda.gov/guide/ceres/#modules), however sometimes 
 users need to install software by themselves. Since home directories have a small quota, it is recommended to install software, 
-such as Python, Perl, R packages and conda virtual environments in `/projectproject_name`. 
+such as Python, Perl, R packages and conda virtual environments in `/project/project_name`. 
 The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions 
 on how to install conda virtual environments in `/project`, while 
 [Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
 installing packages in a project directory.
+
+Directories in /project are not automatically backed up. Data that cannot be easily reproduced should be manually copied to the Long Term Storage (LTS) on [Juno](#juno-archive-storage).
 
 ## Large Short-term Storage
 
@@ -152,3 +154,7 @@ by everyone on the system unless file owner limits access using `chmod` command.
 Warning: If you download archived files, they may contain files with an access date from long ago. This date will still trigger deletion, 
 so make sure that the files have a new access date. For example, when you untar a .tar or .tgz file, use the `-m` flag. If you use `rsync` to 
 the space, do not use the `-a` flag, as that preserves date stamps.
+
+# Juno Archive Storage
+
+Project directories are not meant to be used as a data archive. Data that cannot be easily reproduced should be manually backed up to Juno. Juno is a large, multi-petabyte ARS storage device at the National Agricultural Library in Maryland. For instructions on how to transfer data to and from Juno, see [Managing Data on ARS HPC and Storage Infrastructure](/guide/data_management_sop/)
