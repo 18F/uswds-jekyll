@@ -238,7 +238,6 @@ Storage | Path
 --------|-----
 HOME | /home/user.name
 PROJECT | /project
-KEEP (on Ceres only) | /keep
 --------|------
 
 ## Quotas
@@ -258,7 +257,7 @@ To request a new project directory see [Request Project Storage](/support/reques
 
 Users may not need to request a new project directory if they're working with someone who already has a project directory. Instead the manager of the existing project directory will need to request access to the project directory for additional users by emailing [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov?subject=add%20to%20project)
 
-Directories in `/project` are not backed up, however users can copy important data from a directory in `/project` to a corresponding directory in `/KEEP` on Ceres that is backed up nightly. It is not recommended to run jobs from a directory in `/KEEP`.
+Directories in `/project` are not backed up, and it is not recommended to run jobs from a directory in `/KEEP`.
 
 
 # Data Transfer
@@ -434,13 +433,9 @@ Command	|Description	|Examples
 # Building Your Own Tools
 
 Users can build and use their own tools. It is recommended to compile on compute nodes, and not on the login node.
-In addition, since home directories have a small quota, it is recommended to install software,
-such as Python, Perl, R packages and conda virtual environments in `/KEEP/project_name`.
-The [Conda Guide](https://scinet.usda.gov/guide/conda/#example-2-installing-tensorflow-into-a-keep-directory) provides instructions
-on how to install conda virtual environments in `/KEEP`, while
-[Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
-installing packages in a project directory.
 
+The[Guide to Installing R, Python, and Perl Packages](https://scinet.usda.gov/guide/packageinstall/) has examples of
+installing packages in a project directory.
 
 # SCINet Citation/Acknowledgment in Publications
 
