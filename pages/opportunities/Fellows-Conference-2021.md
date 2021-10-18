@@ -23,7 +23,7 @@ Photo |Fellow Name | Fellow CV | Conference Content
 ![](/assets/img/team-images/keo-corak.jpg) | Keo Corak, breeding informatics | CV, to be added | TBA |
 ![](/assets/img/team-images/alicia-foxx.png) | Alicia Foxx, plant microbiome | CV, to be added | Variability accounting methods in metagenomic and amplicon meta-analyses|
 ![](/assets/img/team-images/kerrie-geil-300-300.jpg) | Kerrie Geil, climate modelling | CV, to be added | TBA |
-![](/assets/img/team-images/lucas-heintzman.png)  | Lucas Heintzman, ecological connectivity modelling and spatial statistics | CV, to be added | TBA |
+![](/assets/img/team-images/lucas-heintzman.png)  | Lucas Heintzman, ecological connectivity modelling and spatial statistics | [CV](https://drive.google.com/file/d/1uVq0Su0fWngLnzFM2bbZ42QNvRnP7Ogw/view) | TBA |
 ![](/assets/img/team-images/amy-hudson.png) | Amy Hudson, climate science, disease ecology, phenology |CV, to be added | TBA |
 ![](/assets/img/team-images/kammerer_userstory2.png) | Melanie Kammerer, pollinator and spatial ecology | CV, to be added | Putting flowers on the map: quantifying landscape floral resources for bees |
 ![](/assets/img/team-images/andrew-oliver.jpg) | Andrew Oliver, nutrition and the human microbiome | [CV](https://drive.google.com/file/d/1ahre-c5Cis4wxqHcj1jO5I6-Z_83hXSA/view) | TBA |
