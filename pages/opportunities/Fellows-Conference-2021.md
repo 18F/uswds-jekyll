@@ -18,7 +18,7 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 Photo |              Fellow          |
 -------------|--------------------------|
-![](/assets/img/team-images/michael-alcorn.jpg) | Michael Alcorn<br /> Machine learning and artificial intelligence algorithms<br /> Auburn University <br />AI COE Mentors: Deb Peters & Brian Stucky<br /> [CV](https://sites.google.com/view/michaelaalcorn/cv)<br /> Conference Session: What can AI do for ag? |
+<img src="https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/assets/img/team-images/michael-alcorn.jpg" width="186" height="186"> | Michael Alcorn<br /> Machine learning and artificial intelligence algorithms<br /> Auburn University <br />AI COE Mentors: Deb Peters & Brian Stucky<br /> [CV](https://sites.google.com/view/michaelaalcorn/cv)<br /> Conference Session: What can AI do for ag? |
 ![](/assets/img/team-images/jennifer-chang.jpg) | Jennifer Chang<br /> Bioinformatic workflow developer<br /> Iowa State University <br />SCINet Mentor: Andrew Severin<br /> [CV](http://j23414.github.io/CV.pdf)<br /> Conference Session:  |
 ![](/assets/img/team-images/keo-corak.jpg) | Keo Corak<br /> Breeding informatics<br /> University <br />SCINet Mentor: Amanda Hulse-Kemp<br /> CV<br /> Conference Session:  |
 ![](/assets/img/team-images/alicia-foxx.png) | Alicia Foxx<br /> Plant microbiome<br /> University <br />SCINet Mentor: Adam Rivers<br /> CV<br /> Conference Session: Variability accounting methods in metagenomic and amplicon meta-analyses|
