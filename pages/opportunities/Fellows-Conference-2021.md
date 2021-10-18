@@ -18,13 +18,13 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 Photo |Fellow Name | Fellow CV | Conference Content
 -------------|-------------|----------|-------------|
-![](/assets/img/team-images/michael-alcorn.jpg) | Michael Alcorn, machine learning and artificial intelligence algorithms | [CV](https://sites.google.com/view/michaelaalcorn/cv) | What can AI do for ag? |
-![](/assets/img/team-images/jennifer-chang.jpg) | Jennifer Chang, bioinformatic workflow developer | [CV](http://j23414.github.io/CV.pdf) | TBA |
-![](/assets/img/team-images/keo-corak.jpg) | Keo Corak, breeding informatics | CV, to be added | TBA |
-![](/assets/img/team-images/alicia-foxx.png) | Alicia Foxx, plant microbiome | CV, to be added | Variability accounting methods in metagenomic and amplicon meta-analyses|
-![](/assets/img/team-images/kerrie-geil-300-300.jpg) | Kerrie Geil, climate modelling | CV, to be added | TBA |
-![](/assets/img/team-images/lucas-heintzman.png)  | Lucas Heintzman, ecological connectivity modelling and spatial statistics | [CV](https://drive.google.com/file/d/1uVq0Su0fWngLnzFM2bbZ42QNvRnP7Ogw/view) | TBA |
-![](/assets/img/team-images/amy-hudson.png) | Amy Hudson, climate science, disease ecology, phenology |CV, to be added | TBA |
-![](/assets/img/team-images/kammerer_userstory2.png) | Melanie Kammerer, pollinator and spatial ecology | CV, to be added | Putting flowers on the map: quantifying landscape floral resources for bees |
-![](/assets/img/team-images/andrew-oliver.jpg) | Andrew Oliver, nutrition and the human microbiome | [CV](https://drive.google.com/file/d/1ahre-c5Cis4wxqHcj1jO5I6-Z_83hXSA/view) | TBA |
-![](/assets/img/team-images/shawn-taylor.png) | Shawn Taylor, phenology and image processing | CV, to be added | TBA |
+![](/assets/img/team-images/michael-alcorn.jpg) | Michael Alcorn, machine learning and artificial intelligence algorithms<br /> AI COE Mentors: Deb Peters & Brian Stucky | [CV](https://sites.google.com/view/michaelaalcorn/cv) | What can AI do for ag? |
+![](/assets/img/team-images/jennifer-chang.jpg) | Jennifer Chang, bioinformatic workflow developer<br /> SCINet Mentor: Andrew Severin| [CV](http://j23414.github.io/CV.pdf) | TBA |
+![](/assets/img/team-images/keo-corak.jpg) | Keo Corak, breeding informatics<br /> SCINet Mentor: Amanda Hulse_Kemp | CV, to be added | TBA |
+![](/assets/img/team-images/alicia-foxx.png) | Alicia Foxx, plant microbiome<br /> SCINet Mentor: Adam Rivers | CV, to be added | Variability accounting methods in metagenomic and amplicon meta-analyses|
+![](/assets/img/team-images/kerrie-geil-300-300.jpg) | Kerrie Geil, climate modelling<br /> SCINet Mentor: Deb Peters  | CV, to be added | TBA |
+![](/assets/img/team-images/lucas-heintzman.png)  | Lucas Heintzman, ecological connectivity modelling and spatial statistics<br /> SCINet Mentor: Deb Peters | [CV](https://drive.google.com/file/d/1uVq0Su0fWngLnzFM2bbZ42QNvRnP7Ogw/view) | TBA |
+![](/assets/img/team-images/amy-hudson.png) | Amy Hudson, climate science, disease ecology, phenology<br /> SCINet Mentor: Deb Peters |CV, to be added | TBA |
+![](/assets/img/team-images/kammerer_userstory2.png) | Melanie Kammerer, pollinator and spatial ecology<br /> SCINet Mentor: Sarah Goslee  | CV, to be added | Putting flowers on the map: quantifying landscape floral resources for bees |
+![](/assets/img/team-images/andrew-oliver.jpg) | Andrew Oliver, nutrition and the human microbiome<br /> SCINet Mentor: Danielle Lemay | [CV](https://drive.google.com/file/d/1ahre-c5Cis4wxqHcj1jO5I6-Z_83hXSA/view) | TBA |
+![](/assets/img/team-images/shawn-taylor.png) | Shawn Taylor, phenology and image processing<br /> SCINet Mentor: Dawn Browning | CV, to be added | TBA |
