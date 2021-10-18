@@ -18,7 +18,7 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 Photo |Fellow Name | Fellow CV | Conference Content
 -------------|-------------|----------|-------------|
-![](/assets/img/team-images/michael-alcorn.jpg) | Michael Alcorn, algorithm development in machine learning and artificial intelligence | [CV](https://sites.google.com/view/michaelaalcorn/cv) | What can AI do for Ag? |
+![](/assets/img/team-images/michael-alcorn.jpg) | Michael Alcorn, machine learning and artificial intelligence algorithms | [CV](https://sites.google.com/view/michaelaalcorn/cv) | What can AI do for ag? |
 ![](/assets/img/team-images/jennifer-chang.jpg) | Jennifer Chang, bioinformatic workflow developer | [CV](http://j23414.github.io/CV.pdf) | TBA |
 ![](/assets/img/team-images/keo-corak.jpg) | Keo Corak, breeding informatics | CV, to be added | TBA |
 ![](/assets/img/team-images/alicia-foxx.png) | Alicia Foxx, plant microbiome | CV, to be added | Variability accounting methods in metagenomic and amplicon meta-analyses|
