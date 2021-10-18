@@ -12,7 +12,7 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 # View the Agenda
 
-[Conference 2021 Agenda](/assets/docs/SCINet-AI-COE-Agenda-1015.docx)
+[Conference 2021 Agenda](/assets/docs/SCINet-AI-COE-Agenda-1018.docx)
 
 # Learn more about each of the Fellows. Videos of their talks will be posted after the event.
 
