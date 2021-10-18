@@ -16,8 +16,8 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 ## Learn more about each of the Fellows. Videos of their talks will be posted after the event.
 
-Photo |              Fellow          |
--------------|--------------------------|
+Photo | Fellow  |
+-----------|--------------------|
 <img src="https://github.com/USDA-ARS-GBRU/scinet-site/blob/master/assets/img/team-images/michael-alcorn.jpg?raw=true" width="200" height="200"> | Michael Alcorn<br /> Machine learning and artificial intelligence algorithms<br /> Auburn University <br />AI COE Mentors: Deb Peters & Brian Stucky<br /> [CV](https://sites.google.com/view/michaelaalcorn/cv)<br /> Conference Session: What can AI do for ag? |
 ![](/assets/img/team-images/jennifer-chang.jpg) | Jennifer Chang<br /> Bioinformatic workflow developer<br /> Iowa State University <br />SCINet Mentor: Andrew Severin<br /> [CV](http://j23414.github.io/CV.pdf)<br /> Conference Session:  |
 ![](/assets/img/team-images/keo-corak.jpg) | Keo Corak<br /> Breeding informatics<br /> University <br />SCINet Mentor: Amanda Hulse-Kemp<br /> CV<br /> Conference Session:  |
