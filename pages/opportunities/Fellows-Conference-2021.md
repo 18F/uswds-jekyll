@@ -10,7 +10,7 @@ Fellows funded by SCINet or the AI Center of Excellence through the ORISE Progra
 
 *The SCINet and AI COE Fellows Conference 2021 will be held on November 9-10.*
 
-# View the Adenda
+# View the Agenda
 
 [Conference 2021 Agenda](/assets/docs/SCINet-AI-COE-Agenda-1015.docx)
 
