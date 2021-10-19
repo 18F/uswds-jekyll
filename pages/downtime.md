@@ -26,6 +26,7 @@ The table below lists information about planned SCINet outages. See [SCINet Foru
 | 02/23/2021 | Atlas | All (connections to Atlas) | maintenance |
 | 05/24/2021-05/27/2021 | Ceres | All (connections to Ceres) | maintenance |
 | 08/23/2021-09/01/2021 | Ceres | All (connections to Ceres) | maintenance |
+| 10/19/2021 | Ceres | All (connections to Ceres) | router update |
 | 11/11/2021 | Ceres | All (connections to Ceres) | maintenance |
 
 **Further detail for each outage will be posted in advance of the outage date in the announcements below if availible.**
