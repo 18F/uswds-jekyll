@@ -36,6 +36,7 @@ layout: page
   * [Older Windows Instructions](#from-older-windows-versions)
   * [Mac and Linux Instructions](#from-mac-and-linux)
 * [Password Requirements](#password-requirements)
+* [Frequently Asked Questions](#frequently-asked-questions)
 * [Linux Command Line Interface](#linux-command-line-interface)
 * [Storage](#data-storage)
   * [Quotas](#quotas)
@@ -234,14 +235,17 @@ After updating your password, you will be prompted to answer Yes or No to enteri
 4. Difficult to guess or brute force. Palindromes, passwords containing your username, and other patterns will be denied.
 5. Older passwords CAN NOT be reused.
 
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions
 
 _It didn’t ask me for the Verification Code from Google Authenticator. What do I do?_   
 If you are connected to the VPN, the code will be waived, no need to worry about entering it. 
+
 _I can’t find the .ssh folder when saving my config file. Where is it located?_   
 The .ssh file is usually hidden to you.  You must show all hidden files when saving your file before you will be able to save to the .ssh file. 
+
 _My password/Google Authenticator Verification Code isn’t showing up when I type it. What is wrong?_   
 There is nothing wrong with your terminal, the password and GA Verification Code will never show when you type. That is why it is important to be careful when entering the information. For passwords, copy + paste are extremely helpful to avoid mistakes. 
+
 _After creating my account and changing my temporary password, I was prompted for my cell phone. Should I include this?_   
 It is highly recommended to include your cell phone when setting up your account.  This will be used if you need to perform a self-reset on your Google Authenticator code.  Without the cell phone in your account, you may need to reapply for a SCINet account. 
 
