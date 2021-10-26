@@ -84,7 +84,7 @@ Directories in /project are not automatically backed up. Data that cannot be eas
 
 Most users will run computations from `/project/project_name`. Project directories in `/project` have large quotas, however sometimes 
 users need even more space for a short period of time. In this case computations can be run from `/90daydata/project_name` which does 
-not have quota. However, files in `/90daydata` older than 90 days will be automatically deleted. This is permanent and the files cannot 
+not have quota. However, files with an access time (atime) older than 90 days will be automatically deleted. This is permanent and the files cannot 
 be recovered. Just like `/project` there is no backup for this space.
 
 `/90daydata/shared` is open to all users on Ceres. Anyone can create a directory in `/90daydata/shared` and put data which will be readable 
