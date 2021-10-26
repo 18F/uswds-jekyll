@@ -36,7 +36,6 @@ layout: page
   * [Older Windows Instructions](#from-older-windows-versions)
   * [Mac and Linux Instructions](#from-mac-and-linux)
 * [Password Requirements](#password-requirements)
-* [Quick Start Guide FAQ] (#frequently-asked-questions-(FAQ))
 * [Linux Command Line Interface](#linux-command-line-interface)
 * [Storage](#data-storage)
   * [Quotas](#quotas)
