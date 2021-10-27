@@ -15,7 +15,7 @@ and EdX.  Information about those partnerships and information on courses you ca
 
 ## Workshops
 
-SCINet also sponsors online and in-person workshops on specific topics.  A list of those topics and links to workshop materials can be [found here](https://scinet.usda.gov/opportunities/events).
+SCINet also sponsors online and in-person workshops on specific topics.  Visit the [upcoming](https://scinet.usda.gov/opportunities/events) or [training archive](https://scinet.usda.gov/training-archive/) pages for more information. 
 
 ## The bioinformatics workbook
 
