@@ -29,6 +29,7 @@ The table below lists information about planned SCINet outages. See [SCINet Foru
 | 10/19/2021 | Ceres | All (connections to Ceres) | router update |
 | 10/26/2021 | Ceres, Juno | All (connections to Ceres, Juno) | network update |
 | 10/28/2021 | Ceres, Juno | All (connections to Ceres, Juno) | network update |
-| 11/11/2021 | Ceres | All (connections to Ceres) | maintenance |
+| 11/04/2021-11/05/2021 | Ceres | All (connections to Ceres) | fiber relocation |
+| 11/11/2021 | Ceres | All (Ceres offline) | maintenance |
 
 **Further detail for each outage will be posted in advance of the outage date in the announcements below if availible.**
