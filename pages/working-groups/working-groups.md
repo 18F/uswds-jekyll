@@ -14,7 +14,7 @@ The current working groups are:
 * [Arthropod Genomics Research (AGR) Working Group](/working-groups/arthropods)
 * [Geospatial Research Working Group](/working-groups/geospatial)
 * [Microbiome Working Group](/working-groups/microbiome)
-* Pollinators Research Working Group
+* [Pollinator Working Group](/working-groups/pollinator)
 * [SCINet-Longterm Agroecosystem Research (LTAR) Phenology Working Group](/working-groups/LTARphenology)
 * [SCINet Policy Committee](/working-groups/policy)
 * [SCINet Website Developers](/working-groups/webdev)
