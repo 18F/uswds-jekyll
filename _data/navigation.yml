@@ -165,6 +165,8 @@ primary:
         href: /opportunities/events
       - text: AI Innovation fund
         href: /opportunities/ai-innovation
+      - text: Open Positions
+        href: /opportunities/open_positions
 
 # secondary:
 #   - text: Documentation
