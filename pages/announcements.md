@@ -9,9 +9,6 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
-## 03-November-2021 SCINet Job Announcement
-
-SCINet is looking for a Computational Biologist (Data Scientist). This person will provide technical and professional support in the area of computational biology with a focus on full stack development. If you or someone you know is interested in joining the SCINet team, please check out the announcement on USA jobs at https://www.usajobs.gov/GetJob/ViewDetails/620198700.
 
 ## 29-September-2021 SCINet Policy Changes
 
