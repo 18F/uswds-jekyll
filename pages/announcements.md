@@ -9,6 +9,7 @@ Various announcements from the Virtual Research Support Core to SCINet users. Se
 
 For system downtime information see the [System Downtime page](/downtime/) for planned downtime and [SCINet Forum Announcements page](https://forum.scinet.usda.gov/c/announcements/6) (must have a SCINet account to access) about unplanned outages/system status.
 
+
 ## 29-September-2021 SCINet Policy Changes
 
 In the near future, you will likely see a README document appear in your HPC home or project directory. This document will provide an updated SCINet policy that addresses user accounts, storage space, job and quality of service queues, software, data management, networking, and Galaxy access. Please take the time to read over the document to make sure that you are compliant with all SCINet policies and regulations.  A few examples of the changes in SCINet policy include:
