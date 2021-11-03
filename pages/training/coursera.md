@@ -22,7 +22,7 @@ Below are the steps for submitting an applicatoin to obtain a Coursera license. 
 
   1. Click the below button/link to access and submit the application form. **It is critical that both your email and your supervisors email are entered correctly**. If they are mistyped the application process will fail.
 
-  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl37NLyOJUxpIsYVlLYOL1ABUMEQ1SUJORVJPNk1EVlNRSFRLUjhHR1BGVS4u" class="usa-button">Ars-Coursera License Application</a>
+  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl2mrmoVCU11DqJTdU47KyNpUOTlPTERXRDFaOURYVUk1VElFNTQ2NDhXTC4u" class="usa-button">Ars-Coursera License Application</a>
   
   2. Your supervisor will receive an email from Microsoft "Power Automate" to either approve or reject your application.
     
