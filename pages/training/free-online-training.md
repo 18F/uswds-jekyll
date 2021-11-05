@@ -60,7 +60,7 @@ For EdX courses: click enroll on a particular course, create an EdX account, and
 
 For Coursera courses: see [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
 
-**SCINet-funded licenses for Coursera course certificates:** *ARS scientists can request a Coursera license for a three month period to obtain course certificates for completed Coursera courses. If you are interested in certification for these courses please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
+**SCINet-funded Coursera Licenses:** ARS scientists can request a Coursera license for a three month period to gain access to the full list of Coursera catalogue options related to scientific computing, statistics, and artificial intellengence. This license also allows ARS scientists to get certifications. To request a license, please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
 
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
