@@ -9,6 +9,7 @@ layout: page
 Fellows funded by SCINet or the AI Center of Excellence through the ORISE Program bring a fresh perspective to the ARS scientist community, while allowing these Fellows to learn through hands-on research under our top scientists. These Fellows are funded for two year terms with the goal to support unit and collaborative research using high performance computing and computational science skills. 
 
 *The SCINet and AI COE Fellows Conference 2021 will be held on November 9-10.*
+## [Register for Zoom Information](https://us06web.zoom.us/meeting/register/tZIuf--upz0oHtG8Ilh61yEYVjF67VMV-2QO)
 
 ## View the Agenda
 
