@@ -30,4 +30,4 @@ Resources on data management can be [found here](/training/useful-links/)
 
 ## Working groups
 
-We provide technical support in the use of our HPCs to approved SCINet and AI COE working groups. Information about these groups can be [found here](https://scinet.usda.gov/working-groups)
+SCINet provides technical support in the use of our HPCs to approved SCINet and AI COE working groups. Information about these groups can be [found here](https://scinet.usda.gov/working-groups)
