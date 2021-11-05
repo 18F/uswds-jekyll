@@ -60,7 +60,7 @@ For EdX courses: click enroll on a particular course, create an EdX account, and
 
 For Coursera courses: see [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
 
-**SCINet-funded licenses for Coursera course certificates:** *The SCINet initiative is in the process of purchasing licenses for ARS researchers to obtain course certificates for completed Coursera courses. If interested in certification for these courses, you may want to wait until you are able to obtain a license. More information will be posted here as soon as it is available.*
+**SCINet-funded licenses for Coursera course certificates:** *ARS scientists can request a Coursera license for a three month period to obtain course certificates for completed Coursera courses. If you are interested in certification for these courses please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
 
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
@@ -240,8 +240,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [AI for Everyone: Master the Basics](https://www.edx.org/course/artificial-intelligence-for-everyone) | EdX | 4 wks; 1-2 hrs/wk
 [Deep Learning Essentials](https://www.edx.org/course/deep-learning-essentials) | EdX | 5 wks; 4-6 hrs/wk
 [Machine Learning with Python: A Practical Introduction](https://www.edx.org/course/machine-learning-with-python-a-practical-introduct) | EdX | 5 wks; 4-6 hrs/wk
-
-
 [Deep Learning Fundamentals with Keras](https://www.edx.org/course/deep-learning-fundamentals-with-keras) | EdX | 5 wks; 2-4 hrs/wk
 [Deep Learning with Python and PyTorch](https://www.edx.org/course/deep-learning-with-python-and-pytorch) | EdX | 6 wks; 2-4 hrs/wk
 [Deep Learning with TensorFlow](https://www.edx.org/course/deep-learning-with-tensorflow) | EdX | 5 wks; 2-4 hrs/week
