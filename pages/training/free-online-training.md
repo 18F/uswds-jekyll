@@ -342,3 +342,9 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Work Smarter, Not Harder: Time Management for Personal & Professional Productivity](https://www.coursera.org/learn/work-smarter-not-harder) | Coursera | 3 hrs
 [Data Science Productivity Tools](https://www.edx.org/course/data-science-productivity-tools) | EdX | 8 wks; 1-2 hrs/wk
 [Unix Tools: Data, Software, and Production Engineering](https://www.edx.org/course/unix-tools-data-software-and-production-engineering) | EdX | 6 wks; 4-6 hrs/wk
+
+# Database Management Tools
+
+| Course Title/Link | Platform or Site | Time Investment |
+|---|---|---|
+[Simple Retrieval Queries in MySQL Workbench](https://www.coursera.org/projects/simple-retrieval-queries-in-mysql-workbench) | Coursera | 1-2 hrs
