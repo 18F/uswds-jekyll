@@ -10,7 +10,6 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 
 |**Event** | **Date** | **Time** | **Location** | **How to Participate** |
 |---|---|---|---|---|
-|Introduction to Atlas | 28 Sept 2021 | 10:30-11:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 |Introduction to SCINet- Hear a brief overview of SCINet, learn how others incorporate HPCs in their research, and understand the next steps to integrating HPCs in your research. | 28 Oct 2021 | 2:00-3:00 ET | ISU | Learn more or register at [https://forms.office.com/g/aU9gGCpUaX](https://forms.office.com/g/aU9gGCpUaX) |
 |Introduction to Atlas | 28 Oct 2021 | 2:30-3:30 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 |Logging into SCINet- Get hands-on support to help walk you through the process of logging on to SCINet | 29 Oct 2021 | 2:00-3:00 ET | ISU | Learn more or register at [https://forms.office.com/g/hciFTp1LUJ](https://forms.office.com/g/hciFTp1LUJ) |
