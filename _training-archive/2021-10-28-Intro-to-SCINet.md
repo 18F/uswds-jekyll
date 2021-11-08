@@ -6,7 +6,7 @@ excerpt: Hear a brief overview of SCINet
 #picture: /assets/img/
 ---
 
-**10/28/2021 &middot;   Remotely/ISU  &middot **   
+**10/28/2021 &middot;   Remotely/ISU**   
 
 Explore how you can best utilize SCINet resources. Hear a brief overview of SCINet, learn how others incorporate HPCs into their research, and understand the next steps to integrating HPCs into your own research. 
 
