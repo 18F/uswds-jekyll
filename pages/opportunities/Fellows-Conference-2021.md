@@ -14,7 +14,7 @@ This conference will feature research presentations from the Fellows as well as 
 
 ## [Register for Zoom Information](https://us06web.zoom.us/meeting/register/tZIuf--upz0oHtG8Ilh61yEYVjF67VMV-2QO)
 
-## [View the Agenda](/assets/docs/SCINet-AI-COE-Agenda-11.4.docx)
+## [View the Agenda](/assets/pdf/workshops/SCINet-AI-COE-Agenda-11.8.pdf)
 
 ## Learn more about the Fellows. Videos of their talks will be posted after the event.
 
