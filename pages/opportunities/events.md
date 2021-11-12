@@ -18,6 +18,8 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 |Introduction to Atlas | 15 Dec 2021 | 2:30-3:30 CT | MSU VRSC | Learn more or register at [https://forms.office.com/g/rYdpFLxvFV](https://forms.office.com/g/rYdpFLxvFV) |
 |Introduction to Image Processing and Classical Machine Learning | 10-11 Jan 2022 | 10:00-4:00 CT | MSU VRSC | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
 |Advanced Topics in Deep Learning | 12-14 Jan 2022 | 10:00-4:00 CT | MSU | Learn more or register at [http://msuext.ms/ars](http://msuext.ms/ars) |
+|R Intensive Workshop- Need to get a handle on R? Clueless where to start with the data you have? Learn the basics you will need on your journey in science! | TBD Jan 2022 | TBD | MSU | For more information, please email [SCINet-training@usda.gov](scinet-training@usda.gov) . Once the dates are confirmed, event registration will be available at at [http://msuext.ms/ars](http://msuext.ms/ars) |
+|Carpentries Workshops- Check back in December for Winter training schedule | Winter 2022 | TBD | SCINet | For more information, please email [SCINet-training@usda.gov](scinet-training@usda.gov) |
 <br>
 
 ### Recurring Events
