@@ -9,30 +9,40 @@ layout: page
 
 ## Overview
 
-The SCINet Program in collaboration with the Artificial Intelligence Center of Excellence (AI-COE) will be providing funding to support postdoctoral fellows mentored by ARS scientists.  Each Fellow funded through the ORISE Program is expected to:
+The SCINet Program in collaboration with the Artificial Intelligence Center of Excellence (AI-COE) will be providing funding to support postdoctoral fellows mentored by ARS scientists.  Each Fellow will be funded through the ORISE Program and is expected to:
 1. be involved in individual and collaborative, multi-unit research
 1. be provided with training and leadership opportunities
 1. contribute to the overall success of SCNet or the AI COE, and the Fellows Program.
 
-We expect to fund up to 15 2-year Fellows (with a possible 3rd year extension) in FY22. Each fellow will receive the same stipend and travel support through the ORISE Program. The mentor is expected to provide the Fellow’s laptop, and office and laboratory space, if needed.
+This is a competitive funding program where we expect to fund up to 15 2-year Fellows (with a possible 3rd year extension) in FY22. Each fellow will receive the same stipend and travel support through the ORISE Program. The mentor is expected to provide the Fellow’s laptop, and office and laboratory space, if needed.
  
-SCINet fellows are expected to be involved in the analysis of complex, large datasets requiring the use of one of the ARS' high performance computing clusters (HPCs: Ceres or Atlas). AI-COE fellows will have the development or use of AI technologies as a key component of their individual or collaborative research. See below for definition of these technologies.
- 
-Proposals are due December 17, 2021. Please note the RL or supervisor needs to approve the proposal before submission in order to be considered for funding. Only one proposal is allowed from each scientist. Mentors of successful proposals will have ca. 15 months to onboard a Fellow (by 1 June 2023) before the funds are returned to SCINet or the AI-COE.
+**SCINet fellows** are expected to be involved in the analysis of complex, large datasets requiring the use of one of the ARS' high performance computing clusters (HPCs: Ceres or Atlas). **AI-COE fellows** will have the development or use of AI technologies as a key component of their individual or collaborative research. See below for definition of these technologies.
 
-**Eligibility:** ARS Category 1 or 4 scientists with RL or supervisor approval.
+**Proposals from ARS scientists (Cat 1 or Cat 4) who would like to mentor a SCINet or AI COE postdoctoral fellow are due December 17, 2021. We will make decisions in Jan 2022.**
 
 
-## Proposal submission
+## Details
 
-ARS scientists who would like to be considered as a mentor for either a SCINet or AI-COE Fellow should submit proposals to [https://forms.office.com/g/PngLtErC4k](https://forms.office.com/g/PngLtErC4k). Be sure to answer all of the questions to be considered for funding. After the form is submitted, the mentor and approving RL or supervisor will receive an email confirming submission.
+### Submission process
+
+The [online submission form](https://forms.office.com/g/PngLtErC4k) must be used for all proposal submissions. Be sure to answer all of the questions to the best of your ability. We recognize the details of the postdoc appointment may change as the research develops. The RL or supervisor needs to approve the proposal before submission to be considered for funding. Only one proposal is allowed from each scientist. After the form is submitted, the mentor and approving RL or supervisor will receive an email confirming submission.
+
+### Timeline for Fellow hiring
+
+Mentors of successful proposals will have ca. 15 months to onboard a Fellow (1 June 2023) before the funds are returned to SCINet or the AI COE.
+
+### Eligibility
+
+ARS Category 1 or 4 scientists with RL or supervisor approval.
+
+### Questions?
 
 For questions, contact Dr. Debra Peters, CSIO (ARS-CSIO@usda.gov).
  
  
 ## Definition of AI/ML technologies
 
-(These are examples and not inclusive of all possible methods and tools.)
+These definitions are relevant to AI-COE-funded proposals.  (These are examples and not inclusive of all possible methods and tools.)
  
 _AI methods_ involve automated decision-making or inference from data, and use methods in the subfields:
 * machine learning (including deep learning)
