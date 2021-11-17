@@ -33,6 +33,7 @@ The table below lists information about planned SCINet outages. See [SCINet Foru
 | 11/11/2021 | Ceres | All (Ceres offline) | maintenance |
 | 11/15/2021 | SCINet | Albany | network maintenance in Albany |
 | 11/16/2021 | SCINet | All (connections to Ceres) | network maintenance in Ames|
+| 11/18/2021 | SCINet | All (connections to Ceres) | network maintenance in Ames|
 
 
 **Further detail for each outage will be posted in advance of the outage date in the announcements below if availible.**
