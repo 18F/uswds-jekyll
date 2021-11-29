@@ -42,7 +42,7 @@ layout: page
     <td><b>Lightning talks: Protein science at ARS</b>
     <ul>
       <li><b>Carson Andorf</b> (Corn Insects and Crop Genetics Research Unit): <i>Gaining structural and functional insights in biological networks through machine learning</i></li>
-      <li><b>Man-yeon Choi</b> (Produce Safety and Microbiology Research Unit): <i>GPCR-based Bioactive Peptide Screening for Insecticide Discovery</i></li>
+      <li><b>Man-yeon Choi</b> (Horticultueral Crops Research Unit): <i>GPCR-based Bioactive Peptide Screening for Insecticide Discovery</i></li>
       <li><b>Douglas Luster</b> (Foreign Disease-Weed Science Research Unit): <i>Proteomics-based discovery of targets for plant pathogen diagnostics</i></li>
       <li><b>Walter Schmidt</b> (Environmental Microbial &amp; Food Safety Laboratory): <i>Dipeptide conformation and dynamics: ALA-PRO versus PRO-ALA.</i></li>
       <li><b>Brenda Oppert</b> (Stored Product Insect and Engineering Research Unit): <i>Adaptation of Cysteine Peptidases in Tenebrionid Insects for Efficient Digestion of Cereal Proteins</i></li>
