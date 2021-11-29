@@ -30,7 +30,7 @@ layout: page
 </thead>
 <tbody>
   <tr>
-    <td>10:30&nbsp;AM</td>
+    <td>10:45&nbsp;AM</td>
     <td>Symposium introduction</td>
   </tr>
   <tr>
