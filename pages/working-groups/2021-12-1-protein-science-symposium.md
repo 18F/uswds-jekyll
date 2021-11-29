@@ -107,6 +107,6 @@ Please note that the schedule for day 2 is tentative.  The final schedule will d
 | 2:30&nbsp;PM | Breakout group reporting, group discussion and synthesis |
 | 3:30&nbsp;PM | Break |
 | 3:45&nbsp;PM | Breakout groups 3: What are the next steps needed to advance protein science at ARS?  Additional topic(s) TBD, if needed. |
-| 4:30&nbsp;PM | Breakout group reporting, group discussion and synthesis |
+| 4:30&nbsp;PM | Breakout group reporting, group discussion and synthesis: Where do we go from here? |
 | 5:15&nbsp;PM | Conference concludes |
 
