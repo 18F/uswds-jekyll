@@ -42,7 +42,7 @@ layout: page
     <td><b>Lightning talks: Protein science at ARS</b>
     <ul>
       <li><b>Carson Andorf</b> (Corn Insects and Crop Genetics Research Unit): <i>Gaining structural and functional insights in biological networks through machine learning</i></li>
-      <li><b>Man-yeon Choi</b> (Horticultueral Crops Research Unit): <i>GPCR-based Bioactive Peptide Screening for Insecticide Discovery</i></li>
+      <li><b>Man-yeon Choi</b> (Horticultural Crops Research Unit): <i>GPCR-based Bioactive Peptide Screening for Insecticide Discovery</i></li>
       <li><b>Douglas Luster</b> (Foreign Disease-Weed Science Research Unit): <i>Proteomics-based discovery of targets for plant pathogen diagnostics</i></li>
       <li><b>Walter Schmidt</b> (Environmental Microbial &amp; Food Safety Laboratory): <i>Dipeptide conformation and dynamics: ALA-PRO versus PRO-ALA.</i></li>
       <li><b>Brenda Oppert</b> (Stored Product Insect and Engineering Research Unit): <i>Adaptation of Cysteine Peptidases in Tenebrionid Insects for Efficient Digestion of Cereal Proteins</i></li>
@@ -64,7 +64,7 @@ layout: page
       <ul>
       <li><b>Ming-shun Chen</b> (Hard Winter Wheat Genetics Research Unit): <i>Insect Effector Proteins in Plant - Insect Interactions</i></li>
       <li><b>Chris Mattison</b> (Food Processing and Sensory Quality Research Unit): <i>In silico Docking of Monoclonal Antibodies to the Immunodominant Cashew Nut Allergen Ana o 3</i></li>
-      <li><b>Adalberto Perez de Leon</b> (San Joaquin Valley Agricultural Sciences Center): <i>Untangling functional secrets in the structure of proteins from blood-feeding disease vectors</i></li>
+      <li><b>Adalberto Perez de Leon</b> (San Joaquin Valley Agricultural Sciences Center): <i>Untangling functional secrets in the structure of proteins from pest disease vectors</i></li>
       <li><b>Adam Rivers</b> (Genomics and Bioinformatics Research Unit): <i>Improving food allergy diagnostics with de novo protein structure prediction, peptide arrays and 3D convolutional neural networks</i></li>
       <li><b>David Schneider</b> (Animal Disease Research Unit): <i>Prions: self-replicating aggregates of misfolded cellular protein</i></li>
       <li><b>Soheila Maleki</b> (Food Processing and Sensory Quality Research Unit): <i>Microarray-based identification of antibody binding sites on allergic proteins from peanuts and tree nuts</i></li>
