@@ -13,6 +13,7 @@ The table below lists information about planned SCINet outages. See [SCINet Foru
 | Outage Date | System | Affected Locations | Reason |
 |---|---|---|---|
   12/08/2021 | Atlas  | All (connections to Atlas) | Full cluster maintenance|
+| 12/6/2021-12/7/2021 | SCINet | Beltsville | network maintenance in Beltsville|
 | 11/18/2021 | SCINet | All (connections to Ceres) | network maintenance in Ames|
 | 11/16/2021 | SCINet | All (connections to Ceres) | network maintenance in Ames|
 | 11/15/2021 | SCINet | Albany | network maintenance in Albany |
