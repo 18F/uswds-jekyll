@@ -77,6 +77,10 @@ layout: page
     <td>Break</td>
   </tr>
   <tr>
+    <td>3:45&nbsp;PM</td>
+    <td>Group discussion: What have we learned from today's presentations?</td>
+  </tr>
+  <tr>
     <td>4:00&nbsp;PM</td>
     <td>Breakout groups: What topics or questions should we address in part 2 of the conference?</td>
   </tr>
