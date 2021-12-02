@@ -102,14 +102,10 @@ Please note that the schedule for day 2 is tentative.  The final schedule will d
 
 | Time | Activity |
 |---|---|
-| 10:45&nbsp;AM | Introduction and logistics |
-| 11:00&nbsp;AM | Breakout groups 1: topic(s) TBD |
-| 12:00&nbsp;PM | Breakout group reporting, group discussion and synthesis |
-| 1:00&nbsp;PM | Break |
-| 1:30&nbsp;PM | Breakout groups 2: topic(s) TBD |
-| 2:30&nbsp;PM | Breakout group reporting, group discussion and synthesis |
-| 3:30&nbsp;PM | Break |
-| 3:45&nbsp;PM | Breakout groups 3: What are the next steps needed to advance protein science at ARS?  Additional topic(s) TBD, if needed. |
-| 4:30&nbsp;PM | Breakout group reporting, group discussion and synthesis: Where do we go from here? |
-| 5:15&nbsp;PM | Conference concludes |
+| 10:45&nbsp;AM | Introduction and logistics, brief introduction to SCINet resources |
+| 11:00&nbsp;AM | Group discussion: What new science do these tools make possible? |
+| 11:45&nbsp;PM | Break |
+| 12:00&nbsp;PM | Breakout groups: Science-focused discussions |
+| 12:30&nbsp;PM | Breakout group reporting, group discussion |
+| 1:15&nbsp;PM | Conference concludes; groups are welcome to continue discussions if they wish |
 
