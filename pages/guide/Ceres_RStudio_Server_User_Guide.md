@@ -53,7 +53,7 @@ In your browser go to https://ceres-ood.scinet.usda.gov/ , enter your SCINet use
 
 After logging into Open OnDemand, click on "Interactive Apps" in the menu on the top and select "RStudio Server: Ceres". 
 
-Modify default values if needed and click on the "Launch" button at the bottom of the page. It may take up to several minutes for the new session to start. Once it starts a new button "Connect to RStudio Server" will appear. Clicking on the button will open RStudio Server in a new browser tab. When done with the session, return to the previous tab amd stop the session by clicking on the red "Delete" button and close the appropriate RStudio browser tab. 
+Modify default values if needed and click on the "Launch" button at the bottom of the page. It may take up to several minutes for the new session to start. Once it starts a new button "Connect to RStudio Server" will appear. Clicking on the button will open RStudio Server in a new browser tab. When done with the session, return to the previous tab to stop the session by clicking on the red "Delete" button and close the appropriate RStudio browser tab. 
 
 Note that while the RStudio session is running you can connect and disconnet to the RStudio Server multiple times. Every click on the "Connect to RStudio Server" button will open a new browser tab.
 
