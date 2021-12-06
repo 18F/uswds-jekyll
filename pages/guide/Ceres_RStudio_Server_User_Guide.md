@@ -12,11 +12,13 @@ layout: page
 * [Introduction](#introduction)
 * [SCINet Options for RStudio](#scinet-options-for-rstudio)
 * [RStudio Server on Ceres](#rstudio-server-on-ceres)
-* [Starting RStudio Server](#starting-rstudio-server)
-  * [Using VPN](#using-vpn)
-  * [SSH Port Forwarding (instead of VPN)](#ssh-port-forwarding-instead-of-vpn)
-* [Stopping RStudio Server](#stopping-rstudio-server)
-* [Requesting Additional Compute Resources](#requesting-additional-compute-resources)
+* [RStudio Server in Open OnDemand](#rstudio-server-in-open-ondemand)
+* [RStudio Server through VPN or ssh tunnel](#rstudio-server-through-vpn-or-ssh-tunnel)
+  * [Starting RStudio Server](#starting-rstudio-server)
+    * [Using VPN](#using-vpn)
+    * [SSH Port Forwarding (instead of VPN)](#ssh-port-forwarding-instead-of-vpn)
+  * [Stopping RStudio Server](#stopping-rstudio-server)
+  * [Requesting Additional Compute Resources](#requesting-additional-compute-resources)
 
 # Introduction
 
@@ -29,25 +31,41 @@ RStudio Server is a client/server version of RStudio that runs on a remote serve
 SCINet users can use RStudio in one of the following ways:
 1. To run RStudio and access data on your local workstation, download the open source RStudio Desktop.
 2. To run an RStudio Server virtual machine on and access data in Amazon Web Services, contact the SCINet VRSC.
-3. To run RStudio Server on and access data in Ceres, follow the directions in this guide.
+3. **NEW**: RStudio Server on Ceres in Open OnDemand. 
+4. RStudio Server on Ceres through SCINet VPN or via ssh-tunnel.
 
 
 # RStudio Server on Ceres
 RStudio Server is currently available on Ceres using a Docker image (imported into Singularity) provided by the Rocker project. The provided geospatial image provides not only geospatial libraries, but also LaTeX / publishing libraries, and Tidyverse data science libraries. Other R packages can be easily installed into your home directory from within RStudio.
 
-Running RStudio Server on Ceres allows SCINet users to access any data on Ceres that they can access from the command line (SSH). To use RStudio Server on Ceres, a user submits a SLURM job script. This allows RStudio Server to run on any available Ceres compute resources (including large-memory nodes). A default job script that should suffice for most users is provided.
+Running RStudio Server on Ceres allows SCINet users to access any data on Ceres that they can access from the command line (SSH). 
 
-After a user is done using RStudio Server, they should save their work in RStudio, and then stop RStudio Server by cancelling the job with the slurm  `scancel`  command.
+Users can either run RStudio Server in Open OnDemand or by manually submiting a SLURM job script and connecting to the server through SCINet VPN or via ssh-tunnel. The first method (via Open OnDemand) is easy-to-use but limits users to the nodes designated for Open OnDemand jobs. The second method is more involved but allows RStudio Server to run on any available Ceres compute resources (including large-memory nodes). 
 
 A few Ceres-specific notes:
 1. **RStudio terminal** (bash command shell): since RStudio Server is running in a container with a Debian base image, you won’t be able to access software environment modules (e.g., that you would normally see when logging into Ceres and issuing the  `module list`  command), as those are installed on the (CentOS) host.
 2. **Data access:** your home directory is mounted inside the RStudio Server container, and the VRSC has configured Singularity to mount the /project directory.  $TMPDIR (which on a compute node is per-job local scratch on the compute node’s direct attached storage that gets deleted at the end of SLURM job) is mounted inside the container at /tmp.
 3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 10G soft limit quota on your home directory being surpassed.
 
+# RStudio Server in Open OnDemand
 
-# Starting RStudio Server
+In your browser go to https://ceres-ood.scinet.usda.gov/ , enter your SCINet user name and SCINet password, followed by the GA code. See https://scinet.usda.gov/guide/multifactor/ for more information about GA codes.
 
-The following silent video is a media alternative for the text in steps 1-5 below: [rstudio-from-vpn.mp4](https://public.3.basecamp.com/p/ReNjmJZcLYy8qq96SV6DYWtE). Note that the video has been created before the VPN address has been changed to ocvpn.scinet.usda.gov . Instead of ocvpn.scinet.science please use ocvpn.scinet.usda.gov .
+After logging into Open OnDemand, click on "Interactive Apps" in the menu on the top and select "RStudio Server: Ceres". 
+
+Modify default values if needed and click on the "Launch" button at the bottom of the page. It may take up to several minutes for the new session to start. Once it starts a new button "Connect to RStudio Server" will appear. Clicking on the button will open RStudio Server in a new browser tab. When done with the session, return to the previous tab amd stop the session by clicking on the red "Delete" button and close the appropriate RStudio browser tab. 
+
+Note that while the RStudio session is running you can connect and disconnet to the RStudio Server multiple times. Every click on the "Connect to RStudio Server" button will open a new browser tab.
+
+Also note that once you click on the "Launch" button and the new session starts, requested resources will be allocated to your job and won't be available to other users even if you don't run anything in the RStudio. Please be considerate and request only resources that you need for your tasks.
+
+# RStudio Server through VPN or ssh tunnel
+
+To use RStudio Server on Ceres, a user submits a SLURM job script. A default job script that should suffice for most users is provided.
+
+After a user is done using RStudio Server, they should save their work in RStudio, and then stop RStudio Server by cancelling the job with the slurm  `scancel`  command.
+
+## Starting RStudio Server
 
 The instructions below tell to use RStudio version 3.6.0 . To see other versions available on Ceres issue:
 ```
@@ -68,7 +86,7 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
 ```
   *(Optional)* By default, this SLURM job is limited to a 4 hour time limit, 1 processor core, and 6600 MB memory. To customize, see the section [Requesting Additional Compute Resources](#requesting-additional-compute-resources) below.
 
-4. After the job has started, view the "$HOME/rstudio-JOBID.out" file for login information (where JOBID is the SLURM job ID reported by the sbatch command).
+4. After the job has started, view the "$HOME/rstudio-JOBID.out" file for login information (where JOBID is the SLURM job ID reported by the sbatch command). Here is an example of such a file. Your file will have different job number, user name, password, compute node name and port number. 
    ```
    [jane.user@sn-cn-8-1 ~]$ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    Submitted batch job 214664
@@ -106,19 +124,17 @@ sbatch /reference/containers/RStudio/3.6.0/rstudio.job
    ```
 5. Instructions for this step differ for when you use SCINet VPN or SSH Port Forwarding.
 
-## Using VPN
+### Using VPN
 
-*If using VPN* point your web browser to the listed hostname / port (in this example, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
+*If using VPN* point your web browser to the listed hostname / port (in the example above, http://ceres14-compute-3-eth.scinet.local:44200), then enter your SCINet user name and the temporary password (valid only for this job only; in this example *4wjRJfpIvQDtKdDZpmzY*)
 ![screenshot of signing into RStudio in a web browser](/assets/img/RStudio.png)
 
 
-## SSH Port Forwarding (instead of VPN)
+### SSH Port Forwarding (instead of VPN)
 
 *Note* Before performing the instructions below, first read and follow the instructions in [steps 2-4](#starting-rstudio-server).
 
-### Windows + PuTTY users
-The following silent video is a media alternative for the text in steps 1-4 below:<br>
-[rstudio-from-putty-port-forward.mp4](https://public.3.basecamp.com/p/t2xF8skYcbA8o55YGoVq2QGA)
+#### Windows + PuTTY users
 
 1. Open a **new** PuTTY window
 2. In Session > Host Name, enter: **ceres.scinet.usda.gov**
@@ -126,7 +142,7 @@ The following silent video is a media alternative for the text in steps 1-4 belo
 ![screenshot of PuTTY software Connection-SSH-Tunnels screen](/assets/img/putty-annotated.png)
 4. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
 
-### macOS / Linux / Windows + Windows PowerShell users
+#### macOS / Linux / Windows + Windows PowerShell users
 
 1. Open a **new** macOS/Linux terminal window or a **new** Windows PowerShell window and enter the SSH command listed in the job script output file. In this example:
 ```
@@ -135,11 +151,8 @@ ssh -N -L 8787:ceres14-compute-3-eth.scinet.local:44200 jane.user@ceres.scinet.u
 There will be no output after logging in. Keep the window / SSH tunnel open for the duration of the RStudio session.
 2. Point your browser to http://localhost:8787. Enter your SCINet user name, and one-time password listed in the job script output file.
 
-### Chrome browser users
-Video showing how to ssh to Ceres using the Chrome Secure Shell App:
-[chrome-ssh.mp4](https://public.3.basecamp.com/p/YJ1smo8ih7tTwG9SoeVCYbFV)
 
-# Stopping RStudio Server
+## Stopping RStudio Server
 
 1. Click the Quit Session (“power”) button in the top-right corner of the RStudio window (see picture below), or select “File > Quit Session...”
 ![screenshot of the Quit Session power button in RStudio](/assets/img/RStudio2.gif)
@@ -151,7 +164,7 @@ Video showing how to ssh to Ceres using the Chrome Secure Shell App:
 
 3. (If using SSH Port Forwarding instead of VPN) Close the terminal / PuTTY window in which the SSH tunnel was established.
 
-# Requesting Additional Compute Resources
+## Requesting Additional Compute Resources
 
 The default job resources (4 hour time limit, 1 processor core, 6600 MB memory) may be customized by:
 * sbatch command-line options, e.g., to specify an 8-hour wall time limit, 16 G memory, and 2 processor cores (= 4 hardware threads):
