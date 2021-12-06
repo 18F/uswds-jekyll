@@ -22,7 +22,7 @@ layout: page
 
 # Introduction
 
-[RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment for the R programming language, with limited support for other programming languages (including Python, bash, and SQL). RStudio provides a powerful graphical environment for [importing data in a number of formats](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio) (including CSV, Excel spreadsheets, SAS, and SPSS); manipulating, analyzing, and visualizing data; version control with git or SVN; a graphical R package manager that provides point/click search/installation/uninstallation of R packages from its substantial ecosystem (including the Bioconductor repository, which provides almost 1500 software tools “for the analysis and comprehension of high-throughput genomic data.”); and [many other features](https://www.rstudio.com/products/rstudio/features/).
+[RStudio](https://www.rstudio.com/products/rstudio/) is an integrated development environment (IDE) for the R programming language, with limited support for other programming languages (including Python, bash, and SQL). RStudio provides a powerful graphical environment for [importing data in a number of formats](https://support.rstudio.com/hc/en-us/articles/218611977-Importing-Data-with-RStudio) (including CSV, Excel spreadsheets, SAS, and SPSS); manipulating, analyzing, and visualizing data; version control with git or SVN; a graphical R package manager that provides point/click search/installation/uninstallation of R packages from its substantial ecosystem (including the Bioconductor repository, which provides almost 1500 software tools “for the analysis and comprehension of high-throughput genomic data.”); and [many other features](https://www.rstudio.com/products/rstudio/features/).
 
 RStudio Server is a client/server version of RStudio that runs on a remote server and is accessed via the client’s web browser. A graphical file manager allows file upload/download from Ceres via web browser.
 
@@ -53,11 +53,11 @@ In your browser go to https://ceres-ood.scinet.usda.gov/ , enter your SCINet use
 
 After logging into Open OnDemand, click on "Interactive Apps" in the menu on the top and select "RStudio Server: Ceres". 
 
-Modify default values if needed and click on the "Launch" button at the bottom of the page. It may take up to several minutes for the new session to start. Once it starts a new button "Connect to RStudio Server" will appear. Clicking on the button will open RStudio Server in a new browser tab. When done with the session, return to the previous tab to stop the session by clicking on the red "Delete" button and close the appropriate RStudio browser tab. 
+Modify default values if needed and click on the "Launch" button at the bottom of the page. It may take up to several minutes for the new session to start. Once it starts a new button "Connect to RStudio Server" will appear. Clicking on the button will open RStudio IDE in a new browser tab. When done using RStudio, return to the previous tab to stop the RStudio session by clicking on the red "Delete" button. 
 
 Note that while the RStudio session is running you can connect and disconnect to/from the RStudio Server multiple times. Every click on the "Connect to RStudio Server" button will open a new browser tab.
 
-Also note that once you click on the "Launch" button and the new session starts, requested resources will be allocated to your job and won't be available to other users even if you don't run anything in the RStudio. Please be considerate and request only resources that you need for your tasks.
+Also note that once you click on the "Launch" button and a new session starts, requested resources will be allocated to your job and won't be available to other users even if you don't run anything in the RStudio. Please be considerate, request only resources that you need for your tasks and remember to delete the session when done.
 
 # RStudio Server through VPN or ssh tunnel
 
