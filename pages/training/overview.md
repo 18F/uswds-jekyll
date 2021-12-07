@@ -26,7 +26,7 @@ A number of other tutorials on varied topics like machine learning and geospatia
 
 ## Data management
 
-Resources on data management can be [found here](/training/useful-links/)
+Resources on data management can be [found here](/training/useful-links.html)
 
 ## Working groups
 
