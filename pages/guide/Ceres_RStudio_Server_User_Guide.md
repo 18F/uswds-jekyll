@@ -49,7 +49,7 @@ A few Ceres-specific notes:
 
 # RStudio Server in Open OnDemand
 
-In your browser go to https://ceres-ood.scinet.usda.gov/ , enter your SCINet user name and SCINet password, followed by the GA code. See https://scinet.usda.gov/guide/multifactor/ for more information about GA codes.
+In your browser go to [https://ceres-ood.scinet.usda.gov/](https://ceres-ood.scinet.usda.gov/), enter your SCINet user name and SCINet password, followed by the GA code. See [MFA Guide](https://scinet.usda.gov/guide/multifactor/) for more information about GA codes.
 
 After logging into Open OnDemand, click on "Interactive Apps" in the menu on the top and select "RStudio Server: Ceres". 
 
