@@ -45,7 +45,19 @@ Users can either run RStudio Server in Open OnDemand or by manually submiting a 
 A few Ceres-specific notes:
 1. **RStudio terminal** (bash command shell): since RStudio Server is running in a container with a Debian base image, you won’t be able to access software environment modules (e.g., that you would normally see when logging into Ceres and issuing the  `module list`  command), as those are installed on the (CentOS) host.
 2. **Data access:** your home directory is mounted inside the RStudio Server container, and the VRSC has configured Singularity to mount the /project directory.  $TMPDIR (which on a compute node is per-job local scratch on the compute node’s direct attached storage that gets deleted at the end of SLURM job) is mounted inside the container at /tmp.
-3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 5G soft limit quota on your home directory being surpassed.
+3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 5G soft limit quota on your home directory being surpassed. To overcome this issue you can move R directory from your home directory to your project directory and create a symbolic link to the new location. In RStudio click on "Terminal" and enter the following commands substituting your values:
+
+```
+cd
+mkdir /project/<your_project_dir>/<account_name>
+mv R /project/<your_project_dir>/<account_name>/
+chgrp -R proj-<your_project_dir> /project/<your_project_dir>/<account_name>/R
+ln -s /project/<your_project_dir>/<account_name>/R R
+```
+
+The mv and chgrp command may take a long time depending on how much data you have in /home/<account_name>/R directory. You will need to restart R for this new location to take effect. In the "console" window type ``quit()`` and click on "Start New Session".
+
+4. **Default working directory:** By default RStudio sets working directory to your home directory. You can change the default by clicking on Tools -> Global Options... In the General tab click on Browse, then on the three dots on the right and enter path to the folder, e.g. /project/<your_project_dir>. You can then navigate further to a subdirectory. When done click on "Choose" button, and then on "OK". This will be the default working directory that will show in the panel on the right next time you start RStudio or restart R in the RStudio.
 
 # RStudio Server in Open OnDemand
 
@@ -58,6 +70,8 @@ Modify default values if needed and click on the "Launch" button at the bottom o
 Note that while the RStudio session is running you can connect and disconnect to/from the RStudio Server multiple times. Every click on the "Connect to RStudio Server" button will open a new browser tab.
 
 Also note that once you click on the "Launch" button and a new session starts, requested resources will be allocated to your job and won't be available to other users even if you don't run anything in the RStudio. Please be considerate, request only resources that you need for your tasks and remember to delete the session when done.
+
+For tips and tricks refer to the [previous section](#rstudio-server-on-ceres) and to the RStudio Tutorial at [https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/#tve-jump-173bb2584fe](https://www.dataquest.io/blog/tutorial-getting-started-with-r-and-rstudio/#tve-jump-173bb2584fe).
 
 # RStudio Server through VPN or ssh tunnel
 
