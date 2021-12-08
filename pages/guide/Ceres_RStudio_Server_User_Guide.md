@@ -55,7 +55,7 @@ chgrp -R proj-<your_project_dir> /project/<your_project_dir>/<account_name>/R
 ln -s /project/<your_project_dir>/<account_name>/R R
 ```
 
-The mv and chgrp command may take a long time depending on how much data you have in /home/<account_name>/R directory. You will need to restart R for this new location to take effect. In the "console" window type ``quit()`` and click on "Start New Session".
+The ``mv`` and ``chgrp`` commands may take longer time depending on how much data you have in the R directory. You will need to restart R for this new location to take effect. In the "console" window type ``quit()`` and click on "Start New Session".
 
 4. **Default working directory:** By default RStudio sets working directory to your home directory. You can change the default by clicking on Tools -> Global Options... In the General tab click on Browse, then on the three dots on the right and enter path to the folder, e.g. /project/<your_project_dir>. You can then navigate further to a subdirectory. When done click on "Choose" button, and then on "OK". This will be the default working directory that will show in the panel on the right next time you start RStudio or restart R in the RStudio.
 
