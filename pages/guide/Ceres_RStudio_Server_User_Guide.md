@@ -45,7 +45,7 @@ Users can either run RStudio Server in Open OnDemand or by manually submiting a 
 A few Ceres-specific notes:
 1. **RStudio terminal** (bash command shell): since RStudio Server is running in a container with a Debian base image, you won’t be able to access software environment modules (e.g., that you would normally see when logging into Ceres and issuing the  `module list`  command), as those are installed on the (CentOS) host.
 2. **Data access:** your home directory is mounted inside the RStudio Server container, and the VRSC has configured Singularity to mount the /project directory.  $TMPDIR (which on a compute node is per-job local scratch on the compute node’s direct attached storage that gets deleted at the end of SLURM job) is mounted inside the container at /tmp.
-3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 10G soft limit quota on your home directory being surpassed.
+3. **Software installation:** The provided SLURM job script creates a ~/.Renviron file in your home directory that allows RStudio to install additional R packages into your home directory (the container image is immutable). Installing a lot of R libraries may contribute to the default 5G soft limit quota on your home directory being surpassed.
 
 # RStudio Server in Open OnDemand
 
