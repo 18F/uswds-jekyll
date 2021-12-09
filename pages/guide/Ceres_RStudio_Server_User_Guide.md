@@ -40,7 +40,7 @@ RStudio Server is currently available on Ceres using a Docker image (imported in
 
 Running RStudio Server on Ceres allows SCINet users to access any data on Ceres that they can access from the command line (SSH). 
 
-Users can either run RStudio Server in Open OnDemand or by manually submiting a SLURM job script and connecting to the server through SCINet VPN or via ssh-tunnel. The first method (via Open OnDemand) is easy-to-use but limits users to the nodes designated for Open OnDemand jobs. The second method is more involved but allows RStudio Server to run on any available Ceres compute resources (including large-memory nodes). 
+Users can either run RStudio Server in Open OnDemand or by manually submiting a SLURM job script and connecting to the server through SCINet VPN or via ssh-tunnel. The first method (via Open OnDemand) is much easier-to-use and is recommended over the second method. 
 
 A few Ceres-specific notes:
 1. **RStudio terminal** (bash command shell): since RStudio Server is running in a container with a Debian base image, you won’t be able to access software environment modules (e.g., that you would normally see when logging into Ceres and issuing the  `module list`  command), as those are installed on the (CentOS) host.
