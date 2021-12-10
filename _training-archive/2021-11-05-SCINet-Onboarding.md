@@ -8,6 +8,7 @@ excerpt: SCINet Onboarding Assistance
 
 **11/05/2021 &middot;   Remotely Through Zoom**   
 
-This one hour course will cover SCINet Onboarding. It will cover logging into Ceres, project space, transferring data, and submitting jobs.
+This one hour course covers SCINet Onboarding inlcuding logging into Ceres, project space, transferring data, and submitting jobs.
 
-To learn more or register visit [https://forms.office.com/g/dJHn10d2dA](https://forms.office.com/g/dJHn10d2dA)
+[Watch this event](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49)
+(You must have a USDA email account to view)
