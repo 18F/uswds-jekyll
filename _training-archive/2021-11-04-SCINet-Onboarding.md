@@ -10,4 +10,5 @@ excerpt: SCINet Onboarding Assistance
 
 This one hour course covered logging into Ceres, project space, transferring data, and submitting jobs.
 
-[Watch this event](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49)
+[Watch this event](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) 
+(You must have a USDA email account to view)
