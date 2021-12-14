@@ -14,9 +14,9 @@ At this two-day symposium and conference, we learned about recent computational 
 
 Recordings of all presentations from the symposium may be viewed online:
 
-* [Keynote presentation – Dr. John Moult] (https://web.microsoftstream.com/video/9f73a92c-7c28-48e0-88f8-84d1561612de)
-* [First lightning talk session] (https://web.microsoftstream.com/video/c412d83a-6a4c-43e8-8db5-05bc9f5d627e)
-* [Keynote presentation – Dr. Darrell Hurt] (https://web.microsoftstream.com/video/b0fab2ea-8918-4271-a3bc-0508edef2706)
-* [Second lightning talk session] (https://web.microsoftstream.com/video/db60673b-3487-42c0-b3e8-69c616f32ded)
+* [Keynote presentation – Dr. John Moult](https://web.microsoftstream.com/video/9f73a92c-7c28-48e0-88f8-84d1561612de)
+* [First lightning talk session](https://web.microsoftstream.com/video/c412d83a-6a4c-43e8-8db5-05bc9f5d627e)
+* [Keynote presentation – Dr. Darrell Hurt](https://web.microsoftstream.com/video/b0fab2ea-8918-4271-a3bc-0508edef2706)
+* [Second lightning talk session](https://web.microsoftstream.com/video/db60673b-3487-42c0-b3e8-69c616f32ded)
 
 
