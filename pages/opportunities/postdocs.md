@@ -5,13 +5,11 @@ permalink: /opportunities/postdocs
 author: Kerrie Geil
 layout: page
 ---
-# Postdoc and Masters Fellowships
 
 The  U.S. Department of Agriculture (USDA), Agricultural Research Service (ARS) SCINet and AI Center of Excellence offer exciting collaborative research opportunities to motivated participants interested in solving agricultural-natural resource related problems. One of the goals of the ORISE Fellowship program is to develop and apply new and emerging technologies including artificial intelligence (AI) and machine learning. Many of these questions rely on the synthesis, integration, and analysis of large,  diverse datasets that benefit from high performance computers (HPC) or a cloud computing environment. Fellows will have the opportunity to collaboration on problems of high priority to the USDA ARS, while being trained across a range of skills including AI, machine learning, deep learning, data science, and/or statistical software as needed for the success of the position.
 
+# Postdoc and Masters Fellowships
 _**Interested applicants are encouraged to visit the ORISE link for more information about a position and how to apply.**_ 
-
-
 
 | Opportunity | Location | Keywords |
 |---|---|---|
@@ -42,7 +40,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 **About the USDA ARS:** The ARS mission involves problem-solving research in the widely diverse food and agricultural areas encompassing plant production and protection; animal production and protection; natural resources and sustainable agricultural systems; and nutrition; food safety and quality. The programs are conducted in 46 of the 50 States, Puerto Rico, and the U.S. Virgin Islands. Programs are also carried out in cooperation with several foreign countries. For ARS to maintain its standing as a premier scientific organization, major investments in computing, networking, and storage infrastructure are required as well as trained scientific personnel. Training in data and information management are integral to the integrity, security, and accessibility of research findings, results, and outcomes within the ARS research enterprise. USDA ARS Chief Science Information Officer, Dr. Debra Peters (ARS-CSIO at usda dot gov) can be contacted for additional information.
 
 
-## Other postdoc opportunities:
+## Other Postdoc Opportunities:
 
 **Development of novel algorithms and machine learning models for integrated analysis of agricultural systems:** develop new analysis methods for georeferenced agricultural data with emphasis on epidemiology and disease ecology.  For more information, please contact Dr. Ram Ramkumar (ramkumar at cse dot msstate dot edu).
 
@@ -53,7 +51,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 **Geospatial Statistician/Spatial Data Scientist:** apply your spatial statistics skills to diverse datasets ranging from epidemiology in domestic livestock to contact tracing in wild carnivores.  [https://explore.msujobs.msstate.edu/en-us/job/500273/postdoctoral-associate](https://explore.msujobs.msstate.edu/en-us/job/500273/postdoctoral-associate) 
 
 
-## Other Masters level opportunities:
+## Other Masters-level Opportunities:
 
 **Research Opportunities in High Performance Computing (Artificial Intelligence)** to develop and apply new technologies, including artificial intelligence (AI) and machine learning, to help solve complex agricultural problems that also depend on collaboration across scientific disciplines and geographic locations (ARS location: Beltsville, MD). (Contact Jennifer Woodward-Greene with questions and to apply; jennifer dot woodward at usda dot gov)
 
