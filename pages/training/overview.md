@@ -10,11 +10,11 @@ One of SCINet's main objectives is training scientists in computational methods 
 
 ## Online trainings
 
-SCINet is working to bring certified courses in statistics, machine learning, and programming to through partnerships with online education vendors like Coursera.  Information about those partnerships and information on courses you can start today can be found on [this page](/training/free-online-training).
+SCINet is working to bring certified courses in statistics, machine learning, and programming through partnerships with online education vendors like Coursera.  Information about those partnerships and information on courses you can start today can be found on [this page](/training/free-online-training).
 
 ## Workshops
 
-SCINet also sponsors online and in-person workshops on specific topics such as Carpentries courses.  Visit the [upcoming](https://scinet.usda.gov/opportunities/events) or [training archive](https://scinet.usda.gov/training-archive/) pages for more information. 
+SCINet sponsors online and in-person workshops on specific topics such as Carpentries courses.  Visit the [upcoming](https://scinet.usda.gov/opportunities/events) or [training archive](https://scinet.usda.gov/training-archive/) pages for more information. 
 
 ## The bioinformatics workbook
 
