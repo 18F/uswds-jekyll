@@ -9,7 +9,7 @@ layout: page
 The  U.S. Department of Agriculture (USDA), Agricultural Research Service (ARS) SCINet and AI Center of Excellence offer exciting collaborative research opportunities to motivated participants interested in solving agricultural-natural resource related problems. One of the goals of the ORISE Fellowship program is to develop and apply new and emerging technologies including artificial intelligence (AI) and machine learning. Many of these questions rely on the synthesis, integration, and analysis of large,  diverse datasets that benefit from high performance computers (HPC) or a cloud computing environment. Fellows will have the opportunity to collaboration on problems of high priority to the USDA ARS, while being trained across a range of skills including AI, machine learning, deep learning, data science, and/or statistical software as needed for the success of the position.
 
 # Postdoc and Masters Fellowships
-_**Interested applicants are encouraged to visit the ORISE link for more information about a position and how to apply.**_ 
+_**Interested applicants are encouraged to visit the ORISE link for more information about a position and how to apply. To see the most up to date list of all SCINet and AI-COE opportunities, visit https://www.zintellect.com/Catalog and enter keyword "SCINet"**_ 
 
 | Opportunity | Location | Keywords |
 |---|---|---|
