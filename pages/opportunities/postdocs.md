@@ -14,15 +14,12 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | Opportunity | Location | Keywords |
 |---|---|---|
 | [Integrating Breeding Platforms and Bioinformatic Analyses Postdoctoral Fellowship, USDA-ARS-2021-0001](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0001) | Raleigh, NC | ML, AI, R, Python, GITHUB, HPC, Genomics, Bioinformatics, Computational Biology, Crop Breeding  |
-| [Remote Sensing of Agro-ecosystems & High-performance Computing Fellowship, USDA-ARS-2021-0007](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0007) | Starkville , MS | ML, AI, R, Python, Computational Biology,  Spatial Modeling, Pix4D, Agisoft, sUAS |
 | [USDA-ARS Machine Learning & AI in Nutrition Research Fellowship, USDA-ARS-2021-0008](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0008) | Davis, California | ML, AI, R, Python, Computational Biology, Diet, Nutrition, Health |
-| [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0035](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0035) | Starkville, MS | ML, AI, R, Python, Computational Biology, Agro-ecosystems |
-| [Postdoctoral Fellowship in Geospatial Analysis USDA-ARS-2021-0050](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0050) | TBD| ML, AI, R, Python, Computational Biology, Geospatial |
 | [Postdoctoral Fellowship in Food Safety, USDA-ARS-2021-0059)](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0059) | Clay Center, NE | ML, AI, R, Python, Computational Biology, Nutrition, Meat Safety, Salmonella |
 | [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0063](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0063) | Beltsville, MD | ML, AI, R, Python, Computational Biology|
 | [USDA-ARS Research Opportunity in High Performance Computing, USDA-ARS-2021-0087](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0087) | Beltsville, MD | ML, AI, R, Python, Computational Biology, Big Data |
 | [Research Opportunity in Geospatial Analyses of Agroecosystem Dynamics, USDA-ARS-2021-0088](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0088) | TBD| ML, AI, R, Python, Computational Biology, Geospatial, Drone|
-| [Vision & Artificial Intelligence Fellowship,USDA-ARS-2021-0157  ](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0157) | Beltsville, MD | ML, AI, R, Python, Computer Vision, PyTorch, Weed Science, Image Analysis |
+| [Vision & Artificial Intelligence Fellowship,USDA-ARS-2021-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0157) | Beltsville, MD | ML, AI, R, Python, Computer Vision, PyTorch, Weed Science, Image Analysis |
 | [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0249](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0249) | Beltsville, MD | ML, AI, R, Python,  Geospatial, Remote Sensing |
 | [Research Opportunity in AI and Machine Learning for Agricultural Science, USDA-ARS-2022-0013](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0013) | TBD | ML, AI, R, Python, Human Nutrition, Food Safety, Crop Production|
 | [Postdoctoral Research Opportunity in Bioinformatics Analyses, USDA-ARS-2022-0025](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0025)|  Ames, IA | ML, AI, R, Python, Bioinformatics|
@@ -31,7 +28,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [High Performance Computing and AI Technologies in Agriculture Fellowship, USDA-ARS-2022-0028](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0028) |  TBD | Agro-ecosystems, ML, AI, R, Python, Spatial Modeling, Big Data |
 | [High Performance Computing and Prediction of Geospatial Dynamics Fellowship, USDA-ARS-2022-0029](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0029) |  TBD | Geospatial, Times Series Data, R, Python, Big Data, ML, AI |
 | [High Performance Computing and Big Data Science Fellowship, USDA-ARS-2022-0030](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0030) | TBD | AI, ML, HPC, Big Data |
-| [High-performance Computing Fellowship, USDA-ARS-2022-0031](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0031) |  Beltsville, MD | Spatial Data, Time Series, Computational Programming, Remote Sensing, HPC, ML, AI |
+| [Remote Sensing of Agro-ecosystems & High-performance Computing Fellowship, USDA-ARS-2022-0031](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0031) |  Beltsville, MD | Spatial Data, Time Series, Computational Programming, Remote Sensing, HPC, ML, AI |
 | [Bioinformatic Analyses and Training Fellowship, USDA-ARS-2022-0032](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0032) |  Beltsville, MD | Bioinformatics, HPC, Genomics, ML, UNIX, GITHUB |
 | [Computer Vision & Artificial Intelligence Fellowship, USDA-ARS-2022-0052](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0052) |  Beltsville, MD | ML, AI, Python, R, Bash, Azure, GIT, HPC, Linux, Crop Breeding, Remote Sensing |
 
