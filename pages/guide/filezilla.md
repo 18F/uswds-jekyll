@@ -13,7 +13,7 @@ layout: page
 4. After installation open the “site manager” by clicking the icon in the upper right hand corner. This opens the Site Manager window. <img src="/assets/img/filezilla1.png">
 5. In the Site manager window click “New Site” and another subwindow will pop up.
     1. Under “my sites” this will create a “New Site entry” Click on this and change it to “Ceres”
-    2. In the Host box enter “login.scinet.usda.gov"
+    2. In the Host box enter “ceres.scinet.usda.gov"
     3. Protocol should be “SFTP – SSH File Transfer Protocol”
     4. Logon Type should be “Interactive” (Asks for two-factor verification code)
     5. User is your Ceres username.
