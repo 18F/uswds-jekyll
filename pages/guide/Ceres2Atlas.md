@@ -17,7 +17,6 @@ layout: page
   * [Partitions](#partitions)
   * [Nodes](#nodes)
   * [Internet Connection](#internet-connection)
-  * [TMPDIR](#tmpdir)
   * [salloc](#salloc)
 
 This guide lists differences between the Atlas and Ceres clusters to ease transition from one cluster to another.
@@ -111,10 +110,6 @@ Two clusters have different node types, that have different numbers of compute c
 ## Internet Connection
 
 On Atlas compute nodes do not have access to internet. If your job requires internet access, either submit it to the service partition or modify the job prefetching data and using the previously downloaded data in the job. Conda installs will need to be performed either on the login or data transfer nodes. 
-
-## TMPDIR
-
-On Ceres when a job starts running on a compute node, a special directory is created for that job on the storage local to the node. This space can be referred by $TMPDIR. The directory with all the data inside is automatically deleted when the job ends. On Atlas TMPDIR is set to /tmp and is not automatically cleaned. If your job uses $TMPDIR, make sure to delete files created by your job.
 
 ## salloc
 
