@@ -9,7 +9,9 @@ layout: page
 
 # Get Started with SCINet Learning Pathway
 
-With the expansive list of free training available online, finding the right training to meet your learning needs can be daunting. Take the first steps in getting started with your introductory learning path to help you get started with SCINet. Learn about SCINet, how to sign up for an account, and what is possible when supported by SCINet infrastructure. Then dive in with hands-on tutorials available across multiple searchable platforms to find the information you need for just in time learning.
+One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
+
+With the expansive list of free training available online, finding the right training to meet your learning needs can be daunting. Take the first steps in getting started with your introductory learning path to help you get started with SCINet. Learn about SCINet, how to sign up for an account, and what is possible when supported by SCINet infrastructure. Then dive in with hands-on tutorials available across multiple searchable platforms to find the information you need for just-in-time learning.
 
 | Get Started |   Dive Deeper |  Find Your Community |
 |---|---|---|
@@ -22,18 +24,15 @@ With the expansive list of free training available online, finding the right tra
 
 <br />
 
-One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
-
-<br />
-
 # Additional Training Resources
 
 | Resource |  Description |  
 |---|---|
+| [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
 | [Tutorials](/training/tutorials/) |   X | 
-| [Workshops](https://scinet.usda.gov/opportunities/events) |   X | 
-| [Free online trainings](/training/free-online-training) |   X |
-| [The bioinformatics workbook](/training/bioinformatics-workbook) |   X | 
-| [Data Management](/training/useful-links.html) |   X | 
-
+| [Workshops](https://scinet.usda.gov/opportunities/events) |  Browse all scheduled workshops and trainings | 
+| [Free online trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
+| [The bioinformatics workbook](/training/bioinformatics-workbook) |   Researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more | 
+| [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
+| [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
 <br />
