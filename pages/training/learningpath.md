@@ -15,7 +15,7 @@ With the expansive list of free training available online, finding the right tra
 
 | Get Started |   Dive Deeper |  Find Your Community |
 |---|---|---|
-![](https://github.com/USDA-ARS-GBRU/scinet-site/blob/1438d9f137a17aa967d0b1b8e966d5046b5de85a/assets/img/Getting%20Started.png)  |   ![](https://github.com/USDA-ARS-GBRU/scinet-site/blob/1438d9f137a17aa967d0b1b8e966d5046b5de85a/assets/img/Dive%20Deeper.png)| ![](/assets/img/community.png) |
+![](/assets/img/Getting_Started.png)  | ![](/assets/img/Dive_Deeper.png)| ![](/assets/img/community.png) |
 | Watch these videos to learn how to get started with SCINet |  Explore these training resources to find specific content to meet your research needs |  Find others in your community to work with, get answers, and explore ideas with |
 | [Intro to SCINet](https://web.microsoftstream.com/video/9a2b95a3-79e6-4176-b5e6-cfd674c034aa)  | [UNIX Tutorial (Bioinformatics Workbook)](https://scinet.usda.gov/training/bioinformatics-workbook) | [Working Group](https://scinet.usda.gov/working-groups) |
 | [SCINet Onboarding](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) | [Carpentries: UNIX, GIT, Python, R, OpenRefine, SQL](https://scinet.usda.gov/opportunities/events) | [SCINet Forum](https://forum.scinet.usda.gov/) |
