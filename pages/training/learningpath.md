@@ -26,6 +26,8 @@ With the expansive list of free training available online, finding the right tra
 
 # Additional Training Resources
 
+<br />
+
 | Resource |  Description |  
 |---|---|
 | [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
@@ -35,4 +37,5 @@ With the expansive list of free training available online, finding the right tra
 | [The bioinformatics workbook](/training/bioinformatics-workbook) |   Researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more | 
 | [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
+
 <br />
