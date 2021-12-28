@@ -1,7 +1,7 @@
 ---
 title: Upcoming SCINet Events 
 description: Advertise workshops/trainings or calls for interest
-permalink: /training/
+permalink: /training/training_event
 author: Delanie Johnson
 layout: page
 ---
