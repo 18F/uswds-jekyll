@@ -103,6 +103,8 @@ primary:
         href: /training/free-online-training
 #      - text: Videos
 #        href: /training/video/
+      - text: Upcoming Training Events
+        href: /training/training_event
       - text: Training Event Archive
         href: /training-archive/
       - text: Bioinformatics Workbook
