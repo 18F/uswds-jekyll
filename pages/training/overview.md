@@ -1,7 +1,7 @@
 ---
 title: Overview of SCINet Training opportunities
 description: One of SCINet's missions is training scientists in computational methods to empower agricultural research.
-permalink: /training/
+permalink: /training/overview
 author: various
 layout: page
 ---

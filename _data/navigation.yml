@@ -96,7 +96,7 @@ primary:
   - text: Training
     links:
       - text: Overview
-        href: /training/
+        href: /training/overview
       - text: ARS Science Tutorials
         href: /training/tutorials/
       - text: Free Online Training
