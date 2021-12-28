@@ -29,5 +29,5 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 
 ### Keep an eye on this page for more info about upcoming events!
 
-For past events, check out the [Training Events Archive](/training-archive/) as well as the [Working Group pages](/working-groups/) (for past workshops).
+For past events, check out the [Training Events Archive](/training-archive/) as well as the [Working Group pages](https://scinet.usda.gov/working-groups) (for past workshops).
 
