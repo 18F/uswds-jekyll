@@ -30,13 +30,14 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [Remote Sensing of Agro-ecosystems & High-performance Computing Fellowship, USDA-ARS-2022-0031](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0031) |  Beltsville, MD | Spatial Data, Time Series, Computational Programming, Remote Sensing |
 | [Bioinformatic Analyses and Training Fellowship, USDA-ARS-2022-0032](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0032) |  Beltsville, MD | Bioinformatics |
 | [Computer Vision & Artificial Intelligence Fellowship, USDA-ARS-2022-0052](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0052) |  Beltsville, MD | Crop Breeding, Remote Sensing |
+| [ USDA-ARS Postdoctoral Fellowship in Food Safety, USDA-ARS-2022-0069](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0069) | TBD| Computational Biology, Food Safety, Salmonella|
 | [USDA-ARS Geospatial Analyses of Agroecosystem Dynamics Fellowship, USDA-ARS-2022-0072](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0072) | TBD| Computational Biology, Geospatial, Drone|
 
 
 **About the USDA ARS:** The ARS mission involves problem-solving research in the widely diverse food and agricultural areas encompassing plant production and protection; animal production and protection; natural resources and sustainable agricultural systems; and nutrition; food safety and quality. The programs are conducted in 46 of the 50 States, Puerto Rico, and the U.S. Virgin Islands. Programs are also carried out in cooperation with several foreign countries. For ARS to maintain its standing as a premier scientific organization, major investments in computing, networking, and storage infrastructure are required as well as trained scientific personnel. Training in data and information management are integral to the integrity, security, and accessibility of research findings, results, and outcomes within the ARS research enterprise. USDA ARS Chief Science Information Officer, Dr. Debra Peters (ARS-CSIO at usda dot gov) can be contacted for additional information.
 
 
-## Other Postdoc Opportunities:
+## Other Opportunities:
 
 **Development of novel algorithms and machine learning models for integrated analysis of agricultural systems:** develop new analysis methods for georeferenced agricultural data with emphasis on epidemiology and disease ecology.  For more information, please contact Dr. Ram Ramkumar (ramkumar at cse dot msstate dot edu).
 
@@ -44,13 +45,4 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 
 **Biomathematician/Biostatistician to develop novel mathematical and statistical tools** for describing spatial phenomena using high-resolution remote sensing and biotelemetry datasets, coupled to applications in high-performance computing to facilitate rapid data analysis. [https://explore.msujobs.msstate.edu/en-us/job/500405/postdoctoral-associate](https://explore.msujobs.msstate.edu/en-us/job/500405/postdoctoral-associate) 
 
-**Geospatial Statistician/Spatial Data Scientist:** apply your spatial statistics skills to diverse datasets ranging from epidemiology in domestic livestock to contact tracing in wild carnivores.  [https://explore.msujobs.msstate.edu/en-us/job/500273/postdoctoral-associate](https://explore.msujobs.msstate.edu/en-us/job/500273/postdoctoral-associate) 
 
-
-## Other Masters-level Opportunities:
-
-**Research Opportunities in High Performance Computing (Artificial Intelligence)** to develop and apply new technologies, including artificial intelligence (AI) and machine learning, to help solve complex agricultural problems that also depend on collaboration across scientific disciplines and geographic locations (ARS location: Beltsville, MD). (Contact Jennifer Woodward-Greene with questions and to apply; jennifer dot woodward at usda dot gov)
-
-**High Performance Computing and Prediction of Geospatial Dynamics:** learn about the challenges in predicting dynamics of complex agro-ecosystems while learning a range of computational skills needed to conduct complex geospatial analyses in an HPC environment (multiple ARS locations). (Contact Debra Peters with questions and to apply; deb dot peters at usda dot gov)
-
-**Bioinformatic Analyses and Training Fellowship:** learn a diverse array of bioinformatic analyses on the HPC, including high throughput sequencing technology for organisms of significant economic importance in agriculture, and for the pests that hinder the full potential of crops, livestock, and aquaculture (ARS location: Ames, IA or other locations). (Contact Brian Scheffler with questions and to apply; brian dot scheffler at usda dot gov)
