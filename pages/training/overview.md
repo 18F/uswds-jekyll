@@ -14,7 +14,7 @@ SCINet is working to bring certified courses in statistics, machine learning, an
 
 ## Workshops
 
-SCINet sponsors online and in-person workshops on specific topics such as Carpentries courses.  Visit the [upcoming](https://scinet.usda.gov/opportunities/events) or [training archive](https://scinet.usda.gov/training-archive/) pages for more information. 
+SCINet sponsors online and in-person workshops on specific topics such as Carpentries courses.  Visit the [upcoming training events](https://scinet.usda.gov/training_event) or [training archive](https://scinet.usda.gov/training-archive/) pages for more information. 
 
 ## The bioinformatics workbook
 
