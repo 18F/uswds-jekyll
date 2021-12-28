@@ -8,6 +8,8 @@ layout: page
 
 The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. 
 
+SCINet regularly hosts virtual events for USDA ARS scientists and collaborators. Information on how to attend these events can be found on the [Upcoming Training Events page](https://scinet.usda.gov/training/training_event).
+
 |**Event** | **Date** | **Time** | **Provider** | **How to Participate** |
 |------|------|------|--------|--------|
 |Introduction to Atlas- This 90-minute information session is for anyone interested in learning more about USDA’s new state-of-the art supercomputer Atlas. This introduction will cover a range of topics including a general overview of high-performance computing, why you might want to take advantage of its capabilities in your research, and basic protocols associated with using Atlas (how to gain access to Atlas, how to log-in to your account, how to transfer data, etc.). | 15 Dec 2021 | 2:30-3:30 CT | MSU VRSC | To learn more or register, visit [https://forms.office.com/g/rYdpFLxvFV](https://forms.office.com/g/rYdpFLxvFV) |
