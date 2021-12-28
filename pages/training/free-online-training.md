@@ -6,7 +6,7 @@ author: various
 layout: page
 ---
 
-SCINet regularly hosts virtual events for USDA ARS scientists and collaborators. Information on how to attend these events can be found on the [Upcoming Events page](https://scinet.usda.gov/opportunities/events).
+SCINet regularly hosts virtual events for USDA ARS scientists and collaborators. Information on how to attend these events can be found on the [Upcoming Training Events page](https://scinet.usda.gov/training_event).
 
 Additionally, there are a number of free resources available to ARS scientists via sites such as Coursera and AgLearn. 
 
