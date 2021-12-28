@@ -17,10 +17,11 @@ With the expansive list of free training available online, finding the right tra
 |---|---|---|
 ![](/assets/img/Getting_Started.png)  | ![](/assets/img/Dive_Deeper.png)| ![](/assets/img/community.png) |
 | Watch these videos to learn how to get started with SCINet |  Explore these training resources to find specific content to meet your research needs |  Find others in your community to work with, get answers, and explore ideas with |
-| [Intro to SCINet](https://web.microsoftstream.com/video/9a2b95a3-79e6-4176-b5e6-cfd674c034aa)  | [UNIX Tutorial (Bioinformatics Workbook)](https://scinet.usda.gov/training/bioinformatics-workbook) | [Working Group](https://scinet.usda.gov/working-groups) |
+| [Intro to SCINet](https://web.microsoftstream.com/video/9a2b95a3-79e6-4176-b5e6-cfd674c034aa)  | [Coursera](https://scinet.usda.gov/training/coursera) | [Working Group](https://scinet.usda.gov/working-groups) |
 | [SCINet Onboarding](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) | [Carpentries: UNIX, GIT, Python, R, OpenRefine, SQL](https://scinet.usda.gov/opportunities/events) | [SCINet Forum](https://forum.scinet.usda.gov/) |
 | [Atlas Overview](https://scinet.usda.gov/training-archive/2021-10-28-Intro-To-Atlas/)  | [AgLearn: LinkedIn Learn, Precipio](https://scinet.usda.gov/training/free-online-training#aglearn-and-linkedin-learning)| [SCINet Corner](https://forms.gle/7DcBoBvbGcjQDBP38) |
-| [Intro to Command Line](https://scinet.usda.gov/training-archive/2021-11-17-command-line-skills/) | [Coursera](https://scinet.usda.gov/training/coursera)|  
+| [Intro to Command Line](https://scinet.usda.gov/training-archive/2021-11-17-command-line-skills/) | [Geospatial Workbook](https://scinet.usda.gov/working-groups/geospatial)|  |
+| [X](X) | [Bioinformatics Workbook](https://scinet.usda.gov/training/bioinformatics-workbook)|  
 
 <br />
 
@@ -34,7 +35,6 @@ With the expansive list of free training available online, finding the right tra
 | [Tutorials](/training/tutorials/) |   X | 
 | [Workshops](https://scinet.usda.gov/opportunities/events) |  Browse all scheduled workshops and trainings | 
 | [Free online trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
-| [The bioinformatics workbook](/training/bioinformatics-workbook) |   Researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more | 
 | [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
 
