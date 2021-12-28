@@ -1,8 +1,8 @@
 ---
 title: Upcoming SCINet Events 
 description: Advertise workshops/trainings or calls for interest
-permalink: /opportunities/events
-author: Kerrie Geil
+permalink: /training/training_events
+author: Delanie Johnson
 layout: page
 ---
 
