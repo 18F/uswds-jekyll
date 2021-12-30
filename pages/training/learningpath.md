@@ -30,16 +30,26 @@ With the expansive list of free training available online, finding the right tra
 
 <br />
 
-| Resource Link |  Description |  
+| Resource Links |  Description |  
 |---|---|
-| [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
 | [Upcoming Trainings](https://scinet.usda.gov/training/training_event) |  Browse all scheduled trainings | 
-| [Free online trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
-| [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
-| [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
+| [Free Online Trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
 | [Machine Learning Tutorial](/tutorials/ARS-UF-machine-learning-training/) |   Introduction to machine learning methods using Jupyter notebooks and coding excercises | 
 | [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing| 
 | [NEON High Resolution Hyperspectral Data Exercise](/tutorials/geospatial-analysis-NEON-hyperspectral/) |  Explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)| 
 | [Quantitative Trait Locus (QTL) Analysis for Breeding](/tutorials/plant-breeding/) |   Tutorial on how to use QTL-surge and RStudio on Ceres| 
+
+<br />
+
+# Useful Links
+<br />
+
+| Useful Links |  Description |  
+|---|---|
+| [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
+| [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
+| [Ceres User Manual](https://scinet.usda.gov/guide/ceres/) |   Guide to getting started with Ceres including a technical overview and system configurations. | 
+| [Atlas HPC User Guide](https://www.hpc.msstate.edu/computing/atlas/) |   Guide to accessing Atlas including transferring files and quotas. | 
+| [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guide on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
 
 <br />
