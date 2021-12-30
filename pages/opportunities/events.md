@@ -12,7 +12,7 @@ For training events, visit the [Upcoming Training Events page](https://scinet.us
 
 |**Event** | **Date** | **Time** | **Provider** | **How to Participate** |
 |------|------|------|--------|--------|
-|No events planned at this time. | 2022 |  |  |  |
+|No events planned at this time. | 2022 |  |  |  |  
 
 
 
@@ -20,5 +20,8 @@ For training events, visit the [Upcoming Training Events page](https://scinet.us
 
 ### Keep an eye on this page for more info about upcoming events!
 
-For past events, check out the [Training Events Archive](/training-archive/) as well as the [Working Group pages](/working-groups/) (for past workshops).
+**Relavent Links**
+- [Event Archive](/event-archive/) for past events and meetings
+- [Training Archive](/training-archive/) for past trainings
+- [Working Group pages](/working-groups/) for past worskops
 
