@@ -95,6 +95,8 @@ primary:
         href: /working-groups/pollinator
   - text: Training
     links:
+     - text: Learning Pathway
+        href: /training/learningpath
 #     - text: Overview
 #        href: /training/overview
 #      - text: ARS Science Tutorials
