@@ -38,8 +38,8 @@ With the expansive list of free training available online, finding the right tra
 | [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
 | [Machine Learning Tutorial](/tutorials/ARS-UF-machine-learning-training/) |   Introduction to machine learning methods using Jupyter notebooks and coding excercises | 
-| [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Introduction to machine learning methods using Jupyter notebooks and coding excercises | 
+| [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing| 
 | [NEON High Resolution Hyperspectral Data Exercise](/tutorials/geospatial-analysis-NEON-hyperspectral/) |  Explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)| 
-| [Quantitative Trait Locus (QTL) Analysis for Breeding](/tutorials/plant-breeding/) |   Use QTL-surge and RStudio on Ceres| 
+| [Quantitative Trait Locus (QTL) Analysis for Breeding](/tutorials/plant-breeding/) |   Tutorial on how to use QTL-surge and RStudio on Ceres| 
 
 <br />
