@@ -95,10 +95,10 @@ primary:
         href: /working-groups/pollinator
   - text: Training
     links:
-      - text: Overview
-        href: /training/overview
-      - text: ARS Science Tutorials
-        href: /training/tutorials/
+#     - text: Overview
+#        href: /training/overview
+#      - text: ARS Science Tutorials
+#        href: /training/tutorials/
       - text: Free Online Training
         href: /training/free-online-training
 #      - text: Videos
@@ -109,8 +109,8 @@ primary:
         href: /training-archive/
       - text: Bioinformatics Workbook
         href: /training/bioinformatics-workbook
-      - text: Useful Links
-        href: /training/useful-links
+#      - text: Useful Links
+#        href: /training/useful-links
       - text: Coursera
         href: /training/coursera
   - text: Use Cases
