@@ -14,8 +14,18 @@ sidenav-breakpoint: 'desktop'
 #   links: primary
 #
 primary:
-  - text: Sign up for an account
-    href: /signup/
+  - text: About
+    links:
+      - text: Sign up for an account
+        href: /signup/
+      - text: Computer Systems
+        href: /about/compute
+#      - text: Networking
+#        href: /about/networking
+      - text: Organization
+        href: /about/organization
+      - text: Contact
+        href: /about/contact
   - text: News
     links:
       - text: System Downtime
@@ -115,6 +125,8 @@ primary:
 #        href: /training/useful-links
       - text: Coursera
         href: /training/coursera
+  - text: Events
+    links:
   - text: Use Cases
     links:
 #      - text: Research Leader
@@ -147,16 +159,6 @@ primary:
         href: /support/request-AWS
       - text: Ceres Job Script Generator
         href: /support/ceres-job-script
-  - text: About
-    links:
-      - text: Computer Systems
-        href: /about/compute
-#      - text: Networking
-#        href: /about/networking
-      - text: Organization
-        href: /about/organization
-      - text: Contact
-        href: /about/contact
   - text: Opportunities
     links:
       - text: SAC Membership
@@ -165,8 +167,6 @@ primary:
         href: /opportunities/request-workshop
       - text: Fellowships (PhD & MS)
         href: /opportunities/postdocs
-      - text: Upcoming Events
-        href: /opportunities/events
       - text: AI Innovation fund
         href: /opportunities/ai-innovation
       - text: SCINet and AI-COE fellowship proposals
