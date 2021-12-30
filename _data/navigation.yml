@@ -105,12 +105,12 @@ primary:
         href: /working-groups/pollinator
   - text: Training
     links:
-     - text: Learning Pathway
-        href: /training/learningpath
 #     - text: Overview
 #        href: /training/overview
 #      - text: ARS Science Tutorials
 #        href: /training/tutorials/
+      - text: Learning Pathway
+         href: /training/learningpath
       - text: Free Online Training
         href: /training/free-online-training
 #      - text: Videos
