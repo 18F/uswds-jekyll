@@ -75,13 +75,13 @@ Jason Fiedler | Plains | Representative | Planning | 2023
 Pat Clark | Pacific West | Representative | Education | 2022
 Alison Thompson |Pacific West | Representative | Education | 2021
 Kathy Yeater | Statistician | Representative |Membership | 2021
-Rowan Gaffney | At-Large | Representative | Education | 2022
+TBD | At-Large | Representative | Education | 2022
 Jack Okamoro | ONP | Ex Officio | - | -
 Cyndy Parr | NAL | Ex Officio | - | -
 Bryan Kaphammer | Area Directors | Ex Officio | - | -
-Debra Peters | OCIO | Ex Officio | - | -
-Brian Scheffler | Former OCIO | Ex Officio | - | -
-Kerrie Geil | Scinet Fellow | Ex Officio | - | -
+Debra Peters | CSIO | Ex Officio | - | -
+Brian Scheffler | Former CSIO | Ex Officio | - | -
+Rachel Paseka | Scinet Fellow | Ex Officio | - | -
 Rob Butler | Acting SCINet Executive Director | Ex Officio | - | -
 
 ## Policy Committee
