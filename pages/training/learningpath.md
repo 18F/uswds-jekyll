@@ -32,7 +32,7 @@ With the expansive list of free training available online, finding the right tra
 | Resource Link |  Description |  
 |---|---|
 | [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
-| [Workshops](https://scinet.usda.gov/opportunities/events) |  Browse all scheduled workshops and trainings | 
+| [Upcoming Trainings](https://scinet.usda.gov/training/training_event) |  Browse all scheduled trainings | 
 | [Free online trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
 | [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
