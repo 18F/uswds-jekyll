@@ -6,10 +6,11 @@ author: Heather Jones
 layout: page
 ---
 
-
-# Get Started with SCINet Learning Pathway
+# Overview of SCINet Training opportunities
 
 One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
+
+# Get Started with SCINet Learning Pathway
 
 With the expansive list of free training available online, finding the right training to meet your learning needs can be daunting. Take the first steps in getting started with your introductory learning path to help you get started with SCINet. Learn about SCINet, how to sign up for an account, and what is possible when supported by SCINet infrastructure. Then dive in with hands-on tutorials available across multiple searchable platforms to find the information you need for just-in-time learning.
 
@@ -21,7 +22,7 @@ With the expansive list of free training available online, finding the right tra
 | [SCINet Onboarding](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) | [Carpentries: UNIX, GIT, Python, R, OpenRefine, SQL](https://scinet.usda.gov/opportunities/events) | [SCINet Forum](https://forum.scinet.usda.gov/) |
 | [Atlas Overview](https://scinet.usda.gov/training-archive/2021-10-28-Intro-To-Atlas/)  | [AgLearn: LinkedIn Learn, Precipio](https://scinet.usda.gov/training/free-online-training#aglearn-and-linkedin-learning)| [SCINet Corner](https://forms.gle/7DcBoBvbGcjQDBP38) |
 | [Intro to Command Line](https://scinet.usda.gov/training-archive/2021-11-17-command-line-skills/) | [Geospatial Workbook](https://scinet.usda.gov/working-groups/geospatial)|  |
-| [X](X) | [Bioinformatics Workbook](https://scinet.usda.gov/training/bioinformatics-workbook)|  
+|  | [Bioinformatics Workbook](https://scinet.usda.gov/training/bioinformatics-workbook)|  
 
 <br />
 
@@ -29,13 +30,16 @@ With the expansive list of free training available online, finding the right tra
 
 <br />
 
-| Resource |  Description |  
+| Resource Link |  Description |  
 |---|---|
 | [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) |   Use this step-by-step guide to walk you through getting started with SCInet and answer common trouble shooting questions | 
-| [Tutorials](/training/tutorials/) |   X | 
-| [Workshops](https://scinet.usda.gov/opportunities/events) |  Browse all scheduled workshops and trainings | 
+| [Upcoming Trainings](https://scinet.usda.gov/training/training_event) |  Browse all scheduled trainings | 
 | [Free online trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
 | [Data Management](https://scinet.usda.gov/training/useful-links.html#data-management) |   Resources and links to support data management | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guides on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
+| [Machine Learning Tutorial](/tutorials/ARS-UF-machine-learning-training/) |   Introduction to machine learning methods using Jupyter notebooks and coding excercises | 
+| [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing| 
+| [NEON High Resolution Hyperspectral Data Exercise](/tutorials/geospatial-analysis-NEON-hyperspectral/) |  Explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)| 
+| [Quantitative Trait Locus (QTL) Analysis for Breeding](/tutorials/plant-breeding/) |   Tutorial on how to use QTL-surge and RStudio on Ceres| 
 
 <br />
