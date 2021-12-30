@@ -6,10 +6,11 @@ author: Heather Jones
 layout: page
 ---
 
-
-# Get Started with SCINet Learning Pathway
+# Overview of SCINet Training opportunities
 
 One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
+
+# Get Started with SCINet Learning Pathway
 
 With the expansive list of free training available online, finding the right training to meet your learning needs can be daunting. Take the first steps in getting started with your introductory learning path to help you get started with SCINet. Learn about SCINet, how to sign up for an account, and what is possible when supported by SCINet infrastructure. Then dive in with hands-on tutorials available across multiple searchable platforms to find the information you need for just-in-time learning.
 
