@@ -6,15 +6,14 @@ author: Kerrie Geil
 layout: page
 ---
 
+# SCINet Upcoming Events
+
 SCINet regularly hosts meetings and workshop for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. 
 
-For training events, visit the [Upcoming Training Events page](https://scinet.usda.gov/training/training_event).
 
 |**Event** | **Date** | **Time** | **Provider** | **How to Participate** |
 |------|------|------|--------|--------|
 |No events planned at this time. | 2022 |  |  |  |  
-
-
 
 <br>
 
@@ -22,6 +21,7 @@ For training events, visit the [Upcoming Training Events page](https://scinet.us
 
 **Relavent Links**
 - [Event Archive](/event-archive/) for past events and meetings
+- [Upcoming Training Events](https://scinet.usda.gov/training/training_event) for scheduled trainings
 - [Training Archive](/training-archive/) for past trainings
 - [Working Group pages](/working-groups/) for past worskops
 
