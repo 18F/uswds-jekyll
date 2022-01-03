@@ -7,7 +7,7 @@ layout: page
 ---
 
 
-One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
+One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
 
 # Get Started with SCINet Learning Pathway
 
