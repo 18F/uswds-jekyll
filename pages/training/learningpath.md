@@ -1,12 +1,11 @@
 ---
-title: Overview of SCINet Training opportunities
+title: Overview of SCINet Training Opportunities
 description: One of SCINet's missions is training scientists in computational methods to empower agricultural research.
 permalink: /training/learningpath/
 author: Heather Jones
 layout: page
 ---
 
-# Overview of SCINet Training opportunities
 
 One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.
 
