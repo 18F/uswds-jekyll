@@ -1,7 +1,7 @@
 ---
 title: Sign up for a SCINet account
 description: SCINet account sign up for ARS scientists and ARS collaborators
-permalink: /signup/
+permalink: /about/signup
 author:
 layout: page
 
