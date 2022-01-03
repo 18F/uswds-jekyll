@@ -41,6 +41,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
+  events-archive:
+    output: true
+    permalink: /:collection/:path/
   training-archive:
     output: true
     permalink: /:collection/:path/

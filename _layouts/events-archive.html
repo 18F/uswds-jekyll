@@ -1,0 +1,14 @@
+---
+layout: post
+title: SCINet Events Archive
+---
+
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+    {{content}}
+    {% for post in site.events-archive reversed %}
+      <h3>
+        <a href="{{ post.url  | relative_url}}">{{ post.date | date_to_string }} &middot {{ post.title }}</a>
+      </h3>
+      {{ post.excerpt | truncatewords:25 }}
+    {% endfor %}
+</div>
