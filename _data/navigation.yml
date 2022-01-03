@@ -20,8 +20,8 @@ primary:
         href: /signup/
       - text: Computer Systems
         href: /about/compute
-#      - text: Networking
-#        href: /about/networking
+#     - text: Networking
+#       href: /about/networking
       - text: Organization
         href: /about/organization
       - text: Contact
@@ -106,27 +106,25 @@ primary:
   - text: Training
     links:
 #     - text: Overview
-#        href: /training/overview
-#      - text: ARS Science Tutorials
-#        href: /training/tutorials/
+#       href: /training/overview
+#     - text: ARS Science Tutorials
+#       href: /training/tutorials/
       - text: Learning Pathway
-         href: /training/learningpath
+        href: /training/learningpath
       - text: Free Online Training
         href: /training/free-online-training
-#      - text: Videos
-#        href: /training/video/
+#     - text: Videos
+#       href: /training/video/
       - text: Upcoming Training Events
         href: /training/training_event
       - text: Training Event Archive
         href: /training-archive/
       - text: Bioinformatics Workbook
         href: /training/bioinformatics-workbook
-#      - text: Useful Links
-#        href: /training/useful-links
+#     - text: Useful Links
+#       href: /training/useful-links
       - text: Coursera
         href: /training/coursera
-  - text: Events
-    links:
   - text: Use Cases
     links:
 #      - text: Research Leader
