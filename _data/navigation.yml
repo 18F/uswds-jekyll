@@ -125,6 +125,9 @@ primary:
 #       href: /training/useful-links
       - text: Coursera
         href: /training/coursera
+  - text: Events
+    links:
+
   - text: Use Cases
     links:
 #      - text: Research Leader
