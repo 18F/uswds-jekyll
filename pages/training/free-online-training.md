@@ -35,7 +35,7 @@ Additionally, there are a number of free resources available to ARS scientists v
 
 # How to Access Training on Different Platforms
 
-In addition to the training resources list on this page, take a look at the [Science Tutorials page](/training/tutorials/) where ARS researchers and the Virtual Research Support Core post their own computational tutorials and training.
+In addition to the training resources list on this page, take a look at the [SCINet Training Page](/training/learningpath/) for computational tutorials and additional training.
 
 ### AgLearn and LinkedIn Learning
 
@@ -143,7 +143,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs
 [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | 8 mo; 6 hrs/wk
 [Data Science: R Basics](https://www.edx.org/course/data-science-r-basics) | EdX | 8 wks; 1-2 hrs/wk
-
 
 
 # SAS Programming and JMP
