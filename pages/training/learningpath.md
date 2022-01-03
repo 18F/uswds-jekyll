@@ -50,5 +50,5 @@ With the expansive list of free training available online, finding the right tra
 | [Ceres User Manual](https://scinet.usda.gov/guide/ceres/) |   Guide to getting started with Ceres including a technical overview and system configurations. | 
 | [Atlas HPC User Guide](https://www.hpc.msstate.edu/computing/atlas/) |   Guide to accessing Atlas including transferring files and quotas. | 
 | [Iowa State HPC Site](https://www.hpc.iastate.edu/guides) |   Guide on compute clusters, UNIX command line, building containers, and data transfer with Globus. | 
-
+| [Ag Data Commons](https://data.nal.usda.gov/) |   Public, government, scientific research data catalog and repository to share and discover research data funded by the United States Department of Agriculture and meet Federal open access requirements. Through the Ag Data Commons, the USDA National Agricultural Library (NAL) provides services to make USDA funded research data systems and data products Findable, Accessible, Interoperable, and Reusable (FAIR). Critical functions the Ag Data Commons provides include: Scientific metadata creation and curation, Public access to data through a catalog of USDA funded research and public APIs, Data repository for long-term archiving (as required to support DOI service) |
 <br />
