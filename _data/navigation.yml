@@ -127,8 +127,8 @@ primary:
         href: /training/coursera
   - text: Events
     links:
-      -text: Training Events
-       href: /events/training_event
+#      -text: Training Events
+#       href: /events/training_event
   - text: Use Cases
     links:
 #      - text: Research Leader
