@@ -10,7 +10,7 @@ hero:
     alt: Get Started with SCINet
     text: "ARS scientists/ collaborators: Register for an account"
   button:
-    href: /signup/
+    href: /about/signup
     text: Get Started now
 #  link:
 #    text: Links to get started
