@@ -26,7 +26,6 @@ With the expansive list of free training available online, finding the right tra
 <br />
 
 # Additional Training Resources
-
 <br />
 
 | Resource Links |  Description |  
