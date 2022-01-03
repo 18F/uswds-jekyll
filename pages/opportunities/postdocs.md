@@ -15,7 +15,6 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 |---|---|---|
 | [Integrating Breeding Platforms and Bioinformatic Analyses Postdoctoral Fellowship, USDA-ARS-2021-0001](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0001) | Raleigh, NC |  Genomics, Bioinformatics, Computational Biology, Crop Breeding  |
 | [USDA-ARS Machine Learning & AI in Nutrition Research Fellowship, USDA-ARS-2021-0008](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0008) | Davis, California |  Computational Biology, Diet, Nutrition, Health |
-| [Postdoctoral Fellowship in Food Safety, USDA-ARS-2021-0059)](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0059) | Clay Center, NE |Computational Biology, Nutrition, Meat Safety, Salmonella |
 | [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0063](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0063) | Beltsville, MD | ML, AI, Computational Biology|
 | [USDA-ARS Research Opportunity in High Performance Computing, USDA-ARS-2021-0087](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0087) | Beltsville, MD | ML, AI, Computational Biology, Big Data |
 | [Vision & Artificial Intelligence Fellowship,USDA-ARS-2021-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0157) | Beltsville, MD | Computer Vision, PyTorch, Weed Science, Image Analysis |
