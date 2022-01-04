@@ -1,12 +1,15 @@
 ---
-title: Upcoming SCINet Events 
+title: Upcoming SCINet Training Events 
 description: Advertise workshops/trainings or calls for interest
 permalink: /training/training_event
 author: Delanie Johnson
 layout: page
 ---
 
-The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. 
+The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. You might want to [take a look at training events we've hosted in the past](/training-archive), too. For information about other SCINet events, please see:
+* [Upcoming events](/events/upcoming_events)
+* [Past events](/events-archive/)
+* [Working group pages](/working-groups) for working group-related events
 
 |**Event** | **Date** | **Time** | **Provider** | **How to Participate** |
 |------|------|------|--------|--------|
@@ -27,7 +30,5 @@ The SCINet initiative is planning to host a number of virtual training/workshop 
 
 <br>
 
-### Keep an eye on this page for more info about upcoming events!
-
-For past events, check out the [Training Events Archive](/training-archive/) as well as the [Working Group pages](https://scinet.usda.gov/working-groups) (for past workshops).
+### Keep an eye on this page for more info about upcoming training events!
 

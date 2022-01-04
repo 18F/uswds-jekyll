@@ -6,7 +6,11 @@ author: Brian Stucky
 layout: page
 ---
 
-SCINet and the AI-COE regularly host a variety of non-training-related events. Information on how to attend these events will be posted on this page closer to the event date.  You might want to [take a look at events we've hosted in the past](/events-archive), too. 
+SCINet and the AI-COE regularly host a variety of non-training-related events. Information on how to attend these events will be posted on this page closer to the event date.  You might want to [take a look at events we've hosted in the past](/events-archive), too. For information about other SCINet events, please see:
+* [Upcoming training events](/training/training_event)
+* [Past training events](/training-archive/)
+* [Working group pages](/working-groups) for working group-related events
+
 
 |**Event** | **Date** | **Time** | **Provider** | **How to Participate** |
 |------|------|------|--------|--------|
@@ -16,6 +20,4 @@ SCINet and the AI-COE regularly host a variety of non-training-related events. I
 <br>
 
 ### Keep an eye on this page for more info about upcoming events!
-
-For past events, check out the [Events Archive](/events-archive/), the [Training Events Archive](/training-archive/), or the [Working Group pages](https://scinet.usda.gov/working-groups) (for past workshops).
 
