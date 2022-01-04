@@ -17,8 +17,7 @@ primary:
   - text: About
     links:
       - text: Sign up for an account
-#       href: /signup
-        href: redirect: /about/signup
+        href: /about/signup
       - text: Computer Systems
         href: /about/compute
 #     - text: Networking
