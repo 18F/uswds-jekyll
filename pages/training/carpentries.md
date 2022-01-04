@@ -13,10 +13,11 @@ The Carpentries teaches foundational coding and data science skills to researche
 
 ***2022 Winter/Spring Schedule***
 
-Software Carpentry (UNIX, GIT, Python);  3/8 and 3/15; 10-6pm ET
-Software Carpentries (UNIX, GIT, R);  2/24 and 3/31; 10-6 ET 
-Data Carpentry (OpenRefine, SQL, Python);  2/16, 2/17, 2/23, 2/24;  1-5 pm ET
-Data Carpentry (OpenRefine, SQL, R)  3/7, 3/8, 3/14, 3/15; 1-5pm ET
+- Software Carpentry (UNIX, GIT, Python);  3/8 and 3/15; 10-6pm ET
+- Software Carpentries (UNIX, GIT, R);  2/24 and 3/31; 10-6 ET 
+- Data Carpentry (OpenRefine, SQL, Python);  2/16, 2/17, 2/23, 2/24;  1-5 pm ET
+- Data Carpentry (OpenRefine, SQL, R)  3/7, 3/8, 3/14, 3/15; 1-5pm ET 
+
 To register for one of the trainings, visit [https://forms.office.com/g/DFn9Kiw05t](https://forms.office.com/g/DFn9Kiw05t)
 
 If you are interested in becoming a Carpentries Instructor, please email SCINet-training@usda.gov.
