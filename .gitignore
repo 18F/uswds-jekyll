@@ -18,3 +18,7 @@ _site
 .sass-cache
 
 .DS_store
+
+# VIM swap files
+*.swp
+
