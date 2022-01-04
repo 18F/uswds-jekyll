@@ -6,11 +6,12 @@ author: various
 layout: page
 ---
 
-SCINet regularly hosts virtual events for USDA ARS scientists and collaborators. Information on how to attend these events can be found on the [Upcoming Training Events page](https://scinet.usda.gov/training/training_event).
-
-Additionally, there are a number of free resources available to ARS scientists via sites such as Coursera and AgLearn. 
+There are a number of free resources available to ARS scientists via sites such as Coursera and AgLearn. 
 
 *A big thank you to Sara Duke and Kathy Yeater, Plains Area Statisticians, for assembling the vast majority of the following online training offerings!*
+
+Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists and collaborators. In addition to the training resources list on this page, take a look at the [SCINet Learning Path](https://scinet.usda.gov/training/learningpath) and the [upcoming training events](https://scinet.usda.gov/training/training_event). 
+
 
 ### Table of Contents
 * [How to Access Training on Different Platforms](#how-to-access-training-on-different-platforms)
@@ -35,11 +36,9 @@ Additionally, there are a number of free resources available to ARS scientists v
 
 # How to Access Training on Different Platforms
 
-In addition to the training resources list on this page, take a look at the [SCINet Training Page](/training/learningpath/) for computational tutorials and additional training.
-
 ### AgLearn and LinkedIn Learning
 
-All federal USDA permanent and term employees should be able to access the AgLearn courses listed on this page by following the posted links. This includes LinkedIn Learning courses.
+AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. All federal USDA permanent and term employees should be able to access the courses listed on this page by following the posted links. 
 
 Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contractors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
 
