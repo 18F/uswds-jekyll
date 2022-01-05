@@ -64,4 +64,4 @@ graphics:
 Look at our use cases in ([genomics](/user/genomics), [plant breeding](/user/plant-breeding/), [geospatial](/user/geospatial/), [hydrology](/user/hydrology/)) or contact your [SCINet Scientific Advisory Committee representative](/about/organization) to learn more. You can get the process started by requesting an account right now.
 {: .usa-font-lead }
 
-[Get an account](signup){: .usa-button .usa-button-big }
+[Get an account](/about/signup){: .usa-button .usa-button-big }

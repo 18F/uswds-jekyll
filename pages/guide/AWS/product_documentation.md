@@ -26,7 +26,7 @@ layout: page
 
 ### Product Documentation Links
 * [EC2 Instance](/guide/AWS/ec2instance)
-* [Pathway Tools](/guide/AWS/pathwayitools)
+* [Pathway Tools](/guide/AWS/pathwaytools)
 * [FAQ](/guide/AWS/faq)
 
 ### How To Project Monthly Costs For AWS Products

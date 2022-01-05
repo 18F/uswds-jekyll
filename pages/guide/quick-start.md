@@ -25,10 +25,10 @@ layout: page
 
 ---
 
-[No account? Signup here.](/signup/){: .usa-button .usa-button-big }
+[No account? Signup here.](/about/signup/){: .usa-button .usa-button-big }
 
 #### Table of Contents
-* [What is SCINet](#what-is-scinet)
+* [What is SCINet?](#what-is-scinet)
 * [Multi-Factor Authentication](#set-up-multi-factor-authentication)
 * [HPC Clusters on SCINet](#hpc-clusters-on-scinet)
 * [Accessing SCINet](#accessing-scinet)
@@ -60,14 +60,14 @@ layout: page
 * [SCINet Acknowledgement in Publications](#scinet-citationacknowledgment-in-publications)
 
 
-# What is SCINet
+# What is SCINet?
 
-SCINet is the name for the USDA-ARS initiative for scientific computing. It consists of:
+SCINet is the USDA-ARS's initiative for scientific computing. It consists of:
 
 1. High performance computer clusters for running command-line and graphical programs. There are currently two clusters: Ceres cluster in Ames IA and Atlas cluster in Starkville MS. Another cluster at NAL in Beltsville MD will be coming online later this year. SCINet also offers AWS cloud computing. See [SCINet HPC Systems](/about/compute) for more detail.
 2. Network improvements across ARS.
 3. Support for computing through the Virtual Research Support Core (VRSC). See [VRSC Support](/support/vrsc/) for more detail.
-4. Training and workshop opportunities in multiple areas of scientific computing. See [Upcoming Events](/opportunities/events) and [Past Workshops](/training-archive/) for more detail.
+4. Training and workshop opportunities in multiple areas of scientific computing. See [upcoming](/training/training_event) and [past](/training-archive/) trainings and [upcoming](/events/upcoming_events) and [past](/events-archive) events for more information.
 
 # Set Up Multi-Factor Authentication
 

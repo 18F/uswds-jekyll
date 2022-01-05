@@ -50,7 +50,7 @@ The SCINet initiative funds various workshops and training events annually ([App
 
 ## How and When to Contact the VRSC
 
-Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet Forum](https://forum.scinet.usda.gov/) message board. Access to the Forum is provided during the SCINet account application process ([Apply for an Account](/signup/)).
+Discussion that is relevant to other SCINet users such as questions about the best practices for research computations should be posted on the [SCINet Forum](https://forum.scinet.usda.gov/) message board. Access to the Forum is provided during the SCINet account application process ([Apply for an Account](/about/signup/)).
 
 If your question is related to SCINet policy or development, contact the acting SCINet Program Manager, Stan Kosecki.
 

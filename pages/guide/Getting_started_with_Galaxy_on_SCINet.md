@@ -36,7 +36,7 @@ There are a few compelling reasons why we think you’re going to like using Gal
 5. There is plenty of external documentation covering almost all conventional bioinformatic analyses. In fact, many workflows (see below) probably already exist that you can use directly on your data.
 6. If you don’t see a tool in the current interface, it probably is in the Toolshed (see below). You can then request that an administrator install it.
 
-In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCINet account](/signup/) to start that process. New accounts will automatically get a Galaxy user name and directory. The user name should match the email you used when registering for your Ceres account and the password will match your Ceres password.
+In order to use SCINet Galaxy, you need an account on Ceres. [Sign up for a SCINet account](/about/signup/) to start that process. New accounts will automatically get a Galaxy user name and directory. The user name should match the email you used when registering for your Ceres account and the password will match your Ceres password.
 
 <b>NOTE: </b>All uploaded and output files are removed after<b><i> 90 Days </i></b>so it is<b> recommended </b>users save their data outside of galaxy.
 

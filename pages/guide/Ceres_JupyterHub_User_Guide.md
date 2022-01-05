@@ -81,12 +81,12 @@ The simplest and most succinct method to launch JupyterLab is thru the JupyterHu
 
 Below is a video (COMING SOON) showing the above process.
 
-<div style="text-align:center;">
+<!--div style="text-align:center;">
 <video controls width="500" title="JupyterHub + Ceres">
     <source src=".....mp4"
             type="video/mp4">
 </video>
-</div>
+</div-->
 
 ---
 # Environments and Software

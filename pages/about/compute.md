@@ -25,7 +25,7 @@ New users may also want to reference the [Ceres Quick Start Guide](/guide/quicks
 Many additional user guides are available under the "User Guides" dropdown list.
 
 Other helpful links:<br>
-[Apply for a SCINet Account](/signup/) to access Ceres<br>
+[Apply for a SCINet Account](/about/signup/) to access Ceres<br>
 [SCINet/Ceres FAQs](/support/faq/)<br>
 [Request Project Storage](/support/request-storage)<br>
 [Request Software](/support/request-software)<br>

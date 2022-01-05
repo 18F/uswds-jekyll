@@ -175,12 +175,12 @@ primary:
         href: /opportunities/request-workshop
       - text: Fellowships (PhD & MS)
         href: /opportunities/postdocs
-      - text: AI Innovation fund
+      - text: AI Innovation Fund
         href: /opportunities/ai-innovation
       - text: SCINet and AI-COE fellowship proposals
         href: /opportunities/scinet-aicoe-fellowships
-      - text: Open Positions
-        href: /opportunities/open_positions
+#      - text: Open Positions
+#        href: /opportunities/open_positions
 
 # secondary:
 #   - text: Documentation
