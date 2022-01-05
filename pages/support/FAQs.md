@@ -102,14 +102,14 @@ Add the following sentence as an acknowledgment for using SCINet/Ceres as a reso
 “This research used resources provided by the SCINet project and the AI Center of Excellence of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D.”
 
 ### How do I get an account (I am an ARS employee)?
-Please fill out the [SCINet Account Request Form](/about/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
+Please fill out the [SCINet Account Request Form](/about/signup). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
 
 You will also receive another email asking to join the [SCINet VRSC Forum](https://forum.scinet.usda.gov) project (must have SCINet account first), a forum on which users can post questions. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
 
 ### How do I get an account for non-ARS collaborators, students, or postdocs?
 All students, postdocs, visiting scientists, and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
 
-Please fill out the [Non-ARS SCINet Account Request Form](/about/signup/). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
+Please fill out the [Non-ARS SCINet Account Request Form](/about/signup). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
 
 Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Forum](https://forum.scinet.usda.gov) user forum for user discussion. Collaborators should accept the email invitation to join SCINet VRSC Basecamp that they will receive upon account approval, create a Basecamp account, and select their preferred email frequency.
 
