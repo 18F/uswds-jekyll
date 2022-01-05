@@ -102,16 +102,16 @@ Add the following sentence as an acknowledgment for using SCINet/Ceres as a reso
 “This research used resources provided by the SCINet project and the AI Center of Excellence of the USDA Agricultural Research Service, ARS project number 0500-00093-001-00-D.”
 
 ### How do I get an account (I am an ARS employee)?
-Please fill out the [SCINet Account Request Form](/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
+Please fill out the [SCINet Account Request Form](/about/signup/). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
 
-You will also receive another email asking to join the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) project (must have SCINet account first), a forum on which users can post questions. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
+You will also receive another email asking to join the [SCINet VRSC Forum](https://forum.scinet.usda.gov) project (must have SCINet account first), a forum on which users can post questions. Please accept the invitation, create a Basecamp account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
 
 ### How do I get an account for non-ARS collaborators, students, or postdocs?
 All students, postdocs, visiting scientists, and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
 
-Please fill out the [Non-ARS SCINet Account Request Form](/signup/). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
+Please fill out the [Non-ARS SCINet Account Request Form](/about/signup/). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
 
-Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) user forum for user discussion. Collaborators should accept the email invitation to join SCINet VRSC Basecamp that they will receive upon account approval, create a Basecamp account, and select their preferred email frequency.
+Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Forum](https://forum.scinet.usda.gov) user forum for user discussion. Collaborators should accept the email invitation to join SCINet VRSC Basecamp that they will receive upon account approval, create a Basecamp account, and select their preferred email frequency.
 
 ### How do I reactivate my account?
 Please email the VRSC: scinet_vrsc@usda.gov
@@ -156,7 +156,7 @@ The popular R, Perl and Python languages have many packages/modules available. S
 
 Another resource for installing your own software programs is the Conda package manager. See the [User-Installed Software on Ceres Using Conda guide](/guide/conda)
 
-Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories (preferably in /KEEP/<*projectname*>) since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas.
+Experienced command-line users can also install open-source software locally in their project. We recommend installing packages in the project directories since collaborators on the same project most probably would need the same packages. In addition, home quotas are much lower than project directories quotas.
 
 Alternatively, one can use Singularity to run software container images (including Docker images). For more information, see the [Singularity on Ceres guide](/guide/singularity).
 
@@ -175,7 +175,7 @@ Please submit software install request at https://e.arsnet.usda.gov/sites/OCIO/s
 ### How much data can I store on Ceres?
 Each user is allowed 10GB of data in the home directory (soft quota). 
 
-Additional storage can be provided on Ceres in  /project and /KEEP directories. To request more storage see [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space). Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.   
+Additional storage can be provided on Ceres in  /project directories. To request more storage see [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space). Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.   
 
 When requesting additional data storage you will be asked for a project summary, a project end date, and to detail your long-term plan for data in your project/keep directories after your project end date.
 

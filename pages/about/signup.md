@@ -2,7 +2,7 @@
 title: Sign up for a SCINet account
 description: SCINet account sign up for ARS scientists and ARS collaborators
 redirect_from: 
-  - /signup
+  - https://scinet.usda.gov/signup
 permalink: /about/signup
 author:
 layout: page
