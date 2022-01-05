@@ -73,8 +73,8 @@ url: "https://scinet.usda.gov" # the base hostname & protocol for your site
 plugins:
   - jekyll-last-modified-at
   - jekyll-sitemap
-  - jekyll-paginate 
-  - jekyll-redirect-from
+#  - jekyll-paginate 
+#  - jekyll-redirect-from
 # https://designsystem.digital.gov/documentation/developers/#sass-compilation-requirements
 autoprefixer:
   browsers:
