@@ -12,5 +12,5 @@ Command-line skills are invaluable for a wide range of modern data science and a
 
 * [Part 1](https://web.microsoftstream.com/video/9121f597-38c3-41e2-9faf-ebce547700ad)
 * [Part 2](https://web.microsoftstream.com/video/8656b793-ed4f-4092-81b1-393be6cc0031)
-* Part 3
+* [Part 3](https://web.microsoftstream.com/video/eae798c4-0f6e-4f4b-ba85-e37d3244063f)
 
