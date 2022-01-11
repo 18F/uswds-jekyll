@@ -23,7 +23,7 @@ To register for one of the trainings, visit [https://forms.office.com/g/DFn9Kiw0
 If you are interested in becoming a Carpentries Instructor, please email SCINet-training@usda.gov.
 
 
-Relavent Links
+Relevant Links
 - [Training Archive](https://scinet.usda.gov/training-archive/) to view past Carpentries training events
 - [Upcoming SCINet Trainings](https://scinet.usda.gov/training/training_event)
 
