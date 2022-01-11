@@ -20,7 +20,7 @@ With the expansive list of free training available online, finding the right tra
 | [Intro to SCINet](https://web.microsoftstream.com/video/9a2b95a3-79e6-4176-b5e6-cfd674c034aa)  | [Coursera](https://scinet.usda.gov/training/coursera) | [Working Group](https://scinet.usda.gov/working-groups) |
 | [SCINet Onboarding](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) | [Carpentries: UNIX, GIT, Python, R, OpenRefine, SQL](https://scinet.usda.gov/training/carpentries) | [SCINet Forum](https://forum.scinet.usda.gov/) |
 | [Atlas Overview](https://scinet.usda.gov/training-archive/2021-10-28-Intro-To-Atlas/)  | [AgLearn: LinkedIn Learn, Precipio](https://scinet.usda.gov/training/free-online-training#aglearn-and-linkedin-learning)| [SCINet Corner](https://forms.gle/7DcBoBvbGcjQDBP38) |
-| [Intro to Command Line](https://scinet.usda.gov/training-archive/2021-11-17-command-line-skills/) | [Geospatial Workbook](https://geospatial.101workbook.org/)|  |
+| [Intro to Command Line](https://scinet.usda.gov/training-archive/2021-12-08-command-line-skills/) | [Geospatial Workbook](https://geospatial.101workbook.org/)|  |
 |  | [Bioinformatics Workbook](https://scinet.usda.gov/training/bioinformatics-workbook)|  
 
 <br />
