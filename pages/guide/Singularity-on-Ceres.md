@@ -75,17 +75,15 @@ A tag may be specified when selecting the Docker image to download; e.g., a list
 **Note on Home directory and Singularity**
 
 While pulling/building the containers, pay attention to the home directory as the cached image blobs will be saved in ${HOME}/.singularity .
-Since the home directory has a limited amount of space, this can fill up quite easily. Users can change where the files will be cached by setting SINGULARITY_CACHEDIR and SINGULARITY_TMPDIR environment variables. Setting both to $TMPDIR is suggested:
+Since the home directory has a limited amount of space, this can fill up quite easily. Users can change where the files will be cached by setting SINGULARITY_CACHEDIR and SINGULARITY_TMPDIR environment variables. On Ceres we set SINGULARITY_TMPDIR to $TMPDIR. We also set SINGULARITY_CACHEDIR to $TMPDIR for all Slurm jobs if it's not set by the user. As of January 13, 2022, these variables are not automatically set on Atlas. We recommend adding the following two commands to the job scripts that use singularity:
 
 ```
 export SINGULARITY_CACHEDIR=$TMPDIR 
 export SINGULARITY_TMPDIR=$TMPDIR
 ```
-One can also use —disable-cache option to avoid saving cached image blobs (e.g., `singularity pull —disable-cache docker://r-base:3.3.3` ).
+One can also use --disable-cache option to avoid saving cached image blobs (e.g., `singularity pull --disable-cache docker://r-base:3.3.3` ).
 
 In case the home directory is full, it is safe to delete the contents of ~/.singularity folder.
-
-NOTE: As of April 14, 2021, $TMPDIR is not set on Atlas. Atlas users are advised to use the —disable-cache option when pulling docker containers.
 
 
 # 5. Singularity Images
