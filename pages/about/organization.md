@@ -75,7 +75,7 @@ Jason Fiedler | Plains | Representative | Planning | 2023
 Pat Clark | Pacific West | Representative | Education | 2022
 Alison Thompson |Pacific West | Representative | Education | 2021
 Kathy Yeater | Statistician | Representative |Membership | 2021
-TBD | At-Large | Representative | Education | 2022
+Chris Owen | At-Large | Representative | TBD | 2022
 Jack Okamoro | ONP | Ex Officio | - | -
 Cyndy Parr | NAL | Ex Officio | - | -
 Bryan Kaphammer | Area Directors | Ex Officio | - | -
@@ -132,7 +132,7 @@ Jason Fiedler, Plains Representative
 Pat Clark, Pacific West Representative
 Alison Thompson, Pacific West Representative
 Kathy Yeater, Statistician Representative
-Rowan Gaffney, At-Large Representative
+Chris Owen, At-Large Representative
 #HPC Policy Standing Committee
 Formed in 2020, this committee makes recommendations to the Executive Committee on policies and procedures that are relevant to HPC operations. The committee is comprised of members from various technical backgrounds and includes representation from different ARS geographic areas. Membership also includes representatives from Iowa State University and Mississippi State University (where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. Policy Committee progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate, please contact Jonathan Shao (chair).
 **Membership**
