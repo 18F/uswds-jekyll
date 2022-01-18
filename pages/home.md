@@ -20,15 +20,15 @@ hero:
 tagline: "High Performance computing.  Training.  Network improvements."
 intro: |
   The SCINet initiative is an effort by the USDA Agricultural Research Service (ARS) to improve the USDA's research capacity by
-  providing scientists with access to high performance computer clusters, cloud computing,
-  improved networking for data transfer and training in scientific computing
+  providing scientists with access to high-performance computing clusters, cloud computing,
+  improved networking for data transfer, and training in scientific computing
 
 graphics:
   - image:
       src: /assets/img/wifi.png
       alt: 'You have access'
     title: Your location has access now.
-    description: No network upgrades are needed. Users can access Ceres and Atlas our computer clusters, from any ARS location, university or home.
+    description: No network upgrades are needed. Users can access Ceres and Atlas, our computing clusters, from any ARS location, university or home.
   - image:
       src: /assets/img/camera-retro.png
       alt: 'GUI software is available'
@@ -43,12 +43,12 @@ graphics:
       src: /assets/img/file-code-o.png
       alt: 'CLI'
     title: Command line tools are here too.
-    description: Use preinstalled software modules, or install our own with Conda or compile them yourself. Containers are supported too. analysis. If you need something to meet your needs [let us know](/support/request-software).
+    description: Use preinstalled software modules, or install our own with Conda or compile them yourself. Containers are supported, too. If you need something to meet your needs [let us know](/support/request-software).
   - image:
       src: /assets/img/hdd-o.png
       alt: 'Storage'
     title: Storage solutions.
-    description: We offer fast data transfer tools like Globus are upgrading our cluster to have 7.3 petabytes of storage.
+    description: We offer fast data transfer tools like Globus and we are upgrading our clusters to have 7.3 petabytes of storage.
   - image:
      src: /assets/img/book.png
      alt: 'Training'
