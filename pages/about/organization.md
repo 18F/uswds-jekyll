@@ -15,7 +15,7 @@ layout: page
 * [Scientific points of contact](#scientific-points-of-contact)
 
 
-# About SCInet
+# About SCINet
 The ARS Scientific Computing Initiative is led by an Executive Committee comprised of ARS leadership including Dr. Steven Kappes – Associate Administrator for National Programs, Dr. Simon Liu – Associate Administrator for Research Management and Operations, Dr. Debra Peters – Acting Chief Scientific Information Officer, and Stan Kosecki – Acting SCINet Program Manager. The Executive Committee is guided by security professionals, system administrators, a team of computational ARS scientists called the Scientific Advisory Committee, an HPC Policy Standing Committee, and an HPC Software Standing Committee.
 
 The program runs three high performance computer clusters.  The Ceres cluster
@@ -58,7 +58,7 @@ Mr. Andy Liberman | Information Technology Specialist(Networking)
 
 
 
-## Scientific advisory committee
+## Scientific Advisory Committee
 
 The ARS Scientific Computing Initiative is in the dominion of ARS researchers, thus the program is in a constant state of gathering and meeting their research needs. The SAC is an effort to assure that happens.  SAC members represent a broad breadth of scientific research at ARS and membership includes two researchers from each of the five ARS geographic areas, a statistician member, and an “at-large” member. The SAC divides its work over various subcommittees: communications, education, planning, software and membership. In recent years, the SAC has created a quarterly SCINet newsletter, designed a user needs survey, created the scinet.usda.gov website, and held multiple computational workshops and trainings. SAC progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate (non-members welcome), please contact Adam Rivers (chair).
 
