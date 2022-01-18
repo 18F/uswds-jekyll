@@ -30,6 +30,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [Bioinformatic Analyses and Training Fellowship, USDA-ARS-2022-0032](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0032) |  Beltsville, MD | Bioinformatics |
 | [Computer Vision & Artificial Intelligence Fellowship, USDA-ARS-2022-0052](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0052) |  Beltsville, MD | Crop Breeding, Remote Sensing |
 | [ USDA-ARS Postdoctoral Fellowship in Food Safety, USDA-ARS-2022-0069](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0069) | TBD| Computational Biology, Food Safety, Salmonella|
+| [ USDA-ARS High Performance Computing Fellowship, USDA-ARS-2022-0071](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0071) | TBD| Agro-ecosystem dynamics, Natural Language Processing, Remote Sensing, Geospatial|
 | [USDA-ARS Geospatial Analyses of Agroecosystem Dynamics Fellowship, USDA-ARS-2022-0072](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0072) | TBD| Computational Biology, Geospatial, Drone|
 | [USDA-ARS Postdoctoral Fellowship in Multi-Scale Image Analysis for Patterns in Phenology, USDA-ARS-2022-0077](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0077) | TBD| Time-series Modeling, Spatial Modeling, Remotely-sensed Data, Climate-Change Models, Phenology|
 
