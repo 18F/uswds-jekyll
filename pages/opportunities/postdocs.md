@@ -13,12 +13,6 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 
 | Opportunity | Location | Keywords |
 |---|---|---|
-| [Integrating Breeding Platforms and Bioinformatic Analyses Postdoctoral Fellowship, USDA-ARS-2021-0001](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0001) | Raleigh, NC |  Genomics, Bioinformatics, Computational Biology, Crop Breeding  |
-| [USDA-ARS Machine Learning & AI in Nutrition Research Fellowship, USDA-ARS-2021-0008](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0008) | Davis, California |  Computational Biology, Diet, Nutrition, Health |
-| [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0063](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0063) | Beltsville, MD | ML, AI, Computational Biology|
-| [USDA-ARS Research Opportunity in High Performance Computing, USDA-ARS-2021-0087](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0087) | Beltsville, MD | ML, AI, Computational Biology, Big Data |
-| [Vision & Artificial Intelligence Fellowship,USDA-ARS-2021-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0157) | Beltsville, MD | Computer Vision, PyTorch, Weed Science, Image Analysis |
-| [Postdoctoral Research Opportunity in High Performance Computing, USDA-ARS-2021-0249](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2021-0249) | Beltsville, MD |  Geospatial, Remote Sensing |
 | [Research Opportunity in AI and Machine Learning for Agricultural Science, USDA-ARS-2022-0013](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0013) | TBD |  Human Nutrition, Food Safety, Crop Production|
 | [Postdoctoral Research Opportunity in Bioinformatics Analyses, USDA-ARS-2022-0025](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0025)|  Ames, IA | Bioinformatics|
 | [Big Data Science and Training Program Coordination Fellowship, USDA-ARS-2022-0026](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0026) |  TBD | Training Development, Big Data, Workforce Management |
