@@ -198,7 +198,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics) | Coursera | 4 wks; 2-5 hrs/wk
 [Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
 [Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
-[Statistical Rethinking: A Beyesian Approach-Connecting Scientific Models to Evidence](https://github.com/rmcelreath/stat_rethinking_2022) | Github | 10 wks; 1-3 hrs/wk
+[Statistical Rethinking: A Bayesian Approach-Connecting Scientific Models to Evidence](https://github.com/rmcelreath/stat_rethinking_2022) | Github | 10 wks; 1-3 hrs/wk
 
 
 # Artificial Intelligence and Machine Learning
