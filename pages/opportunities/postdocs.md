@@ -33,6 +33,8 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 
 ## Other Opportunities:
 
+**Mississippi State University’s Geosystems Research Institute Summer Graduate Research Experience:** As part of the MSU/USDA Advancing Agricultural Research through High-Performance Computing project, MSU will be hosting a multi-disciplinary program designed for graduate students with interest in agriculture productivity, environmental ecology, geospatial analysis, AI/ML, epidemiology, and bioinformatics. Selected students will spend 9-weeks this summer working at Mississippi State University side-by-side with leading faculty conducting research in a high-performance computing environment. Review of applicants will begin March 15, 2022, and those accepted will be notified on or before April 15, 2022. [Learn more and apply today](https://www.gri.msstate.edu/research/aar/SREP/)!
+
 **Development of novel algorithms and machine learning models for integrated analysis of agricultural systems:** develop new analysis methods for georeferenced agricultural data with emphasis on epidemiology and disease ecology.  For more information, please contact Dr. Ram Ramkumar (ramkumar at cse dot msstate dot edu).
 
 **Modeling complex dynamic systems related to animal production and health:**  develop mathematical and stochastic models of complex dynamics systems related to animal production and health. Methods may include system dynamic stock and flow modeling or other programing methods.  For more information, please contact Dr. David R. Smith (dsmith at cvm dot msstate dot edu)
