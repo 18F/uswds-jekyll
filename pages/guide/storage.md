@@ -73,6 +73,20 @@ installing packages in a project directory.
 
 Directories in /project are not automatically backed up. Data that cannot be easily reproduced should be manually copied to [Juno](#juno-archive-storage).
 
+Project directories are usually shared between group members working on the same project. Each project directory has a manager (usually the PI on the ARS project who requested the project directory). Project manager can give and revoke access to the project directory to other SCINet users either in [FreeIPA](https://aws-ipa-0.scinet.usda.gov/) or via command line on Ceres or Atlas:
+
+```
+ipa group-add-member proj-<project_name> --users=<scinet_username>
+ipa group-remove-member proj-<project_name> --users=<scinet_username>
+```
+
+Note: When ssh-ing to the cluster from a connected site, you may need to issue “kinit” command and enter your SCINet password before issuing ipa commands above.
+ 
+After being added to the proj-<project_name> project group, users will be able to access `/project/<project_name>` and `/90daydata/<project_name>` both on Ceres and Atlas, as well as `/LTS/project/<project_name>` on Juno.
+ 
+If you prefer using GUI, connect to SCINet VPN and go to [https://aws-ipa-0.scinet.usda.gov/](https://aws-ipa-0.scinet.usda.gov/). Login using your SCINet user name and password (do not add the GA verification code). Then click on “Groups” and search for your project. After clicking on the project group (group-<project_name>), you will see the list of users in the group. To add new member(s) click on “+Add”, this will open a pop-up window where you can search for the user. After selecting user name click on “>”. Once the user name appears on the right side under “Prospective”, click on “Add” button in the bottom right corner of the pop-up window. To revoke user access, check-mark next to the user name and click on “Delete” button.
+
+
 ## Large Short-term Storage
 
 Since project directories in `/project` have limited quotas, in most cases computations should be run from `/90daydata/<project_name>` which does 
