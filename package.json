@@ -17,7 +17,7 @@
     "uswds": "^2.11.2"
   },
   "devDependencies": {
-    "cached-path-relative": "^1.0.2",
+    "cached-path-relative": "^1.1.0",
     "pa11y-ci": "^2.4.0"
   }
 }
