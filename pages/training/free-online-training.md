@@ -38,10 +38,11 @@ Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists a
 
 ### AgLearn and LinkedIn Learning
 
-AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. All federal USDA permanent and term employees should be able to access the courses listed on this page by following the posted links. 
+AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. SCINet has created a number of collections and learning paths to support your learning journey. Login to LinkedIn Learning and and search the keyword SCINet for all curated collections. 
+
+All federal USDA permanent and term employees should be able to access the courses listed on this page by following the posted links. 
 
 Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contractors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
-
 For non-federal USDA employees, an exception to the above is AgLearn/LinkedIn Learning. Non-federal USDA employees may be able to access AgLearn/LinkedIn Learning using the following steps:
 1.  Go to aglearn.usda.gov but DO NOT LOG IN
 2.  In the "Welcome to AgLearn" pane, click on LinkedIn Learning
@@ -55,11 +56,13 @@ Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/ans
 
 Many Coursera and EdX courses can be audited for free (i.e. no certification which requires a fee).
 
-For EdX courses: click enroll on a particular course, create an EdX account, and choose the free audit option.
+For EdX click enroll on a particular course, create an EdX account, and choose the free audit option.
 
-For Coursera courses: see [https://www.classcentral.com/report/coursera-signup-for-free/](https://www.classcentral.com/report/coursera-signup-for-free/) for instructions on how to sign up to audit a Coursera course (for free and without activating the 7-day trial period). Pay special attention how to access courses for free within a specialization and also to pre-requisites for advanced topics.
+For Coursera see [the full list of free Coursera courses](https://www.coursera.org/courses?query=free). These courses offer a 'Full Course, No Certificate' option. This option lets you see all course materials, submit required assessments, and get a final grade, but does not provide a certificate. 
 
-**SCINet-funded Coursera Licenses:** ARS scientists can request a Coursera license for a three month period to gain access to the full list of Coursera catalogue options related to scientific computing, statistics, and artificial intellengence. This license also allows ARS scientists to get certifications. To request a license, please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
+You also have the option to take some courses in audit mode where you will be able to see most course materials for free but not have access to graded assignments and the ability to earn a Certificate. If you don't see the audit option or you would like a certificate, you can request a [SCINet sponsored Coursera License](https://scinet.usda.gov/training/coursera), which provides 3-month full access to Coursera. If you need access longer to complete a course, you will need to resubmit a request for the following quarter to secure your license for another 3 months. 
+
+**SCINet-funded Coursera Licenses:** ARS scientists can request a Coursera license for a three month period to gain access to the full list of Coursera catalogue options related to scientific computing, statistics, and AI. This license also allows ARS scientists to get certifications. To request a license, please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
 
 ### sas.com and jmp.com
 While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
