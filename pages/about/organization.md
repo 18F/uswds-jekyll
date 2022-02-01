@@ -9,58 +9,50 @@ layout: page
 #### Table of contents
 * [About](#about-scinet)
 * [Senior Leadership](#senior-leadership)
-* [Executive committee](#executive-committee)
+* [Executive Committee](#executive-committee)
 * [Scientific Advisory Committee](#scientific-advisory-committee)
-* [Policy Committee](#policy-committee)
+* [SCINet Policy Committee](#scinet-policy-committee)
 * [Scientific points of contact](#scientific-points-of-contact)
 
 
 # About SCINet
-The ARS Scientific Computing Initiative is led by an Executive Committee comprised of ARS leadership including Dr. Steven Kappes – Associate Administrator for National Programs, Dr. Simon Liu – Associate Administrator for Research Management and Operations, Dr. Debra Peters – Acting Chief Scientific Information Officer, and Stan Kosecki – Acting SCINet Program Manager. The Executive Committee is guided by security professionals, system administrators, a team of computational ARS scientists called the Scientific Advisory Committee, an HPC Policy Standing Committee, and an HPC Software Standing Committee.
+The ARS Scientific Computing Initiative is led by an Executive Committee comprised of ARS leadership including Dr. Steven Kappes – Associate Administrator for National Programs,  Dr. Debra Peters – Acting Chief Scientific Information Officer, Rob Butler – Acting SCINet Project Manager, ARS scientists representing IT and security, and users of the HPC systems. SCINet committees report to the Executive Committee, including the Scientific Advisory Committee (SAC), an HPC Policy Committee, and an HPC Software Committee.
 
-The program runs three high performance computer clusters.  The Ceres cluster
-is housed at the National Animal disease center in Ames, IA and operated by
-Iowa State University. The Atlas cluster is located run by Mississippi State
-University in Starkville, MS and a  planned cluster will be housed and operated
-at ARS in Beltsville, MD.
+The program runs two high performance computer clusters and a storage unit.  The Ceres cluster is housed at the National Animal Disease Center in Ames, IA and operated by Iowa State University. The Atlas cluster is located and ran by Mississippi State University in Starkville, MS, and the Juno storage unit is located at the National Agricultural Library in Beltsville, MD. 
 
-User support at SCINet is provided by the  Virtual Support Research Core (VSRC)
-operated by Iowas State University.
+User support at SCINet is provided by the  Virtual Support Research Core (VSRC) operated by Iowas State University for Ceres, and by Mississippi State University for Atlas.
 
-## Senior leadership
+# Senior Leadership
 
 Person | Position
 ---|---
 Dr. Steven Kappes | Associate Administrator for National Programs
-Dr. Simon Liu | Associate Administrator for Research Management and Operations
 Dr. Debra Peters | Acting Chief Scientific Information Officer, ARS
 
-## Executive committee
+# Executive Committee
 
 The ARS Scientific Computing Initiative is led by an Executive Committee.
 
 Person | Position
 ---|---
 Dr. Steven Kappes | Associate Administrator for National Programs
-Dr. Simon Liu | Associate Administrator for Research Management and Operations
 Dr. Debra Peters | Acting Chief Scientific Information Officer, ARS
 Ms. Lorna Drennen | Assistant Chief Information officer
 Mr. Stan Kosecki | Deputy Assistant Chief Information Officer
 Mr. Rob Butler | Acting SCINet Project Manager
-Dr. Brian Scheffler | Former Acting Chief Scientific Information Officer
 Dr. Adam Rivers | Chair, SCINet Scientific Advisory Committee
-Mr. Chris Lowe | Policy and Information Assurance Branch Chief Information Security Officer
-Mr. Paul Wester |  Director at National Agricultural Library
+Mr. Renaoti Chan | Policy and Information Assurance Branch Chief Information Security Officer
+Mr. Ming Chan |  Branch Chief, Scientific Data Engineering Branch, National Agricultural Library
 Mr. Nathan Weeks | Information Technology Specialist
 Mr. Jay Joiner | Project Consultant
-Mr. Andy Liberman | Information Technology Specialist(Networking)
+Mr. Andy Liberman | Information Technology Specialist (Networking)
+Dr. Brian Scheffler | Former Acting Chief Scientific Information Officer
 
 
 
+# Scientific Advisory Committee
 
-## Scientific Advisory Committee
-
-The ARS Scientific Computing Initiative is in the dominion of ARS researchers, thus the program is in a constant state of gathering and meeting their research needs. The SAC is an effort to assure that happens.  SAC members represent a broad breadth of scientific research at ARS and membership includes two researchers from each of the five ARS geographic areas, a statistician member, and an “at-large” member. The SAC divides its work over various subcommittees: communications, education, planning, software and membership. In recent years, the SAC has created a quarterly SCINet newsletter, designed a user needs survey, created the scinet.usda.gov website, and held multiple computational workshops and trainings. SAC progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate (non-members welcome), please contact Adam Rivers (chair).
+The ARS Scientific Computing Initiative is in the domain of ARS researchers, thus the program is in a constant state of gathering information to meet users’ needs. The SAC is an effort to assure that users have input on the ARS HPC-storage system. Scientific Advisory Committee (SAC) members represent a broad range of scientific research at ARS, and membership includes two researchers from each of the five ARS geographic areas, a statistician, and an “at-large” member. The SAC divides its work over various subcommittees: communications, education, planning, and membership. In recent years, the SAC has assisted with a quarterly SCINet newsletter, designed a user needs survey, created the scinet.usda.gov website, and held multiple computational workshops and trainings. SAC progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate (non-members welcome), please contact Adam Rivers (Chair).
 
 Person | Area |Role | Sub-subcommittees | Term expires
 -------|------|-----|-------------------|-------------
@@ -81,13 +73,17 @@ Cyndy Parr | NAL | Ex Officio | - | -
 Bryan Kaphammer | Area Directors | Ex Officio | - | -
 Debra Peters | CSIO | Ex Officio | - | -
 Brian Scheffler | Former CSIO | Ex Officio | - | -
-Rachel Paseka | Scinet Fellow | Ex Officio | - | -
 Rob Butler | Acting SCINet Executive Director | Ex Officio | - | -
 
-## Policy Committee
+# Scientific Points of Contact
 
-Formed in 2020, this committee makes recommendations to the Executive Committee on policies and procedures that are relevant to HPC operations. The committee is comprised of members from various technical backgrounds and includes representation from different ARS geographic areas. Membership also includes representatives from Iowa State University and Mississippi State University (where two of the ARS HPC systems are housed) in order to get proper representation and perspective of the issues that need to be addressed. Policy Committee progress and issues are elevated to the Executive Committee for review and approval. For more information, including how to participate, please contact Jonathan Shao (chair).
+The Scientific Point of Contact (SPOC) is the Scientific Computing Infrastructure Network (SCINet) champion for the location. Working with the SCINet Operations Team, the Scientific Advisory Committee (SAC) and the SAC subcommittees to ensure location personnel are familiar with SCINet and the services that are offered, the SPOC should be familiar with the scientific needs of the unit(s) at their location, especially with respect to complex data and computational needs. When the SCINet Operations Team needs information about the science requirements and needs at a location, they will contact the SPOC who is expected to interact with other scientists within the location to provide the information and recommendations to the requesting party.
 
+The list of SPOC can be found on the [USDA Sharepoint Site](https://usdagcc.sharepoint.com/:x:/r/sites/REE-ARS-SCINet-Scientific-Advisory-Committee/Shared%20Documents/Membership/SPOC_SCINetOrg_23Sept2021.xlsx?d=w7df900cb464e4864aa4a514b3abdbb2b&csf=1&web=1&e=ilTRb2).
+
+# SCINet Policy Committee
+
+Formed in 2020, this committee makes recommendations to the Executive Committee on policies and procedures relevant to HPC operations. The committee is comprised of members from various technical backgrounds, and includes representation from different ARS geographic areas. Membership also includes representatives from Iowa State University and Mississippi State University (where two of the ARS HPC systems are housed) in order to get representation and perspective of the issues that need to be addressed. For more information, including how to participate, please contact Jonathan Shao (chair).
 
 Person | Area
 ---|---
@@ -107,12 +103,10 @@ Chris Lowe | Information Security
 Debra Peters | Acting Chief Scientific Information Officer, ARS
 Rob Butler | Acting SCINet Project Manager
 
+# SCINet Software Committee
 
-## Scientific points of contact
+The software committee evaluates requests by users to add or delete software to/from one of the HPCs. This committee is composed of scientific experts in the use of HPCs from across agricultural disciplines, and that represent our two HPCs. Users can make software requests by completing the [Software Request Form](https://scinet.usda.gov/support/request-software). 
 
-The Scientific Point of Contact (SPOC) is the Scientific Computing Infrastructure Network (SCINet) champion for the location. Working with the SCINet Operations Team, the Scientific Advisory Committee (SAC) and the SAC subcommittees to ensure location personnel are familiar with SCINet and the services that are offered, the SPOC should be familiar with the scientific needs of the unit(s) at their location, especially with respect to complex data and computational needs. When the SCINet Operations Team needs information about the science requirements and needs at a location, they will contact the SPOC who is expected to interact with other scientists within the location to provide the information and recommendations to the requesting party.
-
-The list of SPOC can be found on the [USDA Sharepoint Site](https://usdagcc.sharepoint.com/:x:/r/sites/REE-ARS-SCINet-Scientific-Advisory-Committee/Shared%20Documents/Membership/SPOC_SCINetOrg_23Sept2021.xlsx?d=w7df900cb464e4864aa4a514b3abdbb2b&csf=1&web=1&e=ilTRb2).
 
 <!---------------------------------------------------------------------------------------
 WAITING FOR A FEW DEVELOPMENTS IN THE SCINET PROGRAM TO OCCUR, THEN NEED TO EDIT THE TEXT BELOW AND REPLACE THE INFORMATION ON THIS PAGE ENTIRELY
