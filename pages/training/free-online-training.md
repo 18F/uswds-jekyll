@@ -8,15 +8,13 @@ layout: page
 
 There are a number of free training resources on scientific computing available to ARS scientists and collaborators. Check out these curated collections of learning resources by topic. 
 
-| Programming Languages | Types of Analyses |  Best Practices and Tools |
+| Programming Languages | Analysis Types |  Best Practices and Tools |
 |---|---|---|
-[Git and GitHub](#git-and-github) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [Database Management](#database-management)
-[MATLAB Programming](#matlab-programming) | [Bioinformatics](#bioinformatics)| [Data Management](#data-management)
-[Python Programming](#python-programming) | [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
-[R Programming](#r-programming) | [Statistics](#general-statistics)| [Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
-[SAS Programming and JMP](#sas-programming-and-jmp) |  
+[MATLAB Programming](#matlab-programming) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [Database Management](#database-management)
+[Python Programming](#python-programming) | [Bioinformatics](#bioinformatics)| [Data Management](#data-management)
+[R Programming](#r-programming)| [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
+[SAS Programming and JMP](#sas-programming-and-jmp) | [Statistics](#general-statistics)|  [Git and GitHub](#git-and-github)
 
-*A big thank you to Sara Duke and Kathy Yeater, Plains Area Statisticians, for assembling the vast majority of the following online training offerings!*
 
 Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists and collaborators. In addition to the training resources list on this page, take a look at the [SCINet Learning Path](https://scinet.usda.gov/training/learningpath) and the [upcoming training events](https://scinet.usda.gov/training/training_event). 
 
@@ -93,16 +91,16 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 1 month; 12 hrs/wk |
 | [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) | Coursera | 2 mos; 7 hrs/wk |
 | [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) | Coursera | 13 hrs; 2-4 hrs/wk |
-[Python Basics for Data Science](https://www.edx.org/course/python-basics-for-data-science) | EdX | 2-5 hrs
-[Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 10 wks; 8-10 hr/wk
+| [Python Basics for Data Science](https://www.edx.org/course/python-basics-for-data-science) | EdX | 2-5 hrs
+| [Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 10 wks; 8-10 hr/wk
 | [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
 | [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
 | [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
-[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-[Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
-[Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
-[Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
+| [How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
+| [Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
+| [Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
+| [Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
+| [Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
 
 
 # R Programming
@@ -167,11 +165,11 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[SCINet: Statistics Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D421015%3FshareId=4a2ab797-9d1c-4f92-b84f-f7d76369a0c7) | AgLearn/LinkedIn |	1-3 hrs/course
-[SCINet Coursera Collection (Scroll down to see full course collection in Statistics)](https://www.coursera.org/programs/scinet-program-of-study-a6nd3) | Coursera |	Varies
-[Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
-[Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
-[Statistical Rethinking: A Bayesian Approach-Connecting Scientific Models to Evidence](https://github.com/rmcelreath/stat_rethinking_2022) | Github | 10 wks; 1-3 hrs/wk
+| [SCINet: Statistics Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D421015%3FshareId=4a2ab797-9d1c-4f92-b84f-f7d76369a0c7) | AgLearn/LinkedIn |	1-3 hrs/course
+| [SCINet Coursera Collection (Scroll down to see full course collection in Statistics)](https://www.coursera.org/programs/scinet-program-of-study-a6nd3) | Coursera |	Varies
+| [Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
+| [Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
+| [Statistical Rethinking: A Bayesian Approach-Connecting Scientific Models to Evidence](https://github.com/rmcelreath/stat_rethinking_2022) | Github | 10 wks; 1-3 hrs/wk
 
 
 # Artificial Intelligence and Machine Learning
@@ -198,19 +196,19 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [SCINET: GIS Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fpaths%2Fusda-scnet-gis%3FshareId=79644b0b-3cac-41bd-b4bb-94f9a10b2e68) | AgLearn/LinkedIn | 1-3 hrs/course
-[ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
-[Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 4 wks; 3-5 hrs/wk
-[GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 4 wks; 2-3 hrs/wk
-[Geospatial and Environmental Analysis (GIS)](https://www.coursera.org/learn/spatial-analysis) | Coursera | 4 wks; 3-4 hrs/wk
-[Imagery, Automation, and Applications (GIS)](https://www.coursera.org/learn/gis-applications) | Coursera | 4 wks; 2-5 hrs/wk
-[Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
-[GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
-[Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
-[Intro to GEE](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
-[GEE 101: Intro to GEE for beginners Part 1](https://earthoutreachonair.withgoogle.com/events/earthengine101a) | Google Earth Outreach | 1.5 hr
-[GEE 101: Intro to GEE for beginners Part 2](https://earthoutreachonair.withgoogle.com/events/earthengine101b) | Google Earth Outreach | 1.5 hr
-[Training Materials from 3 GEE Workshops](https://developers.google.com/earth-engine/tutorials/ttt) | GEE tutorials | 2 hrs each
-[Spatial Data Science (R)](https://rspatial.org/raster/intr/index.html) | Geospatial and Farming Systems Research Consortium (GFC) | varies
+| [ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
+| [Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 3-5 hrs/4wk
+| [GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 2-3 hrs/4wk
+| [Geospatial and Environmental Analysis (GIS)](https://www.coursera.org/learn/spatial-analysis) | Coursera | 3-4 hrs/4wk
+| [Imagery, Automation, and Applications (GIS)](https://www.coursera.org/learn/gis-applications) | Coursera | 2-5 hrs/4wk
+| [Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
+| [GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
+| [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
+| [Intro to GEE](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
+| [GEE 101: Intro to GEE for beginners Part 1](https://earthoutreachonair.withgoogle.com/events/earthengine101a) | Google Earth Outreach | 1.5 hr
+| [GEE 101: Intro to GEE for beginners Part 2](https://earthoutreachonair.withgoogle.com/events/earthengine101b) | Google Earth Outreach | 1.5 hr
+| [Training Materials from 3 GEE Workshops](https://developers.google.com/earth-engine/tutorials/ttt) | GEE tutorials | 2 hrs each
+| [Spatial Data Science (R)](https://rspatial.org/raster/intr/index.html) | Geospatial and Farming Systems Research Consortium (GFC) | varies
 
 
 # Data Management
@@ -239,7 +237,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Bacterial Genomes: From DNA to Protein Function using Bioinformatics Course](https://www.futurelearn.com/courses/bacterial-genomes-bioinformatics/4) | Future Learn | 2 wks; 5 hrs/wk; next course starts 4/20
 [Bacterial Genomes: Accessing and Analysing Microbial Genome Data Course](https://www.futurelearn.com/courses/bacterial-genomes-access-and-analysis) | Future Learn | 3 wks; 5 hrs/wk; next course starts 5/11
 [Bioinformatics Courses On Edx](https://www.edx.org/learn/bioinformatics) | EdX | varies
-[Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 4 wks; 2-4 hrs/wk
+[Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 2-4 hrs/4wk
 
 
 # Ecological/Geospatial Self-Paced Learning
@@ -279,8 +277,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Transferring Quantitative Skills Among Scientists](https://ourcodingclub.github.io/tutorials/tutorials/) | Coding Club | varies
 [Reproducible Research](https://www.coursera.org/learn/reproducible-research) | Coursera | 11 hrs
 [Work Smarter, Not Harder: Time Management for Personal & Professional Productivity](https://www.coursera.org/learn/work-smarter-not-harder) | Coursera | 3 hrs
-[Data Science Productivity Tools](https://www.edx.org/course/data-science-productivity-tools) | EdX | 8 wks; 1-2 hrs/wk
-[Unix Tools: Data, Software, and Production Engineering](https://www.edx.org/course/unix-tools-data-software-and-production-engineering) | EdX | 6 wks; 4-6 hrs/wk
+[Data Science Productivity Tools](https://www.edx.org/course/data-science-productivity-tools) | EdX | 1-2 hrs/8wk
+[Unix Tools: Data, Software, and Production Engineering](https://www.edx.org/course/unix-tools-data-software-and-production-engineering) | EdX | 4-6 hrs/6wk
 
 # Database Management
 
