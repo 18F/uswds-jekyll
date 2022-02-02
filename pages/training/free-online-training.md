@@ -258,7 +258,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [What is Git? (Interactive tutorial)](https://www.atlassian.com/git/tutorials/what-is-git) | atlassian.com | 45 min
 [Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) | Coding Club | varies
 [Setting up a GitHub Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/) | Coding Club | varies
-[SCINet: Git and Github Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D435021%3Fu%3D76310346) | AgLearn/LinkedIn |	1-3 hrs/course
+[SCINet: Git and Github Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D435021%3FshareId=039d4c4e-d1e0-462b-989c-6cbcf5883e0d) | AgLearn/LinkedIn |	1-3 hrs/course
 
 
 # Reproducibility, Productivity, and Integration Management Tools
