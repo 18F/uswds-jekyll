@@ -6,35 +6,26 @@ author: various
 layout: page
 ---
 
-There are a number of free resources available to ARS scientists via sites such as Coursera and AgLearn. 
+There are a number of free training resources on scientific computing available to ARS scientists and collaborators. Check out these curated collections of learning resources by topic. 
+
+| Programming Languages | Types of Analyses | Practices |
+|---|---|---|
+[Git and GitHub](#git-and-github) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [General Statistics](#general-statistics)
+[MATLAB Programming](#matlab-programming) | [Bioinformatics](#bioinformatics-self-paced-learning)| [General Data Science Concepts](#general-data-science-concepts)
+[Python Programming](#python-programming) | [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
+[R Programming](#r-programming) | [Statistics](#general-statistics)| [Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
+[SAS Programming and JMP](#sas-programming-and-jmp) |  
 
 *A big thank you to Sara Duke and Kathy Yeater, Plains Area Statisticians, for assembling the vast majority of the following online training offerings!*
 
 Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists and collaborators. In addition to the training resources list on this page, take a look at the [SCINet Learning Path](https://scinet.usda.gov/training/learningpath) and the [upcoming training events](https://scinet.usda.gov/training/training_event). 
 
 
-### Table of Contents
-* [How to Access Training on Different Platforms](#how-to-access-training-on-different-platforms)
-  * [AgLearn and LinkedIn Learning](#aglearn-and-linkedin-learning)
-  * [coursera.org and edx.org](#courseraorg-and-edxorg)
-  * [sas.com and jmp.com](#sascom-and-jmpcom)
-  * [realpython.com](#realpythoncom)
-* [Python Programming](#python-programming)
-* [R Programming](#r-programming)
-* [SAS Programming and JMP](#sas-programming-and-jmp)
-* [MATLAB Programming](#matlab-programming)
-* [General Statistics](#general-statistics)
-* [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning)
-* [Geographic Information Systems (GIS)](#geographic-information-systems-gis)
-* [Google Earth Engine (GEE)](#google-earth-engine-gee)
-* [General Data Science Concepts](#general-data-science-concepts)
-* [Bioinformatics Self-Paced Learning](#bioinformatics-self-paced-learning)
-* [Ecological/Geospatial Self-Paced Learning](#ecologicalgeospatial-self-paced-learning)
-* [Git and GitHub](#git-and-github)
-* [Reproducibility, Productivity, and Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
-
-
-# How to Access Training on Different Platforms
+### How to Access Training on Different Platforms
+* [AgLearn and LinkedIn Learning](#aglearn-and-linkedin-learning)
+* [Coursera and EdX](#coursera-and-edx)
+* [sas.com and jmp.com](#sas-and-jmp)
+* [realpython.com](#realpython)
 
 ### AgLearn and LinkedIn Learning
 
@@ -52,9 +43,9 @@ For non-federal USDA employees, an exception to the above is AgLearn/LinkedIn Le
 Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) with further questions about how to access AgLearn courses.
 
 
-### Coursera.org and EdX.org
+### Coursera and EdX
 
-Many Coursera and EdX courses can be audited for free (i.e. no certification which requires a fee).
+Many Coursera.org and EdX.org courses can be audited for free (i.e. no certification which requires a fee).
 
 For EdX click enroll on a particular course, create an EdX account, and choose the free audit option.
 
@@ -64,8 +55,8 @@ You also have the option to take some courses in audit mode where you will be ab
 
 **SCINet-funded Coursera Licenses:** ARS scientists can request a Coursera license for a three month period to gain access to the full list of Coursera catalogue options related to scientific computing, statistics, and AI. This license also allows ARS scientists to get certifications. To request a license, please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
 
-### sas.com and jmp.com
-While links below to SAS and JMP videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
+### SAS and JMP
+While links below to sas.com and jmp.com videos are immediately accessible, SAS and JMP course offerings on sas.com and jmp.com (not the courses offered through AgLearn) require the learner to create a free account with their email address and password.
 
 To start a course on sas.com:  
 Follow the link to the course from this page, scroll down the course overview page to the "Self-Paced e-Learning" section, under "Add to Cart" on the right click "Start", follow the instructions to create a profile for a new user.
@@ -73,7 +64,7 @@ Follow the link to the course from this page, scroll down the course overview pa
 To start a course on jmp.com:  
 Follow the link to the course from this page, from the JMP course page click "Enroll Now", follow the instructions to create a profile for a new user.
 
-### realpython.com
+### Realpython
 Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of free python training courses during the COVID-19 shut-in period. To access these courses for free go to https://realpython.com/free-courses-march-2020 and use the gift code link that Dan has posted on that page. Please contact Dan Bader at Real Python with questions.
 
 
@@ -250,7 +241,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 
 
-# Geographic Information Systems (GIS)
+# Geospatial
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
@@ -262,12 +253,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Introduction to GIS Mapping](https://www.coursera.org/learn/introduction-gis-mapping) | Coursera | 18 hrs
 [GIS Data Acquisition and Map Design](https://www.coursera.org/learn/gis-data-acquisition-map-design) | Coursera | 21 hrs
 [Spatial Analysis and Satellite Imagery in GIS](https://www.coursera.org/learn/spatial-analysis-satellite-imagery-in-a-gis) | Coursera | 16 hrs
-
-
-# Google Earth Engine (GEE)
-
-| Course Title/Link | Platform or Site | Time Investment |
-|---|---|---|
 [Intro to GEE](https://ourcodingclub.github.io/tutorials/earth-engine/) | Coding Club | varies
 [GEE 101: Intro to GEE for beginners Part 1](https://earthoutreachonair.withgoogle.com/events/earthengine101a) | Google Earth Outreach | 1.5 hr
 [GEE 101: Intro to GEE for beginners Part 2](https://earthoutreachonair.withgoogle.com/events/earthengine101b) | Google Earth Outreach | 1.5 hr
