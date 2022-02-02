@@ -8,10 +8,10 @@ layout: page
 
 There are a number of free training resources on scientific computing available to ARS scientists and collaborators. Check out these curated collections of learning resources by topic. 
 
-| Programming Languages | Types of Analyses |  Best Practices |
+| Programming Languages | Types of Analyses |  Best Practices and Tools |
 |---|---|---|
 [Git and GitHub](#git-and-github) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [Database Management](#database-management)
-[MATLAB Programming](#matlab-programming) | [Bioinformatics](#bioinformatics-self-paced-learning)| [General Data Science Concepts](#general-data-science-concepts)
+[MATLAB Programming](#matlab-programming) | [Bioinformatics](#bioinformatics)| [Data Management](#data-management)
 [Python Programming](#python-programming) | [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
 [R Programming](#r-programming) | [Statistics](#general-statistics)| [Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
 [SAS Programming and JMP](#sas-programming-and-jmp) |  
@@ -80,20 +80,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-| [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
-| [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
-| [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
-[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-[Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
-[Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
-[Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
-| [Code Clinic: Python](https://aglearn.usda.gov/enrol/index.php?id=31292) | AgLearn/LinkedIn |	~2 hrs |
-| [Learning Python](https://aglearn.usda.gov/enrol/index.php?id=46051) | AgLearn/LinkedIn |	~2 hrs |
-| [Python Essential Training](https://aglearn.usda.gov/enrol/index.php?id=45430) | AgLearn/LinkedIn |	4 hrs 45m |
-| [Python Data Analysis](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn | 2.5 hrs | 	  
-| [Advanced Python](https://aglearn.usda.gov/enrol/index.php?id=46467) | AgLearn/LinkedIn |	2.5 hrs |
-| [NumPy Data Science Essential Training](https://aglearn.usda.gov/enrol/index.php?id=43761) | AgLearn/LinkedIn | ~4 hrs |	  
+| [SCINet: Python Programming Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415014%3FshareId=c0cde733-5cfc-45d5-b052-979471c35fa3) | AgLearn/LinkedIn |	Varies 
 | [Getting Started with Python: Introduction](https://aglearn.usda.gov/enrol/index.php?id=48854) | AgLearn/Skillsoft |	1.5 hr |
 | [Python Fundamentals](https://aglearn.usda.gov/course/view.php?id=42094) | AgLearn/Skillsoft |	1.5 hrs |
 | [Python: the Basics](https://aglearn.usda.gov/course/view.php?id=36287) | AgLearn/Skillsoft |	~3.5 hrs |
@@ -103,34 +90,27 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Python for Data Science: Manipulating and Analyzing Data in Pandas DataFrames](https://aglearn.usda.gov/course/view.php?id=41669) | AgLearn/Skillsoft |	1 hr |
 | [Python for Data Science: Basic Data Visualization Using Seaborn](https://aglearn.usda.gov/course/view.php?id=41670) | AgLearn/Skillsoft |	~1 hr |
 | [Python for Data Science: Advanced Data Visualization Using Seaborn](https://aglearn.usda.gov/course/view.php?id=41671) | AgLearn/Skillsoft |	~1 hr |
-|	[Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 1 month; 12 hrs/wk |
+| [Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 1 month; 12 hrs/wk |
 | [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) | Coursera | 2 mos; 7 hrs/wk |
 | [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) | Coursera | 13 hrs; 2-4 hrs/wk |
 [Python Basics for Data Science](https://www.edx.org/course/python-basics-for-data-science) | EdX | 2-5 hrs
 [Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 10 wks; 8-10 hr/wk
+| [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
+| [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
+| [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
+[How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
+[Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
+[Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
+[Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
+[Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
 
 
 # R Programming
 
+
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2+ hrs
-[Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2+ hrs
-[R Basics Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
-[Learn R and Data Science Interactively with swirl](https://swirlstats.com/) | swirlstats | varies
-[Learning the R tidyverse](https://aglearn.usda.gov/course/view.php?id=45029) | AgLearn/LinkedIn |	~3.5 hrs
-[Data visualization in R with ggplot2](https://aglearn.usda.gov/course/view.php?id=46164) | AgLearn/LinkedIn |	 2.5 hrs
-[R for Excel Users](https://aglearn.usda.gov/course/view.php?id=34842) | AgLearn/LinkedIn 	| 1.5 hrs
-[Creating Iteractive presentations with Shiny and R](https://aglearn.usda.gov/course/view.php?id=34709) | AgLearn/LinkedIn |	~2 hrs
-[Cleaning Bad Data in R](https://aglearn.usda.gov/course/view.php?id=46584) | AgLearn/LinkedIn |	~2 hrs
-[Data Wrangling in R](https://aglearn.usda.gov/course/view.php?id=45109) | AgLearn/LinkedIn |	~4 hrs
-[Code Clinic: R](https://aglearn.usda.gov/course/view.php?id=43536) | AgLearn/LinkedIn |	3.5 hrs
-[R: Interactive Visualization with htmlwidgets](https://aglearn.usda.gov/course/view.php?id=45028) | AgLearn/LinkedIn |	5.5 hrs
-[R Programming in Data Science: Setup and Start](https://aglearn.usda.gov/course/view.php?id=45435) | AgLearn/LinkedIn |	~1.5 hrs
-[R Programming in Data Science: High Velocity Data](https://aglearn.usda.gov/course/view.php?id=46167) | AgLearn/LinkedIn |	~1.5 hrs
-[R Programming in Data Science: High Volume Data](https://aglearn.usda.gov/course/view.php?id=46168) | AgLearn/LinkedIn |	1.5 hrs
-[R Programming in Data Science: High Variety Data](https://aglearn.usda.gov/course/view.php?id=46169) | AgLearn/LinkedIn |	1.5 hrs
-[R Programming in Data Science: Dates and Times](https://www.linkedin.com/learning/r-programming-in-data-science-dates-and-times/calculating-times-and-dates-with-r?u=76310346) | AgLearn/LinkedIn | ~2.5 hrs	  
+[SCINet: R Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415016%3Fu%3D76310346) | AgLearn/LinkedIn |	Varies
 [Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | ~2.5 hrs  
 [Debugging in R](https://aglearn.usda.gov/course/view.php?id=28456) | AgLearn/Skillsoft |	1 hr
 [Programming Techniques in R](https://aglearn.usda.gov/course/view.php?id=28457) | AgLearn/Skillsoft | ~2 hrs
@@ -144,6 +124,10 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Advanced R Programming](https://www.coursera.org/learn/advanced-r) | Coursera | 12 hrs
 [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | 8 mo; 6 hrs/wk
 [Data Science: R Basics](https://www.edx.org/course/data-science-r-basics) | EdX | 8 wks; 1-2 hrs/wk
+[R Tutorial](http://www.cyclismo.org/tutorial/R/) | Kelly Black, UGA Dept of Mathematics, cyclismo.org | 2+ hrs
+[Intro and Advanced R Tutorials](http://ww2.coastal.edu/kingw/statistics/R-tutorials/) | W.B. King, Coastal Carolina Univ., coastal.edu | 2+ hrs
+[R Basics Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
+[Learn R and Data Science Interactively with swirl](https://swirlstats.com/) | swirlstats | varies
 
 
 # SAS Programming and JMP
@@ -155,24 +139,22 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [SAS Programming 1: Essentials](https://support.sas.com/edu/schedules.html?ctry=us&crs=PROG1) | sas.com | 14 hrs
 [Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression](https://support.sas.com/edu/schedules.html?ctry=us&crs=STAT1) | sas.com | 21 hrs
 [SAS Programming for R Users](https://support.sas.com/edu/schedules.html?ctry=us&crs=SP4R) | sas.com | 14 hrs
-[Statistical thinking for Industrial Prpblem Solving](https://www.jmp.com/en_us/online-statistics-course.html) | jmp.com | 20-30 hrs
+[SCINet: SAS Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D430036%3Fu%3D76310346) |  AgLearn/LinkedIn |	Varies
+[Statistical thinking for Industrial Problem Solving](https://www.jmp.com/en_us/online-statistics-course.html) | jmp.com | 20-30 hrs
 [On-demand Webinars -- Mastering JMP](https://www.jmp.com/en_us/events/mastering/overview.html) | jmp.com | ≤ 1 hr
-[SAS Programing for R users, Part 1](https://aglearn.usda.gov/course/view.php?id=46364) | AgLearn/LinkedIn | ~2 hrs
-[SAS Programing for R users, Part 2](https://aglearn.usda.gov/course/view.php?id=46365) | AgLearn/LinkedIn | ~2 hrs
-[Advanced SAS Programing for R users, part 1](https://aglearn.usda.gov/course/view.php?id=46366) | AgLearn/LinkedIn | ~2 hrs
-[Advanced SAS Programing for R users, part 2](https://aglearn.usda.gov/course/view.php?id=46367) | AgLearn/LinkedIn | ~2 hrs
-[SAS 	Base SAS 9 Programming: The SAS environment](https://aglearn.usda.gov/enrol/index.php?id=28544) | AgLearn/Skillsoft |	~2 hrs
-[SAS 	Base SAS 9 Programming: Introduction to Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28545) | AgLearn/Skillsoft |	~2 hrs
-[SAS 	Base SAS 9 Programming: Working with Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28546) | AgLearn/Skillsoft |	~2 hrs
-[SAS 	Base SAS 9 Programming: Creating Reports](https://aglearn.usda.gov/enrol/index.php?id=28547) | AgLearn/Skillsoft |	~2 hrs
-[SAS 	Base SAS 9 Programming: Inputs and Outputs](https://aglearn.usda.gov/enrol/index.php?id=28548) | AgLearn/Skillsoft |	~2 hrs
-[SAS 	Base SAS 9 Programming: Data Structures](https://aglearn.usda.gov/enrol/index.php?id=28549) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: The SAS environment](https://aglearn.usda.gov/enrol/index.php?id=28544) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: Introduction to Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28545) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: Working with Data Sets](https://aglearn.usda.gov/enrol/index.php?id=28546) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: Creating Reports](https://aglearn.usda.gov/enrol/index.php?id=28547) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: Inputs and Outputs](https://aglearn.usda.gov/enrol/index.php?id=28548) | AgLearn/Skillsoft |	~2 hrs
+[SAS Base SAS 9 Programming: Data Structures](https://aglearn.usda.gov/enrol/index.php?id=28549) | AgLearn/Skillsoft |	~2 hrs
 
 
 # MATLAB Programming
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
+| [SCINet: Matlab Learning Pathway](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fpaths%2Fusda-scinet-matlab%3FshareId=68d82c5d-5116-4e61-954e-f48e70d432eb)| AgLearn/LinkedIn | 4.5hrs |
 | [Practical Data Science with MATLAB Specialization](https://www.coursera.org/specializations/practical-data-science-matlab) | Coursera | 2 mo; 10 hrs/wk |
 | [Exploratory Data Analysis with MATLAB](https://www.coursera.org/learn/exploratory-data-analysis-matlab) | Coursera | 5 wks; 4 hrs/wk |
 | [Data Processing and Feature Engineering with MATLAB](https://www.coursera.org/learn/feature-engineering-matlab) | Coursera | 26 hrs |
@@ -185,19 +167,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Statistics Foundations:1](https://aglearn.usda.gov/course/view.php?id=43810) | AgLearn/LinkedIn |	~2 hrs
-[Statistics Foundations:2](https://aglearn.usda.gov/course/view.php?id=44169) | AgLearn/LinkedIn |	~2 hrs
-[Statistics Foundations:3](https://aglearn.usda.gov/course/view.php?id=44264) | AgLearn/LinkedIn | ~2 hrs
-[Python Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=46586) | AgLearn/LinkedIn |	~3 hrs
-[R Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=30886) | AgLearn/LinkedIn |	~6 hrs  
-[SQL For Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=46166) | AgLearn/LinkedIn |	~1 hr
-[SPSS Statistics Essential Training](https://aglearn.usda.gov/course/view.php?id=31896) | AgLearn/LinkedIn |	~5 hrs
-[Statistics with R Specialization](https://www.coursera.org/specializations/statistics) | Coursera | 6 mos; 5 hrs/wk
-[Introduction to Probability & Data](https://www.coursera.org/learn/probability-intro?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
-[Inferential Statistics](https://www.coursera.org/learn/inferential-statistics-intro?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
-[Linear Regression & Modeling](https://www.coursera.org/learn/linear-regression-model?specialization=statistics) | Coursera | 4 wks; 5-7 hrs/wk
-[Bayesian Statistics](https://www.coursera.org/learn/bayesian?specialization=statistics) | Coursera | 5 wks; 5-7 hrs/wk
-[Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/learn/bayesian-statistics) | Coursera | 4 wks; 2-5 hrs/wk
+[SCINet: Statistics Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D421015%3FshareId=4a2ab797-9d1c-4f92-b84f-f7d76369a0c7) | AgLearn/LinkedIn |	Varies
+[SCINet Coursera Collection (Scroll down to see full course collection in Statistics)](https://www.coursera.org/programs/scinet-program-of-study-a6nd3) | Coursera |	Varies
 [Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
 [Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
 [Statistical Rethinking: A Bayesian Approach-Connecting Scientific Models to Evidence](https://github.com/rmcelreath/stat_rethinking_2022) | Github | 10 wks; 1-3 hrs/wk
@@ -207,37 +178,12 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Artificial Intelligence Foundations: Thinking Machines (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45216) | AgLearn/LinkedIn | 1.5 hrs
+[SCINet: Machine Learning and AI  Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D412022%3Fu%3D76310346) | AgLearn/LinkedIn | Varies
 [Artificial Intelligence Foundations: Machine Learning (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs
 [Artificial Intelligence Foundations: Neural Networks (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs
-[Machine Learning & AI Foundations: Linear Regression](https://aglearn.usda.gov/course/view.php?id=45825) | AgLearn/LinkedIn |	~4 hrs
-[Machine Learning & AI Foundations: Classification Modeling](https://aglearn.usda.gov/course/view.php?id=45826) | AgLearn/LinkedIn | ~4 hrs
-[Machine Learning & AI Foundations: Decision Trees](https://aglearn.usda.gov/course/view.php?id=44442) | AgLearn/LinkedIn | ~4 hrs
-[Machine Learning & AI Foundations: Advanced Decision Trees](https://aglearn.usda.gov/course/view.php?id=44454) | AgLearn/LinkedIn | ~4 hrs  
-[Machine Learning & AI Foundations: Clustering and Association](https://aglearn.usda.gov/course/view.php?id=45824) | AgLearn/LinkedIn | ~4 hrs
-[Machine Learning & AI Foundations: Value Estimations](https://aglearn.usda.gov/course/view.php?id=44554) | AgLearn/LinkedIn | ~4 hrs
 [Machine Learning & AI Foundations: Recommendations](https://aglearn.usda.gov/course/view.php?id=44673https://aglearn.usda.gov/course/view.php?id=44673) | AgLearn/LinkedIn | ~4 hrs
-[Deep Learning with Keras](https://aglearn.usda.gov/course/view.php?id=41700) | AgLearn/Skillsoft |	~2 hrs
 [Linear Regression Models: Building Simple Regression Models with Scikit Learn and KerasSCORM package (Python)](https://aglearn.usda.gov/mod/scorm/view.php?id=30365) | AgLearn/Skillsoft |	1 hr
-[Data Science: Statistics and Machine Learning Specialization](https://www.coursera.org/specializations/data-science-statistics-machine-learning) | Coursera | 6 mos; 5 hrs/wk
-[AI for everyone by Andrew Ng (Beginner)](https://www.coursera.org/learn/ai-for-everyone) | Coursera | 3 wks; 2-3 hrs/wk
-[Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning) | Coursera | 8 mo; 7 hrs/wk
-[Machine Learning: Regression](https://www.coursera.org/learn/ml-regression) | Coursera | 6 wks; 5-8 hrs/wk
-[Machine Learning: Classification](https://www.coursera.org/learn/ml-classification) | Coursera | 7 wks; 5-8 hrs/wk
-[Machine Learning: Clustering & Retrieval](https://www.coursera.org/learn/ml-clustering-and-retrieval) | Coursera | 6 wks; 5-8 hrs/wk
-[Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning) | Coursera | 56 hrs;
-[Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) | Coursera | 4 wks; 4-5 hrs/wk
-[Deep Learning Specialization w/Andrew Ng](https://www.coursera.org/specializations/deep-learning) | Coursera | 2 mo; 12 hs/wk
-[Neural Networks and Deep Learning w/Andrew Ng](https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning) | Coursera | 18 hrs
-[Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization w/Andrew Ng](https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning) | Coursera | 15 hours
-[Structuring Machine Learning Projects w/Andrew Ng](https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning) | Coursera | 7 hrs
-[Convolution Neural Networks w/Andrew Ng](https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning) | Coursera | 21 hrs
-[Sequence Models w/Andrew Ng](https://www.coursera.org/learn/nlp-sequence-models) | Coursera | 18 hrs
-[Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python?specialization=ai-engineer) | Coursera | 5-6 wks; 3-6 hrs/wk
-[Deep Neural Networks with PyTorch](https://www.coursera.org/learn/deep-neural-networks-with-pytorch?specialization=ai-engineer) | Coursera | 20 hrs
-[Introduction to Deep Learning and Neural Networks with Keras](https://www.coursera.org/learn/introduction-to-deep-learning-with-keras) | Coursera | 3 wks; 3 hrs/wk
-[Deep Learning in Computer Vision](https://www.coursera.org/learn/deep-learning-in-computer-vision) | Coursera | 5 wks; 5 hrs/wk
-[Predictive Modeling and Machine Learning with MATLAB](https://www.coursera.org/learn/predictive-modeling-machine-learning) | Coursera | 4 hrs
+[SCINet AI-COE Coursera Collection](https://www.coursera.org/programs/ai-center-of-excellence-program-of-study-yunri) | Coursera | Varies
 [AI for Everyone: Master the Basics](https://www.edx.org/course/artificial-intelligence-for-everyone) | EdX | 4 wks; 1-2 hrs/wk
 [Deep Learning Essentials](https://www.edx.org/course/deep-learning-essentials) | EdX | 5 wks; 4-6 hrs/wk
 [Machine Learning with Python: A Practical Introduction](https://www.edx.org/course/machine-learning-with-python-a-practical-introduct) | EdX | 5 wks; 4-6 hrs/wk
@@ -247,12 +193,11 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Using GPUs to Scale and Speed-Up Deep Learning](https://www.edx.org/course/using-gpus-to-scale-and-speed-up-deep-learning) | EdX | 5 wks; 2-4 hrs/wk
 
 
-
-
 # Geospatial
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
+[SCINET: GIS Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fpaths%2Fusda-scnet-gis%3FshareId=79644b0b-3cac-41bd-b4bb-94f9a10b2e68) | AgLearn/LinkedIn | varies
 [ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
 [Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 4 wks; 3-5 hrs/wk
 [GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 4 wks; 2-3 hrs/wk
@@ -265,9 +210,10 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [GEE 101: Intro to GEE for beginners Part 1](https://earthoutreachonair.withgoogle.com/events/earthengine101a) | Google Earth Outreach | 1.5 hr
 [GEE 101: Intro to GEE for beginners Part 2](https://earthoutreachonair.withgoogle.com/events/earthengine101b) | Google Earth Outreach | 1.5 hr
 [Training Materials from 3 GEE Workshops](https://developers.google.com/earth-engine/tutorials/ttt) | GEE tutorials | 2 hrs each
+[Spatial Data Science (R)](https://rspatial.org/raster/intr/index.html) | Geospatial and Farming Systems Research Consortium (GFC) | varies
 
 
-# General Data Science Concepts
+# Data Management
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
@@ -282,7 +228,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Data Communication and Visualization](https://aglearn.usda.gov/course/view.php?id=28452) | AgLearn/Skillsoft | ~1.5 hrs
 
 
-# Bioinformatics Self-Paced Learning
+# Bioinformatics
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
