@@ -44,7 +44,7 @@ Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/ans
 ### Coursera and EdX
 
 Many Coursera and EdX courses can be audited for free (i.e. no certification which requires a fee). For Coursera, licenses are available to 
-ARS scientists and support staff through the SCINET Program (see below for details).
+ARS scientists and support staff through the SCINet Program (see below for details).
 
 For EdX click enroll on a particular course, create an EdX account, and choose the free audit option.
 
