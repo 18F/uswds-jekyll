@@ -19,7 +19,7 @@ There are a number of free training resources on scientific computing available 
 Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists and collaborators. In addition to the training resources list on this page, take a look at the [SCINet Learning Path](https://scinet.usda.gov/training/learningpath) and the [upcoming training events](https://scinet.usda.gov/training/training_event). 
 
 
-### How to Access Training on Different Platforms
+## How to Access Training on Different Platforms
 * [AgLearn and LinkedIn Learning](#aglearn-and-linkedin-learning)
 * [Coursera and EdX](#coursera-and-edx)
 * [sas.com and jmp.com](#sas-and-jmp)
