@@ -80,7 +80,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-| [SCINet: Python Programming Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415014%3FshareId=c0cde733-5cfc-45d5-b052-979471c35fa3) | AgLearn/LinkedIn |	Varies 
+| [SCINet: Python Programming Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415014%3FshareId=c0cde733-5cfc-45d5-b052-979471c35fa3) | AgLearn/LinkedIn |	1-3 hrs/course
 | [Getting Started with Python: Introduction](https://aglearn.usda.gov/enrol/index.php?id=48854) | AgLearn/Skillsoft |	1.5 hr |
 | [Python Fundamentals](https://aglearn.usda.gov/course/view.php?id=42094) | AgLearn/Skillsoft |	1.5 hrs |
 | [Python: the Basics](https://aglearn.usda.gov/course/view.php?id=36287) | AgLearn/Skillsoft |	~3.5 hrs |
@@ -110,7 +110,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[SCINet: R Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415016%3Fu%3D76310346) | AgLearn/LinkedIn |	Varies
+[SCINet: R Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D415016%3Fu%3D76310346) | AgLearn/LinkedIn |	1-3 hrs/course
 [Introduction to R Programming](https://aglearn.usda.gov/mod/scorm/view.php?id=13217) | AgLearn/Skillsoft | ~2.5 hrs  
 [Debugging in R](https://aglearn.usda.gov/course/view.php?id=28456) | AgLearn/Skillsoft |	1 hr
 [Programming Techniques in R](https://aglearn.usda.gov/course/view.php?id=28457) | AgLearn/Skillsoft | ~2 hrs
@@ -139,7 +139,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [SAS Programming 1: Essentials](https://support.sas.com/edu/schedules.html?ctry=us&crs=PROG1) | sas.com | 14 hrs
 [Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression](https://support.sas.com/edu/schedules.html?ctry=us&crs=STAT1) | sas.com | 21 hrs
 [SAS Programming for R Users](https://support.sas.com/edu/schedules.html?ctry=us&crs=SP4R) | sas.com | 14 hrs
-[SCINet: SAS Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D430036%3Fu%3D76310346) |  AgLearn/LinkedIn |	Varies
+[SCINet: SAS Programming Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D430036%3Fu%3D76310346) |  AgLearn/LinkedIn |	1-3 hrs/course
 [Statistical thinking for Industrial Problem Solving](https://www.jmp.com/en_us/online-statistics-course.html) | jmp.com | 20-30 hrs
 [On-demand Webinars -- Mastering JMP](https://www.jmp.com/en_us/events/mastering/overview.html) | jmp.com | ≤ 1 hr
 [SAS Base SAS 9 Programming: The SAS environment](https://aglearn.usda.gov/enrol/index.php?id=28544) | AgLearn/Skillsoft |	~2 hrs
@@ -167,7 +167,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[SCINet: Statistics Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D421015%3FshareId=4a2ab797-9d1c-4f92-b84f-f7d76369a0c7) | AgLearn/LinkedIn |	Varies
+[SCINet: Statistics Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D421015%3FshareId=4a2ab797-9d1c-4f92-b84f-f7d76369a0c7) | AgLearn/LinkedIn |	1-3 hrs/course
 [SCINet Coursera Collection (Scroll down to see full course collection in Statistics)](https://www.coursera.org/programs/scinet-program-of-study-a6nd3) | Coursera |	Varies
 [Statistical Learning (using R)](https://www.edx.org/course/statistical-learning) | EdX | 9 wks; 3-5 hrs/wk
 [Statistical Predictive Modelling and Applications](https://www.edx.org/course/statistical-predictive-modelling) | EdX | 9 wks; 3-5 hrs/wk
@@ -178,7 +178,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[SCINet: Machine Learning and AI  Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D412022%3Fu%3D76310346) | AgLearn/LinkedIn | Varies
+[SCINet: Machine Learning and AI  Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D412022%3Fu%3D76310346) | AgLearn/LinkedIn | 1-3 hrs/course
 [Artificial Intelligence Foundations: Machine Learning (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs
 [Artificial Intelligence Foundations: Neural Networks (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs
 [Machine Learning & AI Foundations: Recommendations](https://aglearn.usda.gov/course/view.php?id=44673https://aglearn.usda.gov/course/view.php?id=44673) | AgLearn/LinkedIn | ~4 hrs
@@ -197,7 +197,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[SCINET: GIS Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fpaths%2Fusda-scnet-gis%3FshareId=79644b0b-3cac-41bd-b4bb-94f9a10b2e68) | AgLearn/LinkedIn | varies
+[SCINET: GIS Collection](https://www.linkedin.com/learning-login/share?account=76310346&forceAccount=true&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fpaths%2Fusda-scnet-gis%3FshareId=79644b0b-3cac-41bd-b4bb-94f9a10b2e68) | AgLearn/LinkedIn | 1-3 hrs/course
 [ESRI GIS Videos (on many topics including machine learning)](https://www.esri.com/videos) | esri.com | varies
 [Fundamentals of GIS](https://www.coursera.org/learn/gis) | Coursera | 4 wks; 3-5 hrs/wk
 [GIS Data Formats, Design and Quality](https://www.coursera.org/learn/gis-data) | Coursera | 4 wks; 2-3 hrs/wk
@@ -260,11 +260,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [What is Git? (Interactive tutorial)](https://www.atlassian.com/git/tutorials/what-is-git) | atlassian.com | 45 min
 [Intro to GitHub for Version Control](https://ourcodingclub.github.io/tutorials/git/) | Coding Club | varies
 [Setting up a GitHub Repository for Your Lab](https://ourcodingclub.github.io/tutorials/git-for-labs/) | Coding Club | varies
-[Git Essential Training: The Basics](https://aglearn.usda.gov/course/view.php?id=47901) | AgLearn/LinkedIn |	~3 hrs
-[Git Intermediate Techniques](https://aglearn.usda.gov/enrol/index.php?id=46084) | AgLearn/LinkedIn |	~3 hrs
-[GitHub Essential Training](https://aglearn.usda.gov/enrol/index.php?id=46745) | AgLearn/LinkedIn |	~3 hrs
-[Learning Git and GitHub](https://aglearn.usda.gov/enrol/index.php?id=43706) | AgLearn/LinkedIn | ~1.5 hrs
-[GitHub Actions First Look](https://aglearn.usda.gov/course/view.php?id=47692) | AgLearn/LinkedIn |	45 min
+[SCINet: Git and Github Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D435021%3Fu%3D76310346) | AgLearn/LinkedIn |	1-3 hrs/course
 
 
 # Reproducibility, Productivity, and Integration Management Tools
