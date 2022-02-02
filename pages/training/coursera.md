@@ -12,9 +12,9 @@ The SCINet Initiative and the AI Center of Excellence are excited to provide a t
 
 The ARS-Coursera portal includes Programs of Study related to scientific computing and artificial intelligence from top-tier institutions. The ARS Programs of Study are actively growing catalogues, and Coursera continues to add classes on a regular basis. ARS employees are *encouraged to request additional courses/specializations* to be added to our portal by sending an email to scinet-training@usda.gov.
 
-**SCINet**: The courses and specializations focus on general computational and data-science skills (course catalogue at: https://www.coursera.org/programs/scinet-program-of-study-a6nd3).
+[**SCINet Program of Study**](https://www.coursera.org/programs/scinet-program-of-study-a6nd3): The courses and specializations included in this program of study focus on general computational and data-science skills.
 
-**AI Center of Excellence**: Content in the courses and specializations are varied, ranging from high-level introductory to technical classical machine learning and deep-learning (course catalogue at: https://www.coursera.org/programs/ai-center-of-excellence-program-of-study-yunri).
+[**AI Center of Excellence Program of Study**](https://www.coursera.org/programs/ai-center-of-excellence-program-of-study-yunri): The courses and specializations in this program of study are varied, ranging from high-level introductory to technical classical machine learning and deep-learning.
 
 ## Application Process
 
