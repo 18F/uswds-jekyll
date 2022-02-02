@@ -8,9 +8,9 @@ layout: page
 
 There are a number of free training resources on scientific computing available to ARS scientists and collaborators. Check out these curated collections of learning resources by topic. 
 
-| Programming Languages | Types of Analyses | Practices |
+| Programming Languages | Types of Analyses |  Best Practices |
 |---|---|---|
-[Git and GitHub](#git-and-github) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [General Statistics](#general-statistics)
+[Git and GitHub](#git-and-github) | [Artificial Intelligence and Machine Learning](#artificial-intelligence-and-machine-learning) | [Database Management](#database-management)
 [MATLAB Programming](#matlab-programming) | [Bioinformatics](#bioinformatics-self-paced-learning)| [General Data Science Concepts](#general-data-science-concepts)
 [Python Programming](#python-programming) | [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
 [R Programming](#r-programming) | [Statistics](#general-statistics)| [Integration Management Tools](#reproducibility-productivity-and-integration-management-tools)
@@ -29,7 +29,7 @@ Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists a
 
 ### AgLearn and LinkedIn Learning
 
-AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. SCINet has created a number of collections and learning paths to support your learning journey. Login to LinkedIn Learning and and search the keyword SCINet for all curated collections. 
+AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. SCINet has created a number of collections and learning paths. Login to LinkedIn Learning and and search the keyword SCINet for all curated collections. 
 
 All federal USDA permanent and term employees should be able to access the courses listed on this page by following the posted links. 
 
@@ -45,13 +45,22 @@ Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/ans
 
 ### Coursera and EdX
 
-Many Coursera.org and EdX.org courses can be audited for free (i.e. no certification which requires a fee).
+Many Coursera and EdX courses can be audited for free (i.e. no certification which requires a fee). For Coursera, licenses are available to 
+ARS scientists and support staff through the SCINET Program (see below for details).
 
 For EdX click enroll on a particular course, create an EdX account, and choose the free audit option.
 
-For Coursera see [the full list of free Coursera courses](https://www.coursera.org/courses?query=free). These courses offer a 'Full Course, No Certificate' option. This option lets you see all course materials, submit required assessments, and get a final grade, but does not provide a certificate. 
+For Coursera see [the full list of free Coursera courses](https://www.coursera.org/courses?query=free). These courses offer a 'Full Course, 
+No Certificate' option. This option lets a user see all course materials, submit required assessments, and get a final grade, but does not 
+provide a certificate. 
 
-You also have the option to take some courses in audit mode where you will be able to see most course materials for free but not have access to graded assignments and the ability to earn a Certificate. If you don't see the audit option or you would like a certificate, you can request a [SCINet-sponsored Coursera license](https://scinet.usda.gov/training/coursera), which provides 3-months of full access to Coursera. If you need more than 3 months to complete a course, you will need to resubmit a request for the following quarter to secure your license for another 3 months. 
+ARS scientists and staff also have the option to take some courses in audit mode, which provides visibility of most course materials for 
+free but does not provide access to graded assignments and a Certificate. 
+
+If the audit option is not avaiable or a certificate is required, ARS Scientists and staff can request a 
+[SCINet-sponsored Coursera license](https://scinet.usda.gov/training/coursera), which provides 3-months of full access to Coursera. 
+If more than 3 months is needed to complete a course, a new request will need to be submitted the following quarter to secure the license 
+for another 3 months. 
 
 **SCINet-funded Coursera Licenses:** ARS scientists can request a Coursera license for a three month period to gain access to the full list of Coursera catalogue options related to scientific computing, statistics, and AI. This license also allows ARS scientists to get certifications. To request a license, please visit the [SCINet Coursera page](https://scinet.usda.gov/training/coursera). 
 
@@ -65,8 +74,7 @@ To start a course on jmp.com:
 Follow the link to the course from this page, from the JMP course page click "Enroll Now", follow the instructions to create a profile for a new user.
 
 ### Realpython
-Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of free python training courses during the COVID-19 shut-in period. To access these courses for free go to https://realpython.com/free-courses-march-2020 and use the gift code link that Dan has posted on that page. Please contact Dan Bader at Real Python with questions.
-
+Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of free python training courses during the COVID-19 shut-in period. To access these courses for free go to https://realpython.com/free-courses-march-2020 and use the gift code link posted on that page.
 
 # Python Programming
 
@@ -332,7 +340,7 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Data Science Productivity Tools](https://www.edx.org/course/data-science-productivity-tools) | EdX | 8 wks; 1-2 hrs/wk
 [Unix Tools: Data, Software, and Production Engineering](https://www.edx.org/course/unix-tools-data-software-and-production-engineering) | EdX | 6 wks; 4-6 hrs/wk
 
-# Database Management Tools
+# Database Management
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
