@@ -225,7 +225,8 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Data Analysis Concepts](https://aglearn.usda.gov/course/view.php?id=28450) | AgLearn/Skillsoft | ~1.5 hrs
 [Data Classification and Machine Learning](https://aglearn.usda.gov/course/view.php?id=28451) | AgLearn/Skillsoft | ~1.5 hrs
 [Data Communication and Visualization](https://aglearn.usda.gov/course/view.php?id=28452) | AgLearn/Skillsoft | ~1.5 hrs
-
+[Data Management Skill Building Hub](https://dataoneorg.github.io/Education/) | DataONE | varies
+[Data Management Plan Guidance](https://dataoneorg.github.io/Education/) | National Agricultural Library  | varies
 
 # Bioinformatics
 
