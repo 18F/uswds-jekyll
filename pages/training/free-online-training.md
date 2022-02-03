@@ -14,6 +14,7 @@ There are a number of free training resources on scientific computing available 
 [Python Programming](#python-programming) | [Bioinformatics](#bioinformatics)| [Data Management](#data-management)
 [R Programming](#r-programming)| [Geospatial](#geospatial) | [Reproducibility & Productivity Tools](#reproducibility-productivity-and-integration-management-tools) 
 [SAS Programming and JMP](#sas-programming-and-jmp) | [Statistics](#general-statistics)|  [Git and GitHub](#git-and-github)
+[SQL](#data-management)  | [Ecological and Earth Sciences](#ecological-and-earth-sciences)| 
 
 
 Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists and collaborators. In addition to the training resources list on this page, take a look at the [SCINet Learning Path](https://scinet.usda.gov/training/learningpath) and the [upcoming training events](https://scinet.usda.gov/training/training_event). 
@@ -240,11 +241,10 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 [Stastics and R (basics for life sciences](https://www.edx.org/course/statistics-and-r) | EdX | 2-4 hrs/4wk
 
 
-# Ecological/Geospatial Self-Paced Learning
+# Ecological and Earth Sciences
 
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
-[Spatial Data Science (R)](https://rspatial.org/raster/intr/index.html) | Geospatial and Farming Systems Research Consortium (GFC) | varies
 [Ecological Models and Data in R (book with pdf chapters)](http://ms.mcmaster.ca/~bolker/emdbook/index.html) | Princeton University Press | varies
 [Data Science for Ecologists and Environmental Scientists Course](https://ourcodingclub.github.io/course.html) | Coding Club/The Data Lab | varies
 [ZevRoss Tech Blog (mostly R resources)](https://www.zevross.com/blog/) | ZevRoss | varies
