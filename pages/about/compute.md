@@ -37,9 +37,9 @@ ARS researchers also have access to a Cray system in Starkville, MS through an a
 Atlas cluster consists of 228 standard compute nodes, 8 high memory compute nodes and 4 GPU nodes. All nodes run on Linux Centos and compute jobs are managed by the SLURM scheduler. The system is configured with a login node, which users access to submit compute jobs to the SLURM scheduler. More information about Atlas cluster can be found in the [Atlas User Guide](https://www.hpc.msstate.edu/computing/atlas).
 
 
-## SCINet AWS Augmentation
-In addition to the ARS in-house compute infrastructure, Amazon Web Services (AWS) are available to augment the HPC capability of Ceres with cloud resources.<br>
-[Request SCINet AWS](/support/request-AWS)
+## SCINet Cloud Computing Services
+In addition to the ARS in-house compute infrastructure, cloud computing services are available to augment the HPC capability of Ceres with cloud resources.<br>
+[Request SCINet Cloud Computing](/support/request-AWS)
 
 <!--
 ## Page specific instructions
