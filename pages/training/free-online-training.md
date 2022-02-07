@@ -178,8 +178,6 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | Course Title/Link | Platform or Site | Time Investment |
 |---|---|---|
 [SCINet: Machine Learning and AI  Collection](https://www.linkedin.com/checkpoint/enterprise/login/76310346?pathWildcard=76310346&application=learning&redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fcollections%2Fenterprise%2F1%7EAAAAAASMZ0o%3D412022%3Fu%3D76310346) | AgLearn/LinkedIn | 1-3 hrs/course
-[Artificial Intelligence Foundations: Machine Learning (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45215) | AgLearn/LinkedIn | 1.25 hrs
-[Artificial Intelligence Foundations: Neural Networks (30,000 ft explanation)](https://aglearn.usda.gov/course/view.php?id=45217) | AgLearn/LinkedIn | 1.25 hrs
 [Machine Learning & AI Foundations: Recommendations](https://aglearn.usda.gov/course/view.php?id=44673https://aglearn.usda.gov/course/view.php?id=44673) | AgLearn/LinkedIn | ~4 hrs
 [Linear Regression Models: Building Simple Regression Models with Scikit Learn and KerasSCORM package (Python)](https://aglearn.usda.gov/mod/scorm/view.php?id=30365) | AgLearn/Skillsoft |	1 hr
 [SCINet AI-COE Coursera Collection](https://www.coursera.org/programs/ai-center-of-excellence-program-of-study-yunri) | Coursera | Varies
