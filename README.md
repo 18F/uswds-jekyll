@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.com/USDA-ARS-GBRU/scinet-site.svg?branch=master)](https://travis-ci.com/USDA-ARS-GBRU/scinet-site)
 
-# Info specific to SCINet Website Development
+
+## Info specific to SCINet Website Development
 
 These are the instructions for how to contribute to the [SCINet USDA webpage](https://scinet.usda.gov) if you have been contacted to contribute.
 
