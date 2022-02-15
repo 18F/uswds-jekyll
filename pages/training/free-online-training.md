@@ -24,7 +24,7 @@ Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists a
 * [AgLearn and LinkedIn Learning](#aglearn-and-linkedin-learning)
 * [Coursera and EdX](#coursera-and-edx)
 * [sas.com and jmp.com](#sas-and-jmp)
-* [realpython.com](#realpython)
+
 
 ### AgLearn and LinkedIn Learning
 
@@ -72,8 +72,6 @@ Follow the link to the course from this page, scroll down the course overview pa
 To start a course on jmp.com:  
 Follow the link to the course from this page, from the JMP course page click "Enroll Now", follow the instructions to create a profile for a new user.
 
-### Realpython
-Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of free python training courses during the COVID-19 shut-in period. To access these courses for free go to https://realpython.com/free-courses-march-2020 and use the gift code link posted on that page.
 
 # Python Programming
 
@@ -89,18 +87,15 @@ Dan Bader, the owner and editor-in-chief at Real Python, is offering a number of
 | [Python for Data Science: Manipulating and Analyzing Data in Pandas DataFrames](https://aglearn.usda.gov/course/view.php?id=41669) | AgLearn/Skillsoft |	1 hr |
 | [Python for Data Science: Basic Data Visualization Using Seaborn](https://aglearn.usda.gov/course/view.php?id=41670) | AgLearn/Skillsoft |	~1 hr |
 | [Python for Data Science: Advanced Data Visualization Using Seaborn](https://aglearn.usda.gov/course/view.php?id=41671) | AgLearn/Skillsoft |	~1 hr |
-| [Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 1 month; 12 hrs/wk |
-| [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) | Coursera | 2 mos; 7 hrs/wk |
-| [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) | Coursera | 13 hrs; 2-4 hrs/wk |
+| [Introduction to Data Science Specialization by IBM](https://www.coursera.org/specializations/introduction-data-science) | Coursera | 12 hrs/4wks |
+| [Statistics with Python Specialization](https://www.coursera.org/specializations/statistics-with-python) | Coursera | 7hrs/8wks |
+| [Programming for Everybody (Getting Started with Python)](https://www.coursera.org/learn/python) | Coursera | 13 hrs |
 | [Python Basics for Data Science](https://www.edx.org/course/python-basics-for-data-science) | EdX | 2-5 hrs
-| [Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 10 wks; 8-10 hr/wk
+| [Python for Data Science](https://www.edx.org/course/python-for-data-science-2) | EdX | 8-10hrs/10wks
+| [Python for Research](https://www.edx.org/course/using-python-for-research) | EdX | 3hrs/12wks
 | [Python: Basic and Advanced Tutorials](https://www.tutorialspoint.com/python/python_variable_types.htm) | Tutorials Point | 2+ hrs |
 | [Intro to Python tutorial](https://www.learnpython.org/) | DataCamp | 2 + hrs |
 | [Python Tutorial for Beginners: Learn Python Programming in 7 days](https://www.guru99.com/python-tutorials.html) | Guru99 | 14 hrs |
-| [How to Publish Your Own Python Package to PyPI](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-| [Traditional Face Detection With Python](https://realpython.com/free-courses-march-2020) | Real Python | 30 min
-| [Functional Programming in Python](https://realpython.com/free-courses-march-2020) | Real Python | 1.25 hrs
-| [Cool New Features in Python 3.8](https://realpython.com/free-courses-march-2020) | Real Python | 1 hr
 | [Python Tutorials](https://ourcodingclub.github.io/tutorials.html) | Coding Club | varies
 
 
