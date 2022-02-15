@@ -28,16 +28,19 @@ Additionally, SCINet regularly hosts virtual trainings for USDA ARS scientists a
 
 ### AgLearn and LinkedIn Learning
 
-AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. SCINet has created a number of collections and learning paths. Login to LinkedIn Learning and and search the keyword SCINet for all curated collections. 
+AgLearn hosts multiple free learning courses and learning platforms including LinkedIn Learning and Skillsoft Percipio. 
 
-All federal USDA permanent and term employees should be able to access the courses listed on this page by following the posted links. 
+SCINet has created a number of collections and learning paths in LinkedIn Learning. Login to LinkedIn Learning and and search the keyword SCINet for all curated collections. 
 
-Non-federal USDA employees (contractors) do not have access to many of the courses in AgLearn, despite being able to login to AgLearn with their PIV card/eAuthentication. Contractors may be given access to AgLearn courses on a case-by-case basis, but it is not guaranteed, due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
-For non-federal USDA employees, an exception to the above is AgLearn/LinkedIn Learning. Non-federal USDA employees may be able to access AgLearn/LinkedIn Learning using the following steps:
+All federal USDA permanent and term employees should be able to access the courses listed on this free online training page by logging into LinkedIn Learning via AgLearn then following the posted links. 
+
+Non-federal USDA employees may access AgLearn/LinkedIn Learning using the following steps:
 1.  Go to aglearn.usda.gov but DO NOT LOG IN
-2.  In the "Welcome to AgLearn" pane, click on LinkedIn Learning
+2.  On the "Welcome to AgLearn" page, click on LinkedIn Learning
 3.  Follow the instructions to "access your LinkedIn Learning account directly" by following the link and logging in with your eAuthentication credentials. (Do not log in to AgLearn)
 4.  Find any of the AgLearn/LinkedIn trainings listed on this page by typing the title of the course in the LinkedIn Learning search bar.
+
+Non-federal USDA employees (contractors) may be granted access to other AgLearn courses (i.e. Percipio/Softskills) on a case-by-case basis, but this is not guaranteed due to licensing restrictions. Please have your supervisor contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) and provide a justification stating how a particular training will help the researcher carry out the mission of the agency.
 
 Contact your Agency [AgLearn Point of Contact](https://usda.custhelp.com/app/answers/detail/a_id/1705/) with further questions about how to access AgLearn courses.
 
