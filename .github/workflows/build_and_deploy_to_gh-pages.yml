@@ -12,6 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Create CNAME file
+        run: echo "scinet.usda.gov" > CNAME
+
       # Use GitHub Actions' cache to shorten build times and decrease load on
       # servers.
       - uses: actions/cache@v2
