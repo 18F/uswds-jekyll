@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@vi
+        uses: actions/checkout@v2
 
       - name: Create CNAME file
         run: echo "scinet.usda.gov" > CNAME
