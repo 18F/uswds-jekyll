@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Introduction to Atlas"
+title: "Data Carpentries"
 author: Heather Jones
-excerpt: An introduction to Atlas
+excerpt: Data Carpentries
 #picture: /assets/img/
 ---
 
