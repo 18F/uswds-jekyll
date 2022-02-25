@@ -36,6 +36,8 @@ primary:
         href: /stories/
       - text: Newsletter
         href: /newsletter/
+      - text: SCINet-X
+        href: /scinet-x/
   - text: User Guides
     links:
       - text: Quick Start

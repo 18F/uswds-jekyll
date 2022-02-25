@@ -23,7 +23,7 @@ The ARS SCINet Team developed a SCINet network solution that provides two levels
 | Fayetteville, AR | Maricopa, AZ | Wyndmoor, PA |
 | Florence, SC |  |  |
 
-We are eager to work with the remaining ARS locations to ensure they are ready when network equipment is available for installation. Please see the steps (milestones) to the right to be followed in getting a location on our list. The SCINet Team is available to answer questions at any step along the way. 
+We are eager to work with the remaining ARS locations to ensure they are ready when network equipment is available for installation. Please see the steps (milestones) below to be followed in getting a location on our list. The SCINet Team is available to answer questions at any step along the way. 
 
 
 ## Key Milestones for Achieving a high-bandwidth SCINet Connection
