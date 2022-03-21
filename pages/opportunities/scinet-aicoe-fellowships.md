@@ -9,50 +9,46 @@ layout: page
 
 ## Overview
 
-The SCINet Program in collaboration with the Artificial Intelligence Center of Excellence (AI-COE) will be providing funding to support postdoctoral fellows mentored by ARS scientists.  Each Fellow will be funded through the ORISE Program and is expected to:
-1. be involved in individual and collaborative, multi-unit research
-1. be provided with training and leadership opportunities
-1. contribute to the overall success of SCNet or the AI COE, and the Fellows Program.
+In 2022, the SCINet Program in collaboration with the Artificial Intelligence Center of Excellence (AI-COE) provided funding to support 19 new postdoctoral fellows to be mentored by ARS scientists. 
 
-This is a competitive funding program where we expect to fund up to 15 2-year Fellows (with a possible 3rd year extension) in FY22. Each fellow will receive the same stipend and travel support through the ORISE Program. The mentor is expected to provide the Fellow’s laptop, and office and laboratory space, if needed.
+An 8-member panel composed of ARS scientists and National Program Leaders recently evaluated 64 proposals submitted by ARS scientist. Eight were selected for funding by SCINet, and 11 for funding by the AI-COE. These fellows will join our current group of fellows to result in nearly 30 fellows in our fellowship program.
+
+The goal of the fellowship program is to develop the next generation of ARS scientists with expertise in conducting and leading individual and collaborative research using computationally-intensive approaches. 
+
+Each fellow is expected to participate in four types of activities: (1) individual computationally-intensive research with the mentor, (2) collaborative research with multiple ARS units, (3) co-leadership of a SCINet or AI COE working group, and (4) coordination of the Fellows Program. In addition, each fellow will have the opportunity to take advantage of training courses that build computational literacy, such as in data science, AI, bioinformatics, and geospatial analyses on our high performance computing clusters (Ceres, Atlas).
+
+We congratulate the 19 ARS scientists who submitted successful proposals, and look forward to the exciting and impactful research to be conducted by the fellows, their mentors, and the collaborative working groups. 
+
+We expect to have another funding opportunity in FY23 so watch for that announcement in late 2022.
+
  
-**SCINet fellows** are expected to be involved in the analysis of complex, large datasets requiring the use of one of the ARS' high performance computing clusters (HPCs: Ceres or Atlas). **AI-COE fellows** will have the development or use of AI technologies as a key component of their individual or collaborative research. See below for definition of these technologies.
 
-**Proposals from ARS scientists (Cat 1 or Cat 4) who would like to mentor a SCINet or AI COE postdoctoral fellow are due December 17, 2021. We will make decisions in Jan 2022.**
+|Proposals Funded in 2022 | Mentor| Co-mentor(s)| 
+|------|------|------|
+| Developing tools for the real-time monitoring and query of all the world's publicly available sequence data. |	Adam Rivers		|	|
+| Determining the structure and function of proteins of foodborne and plant pathogens using Alphafold2 and top-down proteomic analysis|	Clifton K. Fagerquist	||
+| AI-driven phenotype extraction from UAS imagery for crop genetics and breeding|	Jacob Washburn|	Alisa Coffin, Max Feldman|	
+| Machine learning approaches to gain structural and functional insights of genes regulating climate adaptability|	Carson Andorf	|Taner Sen|	
+| Inferring Protein Function for Enhanced Breeding using Machine Learning and Protein Structure Prediction	|Taner Sen|	Carson Andorf	|
+| A MATLAB toolbox for dynamic prediction of meteorological drought across Southern Great Plains |	Daniel Moriasi	|Ali Mirchi|	
+| Optimization of AI-based microscope image analysis with the Blackbird imaging robot	|Lance Cadle-Davidson|	Yu Jiang|	
+| Automated Detection of Insect Species in Food and Processing Environments using Artificial Intelligence|	Paul R Armstrong	|Lester Pordesimo	|
+| Improving the accuracy and scope of machine learning tools for camera trap-based ecological data analysis across US grazinglands|	Hailey Wilmer		||	
+| A broadly deployable deep learning workflow for image feature identification, segmentation, and data extraction.	|Devin A Rippner |Jeff Neyhart , Kayla Altendorf, Garett Heineck, Andrew McElrone |
+| An AI approach for discovering novel blast disease resistance sources in rice.|	Jeremy Edwards	|Yulin Jia|	
+| Predicting interspecies transmission of influenza A virus from swine to humans with machine learning	|Tavis Anderson	|Amy Vincent	|
+| Modeling the Spread and Adaptation of Stored-Product Insect Pests in the Face of Climate Change |	Alison Gerken	|Rob Morrison	|
+| Using AI to Analyze Climate Effects on Crop Performance	|Xianran Li|	|
+| AI/ML and Deep Learning to Enhance Understanding of Dietary Patterns that Promote Human Health	|David Baer	|Lauren O'Connor|	
+| The evolutionary genomics of Macrophomina phaseolina.	|Peter Montgomery Henry		||
+| Spatial multi-criterion optimization of agricultural ecosystem services at the landscape scale|	Sarah Goslee	|	|
+| Application of machine learning in livestock genomics|	George Liu	|
+| Determining the pervasiveness of hybridization and introgression in agriculture and the driving mechanisms	|Christopher Owen	||
 
 
-## Details
+<br>
 
-### Submission process
+Do you know someone who might be interested in becoming an ORISE Fellow with SCINet or the AI Center of Excellence? Contact the mentor listed above. To see all open opportunities, visit: [https://scinet.usda.gov/opportunities/postdocs](https://scinet.usda.gov/opportunities/postdocs).
 
-The [online submission form](https://forms.office.com/g/PngLtErC4k) must be used for all proposal submissions. Be sure to answer all of the questions to the best of your ability. We recognize the details of the postdoc appointment may change as the research develops. The RL or supervisor needs to approve the proposal before submission to be considered for funding. Only one proposal is allowed from each scientist. After the form is submitted, the mentor and approving RL or supervisor will receive an email confirming submission.
 
-### Timeline for Fellow hiring
-
-Mentors of successful proposals will have ca. 15 months to onboard a Fellow (1 June 2023) before the funds are returned to SCINet or the AI COE.
-
-### Eligibility
-
-ARS Category 1 or 4 scientists with RL or supervisor approval.
-
-### Questions?
-
-For questions, contact Dr. Debra Peters, CSIO (ARS-CSIO@usda.gov).
- 
- 
-## Definition of AI/ML technologies
-
-These definitions are relevant to AI-COE-funded proposals.  (These are examples and not inclusive of all possible methods and tools.)
- 
-_AI methods_ involve automated decision-making or inference from data, and use methods in the subfields:
-* machine learning (including deep learning)
-* mathematical optimization (integer programming and operations research)
-* machine reasoning and logic programming (not normal computer programming)
-* knowledge representation
-* recommender systems
-
-_Machine learning_ involves training a model with data, and then making decisions or answering questions using that model. ML methods include:
-* tasks like classification, regression, dimensionality reduction, and clustering;
-* domain areas like natural language processing, computer vision, and time-series analyses;
-* statistical methods like gaussian processes, neural networks, Bayesian networks, and support vector machines.
 
