@@ -11,7 +11,7 @@ layout: page
 
 In 2022, the SCINet Program in collaboration with the Artificial Intelligence Center of Excellence (AI-COE) provided funding to support 19 new postdoctoral fellows to be mentored by ARS scientists. 
 
-An 8-member panel comprised of ARS scientists and National Program Leaders recently evaluated 64 proposals submitted by ARS scientist. Eight were selected for funding by SCINet, and 11 for funding by the AI-COE. These fellows will join our current group of fellows to result in nearly 30 fellows in our fellowship program.
+An 8-member panel composed of ARS scientists and National Program Leaders recently evaluated 64 proposals submitted by ARS scientist. Eight were selected for funding by SCINet, and 11 for funding by the AI-COE. These fellows will join our current group of fellows to result in nearly 30 fellows in our fellowship program.
 
 The goal of the fellowship program is to develop the next generation of ARS scientists with expertise in conducting and leading individual and collaborative research using computationally-intensive approaches. 
 
