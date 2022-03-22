@@ -33,6 +33,7 @@ With the expansive list of free training available online, finding the right tra
 | [Upcoming Trainings](https://scinet.usda.gov/training/training_event) |  Browse all scheduled trainings | 
 | [Free Online Trainings](/training/free-online-training) |   Explore the extensive list of free online trainings organized by topic  |
 | [Intro to UNIX](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0) | Tutorial on UNIX commands |
+| [Long term storage and Juno](https://web.microsoftstream.com/video/c1e0a6c1-467f-452b-913a-93677a93d56c) | Learn more about SCINet's data storage options, suggested workflows for using SCINet storage for your research, and how to efficiently move data between SCINet's storage systems. |
 | [Machine Learning Tutorial](/tutorials/ARS-UF-machine-learning-training/) |   Tutorial introducing  machine learning methods using Jupyter notebooks and coding excercises | 
 | [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Tutorial on efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing| 
 | [NEON High Resolution Hyperspectral Data Exercise](/tutorials/geospatial-analysis-NEON-hyperspectral/) |  Tutorial to explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)| 
