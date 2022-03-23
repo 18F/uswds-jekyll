@@ -25,7 +25,7 @@ layout: page
 
 ---
 
-[No account? Signup here.](/about/signup/){: .usa-button .usa-button-big }
+[No account? Signup here.](/about/signup){: .usa-button .usa-button-big }
 
 #### Table of Contents
 * [What is SCINet?](#what-is-scinet)
