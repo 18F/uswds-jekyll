@@ -20,19 +20,12 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
 Below are the steps for submitting an application to obtain a Coursera license. 
 
-  1. Click the below button/link to access and submit the application form. **It is critical that both your email and your supervisors email are entered correctly**. If they are mistyped the application process will fail.
+  1. Click the below button/link to access and submit the application form. Even though there is no cost to the learner, you must receive supervisor approval to apply for this opportunity prior to completing the form. 
 
   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl2mrmoVCU11DqJTdU47KyNpUOTlPTERXRDFaOURYVUk1VElFNTQ2NDhXTC4u" class="usa-button">Ars-Coursera License Application</a>
   
-  2. Your supervisor will receive an email from Microsoft "Power Automate" to either approve or reject your application.
-    
-  3. If rejected, you will receive an email stating "*your application was not approved by your supervisor*".
 
-  4. If approved, you will receive an email stating "*your application was successfully submitted*".
-
-If you do not receive a confirmation email you should:
-  1. Check with your supervisor to make sure they approved the request.
-  1. Email scinet-training@usda.gov with additional questions. 
+If you do not receive an inviatation by your request date, email scinet-training@usda.gov with additional questions. 
 
 | Application Deadline | License Allocation Date | License Active Period |
 |----------------------|-------------------------|-----------------------|
