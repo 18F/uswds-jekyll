@@ -25,7 +25,7 @@ Below are the steps for submitting an application to obtain a Coursera license.
   <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl2mrmoVCU11DqJTdU47KyNpUOTlPTERXRDFaOURYVUk1VElFNTQ2NDhXTC4u" class="usa-button">Ars-Coursera License Application</a>
   
 
-If you do not receive an inviatation by your request date, email scinet-training@usda.gov with additional questions. 
+If you do not receive an invitation by your request date, email scinet-training@usda.gov with additional questions. 
 
 | Application Deadline | License Allocation Date | License Active Period |
 |----------------------|-------------------------|-----------------------|
