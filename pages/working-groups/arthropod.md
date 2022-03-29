@@ -19,6 +19,34 @@ The AGR is open to anyone within ARS, and those interested in joining can contac
 
 ## Workshops
 
+### Symposia
+
+**Arthropod Genomics Symposium X (AGSx) Virtual Spring Symposium 2022**
+
+*Online: [http://i5k.github.io/agsx2022](http://i5k.github.io/agsx2022)*  
+*Webinar postings: [https://www.youtube.com/c/i5k_community/videos](https://www.youtube.com/c/i5k_community/videos)*
+
+The ARS AGR working group along with the [i5K Community](http://i5k.github.io/), an international consortium committed to the sequencing of 5000 arthropod genomes, helped the [AGSx Virtual Symposium Spring 2022](http://i5k.github.io/agsx2022) from February through May, 2022. There were four sessions co-organized and moderated by ARS AGR members and researchers from other domestic and international research institutions. Each session highlighted presentations from subject matter experts, including four from ARS researchers, and facilitated open discussions and technology transfer.
+
+1.  Insect genomic Technologies to Improve Food Applications, by [Dr. Brenda Oppert](https://www.ars.usda.gov/plains-area/mhk/cgahr/spieru/people/brenda-oppert/), USDA-ARS
+2.  Honeybee Workshop, by [Dr. Alain Vignal](https://genphyse.toulouse.inra.fr/people/vignal), and [Dr. Sonia Eynard](https://scholar.google.com/citations?user=CAloEFcAAAAJ&hl=en), INRAE, France
+3.  Arthropod Genomics and Genome Engineering, by [Dr. Lindsey Perkin](https://www.ars.usda.gov/people-locations/person?person-id=53466), USDA-ARS 
+4.  Application of New Genomics Tools and Techniques in Arthropods by [Dr. Marcé Lorenzen](https://cals.ncsu.edu/entomology-and-plant-pathology/people/mdlorenz/), North Carolina State University
+
+Webinars from each session were recorded and made available on the [i5K Community YouTube channel](https://www.youtube.com/c/i5k_community/videos). Posting of related materials were made to the [i5k Arthropod Genomics Community Slack Workspace](https://artgen.slack.com/join/shared_invite/zt-11jmscsmb-pOaFWAmTq3a06lNgXZi_Zw#/shared-invite/email). 
+
+The AGSx was made possible by the Organizing Committee and Production Team
+*   [Brenda Oppert](https://www.ars.usda.gov/plains-area/mhk/cgahr/spieru/people/brenda-oppert/), USDA-ARS, Manhattan, KS, USA
+*   [Alain Vignal](https://genphyse.toulouse.inra.fr/people/vignal), INRAE, Castanet Tolosan, France
+*   [Sonia Eynard](https://scholar.google.com/citations?user=CAloEFcAAAAJ&hl=en), INRAE, Castanet Tolosan, France
+*   [Lindsey Perkin](https://www.ars.usda.gov/people-locations/person?person-id=53466), USDA-ARS, College Station, TX, USA
+*   [Marcé D. Lorenzen](https://cals.ncsu.edu/entomology-and-plant-pathology/people/mdlorenz/), North Carolina State University, Raleigh, NC, USA
+*   [Glenn Hanes](https://www.ars.usda.gov/people-locations/person?person-id=2280), USDA-ARS, Beltsville, MD, USA
+*   [Anna Childers](https://www.ars.usda.gov/people-locations/person?person-id=51956), USDA-ARS, Beltsville, MD, USA
+*   [Robert Waterhouse](https://rmwaterhouse.org/), University of Lausanne, Switzerland
+*   [Brad Coates](https://www.ars.usda.gov/people-locations/person?person-id=1047), USDA-ARS, Ames, IA, USA
+
+
 ### July 2016: Arthropod Genomics Research Workshop 2
 
 **07/26/2016 - 07/28/2016   &middot;   Beltsville, MD   &middot;   lead: Brad Coates**
