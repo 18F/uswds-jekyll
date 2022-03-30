@@ -4,6 +4,18 @@ description: link to request project allocation
 permalink: /support/request-storage
 author: Kerrie Geil
 layout: page
+
+sidenav_primary: true
+sidenav: Support
+subnav:
+  - text: Modify Existing Project Allocation
+    href: '#to-modify-an-existing-scinet-project-allocation'
+  - text: Request New Project Allocation
+    href: '#to-request-a-new-project-allocation'
+
+sticky_sidenav: true
+sticky_element: true
+
 ---
 
 When a user applies for a SCINet account, they are allocated space on Ceres in a /home directory. Each user is allowed 5GB of data in the home directory. 

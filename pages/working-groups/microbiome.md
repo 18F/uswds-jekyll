@@ -4,6 +4,9 @@ description: summary of the working group
 permalink: /working-groups/microbiome
 author: Adam Rivers
 layout: page
+
+sidenav_primary: true
+sidenav: Working Groups
 ---
 
 information coming soon, contact Adam Rivers

@@ -4,6 +4,12 @@ description: summary of the working group
 permalink: /working-groups/LTARphenology
 author: Dawn Browning
 layout: page
+
+sidenav_primary: true
+sidenav: Working Groups
+subnav:
+  - text: Workshops
+    href: '#workshops'
 ---
 
 

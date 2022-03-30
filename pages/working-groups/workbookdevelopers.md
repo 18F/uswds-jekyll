@@ -4,6 +4,9 @@ description: summary of the working group
 permalink: /working-groups/workbooks
 author: Kerrie Geil
 layout: page
+
+sidenav_primary: true
+sidenav: Working Groups
 ---
 
 

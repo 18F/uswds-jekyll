@@ -4,6 +4,20 @@ description: One of SCINet's missions is training scientists in computational me
 permalink: /training/learningpath
 author: Heather Jones
 layout: page
+
+sidenav_primary: true
+sidenav: Training
+subnav:
+  - text: Get Started with SCINet Learning Pathway
+    href: '#get-started-with-scinet-learning-pathway'
+  - text: Additional Training Resources
+    href: '#additional-training-resources'
+  - text: Useful Links
+    href: '#useful-links'
+
+sticky_sidenav: true
+sticky_element: true
+
 ---
 
 

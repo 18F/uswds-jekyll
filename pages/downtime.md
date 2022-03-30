@@ -2,6 +2,12 @@
 title: Downtime
 layout: categories
 permalink: /downtime/
+
+sidenav_primary: true
+sidenav: News
+
+sticky_sidenav: true
+sticky_element: true
 ---
 
 

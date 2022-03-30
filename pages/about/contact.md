@@ -4,6 +4,11 @@ description: contact information for website, newsletter, policy/development, an
 permalink: /about/contact
 author: Kerrie Geil
 layout: page
+
+sidenav_primary: true
+sidenav: About
+sticky_sidenav: true
+sticky_element: true
 ---
 
 
