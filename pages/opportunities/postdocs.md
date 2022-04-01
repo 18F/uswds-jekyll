@@ -37,6 +37,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [USDA-ARS SCINet Postdoctoral Fellowship in Using AI Technology to Develop a Drought Prediction Tool, USDA-ARS-2022-0151](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0151) | El Reno, OK | Meteorological Drought Prediction, AI |
 | [USDA-ARS SCINet Computer Vision and A.I. for Insect Identification Postdoctoral Fellowship, USDA-ARS-2022-0152](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0152) | Manhattan, KS | Image Analysis, AI |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Deep Learning Workflows and Image Libraries, USDA-ARS-2022-0156](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0156) | Prosser, WA | Multi-modal Image Analysis, AI |
+| [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning for Camera Trap Data, USDA-ARS-2022-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0157) | Dubois, ID | Image Analysis, AI, ML |
 | [USDA-ARS SCINet AI Machine Learning in Maize Genomics Postdoctoral Fellowship, USDA-ARS-2022-0158](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0158) | Ames, IA | Genomics, Bioinformatics, AI, ML |
 | [USDA-ARS SCINet Machine Learning and Bioinformatics Analyses Applied to Livestock Genomics Research Postdoctoral Fellowship, USDA-ARS-2022-0159](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0159) | Beltsville, MD | Genomics, Bioinformatics, AI, ML |
 
