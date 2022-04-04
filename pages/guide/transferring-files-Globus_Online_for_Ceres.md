@@ -63,52 +63,43 @@ By default, Globus Connect Personal prompts to be installed in C:\Program Files 
 
 # Small Data Transfer Using scp
 
-scp is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in powershell).
+scp is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in PowerShell). 
+It’s best used when you need to transfer a single file.
 
-To transfer data when logged in to your local machine (the destination filenames are optional):
+Below are examples of scp commands to be issued on your local machine. In these examples
+* `<local_path_to_file/>` can be omitted, in this case current directory on your local machine will be used
+* `<remote_path_to_file/>` can be omitted, in this case home directory on Ceres or Atlas will be used
+* `dest.ext` can be omitted, in this case the name of the file being transferred will be used.
 
-1. Transfer To Ceres:
+Transfer To Ceres:
 ```
-scp /path/to/file/file.ext  <SCINetID>@ceres-dtn.scinet.usda.gov:/dest/path/dest.ext
+scp <local_path_to_file/>file.ext  <SCINetID>@ceres-dtn.scinet.usda.gov:<remote_path_to_file/>dest.ext
 ```
 Transfer To Atlas:
 ```
-scp /path/to/file/filename.ext <SCINetID>@atlas-dtn.hpc.msstate.edu:/dest/path/dest.ext
-```
-2. Transfer From Ceres:
-```
-scp <SCINetID>@ceres-dtn.scinet.usda.gov:/Src/On/SCINet/RmtFile /Path/On/Local/[<LclFile>]
+scp <local_path_to_file/>file.ext <SCINetID>@atlas-dtn.hpc.msstate.edu:<remote_path_to_file/>dest.ext
 ```
 
+Transfer From Ceres:
+```
+scp <SCINetID>@ceres-dtn.scinet.usda.gov:/<remote_path_to_file/>file.ext  <local_path_to_file/>dest.ext
+```
 Transfer From Atlas:
 ```
-scp <SCINetID>@atlas-dtn.hpc.msstate.edu:/Src/On/SCINet/RemoteFile ~/Path/On/Local/[<LclFile>]
+scp <SCINetID>@atlas-dtn.hpc.msstate.edu:<remote_path_to_file/>file.ext  <local_path_to_file/>dest.ext
 ```
 
-To transfer data when logged in to Ceres or Atlas (the destination filenames are optional):
 
-1. Transfer To Ceres or Atlas:
-```
-scp <User>@<Remote>:/<Src/On/Remote>/<RemoteFile>  /Dest/On/SCINet/[<LclFile>]
-```
+It is not advised to use scp to transfer directories, since the setgid bit on directories at destination is not inherited. 
+This is not a problem if directories are copied to /home/$USER but is a problem when copying to /project area and usually results in quota exceeded errors.
 
-2. Transfer From Ceres or Atlas:
-```
-scp /Src/Folder/On/SCINet/<LclFile> <User>@<Remote>:/Folder/On/Rmt>/[<RmtFile>]
-```
+If you decide to use scp to transfer directories to /project, you will have to manually set a setgid bit on the directory and all subdirectories after the transfer using `chmod g+s <dir_name>` command. 
 
-To transfer an entire directory, you can use the  `-r`  option with any one of the above commands and specify a directory to transfer.  All of the files under that directory will get transferred e.g.
-
-```
-scp -r </Folder/On/Local> <SCINet UserID>@ceres-dtn.scinet.usda.gov:/<DestinationFolderOnSCINet>
-```
-
-You can type the following to view the full set of options and their descriptions:
+To learn more about `scp` command and all available options issue:
 
 ```
 $ man scp
 ```
-
 
 # Large Data Transfer by Shipping Hard Drives
 
