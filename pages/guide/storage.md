@@ -30,14 +30,16 @@ To see the current usage and quotas for your home and project directories on Cer
 
 Quotas on Ceres are based off file group ownership/association. By default files in a home directory are associated with the user's
 primary group that has the same name as the user name, while files in a project directory are associated with the project
-group (proj-<project_name>). Sometimes when users move files from one directory to another or rsync files using "-a" or "-g" and "-p" 
-options, files in the new location will retain group from the old location and setgid bit will not be set. To avoid this, use "cp" and "rm" instead of "mv" 
-to move data between home and project directories, and use "-rltoD" rsync options instead  of "-a" or explicitly specify "--no-p --no-g" options. 
+group (proj-<project_name>). Sometimes when users move files from one directory to another or rsync files using "`-a`" or "`-g`" and "`-p`" 
+options, files in the new location will retain group from the old location and setgid bit will not be set. (The setgid bit needs to be set so that new files and directories created in the directory in /project would be associated with the project group.) To avoid this, use "`cp`" and "`rm`" instead of "`mv`" 
+to move data between home and project directories, and use "`-rltoD`" rsync options instead  of "`-a`" or explicitly specify "`--no-p --no-g`" options. 
 
-The "`beegfs-ctl --getquota --gid <first.last> --cfgFile=/etc/beegfs/beegfs-client-project.conf`" will report usage and quota for the user <first.last>'s primary group in `/project`. This quota is 
+The "`beegfs-ctl --getquota --gid <first.last> --cfgFile=/etc/beegfs/beegfs-client-project.conf`" command will report usage and quota for the user `<first.last>`'s primary group in `/project`. This quota is 
 intentionally set to a small value. The non-zero usage indicates that there are files associated with the user's primary group
-in /project . To fix this, the user can issue "`chgrp -R proj-<project_name> /project/<project_name>`", which will
-set ownership of the files in the project directory <project_name> to the project group.
+in /project . To set ownership of the files in a directory in /project to the project group and to set the setgid bit, the user can issue the following command:
+```
+find /project/<project_name>/<dir> -exec chgrp proj-<project_name> {} + -a -type d -exec chmod g+s {} + 
+```
 
 ## Home Directories
 
