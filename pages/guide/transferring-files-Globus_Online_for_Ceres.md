@@ -93,13 +93,13 @@ scp <SCINetID>@atlas-dtn.hpc.msstate.edu:<remote_path_to_file/>file.ext  <local_
 It is not advised to use scp to transfer directories, since the setgid bit on directories at destination is not inherited. 
 This is not a problem if directories are copied to /home/$USER but is a problem when copying to /project area and usually results in quota exceeded errors.
 
-If you decide to use scp to transfer directories to /project, you will have to manually set a setgid bit on the directory and all subdirectories after the transfer using `chmod g+s <dir_name>` command. 
-
-To learn more about `scp` command and all available options issue:
-
+If you decide to use scp to transfer directories to /project, you will have to manually set a setgid bit on the directory and all subdirectories after the transfer using "`chmod g+s <dir_name>`" command. The following command will set ownership of the files in a directory in /project to the project group and set the setgid bit:
 ```
-$ man scp
+find /project/<project_name>/<dir> -exec chgrp proj-<project_name> {} + -a -type d -exec chmod g+s {} + 
 ```
+To learn more about `scp` command and all available options issue "`man scp`".
+
+
 
 # Large Data Transfer by Shipping Hard Drives
 
