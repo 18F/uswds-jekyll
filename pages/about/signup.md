@@ -44,3 +44,17 @@ Non-ARS Employees require an ARS employee sponsor to obtain a SCINet account.  P
 5. Phone number
 6. Office address
 7. Affiliation(s) with ARS. They will need to enter agreement type(s) (e.g., RSA, NARA), agreement number(s), and agreement title(s) or grant, if applicable.  If other, please indicate any formal relationship between the sponsor and sponsored party e.g. advisory committee.
+8. USDA Security Awareness Training Certificate
+
+**USDA Security Awareness Training**  
+Access the training at [https://deliver.courseavenue.com/Login/usda](https://deliver.courseavenue.com/Login/usda).  
+Fill out the learner profile, including the following:
+* Organization – USDA
+* Agency – ARS
+* Person Model ID – Leave blank  
+
+After submitting all the required information, click “Main Menu” and launch the USDA Information Security Awareness Training course.  
+
+After completion, the site will provide a PDF certificate.  This certificate should be provided to your sponsor in an email that contains the following statement: 
+> “I read, understood, and agree to abide by SCINet's Terms and Conditions:  
+> [https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Terms-and-Conditions.aspx](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Terms-and-Conditions.aspx)”
