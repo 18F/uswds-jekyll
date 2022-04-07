@@ -38,7 +38,6 @@ With the expansive list of free training available online, finding the right tra
 | [Geospatial Analysis with Python on Ceres](/tutorials/geospatial-analysis-with-python-on-ceres/) |  Tutorial on efficient data practices, using JupyterHub and Lab on Ceres, using Dask for parallel computing| 
 | [NEON High Resolution Hyperspectral Data Exercise](/tutorials/geospatial-analysis-NEON-hyperspectral/) |  Tutorial to explore NEON AOP hyperspectral data, calculate/visualize spectral indices, unsupervised ML (clustering)| 
 | [Quantitative Trait Locus (QTL) Analysis for Breeding](/tutorials/plant-breeding/) |   Tutorial on how to use QTL-surge and RStudio on Ceres| 
-| [Metashape Analysis](https://web.microsoftstream.com/video/4b9eff2a-bf08-42a9-a260-34a744b84b4b) |   Tutorial that includes logging in to Atlas, setting up the Metashape project (transferring inputs and downloading scripts from the GitHub repo), and submitting the SLURM job| 
 
 <br />
 
