@@ -40,6 +40,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning for Camera Trap Data, USDA-ARS-2022-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0157) | Dubois, ID | Image Analysis, AI, ML |
 | [USDA-ARS SCINet AI Machine Learning in Maize Genomics Postdoctoral Fellowship, USDA-ARS-2022-0158](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0158) | Ames, IA | Genomics, Bioinformatics, AI, ML |
 | [USDA-ARS SCINet Machine Learning and Bioinformatics Analyses Applied to Livestock Genomics Research Postdoctoral Fellowship, USDA-ARS-2022-0159](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0159) | Beltsville, MD | Genomics, Bioinformatics, AI, ML |
+| [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning for Influenza A Virus Pandemic Prevention, USDA-ARS-2022-0162](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0162) | Ames, IA | Genomics, Bioinformatics, ML |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Optimization of AI-based Microscope Image Analysis, USDA-ARS-2022-0163](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0163) | Geneva, NY | Image Analysis, AI, ML |
 | [USDA-ARS SCINet Fellowship for Developing AI and ML Techniques to Advance Understanding of How Dietary Patterns Influence Human Health, USDA-ARS-2022-0164](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0164) | Beltsville, MD | Human Health, Dietary Patterns, AI, ML |
 
