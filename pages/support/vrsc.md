@@ -64,7 +64,7 @@ Single user operational questions should be emailed to the VRSC at [Ceres](mailt
 * Please add user X to project Y.
 * I need help with script/program optimization or making a program run faster
 
-Again, please note that that support requests for login issues on _either_ Ceres or Atlas should be sent to [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov).
+Again, please note that support requests for login issues on _either_ Ceres or Atlas should be sent to [scinet_vrsc@usda.gov](mailto:scinet_vrsc@usda.gov).
 
 For new software installation requests, see [Request Software Installation on SCINet](/support/request-software).
 
