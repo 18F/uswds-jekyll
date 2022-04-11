@@ -20,6 +20,15 @@ This document describes recommended procedures (SOP) for managing data on ARS HP
 ![Schematic diagram of recommended data management workflow using Globus.](/assets/img/data_management_sop-fig_1.png)
 *Figure 1. Recommended procedures for managing data on ARS HPC infrastructure using Globus.*
 
+1. Move data to Juno
+1. Copy data to target HPC (Ceres or Atlas)
+1. Run compute tasks
+1. Copy Results to Juno
+1. Copy results to local machine, if desired
+{: class="usa-sr-only"}
+{: aria-describedby="source"}
+{: title="Diagram of Recommended Data Management Workflow - Screen Reader Text" }  
+
 # Definitions
 * **Juno:** Large, multi-petabyte ARS storage device at the National Agricultural Library in Maryland, accessed by users; periodically backed up to tape device.  Includes periodic file system snapshots that allow users to recover accidentally deleted files.
 * **Tape backup:** Off-site backup of Juno, located at Mississippi State University, accessible by VRSC staff for disaster recovery following major system data loss.

@@ -15,7 +15,7 @@ With the expansive list of free training available online, finding the right tra
 
 | Get Started |   Dive Deeper |  Find Your Community |
 |---|---|---|
-![](/assets/img/Getting_Started.png)  | ![](/assets/img/Dive_Deeper.png)| ![](/assets/img/community.png) |
+![Getting Started](/assets/img/Getting_Started.png)  | ![Dive Deeper](/assets/img/Dive_Deeper.png)| ![Find Your Community](/assets/img/community.png) |
 | Watch these videos to learn how to get started with SCINet |  Explore these training resources to find specific content to meet your research needs |  Find others in your community to work with, get answers, and explore ideas with |
 | [Intro to SCINet](https://web.microsoftstream.com/video/9a2b95a3-79e6-4176-b5e6-cfd674c034aa)  | [Coursera](https://scinet.usda.gov/training/coursera) | [Working Group](https://scinet.usda.gov/working-groups) |
 | [SCINet Onboarding](https://web.microsoftstream.com/video/bed89bf6-99fc-44f0-9f4a-3e16cd2f2d49) | [Carpentries: UNIX, GIT, Python, R, OpenRefine, SQL](https://scinet.usda.gov/training/carpentries) | [SCINet Forum](https://forum.scinet.usda.gov/) |
