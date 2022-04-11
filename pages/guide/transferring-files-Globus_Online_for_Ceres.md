@@ -31,6 +31,8 @@ layout: page
 
 Globus Online is the recommended method for transferring data to and from the Ceres cluster. It provides faster data transfer speeds compared to scp, has a graphical interface, and does not require a GA verification code for every file transfer. To transfer data to/from a local computer, users will need to install Globus Connect Personal which does NOT require admin privileges.
 
+The instructional video at [https://www.youtube.com/watch?v=I3lnsCAfx3Q](https://www.youtube.com/watch?v=I3lnsCAfx3Q) demonstrates how to transfer files between local computer, Ceres, Atlas and Juno using Globus.
+
 ## Login
 * In a browser, navigate to [https://www.globus.org/](https://www.globus.org/), click ‘Log In’ in the upper right corner.
 * There are several ways to login to the Globus Web App. Login using one of the available methods:
@@ -56,7 +58,7 @@ Globus Online is the recommended method for transferring data to and from the Ce
 * You may now click ‘Activity’ at the left to see a list of current and prior transfers. Click on "File Manager" at the top left of the page to get back to the main page.
 
 ## Globus Connect Personal
-To transfer files to your personal computer you may use Globus Connect Personal. A link “Install Globus Connect Personal” can be found in the Recent tab and in the "More Options" tab in the list of Collections. Click on "Collection" box to get to the list.  The install instructions are available at https://docs.globus.org/how-to/globus-connect-personal-windows/ .
+To transfer files to your personal computer you may use Globus Connect Personal. A link “Install Globus Connect Personal” can be found in the Recent tab and in the "More Options" tab in the list of Collections. Click on "Collection" box to get to the list.  The install instructions are available at [https://docs.globus.org/how-to/globus-connect-personal-windows/](https://docs.globus.org/how-to/globus-connect-personal-windows/).
 
 By default, Globus Connect Personal prompts to be installed in C:\Program Files , which requires administrator rights. However you don't need Administrator rights to install Globus Connect Personal on your local machine. If you do not have Administrator rights browse to a place you have write access to (e.g. your Desktop folder) or contact your local IT staff for assistance.
 
