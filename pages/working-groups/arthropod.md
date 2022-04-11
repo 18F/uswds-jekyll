@@ -114,7 +114,8 @@ There were 628 participations across four AGSx 2021 sessions. Although the major
 | United States of America | 321 |
 {: class="usa-sr-only"}
 {: aria-describedby="source"}
-{: title="Geographic Location of Participants Chart - Side Table:" }
+{: title="Geographic Location of Participants Chart - Side Table:" }  
+
 
 Webinars from each session were recorded and made available on the [i5K Community YouTube channel](https://www.youtube.com/c/i5k_community/videos). Posting of related materials were made to the [i5k Arthropod Genomics Community Slack Workspace](https://artgen.slack.com/join/shared_invite/zt-11jmscsmb-pOaFWAmTq3a06lNgXZi_Zw#/shared-invite/email). 
 
