@@ -104,22 +104,22 @@ Add the following sentence as an acknowledgment for using SCINet/Ceres as a reso
 ### How do I get an account (I am an ARS employee)?
 Please fill out the [SCINet Account Request Form](https://scinet.usda.gov/about/signup). The request will be forwarded to your supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response. Once your supervisor has granted approval, an account will be created for you and you will receive an email from the Virtual Research Support Core (VRSC) with logon information.
 
-You will also receive another email asking to join the [SCINet Forum](https://forum.scinet.usda.gov) (must have SCINet account first), a forum on which users can post questions. This forum has replaced Basecamp.  Please accept the invitation, create a forum account, and select your preferred email frequency. This account is not connected to your SCINet or eAuthentication accounts.
-
 ### How do I get an account for non-ARS collaborators, students, or postdocs?
 All students, postdocs, visiting scientists, and collaborators must have an ARS sponsor. All requests must also be approved by the Research Leader.
 
 Please fill out the [Non-ARS SCINet Account Request Form](https://scinet.usda.gov/about/signup). The request will be forwarded to the sponsor’s supervisor for approval. You may want to notify your supervisor so they are aware of the incoming email that requires a response.
 
-Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Forum](https://forum.scinet.usda.gov) user forum for user discussion. Collaborators should accept the email invitation to join SCINet VRSC Basecamp that they will receive upon account approval, create a Basecamp account, and select their preferred email frequency.
+Collaborators also have access to this website for user guides and upon account approval, access to the VRSC for operational assistance and the [SCINet VRSC Forum](https://forum.scinet.usda.gov) user forum for user discussion. 
 
 ### How do I reactivate my account?
-Please email the VRSC: scinet_vrsc@usda.gov
+Users whose accounts have been deactivated for inactivity will need to submit a new [SCINet account request form](https://scinet.usda.gov/about/signup).
+
+If you have questions, please email the VRSC: scinet_vrsc@usda.gov
 
 ### How do I reset or change my password?
 If your password is expired you should be prompted to change your password when you attempt to login. If you are still able to login, do so and type "passwd" you will be prompted for your old password and asked for a new one.
 ```
-[first.last@sn-cn-8-1:~] $ passwd
+[first.last@ceres-login ~] $ passwd
 Changing password for user first.last
 Current Password:
 
@@ -138,13 +138,13 @@ If you have forgotten your login password, please email the VRSC: scinet_vrsc@us
 Older passwords CAN NOT be reused.
 
 ### How do I login to Ceres?
-Command line access is available via Secure Shell (SSH) and Virtual Private Network (VPN). For more info, see the [Ceres Quick Start Guide](/guide/quickstart) or watch the short video [How_to_ssh_to_Ceres_and_change_password.mp4](https://public.3.basecamp.com/p/Rs7pKMzraSnBAPsd1gwN3j4x).
+Command line access is available via Secure Shell (SSH) and Virtual Private Network (VPN). For more info, see the [Ceres Quick Start Guide](/guide/quickstart).
 
 ### I took my onboarding a long time ago, how do I get a refresher course?
 Email the VRSC scinet_vrsc@usda.gov for a time and day. You can also read the [Ceres Quick Start](/guide/quickstart) or [Ceres User Guide](/guide/ceres/).
 
 ### What software is available on SCINet?
-See the Ceres [Software Overview](/guide/software) for a list of available software. You can also login to SCINet and issue the command “module avail” to see the same list of available software modules.
+See the Ceres [Software Overview](/guide/software) for a list of available software. You can also login to Ceres or Atlas and issue the command “module avail” to see the same list of available software modules.
 
 ### How do I request software to be loaded onto Ceres?
 For new software requests, go to the [Request Software page](/support/request-software) and follow the instructions which include 1) checking if the software is already installed, 2) considering whether to install software yourself, and 3) requesting new software to be installed as a module by the VRSC. Software requests sent to the VRSC require USDA Security Operations Center (SOC) review and approval which takes a few weeks.
@@ -167,17 +167,19 @@ Ceres has development libraries available on all nodes. There is a system versio
 Galaxy is a web-based interface to software on Ceres in which users can build analysis workflows. See [Getting Started with Galaxy on SCINet](/guide/galaxy/). General information about Galaxy as well as training guides can be found at [galaxyproject.org](https://galaxyproject.org/).
 
 ### How do I login to SCINet Galaxy?
-Go to [galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov/). Enter your email address and SCINet password. See [Getting Started with Galaxy on SCINet](/guide/galaxy/) for more details.
+Go to [galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov/). Enter your email address and SCINet password followed by Verification code. See [Getting Started with Galaxy on SCINet](/guide/galaxy/) for more details.
 
 ### How do I request software to be loaded onto SCINet Galaxy?
 Please submit software install request at https://e.arsnet.usda.gov/sites/OCIO/scinet/Pages/SCINet-New-Application.aspx and check next to Galaxy Application.
 
 ### How much data can I store on Ceres?
-Each user is allowed 10GB of data in the home directory (soft quota). 
+Each user is allowed 5GB of data in the home directory. 
 
-Additional storage can be provided on Ceres in  /project directories. To request more storage see [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space). Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.   
+Additional storage can be provided on Ceres and/or Atlas in /project directories. To request more storage see [How do I request an increase in storage space?](#how-do-i-request-an-increase-in-storage-space). Project directory storage is large, fast, not backed up, and can be requested up to 1TB or larger if justified. Project directory storage is good for fast I/O to large data files from compute nodes. Keep directory storage is smaller and slower, but is backed up nightly and can be requested up to 100GB or larger if justified. Keep directory storage is good for medium-term storage of analysis results and project software/scripts.   
 
 When requesting additional data storage you will be asked for a project summary, a project end date, and to detail your long-term plan for data in your project/keep directories after your project end date.
+
+Besides /project data can be store in the short-term storage /90daydata which has no quotas. For more information refer to the [SCINet Storage Guide](https://scinet.usda.gov/guide/storage/).
 
 ### How do I request an increase in storage space?
 Please fill out an application form at [Request Project Storage](/support/request-storage) (eAuthentication required, non-ARS users should contact their sponsor) to request more storage.
@@ -216,7 +218,7 @@ The Scientific Advisory Committee is composed of ARS scientists across all the f
 There is a call for new SAC members every spring. If you would like serve on the SAC, please discuss your interest with your supervisor and email the SAC Chair. Current SAC members can be found on the [SCINet Organization page](/about/organization/).
 
 ### How do I write a batch script to submit a compute job?
-answer coming soon
+Please use the [Ceres job script generator](https://scinet.usda.gov/support/ceres-job-script). The [Atlas user guide](https://www.hpc.msstate.edu/computing/atlas/) provides similar generator for the Atlas cluster.
 
 ### How do I compile MPI codes?
 Load the module for the MPI library you wish to use, generally open openmpi, but mpich is available as well. MPI is included by default with the intel compiler.
@@ -236,7 +238,7 @@ The table below summarizes the relevant GNU compiler names and command line flag
 As a result of the current networking infrastructure, working at the command line can be difficult sometimes because displaying hundreds of lines freezes the display. The solution to this is to enable SSH compression. There are a few different ways to do ssh using compression: do  ```ssh -C```  from the command line; or instead of ssh in Putty, click on SSH on the left, then check Enable Compression In Unix; or alter your ~/.ssh/config file to contain these lines:
 
 ```
-Host login.scinet.science  
+Host ceres.scinet.usda.gov  
 Compression yes
 ```
 
@@ -245,7 +247,7 @@ On Linux or Mac OS just create or add the following to a ~/.ssh/config file. If 
 
 ```
 Host ceres
-HostName login.scinet.science
+HostName ceres.scinet.usda.gov
 User  ForwardAgent yes
 ForwardX11 yes
 TCPKeepAlive yes
@@ -258,7 +260,7 @@ That will send a "keepalive" signal every 20 seconds and keep retrying for up to
 If you don't want to use the config file method you can just add these options to the ssh command:
 
 ```
-ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 @login.scinet.science -XA
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 @ceres.scinet.usda.gov -XA
 ```
 
 Using PuTTY on windows you can do the same via the Connections tab. Set the "Seconds between keepalives" to 20 and check the "Enable TCP keepalives"
