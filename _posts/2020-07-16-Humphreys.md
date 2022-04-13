@@ -7,7 +7,7 @@ excerpt: "A fundamental need to meet USDA ARS’s Grand Challenge initiative is 
 ### By:  John Humphreys    |  07-16-2020
 ### USDA-ARS, Range Management Research Unit, Las Cruces, NM
 
-![](/assets/img/SCINETJULY_userstory2.png)
+![Visualization of spatial data being used in a model to predict West Nile Disease Risk using Ceres](/assets/img/SCINETJULY_userstory2.png)
 
 A fundamental need to meet USDA ARS’s Grand Challenge initiative is to improve agricultural production while reducing the impact of the emerging pests, pathogens, and invasive species that threaten US livestock. Pathogens such as West Nile Virus (WNV), Vesicular Stomatitis Virus (VSV), and others impair livestock health, deplete veterinary resources, and threaten agricultural trade. To better anticipate and prepare for future disease outbreaks caused by viruses, it is essential to model the virus-vector-host interactions and environmental factors that drive disease spread across geographic space and through time. Because disease models must provide high-resolution outputs across expansive geographic extents while simultaneously accounting for the correlations that exist in input variables in both the temporal and spatial dimensions, analyses are often too computationally demanding for traditional hardware and necessitate use of high-performance computing resources like those available through SCINet.
 
