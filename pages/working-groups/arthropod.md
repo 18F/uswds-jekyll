@@ -5,7 +5,7 @@ permalink: /working-groups/arthropods
 author: Brad Coates
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 subnav:
   - text: Workshops

@@ -5,7 +5,7 @@ permalink: /training/training_event
 author: Delanie Johnson
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 sticky_sidenav: true
 sticky_element: true

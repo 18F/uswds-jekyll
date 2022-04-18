@@ -5,7 +5,7 @@ permalink: /about/contact
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: About
 sticky_sidenav: true
 sticky_element: true

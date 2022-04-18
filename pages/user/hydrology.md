@@ -7,7 +7,7 @@ layout: page
 # sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
 
-sidenav_primary: true
+ 
 sidenav: Use Cases
 subnav:
   - text: Use Case

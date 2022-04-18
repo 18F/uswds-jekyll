@@ -5,7 +5,7 @@ permalink: /support/faq/
 author: VRSC
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Support
 subnav:
   - text: General Information

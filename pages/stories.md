@@ -3,7 +3,7 @@ title: Stories
 layout: categories
 permalink: /stories/
 
-sidenav_primary: true
+ 
 sidenav: News
 
 sticky_sidenav: true

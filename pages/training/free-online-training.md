@@ -5,7 +5,7 @@ permalink: /training/free-online-training
 author: various
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 subnav:
   - text: How to Access Training on Different Platforms

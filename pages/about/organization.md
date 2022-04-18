@@ -5,7 +5,6 @@ permalink: /about/organization
 author: 'Adam Rivers Kerrie Geil'
 layout: page
 
-sidenav_primary: true
 sidenav: About
 subnav:
   - text: About

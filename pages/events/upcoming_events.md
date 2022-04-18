@@ -5,7 +5,7 @@ permalink: /events/upcoming_events
 author: Brian Stucky
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Events
 
 sticky_sidenav: true

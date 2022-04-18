@@ -5,7 +5,7 @@ permalink: /training/overview
 author: various
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 subnav:
   - text: Online trainings

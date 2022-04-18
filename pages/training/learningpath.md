@@ -5,7 +5,7 @@ permalink: /training/learningpath
 author: Heather Jones
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 subnav:
   - text: Get Started with SCINet Learning Pathway

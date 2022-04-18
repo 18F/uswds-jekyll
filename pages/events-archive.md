@@ -3,7 +3,7 @@ layout: events-archive
 title: SCINet Events Archive
 permalink: /events-archive/
 
-sidenav_primary: true
+ 
 sidenav: Events
 
 sticky_sidenav: true

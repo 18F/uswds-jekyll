@@ -5,7 +5,7 @@ permalink: /working-groups/policy
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 
 # Info on this page to be moved to the About > Organization page eventually. Then this page should be deleted and all refs to this committee should be deleted from the working group pages.

@@ -3,7 +3,7 @@ layout: training-events
 title: SCINet-funded Training Events Archive
 permalink: /training-archive/
 
-sidenav_primary: true
+ 
 sidenav: Training
 sticky_sidenav: true
 sticky_element: true

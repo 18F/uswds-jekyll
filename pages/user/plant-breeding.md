@@ -5,7 +5,7 @@ permalink: /user/plant-breeding/
 author:
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Use Cases
 subnav:
   - text: Use Case

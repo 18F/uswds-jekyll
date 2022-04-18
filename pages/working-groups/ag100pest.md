@@ -5,7 +5,7 @@ permalink: /working-groups/ag100pest
 author: Anna Childers
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 ---
 

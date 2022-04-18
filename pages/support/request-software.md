@@ -5,7 +5,7 @@ permalink: /support/request-software
 author:
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Support
 
 sticky_sidenav: true

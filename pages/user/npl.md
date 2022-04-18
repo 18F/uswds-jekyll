@@ -5,7 +5,7 @@ permalink: /user/npl/
 author:
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Use Cases
 sticky_sidenav: true
 sticky_element: true

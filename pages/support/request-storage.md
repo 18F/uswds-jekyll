@@ -5,7 +5,7 @@ permalink: /support/request-storage
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Support
 subnav:
   - text: Modify Existing Project Allocation

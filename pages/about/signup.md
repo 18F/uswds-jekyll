@@ -20,8 +20,8 @@ graphics:
     description: Other scientists can sign up for SCINet if sponsored by an ARS employee
 graphics_position: after
 
-sidenav_primary: true #if pulling from the original primary list
-sidenav: About #match the original primary list OR leave off sidenav_primary and make a new link list in navigation.yml
+# sidenav_other: true #if NOT pulling from the original primary list
+sidenav: About #match the original primary list OR add 'sidenav_other: true' and make a new link list in navigation.yml
 subnav: #match navigation in page or add external links
   - text: ARS Employees
     href: '#ars-employees'

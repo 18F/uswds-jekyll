@@ -5,7 +5,7 @@ permalink: /training/coursera
 author: SCINet SAC Education Committee.
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 subnav:
   - text: Programs of Study

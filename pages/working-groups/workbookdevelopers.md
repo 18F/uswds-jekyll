@@ -5,7 +5,7 @@ permalink: /working-groups/workbooks
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 ---
 

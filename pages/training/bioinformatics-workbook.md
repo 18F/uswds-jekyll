@@ -5,7 +5,7 @@ permalink: /training/bioinformatics-workbook
 author: Andrew Severin/Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 sticky_sidenav: true
 sticky_element: true

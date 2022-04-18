@@ -5,7 +5,7 @@ permalink: /user/geospatial/
 author: Rowan Gaffney and Pat Clark
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Use Cases
 subnav:
   - text: Use Cases

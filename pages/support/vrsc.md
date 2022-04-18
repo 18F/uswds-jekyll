@@ -5,7 +5,7 @@ permalink: /support/vrsc/
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Support
 subnav:
   - text: Research IT Support

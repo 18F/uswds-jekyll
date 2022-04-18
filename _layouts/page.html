@@ -7,7 +7,9 @@ main:
 <div class="usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap flex-align-start">
-      {% if page.sidenav_primary %}
+      {% if page.sidenav_other %}
+        {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+      {% else %}
         {% assign header = site.data.header %}
         {% assign _primary = header.primary.links %}
         {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
@@ -20,8 +22,6 @@ main:
             {% endif %}
           {% endfor %}
         {% endif %}
-      {% else %}
-        {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
       {% endif %}
       {% if sidenav %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">

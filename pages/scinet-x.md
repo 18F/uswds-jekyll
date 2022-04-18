@@ -5,7 +5,7 @@ permalink: /scinet-x/
 author: Brian Stucky
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: News
 subnav:
   - text: Expanding SCINet for the Future of Science

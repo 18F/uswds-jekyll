@@ -5,7 +5,7 @@ permalink: /about/compute
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: About
 subnav:
   - text: Ceres HPC Cluster

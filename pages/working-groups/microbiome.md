@@ -5,7 +5,7 @@ permalink: /working-groups/microbiome
 author: Adam Rivers
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 ---
 

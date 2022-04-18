@@ -5,7 +5,7 @@ permalink: /training/useful-links
 author: various
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Training
 subnav:
   - text: High Performance Computing

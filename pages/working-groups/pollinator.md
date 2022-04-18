@@ -5,7 +5,7 @@ permalink: /working-groups/pollinator
 author: Melanie Kammerer
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 subnav:
   - text: Workshops

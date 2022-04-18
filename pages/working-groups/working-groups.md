@@ -5,7 +5,7 @@ permalink: /working-groups
 author: 
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Working Groups
 ---
 

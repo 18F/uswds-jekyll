@@ -3,7 +3,7 @@ title: Announcements
 layout: categories
 permalink: /announcements/
 
-sidenav_primary: true
+ 
 sidenav: News
 
 sticky_sidenav: true

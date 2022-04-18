@@ -5,7 +5,7 @@ permalink: /support/request-AWS
 author: Kerrie Geil
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Support
 subnav:
   - text: Add/Modify AWS Resources 

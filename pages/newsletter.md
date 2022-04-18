@@ -3,7 +3,7 @@ title: Quarterly Newsletter Archive
 layout: page
 permalink: /newsletter/
 
-sidenav_primary: true
+ 
 sidenav: News
 
 sticky_sidenav: true

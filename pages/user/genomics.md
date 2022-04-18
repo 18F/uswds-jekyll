@@ -5,7 +5,7 @@ permalink: /user/genomics/
 author: Erin Scully
 layout: page
 
-sidenav_primary: true
+ 
 sidenav: Use Cases
 subnav:
   - text: Use Case
