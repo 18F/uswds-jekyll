@@ -24,7 +24,7 @@ In order to use Rclone on Ceres its necessary to have it installed on your local
 
 ### rclone installation on Windows
 
-Go to the web page at <a href="https://rclone.org/downloads/">https://rclone.org/</a>downloads/and find the Windows installer. Download it and install rclone. Then proceed to the configuration section below.
+Go to the web page at <a href="https://rclone.org/downloads/">https://rclone.org/downloads/</a> and find the Windows installer. Download it and install rclone. Once installed, proceed to the configuration section below.
 
 ### macOS installation 
 
@@ -43,22 +43,22 @@ Move rclone to your $PATH. You will be prompted for your password.
 	<p>sudo mv rclone /usr/local/bin/</p>
 </div>
 
-(themkdircommand is safe to run, even if the directory already exists)
+(the mkdir command is safe to run, even if the directory already exists)
 Remove the leftover files.
 
 <div class="code"><p>cd .. && rm -rf rclone-*-osx-amd64 rclone-current-osx-amd64.zip</p></div>
 
-### Configuration of rclone on windows and osX
+### Configuration of rclone on windows or osX
 
 <div style="margin-left:25px;">
-	<p>1. Open a Windows command prompt (cmd)</p>
+	<p>1. Open a Windows command prompt (cmd) or macOS Terminal</p>
 	<p>2. Type</p>
-	<div class="code"><p>3.rclone authorize "box"</p></div>
-	<p>4. On the web page that shows up, click on <b>Use Single Sign On (SSO)</b></p>
-	<p>5. Enter your USDA email address</p>
-	<p>6. Do the eAuthentication thing</p>
-	<p>7.Click on the <b>Grant access to Box</b> button</p>
-	<p>8.Go back to the command prompt window, an authentication token should be there. Copy this includingthe braces {“access_token”:“ABCDEF...}</p>
+	<div class="code"><p>rclone authorize "box"</p></div>
+	<p>3. On the web page that shows up, click on <b>Use Single Sign On (SSO)</b></p>
+	<p>4. Enter your USDA email address</p>
+	<p>5. Do the eAuthentication thing</p>
+	<p>6. Click on the <b>Grant access to Box</b> button</p>
+	<p>7. Go back to the command prompt window, an authentication token should be there. Copy this including the braces {“access_token”:“ABCDEF...}</p>
 </div>
 
 ### rclone configuration on SciNet
@@ -69,12 +69,13 @@ Remove the leftover files.
 <p>2. Type <b>n</b> for <b>n) New remote</b></p>
 <p>3. For <b>name></b> enter any name <i>e.g.</i> <b>usdabox</b></p>
 <p>4. For <b>Storage></b> you can find the number, but it is easier to just type <b>box</b></p>
-<p>5. For both <b>client_id></b> and <b>client_secret></b> leave blank, just hit enter</p>
-<p>6. For <b>Edit advanced config</b> enter <b>n</b></p>
-<p>7. For <b>Remote config, Use auto config?</b> enter <b>n</b></p>
-<p>8. Paste the text from the last step from the section above that you got from your Windows computer</p>
-<p>9. Type <b>y</b> for <b>y) Yes this is OK</b></p>
-<p>10. Type <b>q</b> to quit</p>
+<p>5. For <b>client_id></b>, <b>client_secret></b>, <b>box_config_file</b>, and <b>access_token</b> leave blank, just hit enter</p>
+<p>6. For <b>box_sub_type></b> enter <b>enterprise</b></p>
+<p>7. For <b>Edit advanced config</b> enter <b>n</b></p>
+<p>8. For <b>Remote config, Use auto config?</b> enter <b>n</b></p>
+<p>9. For <b>result</b> Paste the text from the last step of the above rclone guide section "Configuration of rclone on windows and osX" and hit enter</p>
+<p>10. Type <b>y</b> for <b>y) Yes this is OK</b></p>
+<p>11. Type <b>q</b> to quit</p>
 
 ### Test
 
