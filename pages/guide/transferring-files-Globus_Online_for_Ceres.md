@@ -13,7 +13,7 @@ layout: page
   * [Login](#login)
   * [Copying Data](#copying-data)
   * [Globus Connect Personal](#globus-connect-personal)
-* [Small Data Transfer Using scp](#small-data-transfer-using-scp)
+* [Small Data Transfer Using scp and rsync](#small-data-transfer-using-scp-and-rsync)
 * [Large Data Transfer by Shipping Hard Drives](#large-data-transfer-by-shipping-hard-drives)
 * [Other Ways to Transfer Data](#other-ways-to-transfer-data)
 * [Data Transfer to NCBI](#data-transfer-to-ncbi)
@@ -63,7 +63,7 @@ To transfer files to your personal computer you may use Globus Connect Personal.
 By default, Globus Connect Personal prompts to be installed in C:\Program Files , which requires administrator rights. However you don't need Administrator rights to install Globus Connect Personal on your local machine. If you do not have Administrator rights browse to a place you have write access to (e.g. your Desktop folder) or contact your local IT staff for assistance.
 
 
-# Small Data Transfer Using scp
+# Small Data Transfer Using scp and rsync
 
 scp is usually available on any Linux or MacOS machine, and on Microsoft Windows 10 (in PowerShell). 
 It’s best used when you need to transfer a single file.
@@ -92,7 +92,7 @@ scp <SCINetID>@atlas-dtn.hpc.msstate.edu:<remote_path_to_file/>file.ext  <local_
 ```
 
 
-It is not advised to use scp to transfer directories, since the setgid bit on directories at destination is not inherited. 
+It is not advised to use "`scp -r`" command to transfer directories to Ceres, since the setgid bit on directories at destination is not inherited. 
 This is not a problem if directories are copied to /home/$USER but is a problem when copying to /project area and usually results in quota exceeded errors.
 
 If you decide to use scp to transfer directories to /project, you will have to manually set a setgid bit on the directory and all subdirectories after the transfer using "`chmod g+s <dir_name>`" command. The following command will set ownership of the files in a directory in /project to the project group and set the setgid bit:
@@ -101,7 +101,11 @@ find /project/<project_name>/<dir> -exec chgrp proj-<project_name> {} + -a -type
 ```
 To learn more about `scp` command and all available options issue "`man scp`".
 
-
+Instead of `scp` one can use `rsync` command for bulk transfers. `rsync` synchronizes files and directories from one location to another while minimizing data transfer as only the outdated or inexistent elements are transferred. It is installed by default on macOS and is available on many Linux hosts. The following command will recursively transfer all new files in the directory <dir_name> on the local machine into directory /project/<project_name>/<dir_name> on Ceres:
+```
+rsync -avz --no-p --no-g <dir_name> <SCINetID>@ceres-dtn.scinet.usda.gov:/project/<project_name>
+```
+To learn more about `rsync` command and all available options issue "`man rsync`".
 
 # Large Data Transfer by Shipping Hard Drives
 
