@@ -44,6 +44,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [USDA-ARS SCINet Postdoctoral Fellowship in Optimization of AI-based Microscope Image Analysis, USDA-ARS-2022-0163](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0163) | Geneva, NY | Image Analysis, AI, ML |
 | [USDA-ARS SCINet Fellowship for Developing AI and ML Techniques to Advance Understanding of How Dietary Patterns Influence Human Health, USDA-ARS-2022-0164](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0164) | Beltsville, MD | Human Health, Dietary Patterns, AI, ML |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning, Protein Structure, and Functional Annotations, USDA-ARS-2022-0176](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0176) | Albany, CA | Protein Structure, AI, ML |
+| [USDA-ARS SCINet Postdoctoral Fellowship in Evolutionary Genomics of Fungal Plant Pathogens, USDA-ARS-2022-0186](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0186) | Salinas, CA | Phytopathology, Genomics |
 
 
 
