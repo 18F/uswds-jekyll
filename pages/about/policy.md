@@ -19,7 +19,7 @@ layout: page
 
 **Terms and Conditions:**  
 
-:  All SCINet Users must agree to the [Terms and Conditions]().
+:  All SCINet Users must agree to the [Terms and Conditions](https://e.arsnet.usda.gov/sites/OCIO/scinet/accounts/SitePages/Terms-and-Conditions.aspx).
 
 **Password Expiration:**  
 
@@ -57,6 +57,7 @@ layout: page
 {: .padding-3  .bg-base-lightest .width-full}
 
 **Job queue policies are described in the User Guide for each of the clusters.**
+
 :  Queue policies are subject to periodic change.
 
    *  [Ceres User Guide](/guide/ceres/#partitions-or-queues)
@@ -76,8 +77,12 @@ layout: page
 ## Data Management
 {: .padding-3  .bg-base-lightest .width-full}
 
-**Users are responsible for securing their data.**  
+**Users are responsible for securing their data.**
 
-:  Certain public datasets are made available to all Ceres users.
-:  A Galaxy web-based graphical workflow management system is available to all SCINet Users. This is accessible via SCINet login credentials at [https://galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov).
+:  Certain public datasets are made available to all SCINet users.
+
+   *  A [Galaxy](https://galaxyproject.org/) web-based graphical workflow management system is available to all SCINet users. This is accessible via SCINet login credentials at [https://galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov).
+   *  [Amazon Web Services](https://aws.amazon.com/) are available to SCINet users.
+   *  Public-facing websites are currently not available from SCINet.
+   {: .padding-bottom-2}  
 {: .padding-x-7}
