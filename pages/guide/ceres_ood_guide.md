@@ -10,11 +10,12 @@ layout: page
 #### Table of Contents
 * [Introduction](#introduction)
 * [Access](#access)
-* [Using](#using)
+* [Using](#using-ood)
 
 ---
 # Introduction
 [Open OnDemand](https://openondemand.org/) is an intuitive, innovative, and interactive interface to remote computing resources. The key benefit for SCINet users is that they can use any web browser, including browsers on a mobile phone, to access Ceres. 
+
 ---
 # Access
 To access Open OnDemand on the Ceres cluster, go to [Ceres OpenOndemand](http://ceres-ood.scinet.usda.gov/)
@@ -23,8 +24,9 @@ The login page, titled SCINet Two Factor Login, prompts for your SCINet username
 ```
 password123456
 ```
+
 ---
-# Using
+# Using OOD
 ![screenshot of Open OnDemand Ceres Dropdowns Banner](/assets/img/ood_ceres_banner.png)
 ## Shell Access
 To open a shell, select the **Clusters** dropdown menu and choose `>_Ceres Shell Access`. This will open a a new tab with an interactive console session on the login node.
