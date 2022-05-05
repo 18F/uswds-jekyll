@@ -5,7 +5,7 @@ main:
 ---
 
 <div class="usa-section">
-  <div class="grid-container">
+  <div class="grid-container{% if page.sidenav %} main-side{% endif %}">
     <div class="grid-row grid-gap flex-align-start">
       {% if page.sidenav_other %}
         {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
