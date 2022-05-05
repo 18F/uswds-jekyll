@@ -29,7 +29,7 @@ password123456
 # Using OOD
 ![screenshot of Open OnDemand Ceres Dropdowns Banner](/assets/img/ood_ceres_banner.png)
 ## Shell Access
-To open a shell, select the **Clusters** dropdown menu and choose `>_Ceres Shell Access`. This will open a a new tab with an interactive console session on the login node.
+To open a shell, select the **Clusters** dropdown menu and choose `>_Ceres Shell Access`. This will open a new tab with an interactive console session on the login node.
 
 ## Files
 Open OnDemand includes a file manager. To open it, select the **Files** dropdown menu and choose the desired directory. Files can be uploaded, downloaded, viewed, and edited all from the web browser.
@@ -39,7 +39,7 @@ Several interactive apps are available on Open Ondemand, and more can be added l
 
 To launch an interactive app, select the **Interactive Apps** dropdown menu and choose the desired app. It will open the *My Interactive Sessions* page where settings for app can be selected such as the partition or app version to run. 
 ![screenshot of Open OnDemand Ceres interactive apps configuration page](/assets/img/ood_ceres_interactive_setup.png)
-After selections have been made, pressing **Launch** will submit an interactive job. This job will be displayed as the top-most entry in the *My Interactive Sessions* page. The bottom of the intaractive app's job information card will display text saying the job is starting or, if it has already started, "Connect to `Interactive App Name`." Press the **Connect** button to launch the app in a new tab. 
+After selections have been made, pressing **Launch** will submit an interactive job. This job will be displayed as the topmost entry in the *My Interactive Sessions* page. The bottom of the intaractive app's job information card will display text saying the job is starting or, if it has already started, "Connect to `Interactive App Name`." Press the **Connect** button to launch the app in a new tab. 
 ![screenshot of Open OnDemand Ceres interactive apps job card with connect to button highlighted](/assets/img/ood_ceres_interactive_card.png)
 ## Logging Out
 To log out of Ceres Open OnDemand, click the **Log Out** button. 

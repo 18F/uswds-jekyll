@@ -83,7 +83,7 @@ primary:
 #        href: /guide/linuxintroduction
       - text: SCINet VPN
         href: /guide/vpn
-      - text: Ceres Open OnDemand Guide
+      - text: Ceres Open OnDemand
         href: /guide/ceres_ood
   - text: Working Groups
     links:
