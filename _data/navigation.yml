@@ -24,6 +24,8 @@ primary:
 #       href: /about/networking
       - text: Organization
         href: /about/organization
+      - text: Policies
+        href: /about/policies
       - text: Contact
         href: /about/contact
   - text: News
