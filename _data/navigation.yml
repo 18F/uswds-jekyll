@@ -84,7 +84,7 @@ primary:
       - text: SCINet VPN
         href: /guide/vpn
       - text: Ceres Open OnDemand Guide
-	href: /guide/ceres_ood
+        href: /guide/ceres_ood
   - text: Working Groups
     links:
       - text: Overview
