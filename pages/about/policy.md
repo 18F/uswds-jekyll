@@ -80,6 +80,5 @@ layout: page
 :  Certain public datasets are made available to all SCINet users.
 
    *  A [Galaxy](https://galaxyproject.org/) web-based graphical workflow management system is available to all SCINet users. This is accessible via SCINet login credentials at [https://galaxy.scinet.usda.gov](https://galaxy.scinet.usda.gov).
-   *  [Amazon Web Services](https://aws.amazon.com/) are available to SCINet users.
    *  Public-facing websites are currently not available from SCINet.
 
