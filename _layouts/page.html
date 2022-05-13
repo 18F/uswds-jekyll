@@ -5,9 +5,24 @@ main:
 ---
 
 <div class="usa-section">
-  <div class="grid-container">
+  <div class="grid-container{% if page.sidenav %} main-side{% endif %}">
     <div class="grid-row grid-gap flex-align-start">
-      {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+      {% if page.sidenav_other %}
+        {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
+      {% else %}
+        {% assign header = site.data.header %}
+        {% assign _primary = header.primary.links %}
+        {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
+        {% if primary_links %}
+          {% for _section in primary_links %}
+            {% if _section.text == page.sidenav %}
+              {% if _section.links %}
+                {% assign sidenav = site.data.navigation[_section.links] | default: _section.links %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endif %}
       {% if sidenav %}
         <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
           {% include sidenav.html links=sidenav %}

@@ -4,22 +4,21 @@ description: SCINet has a number of tools available for geospatial research
 permalink: /user/geospatial/
 author: Rowan Gaffney and Pat Clark
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
-
-# subnav:
-#  - text: Section one
-#    href: '#section-one'
-#  - text: Section two
-#    href: '#section-two'
+ 
+sidenav: Use Cases
+subnav:
+  - text: Use Cases
+    href: '#use-cases'
+  - text: When to Use SCINet?
+    href: '#when-to-use-scinet'
+  - text: Tools and Software
+    href: '#tools-and-software'
+sticky_sidenav: true
+sticky_element: true
 ---
 <br>
 By: Pat Clark and Rowan Gaffney
-
-#### Table of Contents
-* [Use Cases](#use-cases)
-* [When to Use SCINet?](#when-to-use-scinet)
-* [Tools and Software](#tools-and-software)
 
 ## Use Cases
 ---

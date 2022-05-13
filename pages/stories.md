@@ -2,6 +2,12 @@
 title: Stories
 layout: categories
 permalink: /stories/
+
+ 
+sidenav: News
+
+sticky_sidenav: true
+sticky_element: true
 ---
 
 ## ARS Researchers: Want your research featured on the SCINet website and newsletter?

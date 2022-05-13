@@ -4,6 +4,12 @@ description: summary of the working group
 permalink: /working-groups/arthropods
 author: Brad Coates
 layout: page
+
+ 
+sidenav: Working Groups
+subnav:
+  - text: Workshops
+    href: '#workshops'
 ---
 
 ![AGR Logo](/assets/img/working-group/Arthropod-Genomics-Research-WG-400w.png)

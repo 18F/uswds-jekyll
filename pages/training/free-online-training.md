@@ -4,6 +4,45 @@ description: course links for common training meeds
 permalink: /training/free-online-training
 author: various
 layout: page
+
+ 
+sidenav: Training
+subnav:
+  - text: How to Access Training on Different Platforms
+    href: '#how-to-access-training-on-different-platforms'
+  - text: AgLearn and LinkedIn Learning
+    href: '#aglearn-and-linkedin-learning'
+  - text: Coursera and EdX
+    href: '#coursera-and-edx'
+  - text: SAS and JMP
+    href: '#sas-and-jmp'
+  - text: Python Programming
+    href: '#python-programming'
+  - text: R Programming
+    href: '#r-programming'
+  - text: SAS Programming and JMP
+    href: '#sas-programming-and-jmp'
+  - text: MATLAB Programming
+    href: '#matlab-programming'
+  - text: General Statistics
+    href: '#general-statistics'
+  - text: Artificial Intelligence and Machine Learning
+    href: '#artificial-intelligence-and-machine-learning'
+  - text: Geospatial
+    href: '#geospatial'
+  - text: Data Management
+    href: '#data-management'
+  - text: Bioinformatics
+    href: '#bioinformatics'
+  - text: Ecological and Earth Sciences
+    href: '#ecological-and-earth-sciences'
+  - text: Git and GitHub
+    href: '#git-and-github'
+  - text: Reproducibility, Productivity, and Integration Management Tools
+    href: '#reproducibility,-productivity,-and-integration-management-tools'
+  - text: Database Management
+    href: '#database-management'
+
 ---
 
 There are a number of free training resources on scientific computing available to ARS scientists and collaborators. Check out these curated collections of learning resources by topic. 

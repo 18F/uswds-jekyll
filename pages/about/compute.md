@@ -4,7 +4,18 @@ description: SCINet High-Performance Computer Systems
 permalink: /about/compute
 author: Kerrie Geil
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
+
+ 
+sidenav: About
+subnav:
+  - text: Ceres HPC Cluster
+    href: '#ceres-hpc-cluster--ames-ia'
+  - text: Atlas HPC Cluster
+    href: '#atlas-hpc-cluster--starkville-ms'
+  - text: SCINet Cloud Computing Services
+    href: '#scinet-cloud-computing-services'
+sticky_sidenav: true
+sticky_element: true
 ---
 
 ## Ceres HPC Cluster | Ames, IA

@@ -5,6 +5,13 @@ permalink: /user/plant-breeding/
 author:
 layout: page
 
+ 
+sidenav: Use Cases
+subnav:
+  - text: Use Case
+    href: '#use-case'
+sticky_sidenav: true
+sticky_element: true
 ---
 
 By: Justin Vaughn

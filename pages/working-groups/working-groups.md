@@ -4,6 +4,9 @@ description: summary of current working groups
 permalink: /working-groups
 author: 
 layout: page
+
+ 
+sidenav: Working Groups
 ---
 
 The SCINet initiative contributes funding to various working groups that use SCINet computational resources for research. The funding is generally used to convene in-person group workshops. There are also two working groups that develop SCINet learning/training materials.

@@ -4,6 +4,26 @@ description: One of SCINet's missions is training scientists in computational me
 permalink: /training/overview
 author: various
 layout: page
+
+ 
+sidenav: Training
+subnav:
+  - text: Online trainings
+    href: '#online-trainings'
+  - text: Workshops
+    href: '#workshops'
+  - text: The bioinformatics workbook
+    href: '#the-bioinformatics-workbook'
+  - text: Tutorials
+    href: '#tutorials'
+  - text: Data management
+    href: '#data-management'
+  - text: Working groups
+    href: '#working-groups'
+
+sticky_sidenav: true
+sticky_element: true
+
 ---
 
 One of SCINet's main objectives is training scientists in computational methods to empower agricultural research. We are doing this in several ways. We offer online and in-person trainings, support topic-specific working groups, and provide help, training, and tutorials for scientists.

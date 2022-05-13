@@ -4,13 +4,19 @@ description: links to mostly external computational and data management informat
 permalink: /training/useful-links
 author: various
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
-# subnav:
-#  - text: Section one
-#    href: '#section-one'
-#  - text: Section two
-#    href: '#section-two'
+ 
+sidenav: Training
+subnav:
+  - text: High Performance Computing
+    href: '#high-performance-computing'
+  - text: Data Management
+    href: '#data-management'
+  - text: Ag Data Commons
+    href: '#ag-data-commons'
+
+sticky_sidenav: true
+sticky_element: true
 ---
 ## High Performance Computing
 - The [Bioinformatics Workbook](https://bioinformaticsworkbook.org/) created by Andrew Severin and colleagues at Iowa State University has guides and tutorials extending well beyond the bioinformatics community. Researchers of all backgrounds can use the workbook for UNIX command line basics, HPC info, project management tips, and data visualization tutorials. For bioinformatics researchers there is also information on experimental design, genome assembly and annotation, RNA sequencing, variant discovery, and more.

@@ -4,15 +4,24 @@ description: Organization and Management of the SCINet project
 permalink: /about/organization
 author: 'Adam Rivers Kerrie Geil'
 layout: page
----
 
-#### Table of contents
-* [About](#about-scinet)
-* [Senior Leadership](#senior-leadership)
-* [Executive Committee](#executive-committee)
-* [Scientific Advisory Committee](#scientific-advisory-committee)
-* [SCINet Policy Committee](#scinet-policy-committee)
-* [Scientific points of contact](#scientific-points-of-contact)
+sidenav: About
+subnav:
+  - text: About
+    href: '#about-scinet'
+  - text: Senior Leadership
+    href: '#senior-leadership'
+  - text: Executive Committee
+    href: '#executive-committee'
+  - text: Scientific Advisory Committee
+    href: '#scientific-advisory-committee'
+  - text: SCINet Policy Committee
+    href: '#scinet-policy-committee'
+  - text: Scientific points of contact
+    href: '#scientific-points-of-contact'
+sticky_sidenav: true
+sticky_element: true
+---
 
 
 # About SCINet

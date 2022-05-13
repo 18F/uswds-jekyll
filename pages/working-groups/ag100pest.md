@@ -4,6 +4,9 @@ description: summary of the working group
 permalink: /working-groups/ag100pest
 author: Anna Childers
 layout: page
+
+ 
+sidenav: Working Groups
 ---
 
 

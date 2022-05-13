@@ -4,6 +4,12 @@ description: summary of the working group
 permalink: /working-groups/geospatial
 author: Kerrie Geil
 layout: page
+
+ 
+sidenav: Working Groups
+subnav:
+  - text: Workshops
+    href: '#workshops'
 ---
 
 

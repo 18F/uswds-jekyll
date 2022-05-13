@@ -4,6 +4,21 @@ description: Responsive support of SCINet is provided by a VSRC
 permalink: /support/vrsc/
 author: Kerrie Geil
 layout: page
+
+ 
+sidenav: Support
+subnav:
+  - text: Research IT Support
+    href: '#research-it-support'
+  - text: Computational Research Domain Expertise
+    href: '#computational-research-domain-expertise'
+  - text: Support for SCINet-Funded Workshops/Training
+    href: '#support-for-scinet-funded-workshops/training'
+  - text: How and When to Contact the VRSC
+    href: '#how-and-when-to-contact-the-vrsc'
+
+sticky_sidenav: true
+sticky_element: true
 ---
 
 The Virtual Research Support Core (VRSC) is comprised of ARS personnel and contract personnel at Iowa State University and Mississippi State University. The VRSC manages the day-to-day operations and maintenance of the Ceres and Atlas HPC systems and is also involved with the networking aspects of SCINet. The VRSC is staffed by talented IT administrators and engineers with expertise in high-performance computing system and network engineering, operations, maintenance, and administration.

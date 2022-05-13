@@ -4,6 +4,11 @@ description: Carpentries courses
 permalink: /training/carpentries
 author: Heather Jones
 layout: page
+
+ 
+sidenav: Training
+sticky_sidenav: true
+sticky_element: true
 ---
 
 SCINet is excited to sponsor [Data Carpentry](https://datacarpentry.org/ecology-workshop/) and [Software Carpentry](https://software-carpentry.org/lessons/) courses.

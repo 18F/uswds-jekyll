@@ -4,6 +4,11 @@ description: Advertise workshops/trainings or calls for interest
 permalink: /training/training_event
 author: Delanie Johnson
 layout: page
+
+ 
+sidenav: Training
+sticky_sidenav: true
+sticky_element: true
 ---
 
 The SCINet initiative is planning to host a number of virtual training/workshop events in the coming months for USDA ARS scientists and collaborators. Information on how to attend these events will be posted on this page closer to the event date. You might want to [take a look at training events we've hosted in the past](/training-archive), too. For information about other SCINet events, please see:

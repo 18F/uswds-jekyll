@@ -4,14 +4,20 @@ description: SCINet has a number of tools available for genomics research
 permalink: /user/genomics/
 author: Erin Scully
 layout: page
+
+ 
+sidenav: Use Cases
+subnav:
+  - text: Use Case
+    href: '#use-case'
+  - text: Tools and Software
+    href: '#tools-and-software'
+sticky_sidenav: true
+sticky_element: true
 ---
 
 <br>
 By: Erin Scully
-
-#### Table of Contents
-* [Use Case](#use-case)
-* [Tools and Software](#tools-and-software)
 
 ## Use Case
 

@@ -4,12 +4,34 @@ description: Frequently asked Questions
 permalink: /support/faq/
 author: VRSC
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
----
 
-## Topics
-### [General Information](#general-information) | [Accounts & Login](#accounts--login) | [Software](#software) | [Storage Space](#storage-space) <br>
-### [Data Transfer](#data-transfer) | [Support, Policy, O&M](#support-policy-om) | [Parallel Computing](#parallel-computing) | [Technical Issues](#technical-issues)<br><br>
+ 
+sidenav: Support
+subnav:
+  - text: General Information
+    href: '#general-information'
+  - text: Accounts & Login
+    href: '#accounts--login'
+  - text: Software
+    href: '#software'
+  - text: Storage Space
+    href: '#storage-space'
+  - text: Data Transfer
+    href: '#data-transfer'
+  - text: Support, Policy, O&M
+    href: '#support-policy-om'
+  - text: Parallel Computing
+    href: '#parallel-computing'
+  - text: Technical Issues
+    href: '#technical-issues'
+  - text: All FAQs
+    href: '#all-faqs'
+
+
+sticky_sidenav: true
+sticky_element: true
+
+---
 
 ## FAQs by Topic
 ### General Information

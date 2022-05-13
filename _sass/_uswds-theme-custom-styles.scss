@@ -40,3 +40,7 @@
     height: auto;
   }
 }
+
+.main-side {
+  @include u-maxw('desktop-lg');
+}

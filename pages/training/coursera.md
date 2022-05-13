@@ -4,6 +4,16 @@ description: Coursera courses and specializations with ARS provisioned licenses
 permalink: /training/coursera
 author: SCINet SAC Education Committee.
 layout: page
+
+ 
+sidenav: Training
+subnav:
+  - text: Programs of Study
+    href: '#programs-of-study'
+  - text: Application Process
+    href: '#application-process'
+sticky_sidenav: true
+sticky_element: true
 ---
 
 SCINet and the AI Center of Excellence are excited to provide training opportunities through [Coursera](https://www.coursera.org/). While many Coursera courses can be [audited for free](https://scinet.usda.gov/training/free-online-training#coursera-and-edx), ARS scientists and support staff can gain free access to a wider range of courses by applying for a 3-month SCINet-sponsored license. Successful completion of courses and specializations may result in **widely recognized certificates and credentials**. 

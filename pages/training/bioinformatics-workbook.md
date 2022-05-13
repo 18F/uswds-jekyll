@@ -4,6 +4,11 @@ description: Intro and link to the workbook
 permalink: /training/bioinformatics-workbook
 author: Andrew Severin/Kerrie Geil
 layout: page
+
+ 
+sidenav: Training
+sticky_sidenav: true
+sticky_element: true
 ---
 
 [![bioinformatics-workbook-screenshot](/assets/img/bioinformatics-workbook-1280.png)](https://bioinformaticsworkbook.org/)

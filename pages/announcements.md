@@ -2,6 +2,12 @@
 title: Announcements
 layout: categories
 permalink: /announcements/
+
+ 
+sidenav: News
+
+sticky_sidenav: true
+sticky_element: true
 ---
 
 

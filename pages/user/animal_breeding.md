@@ -4,14 +4,11 @@ description: SCINet tools available for animal breeding research
 permalink: /user/animal-breeding/
 author:
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
 
-
-# subnav:
-#  - text: Section one
-#    href: '#section-one'
-#  - text: Section two
-#    href: '#section-two'
+ 
+sidenav: Use Cases
+sticky_sidenav: true
+sticky_element: true
 ---
 
 ### coming soon...

@@ -4,7 +4,12 @@ description: SCINet Networking plan
 permalink: /about/networking
 author:
 layout: page
-# sidenav:  is a side navigation bar is needed it can be specified in the _data/navigation.yml file
+
+ 
+sidenav: About
+sticky_sidenav: true
+sticky_element: true
+
 ---
 
 ### coming soon...

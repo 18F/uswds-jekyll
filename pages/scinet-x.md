@@ -4,6 +4,19 @@ description: Overview of the SCINet-X initiative
 permalink: /scinet-x/
 author: Brian Stucky
 layout: page
+
+ 
+sidenav: News
+subnav:
+  - text: Expanding SCINet for the Future of Science
+    href: '#expanding-scinet-for-the-future-of-science'
+  - text: Overview of the SCINet-X Project
+    href: '#overview-of-the-scinet-x-project'
+  - text: Key Milestones for Achieving a high-bandwidth SCINet Connection
+    href: '#key-milestones-for-achieving-a-high-bandwidth-scinet-connection'
+
+sticky_sidenav: true
+sticky_element: true
 ---
 
 ### Expanding SCINet for the Future of Science
