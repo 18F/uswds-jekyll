@@ -109,7 +109,7 @@ To learn more about `rsync` command and all available options issue "`man rsync`
 
 # Large Data Transfer by Shipping Hard Drives
 
-Large data transfers will be facilitated by the VRSC and involves users shipping hard disk drives (not USB drives) with their data on it to the VRSC in Ames, Iowa.  The VRSC will then upload the data directly and put it in a project directory specified by the user.  
+Large data transfers will be facilitated by the VRSC and involves users shipping hard disk drives (not thumb drives) with their data on it to the VRSC in Ames, Iowa.  The VRSC will then upload the data directly and put it in a project directory specified by the user.  
 
 You can send hard drives containing data to the VRSC if you have very large amounts of data (typically greater than 50GB) to transfer to Ceres or if the network speed at your location is slow. Please follow these instructions:
 
