@@ -55,5 +55,12 @@ Note that step 1 might not be necessary for all data used for a project. For exa
 
 # Alternative instructions, not using Globus
 
-It is also possible to move data on SCINet infrastructure using traditional command-line tools like `scp` and `rsync`.  We are still in the process of finalizing some system configuration details that affect use of these tools, and we will publish instructions for using them as soon as possible.
+It is also possible to move data on SCINet infrastructure using traditional command-line tools like `scp` and `rsync`.  See the [SCINet File Transfer guide](https://scinet.usda.gov/guide/file-transfer/#small-data-transfer-using-scp-and-rsync) for instructions on how to use these commands to transfer data to/from Ceres and Atlas cluster. 
+
+To move data to/from Juno, login to ceres-dtn and issue scp or rsync command to nal-dtn, e.g.:
+
+```
+ssh ceres-dtn
+rsync -avz --no-p --no-g ttt nal-dtn.scinet.usda.gov:/LTS/project/<project_name>/
+```
 
