@@ -19,4 +19,4 @@ Email [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV) for:
 
 All inquires for help from the SCINet Office should be sent to [SCINet-training@usda.gov](mailto:SCINet-training@usda.gov) or the [CSIO](mailto:ARS-CSIO.usda.gov).
 
-To contact SCINet users, post on [SCINet VRSC Basecamp](https://3.basecamp.com/3625179/projects/5538276) (you must have a SCINet account to access)
+To contact SCINet users, post on the [SCINet forum](https://forum.scinet.usda.gov) (you must have a SCINet account to access)
