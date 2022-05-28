@@ -25,7 +25,7 @@ Users are advised to request additional space in the `/project` directory. Proje
 Users also have access to storage in `/90daydata`, for which there are no storage quotas. This short-term storage space is ideal for temporary storage of large data files and intermediate results.
 
 ## To Request a Quota Increase for an Existing SCINet Project Allocation
-SCINet users have access to a large short-term storage `/90daydata` which has no quotas. When requesting a project quota increase on Ceres or Atlas the PI will need to justify the request and explain why using /90daydata is not sufficient. 
+SCINet users have access to a large short-term storage `/90daydata` which has no quotas. When requesting a project quota increase on Ceres or Atlas the PI will need to justify the request and explain why using `/90daydata` is not sufficient. 
 
 To request project quota increase for storage on Ceres, Atlas and/or Juno fill out the following application form:
 
