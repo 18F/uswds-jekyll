@@ -29,12 +29,62 @@ The AGR is open to anyone within ARS, and those interested in joining can contac
 *Online: [http://i5k.github.io/agsx2022](http://i5k.github.io/agsx2022)*  
 *Webinar postings: [https://www.youtube.com/c/i5k_community/videos](https://www.youtube.com/c/i5k_community/videos)*
 
-The ARS AGR working group along with the [i5K Community](http://i5k.github.io/), an international consortium committed to the sequencing of 5000 arthropod genomes, helped the [AGSx Virtual Symposium Spring 2022](http://i5k.github.io/agsx2022) from February through May, 2022. There were four sessions co-organized and moderated by ARS AGR members and researchers from other domestic and international research institutions. Each session highlighted presentations from subject matter experts, including four from ARS researchers, and facilitated open discussions and technology transfer.
+The ARS AGR working group along with the [i5K Community](http://i5k.github.io/), an international consortium committed to the sequencing of 5000 arthropod genomes, hosted the [AGSx Virtual Symposium Spring 2022](http://i5k.github.io/agsx2022) from February through May, 2022. This was the second annual AGSx event. The 2022 AGSx was comprised of four sessions co-organized and moderated by ARS AGR members and researchers from other domestic and international research institutions. Each session highlighted presentations from subject matter experts, including four from ARS researchers, and facilitated open discussions and technology transfer.
 
 1.  Insect genomic Technologies to Improve Food Applications, by [Dr. Brenda Oppert](https://www.ars.usda.gov/plains-area/mhk/cgahr/spieru/people/brenda-oppert/), USDA-ARS
 2.  Honeybee Workshop, by [Dr. Alain Vignal](https://genphyse.toulouse.inra.fr/people/vignal), and [Dr. Sonia Eynard](https://scholar.google.com/citations?user=CAloEFcAAAAJ&hl=en), INRAE, France
 3.  Arthropod Genomics and Genome Engineering, by [Dr. Lindsey Perkin](https://www.ars.usda.gov/people-locations/person?person-id=53466), USDA-ARS 
 4.  Application of New Genomics Tools and Techniques in Arthropods by [Dr. Marcé Lorenzen](https://cals.ncsu.edu/entomology-and-plant-pathology/people/mdlorenz/), North Carolina State University
+
+There were 321 participations across all four AGSx 2021 sessions. The majority of attendees were from the United States, but AGSx reached a global audience inclusive of scientists in Asia, Europe, South America, and Africa.
+
+![Geographic Location of Participants Chart](/assets/img/working-group/AGSx2022_ParticipantSummary.jpg){: style="float: right"}
+
+| Location    | Number of Participants |
+| ----------- | ---------------------- |
+| North America | 234 |
+| Europe | 57 |
+| Asia | 15 |
+| South America | 8 |
+
+{: class="usa-sr-only"}
+{: aria-describedby="source"}
+{: title="Geographic Location of Participants Chart Main information:"}
+
+| Location    | Number of Participants |
+| ----------- | ---------------------- |
+| Argentina | 3 |
+| Belgium | 1 |
+| Brazil | 3 |
+| Canada | 6 |
+| China | 1 |
+| Columbia | 5 |
+| Czech Republic | 1 |
+| Finland | 2 |
+| France | 14 |
+| Germany | 7 |
+| Greece | 5 |
+| India | 2 |
+| Indonesia | 1 |
+| Israel | 1 |
+| Kenya | 1 |
+| Netherlands | 1 |
+| Nigeria | 1 |
+| Pakistan | 5 |
+| Portugal | 4 |
+| Saudi Arabia | 1 |
+| Singapore | 2 |
+| Slovenia | 1 |
+| Spain | 3 |
+| Sudan | 1 |
+| Switzerland | 10 |
+| Thaiwan | 2 |
+| Turkey | 1 |
+| United Kingdom | 8 |
+| United States of America | 228 |
+{: class="usa-sr-only"}
+{: aria-describedby="source"}
+{: title="Geographic Location of Participants Chart - Side Table:" }
 
 Webinars from each session were recorded and made available on the [i5K Community YouTube channel](https://www.youtube.com/c/i5k_community/videos). Posting of related materials were made to the [i5k Arthropod Genomics Community Slack Workspace](https://artgen.slack.com/join/shared_invite/zt-11jmscsmb-pOaFWAmTq3a06lNgXZi_Zw#/shared-invite/email). 
 
@@ -55,7 +105,7 @@ The AGSx was made possible by the Organizing Committee and Production Team
 *Online: [http://i5k.github.io/agsx2021](http://i5k.github.io/agsx2021)*  
 *Webinar postings: [https://www.youtube.com/c/i5k_community/videos](https://www.youtube.com/c/i5k_community/videos)*
 
-The ARS AGR working group along with the [i5K Community](http://i5k.github.io/), an international consortium committed to the sequencing of 5000 arthropod genomes, helped the [AGSx Virtual Symposium Spring 2021](http://i5k.github.io/agsx2021) from February through May, 2021. There were four sessions co-organized and moderated by ARS AGR members and researchers from other domestic and international research institutions. Session highlighted presentations from subject matter experts in aspects of arthropod genomics, use of insects as food, genome engineering, now tools and techniques, and a session focusing of honeybees.
+The ARS AGR working group along with the [i5K Community](http://i5k.github.io/), an international consortium committed to the sequencing of 5000 arthropod genomes, hosted the [AGSx Virtual Symposium Spring 2021](http://i5k.github.io/agsx2021) from February through May, 2021. There were four sessions co-organized and moderated by ARS AGR members and researchers from other domestic and international research institutions. Sessions highlighted presentations from subject matter experts in aspects of arthropod genomics, use of insects as food, genome engineering, now tools and techniques, and a session focusing of honeybees.
 
 1.  Insect genomic Technologies to Improve Food Applications, by [Dr. Brenda Oppert](https://www.ars.usda.gov/plains-area/mhk/cgahr/spieru/people/brenda-oppert/), USDA-ARS
 2.  Arthropod Genomics and Genome Engineering, by [Dr. Lindsey Perkin](https://www.ars.usda.gov/people-locations/person?person-id=53466), USDA-ARS 
