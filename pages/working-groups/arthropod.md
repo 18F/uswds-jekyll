@@ -36,9 +36,9 @@ The ARS AGR working group along with the [i5K Community](http://i5k.github.io/),
 3.  Arthropod Genomics and Genome Engineering, by [Dr. Lindsey Perkin](https://www.ars.usda.gov/people-locations/person?person-id=53466), USDA-ARS 
 4.  Application of New Genomics Tools and Techniques in Arthropods by [Dr. Marcé Lorenzen](https://cals.ncsu.edu/entomology-and-plant-pathology/people/mdlorenz/), North Carolina State University
 
-There were 321 participations across all four AGSx 2021 sessions. The majority of attendees were from the United States, but AGSx reached a global audience inclusive of scientists in Asia, Europe, South America, and Africa.
+There were 321 participations across all four AGSx 2022 sessions. The majority of attendees were from the United States, but AGSx reached a global audience inclusive of scientists in Asia, Europe, South America, and Africa.
 
-![Geographic Location of Participants Chart](/assets/img/working-group/AGSx2022_ParticipantSummary.jpg){: style="float: right"}
+![Geographic Location of Participants](/assets/img/working-group/AGSx2022_ParticipantSummaryV2.jpg){: style="float: right"}
 
 | Location    | Number of Participants |
 | ----------- | ---------------------- |
@@ -46,7 +46,6 @@ There were 321 participations across all four AGSx 2021 sessions. The majority o
 | Europe | 57 |
 | Asia | 15 |
 | South America | 8 |
-
 {: class="usa-sr-only"}
 {: aria-describedby="source"}
 {: title="Geographic Location of Participants Chart Main information:"}
@@ -114,7 +113,7 @@ The ARS AGR working group along with the [i5K Community](http://i5k.github.io/),
 
 There were 628 participations across four AGSx 2021 sessions. Although the majority of attendees were from the United States, the AGSx reached a global audience inclusive of many scientists in Asia, Europe and South America.
 
-![Geographic Location of Participants Chart](/assets/img/working-group/AGSx2021_ParticipantSummaryV2.jpg){: style="float: right"}
+![Geographic Location of Participants](/assets/img/working-group/AGSx2021_ParticipantSummaryV2.jpg){: style="float: right"}
 
 | Location    | Number of Participants |
 | ----------- | ---------------------- |
