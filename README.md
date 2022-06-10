@@ -9,7 +9,7 @@ There are two ways to do this.
 
 1. Using Github pull requests (preferred)
 2. edit online in github
-2. Sent your markdown file to Adam Rivers
+2. Sent your markdown file to Moe Richert
 
 ## The github command line
 
