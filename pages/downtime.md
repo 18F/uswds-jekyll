@@ -18,7 +18,9 @@ The table below lists information about planned SCINet outages. See [SCINet Foru
 
 | Outage Date | System | Affected Locations | Reason |
 |---|---|---|---|
+| 06/20-21/2022 | Ceres | All (Ceres offline) | maintenance |
 | 05/17/2022 | Atlas | All (connections to Atlas) | Maintenance |
+| 02/21/2022 | Ceres | All (Ceres offline) | maintenance |
 | 1/20/2022 | SCINet | Stoneville | maintenance |
 | 12/08/2021 | Atlas  | All (connections to Atlas) | Full cluster maintenance|
 | 11/18/2021 | SCINet | All (connections to Ceres) | network maintenance in Ames|
