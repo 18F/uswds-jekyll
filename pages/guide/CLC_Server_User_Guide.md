@@ -8,7 +8,7 @@ layout: page
 ---
 
 
-**This document assumes that a licensed copy of CLC Genomics WorkBench 11 is installed locally and available to the user.**
+**This document assumes that a licensed copy of CLC Genomics WorkBench 22 is installed locally and available to the user.**
 
 # Before You Begin
 
