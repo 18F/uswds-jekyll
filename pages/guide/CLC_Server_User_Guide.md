@@ -33,6 +33,8 @@ Server port: 7777
 Server host: 205.237.112.197
 Server port: 7777
 ```
+3.	Username and Password(GA code not required) 
+
 4.	Log in.
 
 ![screenshot of CLC Genomics Workbench 22.0.2 software homescreen](/scinet-site/assets/img/CLC2.png)
