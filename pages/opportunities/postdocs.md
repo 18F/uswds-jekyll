@@ -34,7 +34,6 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [USDA-ARS SCINet Postdoctoral Fellowship in Using AI to Analyze Climate Effects on Crop Performance, USDA-ARS-2022-0139](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0139) | Pullman, WA| Genomics, Crop Performance, Climate, AI |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Applying AI to Agricultural Ecosystem Service Planning, USDA-ARS-2022-0145](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0145) | University Park, PA | Ecosystem Services Modeling,  AI |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Determining the Pervasiveness of Hybridization and Introgression in Agriculture and the Driving Mechanisms, USDA-ARS-2022-0147](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0147) | Washington, DC | Genomics,  Arthropod Pest Hybridization |
-| [USDA-ARS SCINet Postdoctoral Fellowship in Using AI Technology to Develop a Drought Prediction Tool, USDA-ARS-2022-0151](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0151) | El Reno, OK | Meteorological Drought Prediction, AI |
 | [USDA-ARS SCINet Computer Vision and A.I. for Insect Identification Postdoctoral Fellowship, USDA-ARS-2022-0152](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0152) | Manhattan, KS | Image Analysis, AI |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Deep Learning Workflows and Image Libraries, USDA-ARS-2022-0156](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0156) | Prosser, WA | Multi-modal Image Analysis, AI |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning for Camera Trap Data, USDA-ARS-2022-0157](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0157) | Dubois, ID | Image Analysis, AI, ML |
@@ -45,6 +44,7 @@ _**Interested applicants are encouraged to visit the ORISE link for more informa
 | [USDA-ARS SCINet Fellowship for Developing AI and ML Techniques to Advance Understanding of How Dietary Patterns Influence Human Health, USDA-ARS-2022-0164](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0164) | Beltsville, MD | Human Health, Dietary Patterns, AI, ML |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Machine Learning, Protein Structure, and Functional Annotations, USDA-ARS-2022-0176](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0176) | Albany, CA | Protein Structure, AI, ML |
 | [USDA-ARS SCINet Postdoctoral Fellowship in Evolutionary Genomics of Fungal Plant Pathogens, USDA-ARS-2022-0186](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0186) | Salinas, CA | Phytopathology, Genomics |
+| [USDA-ARS SCINet Postdoctoral Fellowship in Using AI Technology to Develop a Drought Prediction Tool, USDA-ARS-2022-0249](https://www.zintellect.com/Opportunity/Details/USDA-ARS-2022-0249) | El Reno, OK | Meteorological Drought Prediction, AI |
 
 
 
