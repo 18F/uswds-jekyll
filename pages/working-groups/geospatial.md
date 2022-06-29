@@ -25,6 +25,16 @@ John Humphreys | Research Ecologist
 
 ## Workshops
 
+### August/September 2022: SCINet Geospatial Workshop 2022
+
+**Aug 29 - Sep 2, 2022  &middot;   remotely on Zoom   &middot;   lead: Heather Savoy, John Humphreys**
+
+**Additional workshop information coming soon**
+
+<br>
+<br>
+
+
 ### August/September 2020: SCINet Geospatial Workshop 2020
 
 **Aug 25 - Sep 1, 2020  &middot;   remotely on Zoom   &middot;   lead: Kerrie Geil, Rowan Gaffney**
