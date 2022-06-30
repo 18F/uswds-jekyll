@@ -16,6 +16,8 @@ Research highlights from researchers who use SCINet resources are added quarterl
 
 <br>
 
+### [USDA ARS SCINet Newsletter: April 2022](/assets/pdf/newsletters/SCINET-Newsletter-April-2022.pdf)
+
 ### [USDA ARS SCINet Newsletter: January 2022](/assets/pdf/newsletters/SCINET-Newsletter-January-2022.pdf)
 
 ### [USDA ARS SCINet Newsletter: October 2021](/assets/pdf/newsletters/SCINet-Newsletter-Oct-2021.pdf)
