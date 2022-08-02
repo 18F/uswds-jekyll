@@ -19,7 +19,8 @@ This initiative enhances the agency’s contribution to two international genome
 
 **Executive Coordination Team**| Role |
 ---|---|
-Anna Childers| Project Lead
+Anna Childers| Assembly Team Lead
+Sheina Sim| Genome Analysis Lead
 Brian Scheffler| Technical Lead
 Kevin Hackett| National Program Leader
 
