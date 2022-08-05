@@ -28,21 +28,9 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
 ## Application Process
 
-Below are the steps for submitting an application to obtain a Coursera license. 
+Click the button below to access and submit the application form. Even though there is no cost to the learner, you must receive supervisor approval to apply for this opportunity prior to completing the form. Licenses are allocated on a rolling basis and will be active for three months. 
 
-  1. Click the below button/link to access and submit the application form. Even though there is no cost to the learner, you must receive supervisor approval to apply for this opportunity prior to completing the form. 
-
-  <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl9tR3MfquElApKlGR6RyodxUNFJNTTFNMVFPNEVGT1lZTUY5VVROMEhPOS4u" class="usa-button">Ars-Coursera License Application</a>
+[Ars-Coursera License Application](https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl9tR3MfquElApKlGR6RyodxUNFJNTTFNMVFPNEVGT1lZTUY5VVROMEhPOS4u){: .usa-button .usa-button-big }
   
-
-Licenses are allocated on a revolving basis and are typically vaild for one quarter of the year (see below). 
-
-| License Active Period |
-|-----------------------|
-| Jan 1 - Mar 1 |
-| Apr 1 - Jun 1 |
-| Jul 1 - Sep 1 |
-| Oct 1 - Dec 1 |
-
 Additonal questions can be sent to scinet-training@usda.gov with additional questions. 
 
