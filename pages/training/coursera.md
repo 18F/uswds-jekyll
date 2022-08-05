@@ -32,5 +32,5 @@ Click the button below to access and submit the application form. Even though th
 
 [Ars-Coursera License Application](https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl9tR3MfquElApKlGR6RyodxUNFJNTTFNMVFPNEVGT1lZTUY5VVROMEhPOS4u){: .usa-button .usa-button-big }
   
-Additonal questions can be sent to scinet-training@usda.gov with additional questions. 
+Additonal questions can be sent to [scinet-training@usda.gov](mailto:scinet-training@usda.gov). 
 
