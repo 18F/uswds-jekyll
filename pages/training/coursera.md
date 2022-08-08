@@ -30,7 +30,7 @@ The ARS-Coursera portal includes Programs of Study related to scientific computi
 
 Click the button below to access and submit the application form. Even though there is no cost to the learner, you must receive supervisor approval to apply for this opportunity prior to completing the form. Licenses are allocated on a rolling basis and will be active for three months. 
 
-[Ars-Coursera License Application](https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl9tR3MfquElApKlGR6RyodxUNFJNTTFNMVFPNEVGT1lZTUY5VVROMEhPOS4u){: .usa-button .usa-button-big }
+[ARS Coursera License Application](https://forms.office.com/Pages/ResponsePage.aspx?id=5zZb7e4BvE6GfuA8-g1Gl9tR3MfquElApKlGR6RyodxUNFJNTTFNMVFPNEVGT1lZTUY5VVROMEhPOS4u){: .usa-button .usa-button-big }
   
 Additonal questions can be sent to [scinet-training@usda.gov](mailto:scinet-training@usda.gov). 
 
