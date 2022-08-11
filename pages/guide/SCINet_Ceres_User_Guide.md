@@ -420,7 +420,7 @@ Name | Nodes | Logical Cores per Node | Maximum Simulation Time | Default Memory
 mem768-low | 3	| 80 | 2 hours	| 7900 MB | priority nodes with 768GB of memory
 mem-low	| 16 | 80,96 | 2 hours | 16000 MB | priority nodes with 1.5TB of memory
 gpu-low	| 1 | 72 | 2 hours | 3000 MB | priority GPU node
-brief-low | 72,96 | 72 | 2 hours | 3000 MB | all new nodes with 384GB of memory
+brief-low | 92 | 72,96 | 2 hours | 3000 MB | all new nodes with 384GB of memory
 scavenger | 49 | 72,80 | 21 days | 3000 MB | non-GPU priority nodes; scavenger jobs can be killed at any moment
 scavenger-gpu | 1 | 72 | 21 days | 3000 MB | GPU priority node; jobs can be killed at any moment
 
