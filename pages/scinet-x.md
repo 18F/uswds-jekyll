@@ -49,7 +49,7 @@ We are eager to work with the remaining ARS locations to ensure they are ready w
 ## Key Milestones for Achieving a high-bandwidth SCINet Connection
 
 1. Location team identifies local network provider, which often involves an agreement with a university or working with a local internet provider
-1. Location team completes [online location survey](https://forms.office.com/g/6MKNsiz7DS)
+1. Location team completes [online location survey](https://forms.office.com/g/wcLFzhV73h). This form is only accessible to those who have a USDA email account.
 1. Location team works with SCINet team to finalize installation details
 1. Location team finalizes network connection and agreement with university or local internet provider
 1. Location team initiates network service and SCINet installs network hardware

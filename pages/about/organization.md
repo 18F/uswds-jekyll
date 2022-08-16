@@ -15,10 +15,12 @@ subnav:
     href: '#executive-committee'
   - text: Scientific Advisory Committee
     href: '#scientific-advisory-committee'
+  - text: Scientific Points of Contact
+    href: '#scientific-points-of-contact'
   - text: SCINet Policy Committee
     href: '#scinet-policy-committee'
-  - text: Scientific points of contact
-    href: '#scientific-points-of-contact'
+  - text: SCINet Software Committee
+    href: '#scinet-software-committee'
 sticky_sidenav: true
 sticky_element: true
 ---
