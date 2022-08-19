@@ -29,7 +29,7 @@ John Humphreys | Research Ecologist
 
 **Aug 29 - Sep 2, 2022  &middot;   remotely on Zoom   &middot;   lead: Heather Savoy, John Humphreys**
 
-**Additional workshop information coming soon**
+**Visit the [workshop website](https://moerichert-usda.github.io/scinet-geospatial-site/) for more information**
 
 <br>
 <br>
