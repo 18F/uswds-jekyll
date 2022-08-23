@@ -131,8 +131,8 @@ You can send hard drives containing data to the VRSC if you have very large amou
 
    Nathan Humeston<br>
    74 Durham<br>
-   Iowa State University<br>
-   Ames, IA 50011  
+   613 Morrill Rd<br>
+   Ames, IA 50011-2100  
 
 4. Once we receive the data we will copy it over to the appropriate project directory and notify you once it is complete.
 
