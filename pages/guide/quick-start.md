@@ -143,6 +143,8 @@ If your password has expired (new temporary passwords expire right away, and the
 
 _When Changing Your Temporary Password (Mandatory Prompt When First Connecting):_
 
+For assistance with changing your password, the video [here](https://www.youtube.com/watch?v=Amhw2k5mftI) demonstrates the process in detail. 
+
 1. Enter either of the following:
 	A. $ ssh user.name@ceres.scinet.usda.gov
 	B. ssh user.name@atlas-login.hpc.msstate.edu
