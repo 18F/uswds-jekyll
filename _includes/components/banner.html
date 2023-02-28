@@ -16,6 +16,11 @@
       </div>
     </header>
     <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+      <script type="text/javascript">
+        // Hide the gov banner immediately rather than waiting for external JS
+        // sources to load and execute.
+        document.getElementById("gov-banner").setAttribute("hidden", "");
+      </script>
       <div class="grid-row grid-gap-lg">
         <div class="usa-banner__guidance tablet:grid-col-6">
           <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/assets/uswds/img/icon-dot-gov.svg" role="img" alt="Dot gov">
