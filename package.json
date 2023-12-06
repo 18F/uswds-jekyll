@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@18f/private-eye": "^2.0.0",
-    "uswds": "^2.11.2"
+    "uswds": "^2.12.2"
   },
   "devDependencies": {
     "cached-path-relative": "^1.0.2",
