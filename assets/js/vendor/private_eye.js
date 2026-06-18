@@ -3,7 +3,7 @@
     'use strict';
   
     // The line below differs from private eye v2.0. We need to update the source file.
-    var STYLES = 'a.private-link::after { content: "\\1F512"; font-size: 0.75em; text-decoration: none }';
+    var STYLES = 'a.private-link::after { content: "\\1F512"; font-size: 0.75em; display: inline-block; vertical-align: top; text-decoration: none; }';
     var STYLES_ID = '_privateEye-styles';
   
     var DEFAULT_OPTIONS = {
