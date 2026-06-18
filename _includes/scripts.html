@@ -10,7 +10,7 @@
     {% assign _anchor_conf_js = '/assets/js/anchor.js' %}
     {% assign _site_scripts = _site_scripts
       | push: _anchor_js
-      | push: _main_js %}
+      | push: _anchor_conf_js %}
   {% endif %}
 {% endunless %}
 {% if site.private_eye %}
